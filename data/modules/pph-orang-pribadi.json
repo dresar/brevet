@@ -1,0 +1,1617 @@
+{
+  "versi": "1.0",
+  "modul": {
+    "kode": "BRVT-AB-05",
+    "slug": "pph-orang-pribadi",
+    "judul": "PPh Orang Pribadi",
+    "kategori": "PPh",
+    "tingkat_kesulitan": "pemula",
+    "estimasi_menit": 90,
+    "ringkasan": "Modul ini ngebahas tuntas gimana cara kerja PPh Orang Pribadi di Indonesia, mulai dari siapa aja yang wajib bayar, cara ngitung, sampai cara lapor SPT Tahunan lewat Coretax. Kamu bakal belajar 3 mekanisme hitung pajak, tarif progresif, PTKP, sampai kredit pajak — semua dijelasin pake bahasa santai plus contoh kasus orang Indonesia asli.",
+    "tujuan_belajar": [
+      "Memahami definisi dan filosofi PPh Orang Pribadi sebagai pajak atas tambahan kemampuan ekonomis",
+      "Membedakan Subjek Pajak Dalam Negeri (SPDN) dan Luar Negeri (SPLN)",
+      "Menjelaskan objek pajak umum, final, dan non-objek PPh OP",
+      "Menghitung PPh OP dengan tiga mekanisme: Pembukuan, NPPN, dan PPh Final UMKM",
+      "Menerapkan tarif progresif Pasal 17 UU HPP dan PTKP terbaru dalam perhitungan pajak",
+      "Menganalisis status perpajakan keluarga dan penggabungan penghasilan suami-istri",
+      "Menerapkan prosedur pelaporan SPT Tahunan lewat Coretax DJP 2026",
+      "Menghitung kredit pajak serta PPh Kurang Bayar (Pasal 29) atau Lebih Bayar (Pasal 28A)"
+    ],
+    "bagian": [
+      {
+        "id": "bag-01",
+        "judul": "Definisi dan Filosofi PPh Orang Pribadi",
+        "paragraf": [
+          "Oke, kita mulai dari yang paling basic dulu ya. PPh Orang Pribadi (sering disingkat PPh OP) itu gampangnya adalah pajak yang dikenakan ke individu atas tambahan kemampuan ekonomis alias TKE yang dia terima dalam satu tahun pajak. Nah, 'tambahan kemampuan ekonomis' ini istilah resmi dari Pasal 4 ayat 1 UU No. 36 Tahun 2008 (yang udah diamandemen lewat UU HPP No. 7/2021), dan artinya sebenernya simpel banget: setiap kali kekayaan kamu nambah — entah dari gaji, untung dagang, bunga tabungan, atau bahkan menang undian — itu berpotensi kena pajak.",
+          "Kenapa sih negara mau motong penghasilan kita? Nah, di sinilah masuk konsep Ability to Pay Principle alias prinsip kemampuan membayar. Gampangnya gini: orang yang penghasilannya gede, secara logika, punya kemampuan bayar pajak yang lebih besar dibanding orang yang penghasilannya pas-pasan. Makanya sistem PPh OP di Indonesia itu progresif — makin gede penghasilan kamu, makin gede juga persentase tarifnya (nanti kita bahas detail di bagian tarif Pasal 17). Ini beda sama PPN yang tarifnya flat buat semua orang, nggak peduli kaya atau miskin.",
+          "Ibaratnya tuh kayak kamu lagi nyumbang di acara kondangan. Tetangga yang gajinya gede biasanya nyumbang amplop lebih tebel, sementara yang penghasilannya pas-pasan nyumbang seadanya — dan itu dianggap wajar sama semua orang. PPh OP kerja dengan logika serupa: kontribusi ke negara disesuaikan sama kemampuan ekonomi masing-masing orang, bukan dipukul rata.",
+          "Nah, penting juga buat kamu tau bedanya PPh OP sama pajak-pajak lain kayak PPN atau PBB. Kalau PPN itu ngincer konsumsi (barang/jasa yang kamu beli), dan PBB ngincer kepemilikan aset (tanah/bangunan), PPh OP itu ngincer penghasilan alias income. Jadi tiap kali kamu 'nambah kaya' — entah dari kerja keras atau rezeki nomplok — di situlah PPh OP main."
+        ],
+        "poin_penting": [
+          "💡 PPh OP dikenakan atas tambahan kemampuan ekonomis (TKE), bukan cuma gaji doang",
+          "📌 Dasar hukum utama: Pasal 4 ayat 1 UU No. 36/2008 jo. UU HPP No. 7/2021",
+          "✅ Prinsip Ability to Pay: makin gede penghasilan, makin gede tarif pajaknya (progresif)",
+          "🔑 PPh OP beda sama PPN (konsumsi) dan PBB (kepemilikan aset) — PPh OP fokus di penghasilan"
+        ],
+        "analogi": "Bayangin kamu lagi di acara kondangan dan harus nyumbang amplop. Orang yang gajinya gede biasanya kasih amplop lebih tebel, sementara yang pas-pasan kasih secukupnya — itu dianggap adil sama semua tamu. Nah, PPh OP kerja mirip gitu: kontribusi ke negara disesuaikan sama kemampuan ekonomi tiap orang.",
+        "diagram_mermaid": [],
+        "prompt_gambar": [
+          {
+            "id": "img-01",
+            "prompt": "A highly detailed ultra modern 3D isometric stylized studio render illustration in landscape 16:9 format, depicting the philosophical concept of income tax ability-to-pay principle in Indonesia. Deep dark navy background #0F172A blended with a soft gradient mesh #1E1B4B, ambient ethereal studio lighting with soft volumetric glow. Center composition shows a glowing 3D floating balance scale made of frosted glass and electric blue #3B82F6 light, with one side holding a tall stack of golden coins and the other side holding a smaller stack, both sides perfectly balanced by size proportionate to their weight. Around the scale float translucent 3D icons: a briefcase, a small house, a bank building, and a rising bar chart, all rendered in emerald green #10B981 and warm gold #F59E0B accents with soft rim lighting. A clean modern bold Indonesian text label reading 'Kemampuan Membayar' is clearly printed in crisp white sans-serif typography floating just above the scale, styled like a premium tech-education infographic. The whole scene sits on a subtle reflective dark glass floor with soft bokeh particles in the background for depth. Ultra clean, premium, polished 3D render quality, cinematic lighting, high resolution.",
+            "keterangan": "Ilustrasi timbangan emas yang melambangkan prinsip kemampuan membayar dalam PPh Orang Pribadi. Semakin besar penghasilan seseorang, semakin besar pula kontribusi pajak yang seimbang dengan kemampuannya.",
+            "alt": "Ilustrasi 3D timbangan emas melambangkan prinsip kemampuan membayar pajak",
+            "url_gambar": null
+          }
+        ],
+        "kalkulator": null,
+        "mini_kuis": [
+          {
+            "id": "q1",
+            "pertanyaan": "PPh Orang Pribadi dikenakan atas apa menurut Pasal 4 ayat 1 UU PPh?",
+            "tipe": "pilihan_ganda",
+            "pilihan": [
+              "A. Kepemilikan tanah dan bangunan",
+              "B. Tambahan kemampuan ekonomis (TKE)",
+              "C. Konsumsi barang dan jasa",
+              "D. Jumlah aset yang dimiliki"
+            ],
+            "jawaban": "B",
+            "pembahasan": "Jawaban yang benar adalah B, karena Pasal 4 ayat 1 UU PPh menegaskan bahwa objek pajak penghasilan adalah setiap tambahan kemampuan ekonomis yang diterima wajib pajak. Pilihan A dan D lebih dekat ke PBB, sementara C adalah objek PPN."
+          },
+          {
+            "id": "q2",
+            "pertanyaan": "Sistem tarif PPh OP di Indonesia bersifat flat untuk semua tingkat penghasilan.",
+            "tipe": "benar_salah",
+            "pilihan": [
+              "Benar",
+              "Salah"
+            ],
+            "jawaban": "Salah",
+            "pembahasan": "Pernyataan ini salah karena PPh OP menganut sistem tarif progresif sesuai Pasal 17 UU HPP, di mana makin besar penghasilan kena pajak, makin besar juga persentase tarifnya. Ini berbeda dengan PPN yang tarifnya flat."
+          },
+          {
+            "id": "q3",
+            "pertanyaan": "Jelaskan dengan bahasamu sendiri kenapa prinsip Ability to Pay dianggap adil dalam sistem perpajakan Indonesia!",
+            "tipe": "esai",
+            "pilihan": null,
+            "jawaban": "Jawaban lengkap harus menyentuh poin: (1) prinsip ini mendasarkan besaran pajak pada kemampuan ekonomi masing-masing wajib pajak, (2) orang berpenghasilan besar dianggap punya kapasitas lebih untuk berkontribusi tanpa mengorbankan kebutuhan dasarnya, (3) hal ini diwujudkan lewat tarif progresif Pasal 17 UU HPP dan adanya PTKP sebagai batas penghasilan bebas pajak, sehingga orang berpenghasilan rendah tidak terbebani, (4) sistem ini dianggap lebih adil dibanding tarif flat karena mempertimbangkan kondisi ekonomi riil tiap individu.",
+            "pembahasan": "Jawaban dinilai benar jika siswa mampu mengaitkan konsep keadilan distributif dengan mekanisme tarif progresif dan PTKP, bukan sekadar mendefinisikan istilah Ability to Pay secara harfiah."
+          }
+        ],
+        "kesalahan_umum": [
+          {
+            "salah": "Mengira PPh OP cuma dikenakan buat karyawan yang punya gaji tetap aja",
+            "benar": "PPh OP dikenakan ke SEMUA tambahan kemampuan ekonomis orang pribadi, termasuk pengusaha, freelancer, dokter, sampai pemenang undian",
+            "tips": "Selalu tanya ke diri sendiri: apakah kekayaan saya nambah tahun ini? Kalau iya, itu berpotensi jadi objek PPh OP"
+          },
+          {
+            "salah": "Mengira tarif PPh OP itu sama rata buat semua orang",
+            "benar": "Tarif PPh OP itu progresif — beda lapisan penghasilan, beda persentase tarifnya (5% sampai 35%)",
+            "tips": "Inget istilah 'progresif' = makin naik penghasilan, makin naik juga persentase pajaknya, bukan cuma nominalnya"
+          }
+        ],
+        "istilah": [
+          {
+            "kata": "PPh",
+            "definisi": "Pajak Penghasilan, yaitu pajak yang dikenakan terhadap subjek pajak atas penghasilan yang diterima atau diperolehnya dalam satu tahun pajak.",
+            "contoh": "Pak Budi wajib membayar PPh atas penghasilan usaha warungnya setiap tahun."
+          },
+          {
+            "kata": "TKE",
+            "definisi": "Tambahan Kemampuan Ekonomis, yaitu setiap penambahan kekayaan atau kemampuan ekonomis yang diterima wajib pajak, baik dari Indonesia maupun luar negeri.",
+            "contoh": "Bonus tahunan yang diterima Mbak Rina dari kantornya termasuk TKE."
+          },
+          {
+            "kata": "Ability to Pay Principle",
+            "definisi": "Prinsip kemampuan membayar, yaitu konsep pemajakan di mana besaran pajak yang dibebankan disesuaikan dengan kemampuan ekonomi wajib pajak.",
+            "contoh": "Karena gajinya lebih besar, Pak Joko dikenakan tarif pajak yang lebih tinggi dibanding Dito yang baru mulai kerja."
+          }
+        ]
+      },
+      {
+        "id": "bag-02",
+        "judul": "Subjek Pajak SPDN vs SPLN",
+        "paragraf": [
+          "Nah sekarang kita masuk ke soal 'siapa aja sih yang wajib bayar PPh OP di Indonesia?'. Jawabannya tergantung status subjek pajaknya, dan ini dibagi jadi dua kubu besar: Subjek Pajak Dalam Negeri (SPDN) dan Subjek Pajak Luar Negeri (SPLN). Bedanya krusial banget karena nentuin gimana cara mereka dipajaki — SPDN dipajaki atas seluruh penghasilan (world-wide income), sementara SPLN cuma dipajaki atas penghasilan yang bersumber dari Indonesia doang.",
+          "Buat jadi SPDN, ada tiga syarat alternatif menurut Pasal 2 ayat 3 UU PPh: pertama, orang itu bertempat tinggal di Indonesia. Kedua, dia berada di Indonesia lebih dari 183 hari dalam jangka waktu 12 bulan (nggak harus berturut-turut ya, dijumlahin aja). Ketiga, dalam suatu tahun pajak dia berada di Indonesia dan punya niat untuk tinggal di Indonesia. Jadi nggak harus WNI kok — orang asing yang kerja lama di Indonesia dan penuhi salah satu syarat ini juga otomatis jadi SPDN.",
+          "Sebaliknya, SPLN itu orang yang nggak bertempat tinggal di Indonesia, atau berada di Indonesia nggak lebih dari 183 hari dalam 12 bulan, TAPI dia menerima atau memperoleh penghasilan dari sumber Indonesia. Contohnya konsultan asing yang cuma dateng ke Jakarta 2 bulan buat proyek terus balik lagi ke negaranya — dia tetep kena pajak di Indonesia, tapi cuma atas penghasilan yang dia dapet dari proyek Indonesia itu aja, bukan seluruh penghasilannya sedunia.",
+          "Ada juga kelompok yang DIKECUALIKAN dari subjek pajak sama sekali, jadi bukan cuma beda cara pajaknya tapi emang nggak dipajaki. Ini termasuk pejabat perwakilan diplomatik dan konsuler (kayak duta besar negara lain), serta pejabat organisasi internasional yang ditunjuk oleh Menteri Keuangan, dengan syarat mereka bukan WNI dan nggak dapet penghasilan lain di luar jabatannya di Indonesia. Ini prinsip resiprositas alias timbal balik antar negara ya, jadi warga negara Indonesia yang jadi diplomat di luar negeri juga dapet perlakuan serupa."
+        ],
+        "poin_penting": [
+          "🔑 SPDN dipajaki atas seluruh penghasilan dari mana pun (world-wide income)",
+          "📌 SPLN cuma dipajaki atas penghasilan yang bersumber dari Indonesia",
+          "✅ Syarat SPDN: tinggal di Indonesia ATAU >183 hari dalam 12 bulan ATAU ada niat tinggal",
+          "⚠️ Diplomat asing dan pejabat organisasi internasional dikecualikan dari subjek pajak"
+        ],
+        "analogi": "Gampangnya gini: SPDN itu kayak anggota tetap sebuah klub — semua kegiatannya (di mana pun) dianggap bagian dari klub itu. SPLN itu kayak tamu undangan yang cuma ikut satu acara doang — dia cuma 'terikat' sama acara itu aja, bukan seluruh aktivitasnya di luar sana.",
+        "diagram_mermaid": [],
+        "prompt_gambar": [],
+        "kalkulator": null,
+        "mini_kuis": [
+          {
+            "id": "q1",
+            "pertanyaan": "Berapa lama minimal seseorang harus berada di Indonesia dalam 12 bulan agar bisa dikategorikan sebagai SPDN berdasarkan syarat hari?",
+            "tipe": "pilihan_ganda",
+            "pilihan": [
+              "A. Lebih dari 90 hari",
+              "B. Lebih dari 120 hari",
+              "C. Lebih dari 183 hari",
+              "D. Lebih dari 200 hari"
+            ],
+            "jawaban": "C",
+            "pembahasan": "Jawaban benar adalah C, sesuai Pasal 2 ayat 3 UU PPh yang mensyaratkan lebih dari 183 hari dalam jangka waktu 12 bulan. Pilihan lain adalah angka yang sering tertukar dengan aturan negara lain atau ketentuan pajak berbeda."
+          },
+          {
+            "id": "q2",
+            "pertanyaan": "Diplomat asing yang bertugas di Indonesia otomatis menjadi SPDN karena tinggal lebih dari 183 hari.",
+            "tipe": "benar_salah",
+            "pilihan": [
+              "Benar",
+              "Salah"
+            ],
+            "jawaban": "Salah",
+            "pembahasan": "Pernyataan ini salah karena diplomat asing justru dikecualikan dari subjek pajak sama sekali berdasarkan prinsip resiprositas, selama mereka bukan WNI dan tidak menerima penghasilan lain di luar jabatannya."
+          }
+        ],
+        "kesalahan_umum": [
+          {
+            "salah": "Mengira status SPDN cuma berlaku buat WNI aja",
+            "benar": "Orang asing yang memenuhi syarat (tinggal, >183 hari, atau niat tinggal) juga bisa jadi SPDN",
+            "tips": "Fokus ke syarat objektifnya (tempat tinggal, lama tinggal, niat), bukan ke kewarganegaraan"
+          }
+        ],
+        "istilah": [
+          {
+            "kata": "SPDN",
+            "definisi": "Subjek Pajak Dalam Negeri, yaitu orang pribadi yang memenuhi kriteria tertentu (bertempat tinggal, >183 hari, atau niat tinggal di Indonesia) sehingga dipajaki atas seluruh penghasilannya.",
+            "contoh": "Karena sudah tinggal 2 tahun di Jakarta untuk kerja, Mr. John dari Australia otomatis berstatus SPDN."
+          },
+          {
+            "kata": "SPLN",
+            "definisi": "Subjek Pajak Luar Negeri, yaitu orang pribadi yang tidak bertempat tinggal di Indonesia namun menerima penghasilan bersumber dari Indonesia, sehingga hanya dipajaki atas penghasilan tersebut.",
+            "contoh": "Konsultan dari Singapura yang datang 2 bulan untuk proyek di Jakarta berstatus SPLN atas penghasilan proyek itu."
+          },
+          {
+            "kata": "World-wide Income",
+            "definisi": "Prinsip pemajakan atas seluruh penghasilan wajib pajak, baik yang bersumber dari dalam maupun luar negeri, yang berlaku bagi SPDN.",
+            "contoh": "Penghasilan Bu Dewi dari investasi saham di Amerika tetap dilaporkan dalam SPT-nya di Indonesia karena dia SPDN."
+          }
+        ]
+      },
+      {
+        "id": "bag-03",
+        "judul": "Objek Pajak Umum Pasal 4 Ayat 1",
+        "paragraf": [
+          "Sekarang kita masuk ke bagian yang paling relate sama kehidupan sehari-hari: penghasilan apa aja sih yang kena PPh dengan tarif umum? Pasal 4 ayat 1 UU PPh ngelompokin objek pajak ini jadi beberapa kelompok besar, dan yang paling sering ketemu ada tiga: penghasilan dari pekerjaan, penghasilan dari usaha/jasa bebas, dan penghasilan dari modal.",
+          "Yang pertama, penghasilan dari pekerjaan. Ini termasuk gaji, upah, tunjangan (transport, makan, kesehatan), honorarium, komisi, bonus, sampai THR. Intinya, apa pun bentuk imbalan yang kamu terima karena kamu kerja buat orang/perusahaan lain, itu masuk kategori ini. Contohnya Mas Andi yang kerja di startup Jakarta, tiap bulan dia terima gaji plus tunjangan transport — semuanya digabung jadi penghasilan bruto yang jadi dasar hitungan PPh 21.",
+          "Kedua, penghasilan dari usaha dan pekerjaan bebas. Ini beda sama poin pertama karena di sini kamu kerja buat diri sendiri, bukan buat majikan. Contohnya laba warung makan Pak Budi, penghasilan dokter praktik mandiri, honor pengacara, atau fee konsultan pajak. Karena nggak ada 'gaji tetap', penghasilan jenis ini biasanya dihitung dari selisih omzet dikurangi biaya (kalau pakai pembukuan) atau pakai norma penghitungan (kalau pakai NPPN — nanti kita bahas di bagian 5 dan 6).",
+          "Ketiga, penghasilan dari modal alias passive income. Ini termasuk bunga (selain bunga deposito yang udah final), dividen (yang bukan dividen bebas pajak dari investasi domestik tertentu), royalti (misalnya dari hak cipta lagu atau buku), dan sewa (di luar sewa tanah/bangunan yang udah final). Bu Siti yang dapet royalti dari buku resep masakannya yang laris, itu masuk kategori penghasilan modal yang kena tarif umum progresif."
+        ],
+        "poin_penting": [
+          "💰 Penghasilan pekerjaan: gaji, tunjangan, honorarium, bonus, THR",
+          "🏢 Penghasilan usaha/jasa bebas: laba usaha, praktik dokter, jasa konsultan/pengacara",
+          "📊 Penghasilan modal: bunga (non-final), dividen (non-investasi), royalti, sewa non-tanah/bangunan",
+          "🔑 Semua jenis ini digabung jadi Penghasilan Bruto sebelum dihitung PPh terutang"
+        ],
+        "analogi": "Ibaratnya penghasilan itu kayak air yang masuk ke bak mandi kamu dari 3 keran berbeda: keran gaji (kerja buat orang), keran usaha (kerja buat diri sendiri), dan keran modal (uang kerja buat kamu, kayak bunga & royalti). Semua air dari ketiga keran ini ditampung jadi satu bak — itulah penghasilan bruto kamu.",
+        "diagram_mermaid": [],
+        "prompt_gambar": [],
+        "kalkulator": null,
+        "mini_kuis": [
+          {
+            "id": "q1",
+            "pertanyaan": "Manakah yang termasuk penghasilan dari pekerjaan bebas (bukan penghasilan sebagai karyawan)?",
+            "tipe": "pilihan_ganda",
+            "pilihan": [
+              "A. Gaji bulanan Mas Andi di startup",
+              "B. Laba praktik dokter Bu Dewi",
+              "C. THR dari kantor Pak Joko",
+              "D. Tunjangan transport Kak Nisa"
+            ],
+            "jawaban": "B",
+            "pembahasan": "Jawaban benar adalah B, karena praktik dokter mandiri termasuk penghasilan dari pekerjaan bebas (bekerja untuk diri sendiri). Pilihan A, C, dan D semuanya merupakan penghasilan dari hubungan kerja dengan pemberi kerja."
+          },
+          {
+            "id": "q2",
+            "pertanyaan": "Royalti dari hak cipta buku termasuk penghasilan dari modal.",
+            "tipe": "benar_salah",
+            "pilihan": [
+              "Benar",
+              "Salah"
+            ],
+            "jawaban": "Benar",
+            "pembahasan": "Pernyataan ini benar. Royalti merupakan imbalan atas penggunaan hak kekayaan intelektual, dan dikategorikan sebagai penghasilan dari modal dalam Pasal 4 ayat 1 UU PPh, bukan penghasilan dari pekerjaan."
+          }
+        ],
+        "kesalahan_umum": [
+          {
+            "salah": "Mengira honorarium narasumber webinar bukan objek pajak karena cuma sekali doang",
+            "benar": "Honorarium tetap kena PPh meskipun cuma diterima sekali, selama itu imbalan atas jasa/pekerjaan",
+            "tips": "Frekuensi penerimaan penghasilan nggak ngaruh ke status kena pajak atau nggaknya"
+          },
+          {
+            "salah": "Mengira semua bunga otomatis kena tarif progresif",
+            "benar": "Bunga deposito/tabungan udah kena PPh Final tersendiri, beda sama bunga pinjaman biasa yang tarif umum",
+            "tips": "Selalu cek dulu jenis bunganya — deposito/tabungan itu ranahnya Pasal 4 ayat 2 (final), bukan Pasal 4 ayat 1"
+          }
+        ],
+        "istilah": [
+          {
+            "kata": "Penghasilan Bruto",
+            "definisi": "Jumlah keseluruhan penghasilan yang diterima wajib pajak sebelum dikurangi biaya-biaya atau pengurang lainnya.",
+            "contoh": "Gaji pokok, tunjangan, dan bonus Mas Andi dijumlah jadi penghasilan bruto bulanan."
+          },
+          {
+            "kata": "Pekerjaan Bebas",
+            "definisi": "Pekerjaan yang dilakukan oleh orang pribadi yang punya keahlian khusus, dilakukan secara mandiri, dan tidak terikat hubungan kerja dengan pemberi kerja.",
+            "contoh": "Praktik dokter mandiri Bu Dewi termasuk pekerjaan bebas."
+          },
+          {
+            "kata": "Royalti",
+            "definisi": "Imbalan yang diterima atas penggunaan hak kekayaan intelektual seperti hak cipta, paten, atau merek dagang.",
+            "contoh": "Bu Siti menerima royalti setiap bulan dari penjualan buku resepnya."
+          }
+        ]
+      },
+      {
+        "id": "bag-04",
+        "judul": "Objek Final dan Non-Objek Pajak",
+        "paragraf": [
+          "Nah, ini bagian yang sering bikin bingung pemula: kenapa ada penghasilan yang 'PPh Final' dan ada yang 'bukan objek pajak sama sekali'? Dua-duanya beda banget lho konsepnya, meskipun sama-sama nggak masuk ke perhitungan tarif progresif Pasal 17.",
+          "PPh Final (diatur di Pasal 4 ayat 2) itu artinya penghasilan tersebut TETAP kena pajak, tapi tarifnya udah fix/final dan langsung dipotong pas transaksi terjadi — jadi nggak perlu digabung lagi ke penghasilan lain buat dihitung ulang pakai tarif progresif. Contohnya: bunga deposito & tabungan (final 20%), sewa tanah/bangunan (final 10%), pengalihan hak atas tanah/bangunan alias jual-beli properti (final 2,5%), dan penghasilan UMKM yang pakai skema PP 55/2022 (final 0,5%).",
+          "Nah, ini beda banget sama Non-Objek Pajak (Pasal 4 ayat 3), yang artinya penghasilan itu SAMA SEKALI nggak kena pajak, nggak perlu dilaporkan sebagai penghasilan, apalagi dipotong pajak. Contohnya: zakat atau sumbangan keagamaan wajib, warisan, harta hibah dari keluarga sedarah garis lurus satu derajat (misalnya dari orang tua ke anak), klaim asuransi kesehatan/kecelakaan, dan beasiswa pendidikan yang memenuhi syarat tertentu.",
+          "Praktisnya gini: kalau Pak Joko jual rumah seharga Rp2 miliar, dia bayar PPh Final 2,5% dari nilai transaksi (Rp50 juta), dan itu udah kelar — nggak perlu digabung lagi ke penghasilan gajinya buat dihitung ulang. Beda kalau Pak Joko dapet warisan rumah dari orang tuanya — itu sama sekali nggak dilaporin sebagai penghasilan di SPT-nya, karena emang bukan objek pajak."
+        ],
+        "poin_penting": [
+          "✅ PPh Final: tetap kena pajak, tapi tarifnya fix dan nggak digabung ke penghasilan lain",
+          "❌ Non-Objek: sama sekali nggak kena pajak dan nggak perlu dilaporkan",
+          "💡 Contoh Final: bunga deposito (20%), sewa tanah/bangunan (10%), jual properti (2,5%), UMKM (0,5%)",
+          "📌 Contoh Non-Objek: warisan, hibah keluarga sedarah 1 derajat, klaim asuransi, beasiswa"
+        ],
+        "analogi": "Bayangin penghasilan final itu kayak kamu belanja di minimarket yang harganya udah termasuk pajak (harga di label = harga final, nggak dihitung ulang di kasir). Sedangkan non-objek itu kayak kamu dapet hadiah gratis dari saudara — nggak ada 'transaksi pajak' sama sekali di situ.",
+        "diagram_mermaid": [],
+        "prompt_gambar": [],
+        "kalkulator": {
+          "tipe": "pph_final",
+          "judul": "Kalkulator PPh Final Sederhana",
+          "keterangan": "Masukkan nilai transaksi sewa tanah/bangunan atau pengalihan properti untuk menghitung PPh Final yang harus dibayar."
+        },
+        "mini_kuis": [
+          {
+            "id": "q1",
+            "pertanyaan": "Manakah yang termasuk objek Non-Objek Pajak?",
+            "tipe": "pilihan_ganda",
+            "pilihan": [
+              "A. Bunga deposito",
+              "B. Warisan dari orang tua",
+              "C. Sewa tanah/bangunan",
+              "D. Penjualan properti"
+            ],
+            "jawaban": "B",
+            "pembahasan": "Jawaban benar B, karena warisan termasuk non-objek pajak sesuai Pasal 4 ayat 3 UU PPh. Pilihan A, C, dan D semuanya merupakan objek PPh Final Pasal 4 ayat 2 yang tetap dikenakan pajak."
+          },
+          {
+            "id": "q2",
+            "pertanyaan": "Penghasilan yang sudah dikenakan PPh Final tetap harus digabung dan dihitung ulang dengan tarif progresif Pasal 17.",
+            "tipe": "benar_salah",
+            "pilihan": [
+              "Benar",
+              "Salah"
+            ],
+            "jawaban": "Salah",
+            "pembahasan": "Pernyataan ini salah. Penghasilan yang sudah dikenakan PPh Final sifatnya sudah tuntas (final) dan tidak digabung lagi dengan penghasilan lain untuk dihitung dengan tarif progresif Pasal 17."
+          }
+        ],
+        "kesalahan_umum": [
+          {
+            "salah": "Mengira warisan dan hibah itu sama-sama bebas pajak tanpa syarat",
+            "benar": "Hibah cuma bebas pajak kalau dari keluarga sedarah garis lurus satu derajat (orang tua-anak) atau badan keagamaan/sosial tertentu; hibah dari pihak lain bisa kena pajak",
+            "tips": "Selalu cek hubungan pemberi-penerima hibah sebelum nyimpulin itu non-objek atau enggak"
+          },
+          {
+            "salah": "Mengira PPh Final berarti penghasilannya bebas pajak",
+            "benar": "PPh Final tetap kena pajak, cuma tarifnya udah fix dan dipotong di muka, bukan berarti gratis pajak",
+            "tips": "Inget kata kuncinya: 'Final' = tuntas dipotong sekali, bukan 'bebas' pajak"
+          }
+        ],
+        "istilah": [
+          {
+            "kata": "PPh Final",
+            "definisi": "Pajak Penghasilan yang pemotongan atau pembayarannya sudah bersifat final, sehingga tidak digabungkan lagi dengan penghasilan lain untuk dihitung ulang dengan tarif progresif.",
+            "contoh": "Pak Joko membayar PPh Final 2,5% saat menjual rumahnya."
+          },
+          {
+            "kata": "Non-Objek Pajak",
+            "definisi": "Penghasilan yang menurut ketentuan Pasal 4 ayat 3 UU PPh dikecualikan sepenuhnya dari pengenaan pajak.",
+            "contoh": "Warisan rumah yang diterima Bu Dewi dari orang tuanya bukan objek pajak."
+          },
+          {
+            "kata": "Hibah",
+            "definisi": "Pemberian harta secara sukarela tanpa imbalan dari satu pihak ke pihak lain, yang bisa jadi objek atau non-objek pajak tergantung hubungan pemberi dan penerima.",
+            "contoh": "Hibah rumah dari ayah ke anak termasuk non-objek pajak karena hubungan keluarga sedarah satu derajat."
+          }
+        ]
+      },
+      {
+        "id": "bag-05",
+        "judul": "Tiga Mekanisme Perhitungan PPh OP",
+        "paragraf": [
+          "Ini dia salah satu bagian paling penting di modul ini. Buat wajib pajak orang pribadi yang punya penghasilan dari usaha atau pekerjaan bebas, ada TIGA mekanisme perhitungan yang bisa dipakai, dan masing-masing punya syarat serta konsekuensi beda. Salah pilih mekanisme bisa bikin kamu bayar pajak lebih gede dari seharusnya, atau malah kena masalah administrasi sama DJP.",
+          "Mekanisme pertama adalah Pembukuan. Ini WAJIB dipakai kalau omzet usaha kamu udah di atas Rp4,8 miliar per tahun. Di sini kamu wajib nyatet semua transaksi keuangan secara detail dan rapi (kayak neraca dan laporan laba rugi), terus Penghasilan Kena Pajak (PKP) dihitung dari Penghasilan Bruto dikurangi Biaya yang boleh dikurangkan (deductible expense) sesuai Pasal 6 UU PPh. Ribet emang, tapi hasilnya lebih akurat karena mencerminkan untung-rugi riil usaha kamu.",
+          "Mekanisme kedua adalah NPPN alias Norma Penghitungan Penghasilan Neto. Ini bisa dipilih kalau omzet kamu di bawah Rp4,8 miliar per tahun DAN kamu sebelumnya udah kasih tau ke DJP (nanti kita bahas syaratnya di bagian 6). Bedanya sama pembukuan, di sini kamu nggak perlu nyatet detail biaya-biaya — penghasilan neto langsung dihitung dari persentase tertentu (Norma) dikali omzet bruto, tergantung jenis usaha dan lokasi. Simpel banget buat yang nggak mau ribet nyatet pembukuan.",
+          "Mekanisme ketiga adalah PPh Final sesuai PP 55/2022 (dulu PP 23/2018), yang khusus buat UMKM dengan tarif 0,5% dari omzet bruto. Ini yang paling simpel dari segi administrasi — tinggal kali omzet bulanan sama 0,5%, kelar. Tapi ada batasannya: cuma berlaku maksimal 7 tahun sejak terdaftar (buat OP), dan ada juga fasilitas bebas pajak untuk omzet sampai Rp500 juta per tahun (kita bahas detail di bagian 7).",
+          "Jadi gimana cara milihnya? Gampangnya: kalau omzet kamu udah gede banget (>Rp4,8M), kamu WAJIB pembukuan, nggak ada pilihan lain. Kalau omzet kamu masih di bawah itu, kamu punya pilihan antara NPPN atau PPh Final PP 55/2022 — dan biasanya PPh Final lebih menguntungkan buat usaha kecil karena tarifnya jauh lebih rendah dan administrasinya paling gampang."
+        ],
+        "poin_penting": [
+          "📊 Pembukuan: WAJIB kalau omzet >Rp4,8 Miliar/tahun, PKP = Bruto - Biaya",
+          "🧮 NPPN: opsional kalau omzet <Rp4,8M, penghasilan neto = Omzet × % Norma KBLI",
+          "💰 PPh Final PP 55/2022: tarif 0,5% dari omzet, khusus UMKM, maksimal 7 tahun",
+          "🔑 Makin kecil usaha, makin simpel mekanisme yang bisa dipilih (dan biasanya makin ringan pajaknya)"
+        ],
+        "analogi": "Bayangin kamu masak buat jualan. Pembukuan itu kayak kamu nyatet HARGA SETIAP bahan (cabe, minyak, gas) buat tau untung bersihnya berapa. NPPN itu kayak kamu langsung nebak 'ah, biasanya untung bersih 30% dari omzet' tanpa nyatet detail. PPh Final itu kayak kamu langsung setor persentase kecil dari total jualan tanpa mikirin untung-rugi sama sekali.",
+        "contoh_kasus": {
+          "judul": "Kasus Pak Budi, Pengusaha Konveksi dengan Pembukuan",
+          "cerita": "Pak Budi punya usaha konveksi di Bandung dengan omzet Rp6 miliar per tahun (di atas Rp4,8M, jadi WAJIB pembukuan). Setelah dihitung, biaya-biaya usahanya (bahan baku, gaji karyawan, sewa tempat, listrik) totalnya Rp4,8 miliar. Jadi Penghasilan Kena Pajaknya adalah Rp6 miliar dikurangi Rp4,8 miliar dikurangi PTKP (misal status K/2 = Rp67,5jt), hasilnya sekitar Rp1.132.500.000. Dari situ baru dihitung pakai tarif progresif Pasal 17.",
+          "poin": [
+            "Karena omzet di atas Rp4,8M, Pak Budi WAJIB pakai mekanisme Pembukuan, bukan NPPN atau PPh Final",
+            "PKP dihitung dari Penghasilan Bruto dikurangi Biaya usaha yang sah, baru dikurangi PTKP"
+          ]
+        },
+        "diagram_mermaid": [
+          "flowchart TD\n    A[\"Wajib Pajak Punya Usaha/Pekerjaan Bebas\"] --> B{\"Omzet Setahun Berapa?\"}\n    B -->|\"> Rp4,8 Miliar\"| C[\"WAJIB Mekanisme Pembukuan\"]\n    B -->|\"<= Rp4,8 Miliar\"| D{\"Pilih Skema\"}\n    D -->|\"Lapor Pemberitahuan NPPN\"| E[\"Mekanisme NPPN (Norma)\"]\n    D -->|\"Daftar PP 55/2022\"| F[\"PPh Final 0,5% UMKM\"]\n    C --> G[\"PKP = Bruto - Biaya - PTKP\"]\n    E --> H[\"Penghasilan Neto = Omzet x % Norma\"]\n    F --> I[\"PPh Final = Omzet Bulanan x 0,5%\"]"
+        ],
+        "prompt_gambar": [
+          {
+            "id": "img-02",
+            "prompt": "An ultra modern 3D isometric stylized studio render illustration in landscape 16:9 format, showing three distinct paths of Indonesian personal income tax calculation methods as a branching decision flow. Deep dark navy background #0F172A with a rich soft gradient mesh #1E1B4B, ambient studio lighting with subtle volumetric glow and soft reflections on a dark glass floor. Composition shows a glowing 3D decision fork starting from a floating central hub, branching into three elevated glass platforms at different heights. First platform (tallest, farthest) holds a detailed 3D ledger book with glowing pages representing formal bookkeeping, rendered in electric blue #3B82F6. Second platform (middle) holds a 3D calculator with glowing percentage symbol icons in emerald green #10B981 representing the norm-based method. Third platform (smallest, closest) holds a simple glowing coin stack with a small percentage badge in warm amber gold #F59E0B representing the small business final tax scheme. Each platform has a clean bold modern Indonesian text label printed clearly above it: the first says 'Pembukuan', the second says 'NPPN', and the third says 'PPh Final UMKM'. Soft bokeh particles and ambient light rays fill the background for depth and premium feel. Ultra clean, polished, cinematic 3D render quality, high resolution, professional tech-education infographic aesthetic.",
+            "keterangan": "Ilustrasi tiga jalur mekanisme perhitungan PPh Orang Pribadi: Pembukuan, NPPN, dan PPh Final UMKM. Ketiganya dipilih berdasarkan besaran omzet dan preferensi administrasi wajib pajak.",
+            "alt": "Ilustrasi 3D tiga platform melambangkan tiga mekanisme perhitungan PPh Orang Pribadi",
+            "url_gambar": null
+          }
+        ],
+        "kalkulator": {
+          "tipe": "pph_op",
+          "judul": "Kalkulator PPh OP Mekanisme Pembukuan",
+          "keterangan": "Masukkan omzet, biaya usaha, dan status PTKP untuk menghitung Penghasilan Kena Pajak dan PPh terutang dengan mekanisme pembukuan."
+        },
+        "mini_kuis": [
+          {
+            "id": "q1",
+            "pertanyaan": "Wajib pajak dengan omzet Rp5 miliar per tahun WAJIB menggunakan mekanisme apa?",
+            "tipe": "pilihan_ganda",
+            "pilihan": [
+              "A. NPPN",
+              "B. PPh Final PP 55/2022",
+              "C. Pembukuan",
+              "D. Bebas memilih ketiganya"
+            ],
+            "jawaban": "C",
+            "pembahasan": "Jawaban benar C, karena omzet Rp5 miliar sudah melebihi batas Rp4,8 miliar per tahun, sehingga wajib pajak WAJIB menggunakan mekanisme pembukuan sesuai ketentuan UU PPh, tidak ada pilihan lain."
+          },
+          {
+            "id": "q2",
+            "pertanyaan": "NPPN menghitung penghasilan neto dengan cara mengalikan omzet bruto dengan persentase norma tertentu.",
+            "tipe": "benar_salah",
+            "pilihan": [
+              "Benar",
+              "Salah"
+            ],
+            "jawaban": "Benar",
+            "pembahasan": "Pernyataan ini benar. NPPN menggunakan rumus Penghasilan Neto = Omzet Bruto dikali persentase Norma sesuai jenis usaha (KBLI) dan wilayah, tanpa perlu pembukuan detail."
+          },
+          {
+            "id": "q3",
+            "pertanyaan": "Kalau kamu jadi konsultan pajak untuk seorang teman yang baru buka usaha kecil dengan omzet Rp300 juta/tahun, mekanisme apa yang akan kamu sarankan dan kenapa?",
+            "tipe": "esai",
+            "pilihan": null,
+            "jawaban": "Jawaban lengkap sebaiknya menyentuh: (1) omzet Rp300 juta masih di bawah Rp4,8 miliar sehingga pembukuan tidak wajib, (2) karena masih di bawah Rp500 juta, usaha tersebut berpotensi memanfaatkan fasilitas bebas PPh Final 0,5% sesuai PP 55/2022, (3) dibandingkan NPPN, PPh Final PP 55/2022 lebih sederhana secara administrasi karena tidak perlu menghitung norma per KBLI, (4) disarankan tetap konsultasi lebih lanjut karena pilihan bisa berubah tergantung proyeksi pertumbuhan usaha ke depan.",
+            "pembahasan": "Jawaban dinilai tepat jika siswa mengaitkan besaran omzet dengan ambang batas Rp4,8 miliar dan Rp500 juta, serta memahami trade-off kesederhanaan administrasi PPh Final dibanding NPPN."
+          }
+        ],
+        "kesalahan_umum": [
+          {
+            "salah": "Mengira semua pengusaha bebas pilih mekanisme apa aja tanpa syarat",
+            "benar": "Kalau omzet sudah di atas Rp4,8 miliar, pembukuan itu WAJIB, bukan opsional",
+            "tips": "Selalu cek dulu omzet tahunan sebelum nentuin mekanisme mana yang boleh dipakai"
+          },
+          {
+            "salah": "Mengira NPPN dan PPh Final PP 55/2022 itu mekanisme yang sama",
+            "benar": "NPPN menghasilkan Penghasilan Neto yang masih digabung dan dikenakan tarif progresif Pasal 17, sedangkan PPh Final langsung final di tarif 0,5% dari omzet",
+            "tips": "Inget: NPPN masih lanjut ke tarif progresif, PPh Final PP 55/2022 udah selesai di situ juga"
+          }
+        ],
+        "istilah": [
+          {
+            "kata": "Pembukuan",
+            "definisi": "Proses pencatatan keuangan yang teratur untuk mengumpulkan data dan informasi tentang harta, kewajiban, modal, penghasilan, dan biaya, yang ditutup dengan laporan laba rugi.",
+            "contoh": "Karena omzetnya Rp6 miliar, Pak Budi wajib membuat pembukuan lengkap untuk usaha konveksinya."
+          },
+          {
+            "kata": "NPPN",
+            "definisi": "Norma Penghitungan Penghasilan Neto, yaitu pedoman untuk menentukan penghasilan neto wajib pajak yang tidak wajib pembukuan, dengan mengalikan persentase norma terhadap omzet.",
+            "contoh": "Dokter yang omzetnya di bawah Rp4,8 miliar bisa memilih menggunakan NPPN."
+          },
+          {
+            "kata": "PP 55/2022",
+            "definisi": "Peraturan Pemerintah yang mengatur PPh Final 0,5% bagi wajib pajak UMKM tertentu, sebagai pembaruan dari PP 23/2018.",
+            "contoh": "Warung online milik Kak Nisa menggunakan skema PP 55/2022 dengan tarif 0,5% dari omzet."
+          }
+        ]
+      },
+      {
+        "id": "bag-06",
+        "judul": "Syarat dan Prosedur Penggunaan NPPN",
+        "paragraf": [
+          "Nah, buat kamu yang mau pakai mekanisme NPPN, ada syarat administratif yang WAJIB dipenuhi dulu, dan ini diatur di PER-17/PJ/2015. Yang paling penting: kamu wajib menyampaikan PEMBERITAHUAN penggunaan NPPN ke DJP dalam jangka waktu 3 bulan pertama tahun pajak yang bersangkutan. Kalau kamu telat kasih tau, DJP bisa anggap kamu 'dianggap memilih pembukuan', dan itu bisa jadi masalah kalau kamu ternyata nggak nyatet pembukuan sama sekali.",
+          "Rumus NPPN itu sendiri simpel banget: Penghasilan Neto = Omzet Bruto dikali Persentase Tarif Norma. Nah, persentase norma ini beda-beda tergantung 2 hal: jenis usaha (berdasarkan KBLI alias Klasifikasi Baku Lapangan Usaha Indonesia) dan lokasi usaha (dibagi jadi kelompok kota besar kayak 10 ibu kota provinsi, ibu kota provinsi lainnya, dan daerah lainnya). Jadi dokter di Jakarta bisa punya persentase norma yang beda sama dokter di kota kecil, meski profesinya sama.",
+          "Contoh konkretnya: dokter praktik mandiri biasanya punya norma sekitar 40-50% tergantung wilayah (artinya dianggap 40-50% dari omzet adalah 'untung bersih'), sedangkan pedagang biasanya normanya lebih rendah karena marginnya emang tipis, sekitar 20-30%an. Angka pasti ini kamu bisa cek di lampiran PER-17/PJ/2015 berdasarkan kode KBLI usaha kamu.",
+          "Penting juga buat dicatat: meskipun namanya 'norma', kamu tetep wajib nyimpen bukti-bukti pendukung omzet (kayak nota, invoice, rekening koran usaha) buat jaga-jaga kalau ada pemeriksaan dari DJP. NPPN itu ngurangin beban administratif nyatet biaya, tapi bukan berarti kamu bebas dari kewajiban dokumentasi omzet sama sekali."
+        ],
+        "poin_penting": [
+          "📅 Wajib lapor Pemberitahuan penggunaan NPPN ke DJP dalam 3 bulan pertama tahun pajak",
+          "🧮 Rumus: Penghasilan Neto = Omzet Bruto × % Tarif Norma (sesuai KBLI dan wilayah)",
+          "📍 Persentase norma beda-beda tergantung jenis usaha dan lokasi (kota besar vs daerah)",
+          "📝 Tetap wajib simpan bukti omzet meskipun nggak pakai pembukuan detail biaya"
+        ],
+        "analogi": "NPPN itu kayak kamu ikutan paket 'all-in' di rumah makan — kamu nggak perlu itung-itung harga tiap bahan makanan yang dipake, tinggal bayar harga paket yang udah ditentuin sesuai jenis menunya. Tapi kamu tetep harus nunjukin struk pembayaran kalau ditanya.",
+        "contoh_kasus": {
+          "judul": "Kasus Dokter Rina yang Pakai NPPN",
+          "cerita": "Bu Rina adalah dokter spesialis yang buka praktik mandiri di Surabaya dengan omzet Rp800 juta per tahun. Karena omzetnya di bawah Rp4,8 miliar dan dia sudah lapor Pemberitahuan NPPN ke KPP-nya di awal tahun, Bu Rina berhak pakai NPPN. Misalnya persentase norma untuk profesi dokter di Surabaya (kelompok ibu kota provinsi) adalah 45%. Maka Penghasilan Neto-nya = Rp800 juta x 45% = Rp360 juta. Dari situ dikurangi PTKP (misal TK/0 = Rp54jt), jadi PKP-nya Rp306 juta, baru dihitung pakai tarif progresif Pasal 17.",
+          "poin": [
+            "Bu Rina nggak perlu nyatet detail biaya operasional prakteknya, cukup pakai persentase norma 45% dari omzet",
+            "Penghasilan Neto = Omzet x % Norma, baru dikurangi PTKP untuk dapat PKP final"
+          ]
+        },
+        "diagram_mermaid": [],
+        "prompt_gambar": [],
+        "kalkulator": {
+          "tipe": "pph_op",
+          "judul": "Kalkulator NPPN",
+          "keterangan": "Masukkan omzet bruto dan persentase norma sesuai KBLI untuk menghitung Penghasilan Neto dan estimasi PPh terutang."
+        },
+        "mini_kuis": [
+          {
+            "id": "q1",
+            "pertanyaan": "Kapan batas waktu penyampaian Pemberitahuan penggunaan NPPN ke DJP?",
+            "tipe": "pilihan_ganda",
+            "pilihan": [
+              "A. 1 bulan pertama tahun pajak",
+              "B. 3 bulan pertama tahun pajak",
+              "C. 6 bulan pertama tahun pajak",
+              "D. Akhir tahun pajak"
+            ],
+            "jawaban": "B",
+            "pembahasan": "Jawaban benar B, sesuai PER-17/PJ/2015 yang mensyaratkan pemberitahuan disampaikan dalam 3 bulan pertama tahun pajak yang bersangkutan, agar wajib pajak dianggap sah menggunakan NPPN."
+          },
+          {
+            "id": "q2",
+            "pertanyaan": "Persentase norma NPPN sama untuk semua jenis usaha di seluruh Indonesia.",
+            "tipe": "benar_salah",
+            "pilihan": [
+              "Benar",
+              "Salah"
+            ],
+            "jawaban": "Salah",
+            "pembahasan": "Pernyataan ini salah, karena persentase norma berbeda-beda tergantung jenis usaha (kode KBLI) dan lokasi usaha, yang dibagi dalam kelompok wilayah tertentu sesuai PER-17/PJ/2015."
+          }
+        ],
+        "kesalahan_umum": [
+          {
+            "salah": "Mengira NPPN otomatis berlaku begitu aja tanpa perlu lapor apa-apa ke DJP",
+            "benar": "NPPN cuma sah dipakai kalau wajib pajak sudah menyampaikan Pemberitahuan ke DJP dalam 3 bulan pertama tahun pajak",
+            "tips": "Catat baik-baik deadline 3 bulan pertama tahun pajak biar nggak keburu 'dianggap' pakai pembukuan"
+          }
+        ],
+        "istilah": [
+          {
+            "kata": "KBLI",
+            "definisi": "Klasifikasi Baku Lapangan Usaha Indonesia, yaitu sistem pengkodean yang mengelompokkan jenis kegiatan usaha untuk keperluan statistik dan administrasi, termasuk penentuan persentase norma NPPN.",
+            "contoh": "Usaha konveksi Pak Budi terdaftar dengan kode KBLI tertentu yang menentukan persentase normanya."
+          },
+          {
+            "kata": "Penghasilan Neto",
+            "definisi": "Penghasilan bersih setelah dikurangi biaya-biaya (pada pembukuan) atau hasil perkalian omzet dengan persentase norma (pada NPPN).",
+            "contoh": "Penghasilan neto Bu Rina dari praktik dokternya dihitung dari omzet dikali persentase norma 45%."
+          },
+          {
+            "kata": "PER-17/PJ/2015",
+            "definisi": "Peraturan Direktur Jenderal Pajak yang mengatur norma penghitungan penghasilan neto beserta daftar persentasenya per jenis usaha dan wilayah.",
+            "contoh": "Bu Rina mengecek persentase norma dokter spesialis di PER-17/PJ/2015."
+          }
+        ]
+      },
+      {
+        "id": "bag-07",
+        "judul": "PPh Final UMKM 0,5% dan Batas Bebas Pajak",
+        "paragraf": [
+          "Sekarang kita bahas skema yang paling populer buat pelaku UMKM: PPh Final 0,5% berdasarkan PP 55/2022. Skema ini didesain buat bikin hidup pengusaha kecil lebih gampang — nggak perlu pusing mikirin pembukuan ribet atau ngitung norma, tinggal kali omzet bulanan sama 0,5%, langsung setor, kelar.",
+          "Tapi ada kabar bagus lagi nih: sejak PP 55/2022 (revisi dari PP 23/2018), ada fasilitas BEBAS PAJAK buat omzet sampai dengan Rp500 juta per tahun, khusus untuk Wajib Pajak Orang Pribadi UMKM. Jadi kalau omzet setahun kamu masih di bawah Rp500 juta, kamu nggak perlu bayar PPh Final sama sekali atas omzet tersebut. Ini beda banget sama sebelumnya di mana 0,5% langsung dipotong dari Rupiah pertama.",
+          "Nah, gimana kalau omzet kamu udah ngelewatin Rp500 juta di tengah tahun? Gampang, PPh Final 0,5% cuma dikenakan atas BAGIAN omzet yang melebihi Rp500 juta itu aja, bukan dari total omzet setahun. Jadi kalau omzet setahun kamu Rp700 juta, yang kena PPh Final 0,5% cuma Rp200 juta (Rp700jt - Rp500jt), bukan seluruh Rp700 juta.",
+          "Penting juga diingat: skema PPh Final PP 55/2022 ini ada BATAS WAKTU pemakaiannya. Buat Orang Pribadi, jangka waktu maksimalnya 7 tahun sejak pertama kali terdaftar sebagai wajib pajak yang menggunakan skema ini (atau sejak tahun berlakunya PP ini kalau sudah terdaftar sebelumnya). Setelah 7 tahun, kamu wajib pindah ke mekanisme NPPN atau Pembukuan sesuai kondisi omzet kamu."
+        ],
+        "poin_penting": [
+          "💰 Tarif PPh Final UMKM: 0,5% dari omzet bruto per bulan (PP 55/2022)",
+          "🎁 Fasilitas bebas pajak untuk omzet sampai Rp500 juta per tahun (khusus OP)",
+          "🧮 Kalau omzet lewat Rp500jt, PPh Final cuma dihitung dari SELISIH yang melebihi batas",
+          "⏳ Jangka waktu maksimal pemakaian skema ini adalah 7 tahun untuk Orang Pribadi"
+        ],
+        "analogi": "Ibaratnya kamu punya kuota gratis nelpon 500 menit per bulan dari provider. Selama pemakaian kamu masih di bawah 500 menit, kamu nggak dicharge sama sekali. Begitu lewat 500 menit, provider cuma nge-charge SISA menit yang kelebihan aja, bukan seluruh menit yang udah kamu pakai dari awal.",
+        "contoh_kasus": {
+          "judul": "Kasus Warung Online Kak Nisa",
+          "cerita": "Kak Nisa jualan makanan beku lewat GoFood dan marketplace dengan omzet Rp700 juta dalam setahun. Karena omzetnya melebihi Rp500 juta, Kak Nisa dikenakan PPh Final 0,5% hanya atas selisih Rp700jt - Rp500jt = Rp200 juta. Jadi PPh Final yang harus dibayar Kak Nisa dalam setahun adalah Rp200 juta x 0,5% = Rp1 juta, jauh lebih ringan dibanding kalau dihitung dari seluruh Rp700 juta.",
+          "poin": [
+            "Batas Rp500 juta dihitung per tahun, bukan per bulan",
+            "PPh Final 0,5% cuma dikenakan atas bagian omzet yang melebihi Rp500 juta"
+          ]
+        },
+        "diagram_mermaid": [],
+        "prompt_gambar": [],
+        "kalkulator": {
+          "tipe": "pph_final",
+          "judul": "Kalkulator PPh Final UMKM 0,5%",
+          "keterangan": "Masukkan omzet tahunan untuk menghitung PPh Final terutang setelah memperhitungkan fasilitas bebas pajak Rp500 juta."
+        },
+        "mini_kuis": [
+          {
+            "id": "q1",
+            "pertanyaan": "Berapa batas omzet bebas PPh Final bagi Wajib Pajak OP UMKM sesuai PP 55/2022?",
+            "tipe": "pilihan_ganda",
+            "pilihan": [
+              "A. Rp250 juta/tahun",
+              "B. Rp500 juta/tahun",
+              "C. Rp1 miliar/tahun",
+              "D. Rp4,8 miliar/tahun"
+            ],
+            "jawaban": "B",
+            "pembahasan": "Jawaban benar B, karena PP 55/2022 memberikan fasilitas bebas PPh Final untuk omzet sampai dengan Rp500 juta per tahun bagi Wajib Pajak Orang Pribadi UMKM."
+          },
+          {
+            "id": "q2",
+            "pertanyaan": "Jika omzet setahun melebihi Rp500 juta, seluruh omzet dikenakan PPh Final 0,5% dari Rupiah pertama.",
+            "tipe": "benar_salah",
+            "pilihan": [
+              "Benar",
+              "Salah"
+            ],
+            "jawaban": "Salah",
+            "pembahasan": "Pernyataan ini salah. PPh Final 0,5% hanya dikenakan atas bagian omzet yang MELEBIHI Rp500 juta, bukan dari seluruh omzet setahun."
+          }
+        ],
+        "kesalahan_umum": [
+          {
+            "salah": "Mengira fasilitas bebas Rp500 juta berlaku selamanya tanpa batas waktu",
+            "benar": "Skema PPh Final PP 55/2022 (termasuk fasilitas bebasnya) cuma berlaku maksimal 7 tahun untuk Orang Pribadi",
+            "tips": "Catat tahun pertama kamu mulai pakai skema ini, karena itu jadi acuan hitungan 7 tahun"
+          }
+        ],
+        "istilah": [
+          {
+            "kata": "Omzet",
+            "definisi": "Jumlah seluruh peredaran bruto atau penerimaan dari kegiatan usaha dalam suatu periode tertentu, sebelum dikurangi biaya apa pun.",
+            "contoh": "Omzet warung online Kak Nisa dalam setahun mencapai Rp700 juta."
+          },
+          {
+            "kata": "Peredaran Bruto",
+            "definisi": "Istilah resmi untuk omzet dalam ketentuan perpajakan, yaitu total penerimaan usaha sebelum dikurangi biaya.",
+            "contoh": "Peredaran bruto usaha konveksi Pak Budi dilaporkan setiap bulan ke DJP."
+          },
+          {
+            "kata": "Fasilitas Bebas Pajak",
+            "definisi": "Kemudahan berupa pembebasan pengenaan pajak atas sebagian atau seluruh penghasilan sampai batas tertentu, sebagaimana diatur dalam PP 55/2022.",
+            "contoh": "Kak Nisa memanfaatkan fasilitas bebas pajak sampai Rp500 juta sebelum omzetnya dikenakan PPh Final."
+          }
+        ]
+      },
+      {
+        "id": "bag-08",
+        "judul": "Rincian Besaran PTKP Terbaru",
+        "paragraf": [
+          "Nah sekarang kita bahas salah satu komponen paling krusial dalam ngitung PPh OP: PTKP alias Penghasilan Tidak Kena Pajak. Konsepnya simpel — ini adalah 'jatah gratis' penghasilan yang nggak kena pajak sama sekali, sebagai representasi biaya hidup minimal wajib pajak dan keluarganya. Dasar hukumnya PMK 101/2016 yang masih berlaku aktif sampai sekarang.",
+          "Besaran PTKP untuk Wajib Pajak (WP) itu sendiri (belum kawin, tanpa tanggungan) adalah Rp54.000.000 per tahun. Ini yang jadi basis dasar buat semua perhitungan PTKP, mau status kawin atau punya tanggungan sekalipun.",
+          "Kalau WP-nya udah kawin, ada tambahan Rp4.500.000 per tahun. Terus, buat setiap tanggungan (misalnya anak, atau anggota keluarga sedarah/semenda dalam garis keturunan lurus yang jadi tanggungan sepenuhnya), ada tambahan lagi Rp4.500.000 per tanggungan, dengan batas MAKSIMAL 3 tanggungan aja per keluarga.",
+          "Jadi kalau kita hitung skenario paling maksimal: WP kawin dengan 3 tanggungan (kode K/3) itu PTKP-nya = Rp54jt (WP) + Rp4,5jt (kawin) + (3 x Rp4,5jt) tanggungan = Rp54jt + Rp4,5jt + Rp13,5jt = Rp72.000.000 per tahun. Ini adalah PTKP tertinggi yang bisa didapat wajib pajak biasa (di luar skema penggabungan penghasilan istri yang kita bahas di bagian 9)."
+        ],
+        "poin_penting": [
+          "💰 PTKP WP Sendiri: Rp54.000.000/tahun (dasar hukum PMK 101/2016)",
+          "💍 Tambahan status kawin: +Rp4.500.000/tahun",
+          "👶 Tambahan per tanggungan: +Rp4.500.000/tanggungan, maksimal 3 tanggungan",
+          "🔑 PTKP maksimal untuk WP kawin + 3 tanggungan (K/3): Rp72.000.000/tahun"
+        ],
+        "analogi": "PTKP itu kayak 'batas gratis parkir' di mall. Sebelum kamu masuk zona bayar, ada jatah waktu gratis dulu. Nah, penghasilan kamu juga gitu — ada jatah 'gratis pajak' dulu sebelum sisanya baru dihitung kena tarif progresif.",
+        "diagram_mermaid": [],
+        "prompt_gambar": [],
+        "kalkulator": null,
+        "mini_kuis": [
+          {
+            "id": "q1",
+            "pertanyaan": "Berapa besaran PTKP untuk Wajib Pajak sendiri (belum kawin, tanpa tanggungan) per tahun?",
+            "tipe": "pilihan_ganda",
+            "pilihan": [
+              "A. Rp36.000.000",
+              "B. Rp48.000.000",
+              "C. Rp54.000.000",
+              "D. Rp60.000.000"
+            ],
+            "jawaban": "C",
+            "pembahasan": "Jawaban benar C, sesuai PMK 101/2016 yang menetapkan PTKP untuk Wajib Pajak sendiri sebesar Rp54.000.000 per tahun, sebagai basis dasar sebelum ditambah status kawin atau tanggungan."
+          },
+          {
+            "id": "q2",
+            "pertanyaan": "Jumlah tanggungan yang bisa menambah PTKP tidak dibatasi jumlahnya.",
+            "tipe": "benar_salah",
+            "pilihan": [
+              "Benar",
+              "Salah"
+            ],
+            "jawaban": "Salah",
+            "pembahasan": "Pernyataan ini salah, karena jumlah tanggungan yang bisa menambah PTKP dibatasi maksimal 3 orang, meskipun secara riil wajib pajak punya tanggungan lebih dari itu."
+          }
+        ],
+        "kesalahan_umum": [
+          {
+            "salah": "Mengira tambahan tanggungan bisa tak terbatas sesuai jumlah anak yang sebenarnya",
+            "benar": "PTKP hanya menghitung maksimal 3 tanggungan meskipun wajib pajak punya anak lebih dari 3",
+            "tips": "Selalu batasi hitungan tanggungan maksimal 3 orang saat menghitung PTKP"
+          }
+        ],
+        "istilah": [
+          {
+            "kata": "PTKP",
+            "definisi": "Penghasilan Tidak Kena Pajak, yaitu batas penghasilan yang tidak dikenakan pajak sebagai representasi biaya hidup minimal wajib pajak dan keluarganya.",
+            "contoh": "Penghasilan Pak Joko sampai Rp54 juta per tahun tidak dikenakan pajak karena masuk PTKP."
+          },
+          {
+            "kata": "Tanggungan",
+            "definisi": "Anggota keluarga sedarah atau semenda dalam garis keturunan lurus yang sepenuhnya menjadi tanggungan wajib pajak, maksimal dihitung 3 orang untuk PTKP.",
+            "contoh": "Pak Joko memiliki 2 anak yang menjadi tanggungannya dalam perhitungan PTKP."
+          },
+          {
+            "kata": "PMK 101/2016",
+            "definisi": "Peraturan Menteri Keuangan yang mengatur besaran Penghasilan Tidak Kena Pajak yang masih berlaku hingga saat ini.",
+            "contoh": "Besaran PTKP Rp54 juta ditetapkan dalam PMK 101/2016."
+          }
+        ]
+      },
+      {
+        "id": "bag-09",
+        "judul": "Matriks Kode Status PTKP Lengkap",
+        "paragraf": [
+          "Nah, biar gampang ngecek PTKP kamu, DJP pakai sistem KODE yang gabungin status kawin dan jumlah tanggungan. Format umumnya adalah [Status]/[Jumlah Tanggungan]. Ada dua kategori status utama: TK (Tidak Kawin) dan K (Kawin), plus ada kategori khusus K/I (Kawin dengan penghasilan Istri digabung).",
+          "Kode TK dipakai buat yang belum/tidak kawin, dari TK/0 (tanpa tanggungan) sampai TK/3 (3 tanggungan). Kode K dipakai buat yang udah kawin dengan penghasilan istri TIDAK digabung (istri punya NPWP sendiri atau nggak kerja), dari K/0 sampai K/3. Sementara kode K/I dipakai kalau penghasilan istri DIGABUNG ke suami (biasanya karena istri cuma kerja di 1 pemberi kerja dan sudah dipotong PPh 21 final), dari K/I/0 sampai K/I/3.",
+          "Yang bikin K/I beda adalah PTKP-nya lebih gede karena dianggap 'menanggung' penghasilan istri juga. Kalau K/3 PTKP-nya Rp72jt, K/I/3 PTKP-nya jadi Rp72jt ditambah PTKP WP sendiri lagi (representasi istri) sebesar Rp54jt, jadi totalnya Rp126jt. Range lengkapnya K/I/0 sampai K/I/3 itu antara Rp112,5jt sampai Rp126jt.",
+          "Kenapa penting banget hafal kode-kode ini? Karena kode PTKP ini langsung mempengaruhi berapa PPh 21 yang dipotong dari gaji kamu tiap bulan (lewat sistem TER — Tarif Efektif Rata-rata, yang kita singgung di bagian selanjutnya), dan juga jadi acuan utama pas ngisi SPT Tahunan. Salah kode PTKP bisa bikin potongan pajak kamu kegedean atau malah kekecilan."
+        ],
+        "poin_penting": [
+          "🔑 Format kode: [Status]/[Jumlah Tanggungan] — misalnya TK/0, K/2, K/I/3",
+          "📌 TK = Tidak Kawin, K = Kawin (istri tidak digabung), K/I = Kawin dengan penghasilan istri digabung",
+          "💰 Range PTKP K/I: dari Rp112,5jt (K/I/0) sampai Rp126jt (K/I/3)",
+          "⚠️ Kode PTKP yang salah bisa bikin potongan PPh 21 bulanan jadi nggak akurat"
+        ],
+        "analogi": "Kode PTKP itu kayak kode ukuran baju (S, M, L, XL) tapi buat 'ukuran keluarga' kamu di mata pajak. Makin 'besar' keluarga kamu (kawin + banyak tanggungan), makin besar juga jatah PTKP-nya, sama kayak baju yang makin besar ukurannya makin banyak kainnya.",
+        "diagram_mermaid": [
+          "graph TD\n    A[\"Status PTKP\"] --> B[\"TK - Tidak Kawin\"]\n    A --> C[\"K - Kawin, Istri Tidak Digabung\"]\n    A --> D[\"K/I - Kawin, Penghasilan Istri Digabung\"]\n    subgraph TK[\"Rp54jt - Rp67,5jt\"]\n    B1[\"TK/0: Rp54jt\"] --> B2[\"TK/1: Rp58,5jt\"] --> B3[\"TK/2: Rp63jt\"] --> B4[\"TK/3: Rp67,5jt\"]\n    end\n    subgraph K[\"Rp58,5jt - Rp72jt\"]\n    C1[\"K/0: Rp58,5jt\"] --> C2[\"K/1: Rp63jt\"] --> C3[\"K/2: Rp67,5jt\"] --> C4[\"K/3: Rp72jt\"]\n    end\n    subgraph KI[\"Rp112,5jt - Rp126jt\"]\n    D1[\"K/I/0: Rp112,5jt\"] --> D2[\"K/I/1: Rp117jt\"] --> D3[\"K/I/2: Rp121,5jt\"] --> D4[\"K/I/3: Rp126jt\"]\n    end\n    B --> TK\n    C --> K\n    D --> KI"
+        ],
+        "prompt_gambar": [
+          {
+            "id": "img-03",
+            "prompt": "An ultra modern 3D isometric stylized studio render illustration in landscape 16:9 format, visualizing a matrix grid system of Indonesian tax exemption status codes. Deep dark navy background #0F172A blended into a rich gradient mesh #1E1B4B with soft ambient studio lighting and subtle volumetric fog for depth. Center composition shows a large glowing translucent 3D grid panel made of frosted glass floating in space, divided into three vertical glowing columns of varying heights made of stacked golden light bars, representing increasing tax-free thresholds. The tallest column glows in warm gold #F59E0B, the middle column glows emerald green #10B981, and the shortest column glows electric blue #3B82F6, each column topped with a small glowing family icon (single figure, couple figure, couple with children figures) rendered in soft frosted glass material. Clean bold modern Indonesian text labels are printed clearly above each column reading 'Tidak Kawin', 'Kawin', and 'Penghasilan Digabung'. Soft light particles and gentle lens flare accents fill the background. Ultra clean, polished, premium cinematic 3D render quality, high resolution, professional tech-education infographic aesthetic.",
+            "keterangan": "Ilustrasi matriks tiga kelompok status PTKP: Tidak Kawin, Kawin, dan Kawin dengan penghasilan istri digabung, masing-masing dengan tingkatan besaran PTKP yang berbeda.",
+            "alt": "Ilustrasi 3D grid matriks kode status PTKP dengan tiga kolom kaca menyala",
+            "url_gambar": null
+          }
+        ],
+        "kalkulator": null,
+        "mini_kuis": [
+          {
+            "id": "q1",
+            "pertanyaan": "Berapa PTKP untuk kode status K/I/2?",
+            "tipe": "pilihan_ganda",
+            "pilihan": [
+              "A. Rp67,5 juta",
+              "B. Rp112,5 juta",
+              "C. Rp117 juta",
+              "D. Rp121,5 juta"
+            ],
+            "jawaban": "D",
+            "pembahasan": "Jawaban benar D. K/I/2 dihitung dari PTKP K/2 (Rp67,5jt) ditambah PTKP WP sendiri untuk penghasilan istri (Rp54jt), totalnya Rp121,5 juta, sesuai matriks PTKP resmi PMK 101/2016."
+          },
+          {
+            "id": "q2",
+            "pertanyaan": "Kode K/I dipakai ketika penghasilan istri digabung dengan penghasilan suami dalam satu SPT.",
+            "tipe": "benar_salah",
+            "pilihan": [
+              "Benar",
+              "Salah"
+            ],
+            "jawaban": "Benar",
+            "pembahasan": "Pernyataan ini benar. Kode K/I digunakan saat penghasilan istri digabung ke penghasilan suami, biasanya karena istri hanya bekerja pada satu pemberi kerja dan penghasilannya sudah final."
+          }
+        ],
+        "kesalahan_umum": [
+          {
+            "salah": "Mengira kode K dan K/I itu sama aja, cuma beda penulisan",
+            "benar": "Kode K berarti penghasilan istri TIDAK digabung, sedangkan K/I berarti penghasilan istri DIGABUNG ke SPT suami, dengan PTKP yang lebih besar",
+            "tips": "Selalu cek dulu apakah istri punya penghasilan yang perlu digabung atau tidak sebelum menentukan kode"
+          }
+        ],
+        "istilah": [
+          {
+            "kata": "TK",
+            "definisi": "Kode status PTKP untuk Wajib Pajak Tidak Kawin, diikuti angka jumlah tanggungan (0-3).",
+            "contoh": "Dito yang masih single dan tanpa tanggungan menggunakan kode TK/0."
+          },
+          {
+            "kata": "K/I",
+            "definisi": "Kode status PTKP untuk Wajib Pajak Kawin dengan penghasilan istri digabung ke SPT suami, diikuti angka jumlah tanggungan.",
+            "contoh": "Pak Joko yang istrinya bekerja di satu perusahaan menggunakan kode K/I/2 karena penghasilan istri digabung."
+          },
+          {
+            "kata": "Matriks PTKP",
+            "definisi": "Tabel yang menunjukkan kombinasi kode status perkawinan dan jumlah tanggungan beserta besaran PTKP masing-masing.",
+            "contoh": "Bu Rina mengecek matriks PTKP untuk menentukan kode status pajaknya yang tepat."
+          }
+        ]
+      },
+      {
+        "id": "bag-10",
+        "judul": "Lima Lapis Tarif Progresif Pasal 17",
+        "paragraf": [
+          "Ini dia jantungnya perhitungan PPh OP: tarif progresif Pasal 17 UU HPP. Setelah kamu dapet Penghasilan Kena Pajak (PKP) — yaitu Penghasilan Neto dikurangi PTKP — barulah PKP ini dikalikan tarif berlapis sesuai besarannya. Ingat, sistemnya BERLAPIS alias bracket, bukan flat buat seluruh PKP.",
+          "Lapisan pertama: 5% untuk PKP sampai dengan Rp60 juta. Lapisan kedua: 15% untuk PKP di atas Rp60 juta sampai Rp250 juta. Lapisan ketiga: 25% untuk PKP di atas Rp250 juta sampai Rp500 juta. Lapisan keempat: 30% untuk PKP di atas Rp500 juta sampai Rp5 miliar. Lapisan kelima (paling tinggi): 35% untuk PKP di atas Rp5 miliar.",
+          "Nah, cara ngitungnya itu BERTAHAP, bukan langsung PKP dikali tarif tertinggi yang dia capai. Jadi misal PKP kamu Rp100 juta, bukan berarti seluruh Rp100 juta dikali 15% ya. Yang bener: Rp60 juta pertama dikali 5% (=Rp3jt), sisanya Rp40 juta (dari Rp100jt - Rp60jt) dikali 15% (=Rp6jt). Total PPh terutang = Rp3jt + Rp6jt = Rp9 juta.",
+          "Buat karyawan tetap, praktiknya tarif progresif ini udah 'dibungkus' dalam sistem TER (Tarif Efektif Rata-rata) sesuai PP 58/2023 dan PMK 168/2023 untuk pemotongan bulanan — jadi HR tinggal liat tabel TER berdasarkan penghasilan bruto bulanan dan kode PTKP, langsung dapet persentase potongan. Tapi di akhir tahun, pas SPT Tahunan, tetep dihitung ulang pakai tarif progresif Pasal 17 yang sebenarnya buat nentuin final kurang/lebih bayar."
+        ],
+        "poin_penting": [
+          "🧮 5 lapis tarif: 5% (s.d. Rp60jt), 15% (Rp60-250jt), 25% (Rp250-500jt), 30% (Rp500jt-5M), 35% (>Rp5M)",
+          "📌 Perhitungan BERTAHAP per lapisan, bukan langsung dikali tarif tertinggi ke seluruh PKP",
+          "🔑 Dasar hukum: Pasal 17 UU HPP No. 7/2021",
+          "💡 Untuk karyawan, pemotongan bulanan pakai sistem TER (PP 58/2023 & PMK 168/2023), tapi SPT Tahunan tetap pakai tarif progresif asli"
+        ],
+        "analogi": "Bayangin tarif progresif kayak tangga tarif taksi. Km pertama (misal 5km) tarifnya murah, terus makin jauh perjalanan, tarif per km-nya naik. Tapi tarif yang naik itu CUMA berlaku buat km tambahan, bukan buat seluruh perjalanan dari awal dihitung ulang pakai tarif termahal.",
+        "contoh_kasus": {
+          "judul": "Kasus Mas Andi, Pegawai Gaji Rp25 Juta/Bulan",
+          "cerita": "Mas Andi kerja di startup Jakarta dengan gaji Rp25 juta per bulan, jadi setahun penghasilan brutonya Rp300 juta. Dia berstatus TK/0 (belum kawin) dengan PTKP Rp54 juta. Setelah dikurangi biaya jabatan (5% dari bruto, maksimal Rp6jt/tahun sesuai aturan) sekitar Rp6 juta dan PTKP Rp54 juta, PKP-nya = Rp300jt - Rp6jt - Rp54jt = Rp240 juta. Dihitung berlapis: Rp60jt pertama x 5% = Rp3jt, sisanya Rp180jt (Rp240jt-Rp60jt) x 15% = Rp27jt. Total PPh terutang setahun Mas Andi = Rp3jt + Rp27jt = Rp30 juta.",
+          "poin": [
+            "Penghasilan bruto dikurangi biaya jabatan dan PTKP dulu sebelum dapat PKP",
+            "PKP Rp240 juta dihitung berlapis kena tarif 5% dan 15%, hasil total PPh Rp30 juta setahun"
+          ]
+        },
+        "diagram_mermaid": [
+          "flowchart TD\n    A[\"Penghasilan Kena Pajak (PKP)\"] --> B{\"Berapa Besarnya?\"}\n    B -->|\"s.d. Rp60jt\"| C[\"Tarif 5%\"]\n    B -->|\"Rp60jt - Rp250jt\"| D[\"Lapis 1: 5% + Lapis 2: 15%\"]\n    B -->|\"Rp250jt - Rp500jt\"| E[\"Lapis 1-2 + Lapis 3: 25%\"]\n    B -->|\"Rp500jt - Rp5M\"| F[\"Lapis 1-3 + Lapis 4: 30%\"]\n    B -->|\"> Rp5M\"| G[\"Lapis 1-4 + Lapis 5: 35%\"]\n    C --> H[\"Jumlahkan Semua Lapisan = PPh Terutang\"]\n    D --> H\n    E --> H\n    F --> H\n    G --> H"
+        ],
+        "prompt_gambar": [
+          {
+            "id": "img-04",
+            "prompt": "An ultra modern 3D isometric stylized studio render illustration in landscape 16:9 format, depicting a progressive income tax staircase system. Deep dark navy background #0F172A merging into a rich gradient mesh #1E1B4B, ambient cinematic studio lighting with soft volumetric glow and gentle reflections on a dark glass floor. Center composition shows five ascending glass staircase steps of increasing height rising from left to right, each step glowing with a different intensity of light representing increasing tax rates, colors transitioning smoothly from soft electric blue #3B82F6 at the lowest step through emerald green #10B981 in the middle steps to warm amber gold #F59E0B at the highest step. Each step has a small floating glowing percentage badge rendered in frosted glass material hovering just above it. Clean bold modern Indonesian text labels are printed clearly near the base of the staircase reading 'Tarif Progresif Bertingkat'. Soft ambient light particles and subtle bokeh drift through the scene for a premium atmospheric feel. Ultra clean, polished, cinematic 3D render quality, high resolution, professional tech-education infographic aesthetic.",
+            "keterangan": "Ilustrasi tangga tarif progresif PPh Orang Pribadi yang menunjukkan lima lapisan tarif dari 5% hingga 35% sesuai Pasal 17 UU HPP.",
+            "alt": "Ilustrasi 3D tangga kaca melambangkan lima lapis tarif progresif PPh Orang Pribadi",
+            "url_gambar": null
+          }
+        ],
+        "kalkulator": {
+          "tipe": "pph_op",
+          "judul": "Kalkulator Tarif Progresif Pasal 17",
+          "keterangan": "Masukkan Penghasilan Kena Pajak untuk menghitung PPh terutang berdasarkan lima lapis tarif progresif secara otomatis."
+        },
+        "mini_kuis": [
+          {
+            "id": "q1",
+            "pertanyaan": "Berapa tarif untuk lapisan Penghasilan Kena Pajak di atas Rp250 juta sampai Rp500 juta?",
+            "tipe": "pilihan_ganda",
+            "pilihan": [
+              "A. 15%",
+              "B. 25%",
+              "C. 30%",
+              "D. 35%"
+            ],
+            "jawaban": "B",
+            "pembahasan": "Jawaban benar B, sesuai Pasal 17 UU HPP yang menetapkan tarif 25% untuk lapisan PKP di atas Rp250 juta sampai dengan Rp500 juta."
+          },
+          {
+            "id": "q2",
+            "pertanyaan": "Jika PKP seseorang Rp600 juta, seluruh Rp600 juta dikenakan tarif 30% secara langsung.",
+            "tipe": "benar_salah",
+            "pilihan": [
+              "Benar",
+              "Salah"
+            ],
+            "jawaban": "Salah",
+            "pembahasan": "Pernyataan ini salah. Perhitungan dilakukan berlapis: Rp60jt pertama kena 5%, Rp190jt berikutnya kena 15%, Rp250jt berikutnya kena 25%, dan sisanya Rp100jt kena 30%, bukan seluruhnya langsung dikali 30%."
+          },
+          {
+            "id": "q3",
+            "pertanyaan": "Sebutkan berapa PPh terutang untuk PKP sebesar Rp80.000.000, lengkap dengan cara hitungnya!",
+            "tipe": "isian_singkat",
+            "pilihan": null,
+            "jawaban": "Rp6.000.000",
+            "pembahasan": "Rp60 juta pertama dikali 5% = Rp3.000.000, sisanya Rp20 juta (Rp80jt-Rp60jt) dikali 15% = Rp3.000.000. Totalnya Rp3.000.000 + Rp3.000.000 = Rp6.000.000."
+          }
+        ],
+        "kesalahan_umum": [
+          {
+            "salah": "Mengira seluruh PKP dikalikan langsung dengan tarif tertinggi yang tercapai",
+            "benar": "Perhitungan harus BERLAPIS/berjenjang sesuai porsi PKP di tiap lapisan tarif",
+            "tips": "Selalu pecah PKP jadi beberapa 'potongan' sesuai batas lapisan sebelum dikalikan tarif masing-masing"
+          },
+          {
+            "salah": "Mengira tarif TER untuk pemotongan bulanan sama persis dengan tarif final SPT Tahunan",
+            "benar": "TER cuma estimasi pemotongan bulanan; perhitungan final tetap pakai tarif progresif Pasal 17 di SPT Tahunan",
+            "tips": "Jangan kaget kalau ada selisih kurang/lebih bayar di SPT Tahunan meskipun potongan bulanan udah pakai TER"
+          }
+        ],
+        "istilah": [
+          {
+            "kata": "PKP",
+            "definisi": "Penghasilan Kena Pajak, yaitu Penghasilan Neto dikurangi PTKP, yang menjadi dasar penghitungan PPh terutang dengan tarif progresif.",
+            "contoh": "PKP Mas Andi setelah dikurangi biaya jabatan dan PTKP adalah Rp240 juta."
+          },
+          {
+            "kata": "Tarif Progresif",
+            "definisi": "Sistem tarif pajak yang persentasenya meningkat seiring bertambahnya penghasilan kena pajak, dihitung secara berlapis.",
+            "contoh": "PPh OP menggunakan tarif progresif 5% hingga 35% sesuai Pasal 17 UU HPP."
+          },
+          {
+            "kata": "TER",
+            "definisi": "Tarif Efektif Rata-rata, yaitu skema pemotongan PPh 21 bulanan yang disederhanakan sesuai PP 58/2023 dan PMK 168/2023, berdasarkan tabel penghasilan bruto dan status PTKP.",
+            "contoh": "Bagian HR menggunakan tabel TER untuk memotong PPh 21 gaji bulanan karyawan."
+          }
+        ]
+      },
+      {
+        "id": "bag-11",
+        "judul": "Sanksi Tanpa NPWP dan Integrasi NIK 16 Digit",
+        "paragraf": [
+          "Sekarang kita bahas soal konsekuensi kalau kamu nggak punya NPWP. Sesuai Pasal 21 ayat 5a UU PPh, kalau seseorang dipotong PPh Pasal 21 atau 23 tapi dia nggak punya NPWP, tarif pemotongannya jadi LEBIH TINGGI 20% dibanding tarif normal. Jadi kalau tarif normal PPh 21-nya 15%, buat yang nggak punya NPWP jadi 15% x 120% = 18%.",
+          "Nah yang penting buat diketahui di era 2026 ini: DJP udah mengintegrasikan NIK (Nomor Induk Kependudukan) 16 digit sebagai NPWP buat Wajib Pajak Orang Pribadi. Jadi sekarang secara teknis, NIK kamu di KTP itu SEKALIGUS berfungsi sebagai NPWP, nggak perlu lagi NPWP format lama 15 digit (NPWP lama masih bisa dipakai transisi, tapi arahnya semua migrasi ke NIK 16 digit).",
+          "Kenapa ini penting banget buat sanksi kenaikan tarif? Karena dengan integrasi NIK-NPWP ini, praktis SEMUA WNI yang punya KTP otomatis 'punya NPWP' secara sistem — jadi alasan 'saya belum punya NPWP' buat ngehindar sanksi 20% lebih tinggi udah nggak relevan lagi buat WNI, kecuali NIK-nya belum diaktivasi/dipadankan di sistem Coretax DJP.",
+          "Makanya penting banget buat setiap WNI yang udah punya penghasilan buat mastiin NIK-nya udah teraktivasi dan terpadankan dengan benar di sistem Coretax, karena kalau belum, pemberi kerja atau pemotong pajak bisa aja masih nganggep kamu 'belum ber-NPWP' dan motong pajak kamu lebih gede dari seharusnya."
+        ],
+        "poin_penting": [
+          "⚠️ Sanksi tarif PPh 21/23 tanpa NPWP: 20% lebih tinggi dari tarif normal",
+          "🆔 NIK 16 digit sudah diintegrasikan sebagai NPWP untuk Orang Pribadi",
+          "🔑 WNI dengan KTP aktif secara sistem otomatis 'punya NPWP' lewat NIK",
+          "📌 Wajib pastikan NIK sudah terpadankan/teraktivasi di sistem Coretax DJP agar tidak salah potong"
+        ],
+        "analogi": "Bayangin dulu kamu butuh 2 kartu beda buat masuk gedung (KTP buat identitas umum, NPWP buat urusan pajak). Sekarang kartunya digabung jadi satu — KTP kamu sekarang juga jadi 'kartu akses' buat urusan pajak, nggak perlu bawa dua kartu lagi.",
+        "diagram_mermaid": [],
+        "prompt_gambar": [],
+        "kalkulator": null,
+        "mini_kuis": [
+          {
+            "id": "q1",
+            "pertanyaan": "Berapa persen kenaikan tarif pemotongan PPh 21/23 bagi wajib pajak yang tidak memiliki NPWP?",
+            "tipe": "pilihan_ganda",
+            "pilihan": [
+              "A. 10% lebih tinggi",
+              "B. 15% lebih tinggi",
+              "C. 20% lebih tinggi",
+              "D. 25% lebih tinggi"
+            ],
+            "jawaban": "C",
+            "pembahasan": "Jawaban benar C, sesuai Pasal 21 ayat 5a UU PPh yang menetapkan tarif pemotongan 20% lebih tinggi bagi wajib pajak yang tidak memiliki NPWP dibanding tarif normal."
+          },
+          {
+            "id": "q2",
+            "pertanyaan": "NIK 16 digit di KTP kini berfungsi sekaligus sebagai NPWP untuk Orang Pribadi.",
+            "tipe": "benar_salah",
+            "pilihan": [
+              "Benar",
+              "Salah"
+            ],
+            "jawaban": "Benar",
+            "pembahasan": "Pernyataan ini benar. DJP telah mengintegrasikan NIK 16 digit sebagai NPWP bagi Wajib Pajak Orang Pribadi sebagai bagian dari modernisasi sistem administrasi perpajakan lewat Coretax."
+          }
+        ],
+        "kesalahan_umum": [
+          {
+            "salah": "Mengira karena sudah punya KTP otomatis NIK-nya langsung aktif dipakai buat urusan pajak tanpa perlu ngecek apa-apa",
+            "benar": "NIK tetap perlu dipastikan sudah terpadankan/teraktivasi dengan benar di sistem Coretax DJP agar berfungsi optimal sebagai NPWP",
+            "tips": "Selalu cek status validasi NIK di layanan resmi DJP sebelum menganggap semuanya otomatis beres"
+          }
+        ],
+        "istilah": [
+          {
+            "kata": "NIK",
+            "definisi": "Nomor Induk Kependudukan, nomor identitas unik warga negara Indonesia yang sekarang juga berfungsi sebagai NPWP untuk Orang Pribadi.",
+            "contoh": "NIK di KTP Mas Andi kini otomatis menjadi NPWP-nya di sistem DJP."
+          },
+          {
+            "kata": "Coretax DJP",
+            "definisi": "Core Tax Administration System, sistem inti administrasi perpajakan terintegrasi milik DJP yang menggabungkan berbagai layanan perpajakan dalam satu platform digital.",
+            "contoh": "Bu Rina melaporkan SPT Tahunannya melalui sistem Coretax DJP."
+          },
+          {
+            "kata": "Pemotongan Berlebih",
+            "definisi": "Kondisi di mana tarif pemotongan pajak menjadi lebih tinggi dari seharusnya, misalnya karena status NPWP/NIK yang belum terpadankan.",
+            "contoh": "Karena NIK-nya belum terpadankan, gaji Dito sempat dipotong pajak lebih tinggi dari seharusnya."
+          }
+        ]
+      },
+      {
+        "id": "bag-12",
+        "judul": "Penggabungan Penghasilan Suami-Istri",
+        "paragraf": [
+          "Ini konsep yang cukup unik dalam sistem perpajakan Indonesia: keluarga dianggap sebagai SATU KESATUAN EKONOMIS. Artinya, secara default, penghasilan suami dan istri digabung jadi satu dan dilaporkan dalam SATU SPT Tahunan atas nama kepala keluarga (biasanya suami), pakai satu NPWP/NIK aja.",
+          "Prinsip ini didasarkan pada Pasal 8 ayat 1 UU PPh, yang menganggap penghasilan atau kerugian istri dianggap sebagai penghasilan atau kerugian suaminya, kecuali penghasilan istri tersebut semata-mata dari satu pemberi kerja dan sudah dipotong PPh 21 oleh pemberi kerja tersebut (nggak ada penghasilan lain di luar itu).",
+          "Nah, kalau kondisinya istri CUMA punya penghasilan dari satu pemberi kerja aja (misalnya cuma kerja sebagai karyawan tetap di satu perusahaan, nggak ada usaha sampingan), maka penghasilan istri itu BERSIFAT FINAL dan cuma perlu dilaporkan di SPT SUAMI aja (digabung), TANPA perlu dihitung ulang pajaknya — karena udah dipotong final lewat PPh 21 di kantornya. Ini yang bikin kode PTKP-nya jadi K/I (Kawin, Istri digabung).",
+          "Tapi kalau istri punya penghasilan lain di luar itu (misalnya usaha sampingan jualan online, atau kerja di lebih dari satu tempat), maka penghasilannya nggak bisa dianggap final lagi, dan keluarga itu WAJIB memilih salah satu skema pemisahan (PH atau MT, yang kita bahas di bagian selanjutnya) buat ngitung pajak masing-masing secara terpisah."
+        ],
+        "poin_penting": [
+          "👪 Keluarga dianggap satu kesatuan ekonomis: penghasilan suami-istri digabung dalam satu SPT",
+          "📌 Dasar hukum: Pasal 8 ayat 1 UU PPh",
+          "✅ Kalau istri cuma kerja di 1 pemberi kerja, penghasilannya final dan tinggal digabung ke SPT suami",
+          "⚠️ Kalau istri punya penghasilan tambahan lain, keluarga wajib pilih skema pemisahan (PH/MT)"
+        ],
+        "analogi": "Ibaratnya keluarga itu kayak satu rekening tabungan bersama. Semua pemasukan suami dan istri masuk ke 'rekening' yang sama buat dilaporin ke bank (DJP), kecuali kalau salah satu pihak punya 'dompet terpisah' resmi yang disepakati dari awal (skema PH/MT).",
+        "diagram_mermaid": [],
+        "prompt_gambar": [],
+        "kalkulator": null,
+        "mini_kuis": [
+          {
+            "id": "q1",
+            "pertanyaan": "Kapan penghasilan istri bisa dianggap final dan cukup digabung ke SPT suami tanpa dihitung ulang?",
+            "tipe": "pilihan_ganda",
+            "pilihan": [
+              "A. Kapan pun tanpa syarat",
+              "B. Kalau istri punya usaha sampingan",
+              "C. Kalau istri hanya bekerja pada satu pemberi kerja",
+              "D. Kalau istri tidak bekerja sama sekali"
+            ],
+            "jawaban": "C",
+            "pembahasan": "Jawaban benar C, sesuai Pasal 8 ayat 1 UU PPh. Penghasilan istri dianggap final dan tinggal digabung ke SPT suami hanya jika istri semata-mata bekerja pada satu pemberi kerja dan telah dipotong PPh 21."
+          },
+          {
+            "id": "q2",
+            "pertanyaan": "Prinsip kesatuan ekonomis keluarga berarti penghasilan istri selalu wajib dihitung terpisah dari suami.",
+            "tipe": "benar_salah",
+            "pilihan": [
+              "Benar",
+              "Salah"
+            ],
+            "jawaban": "Salah",
+            "pembahasan": "Pernyataan ini salah. Justru sebaliknya, prinsip kesatuan ekonomis keluarga menganggap penghasilan istri sebagai bagian dari penghasilan suami dan digabung dalam satu SPT, kecuali dipilih skema pemisahan tertentu."
+          }
+        ],
+        "kesalahan_umum": [
+          {
+            "salah": "Mengira semua pasangan suami-istri wajib punya NPWP terpisah dan lapor SPT sendiri-sendiri",
+            "benar": "Secara default, keluarga cukup satu NPWP/NIK dan satu SPT atas nama kepala keluarga, kecuali memilih skema pemisahan",
+            "tips": "Cek dulu apakah istri punya penghasilan tambahan sebelum memutuskan perlu NPWP terpisah atau tidak"
+          }
+        ],
+        "istilah": [
+          {
+            "kata": "Kesatuan Ekonomis",
+            "definisi": "Prinsip yang menganggap keluarga (suami-istri) sebagai satu kesatuan ekonomi dalam pemenuhan kewajiban perpajakan.",
+            "contoh": "Karena prinsip kesatuan ekonomis, penghasilan Bu Dewi digabung dengan penghasilan suaminya di satu SPT."
+          },
+          {
+            "kata": "Penghasilan Final Istri",
+            "definisi": "Penghasilan istri yang semata-mata berasal dari satu pemberi kerja dan telah dipotong PPh 21, sehingga cukup digabungkan ke SPT suami tanpa dihitung ulang.",
+            "contoh": "Gaji istri Pak Joko yang hanya bekerja di satu perusahaan termasuk penghasilan final istri."
+          },
+          {
+            "kata": "Kepala Keluarga (Pajak)",
+            "definisi": "Pihak (biasanya suami) yang bertanggung jawab melaporkan SPT Tahunan gabungan atas nama seluruh anggota keluarga sebagai satu kesatuan ekonomis.",
+            "contoh": "Pak Joko berperan sebagai kepala keluarga yang melaporkan SPT gabungan."
+          }
+        ]
+      },
+      {
+        "id": "bag-13",
+        "judul": "Empat Status Perpajakan Keluarga",
+        "paragraf": [
+          "Nah, meskipun default-nya keluarga itu satu kesatuan (digabung), ada 4 status perpajakan keluarga yang diakui DJP, dan ini penting banget buat kamu yang situasinya nggak 'standar'. Keempatnya adalah: KK, HB, PH, dan MT.",
+          "KK (Kepala Keluarga) adalah status paling umum — satu NPWP/NIK buat seluruh keluarga, penghasilan digabung semua, dan suami (atau istri kalau dia yang jadi kepala keluarga) yang lapor SPT. HB (Hidup Berpisah) berlaku buat pasangan yang secara hukum sudah berpisah/bercerai (bukan cuma pisah rumah aja), sehingga masing-masing punya NPWP dan kewajiban pajak sendiri-sendiri secara penuh.",
+          "PH (Pisah Harta) berlaku buat pasangan yang menikah dengan perjanjian pemisahan harta secara notariil sejak awal pernikahan (prenuptial agreement). Di sini, meskipun masih menikah dan tinggal serumah, masing-masing dihitung pajaknya SECARA TERPISAH sesuai proporsi harta/penghasilan masing-masing. MT (Memilih Terpisah) berlaku buat pasangan yang TIDAK punya perjanjian pisah harta, tapi mereka SECARA SUKARELA memilih untuk menghitung dan melaporkan pajak secara terpisah (biasanya karena alasan praktis, misal kedua-duanya sama-sama punya usaha aktif).",
+          "Buat status PH dan MT, PPh terutang dihitung secara PROPORSIONAL. Caranya: PPh terutang atas gabungan penghasilan suami-istri dihitung dulu seolah-olah digabung, lalu dibagi berdasarkan PERBANDINGAN penghasilan neto masing-masing terhadap total penghasilan neto gabungan. Jadi kalau suami kontribusi 70% dari total penghasilan gabungan, dia bayar 70% dari total PPh terutang gabungan tersebut, dan istri bayar sisanya 30%."
+        ],
+        "poin_penting": [
+          "👪 KK: kepala keluarga, satu NPWP untuk semua, ini status default",
+          "💔 HB: Hidup Berpisah (cerai secara hukum), masing-masing wajib pajak penuh secara terpisah",
+          "📝 PH: Pisah Harta (perjanjian notariil), dihitung terpisah meski masih menikah",
+          "🔀 MT: Memilih Terpisah secara sukarela tanpa perjanjian pisah harta, dihitung proporsional"
+        ],
+        "analogi": "Bayangin status ini kayak cara bagi tagihan makan bareng temen. KK itu kayak satu orang yang bayarin semua terus temen-temen 'nyumbang' ke dia (digabung). HB itu kayak masing-masing bayar sendiri-sendiri karena udah nggak satu grup lagi. PH dan MT itu kayak tetep satu meja tapi masing-masing minta pisah nota sesuai porsi makanannya masing-masing.",
+        "diagram_mermaid": [],
+        "prompt_gambar": [],
+        "kalkulator": null,
+        "mini_kuis": [
+          {
+            "id": "q1",
+            "pertanyaan": "Status perpajakan keluarga yang berlaku untuk pasangan dengan perjanjian pemisahan harta sejak awal pernikahan adalah?",
+            "tipe": "pilihan_ganda",
+            "pilihan": [
+              "A. KK",
+              "B. HB",
+              "C. PH",
+              "D. MT"
+            ],
+            "jawaban": "C",
+            "pembahasan": "Jawaban benar C, karena PH (Pisah Harta) khusus untuk pasangan yang memiliki perjanjian pemisahan harta secara notariil sejak awal pernikahan, sehingga pajak dihitung terpisah meski masih menikah."
+          },
+          {
+            "id": "q2",
+            "pertanyaan": "Status MT (Memilih Terpisah) mensyaratkan adanya perjanjian pisah harta secara notariil.",
+            "tipe": "benar_salah",
+            "pilihan": [
+              "Benar",
+              "Salah"
+            ],
+            "jawaban": "Salah",
+            "pembahasan": "Pernyataan ini salah. Status MT justru berlaku untuk pasangan yang TIDAK memiliki perjanjian pisah harta, namun secara sukarela memilih menghitung pajak secara terpisah."
+          }
+        ],
+        "kesalahan_umum": [
+          {
+            "salah": "Mengira status HB berlaku cuma karena pasangan pisah rumah tanpa proses hukum resmi",
+            "benar": "HB (Hidup Berpisah) hanya berlaku untuk pasangan yang sudah berpisah/bercerai secara hukum resmi, bukan sekadar pisah tempat tinggal",
+            "tips": "Pastikan ada dokumen hukum resmi (putusan pengadilan/akta cerai) sebelum menggunakan status HB"
+          },
+          {
+            "salah": "Mengira PPh untuk status PH/MT dihitung sepenuhnya sendiri-sendiri tanpa memperhitungkan penghasilan pasangan sama sekali",
+            "benar": "PPh terutang gabungan dihitung dulu, baru dibagi proporsional berdasarkan kontribusi penghasilan neto masing-masing",
+            "tips": "Ingat rumus proporsional: PPh masing-masing = (Penghasilan Neto Individu / Total Penghasilan Neto Gabungan) x PPh Terutang Gabungan"
+          }
+        ],
+        "istilah": [
+          {
+            "kata": "HB",
+            "definisi": "Hidup Berpisah, status perpajakan untuk pasangan yang telah berpisah atau bercerai secara hukum, sehingga masing-masing menjadi wajib pajak penuh secara terpisah.",
+            "contoh": "Setelah resmi bercerai, Bu Siti menggunakan status HB dalam pelaporan pajaknya."
+          },
+          {
+            "kata": "PH",
+            "definisi": "Pisah Harta, status perpajakan untuk pasangan yang memiliki perjanjian pemisahan harta secara notariil sejak awal pernikahan.",
+            "contoh": "Pak Joko dan istrinya memilih status PH karena memiliki perjanjian pisah harta sejak menikah."
+          },
+          {
+            "kata": "MT",
+            "definisi": "Memilih Terpisah, status perpajakan di mana pasangan tanpa perjanjian pisah harta secara sukarela memilih menghitung pajak secara terpisah.",
+            "contoh": "Karena sama-sama punya usaha aktif, Mas Andi dan istrinya memilih status MT."
+          }
+        ]
+      },
+      {
+        "id": "bag-14",
+        "judul": "Formulir SPT Tahunan dan Deadline Coretax",
+        "paragraf": [
+          "Sekarang kita masuk ke bagian praktis: gimana cara lapor pajak tahunan kamu? DJP punya 3 jenis formulir SPT Tahunan buat Orang Pribadi, dan pemilihannya tergantung sumber dan besaran penghasilan kamu. Salah pilih formulir bisa bikin laporan kamu dianggap nggak lengkap.",
+          "Formulir 1770 SS (Sangat Sederhana) dipakai buat karyawan dengan penghasilan bruto setahun MAKSIMAL Rp60 juta DAN cuma punya satu pemberi kerja. Formulir 1770 S (Sederhana) dipakai buat karyawan dengan penghasilan bruto di ATAS Rp60 juta setahun, ATAU karyawan yang punya lebih dari satu pemberi kerja dalam setahun. Sementara Formulir 1770 (versi lengkap, tanpa embel-embel) dipakai buat Orang Pribadi yang punya penghasilan dari usaha atau pekerjaan bebas (bukan cuma karyawan).",
+          "Soal deadline, ini yang WAJIB kamu inget: batas waktu pelaporan SPT Tahunan Orang Pribadi adalah TANGGAL 31 MARET setiap tahunnya, untuk melaporkan penghasilan tahun pajak sebelumnya. Kalau kamu telat lapor, ada sanksi denda administratif sebesar Rp100.000 buat SPT Orang Pribadi (beda sama SPT Badan yang dendanya Rp1 juta).",
+          "Di era Coretax DJP 2026 ini, proses pelaporan udah full digital lewat portal Coretax yang terintegrasi (menggantikan sistem e-Filing/DJP Online yang lama), di mana banyak data (kayak bukti potong PPh 21 dari kantor) udah otomatis ke-prefill di sistem, jadi kamu tinggal ngecek dan lengkapi data yang belum ke-cover aja. Ini bikin proses lapor jauh lebih cepat dibanding sistem lama, asal NIK kamu udah terpadankan dengan benar."
+        ],
+        "poin_penting": [
+          "📄 1770 SS: karyawan, bruto ≤Rp60jt, 1 pemberi kerja",
+          "📄 1770 S: karyawan, bruto >Rp60jt atau >1 pemberi kerja",
+          "📄 1770: Orang Pribadi dengan penghasilan usaha/pekerjaan bebas",
+          "⏰ Deadline pelaporan: 31 Maret, sanksi telat lapor Rp100.000"
+        ],
+        "analogi": "Milih formulir SPT itu kayak milih ukuran koper buat traveling. Koper kabin kecil (1770 SS) cukup buat trip singkat dengan barang dikit. Koper sedang (1770 S) buat trip yang agak kompleks. Koper besar (1770) buat kamu yang bawa 'banyak barang' alias sumber penghasilan yang variatif kayak usaha sendiri.",
+        "diagram_mermaid": [],
+        "prompt_gambar": [],
+        "kalkulator": null,
+        "mini_kuis": [
+          {
+            "id": "q1",
+            "pertanyaan": "Formulir SPT apa yang wajib digunakan karyawan dengan penghasilan bruto Rp80 juta setahun dari satu pemberi kerja?",
+            "tipe": "pilihan_ganda",
+            "pilihan": [
+              "A. 1770 SS",
+              "B. 1770 S",
+              "C. 1770",
+              "D. Tidak perlu lapor"
+            ],
+            "jawaban": "B",
+            "pembahasan": "Jawaban benar B, karena penghasilan bruto Rp80 juta sudah melebihi batas Rp60 juta untuk 1770 SS, sehingga wajib menggunakan formulir 1770 S meskipun hanya punya satu pemberi kerja."
+          },
+          {
+            "id": "q2",
+            "pertanyaan": "Batas waktu pelaporan SPT Tahunan Orang Pribadi adalah 31 Maret setiap tahunnya.",
+            "tipe": "benar_salah",
+            "pilihan": [
+              "Benar",
+              "Salah"
+            ],
+            "jawaban": "Benar",
+            "pembahasan": "Pernyataan ini benar. Batas waktu pelaporan SPT Tahunan untuk Wajib Pajak Orang Pribadi adalah tanggal 31 Maret tahun berikutnya setelah tahun pajak yang dilaporkan."
+          }
+        ],
+        "kesalahan_umum": [
+          {
+            "salah": "Mengira semua karyawan otomatis pakai formulir 1770 SS tanpa lihat batas penghasilan",
+            "benar": "1770 SS cuma buat karyawan dengan bruto maksimal Rp60jt/tahun DAN cuma 1 pemberi kerja; di luar itu wajib 1770 S",
+            "tips": "Selalu cek dua syarat sekaligus: nominal penghasilan DAN jumlah pemberi kerja sebelum pilih formulir"
+          }
+        ],
+        "istilah": [
+          {
+            "kata": "1770 S",
+            "definisi": "Formulir SPT Tahunan Orang Pribadi untuk karyawan dengan penghasilan bruto di atas Rp60 juta setahun atau memiliki lebih dari satu pemberi kerja.",
+            "contoh": "Mas Andi menggunakan formulir 1770 S karena gajinya sudah di atas Rp60 juta setahun."
+          },
+          {
+            "kata": "1770",
+            "definisi": "Formulir SPT Tahunan Orang Pribadi untuk wajib pajak dengan penghasilan dari usaha atau pekerjaan bebas.",
+            "contoh": "Pak Budi menggunakan formulir 1770 karena punya usaha konveksi sendiri."
+          },
+          {
+            "kata": "Portal Coretax",
+            "definisi": "Sistem pelaporan pajak digital terintegrasi milik DJP yang menggantikan sistem e-Filing/DJP Online lama, dengan fitur prefill data otomatis.",
+            "contoh": "Bu Rina melaporkan SPT Tahunannya lewat portal Coretax dengan data bukti potong yang sudah otomatis terisi."
+          }
+        ]
+      },
+      {
+        "id": "bag-15",
+        "judul": "Kredit Pajak dan Perhitungan Pasal 29/28A",
+        "paragraf": [
+          "Nah, ini bagian penutup yang nentuin: di akhir tahun, kamu bakal KURANG BAYAR atau LEBIH BAYAR pajak? Konsepnya gini: sepanjang tahun, kamu udah 'nyicil' bayar pajak lewat berbagai potongan/setoran yang disebut KREDIT PAJAK. Nah, total kredit pajak ini dibandingkan sama PPh terutang final yang dihitung pas SPT Tahunan.",
+          "Ada beberapa jenis kredit pajak yang bisa dikreditkan: PPh Pasal 21 (dipotong dari gaji karyawan), PPh Pasal 22 (dipungut atas impor/pembelian barang tertentu), PPh Pasal 23 (dipotong atas jasa, sewa, royalti dari pihak lain), PPh Pasal 24 (pajak yang udah dibayar di luar negeri buat SPDN yang punya penghasilan luar negeri), dan Angsuran PPh Pasal 25 (angsuran bulanan yang dibayar sendiri, biasanya buat pengusaha/pekerja bebas).",
+          "Kalau setelah dijumlah, PPh terutang menurut SPT Tahunan LEBIH BESAR dari total kredit pajak yang udah disetor, maka selisihnya itu namanya PPh Pasal 29 alias KURANG BAYAR — dan kamu wajib nyetor kekurangannya sebelum lapor SPT (paling lambat 31 Maret juga). Sebaliknya, kalau kredit pajak yang udah disetor LEBIH BESAR dari PPh terutang, itu namanya PPh Pasal 28A alias LEBIH BAYAR — dan kamu berhak minta restitusi (pengembalian) dari DJP.",
+          "Contoh gampangnya: Mas Andi yang PPh terutang setahunnya Rp30 juta (dari contoh bagian 10), tapi sepanjang tahun kantornya udah motong PPh 21 total Rp32 juta (karena mungkin ada bonus yang dipotong lebih di awal tahun), maka Mas Andi punya Lebih Bayar Rp2 juta (Pasal 28A) yang bisa dia minta restitusi atau kompensasi ke tahun depan lewat SPT Tahunannya."
+        ],
+        "poin_penting": [
+          "🧮 Kredit Pajak: PPh 21, 22, 23, 24, dan Angsuran PPh 25 yang sudah disetor sepanjang tahun",
+          "❌ PPh Pasal 29 = Kurang Bayar (PPh terutang > kredit pajak), wajib disetor sebelum lapor SPT",
+          "✅ PPh Pasal 28A = Lebih Bayar (kredit pajak > PPh terutang), berhak restitusi",
+          "🔑 Restitusi dan kurang bayar dihitung otomatis di SPT Tahunan lewat Coretax"
+        ],
+        "analogi": "Bayangin kredit pajak itu kayak cicilan yang udah kamu bayar sepanjang tahun buat sebuah barang. Di akhir tahun, baru ketahuan harga pas barangnya (PPh terutang final). Kalau cicilan kamu udah lebih dari harga pasnya, kamu dapet uang kembali (Lebih Bayar). Kalau cicilan kamu masih kurang, kamu wajib nambahin sisanya (Kurang Bayar).",
+        "diagram_mermaid": [],
+        "prompt_gambar": [],
+        "kalkulator": {
+          "tipe": "pph_op",
+          "judul": "Kalkulator Kurang/Lebih Bayar PPh OP",
+          "keterangan": "Masukkan PPh terutang final dan total kredit pajak (PPh 21/22/23/24/25) untuk mengetahui status Kurang Bayar (Pasal 29) atau Lebih Bayar (Pasal 28A)."
+        },
+        "mini_kuis": [
+          {
+            "id": "q1",
+            "pertanyaan": "Jika PPh terutang menurut SPT Tahunan lebih besar dari total kredit pajak yang sudah disetor, kondisi ini disebut?",
+            "tipe": "pilihan_ganda",
+            "pilihan": [
+              "A. PPh Pasal 21",
+              "B. PPh Pasal 25",
+              "C. PPh Pasal 28A (Lebih Bayar)",
+              "D. PPh Pasal 29 (Kurang Bayar)"
+            ],
+            "jawaban": "D",
+            "pembahasan": "Jawaban benar D. Ketika PPh terutang lebih besar dari kredit pajak yang sudah disetor, selisihnya disebut PPh Pasal 29 atau Kurang Bayar, yang wajib disetor sebelum SPT Tahunan dilaporkan."
+          },
+          {
+            "id": "q2",
+            "pertanyaan": "PPh Pasal 24 termasuk salah satu jenis kredit pajak yang bisa dikreditkan dalam SPT Tahunan.",
+            "tipe": "benar_salah",
+            "pilihan": [
+              "Benar",
+              "Salah"
+            ],
+            "jawaban": "Benar",
+            "pembahasan": "Pernyataan ini benar. PPh Pasal 24 adalah pajak yang sudah dibayar di luar negeri atas penghasilan luar negeri milik SPDN, dan bisa dikreditkan terhadap PPh terutang di Indonesia."
+          }
+        ],
+        "kesalahan_umum": [
+          {
+            "salah": "Mengira Lebih Bayar (restitusi) otomatis cair tanpa proses verifikasi apa pun dari DJP",
+            "benar": "Restitusi tetap melalui proses pemeriksaan/penelitian oleh DJP sebelum dana dikembalikan ke wajib pajak",
+            "tips": "Siapkan semua bukti potong dan dokumen pendukung dengan rapi untuk mempercepat proses restitusi"
+          },
+          {
+            "salah": "Mengira Kurang Bayar (Pasal 29) boleh disetor kapan saja setelah lapor SPT",
+            "benar": "Kurang Bayar wajib disetor SEBELUM SPT Tahunan dilaporkan, idealnya sebelum atau bersamaan dengan tanggal 31 Maret",
+            "tips": "Selalu setor Kurang Bayar dulu baru submit SPT Tahunan untuk menghindari sanksi administratif"
+          }
+        ],
+        "istilah": [
+          {
+            "kata": "Kredit Pajak",
+            "definisi": "Jumlah pajak yang sudah dipotong, dipungut, atau disetor sendiri oleh wajib pajak sepanjang tahun, yang dapat dikurangkan dari PPh terutang final.",
+            "contoh": "Total PPh 21 yang dipotong kantor Mas Andi menjadi kredit pajak dalam SPT Tahunannya."
+          },
+          {
+            "kata": "PPh Pasal 29",
+            "definisi": "Pajak kurang bayar, yaitu selisih kurang antara PPh terutang menurut SPT Tahunan dengan total kredit pajak yang sudah disetor.",
+            "contoh": "Pak Budi harus menyetor PPh Pasal 29 sebesar selisih kekurangan pajaknya."
+          },
+          {
+            "kata": "PPh Pasal 28A",
+            "definisi": "Pajak lebih bayar, yaitu selisih lebih antara kredit pajak yang sudah disetor dengan PPh terutang menurut SPT Tahunan, yang bisa direstitusi.",
+            "contoh": "Mas Andi berhak mengajukan restitusi karena SPT-nya menunjukkan PPh Pasal 28A sebesar Rp2 juta."
+          },
+          {
+            "kata": "Restitusi",
+            "definisi": "Proses pengembalian kelebihan pembayaran pajak dari DJP kepada wajib pajak setelah melalui pemeriksaan atau penelitian.",
+            "contoh": "Setelah diperiksa, DJP mencairkan restitusi PPh Mas Andi sebesar Rp2 juta ke rekeningnya."
+          }
+        ]
+      }
+    ],
+    "kuis_akhir": {
+      "judul": "Kuis Akhir: Uji Pemahaman Modul PPh Orang Pribadi",
+      "nilai_lulus": 70,
+      "waktu_menit": 40,
+      "soal": [
+        {
+          "id": "q1",
+          "pertanyaan": "PPh Orang Pribadi dikenakan atas dasar konsep apa menurut Pasal 4 ayat 1 UU PPh?",
+          "tipe": "pilihan_ganda",
+          "pilihan": [
+            "A. Kepemilikan aset",
+            "B. Tambahan Kemampuan Ekonomis",
+            "C. Konsumsi barang/jasa",
+            "D. Transaksi jual beli"
+          ],
+          "jawaban": "B",
+          "pembahasan": "Jawaban benar B, karena objek PPh adalah setiap tambahan kemampuan ekonomis yang diterima wajib pajak. Pilihan A dekat dengan PBB, C dengan PPN, dan D bukan konsep dasar PPh."
+        },
+        {
+          "id": "q2",
+          "pertanyaan": "Seseorang dianggap SPDN jika berada di Indonesia lebih dari berapa hari dalam 12 bulan?",
+          "tipe": "pilihan_ganda",
+          "pilihan": [
+            "A. 90 hari",
+            "B. 120 hari",
+            "C. 183 hari",
+            "D. 365 hari"
+          ],
+          "jawaban": "C",
+          "pembahasan": "Jawaban benar C, sesuai Pasal 2 ayat 3 UU PPh yang mensyaratkan lebih dari 183 hari dalam 12 bulan sebagai salah satu syarat alternatif status SPDN."
+        },
+        {
+          "id": "q3",
+          "pertanyaan": "Bunga deposito termasuk objek PPh Final dengan tarif berapa persen?",
+          "tipe": "pilihan_ganda",
+          "pilihan": [
+            "A. 10%",
+            "B. 15%",
+            "C. 20%",
+            "D. 25%"
+          ],
+          "jawaban": "C",
+          "pembahasan": "Jawaban benar C. Bunga deposito dan tabungan dikenakan PPh Final sebesar 20% sesuai ketentuan Pasal 4 ayat 2 UU PPh, dan dipotong langsung oleh bank."
+        },
+        {
+          "id": "q4",
+          "pertanyaan": "Warisan yang diterima seseorang termasuk objek pajak yang dikenakan tarif progresif.",
+          "tipe": "benar_salah",
+          "pilihan": [
+            "Benar",
+            "Salah"
+          ],
+          "jawaban": "Salah",
+          "pembahasan": "Pernyataan ini salah karena warisan termasuk Non-Objek Pajak sesuai Pasal 4 ayat 3 UU PPh, sehingga sama sekali tidak dikenakan pajak dan tidak perlu dilaporkan sebagai penghasilan."
+        },
+        {
+          "id": "q5",
+          "pertanyaan": "Wajib pajak dengan omzet usaha Rp10 miliar per tahun wajib menggunakan mekanisme perhitungan apa?",
+          "tipe": "pilihan_ganda",
+          "pilihan": [
+            "A. NPPN",
+            "B. PPh Final PP 55/2022",
+            "C. Pembukuan",
+            "D. Bebas pilih salah satu"
+          ],
+          "jawaban": "C",
+          "pembahasan": "Jawaban benar C, karena omzet di atas Rp4,8 miliar per tahun mewajibkan penggunaan mekanisme pembukuan, tanpa pilihan mekanisme lain."
+        },
+        {
+          "id": "q6",
+          "pertanyaan": "Berapa batas waktu penyampaian Pemberitahuan penggunaan NPPN ke DJP?",
+          "tipe": "pilihan_ganda",
+          "pilihan": [
+            "A. 1 bulan pertama tahun pajak",
+            "B. 3 bulan pertama tahun pajak",
+            "C. 6 bulan pertama tahun pajak",
+            "D. Akhir tahun pajak"
+          ],
+          "jawaban": "B",
+          "pembahasan": "Jawaban benar B, sesuai PER-17/PJ/2015 yang mensyaratkan pemberitahuan penggunaan NPPN disampaikan dalam 3 bulan pertama tahun pajak yang bersangkutan."
+        },
+        {
+          "id": "q7",
+          "pertanyaan": "Berapa batas omzet bebas PPh Final bagi Wajib Pajak OP UMKM sesuai PP 55/2022?",
+          "tipe": "pilihan_ganda",
+          "pilihan": [
+            "A. Rp250 juta",
+            "B. Rp500 juta",
+            "C. Rp1 miliar",
+            "D. Rp4,8 miliar"
+          ],
+          "jawaban": "B",
+          "pembahasan": "Jawaban benar B. PP 55/2022 memberikan fasilitas bebas PPh Final untuk omzet sampai dengan Rp500 juta per tahun bagi Wajib Pajak Orang Pribadi UMKM."
+        },
+        {
+          "id": "q8",
+          "pertanyaan": "Skema PPh Final PP 55/2022 dapat digunakan oleh Orang Pribadi tanpa batas waktu.",
+          "tipe": "benar_salah",
+          "pilihan": [
+            "Benar",
+            "Salah"
+          ],
+          "jawaban": "Salah",
+          "pembahasan": "Pernyataan ini salah karena skema PPh Final PP 55/2022 untuk Orang Pribadi hanya berlaku maksimal 7 tahun sejak pertama kali terdaftar menggunakan skema ini."
+        },
+        {
+          "id": "q9",
+          "pertanyaan": "Berapa besaran PTKP untuk status TK/0 (tidak kawin, tanpa tanggungan)?",
+          "tipe": "pilihan_ganda",
+          "pilihan": [
+            "A. Rp48.000.000",
+            "B. Rp54.000.000",
+            "C. Rp58.500.000",
+            "D. Rp67.500.000"
+          ],
+          "jawaban": "B",
+          "pembahasan": "Jawaban benar B, sesuai PMK 101/2016 yang menetapkan PTKP dasar untuk Wajib Pajak sendiri sebesar Rp54.000.000 per tahun."
+        },
+        {
+          "id": "q10",
+          "pertanyaan": "Berapa besaran PTKP untuk status K/3 (kawin, 3 tanggungan)?",
+          "tipe": "isian_singkat",
+          "pilihan": null,
+          "jawaban": "Rp72.000.000",
+          "pembahasan": "Rp54jt (WP sendiri) + Rp4,5jt (status kawin) + (3 x Rp4,5jt untuk 3 tanggungan) = Rp72.000.000 per tahun."
+        },
+        {
+          "id": "q11",
+          "pertanyaan": "Berapa tarif progresif untuk lapisan Penghasilan Kena Pajak di atas Rp500 juta sampai Rp5 miliar?",
+          "tipe": "pilihan_ganda",
+          "pilihan": [
+            "A. 15%",
+            "B. 25%",
+            "C. 30%",
+            "D. 35%"
+          ],
+          "jawaban": "C",
+          "pembahasan": "Jawaban benar C, sesuai Pasal 17 UU HPP yang menetapkan tarif 30% untuk lapisan PKP di atas Rp500 juta sampai dengan Rp5 miliar."
+        },
+        {
+          "id": "q12",
+          "pertanyaan": "Hitunglah PPh terutang untuk Penghasilan Kena Pajak sebesar Rp150.000.000!",
+          "tipe": "isian_singkat",
+          "pilihan": null,
+          "jawaban": "Rp16.500.000",
+          "pembahasan": "Rp60 juta pertama dikali 5% = Rp3.000.000, sisanya Rp90 juta (Rp150jt-Rp60jt) dikali 15% = Rp13.500.000. Total PPh terutang = Rp3.000.000 + Rp13.500.000 = Rp16.500.000."
+        },
+        {
+          "id": "q13",
+          "pertanyaan": "Berapa persen kenaikan tarif pemotongan PPh 21/23 bagi wajib pajak tanpa NPWP?",
+          "tipe": "pilihan_ganda",
+          "pilihan": [
+            "A. 10%",
+            "B. 15%",
+            "C. 20%",
+            "D. 30%"
+          ],
+          "jawaban": "C",
+          "pembahasan": "Jawaban benar C, sesuai Pasal 21 ayat 5a UU PPh yang menetapkan tarif pemotongan 20% lebih tinggi bagi wajib pajak yang tidak memiliki NPWP."
+        },
+        {
+          "id": "q14",
+          "pertanyaan": "NIK 16 digit di KTP saat ini berfungsi sebagai pengganti penuh NPWP untuk Orang Pribadi.",
+          "tipe": "benar_salah",
+          "pilihan": [
+            "Benar",
+            "Salah"
+          ],
+          "jawaban": "Benar",
+          "pembahasan": "Pernyataan ini benar. DJP telah mengintegrasikan NIK 16 digit sebagai NPWP bagi Wajib Pajak Orang Pribadi sebagai bagian dari modernisasi Coretax."
+        },
+        {
+          "id": "q15",
+          "pertanyaan": "Penghasilan istri dianggap final dan cukup digabung ke SPT suami jika memenuhi syarat apa?",
+          "tipe": "pilihan_ganda",
+          "pilihan": [
+            "A. Istri punya usaha sampingan",
+            "B. Istri hanya bekerja pada satu pemberi kerja",
+            "C. Istri tidak bekerja sama sekali",
+            "D. Istri bekerja di lebih dari satu tempat"
+          ],
+          "jawaban": "B",
+          "pembahasan": "Jawaban benar B, sesuai Pasal 8 ayat 1 UU PPh. Penghasilan istri dianggap final dan cukup digabung ke SPT suami hanya jika istri semata-mata bekerja pada satu pemberi kerja."
+        },
+        {
+          "id": "q16",
+          "pertanyaan": "Status perpajakan keluarga PH (Pisah Harta) mensyaratkan adanya perjanjian notariil sejak awal pernikahan.",
+          "tipe": "benar_salah",
+          "pilihan": [
+            "Benar",
+            "Salah"
+          ],
+          "jawaban": "Benar",
+          "pembahasan": "Pernyataan ini benar. Status PH berlaku untuk pasangan dengan perjanjian pemisahan harta secara notariil yang dibuat sejak awal pernikahan."
+        },
+        {
+          "id": "q17",
+          "pertanyaan": "Formulir SPT Tahunan apa yang digunakan Orang Pribadi dengan penghasilan dari usaha/pekerjaan bebas?",
+          "tipe": "pilihan_ganda",
+          "pilihan": [
+            "A. 1770 SS",
+            "B. 1770 S",
+            "C. 1770",
+            "D. 1771"
+          ],
+          "jawaban": "C",
+          "pembahasan": "Jawaban benar C. Formulir 1770 (tanpa embel-embel) digunakan oleh Orang Pribadi yang memiliki penghasilan dari usaha atau pekerjaan bebas, berbeda dengan 1770 SS/S yang untuk karyawan."
+        },
+        {
+          "id": "q18",
+          "pertanyaan": "Kapan batas waktu pelaporan SPT Tahunan Orang Pribadi setiap tahunnya?",
+          "tipe": "pilihan_ganda",
+          "pilihan": [
+            "A. 31 Januari",
+            "B. 28 Februari",
+            "C. 31 Maret",
+            "D. 30 April"
+          ],
+          "jawaban": "C",
+          "pembahasan": "Jawaban benar C. Batas waktu pelaporan SPT Tahunan Orang Pribadi adalah 31 Maret tahun berikutnya setelah tahun pajak yang dilaporkan."
+        },
+        {
+          "id": "q19",
+          "pertanyaan": "Kondisi di mana total kredit pajak yang disetor lebih besar dari PPh terutang disebut PPh Pasal 28A atau Lebih Bayar.",
+          "tipe": "benar_salah",
+          "pilihan": [
+            "Benar",
+            "Salah"
+          ],
+          "jawaban": "Benar",
+          "pembahasan": "Pernyataan ini benar. Ketika total kredit pajak melebihi PPh terutang menurut SPT Tahunan, selisihnya disebut PPh Pasal 28A atau Lebih Bayar, yang bisa direstitusi."
+        },
+        {
+          "id": "q20",
+          "pertanyaan": "Jelaskan perbedaan mendasar antara mekanisme NPPN dan PPh Final PP 55/2022, serta kapan masing-masing sebaiknya dipilih!",
+          "tipe": "esai",
+          "pilihan": null,
+          "jawaban": "Jawaban lengkap harus menyentuh: (1) NPPN menghasilkan Penghasilan Neto yang masih digabung dan dikenakan tarif progresif Pasal 17, sedangkan PPh Final PP 55/2022 langsung final di tarif 0,5% dari omzet tanpa dihitung ulang; (2) NPPN cocok untuk profesi dengan margin keuntungan tinggi (seperti dokter/konsultan) karena norma yang dipakai bisa jadi lebih menguntungkan dibanding tarif final flat; (3) PPh Final PP 55/2022 lebih cocok untuk UMKM kecil dengan omzet di bawah Rp500 juta karena bisa memanfaatkan fasilitas bebas pajak dan administrasinya paling sederhana; (4) kedua skema mensyaratkan omzet di bawah Rp4,8 miliar per tahun, dan PPh Final punya batas waktu maksimal 7 tahun sedangkan NPPN tidak dibatasi waktu.",
+          "pembahasan": "Jawaban dinilai tepat jika siswa memahami perbedaan cara hitung (final vs progresif), konteks kapan masing-masing menguntungkan, dan batasan-batasan administratifnya."
+        }
+      ]
+    },
+    "glosarium": [
+      {
+        "kata": "PPh",
+        "definisi": "Pajak Penghasilan, pajak yang dikenakan atas penghasilan yang diterima wajib pajak dalam satu tahun pajak.",
+        "penjelasan_sederhana": "Pajak yang dipotong dari uang yang kamu hasilkan, entah dari gaji, usaha, atau investasi."
+      },
+      {
+        "kata": "TKE",
+        "definisi": "Tambahan Kemampuan Ekonomis, setiap penambahan kekayaan yang diterima wajib pajak.",
+        "penjelasan_sederhana": "Setiap kali kekayaan kamu nambah, itu berpotensi kena pajak."
+      },
+      {
+        "kata": "SPDN",
+        "definisi": "Subjek Pajak Dalam Negeri, orang yang memenuhi kriteria tempat tinggal/lama tinggal di Indonesia sehingga dipajaki atas seluruh penghasilannya.",
+        "penjelasan_sederhana": "Orang yang secara pajak dianggap 'penduduk' Indonesia, jadi seluruh penghasilannya di mana pun kena pajak Indonesia."
+      },
+      {
+        "kata": "SPLN",
+        "definisi": "Subjek Pajak Luar Negeri, orang yang tidak bertempat tinggal di Indonesia tapi menerima penghasilan dari sumber Indonesia.",
+        "penjelasan_sederhana": "Orang luar negeri yang cuma dipajaki atas penghasilan yang dia dapat dari Indonesia aja."
+      },
+      {
+        "kata": "PPh Final",
+        "definisi": "Pajak penghasilan yang pemotongannya sudah bersifat final dan tidak digabung lagi dengan penghasilan lain.",
+        "penjelasan_sederhana": "Pajak yang udah 'selesai' dipotong sekali, nggak perlu dihitung ulang lagi."
+      },
+      {
+        "kata": "Non-Objek Pajak",
+        "definisi": "Penghasilan yang dikecualikan sepenuhnya dari pengenaan pajak sesuai Pasal 4 ayat 3 UU PPh.",
+        "penjelasan_sederhana": "Penghasilan yang sama sekali bebas pajak, kayak warisan atau hibah keluarga dekat."
+      },
+      {
+        "kata": "Pembukuan",
+        "definisi": "Pencatatan keuangan teratur untuk menghitung laba-rugi usaha secara akurat, wajib untuk omzet di atas Rp4,8 miliar.",
+        "penjelasan_sederhana": "Nyatet detail semua pemasukan dan pengeluaran usaha kamu."
+      },
+      {
+        "kata": "NPPN",
+        "definisi": "Norma Penghitungan Penghasilan Neto, cara menghitung penghasilan neto dari persentase tertentu dikali omzet.",
+        "penjelasan_sederhana": "Cara ngitung untung usaha tanpa perlu nyatet detail, tinggal pakai persentase standar."
+      },
+      {
+        "kata": "PP 55/2022",
+        "definisi": "Peraturan Pemerintah yang mengatur PPh Final 0,5% bagi UMKM tertentu.",
+        "penjelasan_sederhana": "Aturan yang bikin UMKM kecil cuma bayar pajak 0,5% dari omzetnya."
+      },
+      {
+        "kata": "Omzet",
+        "definisi": "Jumlah seluruh peredaran bruto atau penerimaan usaha dalam suatu periode, sebelum dikurangi biaya.",
+        "penjelasan_sederhana": "Total uang yang masuk dari jualan/usaha kamu, belum dikurangi modal."
+      },
+      {
+        "kata": "PTKP",
+        "definisi": "Penghasilan Tidak Kena Pajak, batas penghasilan yang tidak dikenakan pajak sebagai representasi biaya hidup minimal.",
+        "penjelasan_sederhana": "Jatah penghasilan gratis pajak sebelum sisanya baru dihitung kena tarif."
+      },
+      {
+        "kata": "TK",
+        "definisi": "Kode status PTKP untuk Wajib Pajak Tidak Kawin.",
+        "penjelasan_sederhana": "Kode buat kamu yang masih single di mata pajak."
+      },
+      {
+        "kata": "K/I",
+        "definisi": "Kode status PTKP untuk Wajib Pajak Kawin dengan penghasilan istri digabung.",
+        "penjelasan_sederhana": "Kode buat pasangan yang penghasilan istrinya digabung ke suami di SPT."
+      },
+      {
+        "kata": "PKP",
+        "definisi": "Penghasilan Kena Pajak, yaitu Penghasilan Neto dikurangi PTKP, dasar penghitungan tarif progresif.",
+        "penjelasan_sederhana": "Sisa penghasilan setelah dikurangi jatah gratis pajak (PTKP), inilah yang dikenakan tarif."
+      },
+      {
+        "kata": "Tarif Progresif",
+        "definisi": "Sistem tarif pajak yang persentasenya meningkat seiring bertambahnya penghasilan kena pajak.",
+        "penjelasan_sederhana": "Makin gede penghasilan kamu, makin gede juga persentase pajaknya, dihitung bertahap."
+      },
+      {
+        "kata": "TER",
+        "definisi": "Tarif Efektif Rata-rata, skema pemotongan PPh 21 bulanan yang disederhanakan.",
+        "penjelasan_sederhana": "Tabel praktis yang dipakai HR buat motong gaji bulanan kamu tanpa ribet ngitung manual."
+      },
+      {
+        "kata": "NIK",
+        "definisi": "Nomor Induk Kependudukan yang kini juga berfungsi sebagai NPWP untuk Orang Pribadi.",
+        "penjelasan_sederhana": "Nomor KTP kamu sekarang juga jadi nomor pajak kamu."
+      },
+      {
+        "kata": "Coretax DJP",
+        "definisi": "Sistem inti administrasi perpajakan terintegrasi milik DJP.",
+        "penjelasan_sederhana": "Platform digital terbaru DJP buat semua urusan pajak, dari daftar sampai lapor SPT."
+      },
+      {
+        "kata": "Kesatuan Ekonomis",
+        "definisi": "Prinsip yang menganggap keluarga sebagai satu kesatuan ekonomi dalam kewajiban perpajakan.",
+        "penjelasan_sederhana": "Penghasilan suami-istri dianggap satu 'kantong' buat urusan pajak."
+      },
+      {
+        "kata": "HB",
+        "definisi": "Hidup Berpisah, status perpajakan untuk pasangan yang telah bercerai secara hukum.",
+        "penjelasan_sederhana": "Status pajak buat pasangan yang udah resmi cerai."
+      },
+      {
+        "kata": "PH",
+        "definisi": "Pisah Harta, status perpajakan untuk pasangan dengan perjanjian pemisahan harta notariil.",
+        "penjelasan_sederhana": "Status pajak buat pasangan yang punya perjanjian pisah harta dari awal nikah."
+      },
+      {
+        "kata": "MT",
+        "definisi": "Memilih Terpisah, status perpajakan sukarela tanpa perjanjian pisah harta.",
+        "penjelasan_sederhana": "Status pajak buat pasangan yang milih itung pajak sendiri-sendiri tanpa perjanjian notaris."
+      },
+      {
+        "kata": "1770 S",
+        "definisi": "Formulir SPT Tahunan untuk karyawan dengan bruto di atas Rp60 juta atau lebih dari satu pemberi kerja.",
+        "penjelasan_sederhana": "Formulir SPT buat karyawan gajian yang penghasilannya udah lumayan gede."
+      },
+      {
+        "kata": "1770",
+        "definisi": "Formulir SPT Tahunan untuk Orang Pribadi dengan penghasilan usaha/pekerjaan bebas.",
+        "penjelasan_sederhana": "Formulir SPT buat pengusaha atau profesional mandiri."
+      },
+      {
+        "kata": "Kredit Pajak",
+        "definisi": "Jumlah pajak yang sudah dipotong/disetor sepanjang tahun, dikurangkan dari PPh terutang final.",
+        "penjelasan_sederhana": "Cicilan pajak yang udah kamu bayar sepanjang tahun."
+      },
+      {
+        "kata": "PPh Pasal 29",
+        "definisi": "Pajak kurang bayar, selisih kurang antara PPh terutang dan kredit pajak.",
+        "penjelasan_sederhana": "Kekurangan pajak yang wajib kamu bayar lagi di akhir tahun."
+      },
+      {
+        "kata": "PPh Pasal 28A",
+        "definisi": "Pajak lebih bayar, selisih lebih antara kredit pajak dan PPh terutang.",
+        "penjelasan_sederhana": "Kelebihan bayar pajak yang bisa kamu minta balik ke DJP."
+      },
+      {
+        "kata": "Restitusi",
+        "definisi": "Proses pengembalian kelebihan pembayaran pajak dari DJP.",
+        "penjelasan_sederhana": "Uang pajak kamu yang kelebihan, dikembalikan sama DJP."
+      }
+    ]
+  }
+}

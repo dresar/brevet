@@ -1,0 +1,1718 @@
+{
+  "modul": {
+    "kode": "BRVT-AB-10",
+    "slug": "pph-pasal-26",
+    "judul": "PPh Pasal 26: Pajak atas Penghasilan Wajib Pajak Luar Negeri",
+    "bagian": [
+      {
+        "id": "bag-01",
+        "judul": "Definisi dan Dasar Hukum PPh Pasal 26",
+        "analogi": "Bayangin kamu punya warung nasi padang di Jakarta, terus ada bumbu spesial yang kamu beli dari koki Malaysia yang cuma dateng sesekali buat konsultasi resep. Nah, waktu kamu bayar jasa konsultasi si koki itu, kamu wajib motong sebagian buat pajak sebelum sisanya ditransfer ke rekening dia di Malaysia — itulah PPh 26 dalam bentuk paling sederhana.",
+        "istilah": [
+          {
+            "kata": "WPLN (Wajib Pajak Luar Negeri)",
+            "contoh": "Mr. Kim yang tinggal di Seoul dan menerima honor dari PT Solusi Digital di Bandung adalah WPLN.",
+            "definisi": "Orang pribadi atau badan yang tidak bertempat tinggal/berkedudukan di Indonesia, namun menerima penghasilan yang bersumber dari Indonesia."
+          },
+          {
+            "kata": "Withholding Agent (Pemotong Pajak)",
+            "contoh": "PT Solusi Digital berperan sebagai withholding agent saat membayar jasa Mr. Kim.",
+            "definisi": "Pihak di Indonesia yang berkewajiban memotong, menyetor, dan melaporkan PPh 26 atas pembayaran yang dilakukannya ke WPLN."
+          },
+          {
+            "kata": "Final",
+            "contoh": "PPh 26 sebesar Rp30.000.000 yang dipotong PT Solusi Digital bersifat final bagi Mr. Kim.",
+            "definisi": "Sifat pajak yang berarti kewajiban perpajakan atas penghasilan tersebut sudah selesai begitu dipotong, tanpa perlu dihitung ulang di SPT Tahunan."
+          }
+        ],
+        "paragraf": [
+          "Oke, sebelum ngomongin rumus-rumus dan tarif, kita samain dulu persepsi soal apa itu PPh Pasal 26. Simpelnya gini: PPh 26 adalah pajak yang dipotong oleh pihak Indonesia (misalnya PT di Jakarta) saat mereka bayar sesuatu ke orang atau perusahaan yang statusnya Wajib Pajak Luar Negeri alias WPLN, dari penghasilan yang sumbernya ada di Indonesia. Jadi, walaupun si penerima duitnya tinggal di Tokyo atau Singapura, kalau uangnya berasal dari kegiatan atau aset di Indonesia, negara kita tetep berhak motong pajaknya duluan sebelum duit itu 'kabur' ke luar negeri. 🔑",
+          "Dasar hukumnya jelas banget dan nggak ngasal, jadi kamu bisa pegang ini kalau ada yang nanya 'emang ada aturannya?'. Landasan utamanya ada di Pasal 26 Undang-Undang PPh No. 7 Tahun 1983 yang udah beberapa kali diubah, terakhir lewat UU Harmonisasi Peraturan Perpajakan (UU HPP) No. 7 Tahun 2021. Nah, buat urusan yang berhubungan sama Tax Treaty dan Surat Keterangan Domisili (SKD), acuannya ada di PER-25/PJ/2018 yang mengatur soal Form DGT (Director General of Taxes), plus diperbarui lagi lewat PER-11/PJ/2025 yang menyesuaikan format Form DGT dengan era Coretax.",
+          "Kenapa sih negara repot-repot bikin aturan kayak gini? Ibaratnya tuh kayak kamu punya toko, terus ada supplier dari luar kota yang jualan barang di toko kamu dan dapet untung dari situ — masa iya untungnya dibawa pulang semua tanpa nyumbang apa-apa ke daerah tempat dia jualan? Nah, PPh 26 ini fungsinya menjaga supaya penghasilan yang 'lahir' di bumi Indonesia tetap kena pajak di Indonesia, meskipun yang menikmati untungnya orang atau badan di luar negeri. Ini prinsip yang disebut source principle atau asas sumber, beda sama SPDN yang kena pajak berdasarkan worldwide income.",
+          "Sifat PPh 26 pada dasarnya adalah final dan dipungut lewat mekanisme pemotongan (withholding), bukan disetor sendiri sama si penerima penghasilan. Jadi pihak Indonesia yang bayar (disebut pemotong pajak atau withholding agent) itu yang wajib motong, nyetor, dan lapor ke KPP lewat e-Bupot Coretax. Tarif umumnya 20% dari jumlah bruto, tapi kayak yang bakal kamu pelajari di bagian-bagian selanjutnya, ada banyak variasi tarif tergantung jenis penghasilannya, dan bisa turun drastis kalau ada Tax Treaty yang berlaku."
+        ],
+        "mini_kuis": [
+          {
+            "id": "q1",
+            "tipe": "pilihan_ganda",
+            "jawaban": "B",
+            "pilihan": [
+              "A. Diterima SPDN dari luar negeri",
+              "B. Bersumber dari Indonesia dan diterima WPLN",
+              "C. Bersumber dari luar negeri dan diterima WPLN",
+              "D. Diterima siapa saja tanpa memandang sumber"
+            ],
+            "pembahasan": "PPh 26 khusus mengatur penghasilan yang sumbernya dari Indonesia tapi diterima oleh Wajib Pajak Luar Negeri (WPLN), berdasarkan asas sumber. Pilihan A dan C salah karena membalik logika sumber-penerima, sedangkan D terlalu umum dan tidak sesuai objek PPh 26.",
+            "pertanyaan": "PPh Pasal 26 pada dasarnya dikenakan atas penghasilan yang..."
+          },
+          {
+            "id": "q2",
+            "tipe": "benar_salah",
+            "jawaban": "Salah",
+            "pilihan": [
+              "Benar",
+              "Salah"
+            ],
+            "pembahasan": "PPh 26 pada umumnya bersifat final, artinya kewajiban pajak WPLN atas penghasilan tersebut sudah selesai begitu dipotong, dan tidak perlu (serta tidak bisa) dilaporkan lagi sebagai kredit pajak di SPT Tahunan Indonesia karena WPLN memang tidak wajib lapor SPT Tahunan Indonesia.",
+            "pertanyaan": "PPh Pasal 26 bersifat tidak final dan bisa dikreditkan di SPT Tahunan si penerima penghasilan."
+          }
+        ],
+        "kalkulator": null,
+        "contoh_kasus": {
+          "poin": [
+            "PT Solusi Digital wajib memotong PPh 26 sebesar 20% x Rp150.000.000 = Rp30.000.000.",
+            "Karena Mr. Kim tidak menyerahkan SKD/Form DGT, PT Solusi Digital tidak bisa menerapkan tarif P3B Indonesia-Korea yang lebih rendah, sehingga tarif domestik 20% yang berlaku."
+          ],
+          "judul": "PT Solusi Digital Bayar Jasa IT ke Konsultan Asing",
+          "cerita": "PT Solusi Digital di Bandung menyewa jasa konsultan IT asal Korea Selatan bernama Mr. Kim untuk audit sistem selama sebulan, dengan bayaran Rp150.000.000. Mr. Kim tidak punya NPWP di Indonesia dan tinggal menetap di Seoul, sehingga statusnya adalah WPLN. Karena tidak ada dokumen SKD atau Form DGT yang diserahkan Mr. Kim, PT Solusi Digital akhirnya menggunakan tarif domestik penuh."
+        },
+        "poin_penting": [
+          "💡 PPh 26 dikenakan atas penghasilan bersumber dari Indonesia yang diterima WPLN (orang/badan luar negeri).",
+          "📌 Dasar hukum utama: Pasal 26 UU PPh jo. UU HPP No. 7/2021, plus PER-25/PJ/2018 dan PER-11/PJ/2025 untuk Form DGT.",
+          "✅ Sifatnya final dan dipungut lewat mekanisme pemotongan oleh pihak pembayar di Indonesia (withholding agent).",
+          "⚠️ Tarif standar 20% dari bruto, tapi bisa berubah kalau ada Tax Treaty (P3B) yang berlaku dan dibuktikan dengan SKD."
+        ],
+        "prompt_gambar": [
+          {
+            "id": "img-01",
+            "alt": "Ilustrasi 3D aliran uang dari peta Indonesia menuju globe dunia yang disaring lewat gerbang pajak PPh 26",
+            "prompt": "Ultra modern 3D isometric stylized studio render, landscape 16:9 composition, depicting the concept of Indonesian cross-border withholding tax PPh Pasal 26. Center stage shows a glowing 3D map outline of Indonesia made of translucent electric blue #3B82F6 glass, with golden coin streams #F59E0B flowing outward from it toward a distant stylized globe icon on the right side, symbolizing income flowing to foreign taxpayers. A sleek 3D withholding tax gate structure sits between Indonesia and the globe, filtering the golden coins with a soft emerald green #10B981 checkpoint light. Background is a rich dark gradient mesh #1E1B4B with soft ambient studio lighting, subtle particle bokeh, and a floating holographic document panel. Include short, clean, and perfectly spelled Indonesian text labels floating near the elements, such as 'Penghasilan dari Indonesia' near the map and 'Wajib Pajak Luar Negeri' near the globe. Smooth reflective surfaces, cinematic rim lighting, premium tech-education aesthetic, crisp render quality, no clutter, balanced composition.",
+            "keterangan": "Ilustrasi konsep aliran penghasilan dari Indonesia ke Wajib Pajak Luar Negeri yang disaring lewat mekanisme pemotongan PPh Pasal 26 sebelum ditransfer ke luar negeri. Gambar ini membantu pemula memvisualisasikan kenapa negara berhak memotong pajak sebelum uang keluar dari Indonesia.",
+            "url_gambar": null
+          }
+        ],
+        "kesalahan_umum": [
+          {
+            "tips": "Selalu cek status kependudukan pihak yang dibayar, bukan besar-kecilnya transaksi atau skala perusahaan pembayar.",
+            "benar": "PPh 26 berlaku untuk siapa saja yang membayar penghasilan ke WPLN, termasuk UMKM atau startup kecil yang menyewa jasa freelancer asing",
+            "salah": "Menganggap PPh 26 hanya berlaku untuk perusahaan multinasional besar"
+          },
+          {
+            "tips": "Cek dulu status subjek pajaknya: kalau WPLN, otomatis masuk ranah PPh 26, bukan PPh 21.",
+            "benar": "PPh 21 untuk penghasilan yang diterima SPDN (pegawai dalam negeri), sedangkan PPh 26 khusus untuk WPLN dengan tarif dan mekanisme berbeda",
+            "salah": "Mengira PPh 26 sama persis dengan PPh 21"
+          }
+        ],
+        "diagram_mermaid": [
+          "flowchart TD\n A[Ada Pembayaran ke Pihak Luar Negeri] --> B{Penerima WPLN atau SPDN?}\n B -->|WPLN| C{Penghasilan Bersumber dari Indonesia?}\n B -->|SPDN| D[Bukan Objek PPh 26]\n C -->|Ya| E{Ada SKD/Form DGT Valid?}\n C -->|Tidak| D\n E -->|Ada| F[Terapkan Tarif P3B]\n E -->|Tidak Ada| G[Terapkan Tarif Domestik 20%]\n F --> H[Potong, Setor, Lapor via e-Bupot Coretax]\n G --> H"
+        ],
+        "penjelasan_diagram": "Diagram ini nunjukin alur berpikir dasar buat nentuin apakah suatu pembayaran ke luar negeri kena PPh 26 atau nggak, dan tarif mana yang harus dipakai tergantung ada-tidaknya dokumen SKD Form DGT."
+      },
+      {
+        "id": "bag-02",
+        "judul": "Kriteria Wajib Pajak Luar Negeri",
+        "analogi": "Gampangnya gini: status WPLN itu kayak status 'tamu' di sebuah pesta. Kalau kamu cuma numpang lewat sebentar (kurang dari 183 hari) atau memang tinggal permanen di rumah lain (luar negeri), kamu dianggap tamu alias WPLN. Tapi kalau kamu udah punya kamar sendiri di rumah itu dan tinggal menetap (BUT aktif), statusmu berubah jadi 'penghuni tetap' yang aturannya beda.",
+        "istilah": [
+          {
+            "kata": "BUT (Bentuk Usaha Tetap)",
+            "contoh": "Kantor cabang Bank Asing XYZ di Jakarta yang beroperasi aktif melayani nasabah adalah BUT.",
+            "definisi": "Bentuk usaha yang dipergunakan oleh WPLN untuk menjalankan usaha atau kegiatan di Indonesia secara aktif dan berkesinambungan, seperti cabang, kantor perwakilan, atau agen."
+          },
+          {
+            "kata": "Tempat Kedudukan Badan",
+            "contoh": "Perusahaan yang didirikan dan berkedudukan di Singapura otomatis berstatus WPLN untuk keperluan pajak Indonesia.",
+            "definisi": "Lokasi resmi pendirian atau domisili hukum suatu badan usaha, yang jadi salah satu penentu status SPDN atau WPLN badan tersebut."
+          },
+          {
+            "kata": "183 Hari Test",
+            "contoh": "Sarah yang tinggal 120 hari di Bali belum memenuhi 183 hari test sehingga tetap WPLN.",
+            "definisi": "Uji batas waktu kehadiran fisik orang pribadi di Indonesia dalam jangka 12 bulan untuk menentukan status SPDN atau WPLN."
+          }
+        ],
+        "paragraf": [
+          "Nah, biar nggak salah tebak siapa aja yang masuk kategori WPLN, kita perlu tau kriterianya secara resmi. Buat orang pribadi (OP), seseorang dianggap WPLN kalau dia berada di Indonesia nggak lebih dari 183 hari dalam jangka waktu 12 bulan, ATAU dia orang pribadi yang emang bertempat tinggal di luar negeri dan nggak punya niat menetap di Indonesia. Jadi kalau ada turis asing yang kerja remote dari Bali cuma 2 bulan terus balik ke negaranya, dia tetap WPLN.",
+          "Sementara buat badan usaha, kriterianya lebih sederhana: badan tersebut dianggap WPLN kalau dia tidak didirikan dan tidak bertempat kedudukan di Indonesia. Jadi kalau ada perusahaan software asal Singapura yang menjual lisensi ke perusahaan Indonesia tapi kantornya cuma ada di Singapura tanpa cabang resmi di sini, badan itu masuk kategori WPLN badan.",
+          "Ada satu pengecualian penting nih yang sering bikin bingung pemula: kalau badan usaha luar negeri itu punya Bentuk Usaha Tetap (BUT) di Indonesia — ibaratnya kayak 'cabang resmi' yang beroperasi aktif di sini — maka penghasilan yang terkait langsung dengan BUT tersebut justru diperlakukan mirip SPDN dan dikenai PPh Badan biasa (tarif 22%), bukan PPh 26. PPh 26 baru masuk lagi kalau ada laba BUT yang ditransfer ke kantor pusatnya (ini yang disebut Branch Profit Tax, bakal kita bahas detail di bagian 12).",
+          "Penentuan status ini krusial banget karena salah nentuin status bisa bikin kamu salah motong pajak — entah kelebihan potong (klien komplain) atau kekurangan potong (perusahaan kena sanksi dari DJP). Makanya, sebagai withholding agent, kamu wajib punya bukti pendukung yang jelas, misalnya kontrak kerja, paspor, surat keterangan domisili, atau company profile pihak asing tersebut, sebelum menentukan tarif pemotongan yang tepat."
+        ],
+        "mini_kuis": [
+          {
+            "id": "q1",
+            "tipe": "pilihan_ganda",
+            "jawaban": "B",
+            "pilihan": [
+              "A. Lebih dari 183 hari dalam 12 bulan",
+              "B. Kurang dari atau sama dengan 183 hari dalam 12 bulan",
+              "C. Lebih dari 365 hari dalam setahun kalender",
+              "D. Tidak ada batasan hari sama sekali"
+            ],
+            "pembahasan": "Kriteria WPLN untuk OP adalah berada di Indonesia ≤ 183 hari dalam jangka waktu 12 bulan. Pilihan A justru kriteria SPDN, sementara C dan D tidak sesuai ketentuan yang berlaku.",
+            "pertanyaan": "Orang pribadi asing dianggap WPLN apabila berada di Indonesia..."
+          },
+          {
+            "id": "q2",
+            "tipe": "benar_salah",
+            "jawaban": "Salah",
+            "pilihan": [
+              "Benar",
+              "Salah"
+            ],
+            "pembahasan": "Penghasilan yang terkait langsung dengan kegiatan BUT diperlakukan seperti SPDN dan dikenai PPh Badan tarif umum (22%), bukan PPh 26. PPh 26 baru berlaku pada laba BUT yang ditransfer ke luar negeri (Branch Profit Tax).",
+            "pertanyaan": "Badan usaha asing yang memiliki BUT aktif di Indonesia, penghasilannya dari kegiatan BUT tetap dikenai PPh 26."
+          }
+        ],
+        "kalkulator": null,
+        "contoh_kasus": {
+          "poin": [
+            "Karena Sarah berada di Indonesia hanya 120 hari (kurang dari 183 hari dalam 12 bulan), statusnya adalah WPLN.",
+            "Startup Jakarta wajib memotong PPh 26 atas pembayaran Rp80.000.000 tersebut, bukan memperlakukannya sebagai penghasilan SPDN kena PPh 21."
+          ],
+          "judul": "Software Engineer Digital Nomad di Canggu",
+          "cerita": "Sarah, warga negara Australia, bekerja remote sebagai software engineer untuk perusahaan Australia sambil tinggal di Canggu, Bali, selama 4 bulan (120 hari) dalam setahun terakhir. Dia menerima pembayaran freelance tambahan dari sebuah startup di Jakarta senilai Rp80.000.000 untuk proyek development aplikasi."
+        },
+        "poin_penting": [
+          "👤 OP jadi WPLN kalau berada di Indonesia ≤ 183 hari dalam 12 bulan, atau memang bertempat tinggal tetap di luar negeri.",
+          "🏢 Badan jadi WPLN kalau tidak didirikan dan tidak berkedudukan di Indonesia.",
+          "⚠️ Kalau badan asing punya BUT aktif di Indonesia, penghasilan dari kegiatan BUT-nya kena PPh Badan biasa, bukan PPh 26.",
+          "📝 Selalu simpan bukti pendukung status WPLN sebelum menentukan tarif pemotongan."
+        ],
+        "prompt_gambar": [],
+        "kesalahan_umum": [
+          {
+            "tips": "Selalu hitung mundur 12 bulan dari tanggal transaksi terjadi, bukan patokan 1 Januari.",
+            "benar": "Perhitungan 183 hari menggunakan periode 12 bulan yang bisa dimulai dari kapan saja, tidak harus mengikuti tahun kalender",
+            "salah": "Menghitung hari kehadiran WPLN berdasarkan tahun kalender (Januari-Desember)"
+          },
+          {
+            "tips": "Bedakan penghasilan operasional BUT (kena PPh Badan) dengan laba yang mengalir ke luar negeri (kena BPT).",
+            "benar": "BUT tetap kena PPh 26 dalam bentuk Branch Profit Tax atas laba bersih setelah pajak yang ditransfer atau dianggap ditransfer ke kantor pusat",
+            "salah": "Menganggap semua BUT otomatis bebas dari PPh 26"
+          }
+        ],
+        "diagram_mermaid": [
+          "flowchart TD\n A[Tentukan Status Subjek Pajak] --> B{Orang Pribadi atau Badan?}\n B -->|Orang Pribadi| C{Berada di Indonesia lebih dari 183 hari dalam 12 bulan?}\n C -->|Ya| D[SPDN - PPh Umum/PPh 21]\n C -->|Tidak| E[WPLN - PPh 26]\n B -->|Badan| F{Didirikan/Berkedudukan di Indonesia?}\n F -->|Ya| D\n F -->|Tidak| G{Punya BUT Aktif di Indonesia?}\n G -->|Ya, terkait BUT| H[PPh Badan 22% seperti SPDN]\n G -->|Tidak| E"
+        ],
+        "penjelasan_diagram": "Diagram ini membantu kamu menelusuri langkah demi langkah untuk menentukan apakah pihak penerima penghasilan itu SPDN, WPLN murni, atau WPLN yang punya BUT di Indonesia — karena masing-masing punya perlakuan pajak yang beda."
+      },
+      {
+        "id": "bag-03",
+        "judul": "Perbedaan Pemajakan SPDN dan WPLN",
+        "analogi": "Ibaratnya tuh kayak dua jenis anggota gym. SPDN itu member VIP yang bayar iuran berdasarkan TOTAL aktivitas dia di semua cabang gym se-dunia (worldwide income), sedangkan WPLN itu tamu drop-in yang cuma bayar sekali pas dia pakai satu cabang gym di Jakarta doang (source income) — habis itu selesai, nggak perlu lapor-lapor lagi ke resepsionis pusat.",
+        "istilah": [
+          {
+            "kata": "Worldwide Income",
+            "contoh": "Pak Joko harus melaporkan gaji di Indonesia dan dividen dari AS karena keduanya termasuk worldwide income miliknya sebagai SPDN.",
+            "definisi": "Konsep pemajakan yang mencakup seluruh penghasilan wajib pajak, baik yang bersumber dari dalam maupun luar negeri."
+          },
+          {
+            "kata": "Source Income",
+            "contoh": "Royalti yang dibayarkan penerbit Jakarta ke Mr. Tanaka adalah source income Indonesia.",
+            "definisi": "Penghasilan yang secara ekonomi bersumber atau timbul dari suatu negara tertentu, terlepas dari kewarganegaraan penerimanya."
+          },
+          {
+            "kata": "Tarif Progresif",
+            "contoh": "Pak Joko kena tarif progresif 5% sampai 35% tergantung lapisan penghasilan kena pajaknya.",
+            "definisi": "Struktur tarif pajak yang semakin tinggi seiring bertambahnya lapisan penghasilan, digunakan untuk PPh OP SPDN."
+          }
+        ],
+        "paragraf": [
+          "Sekarang kita zoom out sebentar buat liat gambaran besarnya: kenapa sih status SPDN vs WPLN ini penting banget dan bikin perlakuan pajaknya beda jauh? Simpelnya gini, SPDN (Subjek Pajak Dalam Negeri) itu dipajaki atas worldwide income, alias SEMUA penghasilan yang dia dapat baik dari Indonesia maupun dari luar negeri, dilaporkan dan dihitung ulang tiap tahun lewat SPT Tahunan pakai tarif progresif.",
+          "Sementara WPLN itu beda banget — mereka HANYA dipajaki atas penghasilan yang bersumber dari Indonesia aja (source income), nggak peduli berapa total penghasilan dia di negara lain. Dan cara motongnya juga beda: WPLN dikenai tarif 20% final (atau tarif P3B kalau lebih rendah) langsung dipotong di sumbernya oleh withholding agent, TANPA perlu WPLN lapor SPT Tahunan ke DJP Indonesia.",
+          "Perbedaan lain yang nggak kalah penting adalah soal biaya pengurang (deductible expense). SPDN dan BUT bisa mengurangkan biaya-biaya operasional untuk menghitung Penghasilan Kena Pajak (PKP) — jadi yang kena pajak itu penghasilan neto/bersih. Tapi WPLN murni (yang bukan BUT) umumnya dipajaki dari jumlah bruto alias kotor, tanpa dikurangi biaya apa pun, kecuali untuk kategori tertentu yang menggunakan skema Perkiraan Penghasilan Neto yang bakal kita bahas di bagian 9.",
+          "Ini logis sebenarnya kalau dipikir-pikir: DJP nggak punya akses buat ngecek biaya-biaya operasional WPLN yang berbasis di luar negeri, jadi cara paling praktis dan aman buat negara adalah motong dari jumlah bruto langsung di sumbernya. Makanya sistem withholding tax kayak PPh 26 ini disebut juga sebagai 'jaring pengaman' fiskal biar penghasilan yang lahir di Indonesia nggak lolos begitu aja tanpa kontribusi pajak."
+        ],
+        "mini_kuis": [
+          {
+            "id": "q1",
+            "tipe": "pilihan_ganda",
+            "jawaban": "B",
+            "pilihan": [
+              "A. SPDN dan WPLN sama-sama dipajaki dari worldwide income",
+              "B. SPDN dari worldwide income, WPLN hanya dari source income Indonesia",
+              "C. SPDN hanya dari source income, WPLN dari worldwide income",
+              "D. Keduanya tidak dipajaki sama sekali"
+            ],
+            "pembahasan": "SPDN dipajaki atas seluruh penghasilan di manapun sumbernya (worldwide income), sedangkan WPLN hanya dipajaki atas penghasilan yang bersumber dari Indonesia. Pilihan lain membalik atau salah total konsep dasar ini.",
+            "pertanyaan": "Perbedaan utama basis pemajakan SPDN dan WPLN adalah..."
+          },
+          {
+            "id": "q2",
+            "tipe": "benar_salah",
+            "jawaban": "Salah",
+            "pilihan": [
+              "Benar",
+              "Salah"
+            ],
+            "pembahasan": "Karena PPh 26 bersifat final dan sudah selesai kewajibannya di titik pemotongan, WPLN tidak perlu dan tidak wajib melaporkan SPT Tahunan ke DJP Indonesia atas penghasilan tersebut.",
+            "pertanyaan": "WPLN wajib melaporkan SPT Tahunan ke DJP Indonesia atas penghasilan yang sudah dipotong PPh 26 final."
+          }
+        ],
+        "kalkulator": null,
+        "contoh_kasus": {
+          "poin": [
+            "Pak Joko wajib melaporkan SELURUH penghasilannya (Rp300 juta + Rp50 juta dari AS) di SPT Tahunan dengan tarif progresif karena dia SPDN.",
+            "Mr. Tanaka hanya dipotong PPh 26 final atas royalti Rp50.000.000 tersebut oleh penerbit di Jakarta, dan tidak perlu lapor apa-apa lagi ke DJP karena dia WPLN."
+          ],
+          "judul": "Bandingin Pak Joko (SPDN) vs Mr. Tanaka (WPLN)",
+          "cerita": "Pak Joko adalah warga negara Indonesia yang tinggal di Jakarta dan punya penghasilan dari gaji di Indonesia Rp300.000.000 setahun plus dividen dari saham di Amerika Rp50.000.000. Mr. Tanaka, warga negara Jepang yang tinggal di Osaka, menerima royalti Rp50.000.000 dari perusahaan penerbit di Jakarta atas hak cipta bukunya."
+        },
+        "poin_penting": [
+          "🌍 SPDN dipajaki dari worldwide income dengan tarif progresif via SPT Tahunan.",
+          "📌 WPLN dipajaki hanya dari penghasilan bersumber Indonesia, final 20% (atau tarif P3B) via pemotongan.",
+          "💰 SPDN/BUT bisa kurangkan biaya untuk hitung PKP; WPLN murni umumnya dipajaki dari jumlah bruto.",
+          "✅ WPLN tidak wajib lapor SPT Tahunan Indonesia karena pajaknya sudah final di sumber."
+        ],
+        "prompt_gambar": [],
+        "kesalahan_umum": [
+          {
+            "tips": "NPWP baru relevan kalau WPLN punya BUT atau kegiatan usaha berkelanjutan di Indonesia.",
+            "benar": "WPLN pada umumnya tidak wajib memiliki NPWP Indonesia karena kewajiban pajaknya diselesaikan lewat pemotongan final oleh withholding agent",
+            "salah": "Mengira WPLN tetap wajib punya NPWP Indonesia untuk semua transaksi"
+          },
+          {
+            "tips": "Ingat, WPLN itu 'flat rate', SPDN itu 'tiered/progresif'.",
+            "benar": "PPh 26 pakai tarif flat 20% dari bruto (atau tarif P3B), bukan tarif progresif bertingkat seperti PPh OP untuk SPDN",
+            "salah": "Menyamakan tarif progresif PPh OP dengan tarif PPh 26"
+          }
+        ],
+        "diagram_mermaid": [
+          "graph LR\n subgraph SPDN\n A1[Worldwide Income] --> A2[Tarif Progresif 5-35%]\n A2 --> A3[Lapor SPT Tahunan]\n end\n subgraph WPLN\n B1[Source Income Indonesia] --> B2[Tarif 20% Final atau P3B]\n B2 --> B3[Selesai via Pemotongan, Tanpa SPT]\n end"
+        ],
+        "penjelasan_diagram": "Diagram perbandingan ini menegaskan dua jalur pemajakan yang benar-benar terpisah antara SPDN dan WPLN, dari basis penghasilan sampai cara pelaporannya."
+      },
+      {
+        "id": "bag-04",
+        "judul": "Tarif 20% Final atas Dividen ke Luar Negeri",
+        "analogi": "Bayangin kamu jualan kue bareng temen dari luar negeri sebagai investor. Pas untungnya dibagi, kamu wajib sisihkan sebagian 'buat pajak' dulu sebelum kirim sisa untungnya ke rekening temenmu di luar negeri — persis kayak withholding dividen PPh 26 ini.",
+        "istilah": [
+          {
+            "kata": "Dividen",
+            "contoh": "PT Nusantara Maju membagikan dividen Rp500 juta kepada Cendana Holdings sesuai porsi 30% kepemilikan sahamnya.",
+            "definisi": "Bagian laba perusahaan yang dibagikan kepada pemegang saham sesuai proporsi kepemilikan sahamnya."
+          },
+          {
+            "kata": "Direct Investment (Kepemilikan Langsung)",
+            "contoh": "Kepemilikan Cendana Holdings sebesar 30% di PT Nusantara Maju memenuhi syarat direct investment dalam P3B Indonesia-Singapura.",
+            "definisi": "Kepemilikan saham dalam persentase signifikan (umumnya di atas ambang tertentu seperti 25%) yang biasanya mendapat tarif P3B lebih rendah dibanding kepemilikan portofolio kecil."
+          },
+          {
+            "kata": "RUPS (Rapat Umum Pemegang Saham)",
+            "contoh": "RUPS PT Nusantara Maju memutuskan pembagian dividen sebesar Rp500.000.000 kepada seluruh pemegang saham.",
+            "definisi": "Forum pengambilan keputusan tertinggi di perusahaan, termasuk keputusan pembagian dividen kepada pemegang saham."
+          }
+        ],
+        "paragraf": [
+          "Nah, sekarang kita masuk ke objek pajak pertama yang paling sering ditanyain: dividen. Kalau ada perusahaan Indonesia (PT) yang bagi-bagi untung ke pemegang sahamnya, dan salah satu pemegang sahamnya adalah WPLN (baik orang pribadi maupun badan asing), maka pembagian dividen itu wajib dipotong PPh 26 sebesar 20% dari jumlah bruto dividen yang dibagikan, kecuali ada Tax Treaty yang menurunkan tarifnya.",
+          "Penting dicatat, kewajiban motong ini ada di pundak PT yang membagikan dividen (emiten atau perusahaan tertutup), bukan tanggung jawab si pemegang saham asing buat lapor sendiri. Jadi begitu Rapat Umum Pemegang Saham (RUPS) memutuskan pembagian dividen, bagian keuangan perusahaan harus langsung ngitung dan motong PPh 26-nya sebelum dana ditransfer ke rekening investor asing tersebut.",
+          "Yang bikin menarik, tarif dividen ini bisa turun signifikan kalau investor asing tersebut berasal dari negara yang punya P3B dengan Indonesia dan bisa nunjukin SKD Form DGT yang valid. Misalnya, tarif dividen dalam banyak P3B Indonesia berkisar 10-15% tergantung persentase kepemilikan saham (biasanya kepemilikan besar dapat tarif lebih rendah dibanding kepemilikan portofolio kecil) — jadi selisihnya lumayan gede dibanding tarif domestik 20%.",
+          "Satu hal lagi yang perlu kamu tau: ada pengecualian khusus untuk dividen yang diterima WPLN orang pribadi dari SPDN dalam rangka reinvestasi tertentu, tapi itu kasus khusus. Untuk kondisi umum, prinsipnya tetap sama — begitu ada dividen mengalir ke luar negeri, PPh 26 wajib dipotong di muka sebelum dana keluar dari rekening perusahaan Indonesia."
+        ],
+        "mini_kuis": [
+          {
+            "id": "q1",
+            "tipe": "pilihan_ganda",
+            "jawaban": "C",
+            "pilihan": [
+              "A. Investor asing yang menerima dividen",
+              "B. Kantor pajak negara asal investor",
+              "C. Perusahaan Indonesia yang membagikan dividen",
+              "D. Bank yang memproses transfer"
+            ],
+            "pembahasan": "Kewajiban memotong PPh 26 ada pada perusahaan Indonesia (withholding agent) yang membagikan dividen tersebut, sebelum dana ditransfer ke investor asing. Pilihan lain bukan pihak yang bertanggung jawab secara hukum.",
+            "pertanyaan": "Siapa yang wajib memotong PPh 26 atas pembagian dividen ke WPLN?"
+          },
+          {
+            "id": "q2",
+            "tipe": "benar_salah",
+            "jawaban": "Salah",
+            "pilihan": [
+              "Benar",
+              "Salah"
+            ],
+            "pembahasan": "Tanpa SKD Form DGT yang valid dan diserahkan tepat waktu, withholding agent wajib menggunakan tarif domestik penuh 20%, meskipun negara asal investor sebenarnya memiliki P3B dengan Indonesia.",
+            "pertanyaan": "Tanpa SKD Form DGT yang valid, tarif PPh 26 atas dividen tetap menggunakan tarif P3B yang lebih rendah."
+          }
+        ],
+        "kalkulator": null,
+        "contoh_kasus": {
+          "poin": [
+            "Tanpa SKD, PT Nusantara Maju wajib potong 20% x Rp500.000.000 = Rp100.000.000.",
+            "Dengan SKD Form DGT valid dan kepemilikan 30% (memenuhi syarat direct investment), tarif P3B 10% berlaku, sehingga PPh 26 yang dipotong hanya Rp50.000.000 — investor bisa hemat Rp50.000.000."
+          ],
+          "judul": "Pembagian Dividen PT Nusantara Maju ke Investor Singapura",
+          "cerita": "PT Nusantara Maju di Surabaya membagikan dividen sebesar Rp500.000.000 kepada Cendana Holdings Pte Ltd, sebuah perusahaan yang berkedudukan di Singapura dan memiliki 30% saham PT Nusantara Maju. Cendana Holdings menyerahkan SKD Form DGT yang valid, sesuai P3B Indonesia-Singapura yang menetapkan tarif 10% untuk kepemilikan saham langsung minimal 25%."
+        },
+        "poin_penting": [
+          "💰 Dividen ke WPLN kena PPh 26 20% dari bruto, dipotong oleh PT yang membagikan dividen.",
+          "📌 Tarif bisa turun jadi 10-15% (tergantung P3B dan persentase kepemilikan) kalau ada SKD Form DGT valid.",
+          "✅ Kewajiban potong ada di tangan perusahaan Indonesia (emiten), bukan investor asingnya.",
+          "⚠️ Tanpa SKD, tarif otomatis kembali ke 20% penuh meskipun negara asal investor sebenarnya punya P3B."
+        ],
+        "prompt_gambar": [
+          {
+            "id": "img-02",
+            "alt": "Ilustrasi 3D gedung perusahaan Indonesia mengirim dividen yang disaring pajak menuju investor di luar negeri",
+            "prompt": "Ultra modern 3D isometric stylized studio render, landscape 16:9 composition, visualizing dividend withholding tax flow from an Indonesian company to a foreign shareholder. Center shows a sleek 3D corporate tower building in electric blue #3B82F6 glass on the left, with a glowing golden coin stack #F59E0B labeled representing dividends splitting into two streams: a smaller emerald green #10B981 stream flowing into a tax vault icon, and a larger stream flowing across a stylized ocean divider toward a minimalist skyscraper silhouette representing Singapore on the right side. Dark gradient mesh background #1E1B4B with soft ambient studio lighting and subtle grid floor reflections. Include short, clean, and perfectly spelled Indonesian text labels floating near key elements such as 'Dividen 20%' near the tax vault and 'Investor Asing' near the distant skyscraper. Smooth glass materials, cinematic rim lighting, premium fintech-education aesthetic, crisp render quality, balanced composition.",
+            "keterangan": "Ilustrasi alur pemotongan PPh 26 atas dividen yang dibagikan perusahaan Indonesia kepada investor asing sebelum dana ditransfer ke luar negeri. Gambar ini menegaskan bahwa pemotongan terjadi di titik keberangkatan dana, bukan setelah sampai di negara tujuan.",
+            "url_gambar": null
+          }
+        ],
+        "kesalahan_umum": [
+          {
+            "tips": "Selalu minta SKD Form DGT dari investor asing SEBELUM proses pembayaran dividen dilakukan, jangan menyusul setelahnya.",
+            "benar": "Tarif P3B hanya berlaku jika WPLN menyerahkan SKD Form DGT yang valid dan memenuhi syarat administratif sebelum pembayaran dilakukan",
+            "salah": "Menganggap tarif P3B otomatis berlaku tanpa perlu dokumen apa pun"
+          },
+          {
+            "tips": "Selalu gunakan angka dividen bruto sesuai keputusan RUPS sebagai dasar pengenaan PPh 26.",
+            "benar": "PPh 26 dihitung dari jumlah bruto dividen yang diputuskan RUPS, bukan dari jumlah neto setelah potongan biaya lain",
+            "salah": "Memotong PPh 26 dari dividen neto setelah dikurangi biaya administrasi"
+          }
+        ],
+        "diagram_mermaid": [],
+        "penjelasan_diagram": null
+      },
+      {
+        "id": "bag-05",
+        "judul": "Pemotongan PPh 26 atas Bunga dan Premium",
+        "analogi": "Simpelnya begini: kalau kamu pinjam duit dari temen di luar negeri buat modal usaha, terus kamu bayar 'imbalan' berupa bunga tiap bulan, sebagian dari bunga itu harus kamu sisihkan dulu buat pajak sebelum ditransfer ke rekening temenmu — itulah cara kerja PPh 26 atas bunga.",
+        "istilah": [
+          {
+            "kata": "Diskonto Obligasi",
+            "contoh": "Obligasi nominal Rp1 miliar dijual Rp950 juta, sehingga diskontonya Rp50 juta yang kena PPh 26 jika pemegangnya WPLN.",
+            "definisi": "Selisih antara nilai nominal obligasi dengan harga jual yang lebih rendah, yang secara ekonomis dianggap sebagai penghasilan bunga."
+          },
+          {
+            "kata": "Lindung Nilai (Hedging)",
+            "contoh": "PT Maju Bersama melakukan transaksi swap dengan bank asing untuk melindungi pinjamannya dari risiko kurs dolar.",
+            "definisi": "Strategi transaksi keuangan untuk melindungi perusahaan dari risiko fluktuasi kurs atau suku bunga, biasanya menggunakan instrumen derivatif seperti swap."
+          },
+          {
+            "kata": "Premium Swap",
+            "contoh": "Counterparty asing menerima premium swap dari transaksi lindung nilai kurs dengan perusahaan Indonesia.",
+            "definisi": "Keuntungan atau imbalan yang diperoleh salah satu pihak dalam transaksi swap sebagai kompensasi atas risiko yang diambil."
+          }
+        ],
+        "paragraf": [
+          "Objek berikutnya yang sering muncul, terutama buat perusahaan yang punya pinjaman dari luar negeri, adalah bunga (interest). Kalau perusahaan Indonesia pinjam uang dari lender di luar negeri — bisa bank asing, perusahaan induk di luar negeri, atau bahkan obligasi yang dijual ke investor asing — maka bunga yang dibayarkan ke WPLN tersebut kena PPh 26 sebesar 20% dari jumlah bruto bunga, atau tarif P3B kalau ada SKD.",
+          "Selain bunga pinjaman biasa, ada juga yang namanya diskonto obligasi. Diskonto ini muncul kalau obligasi dijual dengan harga di bawah nilai nominalnya (misalnya obligasi nominal Rp1 miliar dijual Rp950 juta), dan selisih Rp50 juta itu secara ekonomis dianggap sebagai 'bunga terselubung' yang juga kena PPh 26 kalau pemegang obligasinya WPLN.",
+          "Nah, ada satu jenis transaksi yang agak lebih canggih nih: premium dari transaksi lindung nilai atau swap (hedging). Ini biasanya terjadi kalau perusahaan Indonesia melakukan transaksi derivatif dengan counterparty di luar negeri untuk melindungi diri dari fluktuasi kurs atau suku bunga. Premi atau keuntungan yang diterima counterparty asing dari transaksi swap ini juga masuk kategori penghasilan yang berpotensi kena PPh 26, tergantung karakteristik kontraknya.",
+          "Penting dicatat, ada pengecualian buat bunga obligasi yang dibayarkan kepada dana pensiun tertentu atau lembaga yang mendapat fasilitas pembebasan sesuai ketentuan yang berlaku, jadi jangan langsung pukul rata semua bunga otomatis kena 20%. Selalu cek dulu apakah ada fasilitas pengecualian sebelum melakukan pemotongan, biar nggak kelebihan potong."
+        ],
+        "mini_kuis": [
+          {
+            "id": "q1",
+            "tipe": "pilihan_ganda",
+            "jawaban": "B",
+            "pilihan": [
+              "A. Bukan objek pajak sama sekali",
+              "B. Bunga terselubung yang kena PPh 26",
+              "C. Dividen yang kena tarif khusus",
+              "D. Royalti yang kena tarif berbeda"
+            ],
+            "pembahasan": "Diskonto obligasi secara ekonomis dianggap sebagai bentuk bunga terselubung, sehingga tetap kena PPh 26 jika pemegang obligasinya adalah WPLN. Pilihan lain tidak sesuai karakteristik ekonomis diskonto obligasi.",
+            "pertanyaan": "Diskonto obligasi (selisih harga jual di bawah nominal) yang diterima WPLN diperlakukan sebagai..."
+          },
+          {
+            "id": "q2",
+            "tipe": "benar_salah",
+            "jawaban": "Salah",
+            "pilihan": [
+              "Benar",
+              "Salah"
+            ],
+            "pembahasan": "Ada pengecualian untuk bunga yang dibayarkan ke lembaga tertentu (misalnya dana pensiun yang mendapat fasilitas pembebasan) sesuai ketentuan yang berlaku, jadi tidak semua bunga otomatis kena tarif 20% penuh.",
+            "pertanyaan": "Semua bunga yang dibayarkan ke WPLN tanpa terkecuali selalu kena PPh 26 20% penuh."
+          }
+        ],
+        "kalkulator": null,
+        "contoh_kasus": {
+          "poin": [
+            "Karena tidak ada SKD, PT Maju Bersama wajib memotong PPh 26 sebesar 20% x Rp160.000.000 = Rp32.000.000.",
+            "PT Maju Bersama hanya mentransfer Rp128.000.000 ke Golden Bank Hong Kong dan menyetorkan Rp32.000.000 ke kas negara lewat e-Bupot Coretax."
+          ],
+          "judul": "Pinjaman dari Bank Hong Kong ke PT Maju Bersama",
+          "cerita": "PT Maju Bersama meminjam dana modal kerja sebesar Rp2.000.000.000 dari Golden Bank Hong Kong, dengan bunga tahunan Rp160.000.000. PT Maju Bersama tidak menerima dokumen SKD dari Golden Bank Hong Kong karena bank tersebut belum menyelesaikan proses administrasinya di sistem DJP."
+        },
+        "poin_penting": [
+          "🏦 Bunga pinjaman luar negeri kena PPh 26 20% dari bruto (atau tarif P3B) yang dipotong pihak Indonesia peminjam.",
+          "📊 Diskonto obligasi (selisih harga jual di bawah nominal) diperlakukan sebagai bunga terselubung dan tetap kena PPh 26.",
+          "🔄 Premium dari transaksi lindung nilai/swap dengan counterparty asing berpotensi kena PPh 26 tergantung karakteristik kontrak.",
+          "⚠️ Ada pengecualian untuk bunga yang dibayarkan ke lembaga tertentu yang mendapat fasilitas pembebasan — selalu cek dulu."
+        ],
+        "prompt_gambar": [],
+        "kesalahan_umum": [
+          {
+            "tips": "Selalu hitung selisih antara nilai nominal dan harga jual obligasi sebagai bagian dari objek PPh 26.",
+            "benar": "Diskonto obligasi tetap dianggap sebagai penghasilan berupa bunga terselubung dan wajib dipotong PPh 26",
+            "salah": "Tidak memotong PPh 26 atas diskonto obligasi karena dianggap bukan 'bunga' dalam arti sempit"
+          },
+          {
+            "tips": "Konsultasikan status penerima bunga ke konsultan pajak atau cek peraturan terbaru sebelum menyimpulkan tarif.",
+            "benar": "Cek dulu apakah penerima bunga termasuk lembaga yang mendapat fasilitas pembebasan sebelum memotong PPh 26",
+            "salah": "Mengabaikan pengecualian fasilitas pembebasan untuk lembaga tertentu"
+          }
+        ],
+        "diagram_mermaid": [
+          "flowchart TD\n A[Perusahaan Indonesia Bayar Bunga ke Lender Asing] --> B{Ada SKD Form DGT Valid?}\n B -->|Tidak| C[Potong PPh 26 20% dari Bruto Bunga]\n B -->|Ya| D[Potong PPh 26 sesuai Tarif P3B]\n C --> E[Setor & Lapor via e-Bupot Coretax]\n D --> E\n E --> F[Sisa Bunga Ditransfer ke Lender Asing]"
+        ],
+        "penjelasan_diagram": "Diagram ini menggambarkan alur keputusan sederhana saat perusahaan Indonesia membayar bunga pinjaman ke lender di luar negeri, dari cek dokumen SKD sampai proses pelaporan."
+      },
+      {
+        "id": "bag-06",
+        "judul": "Pemotongan PPh 26 atas Royalti dan Lisensi",
+        "analogi": "Ibaratnya tuh kayak kamu nyewa resep rahasia warung makan terkenal dari luar negeri buat dipakai di warung kamu sendiri. Setiap kali kamu 'bayar sewa resep' itu ke pemiliknya di luar negeri, sebagian harus disisihkan buat pajak dulu sebelum sisanya sampai ke tangan si pemilik resep — itulah PPh 26 atas royalti.",
+        "istilah": [
+          {
+            "kata": "Royalti",
+            "contoh": "PT Startup Kreatif membayar royalti Rp200 juta ke Sakura Software Co. Ltd atas lisensi software analitik.",
+            "definisi": "Imbalan atas penggunaan atau hak menggunakan hak cipta, paten, merek dagang, formula, software, atau informasi di bidang industrial/komersial/ilmiah."
+          },
+          {
+            "kata": "Know-how",
+            "contoh": "Resep rahasia produksi yang dilisensikan ke pabrik di Indonesia termasuk kategori know-how.",
+            "definisi": "Informasi atau pengetahuan teknis rahasia yang dimiliki suatu pihak dan diberikan izin penggunaannya kepada pihak lain dengan imbalan."
+          },
+          {
+            "kata": "Lisensi",
+            "contoh": "PT Startup Kreatif mendapat lisensi menggunakan software analitik dari Sakura Software Co. Ltd.",
+            "definisi": "Izin resmi yang diberikan pemilik hak kekayaan intelektual kepada pihak lain untuk menggunakan hak tersebut dengan syarat dan imbalan tertentu."
+          }
+        ],
+        "paragraf": [
+          "Ini nih objek yang paling relevan buat kamu yang kerja di startup atau perusahaan teknologi: royalti. Royalti adalah imbalan yang dibayar atas penggunaan hak cipta, merek dagang, paten, formula rahasia, software, atau teknologi yang dimiliki pihak luar negeri. Kalau perusahaan Indonesia bayar lisensi software ke vendor asing, atau bayar royalti pemakaian merek dagang ke pemilik brand di luar negeri, itu semua kena PPh 26 sebesar 20% dari jumlah bruto.",
+          "Definisi royalti ini sebenarnya cukup luas — nggak cuma soal hak cipta buku atau lagu doang, tapi juga mencakup penggunaan software (lisensi aplikasi, SaaS tertentu), penggunaan merek dagang (franchise), penggunaan paten, sampai imbalan atas informasi di bidang industrial, komersial, atau ilmiah (semacam know-how). Makanya banyak perusahaan digital Indonesia yang bayar subscription software luar negeri sebenarnya berpotensi kena PPh 26 atas royalti, bukan cuma soal 'jasa'.",
+          "Kabar baiknya, hampir semua P3B yang Indonesia miliki mengatur tarif royalti yang lebih rendah dari 20%, biasanya di kisaran 10-15% tergantung negara mitra dan jenis royaltinya. Jadi kalau vendor software asal Jepang, misalnya, bisa nunjukin SKD Form DGT yang valid, tarifnya bisa turun jadi 10% sesuai P3B Indonesia-Jepang, lumayan banget hematnya buat cash flow perusahaan.",
+          "Tapi hati-hati, banyak perusahaan yang lupa kalau pembelian software lewat platform marketplace internasional (misalnya beli lisensi lewat reseller luar negeri) tetap bisa masuk kategori objek PPh 26 kalau memang substansi transaksinya adalah royalti/lisensi penggunaan software, bukan sekadar 'jual beli barang'. Jadi penting banget buat tim finance dan procurement paham betul kategori transaksi ini biar nggak salah perlakuan pajaknya."
+        ],
+        "mini_kuis": [
+          {
+            "id": "q1",
+            "tipe": "pilihan_ganda",
+            "jawaban": "B",
+            "pilihan": [
+              "A. Dividen",
+              "B. Royalti",
+              "C. Bunga",
+              "D. Hadiah"
+            ],
+            "pembahasan": "Pembayaran atas penggunaan software/lisensi termasuk dalam definisi royalti yang luas, mencakup penggunaan hak cipta dan teknologi dari pihak luar negeri, sehingga kena PPh 26 kategori royalti, bukan dividen, bunga, atau hadiah.",
+            "pertanyaan": "Pembayaran lisensi software (SaaS) ke vendor luar negeri berpotensi masuk kategori objek PPh 26 sebagai..."
+          },
+          {
+            "id": "q2",
+            "tipe": "benar_salah",
+            "jawaban": "Benar",
+            "pilihan": [
+              "Benar",
+              "Salah"
+            ],
+            "pembahasan": "Selisih antara PPh 26 tanpa Form DGT (Rp40.000.000) dan dengan Form DGT (Rp20.000.000) memang sebesar Rp20.000.000, menegaskan pentingnya kelengkapan dokumen SKD untuk efisiensi pajak yang sah.",
+            "pertanyaan": "Berdasarkan contoh kasus, penghematan pajak royalti software ke Jepang dengan Form DGT (tarif 10%) dibanding tanpa Form DGT (20%) atas transaksi Rp200.000.000 adalah Rp20.000.000."
+          }
+        ],
+        "kalkulator": null,
+        "contoh_kasus": {
+          "poin": [
+            "Skenario TANPA Form DGT: PPh 26 = 20% x Rp200.000.000 = Rp40.000.000, sehingga Sakura Software hanya menerima Rp160.000.000.",
+            "Skenario DENGAN Form DGT (tarif P3B 10%): PPh 26 = 10% x Rp200.000.000 = Rp20.000.000, sehingga Sakura Software menerima Rp180.000.000 — selisih penghematan pajak sebesar Rp20.000.000 hanya karena kelengkapan dokumen SKD."
+          ],
+          "judul": "Royalti Software ke Perusahaan Jepang: Tanpa vs Dengan Form DGT",
+          "cerita": "PT Startup Kreatif di Jakarta membayar royalti lisensi software analitik senilai Rp200.000.000 kepada Sakura Software Co. Ltd yang berkedudukan di Tokyo, Jepang. Skenario pertama, Sakura Software belum menyerahkan dokumen apa pun. Skenario kedua, Sakura Software menyerahkan SKD Form DGT yang lengkap dan valid sesuai P3B Indonesia-Jepang yang menetapkan tarif royalti 10%."
+        },
+        "poin_penting": [
+          "📌 Royalti mencakup hak cipta, merek dagang, paten, software, teknologi, dan know-how dari pihak luar negeri.",
+          "💻 Pembayaran lisensi software/SaaS ke vendor asing berpotensi masuk kategori royalti yang kena PPh 26.",
+          "✅ Tarif domestik 20%, tapi bisa turun jadi 10-15% dengan SKD Form DGT P3B yang valid.",
+          "⚠️ Substansi transaksi yang menentukan, bukan sekadar nama kontraknya — cek betul apakah ini royalti atau bukan."
+        ],
+        "prompt_gambar": [
+          {
+            "id": "img-03",
+            "alt": "Ilustrasi 3D perbandingan pemotongan pajak royalti software dengan dan tanpa Form DGT menuju perusahaan Jepang",
+            "prompt": "Ultra modern 3D isometric stylized studio render, landscape 16:9 composition, illustrating software royalty withholding tax comparison between two scenarios. Split-screen 3D diorama: left side shows a stylized software license capsule glowing amber #F59E0B being taxed heavily by a large red-tinted 3D filter gate labeled with a big percentage symbol, flowing toward a distant Japanese-style torii gate silhouette representing the foreign licensor. Right side shows the same capsule flowing through a smaller, sleeker emerald green #10B981 filter gate with a document badge icon floating beside it, representing a tax treaty certificate, resulting in a taller pile of coins reaching the torii gate. Dark gradient mesh background #1E1B4B, ambient studio lighting, floating holographic percentage panels. Include short, clean, and perfectly spelled Indonesian text labels floating near key elements such as 'Tanpa Form DGT' on the left and 'Dengan Form DGT' on the right. Smooth reflective 3D materials, cinematic lighting, premium tech-education aesthetic, balanced symmetrical composition.",
+            "keterangan": "Ilustrasi perbandingan visual antara pemotongan PPh 26 royalti software tanpa Form DGT (tarif 20% penuh) dan dengan Form DGT (tarif P3B 10%), menunjukkan dampak signifikan kelengkapan dokumen terhadap besaran pajak yang dipotong.",
+            "url_gambar": null
+          }
+        ],
+        "kesalahan_umum": [
+          {
+            "tips": "Baca baik-baik kontrak lisensi software untuk menentukan apakah itu murni jasa atau mengandung unsur royalti.",
+            "benar": "Perlu dicek substansi transaksinya — jika mengandung unsur lisensi penggunaan teknologi/software, tetap masuk kategori royalti yang kena PPh 26",
+            "salah": "Menganggap subscription software luar negeri otomatis bukan objek PPh 26 karena dianggap 'jasa cloud biasa'"
+          },
+          {
+            "tips": "Selalu minta Form DGT dari vendor asing di awal negosiasi kontrak, bukan menjelang jatuh tempo pembayaran.",
+            "benar": "SKD Form DGT harus sudah diserahkan dan divalidasi SEBELUM pembayaran royalti dilakukan agar tarif P3B bisa diterapkan",
+            "salah": "Baru mengurus Form DGT setelah pembayaran dilakukan"
+          }
+        ],
+        "diagram_mermaid": [],
+        "penjelasan_diagram": null
+      },
+      {
+        "id": "bag-07",
+        "judul": "Pemotongan PPh 26 atas Jasa dan Tenaga Ahli Asing",
+        "analogi": "Nah, analoginya tuh kayak kamu manggil tukang service AC spesialis dari Singapura buat benerin sistem pendingin kantor selama seminggu. Begitu jasanya kelar dan dia balik ke Singapura, kamu wajib motong sebagian bayarannya buat pajak sebelum ditransfer — itulah PPh 26 atas jasa tenaga ahli asing.",
+        "istilah": [
+          {
+            "kata": "Jasa Teknik",
+            "contoh": "Instalasi mesin produksi oleh insinyur asal Jerman termasuk kategori jasa teknik.",
+            "definisi": "Jasa yang berkaitan dengan bidang teknik seperti instalasi, perbaikan, atau supervisi teknis yang dilakukan oleh tenaga ahli tertentu."
+          },
+          {
+            "kata": "Honor",
+            "contoh": "David Wilson menerima honor Rp75.000.000 atas workshop manajemen risiko selama 5 hari.",
+            "definisi": "Imbalan yang dibayarkan atas jasa profesional, seperti pembicara, konsultan, atau pelatih, biasanya untuk kegiatan bersifat sementara."
+          },
+          {
+            "kata": "Perubahan Status Subjek Pajak",
+            "contoh": "Jika David tinggal di Indonesia lewat 183 hari, statusnya berubah dari WPLN menjadi SPDN.",
+            "definisi": "Perubahan status seseorang dari WPLN menjadi SPDN (atau sebaliknya) akibat perubahan durasi kehadiran atau domisili, yang mengubah rezim pajak yang berlaku."
+          }
+        ],
+        "paragraf": [
+          "Selain royalti, jenis penghasilan yang juga sering banget muncul adalah imbalan jasa yang dibayarkan ke profesional atau konsultan asing. Ini mencakup jasa konsultasi manajemen, jasa teknik (engineering), jasa pelatihan/workshop, sampai honor pembicara asing yang diundang ke Indonesia. Kalau jasa ini dilakukan oleh WPLN (orang pribadi maupun badan) dan penghasilannya bersumber dari Indonesia, ya kena PPh 26 20% dari bruto.",
+          "Bedanya sama SPDN yang kerja di Indonesia, tenaga ahli asing WPLN ini biasanya cuma datang sebentar untuk proyek spesifik — misalnya audit sistem, instalasi mesin, atau pelatihan karyawan selama beberapa minggu — lalu balik lagi ke negara asalnya. Karena durasinya pendek dan dia tetap berdomisili di luar negeri, statusnya tetap WPLN dan kena PPh 26, BUKAN PPh 21 yang biasanya dipakai untuk pegawai/tenaga kerja SPDN.",
+          "Nah ini yang sering bikin bingung tim HR dan finance: kalau tenaga ahli asing itu tinggal cukup lama di Indonesia sampai lewat 183 hari, statusnya bisa berubah jadi SPDN di tengah jalan, dan perlakuan pajaknya pun ikut berubah dari PPh 26 ke PPh 21. Makanya penting banget buat tracking durasi kehadiran tenaga asing sejak awal kontrak, jangan cuma asal potong pajak tanpa evaluasi ulang.",
+          "Untuk jasa teknik atau konsultasi yang melibatkan transfer teknologi/pengetahuan, kadang ada area abu-abu antara kategori 'jasa' dan 'royalti' — misalnya konsultan yang sekaligus memberikan akses ke metodologi rahasia perusahaannya. Dalam praktiknya, DJP dan banyak P3B punya definisi yang berbeda-beda soal batasan ini, jadi kalau ketemu kasus kompleks kayak gini, sebaiknya konsultasikan dulu ke tax advisor biar klasifikasinya tepat."
+        ],
+        "mini_kuis": [
+          {
+            "id": "q1",
+            "tipe": "pilihan_ganda",
+            "jawaban": "B",
+            "pilihan": [
+              "A. SPDN karena sudah bekerja di Indonesia",
+              "B. WPLN karena belum memenuhi 183 hari dan tidak berdomisili di Indonesia",
+              "C. BUT karena memberikan jasa berkelanjutan",
+              "D. Bebas pajak karena honornya kecil"
+            ],
+            "pembahasan": "Karena hanya 12 hari (jauh di bawah 183 hari) dan tidak berdomisili di Indonesia, konsultan tersebut tetap berstatus WPLN dan kena PPh 26, bukan PPh 21 atau kategori lainnya.",
+            "pertanyaan": "Konsultan asing yang memberikan workshop di Indonesia selama total 12 hari dalam setahun, dan tidak berdomisili di Indonesia, statusnya adalah..."
+          },
+          {
+            "id": "q2",
+            "tipe": "benar_salah",
+            "jawaban": "Salah",
+            "pilihan": [
+              "Benar",
+              "Salah"
+            ],
+            "pembahasan": "Begitu melewati ambang 183 hari, status berubah menjadi SPDN dan perlakuan pajaknya berpindah rezim ke PPh 21 dengan tarif progresif, bukan tetap PPh 26.",
+            "pertanyaan": "Jika tenaga ahli asing tinggal di Indonesia lebih dari 183 hari dalam 12 bulan, penghasilannya otomatis tetap dikenai PPh 26 sampai kontraknya selesai."
+          }
+        ],
+        "kalkulator": null,
+        "contoh_kasus": {
+          "poin": [
+            "Karena David hanya 12 hari di Indonesia (jauh di bawah 183 hari), statusnya tetap WPLN.",
+            "PT Finansial Prima wajib memotong PPh 26 sebesar 20% x Rp75.000.000 = Rp15.000.000 sebelum mentransfer honor ke rekening David di Australia."
+          ],
+          "judul": "Workshop Manajemen Risiko oleh Konsultan Australia",
+          "cerita": "PT Finansial Prima mengundang konsultan manajemen risiko asal Australia, David Wilson, untuk memberikan workshop selama 5 hari kepada tim manajemen dengan honor Rp75.000.000. David tinggal di Melbourne dan hanya berada di Indonesia total 12 hari dalam setahun terakhir untuk berbagai proyek."
+        },
+        "poin_penting": [
+          "👔 Honor jasa konsultan, jasa teknik, atau workshop dari profesional asing (WPLN) kena PPh 26 20% dari bruto.",
+          "⏱️ Kalau tenaga asing tinggal lewat 183 hari, statusnya berubah jadi SPDN dan pindah rezim ke PPh 21.",
+          "📌 Selalu tracking durasi kehadiran tenaga asing sejak hari pertama kontrak untuk antisipasi perubahan status.",
+          "⚠️ Batas antara 'jasa' dan 'royalti' kadang abu-abu, terutama untuk jasa yang melibatkan transfer teknologi."
+        ],
+        "prompt_gambar": [],
+        "kesalahan_umum": [
+          {
+            "tips": "Buat sistem tracking sederhana (misalnya spreadsheet) untuk mencatat akumulasi hari kehadiran tenaga asing per proyek.",
+            "benar": "Wajib cek total hari kehadiran WPLN di Indonesia dalam 12 bulan terakhir sebelum menentukan apakah tetap PPh 26 atau berubah ke PPh 21",
+            "salah": "Menganggap semua jasa dari orang asing otomatis PPh 26 tanpa cek durasi kehadiran"
+          },
+          {
+            "tips": "Baca kontrak dengan teliti untuk memastikan klasifikasi jasa vs royalti, karena bisa memengaruhi tarif P3B yang berlaku.",
+            "benar": "Jasa teknik murni (tanpa transfer teknologi rahasia) tetap dikategorikan sebagai jasa, bukan royalti, meski keduanya sama-sama kena PPh 26",
+            "salah": "Menyamakan semua jasa teknik dengan royalti begitu saja"
+          }
+        ],
+        "diagram_mermaid": [
+          "flowchart TD\n A[Bayar Honor ke Profesional Asing] --> B{Total Kehadiran di Indonesia Lewat 183 Hari?}\n B -->|Tidak| C[Status Tetap WPLN]\n B -->|Ya| D[Status Berubah Jadi SPDN]\n C --> E[Potong PPh 26 20% atau Tarif P3B]\n D --> F[Kena PPh 21 Tarif Progresif]"
+        ],
+        "penjelasan_diagram": "Diagram ini menegaskan pentingnya monitoring durasi kehadiran tenaga ahli asing, karena status pajaknya bisa berubah dari WPLN ke SPDN kalau durasinya melewati ambang 183 hari."
+      },
+      {
+        "id": "bag-08",
+        "judul": "Pemotongan atas Hadiah, Pensiun, dan Pembayaran Berkala",
+        "analogi": "Bayangin kamu bikin lomba foto online dan pemenangnya ternyata orang Malaysia yang menang hadiah Rp10 juta. Sebelum kamu transfer hadiah itu, kamu wajib sisihkan sebagian buat pajak dulu — persis kayak kalau kamu bagi THR ke pegawai, cuma bedanya ini buat pemenang lomba yang tinggal di luar negeri.",
+        "istilah": [
+          {
+            "kata": "Hadiah",
+            "contoh": "Maria Santos menerima hadiah Rp50.000.000 dari kompetisi desain logo yang diadakan PT Kreasi Nusantara.",
+            "definisi": "Penghargaan berupa uang atau barang yang diberikan sebagai imbalan atas prestasi, undian, atau kompetisi tertentu."
+          },
+          {
+            "kata": "Anuitas",
+            "contoh": "Mantan pegawai ekspatriat menerima anuitas bulanan dari dana pensiun perusahaan di Indonesia.",
+            "definisi": "Pembayaran berkala dalam jumlah tetap yang dilakukan secara periodik, biasanya terkait dengan program pensiun atau asuransi."
+          },
+          {
+            "kata": "Pembayaran Berkala",
+            "contoh": "Uang pensiun yang ditransfer setiap bulan ke mantan pegawai di luar negeri termasuk pembayaran berkala.",
+            "definisi": "Pembayaran yang dilakukan secara rutin dan periodik (misalnya bulanan atau tahunan) kepada penerima penghasilan tertentu."
+          }
+        ],
+        "paragraf": [
+          "Kategori objek PPh 26 berikutnya agak lebih 'personal' sifatnya: hadiah, bonus, dan uang pensiun yang mengalir ke luar negeri. Kalau ada perusahaan Indonesia yang bikin kompetisi atau undian berhadiah, dan pemenangnya ternyata WPLN, maka hadiah tersebut kena PPh 26 20% dari nilai bruto hadiah. Ini berlaku baik untuk hadiah uang tunai maupun hadiah barang yang dinilai dengan uang.",
+          "Selain hadiah kompetisi, ada juga skenario pembayaran uang pensiun atau tunjangan hari tua yang ditransfer ke mantan pegawai yang sudah pindah dan menetap di luar negeri. Misalnya, mantan karyawan ekspatriat yang pensiun dan kembali ke negara asalnya, tapi masih menerima pembayaran pensiun berkala dari dana pensiun di Indonesia — pembayaran itu tetap kena PPh 26 karena sumbernya dari Indonesia meskipun penerimanya sudah WPLN.",
+          "Konsep 'pembayaran berkala' ini juga mencakup jenis penghasilan lain yang dibayarkan secara rutin/periodik ke WPLN, seperti anuitas atau tunjangan bulanan tertentu yang berasal dari sumber Indonesia. Prinsipnya sama: selama sumber penghasilannya dari Indonesia dan penerimanya WPLN, pemotong wajib motong PPh 26 di setiap periode pembayaran, bukan cuma sekali di awal.",
+          "Buat perusahaan yang sering bikin program loyalty atau giveaway berhadiah yang mungkin dimenangkan peserta luar negeri (misalnya kompetisi online internasional), penting banget untuk siapkan mekanisme pemotongan pajak ini dari awal, karena kalau nggak, perusahaan bisa kena tagihan pajak kurang bayar plus sanksi di kemudian hari kalau diperiksa DJP."
+        ],
+        "mini_kuis": [
+          {
+            "id": "q1",
+            "tipe": "pilihan_ganda",
+            "jawaban": "B",
+            "pilihan": [
+              "A. 15% dari bruto",
+              "B. 20% dari bruto (atau tarif P3B jika ada SKD)",
+              "C. 25% dari neto",
+              "D. Bebas pajak sepenuhnya"
+            ],
+            "pembahasan": "Hadiah kompetisi yang dimenangkan WPLN dikenai PPh 26 dengan tarif standar 20% dari nilai bruto hadiah, atau tarif P3B yang lebih rendah jika pemenang menyerahkan SKD Form DGT yang valid.",
+            "pertanyaan": "Hadiah kompetisi internasional yang dimenangkan oleh WPLN dari perusahaan Indonesia dikenai PPh 26 sebesar..."
+          },
+          {
+            "id": "q2",
+            "tipe": "benar_salah",
+            "jawaban": "Salah",
+            "pilihan": [
+              "Benar",
+              "Salah"
+            ],
+            "pembahasan": "Selama sumber pembayaran pensiun berasal dari Indonesia dan penerimanya berstatus WPLN, pembayaran pensiun tersebut tetap kena PPh 26, tidak peduli status pensiun si penerima.",
+            "pertanyaan": "Uang pensiun yang ditransfer ke mantan pegawai yang sudah menetap di luar negeri tidak lagi kena PPh 26 karena penerimanya sudah pensiun."
+          }
+        ],
+        "kalkulator": null,
+        "contoh_kasus": {
+          "poin": [
+            "Karena Maria Santos adalah WPLN dan hadiahnya bersumber dari kompetisi yang diadakan perusahaan Indonesia, PT Kreasi Nusantara wajib memotong PPh 26 sebesar 20% x Rp50.000.000 = Rp10.000.000.",
+            "Maria Santos hanya menerima Rp40.000.000 setelah dipotong pajak, dan PT Kreasi Nusantara wajib menyetorkan Rp10.000.000 tersebut ke kas negara melalui e-Bupot Coretax."
+          ],
+          "judul": "Hadiah Kompetisi Desain Internasional",
+          "cerita": "PT Kreasi Nusantara mengadakan kompetisi desain logo berskala internasional dengan hadiah utama Rp50.000.000. Pemenangnya adalah seorang desainer asal Filipina, Maria Santos, yang tinggal menetap di Manila dan tidak pernah datang ke Indonesia."
+        },
+        "poin_penting": [
+          "🎁 Hadiah kompetisi/undian yang dimenangkan WPLN kena PPh 26 20% dari nilai bruto hadiah.",
+          "👴 Uang pensiun/tunjangan hari tua yang ditransfer ke mantan pegawai WPLN tetap kena PPh 26 karena sumbernya dari Indonesia.",
+          "🔁 Pembayaran berkala seperti anuitas yang bersumber dari Indonesia juga kena PPh 26 di setiap periode pembayaran.",
+          "⚠️ Program giveaway/kompetisi internasional wajib siapkan mekanisme pemotongan pajak sejak awal untuk menghindari sanksi."
+        ],
+        "prompt_gambar": [
+          {
+            "id": "img-04",
+            "alt": "Ilustrasi 3D trofi kompetisi dengan aliran hadiah yang sebagian disaring pajak menuju pemenang di luar negeri",
+            "prompt": "Ultra modern 3D isometric stylized studio render, landscape 16:9 composition, depicting a foreign prize winner receiving a withheld cash prize from an Indonesian competition. Center scene shows a glowing 3D trophy in warm gold #F59E0B sitting atop a stylized winner's podium, with a stream of coins splitting into a small portion flowing into a translucent tax deposit box in electric blue #3B82F6, and the larger remaining portion flowing through a curved translucent bridge toward a small stylized figure standing beside a distant tropical palm silhouette representing Southeast Asia. Dark gradient mesh background #1E1B4B with soft ambient studio lighting, floating confetti particles rendered in low opacity. Include short, clean, and perfectly spelled Indonesian text labels floating near key elements such as 'Hadiah Bruto' near the trophy and 'Pajak Dipotong' near the deposit box. Smooth reflective 3D materials, cinematic lighting, premium tech-education aesthetic, balanced composition.",
+            "keterangan": "Ilustrasi pemotongan PPh 26 atas hadiah kompetisi yang dimenangkan oleh warga negara asing, menunjukkan bahwa sebagian hadiah disisihkan untuk pajak sebelum ditransfer ke pemenang di luar negeri.",
+            "url_gambar": null
+          }
+        ],
+        "kesalahan_umum": [
+          {
+            "tips": "Siapkan mekanisme pemotongan pajak sejak perencanaan kompetisi, bukan setelah pemenang diumumkan.",
+            "benar": "Berapa pun nilainya, hadiah yang dimenangkan WPLN dari sumber Indonesia tetap wajib dipotong PPh 26 sesuai ketentuan yang berlaku",
+            "salah": "Tidak memotong pajak hadiah karena dianggap 'cuma hadiah kompetisi kecil'"
+          },
+          {
+            "tips": "Cek status domisili penerima pensiun secara berkala, terutama untuk mantan ekspatriat yang pindah negara.",
+            "benar": "Pembayaran pensiun yang bersumber dari Indonesia tetap kena PPh 26 selama penerimanya berstatus WPLN, meskipun sudah tidak aktif bekerja",
+            "salah": "Menganggap pembayaran pensiun otomatis bebas pajak setelah pegawai resign"
+          }
+        ],
+        "diagram_mermaid": [],
+        "penjelasan_diagram": null
+      },
+      {
+        "id": "bag-09",
+        "judul": "Tarif 20% dari Perkiraan Penghasilan Neto",
+        "analogi": "Ibaratnya tuh kayak kamu jual mobil bekas seharga Rp200 juta, tapi pajak yang dihitung bukan dari harga jual penuh, melainkan dari perkiraan untungnya aja (misalnya dianggap untung 25% dari harga jual), baru dari untung itu dikalikan tarif pajaknya. Jadi lebih adil karena nggak nge-pajakin modal awal, cuma perkiraan keuntungannya doang.",
+        "istilah": [
+          {
+            "kata": "Perkiraan Penghasilan Neto",
+            "contoh": "Perkiraan Penghasilan Neto untuk penjualan saham WPLN ditetapkan sebesar 25% dari nilai bruto transaksi.",
+            "definisi": "Estimasi persentase penghasilan bersih dari suatu transaksi bruto, yang digunakan sebagai dasar penghitungan PPh 26 untuk jenis transaksi tertentu."
+          },
+          {
+            "kata": "Tarif Efektif",
+            "contoh": "Tarif efektif 5% berasal dari 25% Perkiraan Penghasilan Neto dikalikan 20% tarif dasar.",
+            "definisi": "Tarif hasil perkalian antara tarif dasar PPh 26 (20%) dengan persentase Perkiraan Penghasilan Neto, yang mencerminkan beban pajak riil terhadap nilai bruto."
+          },
+          {
+            "kata": "Tarif Dasar",
+            "contoh": "Tarif dasar 20% tetap digunakan sebagai basis perhitungan meskipun hasil akhirnya bisa berbeda-beda tergantung skema yang berlaku.",
+            "definisi": "Tarif pokok PPh 26 sebesar 20% yang menjadi acuan dasar sebelum disesuaikan dengan skema Perkiraan Penghasilan Neto atau tarif P3B."
+          }
+        ],
+        "paragraf": [
+          "Nah, sekarang kita masuk konsep yang agak beda dari sebelumnya. Kalau objek-objek yang udah kita bahas (dividen, bunga, royalti, jasa, hadiah) itu tarif 20%-nya dikalikan langsung dari jumlah BRUTO, ada beberapa jenis transaksi khusus yang tarifnya 20% tapi dikalikan dari 'Perkiraan Penghasilan Neto' alias estimasi penghasilan bersih, bukan dari bruto penuh.",
+          "Kenapa perlu ada konsep ini? Soalnya buat transaksi-transaksi tertentu (kayak jual beli aset atau premi asuransi yang bakal kita bahas di bagian selanjutnya), kalau dipajaki 20% dari bruto penuh, itu keberatan banget dan nggak mencerminkan keuntungan riil yang didapat WPLN dari transaksi tersebut. Makanya pemerintah bikin skema 'perkiraan' persentase penghasilan neto dari total transaksi bruto, baru dikalikan tarif 20%.",
+          "Gampangnya begini: kalau perkiraan penghasilan neto suatu transaksi ditetapkan 25% dari nilai bruto, maka tarif efektifnya jadi 25% x 20% = 5% dari nilai bruto transaksi. Konsep inilah yang dipakai buat menghitung PPh 26 atas penjualan saham/harta WPLN (bagian 10) dan premi asuransi ke luar negeri (bagian 11) yang bakal kita bahas detail selanjutnya.",
+          "Jadi intinya, kalau kamu ketemu istilah 'tarif efektif 5%', 'tarif efektif 10%', atau 'tarif efektif 2%' di aturan PPh 26, itu semua sebenarnya hasil perkalian antara persentase Perkiraan Penghasilan Neto dengan tarif dasar 20%. Paham konsep ini bakal bikin kamu nggak bingung lagi kenapa ada 'macam-macam angka tarif' padahal dasarnya cuma satu: 20%."
+        ],
+        "mini_kuis": [
+          {
+            "id": "q1",
+            "tipe": "pilihan_ganda",
+            "jawaban": "C",
+            "pilihan": [
+              "A. 20%",
+              "B. 25%",
+              "C. 5%",
+              "D. 45%"
+            ],
+            "pembahasan": "Tarif efektif dihitung dari 25% x 20% = 5%. Jadi meskipun tarif dasarnya 20%, karena hanya dikalikan pada 25% dari bruto (perkiraan neto), hasil akhirnya setara 5% dari nilai bruto transaksi.",
+            "pertanyaan": "Jika Perkiraan Penghasilan Neto suatu transaksi adalah 25% dan tarif dasar PPh 26 adalah 20%, berapa tarif efektif dari nilai bruto?"
+          },
+          {
+            "id": "q2",
+            "tipe": "benar_salah",
+            "jawaban": "Salah",
+            "pilihan": [
+              "Benar",
+              "Salah"
+            ],
+            "pembahasan": "Konsep ini hanya digunakan untuk transaksi tertentu seperti penjualan saham/harta WPLN dan premi asuransi/reasuransi, sedangkan objek lain seperti dividen, bunga, dan royalti tetap dihitung langsung dari bruto penuh.",
+            "pertanyaan": "Konsep Perkiraan Penghasilan Neto digunakan untuk semua jenis objek PPh 26 tanpa terkecuali."
+          }
+        ],
+        "kalkulator": null,
+        "contoh_kasus": {
+          "poin": [
+            "Perkiraan Penghasilan Neto = 25% x Rp1.000.000.000 = Rp250.000.000.",
+            "PPh 26 terutang = 20% x Rp250.000.000 = Rp50.000.000, yang setara dengan tarif efektif 5% dari nilai bruto transaksi (Rp1.000.000.000)."
+          ],
+          "judul": "Ilustrasi Sederhana Tarif Efektif",
+          "cerita": "Sebuah transaksi WPLN senilai bruto Rp1.000.000.000 diatur menggunakan skema Perkiraan Penghasilan Neto sebesar 25% dari nilai bruto, dengan tarif dasar PPh 26 tetap 20%."
+        },
+        "poin_penting": [
+          "🧮 Beberapa objek PPh 26 dihitung dari Perkiraan Penghasilan Neto, bukan dari bruto penuh.",
+          "📌 Rumus dasarnya: Tarif Efektif = Persentase Perkiraan Neto x 20%.",
+          "✅ Konsep ini dipakai untuk penjualan saham/harta WPLN dan premi asuransi/reasuransi ke luar negeri.",
+          "💡 Semua 'tarif efektif' aneh (5%, 10%, 2%, 1%) sebenarnya berasal dari rumus dasar yang sama ini."
+        ],
+        "prompt_gambar": [],
+        "kesalahan_umum": [
+          {
+            "tips": "Selalu cek dulu apakah objek transaksi termasuk kategori yang menggunakan skema Perkiraan Penghasilan Neto atau bruto penuh.",
+            "benar": "Untuk penjualan saham WPLN, gunakan dulu Perkiraan Penghasilan Neto sebelum dikalikan tarif 20%, sehingga hasil akhirnya setara tarif efektif 5% dari bruto",
+            "salah": "Mengalikan tarif 20% langsung ke nilai bruto penuh untuk transaksi penjualan saham WPLN"
+          },
+          {
+            "tips": "Ingat rumus: Tarif Efektif = Persentase Perkiraan Neto x 20%.",
+            "benar": "Tarif dasar PPh 26 selalu 20%, sedangkan tarif efektif adalah hasil perkalian tarif dasar dengan persentase Perkiraan Penghasilan Neto untuk transaksi tertentu",
+            "salah": "Bingung membedakan 'tarif efektif' dengan 'tarif dasar'"
+          }
+        ],
+        "diagram_mermaid": [
+          "flowchart TD\n A[Nilai Bruto Transaksi] --> B[Kalikan Persentase Perkiraan Penghasilan Neto]\n B --> C[Hasil: Perkiraan Penghasilan Neto]\n C --> D[Kalikan Tarif Dasar 20%]\n D --> E[PPh 26 Terutang]\n E --> F[Setara dengan Tarif Efektif dari Nilai Bruto]"
+        ],
+        "penjelasan_diagram": "Diagram ini menyederhanakan logika berpikir dari nilai bruto transaksi sampai ketemu PPh 26 terutang lewat dua kali perkalian: persentase perkiraan neto, lalu tarif dasar 20%."
+      },
+      {
+        "id": "bag-10",
+        "judul": "PPh 26 atas Penjualan Saham atau Harta di Indonesia",
+        "analogi": "Gampangnya gini: jual saham perusahaan tertutup di Indonesia oleh investor asing itu kayak jual tanah warisan yang lokasinya di Indonesia, meskipun pemiliknya udah pindah dan tinggal di luar negeri. Karena 'tanahnya' tetap di Indonesia, negara tetap berhak dapat bagian dari hasil penjualannya, meski dihitung pakai skema perkiraan biar nggak ribet.",
+        "istilah": [
+          {
+            "kata": "Perusahaan Tertutup",
+            "contoh": "PT Agro Sejahtera adalah perusahaan tertutup karena sahamnya tidak listed di Bursa Efek Indonesia.",
+            "definisi": "Perusahaan yang sahamnya tidak diperdagangkan secara umum di bursa efek, biasanya dimiliki terbatas oleh sejumlah pemegang saham tertentu."
+          },
+          {
+            "kata": "Capital Gain",
+            "contoh": "Kim Investment Ltd memperoleh capital gain dari penjualan saham PT Agro Sejahtera, meski PPh 26 dihitung dari harga jual bruto, bukan capital gain riil.",
+            "definisi": "Keuntungan yang diperoleh dari selisih harga jual dan harga beli suatu aset atau saham."
+          },
+          {
+            "kata": "Withholding Agent dalam Transaksi Saham",
+            "contoh": "Investor lokal yang membeli saham dari Kim Investment Ltd berperan sebagai withholding agent.",
+            "definisi": "Pihak yang wajib memotong PPh 26 dalam transaksi penjualan saham WPLN, bisa berupa pembeli saham atau perusahaan yang sahamnya diperjualbelikan."
+          }
+        ],
+        "paragraf": [
+          "Sekarang kita bahas penerapan konkret dari konsep Perkiraan Penghasilan Neto yang udah kamu pelajari di bagian sebelumnya: penjualan saham atau harta di Indonesia oleh WPLN. Kalau ada investor asing yang jual sahamnya di perusahaan Indonesia (yang bukan perusahaan terbuka/go public di bursa), atau jual aset/harta lain yang berlokasi di Indonesia, transaksi itu kena PPh 26 dengan tarif efektif 5% dari harga jual.",
+          "Angka 5% ini datang dari rumus yang udah kita bahas: Perkiraan Penghasilan Neto ditetapkan 25% dari harga jual, dikalikan tarif dasar 20%, hasilnya 25% x 20% = 5%. Jadi kalau investor asing jual saham perusahaan Indonesia seharga Rp1 miliar, PPh 26 yang harus dipotong adalah 5% x Rp1 miliar = Rp50 juta, TANPA perlu ribet ngitung berapa untung sebenarnya dari transaksi tersebut.",
+          "Penting dicatat, aturan ini khusus untuk penjualan saham perusahaan yang TIDAK diperdagangkan di bursa efek (saham perusahaan tertutup/private). Kalau sahamnya diperdagangkan di Bursa Efek Indonesia, ada aturan pajak final tersendiri yang beda (PPh final atas transaksi saham di bursa), bukan pakai skema PPh 26 ini. Jadi jangan disamakan ya, meskipun sama-sama soal jual saham.",
+          "Kewajiban pemotongan ini ada di tangan pembeli saham/harta tersebut, kalau pembelinya adalah pihak Indonesia. Tapi kalau pembelinya juga sama-sama WPLN (transaksi antar pihak asing atas aset di Indonesia), biasanya perusahaan Indonesia yang sahamnya diperjualbelikan itu yang wajib bertindak sebagai withholding agent untuk memastikan pajaknya tetap terpungut, karena substansi ekonominya tetap terjadi di Indonesia."
+        ],
+        "mini_kuis": [
+          {
+            "id": "q1",
+            "tipe": "pilihan_ganda",
+            "jawaban": "B",
+            "pilihan": [
+              "A. 20% dari harga jual",
+              "B. 5% dari harga jual",
+              "C. 10% dari harga jual",
+              "D. 2% dari harga jual"
+            ],
+            "pembahasan": "Tarif efektifnya 5% dari harga jual, hasil dari Perkiraan Penghasilan Neto 25% dikalikan tarif dasar 20%. Pilihan lain tidak sesuai rumus yang berlaku untuk kategori ini.",
+            "pertanyaan": "Tarif efektif PPh 26 atas penjualan saham perusahaan tertutup di Indonesia oleh WPLN adalah..."
+          },
+          {
+            "id": "q2",
+            "tipe": "benar_salah",
+            "jawaban": "Salah",
+            "pilihan": [
+              "Benar",
+              "Salah"
+            ],
+            "pembahasan": "Aturan ini khusus untuk saham perusahaan tertutup yang tidak diperdagangkan di bursa. Saham yang listed di bursa efek punya aturan PPh final tersendiri yang berbeda.",
+            "pertanyaan": "Aturan tarif efektif 5% ini juga berlaku untuk penjualan saham yang diperdagangkan di Bursa Efek Indonesia."
+          }
+        ],
+        "kalkulator": null,
+        "contoh_kasus": {
+          "poin": [
+            "Karena PT Agro Sejahtera bukan perusahaan terbuka, transaksi ini kena PPh 26 dengan tarif efektif 5% dari harga jual.",
+            "PPh 26 terutang = 5% x Rp2.000.000.000 = Rp100.000.000, yang wajib dipotong oleh pembeli (investor lokal) sebelum sisa dana ditransfer ke Kim Investment Ltd."
+          ],
+          "judul": "Investor Korea Selatan Jual Saham PT Agro Sejahtera",
+          "cerita": "Kim Investment Ltd, sebuah perusahaan asal Korea Selatan, menjual seluruh kepemilikan sahamnya di PT Agro Sejahtera (perusahaan tertutup, tidak listed di bursa) kepada investor lokal seharga Rp2.000.000.000."
+        },
+        "poin_penting": [
+          "📈 Penjualan saham/harta WPLN atas perusahaan tertutup di Indonesia kena PPh 26 tarif efektif 5% dari harga jual.",
+          "🧮 Tarif 5% berasal dari Perkiraan Penghasilan Neto 25% x tarif dasar 20%.",
+          "⚠️ Berlaku khusus untuk saham perusahaan tertutup, BUKAN saham yang diperdagangkan di bursa efek (ada aturan tersendiri).",
+          "✅ Kewajiban potong bisa ada di pembeli atau perusahaan Indonesia yang sahamnya diperjualbelikan, tergantung struktur transaksi."
+        ],
+        "prompt_gambar": [
+          {
+            "id": "img-05",
+            "alt": "Ilustrasi 3D transaksi jual beli saham perusahaan Indonesia dengan filter pajak 5% bagi investor asing",
+            "prompt": "Ultra modern 3D isometric stylized studio render, landscape 16:9 composition, illustrating the sale of private company shares by a foreign investor in Indonesia. Center depicts a stylized 3D stock certificate icon in electric blue #3B82F6 glass changing hands between two abstract 3D figures across a translucent bridge, with a small emerald green #10B981 percentage badge labeled floating above the bridge representing the 5% effective tax filter. Background features a dark gradient mesh #1E1B4B with subtle skyline silhouettes of Jakarta on one side and an abstract distant coastline on the other, ambient studio lighting, soft particle glow. Include short, clean, and perfectly spelled Indonesian text labels floating near key elements such as 'Tarif Efektif 5%' near the percentage badge and 'Penjualan Saham' near the stock certificate. Smooth reflective 3D materials, cinematic lighting, premium tech-education aesthetic, balanced composition.",
+            "keterangan": "Ilustrasi transaksi penjualan saham perusahaan tertutup Indonesia oleh investor asing yang dikenai PPh 26 dengan tarif efektif 5% dari harga jual, menegaskan bahwa pajak dihitung dari perkiraan penghasilan neto, bukan laba riil.",
+            "url_gambar": null
+          }
+        ],
+        "kesalahan_umum": [
+          {
+            "tips": "Selalu cek status listing perusahaan (terbuka/tertutup) sebelum menentukan skema pajak yang tepat.",
+            "benar": "Keduanya menggunakan skema pajak yang berbeda — saham tertutup pakai PPh 26 tarif efektif 5%, saham bursa pakai PPh final tersendiri",
+            "salah": "Menyamakan aturan pajak penjualan saham perusahaan tertutup dengan saham yang listed di bursa"
+          },
+          {
+            "tips": "Jangan tergoda menghitung 'untung riil', karena dasar pengenaan pajaknya tetap harga jual bruto dikali tarif efektif.",
+            "benar": "PPh 26 dihitung dari 5% x harga jual bruto, bukan dari selisih untung-rugi riil yang mungkin dihitung investor secara internal",
+            "salah": "Menghitung PPh 26 dari selisih untung-rugi (capital gain) riil investor"
+          }
+        ],
+        "diagram_mermaid": [],
+        "penjelasan_diagram": null
+      },
+      {
+        "id": "bag-11",
+        "judul": "PPh 26 atas Premi Asuransi dan Reasuransi ke Luar Negeri",
+        "analogi": "Bayangin kamu ikutan arisan berlapis: kamu bayar ke ketua arisan RT (tertanggung ke asuransi), ketua RT bagi risiko ke ketua arisan kelurahan (asuransi ke reasuransi), dan ketua kelurahan bagi lagi ke ketua arisan kecamatan (reasuransi ke retrosesi). Makin jauh lapisannya dari kamu, makin kecil juga 'potongan keuntungan' yang dinikmati tiap pihak di lapisan tersebut — makanya tarif pajaknya juga makin kecil.",
+        "istilah": [
+          {
+            "kata": "Reasuransi",
+            "contoh": "PT Asuransi Sentosa mereasuransikan sebagian risikonya ke Global Re Ltd di Bermuda.",
+            "definisi": "Proses pengalihan sebagian risiko yang ditanggung perusahaan asuransi kepada perusahaan asuransi lain (reasuransi) untuk mengurangi beban risiko."
+          },
+          {
+            "kata": "Retrosesi",
+            "contoh": "Global Re Ltd bisa saja meretrosesikan sebagian risikonya ke perusahaan reasuransi lain di negara ketiga.",
+            "definisi": "Proses pengalihan risiko dari perusahaan reasuransi kepada perusahaan reasuransi lain, merupakan lapisan lanjutan dari reasuransi."
+          },
+          {
+            "kata": "Tertanggung",
+            "contoh": "Perusahaan manufaktur yang membeli polis asuransi kebakaran berperan sebagai tertanggung.",
+            "definisi": "Pihak yang risikonya dilindungi oleh polis asuransi dan membayar premi kepada perusahaan asuransi."
+          }
+        ],
+        "paragraf": [
+          "Objek berikutnya yang juga pakai konsep Perkiraan Penghasilan Neto adalah premi asuransi atau reasuransi yang dibayarkan ke perusahaan asuransi luar negeri. Ini sering terjadi kalau perusahaan Indonesia atau perusahaan asuransi dalam negeri mengasuransikan ulang (reasuransi) risikonya ke perusahaan asuransi/reasuransi luar negeri, karena kapasitas penanggungan risiko di dalam negeri terbatas.",
+          "Ada 3 skenario tarif efektif yang berbeda tergantung siapa yang membayar premi tersebut. Pertama, kalau tertanggung (misalnya perusahaan atau individu di Indonesia) membayar langsung premi asuransi ke perusahaan asuransi luar negeri, tarif efektifnya 10% dari jumlah premi bruto. Kedua, kalau perusahaan asuransi dalam negeri yang membayar premi reasuransi ke luar negeri, tarif efektifnya lebih kecil, yaitu 2% dari premi bruto.",
+          "Skenario ketiga, kalau perusahaan reasuransi dalam negeri yang membayar premi retrosesi (asuransi ulang dari reasuransi) ke perusahaan reasuransi luar negeri, tarif efektifnya paling kecil yaitu 1% dari premi bruto. Semakin jauh 'lapisan' transaksinya dari tertanggung asli, semakin kecil Perkiraan Penghasilan Neto-nya, karena porsi risiko yang ditanggung pihak asing tersebut juga semakin kecil secara proporsional.",
+          "Kenapa tarifnya berjenjang begini? Karena pemerintah mengakui bahwa dalam rantai asuransi-reasuransi-retrosesi, margin keuntungan yang benar-benar dinikmati pihak luar negeri di tiap lapisan itu berbeda-beda, jadi Perkiraan Penghasilan Neto-nya juga disesuaikan supaya lebih mencerminkan keadilan ekonomi transaksi, bukan dipukul rata dengan tarif yang sama untuk semua lapisan."
+        ],
+        "mini_kuis": [
+          {
+            "id": "q1",
+            "tipe": "pilihan_ganda",
+            "jawaban": "C",
+            "pilihan": [
+              "A. 10%",
+              "B. 5%",
+              "C. 2%",
+              "D. 1%"
+            ],
+            "pembahasan": "Tarif efektif untuk premi reasuransi yang dibayar perusahaan asuransi dalam negeri ke perusahaan reasuransi luar negeri adalah 2% dari premi bruto, berbeda dengan skenario tertanggung langsung (10%) atau retrosesi (1%).",
+            "pertanyaan": "Berapa tarif efektif PPh 26 jika perusahaan asuransi dalam negeri membayar premi reasuransi ke perusahaan reasuransi luar negeri?"
+          },
+          {
+            "id": "q2",
+            "tipe": "benar_salah",
+            "jawaban": "Salah",
+            "pilihan": [
+              "Benar",
+              "Salah"
+            ],
+            "pembahasan": "Tarifnya berjenjang: 10% untuk tertanggung langsung, 2% untuk asuransi ke reasuransi, dan 1% untuk reasuransi ke retrosesi, tergantung posisi pembayar dalam rantai asuransi tersebut.",
+            "pertanyaan": "Tarif efektif premi asuransi/reasuransi ke luar negeri sama besarnya di semua lapisan transaksi, tidak peduli siapa pembayarnya."
+          }
+        ],
+        "kalkulator": null,
+        "contoh_kasus": {
+          "poin": [
+            "Karena ini pembayaran premi reasuransi dari perusahaan asuransi dalam negeri ke luar negeri, tarif efektif yang berlaku adalah 2%.",
+            "PPh 26 terutang = 2% x Rp800.000.000 = Rp16.000.000, yang wajib dipotong PT Asuransi Sentosa sebelum premi ditransfer ke Global Re Ltd."
+          ],
+          "judul": "PT Asuransi Sentosa Bayar Premi Reasuransi",
+          "cerita": "PT Asuransi Sentosa, perusahaan asuransi dalam negeri, membayar premi reasuransi sebesar Rp800.000.000 kepada Global Re Ltd, perusahaan reasuransi yang berkedudukan di Bermuda, untuk melindungi risiko polis-polis besar yang diterbitkannya."
+        },
+        "poin_penting": [
+          "🛡️ Premi asuransi dibayar tertanggung langsung ke asuransi luar negeri: tarif efektif 10% dari premi bruto.",
+          "📌 Premi reasuransi dibayar asuransi dalam negeri ke luar negeri: tarif efektif 2% dari premi bruto.",
+          "🔁 Premi retrosesi dibayar reasuransi dalam negeri ke luar negeri: tarif efektif 1% dari premi bruto.",
+          "💡 Semakin jauh lapisan transaksi dari tertanggung asli, semakin kecil tarif efektifnya."
+        ],
+        "prompt_gambar": [],
+        "kesalahan_umum": [
+          {
+            "tips": "Buat diagram alur internal perusahaan untuk memetakan posisi transaksi dalam rantai asuransi sebelum menghitung PPh 26.",
+            "benar": "Wajib identifikasi dulu apakah pembayar adalah tertanggung langsung, perusahaan asuransi, atau perusahaan reasuransi sebelum menentukan tarif efektif yang tepat (10%, 2%, atau 1%)",
+            "salah": "Menggunakan tarif 10% untuk semua jenis pembayaran premi ke luar negeri tanpa membedakan lapisannya"
+          },
+          {
+            "tips": "Kecilnya tarif bukan berarti transaksinya bebas pajak — tetap wajib dipotong, disetor, dan dilaporkan.",
+            "benar": "Premi reasuransi ke luar negeri tetap objek PPh 26 meskipun tarifnya kecil (2% atau 1%), bukan berarti bebas pajak sama sekali",
+            "salah": "Lupa memotong PPh 26 karena menganggap transaksi reasuransi 'urusan business to business biasa'"
+          }
+        ],
+        "diagram_mermaid": [
+          "flowchart TD\n A[Siapa yang Membayar Premi?] --> B{Tertanggung Langsung ke Asuransi LN?}\n B -->|Ya| C[Tarif Efektif 10%]\n A --> D{Asuransi Dalam Negeri ke Reasuransi LN?}\n D -->|Ya| E[Tarif Efektif 2%]\n A --> F{Reasuransi Dalam Negeri ke Retrosesi LN?}\n F -->|Ya| G[Tarif Efektif 1%]"
+        ],
+        "penjelasan_diagram": "Diagram ini merangkum tiga skenario tarif efektif premi asuransi/reasuransi berdasarkan siapa pembayar dan siapa penerima premi tersebut, dari tertanggung sampai lapisan retrosesi."
+      },
+      {
+        "id": "bag-12",
+        "judul": "Branch Profit Tax 20% atas BUT",
+        "analogi": "Ibaratnya tuh kayak kamu jaga cabang toko orang tua kamu yang tinggal di luar kota. Untung dari jualan di cabang itu udah kena 'setoran wajib' ke pusat toko (PPh Badan 22%), tapi begitu sisa untungnya dikirim balik ke orang tua kamu, ada lagi 'ongkos kirim tambahan' yang harus dipotong sebelum sampai — itulah Branch Profit Tax.",
+        "istilah": [
+          {
+            "kata": "Branch Profit Tax (BPT)",
+            "contoh": "BUT Bank Global XYZ dikenai BPT Rp780.000.000 atas laba bersihnya yang ditransfer ke New York.",
+            "definisi": "Pajak tambahan sebesar 20% yang dikenakan atas laba bersih BUT setelah PPh Badan yang ditransfer atau dianggap ditransfer ke kantor pusat di luar negeri."
+          },
+          {
+            "kata": "Dianggap Ditransfer",
+            "contoh": "Laba BUT yang hanya disimpan di rekening Indonesia tanpa memenuhi syarat reinvestasi tetap dianggap ditransfer dan kena BPT.",
+            "definisi": "Prinsip yang menganggap laba BUT sudah ditransfer ke kantor pusat untuk keperluan pajak, meskipun secara administratif dana tersebut belum benar-benar dikirim."
+          },
+          {
+            "kata": "Pajak Berlapis (Double Layer Tax)",
+            "contoh": "BUT Bank Global XYZ mengalami pajak berlapis: PPh Badan 22% lalu BPT 20% dari sisanya.",
+            "definisi": "Mekanisme pengenaan pajak dua tahap: PPh Badan atas penghasilan BUT, lalu BPT atas laba yang mengalir ke luar negeri, menyerupai pola PPh Badan plus dividen pada struktur subsidiary."
+          }
+        ],
+        "paragraf": [
+          "Inget di bagian 2 kita udah singgung soal BUT (Bentuk Usaha Tetap) yang penghasilannya dari kegiatan operasional dikenai PPh Badan biasa (22%), bukan PPh 26? Nah, sekarang kita bahas 'lapisan kedua' pajaknya, yaitu Branch Profit Tax (BPT), yang khusus mengatur laba BERSIH SETELAH PAJAK dari BUT tersebut yang ditransfer atau dianggap ditransfer ke kantor pusatnya di luar negeri.",
+          "Jadi alurnya gini: BUT dapat penghasilan dari kegiatan usahanya di Indonesia, dikurangi biaya-biaya, ketemu Penghasilan Kena Pajak, dikenai PPh Badan 22% (ini lapisan pertama). Nah, dari laba bersih SETELAH PPh Badan itu, kalau ditransfer (atau dianggap ditransfer) ke kantor pusat di luar negeri, laba tersebut kena lagi PPh 26 sebesar 20% — inilah yang disebut Branch Profit Tax.",
+          "Kenapa ada 'pajak berlapis' kayak gini? Logikanya, kalau BUT itu adalah entitas terpisah (subsidiary/PT) yang sahamnya dimiliki induk di luar negeri, maka laba yang ditransfer ke induk itu bentuknya dividen dan kena PPh 26 seperti bagian 4. Nah, supaya nggak ada 'keuntungan' pajak buat perusahaan asing yang milih bentuk BUT dibanding subsidiary/PT biasa, pemerintah bikin BPT ini biar perlakuan pajaknya setara.",
+          "Yang menarik, BPT ini nggak cuma berlaku kalau laba BUT beneran ditransfer secara fisik ke kantor pusat, tapi juga berlaku untuk laba yang 'dianggap ditransfer' meskipun secara administratif dana itu masih mengendap di rekening BUT di Indonesia. Prinsip 'dianggap ditransfer' ini penting banget dipahami supaya perusahaan nggak berpikir bisa menghindari BPT cuma dengan cara nggak benar-benar mengirim uangnya keluar negeri."
+        ],
+        "mini_kuis": [
+          {
+            "id": "q1",
+            "tipe": "pilihan_ganda",
+            "jawaban": "B",
+            "pilihan": [
+              "A. Penghasilan bruto BUT sebelum dikurangi biaya",
+              "B. Laba bersih BUT setelah PPh Badan yang ditransfer/dianggap ditransfer ke kantor pusat",
+              "C. Seluruh omzet penjualan BUT",
+              "D. Gaji karyawan BUT yang berkewarganegaraan asing"
+            ],
+            "pembahasan": "BPT dikenakan atas laba bersih SETELAH PPh Badan 22% yang ditransfer atau dianggap ditransfer ke kantor pusat di luar negeri, bukan atas penghasilan bruto atau omzet.",
+            "pertanyaan": "Branch Profit Tax dikenakan atas..."
+          },
+          {
+            "id": "q2",
+            "tipe": "benar_salah",
+            "jawaban": "Benar",
+            "pilihan": [
+              "Benar",
+              "Salah"
+            ],
+            "pembahasan": "Kombinasi PPh Badan 22% dan Branch Profit Tax 20% dari sisa 78% laba menghasilkan beban pajak efektif sekitar 37,6% dari Penghasilan Kena Pajak awal, sesuai perhitungan pada contoh kasus.",
+            "pertanyaan": "Total beban pajak efektif BUT yang seluruh labanya ditransfer ke kantor pusat bisa mencapai sekitar 37,6% dari Penghasilan Kena Pajak."
+          }
+        ],
+        "kalkulator": null,
+        "contoh_kasus": {
+          "poin": [
+            "PPh Badan = 22% x Rp5.000.000.000 = Rp1.100.000.000, sehingga laba bersih setelah pajak = Rp3.900.000.000.",
+            "Branch Profit Tax = 20% x Rp3.900.000.000 = Rp780.000.000, sehingga total pajak yang ditanggung BUT Bank Global XYZ mencapai Rp1.100.000.000 + Rp780.000.000 = Rp1.880.000.000, atau efektif sekitar 37,6% dari Penghasilan Kena Pajak awal."
+          ],
+          "judul": "BUT Bank Asing Kirim Laba ke Kantor Pusat",
+          "cerita": "BUT Bank Global XYZ di Jakarta mencatatkan Penghasilan Kena Pajak sebesar Rp5.000.000.000 dalam satu tahun pajak. Setelah dikenai PPh Badan 22%, laba bersih setelah pajak dianggap sepenuhnya ditransfer ke kantor pusat Bank Global XYZ di New York."
+        },
+        "poin_penting": [
+          "🏢 Laba BUT setelah PPh Badan 22% yang ditransfer (atau dianggap ditransfer) ke kantor pusat kena Branch Profit Tax 20%.",
+          "📌 BPT membuat perlakuan pajak BUT setara dengan struktur subsidiary/PT yang membagikan dividen ke induk asing.",
+          "⚠️ BPT berlaku meskipun laba 'dianggap ditransfer' secara administratif, bukan cuma transfer fisik uang.",
+          "✅ Total beban pajak BUT bisa mencapai efektif sekitar 37,6% (22% PPh Badan + 20% dari sisa 78%) jika seluruh laba ditransfer."
+        ],
+        "prompt_gambar": [
+          {
+            "id": "img-06",
+            "alt": "Ilustrasi 3D dua lapis filter pajak pada gedung cabang BUT sebelum laba dikirim ke kantor pusat luar negeri",
+            "prompt": "Ultra modern 3D isometric stylized studio render, landscape 16:9 composition, illustrating the two-layer Branch Profit Tax mechanism for a permanent establishment in Indonesia. Center shows a stylized 3D branch office building in electric blue #3B82F6 glass with a glowing profit orb above it in warm gold #F59E0B, passing through two sequential translucent filter rings stacked vertically: the first ring labeled with corporate tax styling in emerald green #10B981, the second smaller ring in amber #F59E0B representing the branch profit tax layer, before a thin golden stream continues toward a distant abstract headquarters tower silhouette on the right. Dark gradient mesh background #1E1B4B, ambient studio lighting, subtle vertical light beams. Include short, clean, and perfectly spelled Indonesian text labels floating near key elements such as 'Laba BUT' near the orb and 'Pajak Berlapis' near the two filter rings. Smooth reflective 3D materials, cinematic lighting, premium tech-education aesthetic, balanced composition.",
+            "keterangan": "Ilustrasi mekanisme pajak berlapis pada BUT, mulai dari PPh Badan 22% hingga Branch Profit Tax 20% atas laba yang ditransfer ke kantor pusat di luar negeri, menunjukkan total beban pajak efektif yang lebih tinggi dibanding entitas SPDN biasa.",
+            "url_gambar": null
+          }
+        ],
+        "kesalahan_umum": [
+          {
+            "tips": "Jangan berasumsi menahan dana di rekening BUT otomatis menghindari BPT — cek dulu apakah memenuhi kriteria pengecualian reinvestasi.",
+            "benar": "BPT tetap berlaku untuk laba yang 'dianggap ditransfer' meskipun dana masih mengendap di rekening BUT di Indonesia",
+            "salah": "Mengira BPT hanya berlaku kalau uang benar-benar ditransfer secara fisik ke luar negeri"
+          },
+          {
+            "tips": "Selalu kurangi PPh Badan 22% dulu sebelum menghitung 20% BPT dari sisanya.",
+            "benar": "BPT dihitung dari laba BERSIH SETELAH PPh Badan 22%, bukan dari Penghasilan Kena Pajak sebelum pajak",
+            "salah": "Menghitung BPT dari Penghasilan Kena Pajak awal, bukan dari laba setelah PPh Badan"
+          }
+        ],
+        "diagram_mermaid": [
+          "graph TD\n A[Penghasilan Kena Pajak BUT] --> B[PPh Badan 22%]\n B --> C[Laba Bersih Setelah Pajak]\n C --> D{Ditransfer atau Dianggap Ditransfer ke Kantor Pusat?}\n D -->|Ya| E[Branch Profit Tax 20%]\n D -->|Tidak, Direinvestasikan Sesuai Syarat| F[Bebas BPT - Lihat Bagian 13]\n E --> G[Total Beban Pajak Efektif Sekitar 37,6%]"
+        ],
+        "penjelasan_diagram": "Diagram ini menggambarkan dua lapis pajak yang dialami BUT: PPh Badan 22% di lapisan pertama, dan Branch Profit Tax 20% di lapisan kedua kalau labanya ditransfer ke kantor pusat, kecuali memenuhi syarat pembebasan lewat reinvestasi."
+      },
+      {
+        "id": "bag-13",
+        "judul": "Pembebasan BPT via Reinvestasi di Indonesia",
+        "analogi": "Ibaratnya tuh kayak diskon pajak yang dikasih pemerintah kalau kamu 'nabung' untung usahamu balik lagi ke Indonesia, bukan ditransfer ke luar negeri. Tapi ada syaratnya: uangnya harus 'dikunci' minimal 3 tahun — kalau kamu buru-buru ambil sebelum waktunya, diskonnya dicabut dan kamu wajib bayar penuh plus denda keterlambatan.",
+        "istilah": [
+          {
+            "kata": "Reinvestasi",
+            "contoh": "BUT Manufaktur Presisi mereinvestasikan labanya untuk membeli mesin produksi baru di pabrik Cikarang.",
+            "definisi": "Penanaman kembali laba yang diperoleh ke dalam bentuk modal atau aset produktif, alih-alih ditarik atau ditransfer keluar."
+          },
+          {
+            "kata": "Aktiva Tetap",
+            "contoh": "Mesin produksi baru yang dibeli BUT Manufaktur Presisi termasuk kategori aktiva tetap.",
+            "definisi": "Aset berwujud yang digunakan dalam kegiatan operasional perusahaan dalam jangka panjang, seperti mesin, bangunan, atau kendaraan usaha."
+          },
+          {
+            "kata": "Sanksi Bunga",
+            "contoh": "BUT Manufaktur Presisi berpotensi kena sanksi bunga jika menarik dana reinvestasinya sebelum 3 tahun.",
+            "definisi": "Tambahan pembayaran berupa persentase bunga yang dikenakan atas keterlambatan atau pelanggaran ketentuan pajak tertentu."
+          }
+        ],
+        "paragraf": [
+          "Nah, meskipun Branch Profit Tax kedengarannya berat banget, ada kabar baik nih: pemerintah kasih insentif berupa PEMBEBASAN BPT kalau laba BUT tersebut DITANAMKAN KEMBALI (reinvestasi) dalam bentuk modal atau aset di Indonesia, bukan ditransfer ke luar negeri. Tujuannya jelas: mendorong perusahaan asing untuk terus mengembangkan usahanya di Indonesia, bukan cuma 'ambil untung terus kabur'.",
+          "Syarat utamanya, laba yang direinvestasi itu harus ditanamkan dalam bentuk penyertaan modal pada perusahaan yang baru didirikan di Indonesia, atau sebagai tambahan modal pada perusahaan yang sudah ada, atau pembelian aktiva tetap yang digunakan untuk menjalankan usaha BUT/perusahaan penerima investasi tersebut di Indonesia. Bukan sembarang penempatan uang, harus benar-benar masuk ke sektor produktif.",
+          "Syarat berikutnya yang sering jadi jebakan: dana yang direinvestasikan itu wajib ditempatkan minimal dalam jangka waktu tertentu (umumnya minimal 3 tahun sejak laba tersebut diperoleh) dan TIDAK BOLEH DITARIK sebelum jangka waktu tersebut berakhir. Kalau ternyata dana itu ditarik lebih cepat dari 3 tahun, BUT wajib membayar BPT yang tadinya dibebaskan, ditambah sanksi bunga sesuai ketentuan yang berlaku.",
+          "Prosedur administratifnya juga nggak bisa asal klaim — BUT wajib menyampaikan pemberitahuan/permohonan pembebasan BPT ke KPP terdaftar dengan melampirkan bukti rencana dan realisasi penanaman modal, biasanya lewat Coretax DJP. Jadi kalau kamu kerja di finance/tax department perusahaan BUT dan pengen manfaatin insentif ini, siapin dokumentasinya dengan rapi dari awal, jangan menunggu diperiksa baru sibuk cari bukti."
+        ],
+        "mini_kuis": [
+          {
+            "id": "q1",
+            "tipe": "pilihan_ganda",
+            "jawaban": "C",
+            "pilihan": [
+              "A. 1 tahun",
+              "B. 2 tahun",
+              "C. 3 tahun",
+              "D. 5 tahun"
+            ],
+            "pembahasan": "Syarat umum yang berlaku adalah dana reinvestasi harus ditempatkan minimal 3 tahun sejak laba diperoleh dan tidak boleh ditarik sebelum jangka waktu tersebut berakhir agar pembebasan BPT tetap berlaku.",
+            "pertanyaan": "Syarat minimal jangka waktu penempatan dana reinvestasi laba BUT agar bebas Branch Profit Tax adalah..."
+          },
+          {
+            "id": "q2",
+            "tipe": "benar_salah",
+            "jawaban": "Salah",
+            "pilihan": [
+              "Benar",
+              "Salah"
+            ],
+            "pembahasan": "Jika dana ditarik sebelum jangka waktu minimal terpenuhi, BUT wajib membayar BPT yang tadinya dibebaskan, ditambah sanksi bunga sesuai ketentuan yang berlaku — pembebasan tersebut bersifat bersyarat, bukan final tanpa syarat.",
+            "pertanyaan": "Jika dana reinvestasi ditarik sebelum 3 tahun, BUT tidak perlu membayar apa pun karena pembebasan sudah final."
+          }
+        ],
+        "kalkulator": null,
+        "contoh_kasus": {
+          "poin": [
+            "Karena memenuhi syarat reinvestasi dalam bentuk aktiva tetap dan komitmen jangka waktu minimal 3 tahun, BUT Manufaktur Presisi dibebaskan dari Branch Profit Tax sebesar 20% x Rp1.200.000.000 = Rp240.000.000.",
+            "Jika mesin tersebut dijual atau dana ditarik sebelum 3 tahun, BUT wajib membayar Rp240.000.000 tersebut ditambah sanksi bunga sesuai ketentuan yang berlaku."
+          ],
+          "judul": "BUT Manufaktur Reinvestasi Laba untuk Ekspansi Pabrik",
+          "cerita": "BUT Manufaktur Presisi mencatatkan laba bersih setelah PPh Badan sebesar Rp1.200.000.000. Alih-alih ditransfer ke kantor pusat di Jerman, seluruh laba tersebut digunakan untuk membeli mesin produksi baru sebagai penambahan aktiva tetap yang digunakan menjalankan usaha di pabrik Cikarang, dan berkomitmen menempatkannya selama minimal 3 tahun."
+        },
+        "poin_penting": [
+          "🌱 Laba BUT yang direinvestasikan dalam bentuk modal/aset di Indonesia bisa dibebaskan dari Branch Profit Tax.",
+          "⏳ Dana reinvestasi wajib ditempatkan minimal 3 tahun dan tidak boleh ditarik lebih cepat.",
+          "⚠️ Penarikan dana sebelum 3 tahun mengakibatkan BPT yang tadinya dibebaskan jadi wajib dibayar plus sanksi bunga.",
+          "📝 Klaim pembebasan wajib disertai dokumentasi rencana dan realisasi investasi yang diajukan lewat Coretax DJP."
+        ],
+        "prompt_gambar": [],
+        "kesalahan_umum": [
+          {
+            "tips": "Konsultasikan bentuk investasi yang direncanakan dengan konsultan pajak untuk memastikan memenuhi kriteria yang diakui DJP.",
+            "benar": "Reinvestasi harus dalam bentuk penyertaan modal pada perusahaan baru/lama atau pembelian aktiva tetap untuk usaha, bukan sekadar disimpan di deposito atau rekening biasa",
+            "salah": "Menganggap semua bentuk penempatan dana di Indonesia otomatis memenuhi syarat reinvestasi"
+          },
+          {
+            "tips": "Siapkan dan ajukan dokumentasi rencana investasi sejak awal, jangan menunggu sampai diperiksa DJP.",
+            "benar": "Pembebasan BPT wajib diajukan secara resmi melalui prosedur administratif ke KPP/Coretax dengan dokumen pendukung yang lengkap",
+            "salah": "Tidak mengajukan permohonan/pemberitahuan resmi ke KPP dan hanya mengandalkan bukti internal perusahaan"
+          }
+        ],
+        "diagram_mermaid": [
+          "flowchart TD\n A[Laba BUT Setelah PPh Badan] --> B{Direinvestasikan di Indonesia?}\n B -->|Tidak| C[Kena Branch Profit Tax 20%]\n B -->|Ya, Sesuai Syarat| D[Bebas Branch Profit Tax]\n D --> E{Dana Ditarik Sebelum 3 Tahun?}\n E -->|Ya| F[BPT Wajib Dibayar + Sanksi Bunga]\n E -->|Tidak| G[Tetap Bebas BPT]"
+        ],
+        "penjelasan_diagram": "Diagram ini menunjukkan jalur pembebasan BPT lewat reinvestasi, sekaligus konsekuensi kalau syarat jangka waktu minimal 3 tahun tidak dipenuhi."
+      },
+      {
+        "id": "bag-14",
+        "judul": "Kedudukan Tax Treaty (P3B) sebagai Lex Specialis",
+        "analogi": "Bayangin kamu punya aturan umum di rumah 'semua tamu wajib lepas sepatu', tapi khusus buat tamu VIP yang udah janjian sebelumnya dan bawa undangan resmi, ada aturan khusus 'boleh pakai sandal rumah yang disediakan'. Aturan khusus (P3B) berlaku buat yang punya undangan resmi (SKD Form DGT), sementara yang nggak bawa undangan tetap ikut aturan umum (tarif domestik 20%).",
+        "istilah": [
+          {
+            "kata": "P3B (Perjanjian Penghindaran Pajak Berganda)",
+            "contoh": "P3B Indonesia-Jepang menetapkan tarif royalti 10%, lebih rendah dari tarif domestik 20%.",
+            "definisi": "Perjanjian bilateral antara dua negara untuk menghindari pengenaan pajak berganda atas penghasilan yang sama, sekaligus mencegah penghindaran pajak."
+          },
+          {
+            "kata": "Lex Specialis",
+            "contoh": "P3B sebagai lex specialis mengalahkan UU PPh domestik yang bersifat umum.",
+            "definisi": "Prinsip hukum bahwa aturan yang lebih khusus mengalahkan aturan yang lebih umum ketika terjadi pertentangan ketentuan."
+          },
+          {
+            "kata": "Beneficial Owner",
+            "contoh": "Sakura Software Co. Ltd harus membuktikan dirinya beneficial owner atas royalti yang diterimanya, bukan sekadar penampung dana untuk pihak lain.",
+            "definisi": "Pemilik manfaat sebenarnya atas suatu penghasilan, bukan sekadar perantara atau nominee yang menerima penghasilan atas nama pihak lain."
+          }
+        ],
+        "paragraf": [
+          "Ini bagian yang paling sering nentuin 'untung-rugi' dalam praktik PPh 26: kedudukan Tax Treaty atau Perjanjian Penghindaran Pajak Berganda (P3B). Prinsip hukum yang berlaku di sini adalah lex specialis derogat legi generali — aturan yang lebih khusus mengalahkan aturan yang lebih umum. Dalam konteks ini, P3B yang disepakati Indonesia dengan negara mitra dianggap lebih khusus dibanding UU PPh domestik.",
+          "Jadi kalau ada ketentuan di P3B yang berbeda dengan UU PPh Indonesia (misalnya soal tarif atau definisi objek pajak), maka ketentuan P3B-lah yang dipakai, SELAMA transaksinya memang melibatkan WPLN dari negara yang punya P3B dengan Indonesia dan syarat administratifnya (SKD Form DGT) terpenuhi. Ini bukan berarti UU domestik jadi tidak berlaku sama sekali, tapi P3B berfungsi sebagai 'penyaring' yang bisa menurunkan beban pajak sesuai kesepakatan bilateral.",
+          "Indonesia sendiri udah punya P3B dengan lebih dari 70 negara, dan tiap P3B punya ketentuan tarif yang beda-beda tergantung hasil negosiasi bilateral — ada yang tarif dividennya 10%, ada yang 15%, royaltinya ada yang 10%, ada yang 15% tergantung jenis royaltinya, bahkan ada yang bisa 0% untuk kategori penghasilan tertentu kayak laba usaha murni tanpa BUT. Makanya penting banget cek P3B spesifik negara mitra sebelum asal pakai tarif domestik 20%.",
+          "Tapi inget, penerapan tarif P3B ini BUKAN otomatis. WPLN wajib membuktikan dirinya adalah 'beneficial owner' (pemilik manfaat sebenarnya, bukan sekadar perantara/nominee) dan menyerahkan SKD Form DGT yang sah dan masih berlaku. Kalau syarat ini nggak terpenuhi, meskipun negaranya punya P3B dengan Indonesia, withholding agent tetap wajib pakai tarif domestik 20% penuh — ini yang sering banget bikin perusahaan Indonesia 'kena mahal' padahal sebenarnya bisa hemat."
+        ],
+        "mini_kuis": [
+          {
+            "id": "q1",
+            "tipe": "pilihan_ganda",
+            "jawaban": "A",
+            "pilihan": [
+              "A. Lex specialis derogat legi generali",
+              "B. Res judicata pro veritate habetur",
+              "C. Nullum delictum nulla poena",
+              "D. Pacta sunt servanda semata"
+            ],
+            "pembahasan": "Prinsip lex specialis derogat legi generali menyatakan bahwa aturan yang lebih khusus (P3B) mengalahkan aturan yang lebih umum (UU PPh domestik), yang menjadi dasar kedudukan P3B dalam PPh 26.",
+            "pertanyaan": "Prinsip hukum yang mendasari kedudukan P3B mengalahkan tarif domestik PPh 26 disebut..."
+          },
+          {
+            "id": "q2",
+            "tipe": "benar_salah",
+            "jawaban": "Salah",
+            "pilihan": [
+              "Benar",
+              "Salah"
+            ],
+            "pembahasan": "WPLN wajib membuktikan status beneficial owner dan menyerahkan SKD Form DGT yang valid dan lengkap. Tanpa bukti ini, tarif domestik 20% tetap berlaku meskipun negara mitra memiliki P3B dengan Indonesia.",
+            "pertanyaan": "WPLN otomatis berhak memakai tarif P3B yang lebih rendah hanya karena negaranya punya P3B dengan Indonesia, tanpa perlu dokumen tambahan."
+          }
+        ],
+        "kalkulator": null,
+        "contoh_kasus": {
+          "poin": [
+            "Tanpa memenuhi syarat lex specialis (SKD Form DGT dan bukti beneficial owner), tarif domestik 20% yang otomatis berlaku: Rp40.000.000.",
+            "Dengan SKD Form DGT lengkap dan Sakura Software terbukti sebagai beneficial owner, tarif P3B 10% berlaku sebagai lex specialis: Rp20.000.000 — menegaskan bagaimana P3B mengalahkan aturan domestik ketika syaratnya terpenuhi."
+          ],
+          "judul": "Perbandingan Tarif Domestik vs P3B untuk Royalti ke Jepang",
+          "cerita": "Melanjutkan contoh dari bagian 6, PT Startup Kreatif membayar royalti Rp200.000.000 ke Sakura Software Co. Ltd di Jepang. P3B Indonesia-Jepang menetapkan tarif royalti sebesar 10%, jauh lebih rendah dari tarif domestik 20%."
+        },
+        "poin_penting": [
+          "⚖️ P3B (Tax Treaty) berkedudukan sebagai lex specialis yang mengalahkan tarif domestik UU PPh, sesuai prinsip lex specialis derogat legi generali.",
+          "🌍 Indonesia punya P3B dengan lebih dari 70 negara, dengan tarif yang bervariasi tergantung hasil negosiasi bilateral.",
+          "📝 Penerapan tarif P3B wajib dibuktikan dengan SKD Form DGT valid dan status beneficial owner yang sah.",
+          "⚠️ Tanpa SKD yang lengkap, tarif domestik 20% tetap berlaku meskipun negara mitra sebenarnya punya P3B."
+        ],
+        "prompt_gambar": [
+          {
+            "id": "img-07",
+            "alt": "Ilustrasi 3D timbangan hukum yang menunjukkan P3B sebagai aturan khusus mengalahkan aturan pajak umum domestik",
+            "prompt": "Ultra modern 3D isometric stylized studio render, landscape 16:9 composition, illustrating the concept of tax treaty as lex specialis overriding domestic tax rates. Center shows a large 3D translucent legal scale/balance icon in electric blue #3B82F6 glass, with one side holding a heavier block labeled with generic law symbolism in muted tone, and the other side holding a smaller glowing golden #F59E0B document badge representing the tax treaty certificate that tips the balance despite its smaller visual size, symbolizing specialized law overriding general law. Background is a rich dark gradient mesh #1E1B4B with ambient studio lighting, subtle world map grid lines glowing faintly behind the scale. Include short, clean, and perfectly spelled Indonesian text labels floating near key elements such as 'Aturan Umum' near the heavier block and 'P3B Lex Specialis' near the golden document badge. Smooth reflective 3D materials, cinematic lighting, premium legal-tech education aesthetic, balanced symmetrical composition.",
+            "keterangan": "Ilustrasi konsep hukum lex specialis, di mana Tax Treaty atau P3B yang lebih spesifik mengalahkan aturan pajak domestik yang lebih umum, asalkan syarat administratif seperti SKD Form DGT terpenuhi.",
+            "url_gambar": null
+          }
+        ],
+        "kesalahan_umum": [
+          {
+            "tips": "Selalu cek isi P3B spesifik negara mitra, jangan menyamaratakan semua P3B punya tarif seragam.",
+            "benar": "Setiap P3B punya tarif berbeda-beda hasil negosiasi bilateral, bahkan bisa berbeda tarif untuk jenis royalti atau dividen yang berbeda dalam satu P3B yang sama",
+            "salah": "Mengasumsikan semua P3B Indonesia punya tarif yang sama untuk semua jenis penghasilan"
+          },
+          {
+            "tips": "Selalu cek masa berlaku SKD sebelum transaksi dilakukan, dan minta pembaruan jika sudah mendekati kedaluwarsa.",
+            "benar": "SKD Form DGT harus masih berlaku (biasanya 12 bulan) dan diisi lengkap sesuai format yang ditetapkan DJP agar tarif P3B bisa diterapkan",
+            "salah": "Menerima SKD yang sudah kedaluwarsa atau tidak lengkap sebagai bukti P3B"
+          }
+        ],
+        "diagram_mermaid": [
+          "flowchart TD\n A[Ada Pembayaran ke WPLN] --> B{Negara Mitra Punya P3B dengan Indonesia?}\n B -->|Tidak| C[Tarif Domestik 20% - UU PPh]\n B -->|Ya| D{WPLN Bisa Buktikan sebagai Beneficial Owner?}\n D -->|Tidak| C\n D -->|Ya| E{SKD Form DGT Valid dan Lengkap?}\n E -->|Tidak| C\n E -->|Ya| F[Tarif P3B Berlaku sebagai Lex Specialis]\n C --> G[Potong, Setor, Lapor via e-Bupot Coretax]\n F --> G"
+        ],
+        "penjelasan_diagram": "Diagram alur ini adalah 'peta keputusan' lengkap untuk menentukan apakah suatu pembayaran ke WPLN memakai tarif domestik 20% atau tarif P3B yang lebih rendah, berdasarkan tiga syarat kumulatif: ada P3B, beneficial owner terbukti, dan SKD Form DGT valid."
+      },
+      {
+        "id": "bag-15",
+        "judul": "Prosedur SKD Form DGT dan e-Bupot Coretax",
+        "analogi": "Simpelnya begini: Form DGT itu kayak 'surat sakti' dari kantor pajak negara asal WPLN yang membuktikan dia memang tinggal di sana dan berhak dapat diskon tarif. Tanpa surat sakti ini, kamu (sebagai withholding agent) wajib pukul rata pakai tarif normal, meskipun sebenarnya WPLN-nya berhak dapat diskon.",
+        "istilah": [
+          {
+            "kata": "Form DGT (DGT-1/DGT-2)",
+            "contoh": "Sakura Software Co. Ltd mengisi Form DGT-1 yang disahkan otoritas pajak Jepang untuk klaim tarif P3B.",
+            "definisi": "Dokumen resmi yang membuktikan status domisili pajak WPLN di negara mitra P3B, terdiri dari DGT-1 (umum) dan DGT-2 (kasus khusus seperti bank atau dana pensiun)."
+          },
+          {
+            "kata": "e-Bupot BPNR",
+            "contoh": "PT Startup Kreatif menerbitkan bukti potong royalti Sakura Software lewat e-Bupot BPNR di Coretax.",
+            "definisi": "Menu di sistem Coretax DJP yang digunakan untuk membuat, menerbitkan, dan melaporkan bukti potong PPh 26 (Bukti Potong Non-Residen)."
+          },
+          {
+            "kata": "Competent Authority",
+            "contoh": "National Tax Agency Jepang berperan sebagai competent authority yang mengesahkan Form DGT Sakura Software Co. Ltd.",
+            "definisi": "Otoritas pajak resmi suatu negara yang berwenang mengesahkan dokumen SKD/Form DGT bagi wajib pajak di negaranya."
+          }
+        ],
+        "paragraf": [
+          "Oke, sekarang kita masuk ke bagian paling praktis: gimana caranya sih WPLN bisa menikmati tarif P3B yang lebih rendah itu secara administratif? Kuncinya ada di dokumen bernama Surat Keterangan Domisili (SKD) atau lebih dikenal dengan Form DGT (Director General of Taxes), yang jadi bukti resmi bahwa WPLN tersebut memang berdomisili pajak di negara mitra P3B dan berhak atas fasilitas tarif yang lebih rendah.",
+          "Form DGT ini terbagi jadi dua jenis: DGT-1 untuk WPLN pada umumnya, dan DGT-2 untuk kasus khusus seperti bank, perusahaan yang sahamnya diperdagangkan di bursa efek negara mitra, atau dana pensiun. Sejak diperbarui lewat PER-11/PJ/2025, format dan mekanisme submit Form DGT ini udah disesuaikan supaya terintegrasi penuh dengan sistem Coretax DJP, jadi nggak perlu lagi upload manual terpisah kayak sistem lama.",
+          "Prosedurnya kira-kira gini: WPLN mengisi Form DGT yang telah ditandatangani atau disahkan otoritas pajak negaranya (competent authority) untuk membuktikan status domisilinya, lalu withholding agent di Indonesia (perusahaan yang bayar) memasukkan data SKD tersebut ke sistem e-SKD DJP Online atau langsung di Coretax sebelum transaksi diproses. Begitu SKD terverifikasi dan statusnya aktif, withholding agent baru bisa menerapkan tarif P3B saat membuat bukti potong.",
+          "Setelah tarif ditentukan (baik domestik maupun P3B), withholding agent wajib membuat bukti potong PPh 26 lewat menu e-Bupot BPNR (Bukti Potong Non-Residen) di Coretax, mengisi data lengkap penerima penghasilan (nama, negara, nomor identitas/paspor, kode objek pajak, jumlah bruto, tarif, dan jumlah pajak dipotong), lalu submit dan terbitkan. Batas waktu penyetoran PPh 26 adalah tanggal 10 bulan berikutnya, dan pelaporan SPT Masa paling lambat tanggal 20 bulan berikutnya, sesuai ketentuan yang berlaku."
+        ],
+        "mini_kuis": [
+          {
+            "id": "q1",
+            "tipe": "pilihan_ganda",
+            "jawaban": "B",
+            "pilihan": [
+              "A. e-Faktur",
+              "B. e-Bupot BPNR",
+              "C. e-SPT Masa PPN",
+              "D. e-Filing OP"
+            ],
+            "pembahasan": "Bukti potong PPh 26 (Bukti Potong Non-Residen) dibuat melalui menu e-Bupot BPNR di Coretax DJP, berbeda dengan e-Faktur (untuk PPN) atau e-Filing OP (untuk SPT Tahunan orang pribadi).",
+            "pertanyaan": "Menu yang digunakan untuk membuat bukti potong PPh 26 di sistem Coretax DJP disebut..."
+          },
+          {
+            "id": "q2",
+            "tipe": "benar_salah",
+            "jawaban": "Benar",
+            "pilihan": [
+              "Benar",
+              "Salah"
+            ],
+            "pembahasan": "Sesuai ketentuan yang berlaku, batas waktu setor PPh 26 adalah tanggal 10 bulan berikutnya setelah masa pajak berakhir, sedangkan batas lapor SPT Masa adalah tanggal 20 bulan berikutnya.",
+            "pertanyaan": "Batas waktu penyetoran PPh 26 adalah tanggal 10 bulan berikutnya, dan pelaporan SPT Masa paling lambat tanggal 20 bulan berikutnya."
+          }
+        ],
+        "kalkulator": null,
+        "contoh_kasus": {
+          "poin": [
+            "Setelah SKD terverifikasi aktif di Coretax, PT Startup Kreatif membuat bukti potong lewat menu e-Bupot BPNR dengan tarif P3B 10%.",
+            "PT Startup Kreatif wajib menyetorkan PPh 26 paling lambat tanggal 10 bulan berikutnya dan melaporkan SPT Masa PPh 26 paling lambat tanggal 20 bulan berikutnya melalui Coretax DJP."
+          ],
+          "judul": "Proses Lengkap Klaim P3B untuk Royalti ke Jepang",
+          "cerita": "PT Startup Kreatif ingin menerapkan tarif P3B 10% (bukan 20%) atas royalti ke Sakura Software Co. Ltd di Jepang. Tim finance PT Startup Kreatif meminta Sakura Software mengisi Form DGT-1 yang disahkan otoritas pajak Jepang (National Tax Agency), lalu menginput data tersebut ke Coretax sebelum jatuh tempo pembayaran royalti bulan berjalan."
+        },
+        "poin_penting": [
+          "📄 SKD Form DGT (DGT-1 untuk umum, DGT-2 untuk kasus khusus) adalah syarat wajib untuk memakai tarif P3B, terbaru diatur PER-11/PJ/2025.",
+          "💻 Sejak era Coretax, submit SKD dan pembuatan bukti potong terintegrasi penuh lewat sistem Coretax DJP, termasuk menu e-Bupot BPNR.",
+          "⏰ Batas setor PPh 26 tanggal 10 bulan berikutnya, batas lapor SPT Masa tanggal 20 bulan berikutnya.",
+          "⚠️ SKD wajib diverifikasi dan aktif SEBELUM transaksi diproses, bukan disusulkan setelah pembayaran dilakukan."
+        ],
+        "prompt_gambar": [
+          {
+            "id": "img-08",
+            "alt": "Ilustrasi 3D dashboard digital Coretax yang menghubungkan Form DGT dengan proses penerbitan bukti potong PPh 26",
+            "prompt": "Ultra modern 3D isometric stylized studio render, landscape 16:9 composition, depicting the digital tax administration workflow for Article 26 withholding through Indonesia's Coretax system. Center shows a sleek 3D floating dashboard interface panel in electric blue #3B82F6 glass with abstract form fields and a glowing emerald green #10B981 verified checkmark badge, connected by thin light streams to a stylized 3D document icon representing the DGT form on the left and a stylized 3D receipt/withholding slip icon on the right. Background is a rich dark gradient mesh #1E1B4B with ambient studio lighting, subtle floating data particles, and a soft grid floor reflection. Include short, clean, and perfectly spelled Indonesian text labels floating near key elements such as 'Form DGT' near the document icon and 'e-Bupot Coretax' near the dashboard panel. Smooth reflective 3D materials, cinematic lighting, premium tech-education aesthetic, balanced composition.",
+            "keterangan": "Ilustrasi alur digital pengurusan SKD Form DGT dan pembuatan bukti potong PPh 26 melalui sistem Coretax DJP, menunjukkan integrasi penuh proses verifikasi dokumen hingga penerbitan bukti potong secara elektronik.",
+            "url_gambar": null
+          }
+        ],
+        "kesalahan_umum": [
+          {
+            "tips": "Jadikan pengecekan status SKD sebagai langkah pertama dalam checklist sebelum memproses pembayaran ke WPLN.",
+            "benar": "SKD wajib diverifikasi dan berstatus aktif SEBELUM bukti potong dibuat, agar tarif P3B bisa langsung diterapkan sejak awal",
+            "salah": "Menginput SKD ke Coretax setelah bukti potong sudah diterbitkan dengan tarif domestik"
+          },
+          {
+            "tips": "Selalu cek update terbaru dari DJP terkait format dan masa transisi Form DGT setiap ada perubahan sistem.",
+            "benar": "Perlu dicek apakah Form DGT yang dipegang WPLN sudah sesuai format terbaru atau perlu pembaruan mengikuti integrasi Coretax",
+            "salah": "Menganggap Form DGT lama (sebelum PER-11/PJ/2025) masih otomatis berlaku tanpa penyesuaian"
+          }
+        ],
+        "diagram_mermaid": [
+          "flowchart TD\n A[WPLN Mengisi Form DGT Disahkan Otoritas Pajak Negaranya] --> B[Withholding Agent Input SKD ke Coretax DJP]\n B --> C{SKD Terverifikasi dan Aktif?}\n C -->|Tidak| D[Gunakan Tarif Domestik 20%]\n C -->|Ya| E[Gunakan Tarif P3B]\n D --> F[Buat Bukti Potong via e-Bupot BPNR]\n E --> F\n F --> G[Setor PPh 26 Paling Lambat Tanggal 10 Bulan Berikutnya]\n G --> H[Lapor SPT Masa Paling Lambat Tanggal 20 Bulan Berikutnya]"
+        ],
+        "penjelasan_diagram": "Diagram ini merangkum alur end-to-end dari pengisian Form DGT oleh WPLN sampai pelaporan SPT Masa PPh 26 oleh withholding agent lewat sistem Coretax DJP, lengkap dengan batas waktu setor dan lapor."
+      }
+    ],
+    "kategori": "PPh",
+    "glosarium": [
+      {
+        "kata": "PPh Pasal 26",
+        "definisi": "Pajak yang dipotong atas penghasilan bersumber dari Indonesia yang diterima oleh Wajib Pajak Luar Negeri, umumnya bersifat final dengan tarif 20% atau sesuai P3B.",
+        "penjelasan_sederhana": "Pajak yang dipotong duluan sebelum duit dari Indonesia 'kabur' ke kantong orang/perusahaan di luar negeri."
+      },
+      {
+        "kata": "WPLN (Wajib Pajak Luar Negeri)",
+        "definisi": "Orang pribadi atau badan yang tidak bertempat tinggal/berkedudukan di Indonesia namun menerima penghasilan bersumber dari Indonesia.",
+        "penjelasan_sederhana": "Orang atau perusahaan asing yang dapat cuan dari Indonesia tapi rumahnya di negara lain."
+      },
+      {
+        "kata": "SPDN (Subjek Pajak Dalam Negeri)",
+        "definisi": "Orang pribadi atau badan yang bertempat tinggal/berkedudukan di Indonesia dan dikenai pajak atas worldwide income.",
+        "penjelasan_sederhana": "Kebalikan WPLN — ini yang 'rumahnya' di Indonesia dan kena pajak dari semua penghasilan di mana pun sumbernya."
+      },
+      {
+        "kata": "BUT (Bentuk Usaha Tetap)",
+        "definisi": "Bentuk usaha yang digunakan WPLN untuk menjalankan kegiatan usaha secara aktif dan berkesinambungan di Indonesia, seperti cabang atau kantor perwakilan.",
+        "penjelasan_sederhana": "Kayak 'cabang resmi' perusahaan asing yang beneran beroperasi di Indonesia, bukan cuma kirim barang doang."
+      },
+      {
+        "kata": "P3B (Perjanjian Penghindaran Pajak Berganda)",
+        "definisi": "Perjanjian bilateral antar dua negara untuk menghindari pengenaan pajak berganda dan mencegah penghindaran pajak, sering disebut juga Tax Treaty.",
+        "penjelasan_sederhana": "Kesepakatan antar dua negara biar orang/perusahaan nggak dipajakin dobel atas penghasilan yang sama."
+      },
+      {
+        "kata": "SKD (Surat Keterangan Domisili)",
+        "definisi": "Dokumen resmi yang membuktikan status domisili pajak seseorang atau badan di suatu negara, digunakan untuk klaim fasilitas P3B.",
+        "penjelasan_sederhana": "Surat bukti 'aku beneran tinggal pajak di negara ini', biar bisa dapat diskon tarif pajak P3B."
+      },
+      {
+        "kata": "Form DGT (DGT-1/DGT-2)",
+        "definisi": "Formulir resmi yang digunakan WPLN untuk membuktikan status SKD-nya, terdiri dari DGT-1 (umum) dan DGT-2 (kasus khusus seperti bank/dana pensiun).",
+        "penjelasan_sederhana": "Versi formulir resmi dari SKD yang formatnya udah ditentukan Direktorat Jenderal Pajak."
+      },
+      {
+        "kata": "Branch Profit Tax (BPT)",
+        "definisi": "Pajak tambahan 20% atas laba bersih BUT setelah PPh Badan yang ditransfer atau dianggap ditransfer ke kantor pusat di luar negeri.",
+        "penjelasan_sederhana": "Pajak 'lapisan kedua' buat BUT, mirip pajak dividen tapi khusus buat cabang perusahaan asing."
+      },
+      {
+        "kata": "Withholding Tax (Pajak Pemotongan)",
+        "definisi": "Sistem pemungutan pajak di mana pihak pembayar penghasilan wajib memotong pajak sebelum penghasilan diterima oleh penerimanya.",
+        "penjelasan_sederhana": "Pajak yang dipotong duluan sama yang bayar, bukan disetor belakangan sama yang nerima duit."
+      },
+      {
+        "kata": "Perkiraan Penghasilan Neto",
+        "definisi": "Estimasi persentase penghasilan bersih dari nilai bruto transaksi tertentu, digunakan sebagai dasar penghitungan PPh 26 untuk kategori transaksi khusus.",
+        "penjelasan_sederhana": "Anggapan 'untung sekian persen' dari total transaksi, biar pajaknya nggak dihitung dari nilai kotor penuh."
+      },
+      {
+        "kata": "Bukti Potong (Bupot)",
+        "definisi": "Dokumen resmi yang diterbitkan withholding agent sebagai bukti telah dilakukannya pemotongan pajak atas suatu penghasilan.",
+        "penjelasan_sederhana": "Kwitansi resmi yang membuktikan pajak WPLN sudah dipotong dan disetor ke negara."
+      },
+      {
+        "kata": "e-Bupot BPNR",
+        "definisi": "Menu di sistem Coretax DJP untuk membuat, menerbitkan, dan melaporkan bukti potong PPh 26 (Bukti Potong Non-Residen).",
+        "penjelasan_sederhana": "Fitur khusus di Coretax buat urus bukti potong pajak orang/perusahaan luar negeri."
+      },
+      {
+        "kata": "Coretax DJP",
+        "definisi": "Sistem administrasi perpajakan terintegrasi milik DJP yang menggabungkan berbagai layanan pajak (e-Faktur, e-Bupot, e-Filing) dalam satu platform sejak 2025.",
+        "penjelasan_sederhana": "Sistem pajak online terbaru yang menyatukan semua urusan pajak dalam satu aplikasi, ganti sistem lama yang terpisah-pisah."
+      },
+      {
+        "kata": "Dividen",
+        "definisi": "Bagian laba perusahaan yang dibagikan kepada pemegang saham sesuai proporsi kepemilikan sahamnya.",
+        "penjelasan_sederhana": "Jatah untung perusahaan yang dibagi ke pemegang saham."
+      },
+      {
+        "kata": "Royalti",
+        "definisi": "Imbalan atas penggunaan atau hak menggunakan hak cipta, paten, merek dagang, software, atau informasi industrial/komersial/ilmiah.",
+        "penjelasan_sederhana": "Bayaran karena 'nyewa' hak pakai sesuatu yang diciptakan atau dipatenkan orang lain, kayak software atau merek dagang."
+      },
+      {
+        "kata": "Diskonto Obligasi",
+        "definisi": "Selisih antara nilai nominal obligasi dan harga jualnya yang lebih rendah, dianggap sebagai bentuk bunga terselubung.",
+        "penjelasan_sederhana": "Selisih harga obligasi yang dianggap 'untung terselubung' dan tetap kena pajak kayak bunga."
+      },
+      {
+        "kata": "Reasuransi",
+        "definisi": "Proses pengalihan sebagian risiko yang ditanggung perusahaan asuransi kepada perusahaan asuransi lain untuk mengurangi beban risiko.",
+        "penjelasan_sederhana": "Asuransinya perusahaan asuransi, biar risikonya nggak ditanggung sendirian."
+      },
+      {
+        "kata": "Lex Specialis",
+        "definisi": "Prinsip hukum bahwa aturan yang lebih khusus mengalahkan aturan yang lebih umum ketika terjadi pertentangan ketentuan.",
+        "penjelasan_sederhana": "Aturan khusus menang lawan aturan umum kalau isinya beda."
+      },
+      {
+        "kata": "Beneficial Owner",
+        "definisi": "Pemilik manfaat sebenarnya atas suatu penghasilan, bukan sekadar perantara atau nominee yang menerima penghasilan atas nama pihak lain.",
+        "penjelasan_sederhana": "Pemilik 'asli' dari penghasilan, bukan cuma tukang lewat/perantara doang."
+      },
+      {
+        "kata": "Reinvestasi",
+        "definisi": "Penanaman kembali laba yang diperoleh ke dalam bentuk modal atau aset produktif, alih-alih ditarik atau ditransfer keluar negeri.",
+        "penjelasan_sederhana": "Untung yang ditanam balik jadi modal usaha lagi, bukan dibawa pulang ke luar negeri."
+      },
+      {
+        "kata": "Withholding Agent (Pemotong Pajak)",
+        "definisi": "Pihak di Indonesia yang berkewajiban memotong, menyetor, dan melaporkan PPh 26 atas pembayaran yang dilakukannya ke WPLN.",
+        "penjelasan_sederhana": "Pihak yang wajib 'nyisihin' pajak duluan sebelum bayar ke pihak luar negeri."
+      }
+    ],
+    "ringkasan": "Modul ini ngupas tuntas PPh Pasal 26, pajak yang dipotong atas penghasilan bersumber dari Indonesia yang mengalir ke Wajib Pajak Luar Negeri (WPLN), mulai dari dasar hukum, jenis-jenis objek pajaknya, tarif efektif, Branch Profit Tax BUT, sampai peran Tax Treaty (P3B) dan prosedur SKD Form DGT di era Coretax 2026. Cocok buat kamu yang mau paham gimana Indonesia tetap dapat jatah pajak dari duit yang 'kabur' ke luar negeri.",
+    "kuis_akhir": {
+      "soal": [
+        {
+          "id": "q1",
+          "tipe": "pilihan_ganda",
+          "jawaban": "B",
+          "pilihan": [
+            "A. Subjek Pajak Dalam Negeri (SPDN)",
+            "B. Wajib Pajak Luar Negeri (WPLN)",
+            "C. Pegawai tetap perusahaan Indonesia",
+            "D. Pemerintah daerah"
+          ],
+          "pembahasan": "PPh 26 khusus mengatur penghasilan bersumber Indonesia yang diterima WPLN. Pilihan A salah karena SPDN dikenai PPh umum berdasarkan worldwide income, C dan D tidak relevan dengan objek PPh 26.",
+          "pertanyaan": "PPh Pasal 26 dikenakan atas penghasilan yang bersumber dari Indonesia dan diterima oleh..."
+        },
+        {
+          "id": "q2",
+          "tipe": "pilihan_ganda",
+          "jawaban": "B",
+          "pilihan": [
+            "A. Lebih dari 183 hari dalam 12 bulan",
+            "B. Kurang dari atau sama dengan 183 hari dalam 12 bulan",
+            "C. Lebih dari 6 bulan berturut-turut",
+            "D. Tidak pernah sama sekali"
+          ],
+          "pembahasan": "Kriteria WPLN untuk orang pribadi adalah berada di Indonesia ≤ 183 hari dalam periode 12 bulan. Pilihan A merupakan kriteria SPDN, sementara C dan D tidak sesuai ketentuan.",
+          "pertanyaan": "Orang pribadi asing dianggap WPLN jika berada di Indonesia..."
+        },
+        {
+          "id": "q3",
+          "tipe": "pilihan_ganda",
+          "jawaban": "C",
+          "pilihan": [
+            "A. 10%",
+            "B. 15%",
+            "C. 20%",
+            "D. 25%"
+          ],
+          "pembahasan": "Tarif standar/domestik PPh 26 adalah 20% dari jumlah bruto, kecuali ada P3B yang menurunkan tarifnya atau skema Perkiraan Penghasilan Neto untuk transaksi tertentu.",
+          "pertanyaan": "Tarif standar PPh 26 dari jumlah bruto (tanpa P3B) adalah..."
+        },
+        {
+          "id": "q4",
+          "tipe": "pilihan_ganda",
+          "jawaban": "D",
+          "pilihan": [
+            "A. Rp20.000.000",
+            "B. Rp40.000.000",
+            "C. Rp60.000.000",
+            "D. Rp80.000.000"
+          ],
+          "pembahasan": "Tanpa SKD Form DGT, tarif domestik 20% berlaku penuh: 20% x Rp400.000.000 = Rp80.000.000. Pilihan lain menggunakan tarif yang salah atau perhitungan yang keliru.",
+          "pertanyaan": "PT Cahaya Abadi membayar dividen Rp400.000.000 kepada investor asing tanpa SKD Form DGT. Berapa PPh 26 yang wajib dipotong?"
+        },
+        {
+          "id": "q5",
+          "tipe": "pilihan_ganda",
+          "jawaban": "C",
+          "pilihan": [
+            "A. 20% dari harga jual",
+            "B. 10% dari harga jual",
+            "C. 5% dari harga jual",
+            "D. 2% dari harga jual"
+          ],
+          "pembahasan": "Tarif efektif 5% berasal dari Perkiraan Penghasilan Neto 25% dikalikan tarif dasar 20%. Ini khusus berlaku untuk saham perusahaan tertutup, bukan saham yang listed di bursa.",
+          "pertanyaan": "Tarif efektif PPh 26 atas penjualan saham perusahaan tertutup oleh WPLN adalah..."
+        },
+        {
+          "id": "q6",
+          "tipe": "pilihan_ganda",
+          "jawaban": "D",
+          "pilihan": [
+            "A. 1%",
+            "B. 2%",
+            "C. 5%",
+            "D. 10%"
+          ],
+          "pembahasan": "Skenario tertanggung membayar langsung ke asuransi luar negeri menggunakan tarif efektif tertinggi di antara skema premi asuransi, yaitu 10% dari premi bruto, berbeda dengan reasuransi (2%) atau retrosesi (1%).",
+          "pertanyaan": "Berapa tarif efektif PPh 26 jika tertanggung membayar langsung premi asuransi ke perusahaan asuransi luar negeri?"
+        },
+        {
+          "id": "q7",
+          "tipe": "pilihan_ganda",
+          "jawaban": "C",
+          "pilihan": [
+            "A. Omzet penjualan BUT",
+            "B. Penghasilan Kena Pajak BUT sebelum pajak",
+            "C. Laba bersih BUT setelah PPh Badan yang ditransfer ke kantor pusat",
+            "D. Gaji karyawan asing di BUT"
+          ],
+          "pembahasan": "BPT dikenakan atas laba bersih SETELAH PPh Badan 22% yang ditransfer atau dianggap ditransfer ke kantor pusat di luar negeri, bukan atas omzet, PKP sebelum pajak, atau gaji karyawan.",
+          "pertanyaan": "Branch Profit Tax dikenakan sebesar 20% atas..."
+        },
+        {
+          "id": "q8",
+          "tipe": "pilihan_ganda",
+          "jawaban": "C",
+          "pilihan": [
+            "A. 1 tahun",
+            "B. 2 tahun",
+            "C. 3 tahun",
+            "D. 5 tahun"
+          ],
+          "pembahasan": "Dana reinvestasi wajib ditempatkan minimal 3 tahun sejak laba diperoleh dan tidak boleh ditarik sebelum jangka waktu tersebut agar pembebasan BPT tetap berlaku.",
+          "pertanyaan": "Syarat minimal jangka waktu penempatan dana reinvestasi laba BUT agar bebas BPT adalah..."
+        },
+        {
+          "id": "q9",
+          "tipe": "pilihan_ganda",
+          "jawaban": "A",
+          "pilihan": [
+            "A. Lex specialis derogat legi generali",
+            "B. In dubio pro reo",
+            "C. Nemo judex in causa sua",
+            "D. Ultra petita"
+          ],
+          "pembahasan": "Prinsip lex specialis derogat legi generali menyatakan aturan yang lebih khusus (P3B) mengalahkan aturan yang lebih umum (UU PPh domestik), asalkan syarat administratifnya terpenuhi.",
+          "pertanyaan": "Prinsip hukum yang menjadikan P3B mengalahkan tarif domestik PPh 26 disebut..."
+        },
+        {
+          "id": "q10",
+          "tipe": "benar_salah",
+          "jawaban": "Salah",
+          "pilihan": [
+            "Benar",
+            "Salah"
+          ],
+          "pembahasan": "WPLN hanya dikenai pajak atas penghasilan yang bersumber dari Indonesia (source income), berbeda dengan SPDN yang dikenai pajak atas worldwide income.",
+          "pertanyaan": "WPLN dikenai pajak berdasarkan worldwide income sama seperti SPDN."
+        },
+        {
+          "id": "q11",
+          "tipe": "benar_salah",
+          "jawaban": "Salah",
+          "pilihan": [
+            "Benar",
+            "Salah"
+          ],
+          "pembahasan": "Penerapan tarif P3B wajib dibuktikan dengan SKD Form DGT yang valid dan status beneficial owner. Tanpa dokumen ini, tarif domestik 20% tetap berlaku.",
+          "pertanyaan": "Penerapan tarif P3B otomatis berlaku begitu diketahui negara asal WPLN memiliki P3B dengan Indonesia, tanpa perlu dokumen tambahan."
+        },
+        {
+          "id": "q12",
+          "tipe": "benar_salah",
+          "jawaban": "Benar",
+          "pilihan": [
+            "Benar",
+            "Salah"
+          ],
+          "pembahasan": "Penghasilan operasional BUT diperlakukan seperti SPDN dan dikenai PPh Badan tarif umum 22%. PPh 26 baru masuk saat laba BUT ditransfer ke kantor pusat (Branch Profit Tax).",
+          "pertanyaan": "BUT yang penghasilannya terkait langsung dengan kegiatan usahanya di Indonesia dikenai PPh Badan tarif umum, bukan PPh 26."
+        },
+        {
+          "id": "q13",
+          "tipe": "benar_salah",
+          "jawaban": "Salah",
+          "pilihan": [
+            "Benar",
+            "Salah"
+          ],
+          "pembahasan": "Diskonto obligasi diperlakukan sebagai bunga terselubung secara ekonomis, sehingga tetap termasuk objek PPh 26 jika pemegang obligasinya WPLN.",
+          "pertanyaan": "Diskonto obligasi yang diterima WPLN tidak termasuk objek PPh 26 karena bukan bunga dalam arti sempit."
+        },
+        {
+          "id": "q14",
+          "tipe": "isian_singkat",
+          "jawaban": "Rp25.000.000",
+          "pilihan": null,
+          "pembahasan": "PPh 26 = 10% x Rp250.000.000 = Rp25.000.000, menggunakan tarif P3B karena SKD Form DGT valid dan lengkap tersedia sebelum pembayaran dilakukan.",
+          "pertanyaan": "PT Solusi Digital membayar royalti software Rp250.000.000 ke vendor Jepang yang memiliki SKD Form DGT valid dengan tarif P3B royalti 10%. Berapa PPh 26 yang dipotong?"
+        },
+        {
+          "id": "q15",
+          "tipe": "isian_singkat",
+          "jawaban": "Rp468.000.000",
+          "pilihan": null,
+          "pembahasan": "PPh Badan = 22% x Rp3.000.000.000 = Rp660.000.000, sehingga laba bersih = Rp2.340.000.000. BPT = 20% x Rp2.340.000.000 = Rp468.000.000.",
+          "pertanyaan": "BUT Konstruksi Prima mencatatkan Penghasilan Kena Pajak Rp3.000.000.000. Seluruh laba setelah PPh Badan 22% dianggap ditransfer ke kantor pusat tanpa reinvestasi. Berapa total Branch Profit Tax yang terutang?"
+        },
+        {
+          "id": "q16",
+          "tipe": "pilihan_ganda",
+          "jawaban": "C",
+          "pilihan": [
+            "A. Rp12.500.000",
+            "B. Rp25.000.000",
+            "C. Rp50.000.000",
+            "D. Rp75.000.000"
+          ],
+          "pembahasan": "Tanpa SKD, tarif domestik 20% berlaku: 20% x Rp250.000.000 = Rp50.000.000. Pilihan lain menggunakan tarif yang tidak sesuai ketentuan domestik untuk kasus tanpa dokumen SKD.",
+          "pertanyaan": "Golden Bank Hong Kong memberi pinjaman ke PT Maju Bersama dengan bunga tahunan Rp250.000.000, tanpa SKD. Berapa PPh 26 yang wajib dipotong PT Maju Bersama?"
+        },
+        {
+          "id": "q17",
+          "tipe": "pilihan_ganda",
+          "jawaban": "C",
+          "pilihan": [
+            "A. Rp600.000.000",
+            "B. Rp300.000.000",
+            "C. Rp150.000.000",
+            "D. Rp150.000"
+          ],
+          "pembahasan": "Tarif efektif 5% x Rp3.000.000.000 = Rp150.000.000, berdasarkan skema Perkiraan Penghasilan Neto 25% dikalikan tarif dasar 20% untuk penjualan saham perusahaan tertutup oleh WPLN.",
+          "pertanyaan": "Kim Investment Ltd menjual saham perusahaan tertutup PT Agro Sejahtera seharga Rp3.000.000.000. Berapa PPh 26 yang wajib dipotong pembeli?"
+        },
+        {
+          "id": "q18",
+          "tipe": "esai",
+          "jawaban": "Konsep Perkiraan Penghasilan Neto diterapkan karena untuk transaksi tertentu seperti penjualan saham/harta atau premi asuransi/reasuransi, mengenakan tarif 20% langsung dari nilai bruto transaksi dianggap terlalu berat dan tidak mencerminkan keuntungan ekonomis riil yang diperoleh WPLN — misalnya harga jual saham mencakup modal awal yang sudah dikeluarkan investor, bukan murni keuntungan. Oleh karena itu, pemerintah menetapkan persentase perkiraan penghasilan neto (misalnya 25% untuk saham) dari nilai bruto, baru dikalikan tarif dasar 20%, sehingga hasilnya berupa tarif efektif yang lebih rendah dan proporsional (misalnya 5%) yang lebih adil secara ekonomis tanpa perlu menelusuri biaya riil WPLN yang sulit diverifikasi otoritas pajak Indonesia.",
+          "pilihan": null,
+          "pembahasan": "Jawaban yang baik harus menyentuh dua poin utama: (1) alasan keadilan ekonomis karena bruto tidak mencerminkan keuntungan riil, dan (2) alasan praktis administratif karena DJP sulit memverifikasi biaya riil WPLN yang berbasis di luar negeri, sehingga skema perkiraan persentase jadi solusi praktis yang tetap proporsional.",
+          "pertanyaan": "Jelaskan mengapa pemerintah menerapkan konsep Perkiraan Penghasilan Neto untuk objek PPh 26 tertentu seperti penjualan saham dan premi asuransi, alih-alih langsung mengenakan tarif 20% dari bruto seperti objek lainnya!"
+        },
+        {
+          "id": "q19",
+          "tipe": "benar_salah",
+          "jawaban": "Benar",
+          "pilihan": [
+            "Benar",
+            "Salah"
+          ],
+          "pembahasan": "SKD Form DGT harus sudah diserahkan dan terverifikasi aktif SEBELUM pembayaran dilakukan. Jika menyusul setelah pembayaran, withholding agent wajib menggunakan tarif domestik 20% pada saat transaksi berlangsung.",
+          "pertanyaan": "SKD Form DGT wajib diserahkan dan diverifikasi valid sebelum transaksi pembayaran ke WPLN diproses agar tarif P3B bisa diterapkan."
+        },
+        {
+          "id": "q20",
+          "tipe": "pilihan_ganda",
+          "jawaban": "C",
+          "pilihan": [
+            "A. Tanggal 10 bulan berikutnya",
+            "B. Tanggal 15 bulan berikutnya",
+            "C. Tanggal 20 bulan berikutnya",
+            "D. Tanggal 25 bulan berikutnya"
+          ],
+          "pembahasan": "Batas waktu pelaporan SPT Masa PPh 26 adalah tanggal 20 bulan berikutnya, sedangkan batas waktu penyetorannya lebih awal yaitu tanggal 10 bulan berikutnya.",
+          "pertanyaan": "Batas waktu pelaporan SPT Masa PPh 26 melalui Coretax DJP adalah tanggal berapa setiap bulannya?"
+        }
+      ],
+      "judul": "Kuis Akhir: Uji Pemahaman Modul PPh Pasal 26",
+      "nilai_lulus": 70,
+      "waktu_menit": 40
+    },
+    "estimasi_menit": 90,
+    "tujuan_belajar": [
+      "Memahami konsep dasar dan dasar hukum PPh Pasal 26 sebagai pajak atas penghasilan WPLN.",
+      "Membedakan kriteria dan perlakuan pajak antara SPDN dan WPLN.",
+      "Menghitung PPh 26 atas berbagai objek pajak seperti dividen, bunga, royalti, jasa, dan hadiah.",
+      "Menerapkan konsep Perkiraan Penghasilan Neto untuk transaksi penjualan saham dan premi asuransi.",
+      "Menganalisis kedudukan Tax Treaty (P3B) sebagai lex specialis terhadap tarif domestik.",
+      "Menjelaskan mekanisme Branch Profit Tax dan syarat pembebasannya melalui reinvestasi.",
+      "Menerapkan prosedur pengurusan SKD Form DGT dan e-Bupot PPh 26 di sistem Coretax."
+    ],
+    "tingkat_kesulitan": "menengah"
+  },
+  "versi": "1.0"
+}

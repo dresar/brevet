@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="50%" stop-color="#1e1b4b" />
+      <stop offset="100%" stop-color="#0284c7" />
+    </linearGradient>
+    <linearGradient id="iconGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="100%" stop-color="#818cf8" />
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f59e0b" />
+      <stop offset="100%" stop-color="#fbbf24" />
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="12" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+  
+  <!-- Background Container with Soft Rounded Corners for Android Adaptive Icons -->
+  <rect width="512" height="512" rx="112" fill="url(#bgGrad)" />
+  
+  <!-- Outer Glow Ring -->
+  <circle cx="256" cy="256" r="190" fill="none" stroke="url(#iconGrad)" stroke-width="8" opacity="0.4" />
+  
+  <!-- Main Tax / Learning Book Badge -->
+  <g filter="url(#glow)">
+    <!-- Shield / Badge Base -->
+    <path d="M 256 96 L 366 144 V 248 C 366 320 316 384 256 416 C 196 384 146 320 146 248 V 144 Z" fill="#1e293b" stroke="url(#iconGrad)" stroke-width="10" />
+    
+    <!-- Letter B & A Stylized Emblem for Brevet AB -->
+    <text x="256" y="275" font-family="system-ui, -apple-system, sans-serif" font-weight="900" font-size="120" fill="url(#iconGrad)" text-anchor="middle">B</text>
+    
+    <!-- Star Accent -->
+    <polygon points="256,150 264,170 286,170 268,184 274,204 256,190 238,204 244,184 226,170 248,170" fill="url(#accentGrad)" />
+  </g>
+</svg>

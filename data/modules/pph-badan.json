@@ -1,0 +1,821 @@
+{
+  "versi": "1.0",
+  "modul": {
+    "kode": "BRVT-AB-06",
+    "slug": "pph-badan",
+    "judul": "PPh Badan",
+    "kategori": "PPh",
+    "tingkat_kesulitan": "menengah",
+    "estimasi_menit": 75,
+    "ringkasan": "Modul ini ngebahas tuntas soal Pajak Penghasilan (PPh) Badan, mulai dari siapa aja yang wajib bayar, gimana cara ngitung Penghasilan Kena Pajak lewat rekonsiliasi fiskal, sampai fasilitas diskon tarif Pasal 31E buat usaha kecil-menengah.",
+    "tujuan_belajar": [
+      "Memahami subjek dan objek pajak PPh Badan beserta pengecualiannya",
+      "Menguasai konsep rekonsiliasi fiskal dan bedanya sama laporan akuntansi komersial",
+      "Bisa membedakan biaya deductible dan non-deductible sesuai Pasal 6 dan Pasal 9 UU PPh",
+      "Menghitung PPh Badan terutang termasuk fasilitas diskon tarif Pasal 31E",
+      "Memahami alur pelaporan SPT Tahunan 1771 dan angsuran PPh Pasal 25"
+    ],
+    "bagian": [
+      {
+        "id": "bag-01",
+        "judul": "Kenalan Sama PPh Badan",
+        "paragraf": [
+          "Oke, jadi gini. Selama ini mungkin kamu cuma denger soal pajak penghasilan buat orang pribadi kayak Bu Siti yang kerja kantoran atau Mas Andi yang jualan online. Tapi ternyata, badan usaha kayak PT, CV, sampai yayasan juga punya kewajiban pajak sendiri namanya PPh Badan 🏢. Simpelnya, PPh Badan itu pajak yang dikenakan atas penghasilan yang diterima atau diperoleh oleh badan, bukan orang perorangan. Dasar hukumnya ada di Pasal 1 dan Pasal 2 UU PPh (UU No. 7 Tahun 1983 s.t.d.t.d UU HPP No. 7/2021).",
+          "Nah, siapa aja sih yang dianggap 'Badan' di mata pajak? Definisinya luas banget, gak cuma PT doang. Ada Perseroan Terbatas (PT), Perseroan Komanditer (CV), Firma, BUMN, BUMD, BUMDes, Koperasi, Yayasan, Perkumpulan, sampai Kontrak Investasi Kolektif (KIK) kayak reksadana. Bahkan Bentuk Usaha Tetap (BUT) milik perusahaan asing juga masuk kategori Subjek Pajak Badan lho 📌. Intinya, kalau ada entitas yang punya kegiatan usaha dan menghasilkan laba, hampir pasti dia kena kewajiban PPh Badan.",
+          "Analoginya gini deh: kalau PPh Orang Pribadi itu kayak kamu bayar 'uang kas' pribadi ke RT karena kamu individu yang tinggal di situ, PPh Badan itu kayak perusahaan/organisasi kamu yang bayar 'uang kas' atas nama kelompok atau badan hukum tersebut, terpisah dari uang kas pribadi masing-masing anggotanya. Makanya walaupun Pak Budi punya PT dan udah bayar PPh Orang Pribadi dari gajinya sebagai direktur, PT-nya tetap wajib bayar PPh Badan sendiri atas laba usahanya. Dua entitas, dua kewajiban pajak yang beda ✅.",
+          "Yang penting dicatat, gak semua badan otomatis kena tarif yang sama. Ada badan yang emang murni cari untung (PT, CV) yang tunduk penuh ke skema PPh Badan Pasal 17 dan 31E. Tapi ada juga badan nirlaba kayak yayasan pendidikan atau koperasi yang punya perlakuan khusus, misalnya sisa lebih yayasan pendidikan yang ditanamkan kembali bisa dikecualikan dari objek pajak. Nah ini bakal kita bahas lebih detail di bagian 3 soal objek dan pengecualian pajak."
+        ],
+        "poin_penting": [
+          "💡 PPh Badan dikenakan atas penghasilan yang diterima/diperoleh badan usaha, terpisah dari pajak pribadi pemiliknya.",
+          "✅ Kategori Badan itu luas: PT, CV, Firma, BUMN, BUMD, BUMDes, Koperasi, Yayasan, Perkumpulan, KIK, dan BUT.",
+          "📌 Dasar hukum utama: UU PPh Pasal 1 & 2, sebagaimana diubah terakhir lewat UU HPP No. 7/2021."
+        ],
+        "analogi": "Bayangin PT itu kayak sebuah 'keluarga besar' yang punya dompet sendiri terpisah dari dompet pribadi tiap anggotanya. Walaupun anggota keluarga (pemegang saham/direktur) udah bayar pajak dari gaji masing-masing, dompet keluarga besar itu (perusahaan) tetap wajib setor pajak sendiri dari hasil usahanya.",
+        "contoh_kasus": {
+          "judul": "Kasus PT Sumber Makmur Milik Pak Budi",
+          "cerita": "Pak Budi punya PT Sumber Makmur yang bergerak di bidang distribusi sembako di Medan. Tahun ini PT-nya untung Rp800 juta, dan Pak Budi sendiri sebagai direktur digaji Rp300 juta setahun dari PT tersebut.",
+          "poin": [
+            "PT Sumber Makmur wajib lapor & bayar PPh Badan atas laba Rp800 juta yang diperolehnya.",
+            "Pak Budi secara pribadi juga wajib lapor PPh Orang Pribadi atas gaji Rp300 juta yang ia terima, terpisah dari kewajiban PT-nya.",
+            "Kedua kewajiban ini gak boleh dicampur — NPWP badan dan NPWP pribadi Pak Budi adalah entitas pajak yang berbeda."
+          ]
+        },
+        "diagram_mermaid": [],
+        "penjelasan_diagram": "",
+        "prompt_gambar": [],
+        "kalkulator": null,
+        "mini_kuis": [],
+        "kesalahan_umum": [],
+        "istilah": []
+      },
+      {
+        "id": "bag-02",
+        "judul": "Bentuk Usaha Tetap (BUT)",
+        "paragraf": [
+          "Sekarang kita masuk ke topik yang sering bikin bingung pemula: Bentuk Usaha Tetap alias BUT. Jadi gini, kalau ada perusahaan asing (Wajib Pajak Luar Negeri/WPLN) yang mau jalanin bisnis di Indonesia tapi gak bikin PT baru di sini, mereka bisa 'hadir' lewat BUT. BUT ini pada dasarnya adalah representasi bisnis WPLN di Indonesia yang diperlakukan hampir sama kayak Wajib Pajak Badan dalam negeri untuk urusan pajak 📌. Dasar hukumnya ada di Pasal 2 ayat (5) UU PPh.",
+          "Nah, gimana caranya suatu kehadiran WPLN dianggap BUT? Ada beberapa kriteria, mulai dari kehadiran fisik sampai kehadiran jasa. Contoh kehadiran fisik: cabang perusahaan, kantor perwakilan yang aktif jualan, pabrik, gudang, sampai proyek konstruksi/instalasi yang berlangsung lebih dari 120 hari dalam 12 bulan. Sementara untuk kehadiran jasa, kalau tenaga kerja asing kasih jasa di Indonesia lebih dari 60 hari dalam 12 bulan, itu juga bisa dianggap BUT walaupun gak ada kantor fisiknya 🔑.",
+          "Yang bikin BUT ini unik adalah statusnya: secara hukum dia bukan badan hukum Indonesia yang berdiri sendiri, tapi secara pajak dia 'dianggap' sebagai Subjek Pajak Badan Dalam Negeri untuk penghasilan yang bersumber dari kegiatannya di Indonesia. Jadi BUT tetap wajib punya NPWP, hitung laba fiskal, bayar PPh Badan dengan tarif yang sama kayak PT lokal, bahkan kena Branch Profit Tax (Pajak Cabang) atas laba setelah pajak yang dikirim ke kantor pusatnya di luar negeri.",
+          "Contoh gampangnya: PT Konstruksi Global asal Korea mengerjakan proyek pembangunan pabrik di Deli Serdang selama 8 bulan. Karena proyeknya lebih dari 120 hari, otomatis proyek itu jadi BUT di Indonesia dan wajib lapor pajak layaknya badan usaha lokal, walaupun kantor pusatnya tetap di Seoul."
+        ],
+        "poin_penting": [
+          "📌 BUT adalah cara WPLN 'hadir' secara pajak di Indonesia tanpa harus mendirikan PT baru.",
+          "⚠️ Proyek konstruksi lebih dari 120 hari atau pemberian jasa lebih dari 60 hari dalam setahun bisa otomatis jadi BUT.",
+          "✅ BUT diperlakukan setara Wajib Pajak Badan Dalam Negeri: wajib NPWP, hitung laba fiskal, dan bayar PPh Badan tarif umum."
+        ],
+        "analogi": "BUT itu kayak 'kantor cabang tanpa status resmi berdiri sendiri' — ibarat kamu numpang jualan di lapak orang lain tapi tetap wajib setor pajak atas hasil jualanmu di situ, walaupun lapak utamamu ada di kota lain.",
+        "contoh_kasus": {
+          "judul": "Kasus Proyek Jembatan PT Nordic Engineering",
+          "cerita": "PT Nordic Engineering, perusahaan asal Belanda, mengerjakan proyek pembangunan jembatan di Sumatera Utara selama 5 bulan (150 hari) dengan nilai kontrak Rp45 miliar.",
+          "poin": [
+            "Karena durasi proyek melebihi 120 hari, kegiatan ini otomatis dianggap BUT di Indonesia.",
+            "PT Nordic Engineering wajib mendaftarkan NPWP BUT dan menghitung laba fiskal dari proyek tersebut.",
+            "Laba BUT dikenakan PPh Badan tarif umum, ditambah Branch Profit Tax jika laba dikirim ke kantor pusat di Belanda."
+          ]
+        },
+        "diagram_mermaid": [],
+        "penjelasan_diagram": "",
+        "prompt_gambar": [],
+        "kalkulator": null,
+        "mini_kuis": [],
+        "kesalahan_umum": [],
+        "istilah": []
+      },
+      {
+        "id": "bag-03",
+        "judul": "Objek Pajak & Pengecualiannya",
+        "paragraf": [
+          "Sekarang kita bahas apa aja sih yang sebenarnya kena PPh Badan. Menurut Pasal 4 ayat (1) UU PPh, objek pajak itu adalah setiap tambahan kemampuan ekonomis yang diterima atau diperoleh badan, dari mana pun asalnya, yang bisa dipakai buat konsumsi atau nambah kekayaan. Contoh paling umum: laba usaha, bunga deposito/pinjaman, royalti, sewa dari penyewaan harta, sampai keuntungan dari selisih kurs mata uang asing 💰. Jadi pada dasarnya, hampir semua penghasilan badan itu kena pajak, kecuali ada aturan yang secara spesifik mengecualikannya.",
+          "Nah ini bagian yang sering bikin salah kaprah pemula: gak semua penghasilan badan itu objek pajak! Pasal 4 ayat (3) UU PPh ngasih daftar pengecualian. Yang paling sering muncul di soal ujian Brevet: dividen yang diterima PT, CV, BUMN/BUMD dari penyertaan modal di badan usaha lain di Indonesia (dengan syarat tertentu soal kepemilikan saham), sisa lebih yang diterima yayasan/lembaga pendidikan yang ditanamkan kembali dalam bentuk sarana-prasarana pendidikan/penelitian dalam jangka waktu maksimal 4 tahun, serta Sisa Hasil Usaha (SHU) koperasi yang dibagikan ke anggotanya ⚠️.",
+          "Kenapa dividen dari badan dalam negeri dikecualikan? Ini soal menghindari pajak berganda ekonomis (economic double taxation). Logikanya, laba yang dibagikan sebagai dividen itu kan udah dipajaki di level perusahaan pertama (yang bagi dividen). Kalau dipajaki lagi di level penerima dividen (yang juga badan), penghasilan yang sama jadi kena pajak dua kali. Makanya negara ngasih pengecualian ini biar gak ada double burden buat struktur holding company atau investasi antar-badan di dalam negeri.",
+          "Contoh biar makin ngena: Bu Rina punya PT Berkah Sejahtera yang menerima dividen Rp200 juta dari PT Maju Terus (di mana PT Berkah Sejahtera punya saham 30% di sana). Karena kepemilikannya di atas ambang batas yang disyaratkan dan sumbernya dari badan dalam negeri, dividen Rp200 juta itu BUKAN objek PPh Badan buat PT Berkah Sejahtera — jadi gak perlu masuk perhitungan laba fiskal kena pajak."
+        ],
+        "poin_penting": [
+          "💰 Objek PPh Badan mencakup laba usaha, bunga, royalti, sewa, dan keuntungan selisih kurs — nyaris semua tambahan kemampuan ekonomis.",
+          "❌ Dividen dalam negeri antar-badan (dengan syarat kepemilikan tertentu), sisa lebih yayasan pendidikan yang ditanam kembali, dan SHU koperasi TIDAK termasuk objek pajak.",
+          "🔑 Tujuan pengecualian dividen adalah menghindari pajak berganda ekonomis atas penghasilan yang sama."
+        ],
+        "analogi": "Bayangin laba perusahaan itu kayak sepiring nasi yang udah kena 'potongan' pajak pas dimasak (di level perusahaan pertama). Kalau nasinya dibagi-bagi ke piring lain (dividen ke badan lain) terus dipotong lagi, itu kayak motong nasi yang sama dua kali — makanya negara bilang gak usah dipotong lagi.",
+        "contoh_kasus": {
+          "judul": "Kasus Dividen PT Berkah Sejahtera",
+          "cerita": "PT Berkah Sejahtera menerima dividen Rp200 juta dari PT Maju Terus, di mana PT Berkah Sejahtera memiliki 30% saham. Selain itu, PT Berkah Sejahtera juga punya laba usaha reguler Rp1,2 miliar tahun ini.",
+          "poin": [
+            "Dividen Rp200 juta dikecualikan dari objek PPh Badan karena syarat kepemilikan saham terpenuhi dan sumbernya dari badan dalam negeri.",
+            "Yang dihitung sebagai objek PPh Badan hanya laba usaha reguler Rp1,2 miliar.",
+            "Kalau syarat kepemilikan gak terpenuhi (misalnya kepemilikan terlalu kecil), dividen tersebut bisa jadi tetap objek pajak — jadi wajib dicek dulu ketentuannya."
+          ]
+        },
+        "diagram_mermaid": [],
+        "penjelasan_diagram": "",
+        "prompt_gambar": [],
+        "kalkulator": null,
+        "mini_kuis": [],
+        "kesalahan_umum": [],
+        "istilah": []
+      },
+      {
+        "id": "bag-04",
+        "judul": "Rekonsiliasi Fiskal: Komersial vs Fiskal",
+        "paragraf": [
+          "Nah, ini dia jantungnya PPh Badan: Rekonsiliasi Fiskal 🧮. Jadi gini, perusahaan itu punya dua 'kacamata' buat liat labanya. Kacamata pertama namanya Laporan Keuangan Komersial, disusun berdasarkan Standar Akuntansi Keuangan (SAK) yang tujuannya buat ngasih gambaran kinerja perusahaan ke investor, bank, atau pemegang saham. Kacamata kedua namanya Laporan Keuangan Fiskal, disusun berdasarkan aturan UU PPh yang tujuannya khusus buat ngitung berapa pajak yang harus dibayar ke negara.",
+          "Masalahnya, dua kacamata ini sering ngasih hasil laba yang beda! Kenapa? Karena tujuan dan aturan pengakuannya beda. Akuntansi (SAK) fokus ke prinsip kehati-hatian dan penyajian yang wajar buat kepentingan bisnis, sementara pajak (UU PPh) fokus ke keadilan penerimaan negara dan mencegah penghindaran pajak. Makanya banyak biaya atau penghasilan yang diakui beda antara dua sistem ini — misalnya biaya entertainment tanpa bukti, penyusutan dengan metode berbeda, atau cadangan piutang yang di akuntansi boleh tapi di pajak dilarang (kecuali usaha tertentu kayak bank/asuransi).",
+          "Proses buat 'menjembatani' dua laba yang beda ini namanya Rekonsiliasi Fiskal — yaitu proses koreksi atas Laba Komersial supaya sesuai aturan pajak, hasilnya jadi Laba Fiskal atau Penghasilan Kena Pajak (PKP). Prosesnya simpel secara konsep: Laba Komersial ± Koreksi Fiskal = Laba Fiskal. Kalau ada biaya yang gak boleh diakui pajak (padahal diakui di akuntansi), itu jadi Koreksi Positif (nambah laba fiskal). Kalau ada penghasilan yang gak kena pajak (padahal diakui di akuntansi), itu jadi Koreksi Negatif (ngurangin laba fiskal).",
+          "Kenapa ini penting banget dipahami? Karena SPT Tahunan PPh Badan (Formulir 1771) itu isinya justru rekonsiliasi ini — bukan langsung copy-paste angka dari laporan keuangan komersial. Kalau perusahaan salah rekonsiliasi (misalnya lupa koreksi biaya yang gak deductible), risikonya bisa kurang bayar pajak dan kena sanksi dari DJP pas pemeriksaan. Makanya divisi pajak/akuntan perusahaan wajib jago banget di bagian ini."
+        ],
+        "poin_penting": [
+          "📊 Ada dua kacamata laba: Laba Komersial (sesuai SAK) dan Laba Fiskal (sesuai UU PPh) — keduanya sering beda angka.",
+          "🧮 Rumus dasar: Laba Komersial ± Koreksi Fiskal = Laba Fiskal (PKP).",
+          "⚠️ Koreksi Positif nambah laba fiskal (biaya gak boleh diakui), Koreksi Negatif ngurangin laba fiskal (penghasilan bukan objek pajak)."
+        ],
+        "analogi": "Rekonsiliasi fiskal itu kayak nerjemahin laporan rapor sekolah versi 'nilai asli guru' ke versi 'nilai yang diakui buat beasiswa'. Sekolah punya standar penilaian sendiri (akuntansi), tapi pemberi beasiswa (pajak) punya standar sendiri yang kadang beda — jadi nilai rapornya perlu disesuaikan dulu sebelum diserahkan ke pemberi beasiswa.",
+        "contoh_kasus": {
+          "judul": "Kasus Rekonsiliasi Fiskal PT Jaya Bersama",
+          "cerita": "PT Jaya Bersama di Medan mencatat Laba Komersial sebesar Rp2 miliar di laporan keuangannya. Setelah dicek tim pajaknya, ditemukan ada biaya entertainment tanpa daftar nominatif Rp300 juta dan biaya sanksi administrasi pajak Rp200 juta yang ikut dibebankan di akuntansi, ditambah ada penghasilan bunga deposito Rp0 (karena sudah final, dikecualikan). Setelah dikoreksi, Laba Fiskal PT Jaya Bersama naik jadi Rp2,5 miliar.",
+          "poin": [
+            "Biaya entertainment tanpa daftar nominatif Rp300 juta dikoreksi positif karena gak memenuhi syarat deductible (Pasal 6 ayat 1 & PMK terkait daftar nominatif).",
+            "Biaya sanksi administrasi pajak Rp200 juta juga dikoreksi positif karena termasuk non-deductible expense (Pasal 9 ayat 1 huruf k).",
+            "Total koreksi positif Rp500 juta ditambahkan ke Laba Komersial Rp2 miliar, sehingga Laba Fiskal jadi Rp2,5 miliar — inilah yang jadi dasar hitung PPh Badan terutang."
+          ]
+        },
+        "diagram_mermaid": [],
+        "penjelasan_diagram": "",
+        "prompt_gambar": [],
+        "kalkulator": null,
+        "mini_kuis": [],
+        "kesalahan_umum": [],
+        "istilah": []
+      },
+      {
+        "id": "bag-05",
+        "judul": "Beda Tetap vs Beda Waktu",
+        "paragraf": [
+          "Biar rekonsiliasi fiskal makin gampang dipahami, kita perlu ngerti dulu dua jenis perbedaan yang mendasarinya: Beda Tetap (Permanent Differences) dan Beda Waktu (Timing Differences) 📌. Ini konsep penting yang sering keluar di soal ujian Brevet, jadi merhatiin baik-baik ya.",
+          "Beda Tetap itu perbedaan pengakuan yang SELAMANYA gak akan ketemu atau pulih antara akuntansi dan pajak, alias one-time forever gap. Contohnya biaya sumbangan yang gak diatur khusus di UU PPh, biaya pribadi pemilik yang dibebankan ke perusahaan, atau PPh yang dibayar perusahaan itu sendiri. Biaya-biaya ini di akuntansi mungkin diakui sebagai beban, tapi di pajak selamanya gak boleh jadi pengurang — gak ada 'nyusul' di tahun depan atau tahun-tahun berikutnya.",
+          "Beda Waktu itu beda karena PERIODE pengakuannya aja yang beda, tapi totalnya nanti bakal sama juga kalau diakumulasi dalam jangka panjang. Contoh paling klasik: metode penyusutan aset tetap. Akuntansi mungkin pakai metode garis lurus 10 tahun, tapi pajak punya aturan sendiri soal kelompok aset dan metode penyusutan (garis lurus atau saldo menurun) sesuai Pasal 11 UU PPh. Di tahun-tahun awal biayanya beda, tapi kalau ditotal sampai aset habis disusutkan, totalnya akan sama. Contoh lain: cadangan kerugian piutang yang di akuntansi diakui langsung, tapi di pajak baru boleh diakui pas piutang itu resmi dihapus-tagihkan (write-off) sesuai syarat tertentu.",
+          "Kenapa penting bedain dua ini? Karena Beda Tetap itu murni jadi Koreksi Fiskal yang gak akan pernah 'balik lagi', sementara Beda Waktu itu menciptakan yang namanya Aset Pajak Tangguhan atau Liabilitas Pajak Tangguhan (Deferred Tax) di laporan keuangan — konsep lanjutan yang biasanya dibahas lebih dalam di modul akuntansi pajak. Buat level Brevet A/B pemula, yang penting kamu paham: kalau bedanya gak akan pernah ketemu = Beda Tetap, kalau bedanya cuma soal timing/waktu pengakuan = Beda Waktu."
+        ],
+        "poin_penting": [
+          "⚠️ Beda Tetap: perbedaan yang selamanya gak akan pulih/ketemu antara akuntansi dan pajak (contoh: sumbangan tak diatur, biaya pribadi pemilik).",
+          "📌 Beda Waktu: perbedaan cuma soal periode pengakuan, totalnya akan sama kalau diakumulasi (contoh: metode penyusutan, cadangan piutang).",
+          "🔑 Beda Waktu memunculkan konsep Pajak Tangguhan (Deferred Tax) di laporan keuangan lanjutan."
+        ],
+        "analogi": "Beda Tetap itu kayak kamu beliin hadiah buat pacar pakai uang kas RT — itu duit yang emang gak akan pernah 'diakui' sebagai pengeluaran RT resmi, titik. Beda Waktu itu kayak kamu nyicil bayar iuran RT setahun sekali vs bulanan — caranya beda, tapi total yang kamu bayar dalam setahun tetap sama aja.",
+        "contoh_kasus": {
+          "judul": "Kasus Penyusutan Mesin PT Andalan Teknik",
+          "cerita": "PT Andalan Teknik beli mesin produksi Rp500 juta. Di akuntansi, mesin disusutkan garis lurus 10 tahun (Rp50 juta/tahun). Menurut UU PPh, mesin tersebut masuk kelompok aset dengan masa manfaat pajak 8 tahun (Rp62,5 juta/tahun).",
+          "poin": [
+            "Selama 8 tahun pertama, ada Beda Waktu tiap tahun karena biaya penyusutan fiskal (Rp62,5 juta) lebih besar dari komersial (Rp50 juta).",
+            "Setelah tahun ke-8, penyusutan fiskal sudah habis (Rp0), sementara akuntansi masih nyusutin Rp50 juta di 2 tahun sisa.",
+            "Kalau ditotal dari tahun 1 sampai 10, total penyusutan komersial dan fiskal sama-sama Rp500 juta — cuma beda waktu pengakuannya aja."
+          ]
+        },
+        "diagram_mermaid": [],
+        "penjelasan_diagram": "",
+        "prompt_gambar": [],
+        "kalkulator": null,
+        "mini_kuis": [],
+        "kesalahan_umum": [],
+        "istilah": []
+      },
+      {
+        "id": "bag-06",
+        "judul": "Koreksi Fiskal Positif vs Negatif",
+        "paragraf": [
+          "Sekarang kita masuk ke 'mekanik' rekonsiliasi fiskal itu sendiri, yaitu Koreksi Fiskal Positif dan Koreksi Fiskal Negatif. Ini adalah dua arah penyesuaian yang bakal kamu temuin terus-menerus tiap kali ngerjain Formulir 1771 Lampiran I ✅.",
+          "Koreksi Fiskal Positif adalah penyesuaian yang MENAMBAH laba fiskal, yang ujung-ujungnya bikin pajak yang harus dibayar jadi LEBIH BESAR. Kapan ini terjadi? Biasanya karena ada biaya yang di akuntansi diakui sebagai pengurang laba, tapi menurut Pasal 9 ayat (1) UU PPh biaya itu Non-Deductible alias gak boleh jadi pengurang penghasilan bruto. Contoh: biaya PPh Badan itu sendiri, sanksi bunga/denda pajak, sumbangan di luar yang diatur khusus, atau natura yang gak sesuai standar PMK 66/2023.",
+          "Sebaliknya, Koreksi Fiskal Negatif adalah penyesuaian yang MENGURANGI laba fiskal, yang bikin pajak terutang jadi LEBIH KECIL. Ini terjadi kalau ada penghasilan yang di akuntansi dicatat sebagai pemasukan/laba, tapi menurut aturan pajak penghasilan itu BUKAN objek pajak atau sudah dikenakan PPh Final terpisah. Contoh: dividen dalam negeri yang dikecualikan (kayak yang kita bahas di Bagian 3), penghasilan bunga deposito yang sudah kena PPh Final 20% (jadi gak boleh dihitung lagi di PPh Badan reguler biar gak double), atau keuntungan penjualan tanah/bangunan yang udah kena PPh Final.",
+          "Gampangnya gini: kalau ada biaya 'nakal' yang harusnya gak boleh ngurangin pajak, itu dikoreksi POSITIF (ditambahin balik ke laba). Kalau ada penghasilan yang 'harusnya' gak usah dipajaki dua kali, itu dikoreksi NEGATIF (dikurangin dari laba). Tim pajak yang jago biasanya bikin kertas kerja rekonsiliasi rapi yang list semua akun biaya dan penghasilan, terus dicek satu-satu masuk kategori positif, negatif, atau gak perlu koreksi sama sekali."
+        ],
+        "poin_penting": [
+          "➕ Koreksi Positif = laba fiskal naik = pajak terutang lebih besar (biasanya karena biaya non-deductible).",
+          "➖ Koreksi Negatif = laba fiskal turun = pajak terutang lebih kecil (biasanya karena penghasilan bukan objek/sudah PPh Final).",
+          "📝 Semua koreksi ini dituangkan detail di Formulir 1771 Lampiran I saat lapor SPT Tahunan."
+        ],
+        "analogi": "Koreksi Positif itu kayak wasit ngasih kartu 'gak sah' ke gol yang kamu klaim (biayanya ditolak, jadi laba yang keitung malah naik). Koreksi Negatif itu kayak wasit bilang 'ini gol tambahan yang gak usah dihitung lagi karena udah dihitung di pertandingan lain' (penghasilannya udah kena pajak di tempat lain, jadi dikeluarin dari hitungan sekarang).",
+        "contoh_kasus": {
+          "judul": "Kasus Rekonsiliasi CV Makmur Abadi",
+          "cerita": "CV Makmur Abadi punya Laba Komersial Rp600 juta. Di dalamnya ada biaya denda keterlambatan lapor pajak Rp15 juta (diakui sebagai biaya di akuntansi) dan pendapatan bunga deposito Rp25 juta (sudah dipotong PPh Final 20% oleh bank).",
+          "poin": [
+            "Biaya denda pajak Rp15 juta dikoreksi POSITIF karena termasuk non-deductible (Pasal 9 ayat 1 huruf k).",
+            "Pendapatan bunga deposito Rp25 juta dikoreksi NEGATIF karena sudah dikenakan PPh Final terpisah, jadi gak boleh digabung ke penghasilan reguler.",
+            "Laba Fiskal akhir = Rp600 juta + Rp15 juta − Rp25 juta = Rp590 juta."
+          ]
+        },
+        "diagram_mermaid": [],
+        "penjelasan_diagram": "",
+        "prompt_gambar": [],
+        "kalkulator": null,
+        "mini_kuis": [],
+        "kesalahan_umum": [],
+        "istilah": []
+      },
+      {
+        "id": "bag-07",
+        "judul": "Biaya Deductible: Pasal 6 Ayat (1)",
+        "paragraf": [
+          "Sekarang kita bahas biaya-biaya yang BOLEH jadi pengurang penghasilan bruto, alias Deductible Expenses, yang diatur di Pasal 6 ayat (1) UU PPh ✅. Ini penting banget karena makin banyak biaya yang sah dikurangkan, makin kecil laba fiskal, makin kecil juga pajak yang harus dibayar (secara legal ya, bukan ngakalin).",
+          "Prinsip utamanya cuma satu: biaya itu harus punya kaitan langsung dengan kegiatan usaha untuk 3M — yaitu Mendapatkan, Menagih, dan Memelihara penghasilan. Kalau biayanya emang dikeluarkan buat operasional bisnis yang ujungnya menghasilkan pendapatan kena pajak, ya sah-sah aja jadi pengurang. Contoh konkretnya banyak banget: gaji dan tunjangan pegawai, biaya bunga pinjaman bank buat modal usaha, biaya sewa kantor/gudang, biaya promosi dan iklan, sampai biaya penyusutan dan amortisasi aset tetap/tak berwujud yang dipakai buat usaha 📝.",
+          "Contoh biar makin kebayang: Pak Andi punya usaha percetakan CV Cetak Cepat. Dia bayar gaji 5 karyawan total Rp180 juta setahun, bayar sewa ruko Rp60 juta setahun, dan bunga pinjaman bank buat beli mesin cetak baru Rp30 juta setahun. Semua biaya ini terkait langsung sama operasional usaha percetakannya yang menghasilkan omzet — jadi semuanya boleh dikurangkan dari penghasilan bruto sebagai deductible expenses.",
+          "Tapi hati-hati, ada beberapa biaya yang KELIATANNYA normal tapi punya syarat khusus biar bisa deductible, misalnya biaya promosi (wajib ada Daftar Nominatif sesuai PMK 02/2010) dan penghapusan piutang tak tertagih (wajib penuhi syarat administratif tertentu). Dua hal ini bakal kita bahas detail di bagian selanjutnya, karena sering jadi jebakan pas ujian maupun pas pemeriksaan pajak beneran."
+        ],
+        "poin_penting": [
+          "✅ Deductible Expenses = biaya yang boleh mengurangi penghasilan bruto, diatur di Pasal 6 ayat (1) UU PPh.",
+          "🔑 Syarat utama: biaya harus terkait langsung dengan kegiatan 3M — Mendapatkan, Menagih, Memelihara penghasilan.",
+          "📝 Contoh umum: gaji pegawai, bunga pinjaman usaha, sewa, biaya promosi (dengan daftar nominatif), penyusutan aset usaha."
+        ],
+        "analogi": "Biaya deductible itu kayak ongkos modal buat jualan cendol — beli es, gula, santan, sewa gerobak, itu semua wajar dikurangkan dari hasil jualan sebelum kamu hitung untung bersihmu. Tapi kalau kamu masukin ongkos beli baju baru buat gaya-gayaan pribadi ke 'modal cendol', itu udah gak nyambung sama usahanya.",
+        "contoh_kasus": {
+          "judul": "Kasus CV Cetak Cepat Milik Pak Andi",
+          "cerita": "CV Cetak Cepat punya omzet Rp900 juta setahun. Biaya operasionalnya: gaji 5 karyawan Rp180 juta, sewa ruko Rp60 juta, bunga pinjaman bank Rp30 juta, dan biaya bahan baku cetak Rp350 juta.",
+          "poin": [
+            "Total biaya deductible = Rp180 juta + Rp60 juta + Rp30 juta + Rp350 juta = Rp620 juta, semuanya terkait langsung 3M usaha percetakan.",
+            "Laba usaha sebelum pajak (secara sederhana) = Rp900 juta − Rp620 juta = Rp280 juta.",
+            "Karena semua biaya di atas sudah wajar dan sesuai kegiatan usaha, gak perlu ada koreksi fiskal atas komponen-komponen tersebut."
+          ]
+        },
+        "diagram_mermaid": [],
+        "penjelasan_diagram": "",
+        "prompt_gambar": [],
+        "kalkulator": null,
+        "mini_kuis": [],
+        "kesalahan_umum": [],
+        "istilah": []
+      },
+      {
+        "id": "bag-08",
+        "judul": "Piutang Tak Tertagih & Daftar Nominatif Promosi",
+        "paragraf": [
+          "Dua topik ini sering banget jadi jebakan di soal ujian Brevet karena keliatannya biaya biasa, padahal punya syarat administratif yang ketat banget kalau mau diakui sebagai pengurang pajak ⚠️.",
+          "Pertama, soal Piutang Tak Tertagih (bad debt). Wajar dong kalau ada pelanggan yang gak bayar utangnya, perusahaan mau nge-write-off piutang itu sebagai kerugian. Tapi menurut Pasal 6 ayat (1) huruf h UU PPh, penghapusan piutang gak bisa asal klaim aja. Ada syarat kumulatif yang wajib dipenuhi: (1) piutang tersebut sudah dibebankan sebagai biaya di laporan laba rugi komersial, (2) Wajib Pajak sudah menyerahkan daftar piutang tak tertagih ke Direktorat Jenderal Pajak, dan (3) sudah ada upaya penagihan yang maksimal — bisa lewat perkara pengadilan, penyelesaian utang-piutang di luar pengadilan yang dipublikasikan, atau piutang debitur kecil yang diatur khusus. Kalau syarat ini gak lengkap, penghapusan piutang itu bakal dikoreksi positif alias gak boleh jadi pengurang pajak.",
+          "Kedua, soal Daftar Nominatif Biaya Promosi. Biaya promosi dan iklan itu deductible, tapi diatur ketat lewat PMK Nomor 02/PMK.03/2010. Kalau perusahaan ngeluarin biaya promosi (misalnya sponsorship, endorsement, sampel produk) ke pihak yang bisa diidentifikasi (bukan promosi umum/massal kayak iklan di media), perusahaan WAJIB bikin Daftar Nominatif yang mencatat nama penerima, NPWP-nya (kalau ada), alamat, bentuk & jumlah biaya, dan dilampirkan pas lapor SPT Tahunan. Kalau gak ada daftar nominatif ini, biaya promosinya otomatis dikoreksi positif walaupun secara bisnis emang beneran dikeluarkan 📌.",
+          "Contoh biar makin jelas: PT Fashion Kita ngasih endorsement fee Rp50 juta ke seorang influencer buat promosi produk. Kalau PT Fashion Kita gak nyatet nama, NPWP, dan detail pembayaran ke influencer itu di Daftar Nominatif, DJP bisa koreksi biaya Rp50 juta itu jadi non-deductible pas pemeriksaan — padahal duitnya beneran keluar dari kas perusahaan!"
+        ],
+        "poin_penting": [
+          "⚠️ Piutang tak tertagih baru boleh jadi pengurang pajak kalau memenuhi 3 syarat kumulatif: dibebankan di akuntansi, dilaporkan ke DJP, dan sudah ada upaya penagihan maksimal.",
+          "📝 Biaya promosi ke pihak yang teridentifikasi wajib dicatat di Daftar Nominatif sesuai PMK 02/2010, kalau gak ada bisa dikoreksi positif.",
+          "🔑 Kedua aturan ini soal SYARAT ADMINISTRATIF — biayanya boleh real terjadi, tapi kalau dokumentasinya gak lengkap, tetap dianggap non-deductible di mata pajak."
+        ],
+        "analogi": "Ini kayak klaim reimbursement kantor. Kamu beneran keluar duit buat makan siang klien, tapi kalau gak ada nota/struk dan catatan siapa yang ditraktir, bagian finance bisa nolak klaimmu — walaupun kamu beneran udah bayar dari kantong sendiri.",
+        "contoh_kasus": {
+          "judul": "Kasus Endorsement PT Fashion Kita",
+          "cerita": "PT Fashion Kita bayar endorsement fee Rp50 juta ke seorang influencer untuk promosi koleksi baju baru, tapi tim finance lupa mencatat nama lengkap dan NPWP influencer tersebut di Daftar Nominatif.",
+          "poin": [
+            "Karena Daftar Nominatif gak lengkap, biaya Rp50 juta ini berisiko dikoreksi positif oleh pemeriksa pajak.",
+            "Solusinya, PT Fashion Kita harus segera melengkapi data penerima (nama, NPWP jika ada, alamat) sebelum SPT Tahunan dilaporkan.",
+            "Pelajaran pentingnya: dokumentasi administratif itu sama pentingnya dengan bukti transaksi keuangan buat urusan pajak."
+          ]
+        },
+        "diagram_mermaid": [],
+        "penjelasan_diagram": "",
+        "prompt_gambar": [],
+        "kalkulator": null,
+        "mini_kuis": [],
+        "kesalahan_umum": [],
+        "istilah": []
+      },
+      {
+        "id": "bag-09",
+        "judul": "Biaya Non-Deductible: Pasal 9 Ayat (1)",
+        "paragraf": [
+          "Kalau Pasal 6 ayat (1) ngasih tau biaya apa yang BOLEH dikurangkan, Pasal 9 ayat (1) UU PPh justru ngasih daftar biaya yang DILARANG jadi pengurang penghasilan bruto ❌. Ini kebalikannya, dan sama pentingnya buat dihafal karena inilah sumber utama Koreksi Fiskal Positif.",
+          "Beberapa contoh non-deductible expenses yang paling sering muncul: pembagian laba dalam bentuk apa pun (termasuk dividen dan SHU koperasi) karena itu dianggap pembagian keuntungan, bukan biaya usaha; biaya buat kepentingan pribadi pemegang saham/sekutu/anggota (misalnya biaya liburan pribadi direktur yang dibebankan ke perusahaan); pembentukan cadangan (kecuali untuk usaha tertentu seperti bank, asuransi, atau pertambangan yang diatur khusus PMK); premi asuransi yang dibayar untuk diri Wajib Pajak sendiri jika bukan buat pegawai; dan yang sering banget kelewat: PPh itu sendiri gak boleh jadi biaya pengurang, karena PPh itu 'hasil akhir' dari perhitungan pajak, bukan biaya operasional.",
+          "Ada juga yang khusus buat badan usaha berbentuk CV/Firma: gaji yang dibayarkan kepada anggota persekutuan yang modalnya TIDAK terbagi atas saham (misalnya sekutu aktif di CV) itu juga non-deductible, karena secara hukum pajak, sekutu itu dianggap 'ikut punya' badan usaha (kayak pemilik), bukan pegawai murni — jadi gajinya diperlakukan mirip 'pengambilan laba', bukan biaya. Terus ada juga sanksi administrasi perpajakan (bunga, denda, kenaikan) yang timbul dari pelanggaran ketentuan perundang-undangan perpajakan — ini murni non-deductible ⚠️ karena kalau boleh dikurangkan, itu ibarat negara ngasih 'diskon' ke perusahaan yang melanggar aturan pajak, kan aneh.",
+          "Contoh nyata biar makin nempel: PT Sinar Abadi kena Surat Ketetapan Pajak Kurang Bayar (SKPKB) dari DJP senilai Rp80 juta pokok pajak plus Rp32 juta bunga sanksi. Nah, Rp80 juta pokok pajaknya itu memang gak boleh dikurangkan (karena itu PPh itu sendiri), dan Rp32 juta bunga sanksinya JUGA gak boleh dikurangkan (karena itu sanksi administrasi perpajakan). Dua-duanya wajib dikoreksi positif kalau kebetulan dicatat sebagai biaya di laporan komersial."
+        ],
+        "poin_penting": [
+          "❌ Pembagian laba/dividen/SHU, biaya pribadi pemilik, PPh itu sendiri, dan sanksi administrasi perpajakan = SEMUA non-deductible.",
+          "⚠️ Gaji sekutu di CV/Firma yang modalnya tidak terbagi atas saham juga non-deductible karena dianggap pengambilan laba, bukan biaya pegawai.",
+          "🔑 Aturan ini adalah sumber utama munculnya Koreksi Fiskal Positif saat rekonsiliasi."
+        ],
+        "analogi": "Biaya non-deductible itu kayak kamu minta ganti rugi ke asuransi mobil atas kerusakan yang kamu sengaja bikin sendiri — logikanya gak masuk akal, jadi asuransi (dalam hal ini negara) nolak klaim itu, walaupun secara nominal duitnya emang keluar dari kantongmu.",
+        "contoh_kasus": {
+          "judul": "Kasus SKPKB PT Sinar Abadi",
+          "cerita": "PT Sinar Abadi menerima SKPKB dari DJP senilai Rp80 juta pokok pajak kurang bayar plus Rp32 juta bunga sanksi administrasi, dan mencatat total Rp112 juta ini sebagai beban lain-lain di laporan laba rugi komersial.",
+          "poin": [
+            "Pokok pajak Rp80 juta dikoreksi positif karena termasuk 'PPh yang menjadi beban Wajib Pajak sendiri' yang dilarang Pasal 9 ayat (1) huruf h.",
+            "Bunga sanksi Rp32 juta dikoreksi positif karena termasuk sanksi administrasi perpajakan menurut Pasal 9 ayat (1) huruf k.",
+            "Total koreksi positif dari kasus ini = Rp112 juta, seluruhnya ditambahkan kembali ke Laba Komersial saat menghitung Laba Fiskal."
+          ]
+        },
+        "diagram_mermaid": [],
+        "penjelasan_diagram": "",
+        "prompt_gambar": [],
+        "kalkulator": null,
+        "mini_kuis": [],
+        "kesalahan_umum": [],
+        "istilah": []
+      },
+      {
+        "id": "bag-10",
+        "judul": "Kompensasi Kerugian Fiskal (5 Tahun)",
+        "paragraf": [
+          "Gimana kalau ternyata perusahaan malah rugi, bukan untung? Nah, UU PPh punya mekanisme yang namanya Kompensasi Kerugian Fiskal, diatur di Pasal 6 ayat (2) UU PPh 📌. Intinya, kerugian fiskal (bukan kerugian komersial ya!) yang terjadi di suatu tahun pajak boleh 'dibawa' buat mengurangi laba fiskal di tahun-tahun berikutnya, maksimal sampai 5 tahun ke depan berturut-turut.",
+          "Kenapa aturan ini ada? Karena secara keadilan, bisnis itu naik-turun. Kalau tahun ini perusahaan rugi Rp1 miliar terus tahun depan untung Rp1 miliar, secara total selama 2 tahun perusahaan itu impas (untung Rp0), harusnya gak perlu bayar pajak dong secara keseluruhan. Kalau gak ada kompensasi kerugian, perusahaan bakal dipajaki penuh di tahun untungnya padahal tahun sebelumnya udah babak belur rugi — ini jadi gak adil dan bisa mematikan usaha yang lagi struggling.",
+          "Cara pakainya: kerugian fiskal tahun X bisa dikompensasikan ke laba fiskal tahun X+1, X+2, sampai maksimal X+5. Kalau di tahun X+1 masih ada sisa laba fiskal setelah dikurangi kerugian, sisa itu yang jadi PKP kena pajak. Kalau kerugiannya lebih besar dari laba tahun berikutnya, sisa kerugian yang belum terpakai bisa terus dibawa ke tahun-tahun sesudahnya sampai maksimal batas 5 tahun tadi habis. Kalau sampai tahun ke-6 masih ada sisa rugi yang belum kepakai, itu 'hangus' dan gak bisa dikompensasi lagi 📝.",
+          "Contoh: PT Karya Nusantara rugi fiskal Rp600 juta di tahun 2023. Di tahun 2024 dia untung fiskal Rp200 juta — nah, Rp200 juta ini dikompensasi habis sama sisa rugi 2023, jadi PKP tahun 2024 = Rp0 (gak bayar pajak), dan sisa rugi yang belum terpakai jadi Rp600 juta − Rp200 juta = Rp400 juta, yang masih bisa dibawa ke tahun 2025, 2026, sampai maksimal 2028 (5 tahun sejak 2023)."
+        ],
+        "poin_penting": [
+          "📌 Kerugian fiskal (bukan komersial) bisa dikompensasikan ke laba fiskal tahun-tahun berikutnya, maksimal 5 tahun berturut-turut.",
+          "🔑 Tujuannya adalah keadilan pajak — biar bisnis yang lagi rugi gak langsung dipajaki penuh pas mulai untung lagi.",
+          "⚠️ Kalau sampai tahun ke-6 masih ada sisa rugi yang belum terpakai, sisa itu hangus dan gak bisa dikompensasi lagi."
+        ],
+        "analogi": "Kompensasi kerugian fiskal itu kayak sistem 'utang piutang' antar tahun. Kalau tahun ini kamu 'utang' rugi ke diri sendiri, tahun depan pas kamu untung, untungnya dipakai buat 'bayar utang rugi' itu dulu sebelum dihitung sebagai penghasilan bersih yang kena pajak — tapi batas waktu nagihnya cuma 5 tahun.",
+        "contoh_kasus": {
+          "judul": "Kasus Kompensasi Rugi PT Karya Nusantara",
+          "cerita": "PT Karya Nusantara mengalami rugi fiskal Rp600 juta di tahun 2023 akibat pandemi bisnis lesu. Di tahun 2024, bisnisnya pulih dan mencatat laba fiskal Rp200 juta.",
+          "poin": [
+            "Laba fiskal 2024 sebesar Rp200 juta dikompensasi penuh dengan sisa rugi 2023, sehingga PKP 2024 = Rp0 (tidak ada PPh Badan terutang).",
+            "Sisa rugi fiskal yang belum terpakai = Rp600 juta − Rp200 juta = Rp400 juta, dibawa ke tahun 2025.",
+            "Sisa rugi Rp400 juta ini masih bisa dikompensasikan sampai maksimal tahun pajak 2028 (5 tahun sejak tahun rugi 2023)."
+          ]
+        },
+        "diagram_mermaid": [],
+        "penjelasan_diagram": "",
+        "prompt_gambar": [],
+        "kalkulator": null,
+        "mini_kuis": [],
+        "kesalahan_umum": [],
+        "istilah": []
+      },
+      {
+        "id": "bag-11",
+        "judul": "Tarif Umum PPh Badan 22%",
+        "paragraf": [
+          "Sekarang kita masuk ke bagian yang paling ditunggu: berapa sih sebenarnya tarif PPh Badan itu? Jawaban singkatnya: 22% dari Penghasilan Kena Pajak (PKP), berlaku sejak Tahun Pajak 2022 sesuai perubahan Pasal 17 ayat (1) huruf b UU PPh lewat UU HPP No. 7/2021 🎯. Tarif ini flat, artinya gak progresif kayak PPh Orang Pribadi yang berjenjang 5%-35% — berapa pun besar PKP-nya, badan usaha standar kena tarif yang sama, 22%.",
+          "Tapi nih, dunia perpajakan gak sesederhana 'langsung kali 22% aja'. Pemerintah sadar bahwa PT/CV skala kecil-menengah (UMKM) itu punya daya tahan modal yang beda jauh sama korporasi besar. Makanya, ada skema perhitungan yang dibagi jadi 3 kategori berdasarkan peredaran bruto (omzet) setahun: (1) Omzet sampai dengan Rp4,8 miliar → dapat fasilitas diskon tarif 50% Pasal 31E, jadi efektif hanya 11%; (2) Omzet di atas Rp4,8 miliar sampai Rp50 miliar → dapat fasilitas Pasal 31E secara PROPORSIONAL, sebagian kena 11% dan sebagian kena 22%; (3) Omzet di atas Rp50 miliar → kena tarif penuh 22% tanpa fasilitas apa pun 📊.",
+          "Kenapa dibedain gini? Ini bentuk keberpihakan negara ke UMKM biar mereka gak langsung 'digebuk' tarif yang sama kayak korporasi raksasa. Bayangin kalau warung kelontong yang baru naik kelas jadi CV kena tarif sama kayak perusahaan multinasional — jelas gak adil dan bisa bikin usaha kecil susah berkembang. Skema berjenjang ini bikin beban pajak lebih proporsional sama kemampuan ekonomis masing-masing skala usaha.",
+          "Penting dicatat, ini beda lagi sama PPh Final PP 55/2022 (dulu PP 23/2018) buat UMKM dengan omzet di bawah Rp4,8 miliar yang tarifnya 0,5% dari omzet — itu skema opsional yang beda lagi buat WP baru/tertentu, bukan bagian dari skema Pasal 31E ini. Kita fokus dulu ke skema PPh Badan reguler pakai PKP, karena inilah yang jadi materi utama modul ini."
+        ],
+        "poin_penting": [
+          "🎯 Tarif umum PPh Badan adalah 22% dari PKP, flat, berlaku sejak Tahun Pajak 2022 (UU HPP).",
+          "📊 Ada 3 skema berdasarkan omzet: ≤Rp4,8M (diskon 50% jadi 11%), Rp4,8M–Rp50M (proporsional), >Rp50M (tarif penuh 22%).",
+          "🔑 Skema berjenjang ini adalah bentuk keberpihakan pemerintah ke pelaku usaha skala kecil-menengah."
+        ],
+        "analogi": "Tarif PPh Badan berjenjang ini kayak tarif tol berdasarkan golongan kendaraan — motor kecil bayar lebih murah, truk besar bayar lebih mahal, karena beban yang ditanggung jalan (baca: ekonomi negara) juga beda sesuai skala kendaraan (baca: skala usaha) masing-masing.",
+        "contoh_kasus": {
+          "judul": "Kasus Perbandingan 3 Skala Usaha",
+          "cerita": "Ada tiga PT dengan PKP yang sama-sama Rp1 miliar: PT Kecil (omzet Rp3 miliar), PT Menengah (omzet Rp20 miliar), dan PT Besar (omzet Rp80 miliar).",
+          "poin": [
+            "PT Kecil (omzet ≤Rp4,8M) berhak dapat diskon tarif 50%, sehingga tarif efektifnya hanya 11% dari seluruh PKP.",
+            "PT Menengah (omzet Rp4,8M–Rp50M) dapat fasilitas proporsional — sebagian PKP kena 11% dan sebagian kena 22% (rumusnya dibahas di Bagian 13).",
+            "PT Besar (omzet >Rp50M) kena tarif penuh 22% dari seluruh PKP tanpa ada bagian yang dapat diskon."
+          ]
+        },
+        "diagram_mermaid": [],
+        "penjelasan_diagram": "",
+        "prompt_gambar": [],
+        "kalkulator": null,
+        "mini_kuis": [],
+        "kesalahan_umum": [],
+        "istilah": []
+      },
+      {
+        "id": "bag-12",
+        "judul": "Fasilitas Diskon Pasal 31E (Omzet ≤ Rp4,8 Miliar)",
+        "paragraf": [
+          "Nah, ini dia fasilitas yang paling dicintai UMKM naik kelas: Pasal 31E UU PPh 💡. Buat Wajib Pajak Badan dalam negeri dengan peredaran bruto (omzet) sampai dengan Rp50 miliar setahun, mereka berhak dapat fasilitas pengurangan tarif sebesar 50% dari tarif normal 22%, yang dikenakan atas bagian PKP dari peredaran bruto sampai dengan Rp4,8 miliar.",
+          "Nah, khusus buat badan usaha yang omzetnya SAMA ATAU DI BAWAH Rp4,8 miliar setahun, ini kasus paling simpel: SELURUH PKP-nya dapat diskon 50%, jadi tarif efektifnya cuma 11% (setengah dari 22%) ✅. Gak perlu rumus proporsional ribet-ribet, tinggal kali PKP sama 11% langsung selesai.",
+          "Kenapa batasannya Rp4,8 miliar? Angka ini sama persis kayak batas omzet buat PPh Final UMKM PP 55/2022, jadi ada keselarasan kebijakan antara dua skema fasilitas UMKM ini. Filosofinya sama: negara mau kasih insentif ke usaha skala kecil biar bisa lebih leluasa reinvestasi modal buat berkembang, gak langsung kena beban pajak penuh kayak korporasi besar.",
+          "Contoh gampang: Bu Siti punya CV Kue Bahagia dengan omzet setahun Rp2,5 miliar (di bawah Rp4,8 miliar) dan PKP setelah rekonsiliasi fiskal sebesar Rp300 juta. Karena seluruh omzetnya di bawah Rp4,8 miliar, seluruh PKP Rp300 juta itu dapat fasilitas diskon 50%, jadi PPh Badan terutangnya = Rp300 juta × 11% = Rp33 juta 🧮."
+        ],
+        "poin_penting": [
+          "💡 Pasal 31E memberi diskon 50% dari tarif normal (22% → 11%) untuk badan dengan omzet sampai Rp4,8 miliar setahun.",
+          "✅ Untuk omzet ≤Rp4,8 miliar, SELURUH PKP kena tarif efektif 11%, gak perlu perhitungan proporsional.",
+          "🧮 Rumus simpel: PPh Badan Terutang = PKP × 11%."
+        ],
+        "analogi": "Fasilitas Pasal 31E buat UMKM kecil itu kayak diskon member baru di gym — kamu yang baru mulai dan modalnya masih kecil dikasih harga setengah dari harga normal, biar kamu punya ruang napas buat berkembang dulu sebelum kena harga full member reguler.",
+        "contoh_kasus": {
+          "judul": "Kasus CV Kue Bahagia Milik Bu Siti",
+          "cerita": "CV Kue Bahagia milik Bu Siti mencatat omzet Rp2,5 miliar setahun dengan Penghasilan Kena Pajak (PKP) hasil rekonsiliasi fiskal sebesar Rp300 juta.",
+          "poin": [
+            "Karena omzet Rp2,5 miliar berada di bawah ambang batas Rp4,8 miliar, seluruh PKP dapat fasilitas diskon tarif Pasal 31E.",
+            "PPh Badan terutang = Rp300 juta × 11% = Rp33 juta.",
+            "Bandingkan kalau gak dapat fasilitas: Rp300 juta × 22% = Rp66 juta — jadi fasilitas ini menghemat Rp33 juta buat Bu Siti."
+          ]
+        },
+        "diagram_mermaid": [],
+        "penjelasan_diagram": "",
+        "prompt_gambar": [],
+        "kalkulator": null,
+        "mini_kuis": [],
+        "kesalahan_umum": [],
+        "istilah": []
+      },
+      {
+        "id": "bag-13",
+        "judul": "Perhitungan Pasal 31E Proporsional",
+        "paragraf": [
+          "Nah sekarang bagian yang paling sering bikin pusing pas ujian Brevet: gimana kalau omzetnya di ATAS Rp4,8 miliar tapi masih di BAWAH Rp50 miliar? Di sini berlaku perhitungan PROPORSIONAL, di mana PKP dipisah jadi dua bagian: bagian yang dapat fasilitas diskon (tarif 11%) dan bagian yang gak dapat fasilitas (tarif 22% penuh) 🧮.",
+          "Rumusnya gini: Bagian PKP yang dapat fasilitas = (Rp4,8 Miliar ÷ Peredaran Bruto) × PKP. Sisanya, yaitu PKP dikurangi bagian yang dapat fasilitas tadi, itulah bagian PKP yang TIDAK dapat fasilitas dan kena tarif 22% penuh. Jadi total PPh Badan terutang = (Bagian dapat fasilitas × 11%) + (Bagian tidak dapat fasilitas × 22%).",
+          "Kenapa rumusnya proporsional gini? Karena logikanya, fasilitas Pasal 31E itu 'jatah'-nya cuma buat porsi omzet sampai Rp4,8 miliar aja, walaupun total omzet perusahaan udah lebih dari itu. Jadi dihitung dulu berapa persen porsi 'yang dijatah dapat diskon' dari total omzet, baru persentase itu dikalikan ke PKP buat nentuin berapa besar PKP yang kena tarif diskon 11% ✅.",
+          "Yuk kita praktikkan dengan contoh yang diminta di modul: PT Sejahtera Abadi punya omzet Rp15 miliar setahun dengan PKP Rp2 miliar. Bagian PKP dapat fasilitas = (Rp4.800.000.000 ÷ Rp15.000.000.000) × Rp2.000.000.000 = 0,32 × Rp2.000.000.000 = Rp640.000.000. Sisanya, bagian PKP tidak dapat fasilitas = Rp2.000.000.000 − Rp640.000.000 = Rp1.360.000.000. Maka PPh Badan terutang = (Rp640.000.000 × 11%) + (Rp1.360.000.000 × 22%) = Rp70.400.000 + Rp299.200.000 = Rp369.600.000 📌."
+        ],
+        "poin_penting": [
+          "🧮 Untuk omzet Rp4,8M–Rp50M, PKP dipisah proporsional: sebagian kena 11%, sebagian kena 22%.",
+          "📌 Rumus bagian dapat fasilitas = (Rp4,8 Miliar ÷ Peredaran Bruto) × PKP.",
+          "✅ Total PPh Badan terutang = (Bagian dapat fasilitas × 11%) + (Bagian tidak dapat fasilitas × 22%)."
+        ],
+        "analogi": "Bayangin kamu punya kupon diskon yang cuma berlaku buat belanjaan sampai Rp480 ribu doang, tapi total belanjaanmu Rp1,5 juta. Kupon itu gak bisa dipakai buat seluruh belanjaan — cuma porsi tertentu aja yang dapat diskon, sisanya tetap bayar harga normal. Nah, porsi 'yang dapat diskon' itu dihitung proporsional sesuai rasio kupon terhadap total belanja.",
+        "contoh_kasus": {
+          "judul": "Kasus PT Sejahtera Abadi (Omzet Rp15 Miliar)",
+          "cerita": "PT Sejahtera Abadi mencatat peredaran bruto Rp15 miliar setahun dengan Penghasilan Kena Pajak (PKP) sebesar Rp2 miliar setelah rekonsiliasi fiskal.",
+          "poin": [
+            "Bagian PKP dapat fasilitas = (Rp4,8M ÷ Rp15M) × Rp2M = Rp640 juta, dikenakan tarif 11%.",
+            "Bagian PKP tidak dapat fasilitas = Rp2M − Rp640 juta = Rp1,36 miliar, dikenakan tarif 22%.",
+            "Total PPh Badan terutang = (Rp640 juta × 11%) + (Rp1,36 miliar × 22%) = Rp70,4 juta + Rp299,2 juta = Rp369,6 juta."
+          ]
+        },
+        "diagram_mermaid": [],
+        "penjelasan_diagram": "",
+        "prompt_gambar": [],
+        "kalkulator": null,
+        "mini_kuis": [],
+        "kesalahan_umum": [],
+        "istilah": []
+      },
+      {
+        "id": "bag-14",
+        "judul": "PPh Badan untuk Omzet di Atas Rp50 Miliar",
+        "paragraf": [
+          "Sekarang kita bahas kategori terakhir dari skema tarif: badan usaha dengan peredaran bruto (omzet) DI ATAS Rp50 miliar setahun. Buat kategori ini, ceritanya jauh lebih simpel dibanding skema proporsional tadi — gak ada lagi fasilitas diskon apa pun dari Pasal 31E, seluruh PKP langsung dikenakan tarif penuh 22% ⚠️.",
+          "Kenapa gitu? Karena Pasal 31E secara eksplisit cuma berlaku buat Wajib Pajak Badan dengan peredaran bruto SAMPAI DENGAN Rp50 miliar. Begitu omzet perusahaan udah melewati ambang batas itu, perusahaan tersebut dianggap sudah 'naik kelas' jadi korporasi skala besar yang dianggap punya kapasitas ekonomi cukup kuat buat menanggung beban pajak penuh tanpa perlu insentif tambahan dari negara.",
+          "Rumusnya jadi paling gampang di antara tiga skema: PPh Badan Terutang = PKP × 22%, titik, gak ada perhitungan proporsional atau pemisahan porsi kayak skema sebelumnya 🧮. Tapi jangan salah, walaupun rumusnya simpel, biasanya perusahaan skala ini punya kompleksitas rekonsiliasi fiskal yang jauh lebih ribet karena transaksinya lebih banyak dan variatif — jadi kerjaan konsultan pajaknya justru lebih berat di tahap rekonsiliasi, bukan di tahap hitung tarif akhir.",
+          "Contoh: PT Grup Nusantara Raya punya omzet Rp120 miliar setahun dengan PKP hasil rekonsiliasi fiskal sebesar Rp8 miliar. Karena omzetnya jauh di atas Rp50 miliar, gak ada fasilitas diskon sama sekali. PPh Badan terutang = Rp8.000.000.000 × 22% = Rp1.760.000.000 📌. Simpel di rumus, tapi butuh kerja keras di proses rekonsiliasi buat sampai ke angka PKP Rp8 miliar itu."
+        ],
+        "poin_penting": [
+          "⚠️ Omzet di atas Rp50 miliar TIDAK berhak dapat fasilitas Pasal 31E sama sekali.",
+          "🧮 Rumus paling simpel: PPh Badan Terutang = PKP × 22% (tarif penuh, tanpa pemisahan proporsional).",
+          "📌 Kompleksitas justru ada di tahap rekonsiliasi fiskal, bukan di tahap hitung tarif akhirnya."
+        ],
+        "analogi": "Kalau tadi kupon diskon cuma berlaku buat belanja sampai batas tertentu, nah buat korporasi besar ini ibaratnya dia belanja di toko yang emang gak nyediain kupon diskon buat pembeli sekelas dia — karena dianggap udah cukup mampu bayar harga normal penuh.",
+        "contoh_kasus": {
+          "judul": "Kasus PT Grup Nusantara Raya (Omzet Rp120 Miliar)",
+          "cerita": "PT Grup Nusantara Raya mencatat omzet Rp120 miliar setahun dengan PKP hasil rekonsiliasi fiskal sebesar Rp8 miliar.",
+          "poin": [
+            "Karena omzet jauh di atas Rp50 miliar, seluruh PKP dikenakan tarif penuh 22% tanpa fasilitas apa pun.",
+            "PPh Badan terutang = Rp8.000.000.000 × 22% = Rp1.760.000.000.",
+            "Perusahaan sekelas ini biasanya lebih fokus mitigasi risiko di proses rekonsiliasi fiskal karena kompleksitas transaksinya jauh lebih tinggi."
+          ]
+        },
+        "diagram_mermaid": [],
+        "penjelasan_diagram": "",
+        "prompt_gambar": [],
+        "kalkulator": null,
+        "mini_kuis": [],
+        "kesalahan_umum": [],
+        "istilah": []
+      },
+      {
+        "id": "bag-15",
+        "judul": "SPT Tahunan 1771, PPh Pasal 25 & Coretax",
+        "paragraf": [
+          "Terakhir nih, gimana caranya semua perhitungan yang udah kita bahas ini dilaporkan secara resmi ke negara? Jawabannya lewat Formulir SPT Tahunan 1771 📝. Formulir ini adalah 'rapor tahunan' Wajib Pajak Badan yang isinya lengkap: identitas, rekonsiliasi fiskal, perhitungan PKP, sampai PPh terutang. Strukturnya terdiri dari Induk SPT 1771 plus beberapa Lampiran: Lampiran I (rincian penghitungan penghasilan neto fiskal/rekonsiliasi), Lampiran II (rincian biaya dari pos-pos akun tertentu), Lampiran III (kredit pajak dalam negeri), Lampiran IV (PPh Final dan penghasilan bukan objek pajak), Lampiran V (daftar pemegang saham dan pengurus), sampai Lampiran VI (daftar penyertaan modal ke badan lain).",
+          "Selain lapor tahunan, badan usaha juga wajib bayar Angsuran PPh Pasal 25 tiap bulan selama tahun berjalan 💰. Ini semacam 'cicilan pajak di muka' yang dihitung berdasarkan PPh terutang tahun sebelumnya (dengan beberapa penyesuaian), dibagi 12 bulan. Tujuannya biar beban pajak gak numpuk sekaligus di akhir tahun dan cash flow negara juga lebih stabil sepanjang tahun. Kalau di akhir tahun ternyata PPh terutang riil lebih besar dari total angsuran yang udah dibayar, sisanya (disebut PPh Pasal 29) wajib dilunasi sebelum SPT Tahunan dilaporkan.",
+          "Soal deadline, SPT Tahunan PPh Badan wajib dilaporkan paling lambat tanggal 30 April tahun berikutnya (4 bulan setelah akhir tahun pajak), beda sama SPT Orang Pribadi yang deadline-nya 31 Maret ⚠️. Kalau telat lapor, ada sanksi administrasi berupa denda, dan kalau telat bayar ada sanksi bunga per bulan sesuai tarif yang ditetapkan Menteri Keuangan.",
+          "Nah, buat administrasi pelaporan ini, sejak reformasi sistem perpajakan, DJP udah mengintegrasikan seluruh proses lewat Coretax DJP (Core Tax Administration System/CTAS), yang jadi platform terpadu buat registrasi, pelaporan SPT, pembayaran, sampai pengawasan kepatuhan pajak secara digital 🔑. Semua Wajib Pajak Badan, termasuk yang make BUT, wajib beradaptasi dengan sistem ini buat memastikan pelaporan pajaknya lancar dan sesuai ketentuan yang berlaku aktif."
+        ],
+        "poin_penting": [
+          "📝 SPT Tahunan PPh Badan pakai Formulir 1771 dengan 6 lampiran (I–VI) yang mendetailkan rekonsiliasi fiskal, kredit pajak, hingga daftar pemegang saham.",
+          "💰 Angsuran PPh Pasal 25 dibayar tiap bulan sebagai 'cicilan pajak di muka' berdasarkan PPh terutang tahun sebelumnya.",
+          "⚠️ Deadline lapor SPT Tahunan Badan adalah 30 April tahun berikutnya, dan seluruh proses kini terintegrasi lewat sistem Coretax DJP."
+        ],
+        "analogi": "SPT Tahunan 1771 itu kayak rapor akhir semester yang isinya rekap semua 'nilai ulangan harian' (angsuran PPh 25 tiap bulan). Kalau nilai rapor akhir ternyata lebih tinggi dari total nilai ulangan harian, kamu masih harus 'her' sisanya (PPh Pasal 29) sebelum rapor resmi disetor.",
+        "contoh_kasus": {
+          "judul": "Kasus Pelaporan PT Cahaya Timur",
+          "cerita": "PT Cahaya Timur menghitung PPh Badan terutang tahun 2025 sebesar Rp200 juta, sementara total angsuran PPh Pasal 25 yang sudah dibayar sepanjang tahun adalah Rp170 juta.",
+          "poin": [
+            "Kekurangan bayar sebesar Rp200 juta − Rp170 juta = Rp30 juta harus dilunasi sebagai PPh Pasal 29 sebelum SPT Tahunan dilaporkan.",
+            "SPT Tahunan 1771 beserta lampirannya wajib disampaikan paling lambat 30 April 2026 melalui sistem Coretax DJP.",
+            "Kalau PT Cahaya Timur telat melunasi kekurangan bayar atau telat lapor, akan dikenakan sanksi administrasi berupa bunga dan/atau denda keterlambatan."
+          ]
+        },
+        "diagram_mermaid": [],
+        "penjelasan_diagram": "",
+        "prompt_gambar": [],
+        "kalkulator": null,
+        "mini_kuis": [],
+        "kesalahan_umum": [],
+        "istilah": []
+      }
+    ],
+    "kuis_akhir": {
+      "judul": "Kuis Akhir: Uji Pemahaman Modul PPh Badan",
+      "nilai_lulus": 70,
+      "waktu_menit": 30,
+      "soal": [
+        {
+          "id": "q1",
+          "pertanyaan": "Manakah dari berikut ini yang BUKAN termasuk kategori Subjek Pajak Badan?",
+          "tipe": "pilihan_ganda",
+          "pilihan": [
+            "A. Koperasi",
+            "B. Yayasan",
+            "C. Orang pribadi yang berprofesi sebagai konsultan",
+            "D. Bentuk Usaha Tetap (BUT)"
+          ],
+          "jawaban": "C",
+          "pembahasan": "Orang pribadi, termasuk yang berprofesi sebagai konsultan, adalah Subjek Pajak Orang Pribadi, bukan Badan. Koperasi, Yayasan, dan BUT semuanya termasuk kategori Subjek Pajak Badan menurut UU PPh."
+        },
+        {
+          "id": "q2",
+          "pertanyaan": "Sebuah proyek konstruksi milik WPLN di Indonesia berlangsung selama 150 hari. Status apa yang melekat pada kegiatan ini?",
+          "tipe": "pilihan_ganda",
+          "pilihan": [
+            "A. Tidak kena pajak sama sekali",
+            "B. Bentuk Usaha Tetap (BUT)",
+            "C. PPh Final UMKM",
+            "D. Subjek Pajak Orang Pribadi"
+          ],
+          "jawaban": "B",
+          "pembahasan": "Proyek konstruksi yang berlangsung lebih dari 120 hari dalam 12 bulan otomatis dianggap sebagai Bentuk Usaha Tetap (BUT). Karena 150 hari sudah melebihi ambang batas tersebut, kegiatan ini wajib diperlakukan sebagai BUT."
+        },
+        {
+          "id": "q3",
+          "pertanyaan": "Dividen yang diterima PT dari penyertaan modalnya di PT lain di dalam negeri (dengan syarat kepemilikan terpenuhi) diperlakukan sebagai apa?",
+          "tipe": "pilihan_ganda",
+          "pilihan": [
+            "A. Objek PPh Badan tarif 22%",
+            "B. Dikecualikan dari objek pajak",
+            "C. Objek PPh Final 20%",
+            "D. Objek PPh dengan tarif 11%"
+          ],
+          "jawaban": "B",
+          "pembahasan": "Dividen dalam negeri yang diterima badan dari penyertaan modal di badan lain di Indonesia dikecualikan dari objek pajak untuk menghindari pajak berganda ekonomis. Ini diatur dalam Pasal 4 ayat (3) UU PPh."
+        },
+        {
+          "id": "q4",
+          "pertanyaan": "Apa fungsi utama dari Rekonsiliasi Fiskal?",
+          "tipe": "pilihan_ganda",
+          "pilihan": [
+            "A. Menghitung pajak final UMKM",
+            "B. Menjembatani perbedaan Laba Komersial (SAK) menjadi Laba Fiskal (UU PPh)",
+            "C. Menentukan besaran PPN terutang",
+            "D. Menghitung gaji karyawan"
+          ],
+          "jawaban": "B",
+          "pembahasan": "Rekonsiliasi fiskal adalah proses mengoreksi Laba Komersial yang disusun berdasarkan SAK agar sesuai dengan aturan UU PPh, sehingga menghasilkan Laba Fiskal atau Penghasilan Kena Pajak (PKP)."
+        },
+        {
+          "id": "q5",
+          "pertanyaan": "Perbedaan pengakuan biaya sumbangan pribadi pemilik yang selamanya tidak akan diakui secara pajak disebut apa?",
+          "tipe": "pilihan_ganda",
+          "pilihan": [
+            "A. Beda Waktu",
+            "B. Beda Tetap",
+            "C. Koreksi Negatif",
+            "D. Pajak Tangguhan"
+          ],
+          "jawaban": "B",
+          "pembahasan": "Beda Tetap (Permanent Differences) adalah perbedaan pengakuan yang tidak akan pernah pulih atau ketemu antara akuntansi dan pajak, seperti biaya pribadi pemilik yang selamanya tidak boleh jadi pengurang pajak."
+        },
+        {
+          "id": "q6",
+          "pertanyaan": "Perbedaan metode penyusutan aset antara akuntansi dan pajak, yang totalnya akan sama jika diakumulasi sampai akhir masa manfaat, disebut apa?",
+          "tipe": "pilihan_ganda",
+          "pilihan": [
+            "A. Beda Tetap",
+            "B. Koreksi Positif permanen",
+            "C. Beda Waktu",
+            "D. Objek pajak final"
+          ],
+          "jawaban": "C",
+          "pembahasan": "Beda Waktu (Timing Differences) terjadi karena perbedaan periode pengakuan, bukan perbedaan total nilai — contoh klasiknya adalah metode penyusutan aset tetap yang berbeda antara akuntansi dan pajak."
+        },
+        {
+          "id": "q7",
+          "pertanyaan": "Sebuah perusahaan mencatat biaya denda keterlambatan pajak sebagai beban di laporan komersial. Bagaimana perlakuannya saat rekonsiliasi fiskal?",
+          "tipe": "pilihan_ganda",
+          "pilihan": [
+            "A. Dikoreksi negatif karena mengurangi laba fiskal",
+            "B. Tidak perlu dikoreksi",
+            "C. Dikoreksi positif karena termasuk sanksi administrasi perpajakan yang non-deductible",
+            "D. Dianggap sebagai objek PPh Final"
+          ],
+          "jawaban": "C",
+          "pembahasan": "Sanksi administrasi perpajakan seperti denda keterlambatan termasuk non-deductible expense menurut Pasal 9 ayat (1) huruf k UU PPh, sehingga harus dikoreksi positif (ditambahkan kembali ke laba fiskal)."
+        },
+        {
+          "id": "q8",
+          "pertanyaan": "Apa syarat utama agar suatu biaya bisa diakui sebagai Deductible Expense menurut Pasal 6 ayat (1) UU PPh?",
+          "tipe": "pilihan_ganda",
+          "pilihan": [
+            "A. Biaya harus dibayar tunai",
+            "B. Biaya harus terkait langsung dengan kegiatan Mendapatkan, Menagih, Memelihara penghasilan (3M)",
+            "C. Biaya harus disetujui pemegang saham mayoritas",
+            "D. Biaya harus di bawah Rp50 juta"
+          ],
+          "jawaban": "B",
+          "pembahasan": "Syarat utama deductible expense adalah biaya tersebut memiliki kaitan langsung dengan kegiatan usaha untuk Mendapatkan, Menagih, dan Memelihara penghasilan (prinsip 3M), sesuai Pasal 6 ayat (1) UU PPh."
+        },
+        {
+          "id": "q9",
+          "pertanyaan": "Apa syarat administratif yang wajib dipenuhi agar biaya promosi ke pihak yang teridentifikasi bisa diakui sebagai deductible expense?",
+          "tipe": "pilihan_ganda",
+          "pilihan": [
+            "A. Harus dibayar lewat transfer bank",
+            "B. Harus dilampirkan Daftar Nominatif sesuai PMK 02/2010",
+            "C. Harus disetujui DJP terlebih dahulu sebelum dibayar",
+            "D. Tidak ada syarat khusus"
+          ],
+          "jawaban": "B",
+          "pembahasan": "Biaya promosi kepada pihak yang teridentifikasi wajib dicatat dalam Daftar Nominatif sesuai PMK 02/PMK.03/2010, yang berisi nama, NPWP (jika ada), dan detail biaya. Tanpa daftar ini, biaya tersebut berisiko dikoreksi positif."
+        },
+        {
+          "id": "q10",
+          "pertanyaan": "Gaji yang dibayarkan kepada sekutu aktif CV yang modalnya tidak terbagi atas saham diperlakukan sebagai apa dalam PPh Badan?",
+          "tipe": "pilihan_ganda",
+          "pilihan": [
+            "A. Deductible expense seperti gaji pegawai biasa",
+            "B. Non-deductible karena dianggap pengambilan bagian laba, bukan biaya pegawai",
+            "C. Objek PPh Final",
+            "D. Dikecualikan dari objek pajak"
+          ],
+          "jawaban": "B",
+          "pembahasan": "Gaji untuk sekutu/anggota persekutuan yang modalnya tidak terbagi atas saham (seperti sekutu aktif CV) termasuk non-deductible expense menurut Pasal 9 ayat (1) UU PPh, karena secara pajak dianggap sebagai pengambilan bagian laba, bukan biaya pegawai murni."
+        },
+        {
+          "id": "q11",
+          "pertanyaan": "PT Makmur rugi fiskal Rp500 juta di tahun 2022. Sampai tahun berapa paling lambat kerugian ini bisa dikompensasikan ke laba fiskal tahun berikutnya?",
+          "tipe": "pilihan_ganda",
+          "pilihan": [
+            "A. 2023",
+            "B. 2025",
+            "C. 2027",
+            "D. 2032"
+          ],
+          "jawaban": "C",
+          "pembahasan": "Kompensasi kerugian fiskal berlaku maksimal 5 tahun berturut-turut sejak tahun terjadinya rugi. Karena rugi terjadi di 2022, kompensasi paling lambat bisa dilakukan sampai Tahun Pajak 2027 (5 tahun sejak 2022: 2023-2027)."
+        },
+        {
+          "id": "q12",
+          "pertanyaan": "Berapa tarif umum PPh Badan yang berlaku sejak Tahun Pajak 2022 menurut UU HPP?",
+          "tipe": "pilihan_ganda",
+          "pilihan": [
+            "A. 20%",
+            "B. 22%",
+            "C. 25%",
+            "D. 11%"
+          ],
+          "jawaban": "B",
+          "pembahasan": "Tarif umum PPh Badan adalah 22% dari Penghasilan Kena Pajak (PKP), berlaku flat sejak Tahun Pajak 2022 sesuai Pasal 17 ayat (1) huruf b UU PPh sebagaimana diubah oleh UU HPP No. 7/2021."
+        },
+        {
+          "id": "q13",
+          "pertanyaan": "CV Sentosa punya omzet Rp3 miliar setahun dengan PKP Rp150 juta. Berapa PPh Badan terutangnya, dengan mempertimbangkan fasilitas Pasal 31E?",
+          "tipe": "pilihan_ganda",
+          "pilihan": [
+            "A. Rp33 juta",
+            "B. Rp16,5 juta",
+            "C. Rp15 juta",
+            "D. Rp37,5 juta"
+          ],
+          "jawaban": "B",
+          "pembahasan": "Karena omzet Rp3 miliar berada di bawah Rp4,8 miliar, seluruh PKP dapat fasilitas diskon 50% (tarif efektif 11%). PPh Badan terutang = Rp150 juta × 11% = Rp16,5 juta."
+        },
+        {
+          "id": "q14",
+          "pertanyaan": "PT Cemerlang punya omzet Rp30 miliar dengan PKP Rp1 miliar. Berapa bagian PKP yang dapat fasilitas Pasal 31E secara proporsional?",
+          "tipe": "pilihan_ganda",
+          "pilihan": [
+            "A. Rp160 juta",
+            "B. Rp240 juta",
+            "C. Rp480 juta",
+            "D. Rp1 miliar penuh"
+          ],
+          "jawaban": "A",
+          "pembahasan": "Bagian PKP dapat fasilitas = (Rp4,8 miliar ÷ Rp30 miliar) × Rp1 miliar = 0,16 × Rp1 miliar = Rp160 juta. Sisanya, Rp840 juta, dikenakan tarif penuh 22%."
+        },
+        {
+          "id": "q15",
+          "pertanyaan": "Sebuah badan usaha memiliki omzet Rp70 miliar setahun. Bagaimana perhitungan PPh Badan terutangnya?",
+          "tipe": "pilihan_ganda",
+          "pilihan": [
+            "A. Seluruh PKP dikenakan tarif 22% tanpa fasilitas apa pun",
+            "B. Seluruh PKP dikenakan tarif 11%",
+            "C. Dihitung proporsional seperti omzet Rp4,8M-Rp50M",
+            "D. Bebas pajak karena skala besar"
+          ],
+          "jawaban": "A",
+          "pembahasan": "Fasilitas Pasal 31E hanya berlaku untuk badan dengan omzet sampai dengan Rp50 miliar. Karena omzet Rp70 miliar melebihi ambang batas tersebut, seluruh PKP dikenakan tarif penuh 22% tanpa fasilitas diskon apa pun."
+        },
+        {
+          "id": "q16",
+          "pertanyaan": "Apa nama formulir yang digunakan untuk melaporkan SPT Tahunan PPh Badan?",
+          "tipe": "pilihan_ganda",
+          "pilihan": [
+            "A. Formulir 1770",
+            "B. Formulir 1771",
+            "C. Formulir 1721",
+            "D. Formulir 1111"
+          ],
+          "jawaban": "B",
+          "pembahasan": "SPT Tahunan PPh Badan menggunakan Formulir 1771 beserta lampiran I hingga VI, yang mencakup rekonsiliasi fiskal, kredit pajak, dan daftar pemegang saham."
+        },
+        {
+          "id": "q17",
+          "pertanyaan": "Kapan batas waktu pelaporan SPT Tahunan PPh Badan?",
+          "tipe": "pilihan_ganda",
+          "pilihan": [
+            "A. 31 Maret tahun berikutnya",
+            "B. 30 April tahun berikutnya",
+            "C. 31 Desember tahun berjalan",
+            "D. 30 Juni tahun berikutnya"
+          ],
+          "jawaban": "B",
+          "pembahasan": "SPT Tahunan PPh Badan wajib dilaporkan paling lambat 30 April tahun berikutnya (4 bulan setelah akhir tahun pajak), berbeda dengan SPT Orang Pribadi yang batas waktunya 31 Maret."
+        }
+      ]
+    },
+    "glosarium": [
+      {
+        "kata": "PPh Badan",
+        "definisi": "Pajak Penghasilan yang dikenakan atas penghasilan yang diterima atau diperoleh badan usaha dalam satu tahun pajak.",
+        "penjelasan_sederhana": "Pajak yang wajib dibayar perusahaan/organisasi atas untung yang mereka dapetin, terpisah dari pajak pribadi pemiliknya."
+      },
+      {
+        "kata": "Bentuk Usaha Tetap (BUT)",
+        "definisi": "Bentuk usaha yang dipergunakan oleh Wajib Pajak Luar Negeri untuk menjalankan usaha atau kegiatan di Indonesia.",
+        "penjelasan_sederhana": "Cara perusahaan asing 'numpang usaha' di Indonesia tanpa harus bikin PT baru, tapi tetap wajib bayar pajak kayak badan lokal."
+      },
+      {
+        "kata": "Rekonsiliasi Fiskal",
+        "definisi": "Proses penyesuaian Laba Komersial (sesuai SAK) menjadi Laba Fiskal (sesuai UU PPh) melalui koreksi positif dan negatif.",
+        "penjelasan_sederhana": "Proses 'nerjemahin' laba versi akuntansi jadi laba versi pajak, karena dua standar ini punya aturan pengakuan yang beda."
+      },
+      {
+        "kata": "Beda Tetap",
+        "definisi": "Perbedaan pengakuan penghasilan/biaya antara akuntansi dan pajak yang tidak akan pernah pulih di masa mendatang.",
+        "penjelasan_sederhana": "Perbedaan yang selamanya beda, gak akan pernah 'ketemu' lagi antara catatan akuntansi dan catatan pajak."
+      },
+      {
+        "kata": "Beda Waktu",
+        "definisi": "Perbedaan pengakuan penghasilan/biaya antara akuntansi dan pajak yang hanya berbeda periode, namun totalnya sama jika diakumulasi.",
+        "penjelasan_sederhana": "Perbedaan yang cuma soal 'kapan' diakuinya, kalau ditotal dalam jangka panjang hasilnya bakal sama aja."
+      },
+      {
+        "kata": "Koreksi Fiskal Positif",
+        "definisi": "Penyesuaian yang menambah Laba Fiskal karena adanya biaya non-deductible yang diakui di laporan komersial.",
+        "penjelasan_sederhana": "Penyesuaian yang bikin laba versi pajak jadi lebih besar dari laba versi akuntansi, biasanya karena ada biaya yang gak boleh dikurangkan pajak."
+      },
+      {
+        "kata": "Koreksi Fiskal Negatif",
+        "definisi": "Penyesuaian yang mengurangi Laba Fiskal karena adanya penghasilan bukan objek pajak atau sudah dikenakan PPh Final.",
+        "penjelasan_sederhana": "Penyesuaian yang bikin laba versi pajak jadi lebih kecil dari laba versi akuntansi, biasanya karena ada penghasilan yang gak perlu dipajaki lagi."
+      },
+      {
+        "kata": "Deductible Expense",
+        "definisi": "Biaya yang boleh dikurangkan dari penghasilan bruto menurut Pasal 6 ayat (1) UU PPh.",
+        "penjelasan_sederhana": "Biaya usaha yang sah buat ngurangin laba yang bakal dipajaki, karena emang beneran buat dapetin/nagih/pelihara penghasilan."
+      },
+      {
+        "kata": "Non-Deductible Expense",
+        "definisi": "Biaya yang tidak boleh dikurangkan dari penghasilan bruto menurut Pasal 9 ayat (1) UU PPh.",
+        "penjelasan_sederhana": "Biaya yang gak boleh dipakai buat ngurangin pajak, walaupun beneran dikeluarkan dari kas perusahaan."
+      },
+      {
+        "kata": "Daftar Nominatif",
+        "definisi": "Daftar rincian penerima biaya promosi (nama, NPWP, alamat, jumlah) yang wajib dilampirkan sesuai PMK 02/PMK.03/2010 agar biaya promosi diakui sebagai pengurang pajak.",
+        "penjelasan_sederhana": "Catatan rinci siapa aja yang nerima duit promosi dari perusahaan, wajib ada biar biayanya diakui sah sama pajak."
+      },
+      {
+        "kata": "Kompensasi Kerugian Fiskal",
+        "definisi": "Mekanisme membawa kerugian fiskal suatu tahun pajak untuk mengurangi laba fiskal pada tahun-tahun berikutnya, maksimal 5 tahun.",
+        "penjelasan_sederhana": "Kalau tahun ini rugi, ruginya bisa dipakai buat 'ngurangin' pajak di tahun-tahun untung berikutnya, sampai maksimal 5 tahun."
+      },
+      {
+        "kata": "Penghasilan Kena Pajak (PKP)",
+        "definisi": "Laba Fiskal setelah dikurangi kompensasi kerugian, yang menjadi dasar penghitungan PPh Badan terutang.",
+        "penjelasan_sederhana": "Angka final 'laba versi pajak' yang bakal dikalikan tarif buat nentuin berapa pajak yang harus dibayar."
+      },
+      {
+        "kata": "Pasal 31E",
+        "definisi": "Ketentuan yang memberikan fasilitas pengurangan tarif 50% bagi Wajib Pajak Badan dengan peredaran bruto sampai dengan Rp50 miliar setahun.",
+        "penjelasan_sederhana": "Aturan diskon tarif pajak buat badan usaha yang omzetnya masih di bawah Rp50 miliar setahun."
+      },
+      {
+        "kata": "Peredaran Bruto",
+        "definisi": "Total omzet atau penjualan kotor badan usaha dalam satu tahun pajak, sebelum dikurangi biaya apa pun.",
+        "penjelasan_sederhana": "Total duit masuk dari hasil jualan/jasa dalam setahun, sebelum dipotong biaya-biaya operasional."
+      },
+      {
+        "kata": "SPT Tahunan 1771",
+        "definisi": "Surat Pemberitahuan Tahunan yang digunakan Wajib Pajak Badan untuk melaporkan penghitungan dan pembayaran PPh Badan.",
+        "penjelasan_sederhana": "Formulir laporan pajak tahunan khusus badan usaha, isinya lengkap dari rekonsiliasi fiskal sampai PPh terutang."
+      },
+      {
+        "kata": "PPh Pasal 25",
+        "definisi": "Angsuran bulanan PPh Badan yang dibayar selama tahun berjalan berdasarkan PPh terutang tahun pajak sebelumnya.",
+        "penjelasan_sederhana": "Cicilan pajak bulanan yang dibayar duluan, biar di akhir tahun gak numpuk sekaligus."
+      },
+      {
+        "kata": "PPh Pasal 29",
+        "definisi": "Kekurangan pembayaran PPh Badan yang harus dilunasi jika PPh terutang tahunan lebih besar dari total angsuran PPh Pasal 25 yang sudah dibayar.",
+        "penjelasan_sederhana": "Sisa kurang bayar pajak yang wajib dilunasi setelah dihitung total di akhir tahun, kalau cicilan bulanan belum cukup."
+      },
+      {
+        "kata": "Coretax DJP",
+        "definisi": "Core Tax Administration System (CTAS), sistem administrasi perpajakan terpadu milik DJP untuk registrasi, pelaporan, pembayaran, dan pengawasan pajak secara digital.",
+        "penjelasan_sederhana": "Platform digital terpadu dari DJP buat urusan pajak, mulai dari daftar NPWP sampai lapor SPT, semua serba online di satu sistem."
+      }
+    ]
+  }
+}

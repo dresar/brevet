@@ -1,0 +1,460 @@
+@import "tailwindcss";
+
+/* ============================================================
+   BREVET AB HUB — Design System (Linear / Vercel / Raycast Style)
+   Dark mode ONLY — High-contrast, minimal shadows, crisp borders
+   ============================================================ */
+
+/* ── Base tokens (Linear / Vercel Aesthetic) ── */
+:root {
+  /* Backgrounds */
+  --bg-base: #0B1220;       /* Linear deep slate black */
+  --bg-surface: #111827;    /* gray-900 card surface */
+  --bg-elevated: #151f32;   /* slightly elevated */
+  --bg-card: #111827;       /* card background */
+
+  /* Borders */
+  --border: #1F2937;        /* gray-800 crisp thin outline */
+  --border-subtle: #172030; /* subtle divider */
+  --border-hover: #334155;  /* slate-700 on hover */
+
+  /* Text */
+  --text-heading: #FFFFFF;  /* pure white for high contrast */
+  --text-body: #E2E8F0;     /* slate-200 primary readable text */
+  --text-secondary: #94A3B8;/* slate-400 secondary text */
+  --text-muted: #64748B;    /* slate-500 muted metadata */
+  --text-placeholder: #475569; /* slate-600 */
+
+  /* Primary: Linear Blue */
+  --primary: #3B82F6;       /* blue-500 */
+  --primary-hover: #2563EB; /* blue-600 */
+  --primary-subtle: #13233c; /* subtle dark blue fill */
+
+  /* Accent: Cyan / Indigo (AI highlight) */
+  --accent: #38bdf8;        /* sky-400 */
+  --accent-subtle: #0c2838; /* subtle sky fill */
+
+  /* Status */
+  --success: #10B981;       /* emerald-500 */
+  --success-subtle: #062c1f;
+  --error: #EF4444;         /* red-500 */
+  --error-subtle: #311013;
+  --warning: #F59E0B;       /* amber-500 */
+  --warning-subtle: #332008;
+
+  /* Reading line-height */
+  --lh-reading: 1.8;
+}
+
+/* Force dark — no toggle */
+html {
+  color-scheme: dark;
+}
+
+/* ── Base styles ── */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--bg-base);
+  color: var(--text-body);
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  min-height: 100dvh;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  letter-spacing: -0.011em;
+}
+
+/* ── Scrollbar (Linear slim aesthetic) ── */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+::-webkit-scrollbar-track {
+  background: var(--bg-base);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--border);
+  border-radius: 99px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--text-muted);
+}
+
+/* ── Selection ── */
+::selection {
+  background-color: var(--primary);
+  color: #fff;
+}
+
+/* ── Focus visible (Linear crisp focus ring) ── */
+:focus-visible {
+  outline: 2px solid var(--primary);
+  outline-offset: 1px;
+}
+
+/* ── Typography helpers ── */
+.text-heading { color: var(--text-heading); font-weight: 600; letter-spacing: -0.02em; }
+.text-body    { color: var(--text-body); }
+.text-muted   { color: var(--text-secondary); }
+
+/* ── Reading mode (used in /belajar) ── */
+.prose-belajar {
+  line-height: var(--lh-reading);
+  color: var(--text-body);
+  max-width: 68ch;
+}
+.prose-belajar h1,
+.prose-belajar h2,
+.prose-belajar h3 {
+  color: var(--text-heading);
+  letter-spacing: -0.025em;
+  font-weight: 600;
+  line-height: 1.3;
+  margin-top: 1.5em;
+  margin-bottom: 0.5em;
+}
+.prose-belajar p {
+  margin-bottom: 1.2em;
+}
+.prose-belajar ul {
+  list-style: disc;
+  padding-left: 1.5em;
+  margin-bottom: 1.2em;
+}
+.prose-belajar li {
+  margin-bottom: 0.35em;
+}
+
+/* ── Font size variants ── */
+.font-normal-size  { font-size: 0.9375rem; }
+.font-besar-size   { font-size: 1.0625rem; }
+
+/* ── Animations (Refined, smooth 150ms-200ms) ── */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(6px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+@keyframes slideInRight {
+  from { opacity: 0; transform: translateX(12px); }
+  to   { opacity: 1; transform: translateX(0); }
+}
+@keyframes pulse-subtle {
+  0%, 100% { opacity: 1; }
+  50%       { opacity: 0.5; }
+}
+@keyframes rotateDown {
+  from { transform: translateY(0); opacity: 1; }
+  to   { transform: translateY(3px); opacity: 0.6; }
+}
+
+.animate-fade-in    { animation: fadeIn 0.18s cubic-bezier(0.16, 1, 0.3, 1); }
+.animate-slide-right { animation: slideInRight 0.18s cubic-bezier(0.16, 1, 0.3, 1); }
+.animate-pulse-subtle { animation: pulse-subtle 2s ease-in-out infinite; }
+.animate-rotate-down  { animation: rotateDown 0.3s ease-in-out; }
+
+/* ── Glass effect (Linear acrylic style) ── */
+.glass {
+  background: rgba(17, 24, 39, 0.85);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid var(--border);
+}
+
+/* ── Card / Surface (Linear / Vercel: flat, 1px border, generous whitespace, no heavy shadows) ── */
+.card {
+  background: var(--bg-surface);
+  border: 1px solid var(--border);
+  border-radius: 0.75rem;
+  transition: border-color 0.15s ease, background-color 0.15s ease;
+}
+.card:hover {
+  border-color: var(--border-hover);
+}
+.card-elevated {
+  background: var(--bg-elevated);
+  border: 1px solid var(--border-hover);
+  border-radius: 0.75rem;
+  box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.5);
+}
+
+/* ── Status badges (Linear minimal pill style) ── */
+.badge-active   { background: var(--success-subtle); color: var(--success); border: 1px solid rgba(16, 185, 129, 0.3); font-weight: 500; }
+.badge-error    { background: var(--error-subtle);   color: var(--error);   border: 1px solid rgba(239, 68, 68, 0.3);   font-weight: 500; }
+.badge-disabled { background: #131b2e;               color: var(--text-muted); border: 1px solid var(--border);          font-weight: 500; }
+.badge-draft    { background: var(--warning-subtle); color: var(--warning); border: 1px solid rgba(245, 158, 11, 0.3); font-weight: 500; }
+.badge-tayang   { background: var(--success-subtle); color: var(--success); border: 1px solid rgba(16, 185, 129, 0.3); font-weight: 500; }
+
+/* ── Mermaid overrides (dark theme) ── */
+.mermaid svg {
+  max-width: 100%;
+  height: auto;
+  background: transparent !important;
+}
+
+/* ── CodeMirror overrides (Linear style code block) ── */
+.cm-editor {
+  border-radius: 0.5rem;
+  border: 1px solid var(--border) !important;
+  background: #0d1424 !important;
+  font-size: 0.875rem;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+}
+.cm-editor.cm-focused {
+  outline: none !important;
+  border-color: var(--primary) !important;
+  box-shadow: 0 0 0 1px var(--primary);
+}
+
+/* ── Tooltip (Raycast compact style) ── */
+[data-tooltip] {
+  position: relative;
+}
+[data-tooltip]::after {
+  content: attr(data-tooltip);
+  position: absolute;
+  bottom: 125%;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #0d1424;
+  color: var(--text-heading);
+  padding: 0.35rem 0.65rem;
+  border-radius: 0.375rem;
+  border: 1px solid var(--border-hover);
+  font-size: 0.75rem;
+  font-weight: 500;
+  white-space: nowrap;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.15s cubic-bezier(0.16, 1, 0.3, 1);
+  z-index: 50;
+}
+[data-tooltip]:hover::after {
+  opacity: 1;
+}
+
+/* ── Transition defaults ── */
+.transition-default {
+  transition: color 0.15s ease, background-color 0.15s ease, border-color 0.15s ease, opacity 0.15s ease;
+}
+
+/* ── Error key row animation ── */
+.key-row-error {
+  opacity: 0.5;
+  border-left: 3px solid var(--error) !important;
+  background: rgba(239, 68, 68, 0.03);
+}
+
+/* ── AI Chat HTML View Styles ── */
+.ai-html-content h1, .ai-html-content h2, .ai-html-content h3, .ai-html-content h4 {
+  font-weight: 700;
+  color: #38bdf8;
+  margin-top: 0.75rem;
+  margin-bottom: 0.35rem;
+}
+.ai-html-content h3 { font-size: 0.875rem; }
+.ai-html-content h4 { font-size: 0.8125rem; }
+.ai-html-content p {
+  margin-bottom: 0.5rem;
+  line-height: 1.6;
+}
+.ai-html-content ul {
+  list-style-type: disc;
+  padding-left: 1.25rem;
+  margin-top: 0.35rem;
+  margin-bottom: 0.5rem;
+}
+.ai-html-content ol {
+  list-style-type: decimal;
+  padding-left: 1.25rem;
+  margin-top: 0.35rem;
+  margin-bottom: 0.5rem;
+}
+.ai-html-content li {
+  margin-bottom: 0.25rem;
+  line-height: 1.5;
+}
+.ai-html-content strong, .ai-html-content b {
+  font-weight: 600;
+  color: #7dd3fc;
+}
+.ai-html-content em, .ai-html-content i {
+  color: #fca5a5;
+  font-style: italic;
+}
+.ai-html-content a {
+  color: #93c5fd;
+  text-decoration: underline;
+}
+.ai-html-content hr {
+  border-color: #1e293b;
+  margin: 0.75rem 0;
+}
+.ai-html-content code {
+  background: #0f172a;
+  color: #fbbf24;
+  padding: 0.15rem 0.4rem;
+  border-radius: 0.25rem;
+  font-family: monospace;
+  font-size: 0.75rem;
+}
+.ai-html-content .tokoh-name {
+  color: #fde047;
+  text-decoration: underline;
+  text-decoration-color: #f59e0b;
+  font-weight: 700;
+  padding: 0 0.125rem;
+  border-radius: 0.125rem;
+  background: rgba(245, 158, 11, 0.1);
+}
+.ai-html-content .highlight-box {
+  background: rgba(56, 189, 248, 0.1);
+  border-left: 4px solid #38bdf8;
+  padding: 0.75rem 1rem;
+  border-radius: 0 0.5rem 0.5rem 0;
+  margin: 1rem 0;
+  color: #e0f2fe;
+}
+.ai-html-content .highlight-box p {
+  margin-bottom: 0;
+}
+
+
+/* ── Mobile Optimization Rules ── */
+@media (max-width: 640px) {
+  html {
+    font-size: 14.5px;
+  }
+  .prose-belajar {
+    font-size: 0.875rem;
+    line-height: 1.7;
+  }
+  .prose-belajar h1 { font-size: 1.35rem; margin-top: 1rem; }
+  .prose-belajar h2 { font-size: 1.15rem; margin-top: 0.9rem; }
+  .prose-belajar h3 { font-size: 1rem; margin-top: 0.8rem; }
+  .prose-belajar p { margin-bottom: 0.85rem; }
+  .prose-belajar ul { padding-left: 1.15rem; margin-bottom: 0.85rem; }
+}
+
+/* ── Custom Touch Horizontal Scrollbar ── */
+.overflow-x-auto {
+  -webkit-overflow-scrolling: touch;
+}
+
+/* ── AI Analysis Content Styles — Beautiful Dark Multi-Box Gradient Cards ── */
+.ai-analysis-content {
+  color: #e2e8f0;
+  line-height: 1.7;
+  width: 100%;
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+.ai-analysis-content p {
+  margin-bottom: 0.75rem;
+  color: #e2e8f0;
+  font-size: 0.875rem;
+  line-height: 1.65;
+}
+.ai-analysis-content h3, 
+.ai-analysis-content h4, 
+.ai-analysis-content h5 {
+  font-weight: 800;
+  margin-top: 0;
+  margin-bottom: 0.75rem;
+  font-size: 0.95rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.ai-analysis-content strong {
+  color: #38bdf8;
+  font-weight: 700;
+}
+.ai-analysis-content ul, 
+.ai-analysis-content ol {
+  padding-left: 1.25rem;
+  margin-bottom: 0.75rem;
+}
+.ai-analysis-content li {
+  margin-bottom: 0.35rem;
+  color: #cbd5e1;
+  font-size: 0.875rem;
+}
+
+/* 1. Konsep & Logika Dasar (Emerald Card) */
+.ai-analysis-content .konsep-box {
+  background: linear-gradient(135deg, rgba(6, 78, 59, 0.35) 0%, rgba(15, 23, 42, 0.85) 100%);
+  border: 1px solid rgba(16, 185, 129, 0.4);
+  border-radius: 1rem;
+  padding: 1.15rem;
+  box-shadow: 0 10px 25px -5px rgba(6, 78, 59, 0.3);
+}
+.ai-analysis-content .konsep-box h3, .ai-analysis-content .konsep-box h4 {
+  color: #34d399;
+}
+
+/* 2. Analogi Sehari-Hari (Purple Violet Card) */
+.ai-analysis-content .analogi-box {
+  background: linear-gradient(135deg, rgba(88, 28, 135, 0.35) 0%, rgba(15, 23, 42, 0.85) 100%);
+  border: 1px solid rgba(168, 85, 247, 0.4);
+  border-radius: 1rem;
+  padding: 1.15rem;
+  box-shadow: 0 10px 25px -5px rgba(88, 28, 135, 0.3);
+}
+.ai-analysis-content .analogi-box h3, .ai-analysis-content .analogi-box h4 {
+  color: #c084fc;
+}
+
+/* 3. Bedah Matematika Detail (Blue Sky Monospace Card) */
+.ai-analysis-content .matematika-box {
+  background: linear-gradient(135deg, rgba(30, 58, 138, 0.4) 0%, rgba(15, 23, 42, 0.95) 100%);
+  border: 1px solid rgba(56, 189, 248, 0.45);
+  border-radius: 1rem;
+  padding: 1.15rem;
+  box-shadow: 0 10px 25px -5px rgba(30, 58, 138, 0.35);
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+}
+.ai-analysis-content .matematika-box h3, .ai-analysis-content .matematika-box h4 {
+  color: #38bdf8;
+  font-family: var(--font-sans, system-ui, sans-serif);
+}
+
+/* 4. Praktik Dunia Usaha (Indigo Card) */
+.ai-analysis-content .praktik-box {
+  background: linear-gradient(135deg, rgba(49, 46, 129, 0.35) 0%, rgba(15, 23, 42, 0.85) 100%);
+  border: 1px solid rgba(99, 102, 241, 0.4);
+  border-radius: 1rem;
+  padding: 1.15rem;
+  box-shadow: 0 10px 25px -5px rgba(49, 46, 129, 0.3);
+}
+.ai-analysis-content .praktik-box h3, .ai-analysis-content .praktik-box h4 {
+  color: #818cf8;
+}
+
+/* 5. Regulasi & Pasal Hukum (Amber Warning Card) */
+.ai-analysis-content .hukum-box {
+  background: linear-gradient(135deg, rgba(120, 53, 15, 0.35) 0%, rgba(15, 23, 42, 0.85) 100%);
+  border: 1px solid rgba(245, 158, 11, 0.45);
+  border-radius: 1rem;
+  padding: 1.15rem;
+  box-shadow: 0 10px 25px -5px rgba(120, 53, 15, 0.3);
+}
+.ai-analysis-content .hukum-box h3, .ai-analysis-content .hukum-box h4 {
+  color: #fbbf24;
+}
+
+/* 6. Tips Strategis & Tax Planning (Teal Card) */
+.ai-analysis-content .tips-box {
+  background: linear-gradient(135deg, rgba(19, 78, 74, 0.35) 0%, rgba(15, 23, 42, 0.85) 100%);
+  border: 1px solid rgba(20, 184, 166, 0.4);
+  border-radius: 1rem;
+  padding: 1.15rem;
+  box-shadow: 0 10px 25px -5px rgba(19, 78, 74, 0.3);
+}
+.ai-analysis-content .tips-box h3, .ai-analysis-content .tips-box h4 {
+  color: #2dd4bf;
+}

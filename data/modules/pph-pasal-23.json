@@ -1,0 +1,1625 @@
+{
+  "versi": "1.0",
+  "modul": {
+    "kode": "BRVT-AB-09",
+    "slug": "pph-pasal-23",
+    "judul": "PPh Pasal 23: Potong-Memotong Penghasilan Modal, Sewa, dan Jasa",
+    "kategori": "PPh",
+    "tingkat_kesulitan": "pemula",
+    "estimasi_menit": 90,
+    "ringkasan": "Modul ini ngebahas tuntas PPh Pasal 23, pajak yang dipotong pas kamu terima penghasilan dari dividen, bunga, royalti, sewa non-tanah, sampai jasa-jasa kayak cleaning service dan IT maintenance. Kamu bakal paham bedanya tarif 15% dan 2%, cara ngitungnya, sampai sanksi kalau nggak punya NPWP.",
+    "tujuan_belajar": [
+      "Memahami definisi dan dasar hukum PPh Pasal 23",
+      "Membedakan objek pajak tarif 15% dan tarif 2%",
+      "Menghitung PPh 23 atas dividen, bunga, royalti, sewa, dan jasa",
+      "Menjelaskan syarat reimbursement agar tidak kena potong PPh 23",
+      "Menerapkan ketentuan pengecualian pemotongan PPh 23",
+      "Menganalisis sanksi tanpa NPWP dan proses e-Bupot Coretax"
+    ],
+    "bagian": [
+      {
+        "id": "bag-01",
+        "judul": "Definisi dan Dasar Hukum PPh Pasal 23",
+        "paragraf": [
+          "Oke, jadi gini, PPh Pasal 23 itu pajak yang dipotong di muka atas penghasilan tertentu yang diterima Wajib Pajak Dalam Negeri (WP DN — orang atau badan yang emang tinggal/berkedudukan di Indonesia dan wajib bayar pajak di sini) atau Bentuk Usaha Tetap alias BUT (perusahaan asing yang punya cabang/kegiatan usaha di Indonesia). Bayangin gini: setiap kali kamu jual jasa atau nyewain barang ke perusahaan lain, si penerima jasa itu 'motong' sebagian pembayaran buat disetor ke negara duluan, sebelum sisanya masuk ke kantong kamu.",
+          "Penghasilan yang kena PPh 23 itu macem-macem: mulai dari dividen (bagi hasil untung perusahaan), bunga pinjaman, royalti, hadiah non-pegawai, sewa harta selain tanah/bangunan, sampai berbagai jenis jasa. Intinya, PPh 23 ini kebalikan dari PPh 21 — kalau PPh 21 buat penghasilan karyawan/pegawai, PPh 23 buat penghasilan dari modal, sewa, hadiah, dan jasa yang diterima bukan sebagai pegawai tetap.",
+          "Dasar hukumnya jelas banget: Pasal 23 Undang-Undang PPh No. 7 Tahun 1983 yang udah beberapa kali diubah, terakhir lewat UU Harmonisasi Peraturan Perpajakan (UU HPP) No. 7/2021, terus aturan teknisnya diatur lebih rinci di PMK 141/PMK.03/2015 yang isinya daftar 62 jenis jasa lain yang kena tarif 2%. Nah, ini yang bakal jadi 'kitab suci' kita sepanjang modul ini."
+        ],
+        "poin_penting": [
+          "💡 PPh 23 dipotong di muka oleh pihak yang bayar, bukan yang nerima",
+          "📌 Berlaku buat WP Dalam Negeri (OP & Badan) dan BUT",
+          "🔑 Dasar hukum utama: Pasal 23 UU PPh jo. UU HPP + PMK 141/2015",
+          "⚠️ Beda sama PPh 21 yang khusus buat penghasilan pegawai"
+        ],
+        "analogi": "Ibaratnya tuh kayak kamu jualan kue ke kantoran, terus sebelum uangnya ditransfer penuh ke kamu, bagian keuangan kantor itu udah motong sedikit buat 'dititipin' ke pajak duluan, biar pas akhir tahun kamu nggak kaget bayar pajak gede sekaligus. Jadi nyicil, gitu lho.",
+        "contoh_kasus": {
+          "judul": "Kasus Bu Dewi, Konsultan Pajak Lepas",
+          "cerita": "Bu Dewi punya usaha jasa konsultasi pajak dan digandeng oleh PT Maju Jaya buat bantu urus laporan tahunan mereka senilai Rp20 juta. Karena jasa konsultan masuk objek PPh 23 tarif 2%, PT Maju Jaya wajib motong Rp400.000 sebelum bayar ke Bu Dewi.",
+          "poin": [
+            "PT Maju Jaya berperan sebagai pemotong PPh 23",
+            "Bu Dewi cuma terima Rp19.600.000, sisanya udah disetor ke kas negara"
+          ]
+        },
+        "diagram_mermaid": [],
+        "penjelasan_diagram": "",
+        "prompt_gambar": [
+          {
+            "id": "img-01",
+            "prompt": "A highly detailed ultra modern 3D isometric stylized studio render illustration, landscape 16:9 orientation, depicting the concept of Indonesian PPh Pasal 23 withholding tax. Deep dark-mode studio background gradient mesh #0F172A to #1E1B4B with soft ambient 3D lighting and floating particles. Center composition shows a glowing 3D invoice document splitting into two glowing beams of light: one flowing to a modern 3D wallet icon, the other flowing into a stylized 3D government tax office building icon with a small flag. Surround with floating 3D icons: a percentage symbol, a coin stack in warm gold, and a royalty/certificate icon in emerald green. Include short, clean, perfectly spelled modern Indonesian text labels floating near key elements such as 'Potong Pajak' and 'PPh Pasal 23'. Color palette: electric blue #3B82F6, emerald green #10B981, warm gold #F59E0B accents against the dark navy background. Premium tech-education infographic aesthetic, crisp render, cinematic depth of field.",
+            "keterangan": "Ilustrasi konsep pemotongan PPh Pasal 23 di mana sebagian pembayaran jasa langsung dialihkan ke kas negara sebelum sampai ke penerima penghasilan. Gambar ini menegaskan posisi PPh 23 sebagai pajak yang dipotong di muka oleh pemberi penghasilan.",
+            "alt": "Ilustrasi 3D dokumen tagihan yang terpotong menjadi dua aliran, satu ke dompet dan satu ke kantor pajak",
+            "url_gambar": null
+          }
+        ],
+        "kalkulator": null,
+        "mini_kuis": [
+          {
+            "id": "q1",
+            "pertanyaan": "Siapa yang punya kewajiban memotong PPh Pasal 23?",
+            "tipe": "pilihan_ganda",
+            "pilihan": [
+              "A. Penerima penghasilan",
+              "B. Pihak yang membayar penghasilan",
+              "C. Kantor Pajak Pratama",
+              "D. Bank penyalur dana"
+            ],
+            "jawaban": "B",
+            "pembahasan": "Yang wajib motong adalah pihak yang membayar penghasilan (pemberi kerja/klien), bukan penerimanya. Ini beda sama pajak yang kamu bayar sendiri seperti PPh Final UMKM."
+          },
+          {
+            "id": "q2",
+            "pertanyaan": "PPh Pasal 23 hanya berlaku untuk penghasilan pegawai tetap.",
+            "tipe": "benar_salah",
+            "pilihan": [
+              "Benar",
+              "Salah"
+            ],
+            "jawaban": "Salah",
+            "pembahasan": "Salah, itu domainnya PPh Pasal 21. PPh 23 justru berlaku untuk penghasilan dari modal, sewa, hadiah, dan jasa yang diterima bukan sebagai pegawai tetap."
+          }
+        ],
+        "kesalahan_umum": [
+          {
+            "salah": "Mengira PPh 23 dan PPh 21 itu sama",
+            "benar": "PPh 21 untuk penghasilan pegawai, PPh 23 untuk penghasilan modal/sewa/jasa dari pihak non-pegawai",
+            "tips": "Cek dulu status hubungan kerja: kalau ada hubungan kerja tetap, biasanya PPh 21; kalau nggak, cek PPh 23"
+          },
+          {
+            "salah": "Menganggap PPh 23 hanya berlaku untuk badan usaha besar",
+            "benar": "OP tertentu yang ditunjuk DJP juga wajib memotong PPh 23, bukan cuma perusahaan besar",
+            "tips": "Selalu cek status penunjukan sebagai pemotong pajak di NPWP kamu"
+          }
+        ],
+        "istilah": [
+          {
+            "kata": "WP Dalam Negeri",
+            "definisi": "Wajib Pajak yang bertempat tinggal atau berkedudukan di Indonesia dan tunduk pada ketentuan perpajakan Indonesia.",
+            "contoh": "Bu Dewi yang tinggal di Jakarta dan punya NPWP adalah WP Dalam Negeri."
+          },
+          {
+            "kata": "BUT",
+            "definisi": "Bentuk Usaha Tetap, yaitu bentuk usaha perusahaan luar negeri yang beroperasi di Indonesia dan diperlakukan seperti Wajib Pajak Badan Dalam Negeri.",
+            "contoh": "Cabang perusahaan Singapura di Jakarta bisa berstatus BUT."
+          },
+          {
+            "kata": "Pemotong Pajak",
+            "definisi": "Pihak yang berkewajiban memotong pajak dari penghasilan yang dibayarkannya dan menyetorkannya ke kas negara.",
+            "contoh": "PT Maju Jaya jadi pemotong pajak saat bayar jasa konsultan Bu Dewi."
+          }
+        ]
+      },
+      {
+        "id": "bag-02",
+        "judul": "Subjek Pemotong dan Penerima PPh 23",
+        "paragraf": [
+          "Nah, sekarang kita bahas siapa aja sih yang wajib jadi 'tukang potong' PPh 23 ini. Ada lima kategori: badan pemerintah, WP Badan Dalam Negeri (kayak PT, CV), penyelenggara kegiatan (misal panitia event), BUT, dan OP tertentu yang udah ditunjuk resmi sama Kepala KPP. Yang terakhir ini penting banget: nggak semua orang pribadi otomatis wajib motong pajak, cuma yang ditunjuk aja, biasanya OP yang punya usaha dan udah terdaftar sebagai PKP atau punya izin praktik profesi tertentu kayak notaris.",
+          "Di sisi lain, siapa yang jadi 'korban potong' alias penerima penghasilannya? Yaitu Wajib Pajak Dalam Negeri, baik Orang Pribadi maupun Badan, dan juga BUT. Jadi kalau penerimanya itu Wajib Pajak Luar Negeri (WPLN) yang nggak punya BUT di Indonesia, itu bukan ranahnya PPh 23 — itu masuk ke PPh Pasal 26 dengan skema dan tarif yang beda lagi.",
+          "Gampangnya gini: bayangin ada 'lingkaran domestik' — kalau transaksi terjadi antar pihak yang sama-sama di dalam lingkaran itu (dalam negeri), yang berlaku PPh 23. Tapi kalau ada satu pihak yang berada di luar lingkaran (luar negeri tanpa BUT), aturannya loncat ke PPh 26. Ini penting biar kamu nggak salah motong pajak dengan skema yang salah."
+        ],
+        "poin_penting": [
+          "📌 5 kategori pemotong: badan pemerintah, WP Badan DN, penyelenggara kegiatan, BUT, OP yang ditunjuk",
+          "✅ Penerima: WP Dalam Negeri (OP & Badan) dan BUT",
+          "⚠️ Kalau penerima WP Luar Negeri tanpa BUT, itu masuk PPh Pasal 26, bukan 23",
+          "🔑 OP jadi pemotong hanya kalau sudah ditunjuk resmi oleh Kepala KPP"
+        ],
+        "analogi": "Simpelnya begini: bayangin ada dua kelompok anak di sekolah — kelompok 'lokal' (dalam negeri) dan kelompok 'tamu dari sekolah lain' (luar negeri). Kalau transaksi jajan-jajanan terjadi antar anak lokal, aturannya PPh 23. Tapi kalau salah satunya anak tamu, aturannya beda lagi.",
+        "contoh_kasus": {
+          "judul": "Kasus Mas Andi, Notaris yang Ditunjuk Jadi Pemotong",
+          "cerita": "Mas Andi adalah notaris di Surabaya yang oleh KPP setempat udah ditunjuk sebagai pemotong pajak. Suatu hari dia menyewa peralatan kantor dari CV Sinar Abadi senilai Rp5 juta per bulan.",
+          "poin": [
+            "Karena Mas Andi ditunjuk sebagai pemotong, dia wajib motong PPh 23 atas sewa itu",
+            "Kalau Mas Andi belum ditunjuk resmi, dia nggak wajib motong walau usahanya jalan"
+          ]
+        },
+        "diagram_mermaid": [
+          "graph TD\n    A[\"Pembayar Penghasilan\"] --> B{\"Termasuk Pemotong?\"}\n    B -->|\"Ya: Badan Pemerintah/WP Badan DN/BUT/OP Ditunjuk\"| C[\"Wajib Potong PPh 23\"]\n    B -->|\"Tidak\"| D[\"Tidak Wajib Potong\"]\n    C --> E{\"Penerima WP Dalam Negeri/BUT?\"}\n    E -->|\"Ya\"| F[\"Berlaku PPh Pasal 23\"]\n    E -->|\"Tidak, WPLN Tanpa BUT\"| G[\"Berlaku PPh Pasal 26\"]"
+        ],
+        "penjelasan_diagram": "Diagram ini nunjukkin alur penentuan apakah suatu transaksi kena PPh 23 atau nggak, dimulai dari status pembayar sebagai pemotong sampai status penerima penghasilan.",
+        "prompt_gambar": [],
+        "kalkulator": null,
+        "mini_kuis": [
+          {
+            "id": "q1",
+            "pertanyaan": "Orang Pribadi otomatis wajib memotong PPh 23 begitu punya usaha.",
+            "tipe": "benar_salah",
+            "pilihan": [
+              "Benar",
+              "Salah"
+            ],
+            "jawaban": "Salah",
+            "pembahasan": "Salah, OP baru wajib motong PPh 23 kalau sudah ditunjuk resmi oleh Kepala KPP, bukan otomatis karena punya usaha."
+          },
+          {
+            "id": "q2",
+            "pertanyaan": "Penghasilan yang dibayarkan ke Wajib Pajak Luar Negeri tanpa BUT masuk skema pajak apa?",
+            "tipe": "pilihan_ganda",
+            "pilihan": [
+              "A. PPh Pasal 21",
+              "B. PPh Pasal 22",
+              "C. PPh Pasal 23",
+              "D. PPh Pasal 26"
+            ],
+            "jawaban": "D",
+            "pembahasan": "PPh Pasal 26 khusus mengatur pemotongan atas penghasilan yang dibayarkan ke Wajib Pajak Luar Negeri yang tidak memiliki BUT di Indonesia, dengan tarif berbeda dari PPh 23."
+          }
+        ],
+        "kesalahan_umum": [
+          {
+            "salah": "Semua CV/PT otomatis pemotong PPh 23 tanpa terkecuali",
+            "benar": "WP Badan DN memang jadi pemotong, tapi tetap harus punya NPWP dan status pemotongan yang jelas",
+            "tips": "Cek status pemotongan lewat aplikasi Coretax DJP"
+          },
+          {
+            "salah": "Mengira transaksi dengan perusahaan asing selalu PPh 23",
+            "benar": "Kalau perusahaan asing itu tidak punya BUT, yang berlaku PPh 26",
+            "tips": "Selalu tanyakan status BUT dari lawan transaksi luar negeri"
+          }
+        ],
+        "istilah": [
+          {
+            "kata": "Penyelenggara Kegiatan",
+            "definisi": "Pihak (biasanya panitia atau EO) yang menyelenggarakan suatu acara dan membayarkan hadiah/penghasilan kepada pihak lain sehingga wajib memotong pajak.",
+            "contoh": "Panitia lomba lari yang bayar hadiah ke pemenang berbadan usaha wajib motong PPh 23."
+          },
+          {
+            "kata": "PPh Pasal 26",
+            "definisi": "Pajak yang dipotong atas penghasilan yang dibayarkan kepada Wajib Pajak Luar Negeri yang tidak memiliki BUT di Indonesia.",
+            "contoh": "Pembayaran royalti ke perusahaan software Amerika tanpa BUT dikenai PPh 26, bukan PPh 23."
+          },
+          {
+            "kata": "Ditunjuk sebagai Pemotong",
+            "definisi": "Status resmi yang diberikan Kepala KPP kepada Orang Pribadi tertentu sehingga wajib memotong pajak atas pembayaran yang dilakukannya.",
+            "contoh": "Mas Andi ditunjuk KPP jadi pemotong pajak karena praktik notarisnya."
+          }
+        ]
+      },
+      {
+        "id": "bag-03",
+        "judul": "Kelompok Tarif 15% dari Jumlah Bruto",
+        "paragraf": [
+          "Nah, ini bagian penting: PPh 23 itu punya dua 'kasta' tarif, dan yang pertama adalah tarif 15% dari jumlah bruto. Jumlah bruto di sini artinya nilai penghasilan sebelum dipotong apa-apa, alias angka mentah di kontrak/invoice. Objek yang kena tarif 15% ini ada empat: dividen, bunga (termasuk diskonto dan premium jaminan utang), royalti, dan hadiah/penghargaan yang penerimanya bukan Orang Pribadi (soalnya kalau OP, itu udah masuk ranah PPh 21).",
+          "Kenapa tarifnya lebih tinggi dibanding kelompok jasa? Soalnya penghasilan dari modal kayak dividen dan bunga ini dianggap 'penghasilan pasif' yang nggak butuh banyak biaya operasional buat dihasilkan — beda sama jasa yang butuh biaya tenaga kerja, alat, bahan, dsb. Makanya pemerintah kasih tarif lebih tinggi buat penghasilan pasif ini.",
+          "Penting dicatat: tarif 15% ini dikenakan atas jumlah bruto, bukan neto. Jadi nggak ada pengurangan biaya apapun sebelum dikalikan tarif. Ini beda banget sama PPh Badan yang dihitung dari laba bersih setelah dikurangi biaya-biaya."
+        ],
+        "poin_penting": [
+          "💰 Tarif 15% berlaku untuk: dividen, bunga, royalti, hadiah non-OP",
+          "📌 Dihitung dari jumlah bruto, bukan neto (tanpa pengurangan biaya)",
+          "🔑 Dasar hukum: Pasal 23 ayat 1 huruf a UU PPh jo. UU HPP",
+          "⚠️ Hadiah ke Orang Pribadi masuk PPh 21, bukan PPh 23"
+        ],
+        "analogi": "Gampangnya gini: penghasilan dari modal itu kayak 'uang yang kerja sendiri' buat kamu — kamu tinggal nunggu hasil tanpa keluar banyak keringat. Makanya dianggap wajar kalau porsi yang dipotong pajaknya lebih gede dibanding penghasilan dari jasa yang butuh usaha ekstra.",
+        "contoh_kasus": {
+          "judul": "Kasus PT Sinar Abadi Terima Bunga Deposito Antar Perusahaan",
+          "cerita": "PT Sinar Abadi meminjamkan dana ke PT Kencana dan menerima bunga pinjaman sebesar Rp30 juta dalam setahun. PT Kencana sebagai pembayar bunga wajib memotong PPh 23 sebesar 15%.",
+          "poin": [
+            "PPh 23 yang dipotong: 15% x Rp30.000.000 = Rp4.500.000",
+            "PT Sinar Abadi hanya menerima Rp25.500.000 secara tunai, sisanya jadi kredit pajak"
+          ]
+        },
+        "diagram_mermaid": [
+          "graph LR\n    A[\"Objek PPh Pasal 23\"] --> B[\"Kelompok Tarif 15%\"]\n    A --> C[\"Kelompok Tarif 2%\"]\n    B --> B1[\"Dividen\"]\n    B --> B2[\"Bunga & Diskonto\"]\n    B --> B3[\"Royalti\"]\n    B --> B4[\"Hadiah Non-OP\"]\n    C --> C1[\"Sewa Non-Tanah/Bangunan\"]\n    C --> C2[\"Jasa Teknik, Manajemen, Konstruksi, Konsultan\"]\n    C --> C3[\"62 Jasa Lainnya (PMK 141/2015)\"]"
+        ],
+        "penjelasan_diagram": "Diagram ini membagi seluruh objek PPh Pasal 23 menjadi dua kelompok besar berdasarkan tarifnya, biar kamu langsung kebayang mana yang masuk 15% dan mana yang masuk 2%.",
+        "prompt_gambar": [],
+        "kalkulator": {
+          "tipe": "pph23",
+          "judul": "Kalkulator PPh 23 Tarif 15%",
+          "keterangan": "Masukkan jumlah bruto dividen, bunga, royalti, atau hadiah non-OP untuk menghitung PPh 23 yang dipotong dengan tarif 15%."
+        },
+        "mini_kuis": [
+          {
+            "id": "q1",
+            "pertanyaan": "Berapa tarif PPh 23 atas royalti?",
+            "tipe": "pilihan_ganda",
+            "pilihan": [
+              "A. 2%",
+              "B. 5%",
+              "C. 15%",
+              "D. 22%"
+            ],
+            "jawaban": "C",
+            "pembahasan": "Royalti masuk kelompok objek yang dikenai tarif 15% dari jumlah bruto, sama seperti dividen, bunga, dan hadiah non-OP."
+          },
+          {
+            "id": "q2",
+            "pertanyaan": "Tarif 15% dihitung dari jumlah bruto setelah dikurangi biaya operasional.",
+            "tipe": "benar_salah",
+            "pilihan": [
+              "Benar",
+              "Salah"
+            ],
+            "jawaban": "Salah",
+            "pembahasan": "Salah, tarif 15% dikenakan langsung atas jumlah bruto tanpa pengurangan biaya apapun, berbeda dengan perhitungan PPh Badan yang berbasis laba neto."
+          }
+        ],
+        "kesalahan_umum": [
+          {
+            "salah": "Menghitung PPh 23 dividen dari laba neto perusahaan",
+            "benar": "PPh 23 dihitung dari jumlah dividen yang dibagikan, bukan dari laba bersih perusahaan",
+            "tips": "Selalu cek nominal yang tertulis di risalah RUPS pembagian dividen"
+          },
+          {
+            "salah": "Mengira hadiah ke Orang Pribadi tetap kena PPh 23",
+            "benar": "Hadiah yang diterima Orang Pribadi masuk objek PPh Pasal 21, bukan PPh 23",
+            "tips": "Cek status penerima hadiah: badan usaha atau perorangan"
+          }
+        ],
+        "istilah": [
+          {
+            "kata": "Jumlah Bruto",
+            "definisi": "Nilai penghasilan sebelum dikurangi biaya apapun, yang menjadi dasar pengenaan PPh Pasal 23.",
+            "contoh": "Bunga pinjaman Rp30 juta adalah jumlah bruto yang langsung dikalikan tarif 15%."
+          },
+          {
+            "kata": "Diskonto",
+            "definisi": "Selisih antara nilai nominal surat utang dengan harga jual/beli-nya, diperlakukan sebagai bunga untuk keperluan pajak.",
+            "contoh": "Diskonto obligasi yang dijual di bawah harga nominal tetap kena PPh 23 15%."
+          },
+          {
+            "kata": "Dividen",
+            "definisi": "Bagian laba perusahaan yang dibagikan kepada pemegang saham sesuai proporsi kepemilikan sahamnya.",
+            "contoh": "PT Sinar Abadi menerima dividen dari anak perusahaannya sebesar Rp30 juta."
+          }
+        ]
+      },
+      {
+        "id": "bag-04",
+        "judul": "Kelompok Tarif 2% dari Jumlah Bruto",
+        "paragraf": [
+          "Kasta kedua tarif PPh 23 adalah 2% dari jumlah bruto, yang berlaku buat objek yang lebih 'aktif' sifatnya: sewa harta selain tanah dan bangunan, jasa teknik, jasa manajemen, jasa konstruksi, jasa konsultan, dan 62 jenis jasa lainnya yang diatur di PMK 141/2015. Kenapa tarifnya jauh lebih rendah dari kelompok 15%? Karena penghasilan jenis ini butuh biaya operasional gede — tenaga kerja, alat, bahan baku — jadi pemerintah kasih tarif lebih ringan biar nggak terlalu memberatkan pelaku usaha jasa.",
+          "Penting banget dicatat: sewa tanah dan bangunan itu BUKAN objek PPh 23, melainkan objek PPh Pasal 4 ayat (2) yang bersifat final dengan tarif 10%. Jadi kalau kamu sewa gedung kantor, itu beda skema. Tapi kalau sewa mobil, alat berat, mesin pabrik, atau perlengkapan event, itu baru masuk PPh 23 tarif 2%.",
+          "Sama seperti kelompok 15%, tarif 2% ini juga dihitung dari jumlah bruto (nilai kontrak/invoice sebelum PPN), bukan neto. Kalau kamu nagih jasa Rp50 juta plus PPN 11%, yang dipotong PPh 23-nya cuma dari nilai Rp50 juta itu aja, PPN-nya nggak ikut kena potong PPh 23."
+        ],
+        "poin_penting": [
+          "💰 Tarif 2% berlaku untuk sewa non-tanah/bangunan dan berbagai jenis jasa",
+          "📌 Sewa tanah & bangunan itu ranahnya PPh Final Pasal 4(2), bukan PPh 23",
+          "🔑 Dihitung dari nilai bruto sebelum PPN",
+          "⚠️ Tarif lebih rendah karena mempertimbangkan biaya operasional jasa"
+        ],
+        "analogi": "Ibaratnya tuh kayak tukang bangunan yang jasa dia butuh beli semen, pasir, upah tukang — banyak modal keluar dulu. Makanya potongan pajaknya lebih kecil dibanding orang yang cuma nunggu uang modal berbunga sendiri.",
+        "contoh_kasus": {
+          "judul": "Kasus Sewa Alat Berat Pak Joko",
+          "cerita": "Pak Joko punya usaha persewaan alat berat dan menyewakan excavator ke PT Bangun Sejahtera senilai Rp15 juta per bulan. PT Bangun Sejahtera wajib memotong PPh 23 tarif 2% dari nilai sewa itu.",
+          "poin": [
+            "PPh 23 yang dipotong: 2% x Rp15.000.000 = Rp300.000",
+            "Pak Joko menerima Rp14.700.000 tunai, sisanya jadi bukti potong sebagai kredit pajak"
+          ]
+        },
+        "diagram_mermaid": [],
+        "penjelasan_diagram": "",
+        "prompt_gambar": [],
+        "kalkulator": {
+          "tipe": "pph23",
+          "judul": "Kalkulator PPh 23 Tarif 2%",
+          "keterangan": "Masukkan jumlah bruto sewa harta non-tanah/bangunan atau jasa untuk menghitung PPh 23 yang dipotong dengan tarif 2%."
+        },
+        "mini_kuis": [
+          {
+            "id": "q1",
+            "pertanyaan": "Sewa tanah dan bangunan termasuk objek PPh Pasal 23.",
+            "tipe": "benar_salah",
+            "pilihan": [
+              "Benar",
+              "Salah"
+            ],
+            "jawaban": "Salah",
+            "pembahasan": "Salah, sewa tanah dan bangunan masuk objek PPh Final Pasal 4 ayat (2) dengan tarif 10%, bukan PPh Pasal 23."
+          },
+          {
+            "id": "q2",
+            "pertanyaan": "PPh 23 atas sewa excavator Rp15 juta dengan tarif 2% adalah?",
+            "tipe": "isian_singkat",
+            "pilihan": null,
+            "jawaban": "Rp300.000",
+            "pembahasan": "2% x Rp15.000.000 = Rp300.000. Perhitungan ini dilakukan dari nilai bruto sewa sebelum ditambah PPN."
+          }
+        ],
+        "kesalahan_umum": [
+          {
+            "salah": "Memotong PPh 23 atas sewa gedung kantor",
+            "benar": "Sewa tanah/bangunan dikenai PPh Final Pasal 4(2) 10%, bukan PPh 23",
+            "tips": "Cek jenis objek yang disewa sebelum menentukan skema pajaknya"
+          },
+          {
+            "salah": "Memotong PPh 23 dari nilai termasuk PPN",
+            "benar": "PPh 23 dihitung dari nilai jasa/sewa sebelum PPN ditambahkan",
+            "tips": "Pisahkan nilai DPP jasa dan PPN di invoice secara jelas"
+          }
+        ],
+        "istilah": [
+          {
+            "kata": "Jasa Teknik",
+            "definisi": "Pemberian informasi berkaitan dengan pengalaman di bidang industri, perdagangan, dan ilmu pengetahuan yang tidak bisa diberikan sendiri.",
+            "contoh": "Jasa instalasi mesin pabrik oleh teknisi ahli termasuk jasa teknik."
+          },
+          {
+            "kata": "PPh Final Pasal 4(2)",
+            "definisi": "Pajak yang bersifat final atas jenis penghasilan tertentu seperti sewa tanah/bangunan, dengan tarif dan perhitungan yang berdiri sendiri terpisah dari PPh 23.",
+            "contoh": "Sewa ruko dikenai PPh Final Pasal 4(2) sebesar 10% dari nilai sewa."
+          },
+          {
+            "kata": "DPP",
+            "definisi": "Dasar Pengenaan Pajak, yaitu nilai yang menjadi basis perhitungan sebelum dikalikan tarif pajak.",
+            "contoh": "DPP sewa excavator adalah Rp15 juta sebelum ditambah PPN."
+          }
+        ]
+      },
+      {
+        "id": "bag-05",
+        "judul": "Pemotongan PPh 23 atas Dividen",
+        "paragraf": [
+          "Dividen itu bagian laba perusahaan yang dibagikan ke pemegang saham. Nah, kalau dividen ini dibayarkan antar badan/perseroan di dalam negeri, itu kena PPh 23 tarif 15%, KECUALI kalau memenuhi syarat pengecualian yang diatur khusus — misalnya dividen yang diterima PT dengan kepemilikan saham minimal tertentu dari badan lain yang berkedudukan di Indonesia, sesuai ketentuan Pasal 4 ayat (3) huruf f UU PPh, itu justru dikecualikan dari objek pajak sama sekali, bukan cuma dari PPh 23.",
+          "Terus gimana kalau penerimanya Orang Pribadi? Nah ini beda cerita lagi — dividen yang diterima OP itu bukan objek PPh 23, melainkan PPh Final Pasal 4(2) dengan tarif 10%, KECUALI kalau dividen itu diinvestasikan kembali di Indonesia dalam jangka waktu tertentu, yang bisa bikin dividen tersebut dikecualikan dari pengenaan pajak berdasarkan ketentuan UU HPP soal investasi dividen.",
+          "Jadi inget ya, PPh 23 atas dividen tarif 15% itu KHUSUS buat dividen yang diterima Wajib Pajak Badan Dalam Negeri yang tidak memenuhi syarat pengecualian. Kalau penerimanya OP, jalurnya beda ke PPh Final 4(2)."
+        ],
+        "poin_penting": [
+          "💰 Dividen antar-badan kena PPh 23 tarif 15%, kecuali memenuhi syarat pengecualian",
+          "⚠️ Dividen ke Orang Pribadi masuk PPh Final Pasal 4(2), bukan PPh 23",
+          "✅ Dividen yang diinvestasikan kembali di Indonesia bisa dikecualikan dari pajak",
+          "🔑 Dasar hukum: Pasal 4 ayat 3 huruf f dan Pasal 23 UU PPh jo. UU HPP"
+        ],
+        "analogi": "Bayangin kamu punya warung bareng temen, terus untung dibagi rata. Nah, bagian untung yang kamu terima itu 'dividen'-nya. Kalau kamu Orang Pribadi, cara motong pajaknya beda sama kalau yang nerima untung itu perusahaan lain.",
+        "contoh_kasus": {
+          "judul": "Kasus Pembagian Dividen PT Kencana ke PT Abadi Jaya",
+          "cerita": "PT Kencana membagikan dividen ke pemegang sahamnya, PT Abadi Jaya, sebesar Rp80 juta. Karena kepemilikan saham PT Abadi Jaya tidak memenuhi syarat pengecualian, dividen ini kena PPh 23.",
+          "poin": [
+            "PPh 23 yang dipotong: 15% x Rp80.000.000 = Rp12.000.000",
+            "PT Abadi Jaya menerima dividen bersih Rp68.000.000 setelah dipotong pajak"
+          ]
+        },
+        "diagram_mermaid": [],
+        "penjelasan_diagram": "",
+        "prompt_gambar": [],
+        "kalkulator": {
+          "tipe": "pph23",
+          "judul": "Kalkulator PPh 23 atas Dividen",
+          "keterangan": "Masukkan nilai dividen yang dibagikan antar badan untuk menghitung PPh 23 tarif 15%."
+        },
+        "mini_kuis": [
+          {
+            "id": "q1",
+            "pertanyaan": "Dividen yang diterima Orang Pribadi dikenai skema pajak apa?",
+            "tipe": "pilihan_ganda",
+            "pilihan": [
+              "A. PPh Pasal 23 tarif 15%",
+              "B. PPh Pasal 21",
+              "C. PPh Final Pasal 4(2)",
+              "D. PPh Pasal 22"
+            ],
+            "jawaban": "C",
+            "pembahasan": "Dividen yang diterima Orang Pribadi masuk objek PPh Final Pasal 4(2), bukan PPh Pasal 23 yang khusus untuk penerima Badan."
+          },
+          {
+            "id": "q2",
+            "pertanyaan": "Semua dividen antar badan pasti kena PPh 23 tanpa pengecualian.",
+            "tipe": "benar_salah",
+            "pilihan": [
+              "Benar",
+              "Salah"
+            ],
+            "jawaban": "Salah",
+            "pembahasan": "Salah, ada pengecualian bagi dividen yang memenuhi syarat kepemilikan saham tertentu sesuai Pasal 4 ayat 3 huruf f UU PPh, yang membuatnya bukan objek pajak sama sekali."
+          }
+        ],
+        "kesalahan_umum": [
+          {
+            "salah": "Memotong PPh 23 atas dividen ke Orang Pribadi",
+            "benar": "Dividen ke OP masuk PPh Final Pasal 4(2), tarif dan mekanismenya berbeda",
+            "tips": "Selalu cek status penerima dividen sebelum menentukan skema pajaknya"
+          },
+          {
+            "salah": "Mengabaikan syarat pengecualian dividen antar badan",
+            "benar": "Cek dulu apakah memenuhi syarat kepemilikan saham untuk pengecualian sebelum memotong PPh 23",
+            "tips": "Konsultasikan dengan bagian pajak untuk verifikasi syarat pengecualian"
+          }
+        ],
+        "istilah": [
+          {
+            "kata": "Dividen Antar Badan",
+            "definisi": "Dividen yang dibayarkan oleh satu badan usaha kepada badan usaha lain sebagai pemegang sahamnya.",
+            "contoh": "PT Kencana membagikan dividen ke PT Abadi Jaya sebagai pemegang saham."
+          },
+          {
+            "kata": "Syarat Pengecualian Dividen",
+            "definisi": "Ketentuan dalam Pasal 4 ayat 3 huruf f UU PPh yang membebaskan dividen tertentu dari objek pajak penghasilan.",
+            "contoh": "Dividen yang diinvestasikan kembali di Indonesia bisa masuk syarat pengecualian ini."
+          },
+          {
+            "kata": "RUPS",
+            "definisi": "Rapat Umum Pemegang Saham, forum resmi di mana keputusan pembagian dividen ditetapkan.",
+            "contoh": "Nilai dividen Rp80 juta ditetapkan dalam RUPS PT Kencana."
+          }
+        ]
+      },
+      {
+        "id": "bag-06",
+        "judul": "Pemotongan PPh 23 atas Bunga Pinjaman",
+        "paragraf": [
+          "Bunga pinjaman itu penghasilan yang diterima kreditur (pihak yang meminjamkan uang) dari debitur (pihak yang pinjam). Ini kena PPh 23 tarif 15% dari jumlah bruto, dan yang termasuk kategori bunga bukan cuma bunga pinjaman biasa, tapi juga diskonto dan premium sebagai imbalan jaminan pengembalian utang. Jadi kalau ada perusahaan pinjam-meminjam dana antar grup usaha, itu wajib dipotong pajaknya.",
+          "Yang lagi hot banget sekarang adalah bunga dari platform P2P Lending alias pinjaman online berbasis teknologi finansial (fintech). Kalau kamu sebagai pemberi pinjaman (lender) di platform P2P Lending menerima bunga dari peminjam berbadan usaha, itu tetap kena PPh 23 tarif 15%, dan biasanya platform P2P Lending itu sendiri yang berperan sebagai pemotong pajaknya atas nama peminjam.",
+          "Perlu dicatat, bunga yang dibayarkan ke bank atau lembaga keuangan yang diawasi OJK itu DIKECUALIKAN dari pemotongan PPh 23 — ini bakal kita bahas lebih detail di bagian pengecualian nanti. Jadi bunga yang kena potong PPh 23 itu spesifik buat transaksi antar-perusahaan non-bank atau perorangan yang bukan lembaga keuangan resmi."
+        ],
+        "poin_penting": [
+          "💰 Bunga pinjaman antar perusahaan kena PPh 23 tarif 15%",
+          "📌 Termasuk diskonto dan premium jaminan pengembalian utang",
+          "🔥 Bunga dari P2P Lending juga kena PPh 23 dengan platform sebagai pemotong",
+          "⚠️ Bunga ke Bank/Lembaga Keuangan resmi DIKECUALIKAN dari PPh 23"
+        ],
+        "analogi": "Ibaratnya tuh kayak kamu minjemin duit ke temen, terus dia kasih 'uang terima kasih' tambahan pas balikin. Nah, uang tambahan itu ibarat bunga, dan kalau si temen ini badan usaha, dia wajib motong pajak dari uang terima kasih itu sebelum ngasih ke kamu.",
+        "contoh_kasus": {
+          "judul": "Kasus Dito Investasi di Platform P2P Lending",
+          "cerita": "Dito, seorang karyawan startup, menginvestasikan dananya di platform P2P Lending dan mendapat bunga sebesar Rp2 juta dari sebuah UMKM peminjam. Platform tersebut memotong PPh 23 atas bunga itu sebelum ditransfer ke Dito.",
+          "poin": [
+            "PPh 23 yang dipotong: 15% x Rp2.000.000 = Rp300.000",
+            "Dito menerima bunga bersih Rp1.700.000 setelah dipotong pajak oleh platform"
+          ]
+        },
+        "diagram_mermaid": [],
+        "penjelasan_diagram": "",
+        "prompt_gambar": [],
+        "kalkulator": {
+          "tipe": "pph23",
+          "judul": "Kalkulator PPh 23 atas Bunga",
+          "keterangan": "Masukkan jumlah bruto bunga pinjaman atau diskonto untuk menghitung PPh 23 tarif 15%."
+        },
+        "mini_kuis": [
+          {
+            "id": "q1",
+            "pertanyaan": "Bunga yang dibayarkan ke Bank yang diawasi OJK dikecualikan dari PPh 23.",
+            "tipe": "benar_salah",
+            "pilihan": [
+              "Benar",
+              "Salah"
+            ],
+            "jawaban": "Benar",
+            "pembahasan": "Benar, bunga yang dibayarkan kepada bank dan lembaga keuangan resmi memang dikecualikan dari pemotongan PPh Pasal 23."
+          },
+          {
+            "id": "q2",
+            "pertanyaan": "Siapa yang biasanya bertindak sebagai pemotong PPh 23 atas bunga di platform P2P Lending?",
+            "tipe": "pilihan_ganda",
+            "pilihan": [
+              "A. Pemberi pinjaman (lender)",
+              "B. Platform P2P Lending",
+              "C. OJK",
+              "D. Bank sentral"
+            ],
+            "jawaban": "B",
+            "pembahasan": "Platform P2P Lending umumnya berperan sebagai pemotong pajak atas nama peminjam sebelum bunga ditransfer ke pemberi pinjaman."
+          }
+        ],
+        "kesalahan_umum": [
+          {
+            "salah": "Memotong PPh 23 atas bunga tabungan di bank",
+            "benar": "Bunga dari bank/lembaga keuangan resmi dikecualikan dari PPh 23",
+            "tips": "Bedakan sumber bunga: dari bank (dikecualikan) atau dari perusahaan/perorangan (kena potong)"
+          },
+          {
+            "salah": "Mengabaikan kewajiban potong pajak atas bunga P2P Lending",
+            "benar": "Bunga P2P Lending tetap kena PPh 23 dan biasanya dipotong oleh platform",
+            "tips": "Cek kebijakan pemotongan pajak masing-masing platform fintech lending"
+          }
+        ],
+        "istilah": [
+          {
+            "kata": "Diskonto",
+            "definisi": "Selisih antara nilai jual dan nilai nominal instrumen utang, diperlakukan sebagai bunga untuk keperluan PPh 23.",
+            "contoh": "Diskonto obligasi korporasi termasuk objek PPh 23 tarif 15%."
+          },
+          {
+            "kata": "P2P Lending",
+            "definisi": "Layanan pinjam-meminjam uang berbasis teknologi finansial yang mempertemukan pemberi dan penerima pinjaman secara daring.",
+            "contoh": "Dito berinvestasi di platform P2P Lending dan menerima bunga dari UMKM peminjam."
+          },
+          {
+            "kata": "Kreditur",
+            "definisi": "Pihak yang memberikan pinjaman dan berhak menerima pembayaran bunga dari debitur.",
+            "contoh": "PT Sinar Abadi berperan sebagai kreditur saat meminjamkan dana ke PT Kencana."
+          }
+        ]
+      },
+      {
+        "id": "bag-07",
+        "judul": "Pemotongan PPh 23 atas Royalti",
+        "paragraf": [
+          "Royalti itu imbalan yang kamu terima karena orang lain make hak kekayaan intelektual milik kamu — bisa lisensi software, hak cipta lagu/buku, paten, merk dagang, rahasia dagang, sampai skema waralaba (franchise). Semua ini kena PPh 23 tarif 15% dari jumlah bruto, dan ini termasuk salah satu objek yang paling sering ketemu di era digital sekarang, apalagi banyak startup dan bisnis yang pake software berlisensi.",
+          "Contoh paling relevan: kalau perusahaan kamu langganan software akuntansi berbayar dari vendor lokal yang punya lisensi eksklusif, pembayaran lisensi itu bisa dikategorikan royalti dan kena PPh 23. Begitu juga kalau kamu buka usaha franchise makanan, fee bulanan yang dibayarkan ke pemilik merk itu masuk kategori royalti.",
+          "Penting dicatat, kalau royalti dibayarkan ke pihak luar negeri tanpa BUT, itu bukan PPh 23 lagi, melainkan PPh 26 dengan tarif dasar 20% (atau tarif sesuai tax treaty/P3B kalau ada). Jadi selalu cek dulu domisili penerima royalti sebelum nentuin skema pemotongannya."
+        ],
+        "poin_penting": [
+          "💰 Royalti software, hak cipta, paten, merk dagang, franchise kena PPh 23 tarif 15%",
+          "📌 Berlaku untuk penerima Dalam Negeri atau BUT",
+          "⚠️ Royalti ke luar negeri tanpa BUT masuk PPh 26, bukan PPh 23",
+          "🔑 Sering muncul di transaksi lisensi software dan waralaba"
+        ],
+        "analogi": "Bayangin kamu nulis lagu, terus radio-radio muter lagu kamu dan bayar 'uang pakai'. Nah, uang itu namanya royalti. Kalau yang bayar itu badan usaha di Indonesia, mereka wajib motong pajaknya duluan sebelum ngasih ke kamu.",
+        "contoh_kasus": {
+          "judul": "Kasus Pembayaran Royalti Software ke PT Teknologi Nusantara",
+          "cerita": "Startup GoFood-like bernama PT Digital Kuliner membayar lisensi penggunaan software point-of-sale eksklusif dari PT Teknologi Nusantara sebesar Rp100.000.000 untuk kontrak setahun. Karena ini termasuk royalti lisensi software, PT Digital Kuliner wajib memotong PPh 23.",
+          "poin": [
+            "PPh 23 yang dipotong: 15% x Rp100.000.000 = Rp15.000.000",
+            "PT Teknologi Nusantara menerima pembayaran bersih Rp85.000.000, dengan Rp15.000.000 sebagai kredit pajak lewat bukti potong"
+          ]
+        },
+        "diagram_mermaid": [],
+        "penjelasan_diagram": "",
+        "prompt_gambar": [],
+        "kalkulator": {
+          "tipe": "pph23",
+          "judul": "Kalkulator PPh 23 atas Royalti",
+          "keterangan": "Masukkan nilai royalti lisensi, hak cipta, atau franchise untuk menghitung PPh 23 tarif 15%."
+        },
+        "mini_kuis": [
+          {
+            "id": "q1",
+            "pertanyaan": "Berapa PPh 23 yang dipotong atas royalti software senilai Rp100.000.000?",
+            "tipe": "isian_singkat",
+            "pilihan": null,
+            "jawaban": "Rp15.000.000",
+            "pembahasan": "15% x Rp100.000.000 = Rp15.000.000, dihitung langsung dari jumlah bruto royalti tanpa pengurangan biaya apapun."
+          },
+          {
+            "id": "q2",
+            "pertanyaan": "Royalti yang dibayarkan ke perusahaan luar negeri tanpa BUT dikenai skema pajak apa?",
+            "tipe": "pilihan_ganda",
+            "pilihan": [
+              "A. PPh Pasal 23 tarif 15%",
+              "B. PPh Pasal 26",
+              "C. PPh Pasal 21",
+              "D. PPN 11%"
+            ],
+            "jawaban": "B",
+            "pembahasan": "Royalti ke luar negeri tanpa BUT masuk objek PPh Pasal 26 dengan tarif dasar 20% atau sesuai tax treaty, bukan PPh Pasal 23."
+          },
+          {
+            "id": "q3",
+            "pertanyaan": "Jelaskan kenapa fee bulanan waralaba (franchise) termasuk objek PPh 23!",
+            "tipe": "esai",
+            "pilihan": null,
+            "jawaban": "Fee waralaba termasuk royalti karena merupakan imbalan atas penggunaan hak kekayaan intelektual pemilik merk (merk dagang, sistem operasional, resep) oleh penerima waralaba. Karena royalti adalah objek PPh 23 tarif 15% dari jumlah bruto, maka fee waralaba yang dibayarkan penerima ke pemberi waralaba di dalam negeri wajib dipotong PPh 23 sebesar 15% sebelum ditransfer.",
+            "pembahasan": "Jawaban benar harus menyebut bahwa fee waralaba adalah imbalan penggunaan HAKI (royalti) dan karenanya kena PPh 23 tarif 15% dari jumlah bruto, dipotong oleh penerima waralaba sebagai pemotong."
+          }
+        ],
+        "kesalahan_umum": [
+          {
+            "salah": "Menganggap biaya langganan software selalu kena PPN saja tanpa PPh 23",
+            "benar": "Kalau termasuk lisensi eksklusif/royalti, tetap kena PPh 23 di samping PPN atas jasanya",
+            "tips": "Cek kontrak lisensi: apakah bersifat royalti atau sekadar jasa biasa"
+          },
+          {
+            "salah": "Memotong PPh 23 atas royalti ke vendor luar negeri tanpa BUT",
+            "benar": "Royalti ke luar negeri tanpa BUT masuk PPh 26 dengan tarif berbeda",
+            "tips": "Selalu verifikasi status BUT dan domisili penerima royalti"
+          }
+        ],
+        "istilah": [
+          {
+            "kata": "Royalti",
+            "definisi": "Imbalan atas penggunaan hak kekayaan intelektual seperti lisensi, hak cipta, paten, merk dagang, atau rahasia dagang.",
+            "contoh": "PT Digital Kuliner membayar royalti software Rp100 juta ke PT Teknologi Nusantara."
+          },
+          {
+            "kata": "Waralaba (Franchise)",
+            "definisi": "Sistem bisnis di mana pemilik merk memberikan hak penggunaan merk dan sistem operasional ke pihak lain dengan imbalan fee tertentu.",
+            "contoh": "Fee bulanan waralaba minuman kekinian termasuk objek royalti PPh 23."
+          },
+          {
+            "kata": "Tax Treaty (P3B)",
+            "definisi": "Perjanjian Penghindaran Pajak Berganda antar negara yang bisa mengatur tarif pajak lebih rendah dari tarif normal PPh 26.",
+            "contoh": "Royalti ke perusahaan Jepang bisa kena tarif P3B lebih rendah dari 20% kalau memenuhi syarat."
+          }
+        ]
+      },
+      {
+        "id": "bag-08",
+        "judul": "Pemotongan PPh 23 atas Sewa Harta (Non-Tanah/Bangunan)",
+        "paragraf": [
+          "Sewa harta selain tanah dan bangunan itu masuk kelompok tarif 2%, dan ini mencakup banyak banget jenis barang: sewa mobil operasional kantor, sewa alat berat kayak excavator atau crane, sewa mesin produksi pabrik, sampai sewa perlengkapan buat event kayak sound system, tenda, dan kursi. Intinya, kalau bukan tanah/bangunan, kemungkinan besar itu masuk objek PPh 23 tarif 2%.",
+          "Yang sering bikin bingung pemula adalah sewa kendaraan. Kalau perusahaan kamu nyewa mobil operasional dari rental mobil, itu jelas kena PPh 23 2%. Tapi kalau kamu naik taksi online atau ojek online buat perjalanan dinas, itu biasanya udah termasuk jasa transportasi umum yang perlakuannya beda dan biasanya nggak dipotong PPh 23 karena sifatnya jasa angkutan umum berulang dengan nominal kecil per transaksi.",
+          "Untuk perusahaan event organizer (EO), sewa perlengkapan kayak panggung, sound system, atau tenda dari vendor itu kena PPh 23 2% dari nilai sewa. Kalau paket yang ditagih sudah termasuk operator/teknisi, itu bisa jadi campuran antara sewa alat dan jasa, jadi harus dipisah komponennya biar perhitungan pajaknya akurat."
+        ],
+        "poin_penting": [
+          "💰 Sewa mobil, alat berat, mesin, perlengkapan event kena PPh 23 tarif 2%",
+          "📌 Sewa tanah/bangunan TIDAK masuk sini (itu PPh Final 4(2))",
+          "⚠️ Komponen sewa alat + jasa operator harus dipisah nilainya",
+          "🔑 Berlaku juga untuk sewa jangka pendek maupun jangka panjang"
+        ],
+        "analogi": "Ibaratnya tuh kayak kamu nyewa gaun pesta dari rental baju. Uang sewa yang kamu bayar itu, kalau si penyedia jasa rental itu badan usaha, sebagian uangnya dipotong dulu buat pajak sebelum masuk kantong mereka.",
+        "contoh_kasus": {
+          "judul": "Kasus Sewa Sound System untuk Acara PT Merdeka Event",
+          "cerita": "PT Merdeka Event Organizer menyewa sound system dan panggung dari CV Audio Prima senilai Rp25 juta untuk sebuah acara korporat. PT Merdeka wajib memotong PPh 23 tarif 2% dari nilai sewa tersebut.",
+          "poin": [
+            "PPh 23 yang dipotong: 2% x Rp25.000.000 = Rp500.000",
+            "CV Audio Prima menerima Rp24.500.000 tunai plus bukti potong sebagai kredit pajak"
+          ]
+        },
+        "diagram_mermaid": [],
+        "penjelasan_diagram": "",
+        "prompt_gambar": [],
+        "kalkulator": {
+          "tipe": "pph23",
+          "judul": "Kalkulator PPh 23 atas Sewa Harta",
+          "keterangan": "Masukkan nilai sewa harta selain tanah/bangunan untuk menghitung PPh 23 tarif 2%."
+        },
+        "mini_kuis": [
+          {
+            "id": "q1",
+            "pertanyaan": "Sewa panggung dan sound system untuk acara termasuk objek PPh 23 tarif berapa?",
+            "tipe": "pilihan_ganda",
+            "pilihan": [
+              "A. 0%",
+              "B. 2%",
+              "C. 10%",
+              "D. 15%"
+            ],
+            "jawaban": "B",
+            "pembahasan": "Sewa perlengkapan event seperti panggung dan sound system termasuk sewa harta non-tanah/bangunan yang kena PPh 23 tarif 2%."
+          },
+          {
+            "id": "q2",
+            "pertanyaan": "Sewa gedung kantor termasuk objek PPh 23.",
+            "tipe": "benar_salah",
+            "pilihan": [
+              "Benar",
+              "Salah"
+            ],
+            "jawaban": "Salah",
+            "pembahasan": "Salah, sewa gedung/bangunan masuk objek PPh Final Pasal 4 ayat (2), bukan PPh Pasal 23."
+          }
+        ],
+        "kesalahan_umum": [
+          {
+            "salah": "Menyamakan sewa mobil dengan jasa transportasi online biasa",
+            "benar": "Sewa mobil ke rental resmi kena PPh 23 2%, beda dengan jasa transportasi online per-trip",
+            "tips": "Cek jenis kontrak: sewa jangka waktu tertentu vs jasa angkutan sekali jalan"
+          },
+          {
+            "salah": "Tidak memisah komponen sewa alat dan jasa operator dalam tagihan EO",
+            "benar": "Pisahkan nilai sewa alat (2%) dan jasa operator/jasa lainnya agar perhitungan pajak akurat",
+            "tips": "Minta rincian invoice terpisah dari vendor EO"
+          }
+        ],
+        "istilah": [
+          {
+            "kata": "Sewa Harta Non-Tanah/Bangunan",
+            "definisi": "Penyewaan barang bergerak seperti kendaraan, alat berat, mesin, atau perlengkapan yang bukan berupa tanah atau bangunan.",
+            "contoh": "Sewa sound system untuk acara korporat termasuk kategori ini."
+          },
+          {
+            "kata": "Event Organizer (EO)",
+            "definisi": "Perusahaan penyedia jasa perencanaan dan pelaksanaan acara yang biasanya menyewa berbagai perlengkapan dari vendor lain.",
+            "contoh": "PT Merdeka Event Organizer menyewa sound system dari CV Audio Prima."
+          },
+          {
+            "kata": "Bukti Potong",
+            "definisi": "Dokumen resmi yang diterbitkan pemotong pajak sebagai bukti bahwa PPh 23 sudah dipotong dan disetorkan ke kas negara.",
+            "contoh": "CV Audio Prima menerima bukti potong PPh 23 dari PT Merdeka atas sewa sound system."
+          }
+        ]
+      },
+      {
+        "id": "bag-09",
+        "judul": "Jasa Teknik, Manajemen, Konstruksi, dan Konsultan",
+        "paragraf": [
+          "Empat jenis jasa ini sering ketuker-tuker pemahamannya, padahal beda-beda definisinya. Jasa teknik adalah pemberian informasi berkaitan dengan pengalaman di bidang teknis/industri yang nggak bisa dilakukan sendiri oleh penerima jasa — misal instalasi mesin pabrik oleh vendor spesialis. Jasa manajemen adalah pemberian jasa dengan ikut serta secara langsung dalam pelaksanaan manajemen — misalnya perusahaan konsultan yang bantu kelola operasional harian bisnis kamu.",
+          "Jasa konstruksi itu lebih spesifik lagi — sebenarnya jasa konstruksi punya aturan sendiri yang lebih dominan diatur PP tentang jasa konstruksi dengan tarif final tersendiri (2%-6% tergantung kualifikasi), tapi tetap terhubung dengan kerangka PPh 23 sebagai payung besar objek jasa. Sedangkan jasa konsultan adalah pemberian advice profesional berdasarkan keahlian tertentu — konsultan pajak, konsultan hukum, konsultan manajemen, dsb — dan ini murni PPh 23 tarif 2%.",
+          "Poin penting: keempat jenis jasa ini semuanya kena tarif 2% dari jumlah bruto (kecuali jasa konstruksi yang punya skema final tersendiri). Yang bikin ribet biasanya kalau satu kontrak mencampur beberapa jenis jasa sekaligus — misal proyek yang ada komponen jasa teknik plus jasa manajemen. Kalau nggak dipisah di invoice, DJP biasanya menganggap seluruh nilai kontrak kena tarif yang berlaku umum untuk jasa."
+        ],
+        "poin_penting": [
+          "🔧 Jasa Teknik: informasi teknis yang nggak bisa dilakukan sendiri",
+          "📊 Jasa Manajemen: keterlibatan langsung dalam pengelolaan bisnis",
+          "🏗️ Jasa Konstruksi: punya skema tarif final tersendiri (2%-6%)",
+          "🎯 Jasa Konsultan: advice profesional berdasarkan keahlian tertentu",
+          "⚠️ Kontrak campuran wajib dipisah komponennya biar perhitungan pajak akurat"
+        ],
+        "analogi": "Bayangin gini: jasa teknik itu kayak montir yang dateng benerin mesin sekali doang. Jasa manajemen itu kayak orang yang bener-bener ikut ngurusin toko kamu tiap hari. Beda peran, beda tanggung jawab, tapi sama-sama kena pajak jasa 2%.",
+        "contoh_kasus": {
+          "judul": "Kasus Jasa Manajemen PT Konsultan Bisnis Prima",
+          "cerita": "PT Startup Kreatif menggunakan jasa manajemen dari PT Konsultan Bisnis Prima untuk mengelola operasional harian senilai Rp30 juta per bulan. PT Startup Kreatif wajib memotong PPh 23 tarif 2% dari nilai jasa tersebut.",
+          "poin": [
+            "PPh 23 yang dipotong: 2% x Rp30.000.000 = Rp600.000",
+            "PT Konsultan Bisnis Prima menerima Rp29.400.000 tunai plus bukti potong"
+          ]
+        },
+        "diagram_mermaid": [
+          "flowchart TD\n    A[\"PT Startup Kreatif Terima Tagihan Jasa Manajemen\"] --> B{\"Objek PPh 23?\"}\n    B -->|\"Ya, Jasa Manajemen\"| C[\"Hitung Jumlah Bruto (Sebelum PPN)\"]\n    C --> D[\"Kalikan Tarif 2%\"]\n    D --> E[\"Buat Bukti Potong e-Bupot Coretax\"]\n    E --> F[\"Setor PPh 23 Maks Tanggal 10 Bulan Berikutnya\"]\n    F --> G[\"Lapor SPT Masa Unifikasi Maks Tanggal 20\"]\n    G --> H[\"Serahkan Bukti Potong ke Vendor Jasa\"]"
+        ],
+        "penjelasan_diagram": "Diagram ini menggambarkan alur lengkap pemotongan PPh 23 atas jasa manajemen, mulai dari identifikasi objek pajak sampai pelaporan dan penyerahan bukti potong ke vendor.",
+        "prompt_gambar": [],
+        "kalkulator": {
+          "tipe": "pph23",
+          "judul": "Kalkulator PPh 23 Jasa Teknik/Manajemen/Konsultan",
+          "keterangan": "Masukkan nilai bruto jasa teknik, manajemen, atau konsultan untuk menghitung PPh 23 tarif 2%."
+        },
+        "mini_kuis": [
+          {
+            "id": "q1",
+            "pertanyaan": "Jasa apa yang melibatkan keikutsertaan langsung dalam pengelolaan operasional bisnis?",
+            "tipe": "pilihan_ganda",
+            "pilihan": [
+              "A. Jasa Teknik",
+              "B. Jasa Manajemen",
+              "C. Jasa Konstruksi",
+              "D. Jasa Hukum"
+            ],
+            "jawaban": "B",
+            "pembahasan": "Jasa manajemen ditandai dengan keterlibatan langsung pihak penyedia jasa dalam pengelolaan operasional bisnis penerima jasa, berbeda dengan jasa teknik yang sifatnya pemberian informasi."
+          },
+          {
+            "id": "q2",
+            "pertanyaan": "Semua jenis jasa konstruksi otomatis dikenai tarif PPh 23 yang sama dengan jasa konsultan.",
+            "tipe": "benar_salah",
+            "pilihan": [
+              "Benar",
+              "Salah"
+            ],
+            "jawaban": "Salah",
+            "pembahasan": "Salah, jasa konstruksi punya skema tarif final tersendiri (2%-6% tergantung kualifikasi usaha) yang berbeda dari tarif umum PPh 23 jasa lainnya."
+          }
+        ],
+        "kesalahan_umum": [
+          {
+            "salah": "Mencampur nilai jasa teknik dan jasa manajemen dalam satu invoice tanpa rincian",
+            "benar": "Pisahkan komponen jasa agar perhitungan tarif PPh 23 tepat sesuai jenisnya",
+            "tips": "Minta vendor membuat rincian tagihan per jenis jasa"
+          },
+          {
+            "salah": "Menganggap jasa konstruksi selalu masuk tarif 2% PPh 23 biasa",
+            "benar": "Jasa konstruksi punya skema pajak final tersendiri yang perlu dicek terpisah",
+            "tips": "Konsultasikan dengan aturan PP jasa konstruksi terkini untuk memastikan tarif yang tepat"
+          }
+        ],
+        "istilah": [
+          {
+            "kata": "Jasa Manajemen",
+            "definisi": "Pemberian jasa dengan ikut serta secara langsung dalam pelaksanaan manajemen operasional suatu bisnis.",
+            "contoh": "PT Konsultan Bisnis Prima mengelola operasional harian PT Startup Kreatif."
+          },
+          {
+            "kata": "Jasa Konsultan",
+            "definisi": "Pemberian advice profesional berdasarkan keahlian tertentu seperti hukum, pajak, atau manajemen.",
+            "contoh": "Jasa konsultasi pajak dari akuntan publik termasuk jasa konsultan."
+          },
+          {
+            "kata": "e-Bupot Coretax",
+            "definisi": "Sistem elektronik pembuatan bukti potong unifikasi dalam platform Coretax DJP yang aktif penuh di 2026.",
+            "contoh": "PT Startup Kreatif membuat bukti potong PPh 23 lewat e-Bupot Coretax."
+          }
+        ]
+      },
+      {
+        "id": "bag-10",
+        "judul": "62 Jenis Jasa Lainnya (PMK 141/2015)",
+        "paragraf": [
+          "Selain jasa teknik, manajemen, konstruksi, dan konsultan, PMK 141/PMK.03/2015 juga merinci 62 jenis 'jasa lainnya' yang kena PPh 23 tarif 2%. Beberapa yang paling sering ketemu di kehidupan bisnis sehari-hari: jasa penilai (appraisal), jasa akuntan, jasa hukum, jasa perancang (desain grafis/interior), jasa IT termasuk hosting dan pembuatan website, jasa cleaning service, jasa event organizer, jasa logistik, jasa maklon (produksi titip), dan jasa pest control (pengendalian hama).",
+          "Yang penting dipahami pemula: daftar 62 jenis jasa ini sifatnya cukup luas, jadi kalau perusahaan kamu bayar jasa ke pihak ketiga dan jenisnya nggak masuk kelompok tarif 15% (dividen, bunga, royalti, hadiah non-OP), kemungkinan besar itu masuk salah satu dari 62 jasa ini dan kena tarif 2%. Makanya penting banget buat selalu cek daftar lengkap PMK 141/2015 kalau ragu jenis jasa yang kamu bayar.",
+          "Contoh konkret yang sering bikin bingung: jasa cleaning service dan jasa maintenance IT. Keduanya sama-sama masuk daftar 62 jasa lainnya dan kena PPh 23 tarif 2% dari jumlah bruto sebelum PPN, meskipun sifat pekerjaannya beda jauh — satu bersihin kantor, satu lagi maintenance server dan jaringan."
+        ],
+        "poin_penting": [
+          "📋 62 jenis jasa termasuk akuntan, hukum, IT, cleaning service, EO, logistik, maklon, pest control",
+          "💰 Semua kena tarif 2% dari jumlah bruto",
+          "🔑 Jadi 'jaring pengaman' untuk jasa yang tidak masuk kategori spesifik lain",
+          "⚠️ Wajib cek daftar lengkap PMK 141/2015 kalau ragu"
+        ],
+        "analogi": "Ibaratnya tuh kayak daftar menu warung yang panjang banget — mau jasa apa aja, dari benerin komputer sampe bersih-bersih kantor, hampir semua ada di 'menu' 62 jasa ini dan kena porsi potongan pajak yang sama, 2%.",
+        "contoh_kasus": {
+          "judul": "Kasus Tagihan Cleaning Service dan IT Maintenance PT Menara Digital",
+          "cerita": "PT Menara Digital menggunakan jasa cleaning service dari CV Bersih Sentosa dan jasa IT maintenance dari PT Solusi Jaringan, masing-masing dengan tagihan Rp50.000.000 ditambah PPN 11% sesuai ketentuan PPN untuk jasa non-mewah yang berlaku di 2026.",
+          "poin": [
+            "Nilai bruto jasa (sebelum PPN) tetap Rp50.000.000 per vendor, jadi dasar PPh 23-nya dari angka ini",
+            "PPh 23 yang dipotong masing-masing: 2% x Rp50.000.000 = Rp1.000.000",
+            "PPN yang ditambahkan: 11% x Rp50.000.000 = Rp5.500.000, sehingga total tagihan jadi Rp55.500.000, dan yang ditransfer ke vendor adalah Rp55.500.000 dikurangi Rp1.000.000 PPh 23 = Rp54.500.000"
+          ]
+        },
+        "diagram_mermaid": [],
+        "penjelasan_diagram": "",
+        "prompt_gambar": [
+          {
+            "id": "img-02",
+            "prompt": "An ultra modern 3D isometric stylized studio render, landscape 16:9 format, showing a side-by-side comparison of two service categories under Indonesian withholding tax. Deep dark navy background gradient mesh #0F172A to #1E1B4B with cinematic ambient 3D lighting. Left side: a stylized 3D cleaning service icon with a glowing mop and bucket on a floating platform. Right side: a stylized 3D IT server rack with glowing blue circuit lines being maintained by a small 3D technician figure. Between them, a glowing calculator widget floating with percentage symbols. Include short, clean, perfectly spelled modern Indonesian text labels near each platform such as 'Jasa Cleaning Service' and 'Jasa IT Maintenance', plus a small floating label 'PPh 23: 2%'. Color palette: electric blue #3B82F6, emerald green #10B981, warm gold #F59E0B accents, crisp premium tech-education infographic aesthetic with soft reflections and depth of field.",
+            "keterangan": "Perbandingan visual dua jenis jasa yang termasuk daftar 62 jasa lainnya dalam PMK 141/2015, yaitu jasa cleaning service dan jasa IT maintenance, yang sama-sama dikenai PPh 23 tarif 2% dari jumlah bruto.",
+            "alt": "Ilustrasi 3D perbandingan jasa cleaning service dan jasa IT maintenance dengan label tarif PPh 23 2%",
+            "url_gambar": null
+          }
+        ],
+        "kalkulator": {
+          "tipe": "pph23",
+          "judul": "Kalkulator PPh 23 Jasa Lainnya",
+          "keterangan": "Masukkan nilai bruto salah satu dari 62 jenis jasa lainnya (cleaning service, IT, akuntan, dll) untuk menghitung PPh 23 tarif 2%."
+        },
+        "mini_kuis": [
+          {
+            "id": "q1",
+            "pertanyaan": "Berapa total PPh 23 yang dipotong dari tagihan cleaning service Rp50 juta (tarif 2%)?",
+            "tipe": "isian_singkat",
+            "pilihan": null,
+            "jawaban": "Rp1.000.000",
+            "pembahasan": "2% x Rp50.000.000 = Rp1.000.000, dihitung dari nilai bruto jasa sebelum PPN ditambahkan."
+          },
+          {
+            "id": "q2",
+            "pertanyaan": "PPN yang berlaku untuk jasa cleaning service dan IT maintenance (non-mewah) di 2026 adalah 12%.",
+            "tipe": "benar_salah",
+            "pilihan": [
+              "Benar",
+              "Salah"
+            ],
+            "jawaban": "Salah",
+            "pembahasan": "Salah, tarif PPN untuk jasa non-mewah termasuk cleaning service dan IT maintenance tetap 11% sesuai PMK 131/2024, sementara tarif 12% hanya berlaku untuk barang/jasa kategori mewah."
+          }
+        ],
+        "kesalahan_umum": [
+          {
+            "salah": "Mengira jasa cleaning service tidak masuk objek PPh 23 karena dianggap jasa 'kecil'",
+            "benar": "Jasa cleaning service tetap masuk daftar 62 jasa lainnya dan kena PPh 23 2% berapapun nilainya",
+            "tips": "Cek daftar lengkap 62 jasa di lampiran PMK 141/2015 sebelum menyimpulkan"
+          },
+          {
+            "salah": "Menghitung PPh 23 dari nilai tagihan termasuk PPN",
+            "benar": "PPh 23 dihitung dari nilai jasa sebelum PPN ditambahkan (jumlah bruto jasa)",
+            "tips": "Selalu pisahkan komponen DPP jasa dan PPN di invoice"
+          }
+        ],
+        "istilah": [
+          {
+            "kata": "Jasa Maklon",
+            "definisi": "Jasa produksi barang di mana spesifikasi, bahan baku, dan desain disediakan oleh pemberi jasa (pemilik brand), sedangkan penerima jasa hanya melakukan proses produksinya.",
+            "contoh": "Brand fashion lokal menggunakan jasa maklon pabrik garmen untuk produksi baju mereka."
+          },
+          {
+            "kata": "Jasa Pest Control",
+            "definisi": "Jasa pengendalian dan pemberantasan hama seperti rayap, tikus, atau serangga di suatu properti atau usaha.",
+            "contoh": "Restoran menggunakan jasa pest control bulanan untuk menjaga kebersihan dapur."
+          },
+          {
+            "kata": "Jasa Penilai (Appraisal)",
+            "definisi": "Jasa penilaian nilai aset seperti properti, mesin, atau kendaraan oleh penilai profesional bersertifikat.",
+            "contoh": "Bank menggunakan jasa penilai untuk menaksir nilai agunan kredit nasabah."
+          }
+        ]
+      },
+      {
+        "id": "bag-11",
+        "judul": "Ketentuan Jumlah Bruto dan Reimbursement",
+        "paragraf": [
+          "Jumlah bruto itu dasar perhitungan PPh 23, tapi ada satu celah penting yang sering disalahpahami: reimbursement alias penggantian biaya. Kalau kamu sebagai penyedia jasa udah keluar duit dulu buat bayar biaya pihak ketiga atas nama klien (misal beli tiket pesawat, bayar hotel, beli material proyek), dan biaya itu ditagih ulang ke klien dengan bukti/nota asli yang jelas, maka nilai reimbursement itu TIDAK termasuk jumlah bruto yang kena PPh 23.",
+          "Tapi ada syaratnya, nggak asal klaim reimbursement gitu aja. Nota atau kuitansi asli pihak ketiga harus atas nama klien (bukan atas nama penyedia jasa), dan harus dilampirkan secara rinci sebagai bukti pendukung tagihan. Kalau cuma disebut 'biaya lain-lain' tanpa rincian jelas, DJP bisa aja menganggap seluruh nilai tagihan (termasuk yang harusnya reimbursement) sebagai jumlah bruto yang kena PPh 23.",
+          "Contoh gampangnya: konsultan pajak yang ngurus perjalanan dinas ke klien di luar kota, terus beli tiket pesawat Rp2 juta atas nama klien dan minta reimburse. Kalau tiketnya jelas atas nama perusahaan klien dan dilampirkan, Rp2 juta itu nggak kena potong PPh 23. Tapi honor jasa konsultannya sendiri tetap kena PPh 23 seperti biasa."
+        ],
+        "poin_penting": [
+          "💡 Reimbursement dengan nota atas nama klien TIDAK kena PPh 23",
+          "📌 Syarat: bukti/nota asli pihak ketiga harus rinci dan atas nama klien",
+          "⚠️ Kalau nggak rinci, seluruh nilai tagihan bisa dianggap jumlah bruto",
+          "🔑 Honor jasa tetap kena PPh 23 terpisah dari komponen reimbursement"
+        ],
+        "analogi": "Bayangin kamu dititipin duit temen buat beliin barang, terus kamu nagih balik sesuai struk asli. Uang titipan itu bukan penghasilan kamu, jadi wajar nggak kena pajak penghasilan kamu. Tapi kalau kamu nagih 'jasa nitip beli' plus keuntungan, nah itu baru penghasilan kamu yang kena pajak.",
+        "contoh_kasus": {
+          "judul": "Kasus Reimbursement Tiket Pesawat Konsultan Mbak Rina",
+          "cerita": "Mbak Rina, konsultan pajak lepas, ditugaskan ke klien di Surabaya. Dia beli tiket pesawat Rp2 juta atas nama PT Klien Utama dan menagih ulang bersamaan dengan honor jasanya sebesar Rp10 juta.",
+          "poin": [
+            "PPh 23 hanya dipotong dari honor jasa Rp10 juta (2% x Rp10.000.000 = Rp200.000)",
+            "Reimbursement tiket Rp2 juta tidak kena PPh 23 karena ada nota asli atas nama PT Klien Utama"
+          ]
+        },
+        "diagram_mermaid": [],
+        "penjelasan_diagram": "",
+        "prompt_gambar": [],
+        "kalkulator": null,
+        "mini_kuis": [
+          {
+            "id": "q1",
+            "pertanyaan": "Reimbursement biaya pihak ketiga otomatis kena PPh 23 sama seperti honor jasa.",
+            "tipe": "benar_salah",
+            "pilihan": [
+              "Benar",
+              "Salah"
+            ],
+            "jawaban": "Salah",
+            "pembahasan": "Salah, reimbursement dengan nota asli atas nama klien yang dirinci jelas tidak termasuk jumlah bruto yang kena PPh 23, berbeda dari honor jasa yang tetap dipotong."
+          },
+          {
+            "id": "q2",
+            "pertanyaan": "Apa syarat utama agar reimbursement tidak dianggap jumlah bruto kena PPh 23?",
+            "tipe": "pilihan_ganda",
+            "pilihan": [
+              "A. Nilainya di bawah Rp1 juta",
+              "B. Nota asli rinci dan atas nama klien",
+              "C. Dibayar tunai",
+              "D. Disetujui secara lisan oleh klien"
+            ],
+            "jawaban": "B",
+            "pembahasan": "Syarat utamanya adalah adanya nota/kuitansi asli pihak ketiga yang rinci dan atas nama klien, bukan atas nama penyedia jasa."
+          }
+        ],
+        "kesalahan_umum": [
+          {
+            "salah": "Menagih reimbursement dengan keterangan 'biaya lain-lain' tanpa rincian",
+            "benar": "Lampirkan nota asli rinci atas nama klien agar tidak dianggap jumlah bruto kena PPh 23",
+            "tips": "Selalu minta dan simpan nota asli setiap pengeluaran yang akan direimburse"
+          },
+          {
+            "salah": "Menganggap semua reimbursement otomatis bebas PPh 23 tanpa syarat",
+            "benar": "Reimbursement bebas PPh 23 hanya jika memenuhi syarat rincian dan nama penerima yang jelas",
+            "tips": "Konsultasikan format invoice reimbursement dengan bagian pajak perusahaan"
+          }
+        ],
+        "istilah": [
+          {
+            "kata": "Reimbursement",
+            "definisi": "Penggantian biaya yang telah dikeluarkan lebih dulu oleh suatu pihak atas nama pihak lain, dan ditagih kembali berdasarkan bukti pengeluaran asli.",
+            "contoh": "Mbak Rina menagih reimbursement tiket pesawat Rp2 juta ke PT Klien Utama."
+          },
+          {
+            "kata": "Nota Pihak Ketiga",
+            "definisi": "Bukti pengeluaran resmi dari vendor/penyedia barang atau jasa yang menjadi dasar klaim reimbursement.",
+            "contoh": "Tiket pesawat atas nama PT Klien Utama menjadi nota pihak ketiga yang sah untuk reimbursement."
+          },
+          {
+            "kata": "Honor Jasa",
+            "definisi": "Imbalan murni atas jasa yang diberikan, terpisah dari komponen reimbursement biaya pihak ketiga.",
+            "contoh": "Honor jasa Mbak Rina sebesar Rp10 juta tetap kena PPh 23 tarif 2%."
+          }
+        ]
+      },
+      {
+        "id": "bag-12",
+        "judul": "Syarat Tagihan Perusahaan Outsourcing Tenaga Kerja",
+        "paragraf": [
+          "Perusahaan outsourcing (penyalur tenaga kerja) itu unik banget dalam konteks PPh 23, karena tagihan mereka biasanya mencampur dua komponen: gaji/upah karyawan outsourcing yang mereka salurkan, dan fee/imbalan jasa manajemen outsourcing itu sendiri. Nah, aturan DJP tegas: kalau kedua komponen ini nggak dipisah dengan jelas di kontrak dan invoice, maka SELURUH nilai tagihan dianggap jumlah bruto jasa manajemen dan kena PPh 23 tarif 2% penuh.",
+          "Tapi kalau perusahaan outsourcing bisa merinci dengan jelas mana bagian gaji karyawan (yang sifatnya pass-through, cuma numpang lewat rekening perusahaan outsourcing) dan mana bagian fee jasa manajemen mereka, maka PPh 23 tarif 2% cuma dikenakan atas komponen fee jasa manajemennya aja, bukan atas total gaji karyawan yang disalurkan.",
+          "Ini penting banget buat perusahaan yang pake jasa outsourcing cleaning service, security, atau customer service. Kalau invoice dari vendor outsourcing cuma nulis 'Jasa Penyediaan Tenaga Kerja Rp100 juta' tanpa rincian gaji vs fee, ya PPh 23-nya dihitung dari Rp100 juta penuh. Padahal kalau dirinci, misal gaji karyawan Rp85 juta dan fee manajemen Rp15 juta, PPh 23 cuma dari Rp15 juta doang."
+        ],
+        "poin_penting": [
+          "📋 Tagihan outsourcing wajib pisah komponen gaji karyawan vs fee manajemen",
+          "⚠️ Kalau tidak dipisah, SELURUH nilai tagihan kena PPh 23 2%",
+          "✅ Kalau dipisah jelas, PPh 23 hanya dari komponen fee manajemen",
+          "🔑 Penting untuk perusahaan yang pakai jasa cleaning service, security, dll"
+        ],
+        "analogi": "Ibaratnya tuh kayak kamu titip duit ke temen buat dibagiin ke beberapa orang lain, plus dia minta upah jasa nganter duitnya. Kalau dia catet rapi mana duit titipan mana upah dia, yang kena 'potongan' cuma bagian upahnya aja. Tapi kalau digabung jadi satu angka gede tanpa rincian, ya semua dianggap penghasilan dia.",
+        "contoh_kasus": {
+          "judul": "Kasus Invoice Outsourcing Security PT Aman Sentosa",
+          "cerita": "PT Retail Nusantara menggunakan jasa outsourcing security dari PT Aman Sentosa dengan total tagihan Rp100 juta per bulan, terdiri dari Rp85 juta gaji petugas security dan Rp15 juta fee manajemen, yang dirinci jelas di invoice.",
+          "poin": [
+            "Karena dirinci jelas, PPh 23 hanya dipotong dari Rp15 juta fee manajemen: 2% x Rp15.000.000 = Rp300.000",
+            "Kalau tidak dirinci, PPh 23 yang dipotong akan jadi 2% x Rp100.000.000 = Rp2.000.000, jauh lebih besar"
+          ]
+        },
+        "diagram_mermaid": [],
+        "penjelasan_diagram": "",
+        "prompt_gambar": [],
+        "kalkulator": {
+          "tipe": "pph23",
+          "judul": "Kalkulator PPh 23 Fee Manajemen Outsourcing",
+          "keterangan": "Masukkan nilai fee manajemen outsourcing (bukan gaji karyawan) untuk menghitung PPh 23 tarif 2%."
+        },
+        "mini_kuis": [
+          {
+            "id": "q1",
+            "pertanyaan": "Kalau invoice outsourcing tidak merinci gaji karyawan dan fee manajemen, bagaimana PPh 23 dihitung?",
+            "tipe": "pilihan_ganda",
+            "pilihan": [
+              "A. Hanya dari komponen fee saja",
+              "B. Dari seluruh nilai tagihan",
+              "C. Tidak kena PPh 23 sama sekali",
+              "D. Dihitung berdasarkan estimasi 50:50"
+            ],
+            "jawaban": "B",
+            "pembahasan": "Kalau tidak dirinci, DJP menganggap seluruh nilai tagihan sebagai jumlah bruto jasa manajemen sehingga PPh 23 dihitung dari total nilai tagihan tersebut."
+          },
+          {
+            "id": "q2",
+            "pertanyaan": "Rincian gaji karyawan vs fee manajemen membantu mengurangi dasar pengenaan PPh 23.",
+            "tipe": "benar_salah",
+            "pilihan": [
+              "Benar",
+              "Salah"
+            ],
+            "jawaban": "Benar",
+            "pembahasan": "Benar, dengan rincian yang jelas, PPh 23 hanya dikenakan atas komponen fee manajemen, bukan atas keseluruhan nilai tagihan termasuk gaji karyawan."
+          }
+        ],
+        "kesalahan_umum": [
+          {
+            "salah": "Menagih jasa outsourcing dengan satu angka gabungan tanpa rincian",
+            "benar": "Pisahkan komponen gaji karyawan dan fee manajemen secara eksplisit di invoice",
+            "tips": "Minta vendor outsourcing membuat lampiran rincian perhitungan gaji vs fee"
+          },
+          {
+            "salah": "Mengira gaji karyawan outsourcing bebas pajak sepenuhnya",
+            "benar": "Gaji karyawan tetap kena PPh 21 di level karyawan yang bersangkutan, terpisah dari PPh 23 fee manajemen",
+            "tips": "Pastikan vendor outsourcing juga memotong PPh 21 karyawannya sendiri"
+          }
+        ],
+        "istilah": [
+          {
+            "kata": "Fee Manajemen Outsourcing",
+            "definisi": "Imbalan yang diterima perusahaan outsourcing atas jasa pengelolaan dan penyediaan tenaga kerja, terpisah dari gaji karyawan yang disalurkan.",
+            "contoh": "PT Aman Sentosa menerima fee manajemen Rp15 juta dari total tagihan Rp100 juta."
+          },
+          {
+            "kata": "Pass-Through",
+            "definisi": "Dana yang hanya 'numpang lewat' rekening suatu pihak untuk diteruskan ke pihak lain, tanpa menjadi penghasilan pihak yang menyalurkan.",
+            "contoh": "Gaji karyawan security yang disalurkan lewat PT Aman Sentosa bersifat pass-through."
+          },
+          {
+            "kata": "Perusahaan Outsourcing",
+            "definisi": "Perusahaan penyedia dan penyalur tenaga kerja untuk berbagai posisi seperti security, cleaning service, atau customer service.",
+            "contoh": "PT Aman Sentosa adalah perusahaan outsourcing yang menyediakan petugas security."
+          }
+        ]
+      },
+      {
+        "id": "bag-13",
+        "judul": "Pengecualian dari Pemotongan PPh Pasal 23",
+        "paragraf": [
+          "Nggak semua penghasilan yang keliatannya masuk kategori PPh 23 itu otomatis kena potong. Ada beberapa pengecualian resmi yang diatur undang-undang. Pertama, penghasilan yang dibayarkan ke Bank atau lembaga keuangan yang diawasi OJK — ini dikecualikan karena bank punya skema pajak sendiri yang lebih kompleks dan diawasi ketat.",
+          "Kedua, sewa yang dibayarkan sehubungan dengan Financial Lease alias sewa guna usaha dengan hak opsi — kalau perusahaan leasing kamu itu berbentuk financial lease resmi, pembayaran sewa/cicilannya dikecualikan dari PPh 23. Ketiga, Sisa Hasil Usaha (SHU) yang dibagikan koperasi kepada anggotanya juga dikecualikan, karena SHU koperasi punya perlakuan pajak khusus yang berbeda dari dividen biasa.",
+          "Keempat, bagian laba yang diterima anggota dari perseroan komanditer (CV) yang modalnya tidak terbagi atas saham juga dikecualikan dari PPh 23. Ini penting buat pemilik CV supaya nggak salah kaprah menyamakan bagian laba CV dengan dividen PT yang kena PPh 23. Semua pengecualian ini punya dasar hukum spesifik di Pasal 23 ayat 4 UU PPh, jadi selalu cek referensi pastinya kalau ragu."
+        ],
+        "poin_penting": [
+          "🏦 Penghasilan ke Bank/Lembaga Keuangan resmi dikecualikan",
+          "🚗 Sewa Financial Lease (sewa guna usaha dengan hak opsi) dikecualikan",
+          "🤝 SHU Koperasi ke anggota dikecualikan",
+          "📌 Bagian laba anggota CV non-saham juga dikecualikan",
+          "🔑 Dasar hukum: Pasal 23 ayat 4 UU PPh"
+        ],
+        "analogi": "Ibaratnya tuh kayak ada 'zona bebas potong' khusus buat transaksi tertentu yang emang udah diatur beda sama pajak lain, jadi nggak perlu dipotong dobel. Kayak kamu punya kartu member yang bikin kamu skip antrean di kasir tertentu.",
+        "contoh_kasus": {
+          "judul": "Kasus SHU Koperasi Simpan Pinjam Sejahtera",
+          "cerita": "Pak Joko adalah anggota Koperasi Simpan Pinjam Sejahtera dan menerima SHU tahunan sebesar Rp3 juta dari hasil usaha koperasi tersebut.",
+          "poin": [
+            "SHU Rp3 juta yang diterima Pak Joko dikecualikan dari pemotongan PPh 23",
+            "Koperasi tidak perlu membuat bukti potong PPh 23 atas pembagian SHU ke anggotanya"
+          ]
+        },
+        "diagram_mermaid": [],
+        "penjelasan_diagram": "",
+        "prompt_gambar": [
+          {
+            "id": "img-03",
+            "prompt": "An ultra modern 3D isometric stylized studio render, landscape 16:9 orientation, illustrating four categories of tax withholding exceptions in Indonesia. Deep dark-mode background gradient mesh #0F172A to #1E1B4B with soft ambient rim lighting. Four glowing 3D shield icons arranged in a row on floating platforms, each representing an exempted category: a bank building icon, a leasing car key icon, a cooperative handshake icon, and a small CV company badge icon, all connected with thin glowing light lines to a central golden checkmark seal in the middle. Include short, clean, perfectly spelled modern Indonesian text labels below each shield such as 'Bank', 'Leasing', 'SHU Koperasi', and 'Laba CV'. Color palette: electric blue #3B82F6, emerald green #10B981, warm gold #F59E0B accents against deep navy background, premium tech-education infographic aesthetic, crisp clean render with subtle reflections.",
+            "keterangan": "Ilustrasi empat kategori pengecualian dari pemotongan PPh Pasal 23: penghasilan ke bank, sewa financial lease, SHU koperasi, dan bagian laba anggota CV non-saham.",
+            "alt": "Ilustrasi 3D empat perisai yang mewakili kategori pengecualian pemotongan PPh Pasal 23",
+            "url_gambar": null
+          }
+        ],
+        "kalkulator": null,
+        "mini_kuis": [
+          {
+            "id": "q1",
+            "pertanyaan": "SHU yang dibagikan koperasi ke anggotanya kena PPh 23.",
+            "tipe": "benar_salah",
+            "pilihan": [
+              "Benar",
+              "Salah"
+            ],
+            "jawaban": "Salah",
+            "pembahasan": "Salah, SHU koperasi ke anggotanya termasuk salah satu pengecualian resmi dari pemotongan PPh Pasal 23."
+          },
+          {
+            "id": "q2",
+            "pertanyaan": "Manakah yang BUKAN termasuk pengecualian dari PPh 23?",
+            "tipe": "pilihan_ganda",
+            "pilihan": [
+              "A. Penghasilan ke Bank",
+              "B. Sewa Financial Lease",
+              "C. Royalti software ke vendor lokal",
+              "D. SHU Koperasi"
+            ],
+            "jawaban": "C",
+            "pembahasan": "Royalti software ke vendor lokal tetap merupakan objek PPh 23 tarif 15%, berbeda dari tiga pilihan lain yang memang termasuk kategori pengecualian resmi."
+          }
+        ],
+        "kesalahan_umum": [
+          {
+            "salah": "Memotong PPh 23 atas pembagian SHU koperasi ke anggota",
+            "benar": "SHU koperasi ke anggota dikecualikan dari pemotongan PPh 23",
+            "tips": "Cek status badan usaha lawan transaksi sebelum memotong pajak"
+          },
+          {
+            "salah": "Menyamakan bagian laba CV non-saham dengan dividen PT",
+            "benar": "Bagian laba anggota CV yang modalnya tidak terbagi atas saham dikecualikan dari PPh 23, beda dengan dividen PT",
+            "tips": "Perhatikan bentuk badan usaha lawan transaksi, PT atau CV"
+          }
+        ],
+        "istilah": [
+          {
+            "kata": "Financial Lease",
+            "definisi": "Sewa guna usaha dengan hak opsi bagi penyewa untuk membeli barang di akhir masa sewa, memiliki perlakuan pajak khusus.",
+            "contoh": "Cicilan sewa kendaraan lewat perusahaan leasing resmi dikecualikan dari PPh 23."
+          },
+          {
+            "kata": "SHU (Sisa Hasil Usaha)",
+            "definisi": "Keuntungan koperasi yang dibagikan kepada anggotanya berdasarkan partisipasi masing-masing anggota dalam kegiatan usaha koperasi.",
+            "contoh": "Pak Joko menerima SHU Rp3 juta dari Koperasi Simpan Pinjam Sejahtera."
+          },
+          {
+            "kata": "CV (Perseroan Komanditer)",
+            "definisi": "Bentuk badan usaha yang modalnya tidak terbagi atas saham, berbeda dengan PT yang modalnya berbentuk saham.",
+            "contoh": "Bagian laba anggota CV Sinar Abadi dikecualikan dari PPh 23 karena bukan berbentuk dividen saham."
+          }
+        ]
+      },
+      {
+        "id": "bag-14",
+        "judul": "Pengkreditan PPh 23 dalam SPT Tahunan Vendor",
+        "paragraf": [
+          "Sekarang kita lihat dari sisi vendor/penerima penghasilan yang udah dipotong PPh 23. Bukti potong yang mereka terima dari pemotong pajak itu bukan cuma bukti administratif doang, tapi punya fungsi penting: sebagai kredit pajak alias pengurang PPh terutang di SPT Tahunan mereka di akhir tahun. Jadi PPh 23 yang udah dipotong sepanjang tahun itu bisa 'dicicil balik' buat ngurangin total pajak yang harus dibayar vendor.",
+          "Gampangnya gini: kalau total PPh Badan atau PPh OP yang terutang vendor di akhir tahun adalah Rp50 juta, tapi sepanjang tahun udah dipotong PPh 23 sama klien-klien mereka total Rp12 juta, maka yang perlu dibayar vendor cuma sisa Rp38 juta lagi. PPh 23 yang udah dipotong itu jadi pengurang langsung, bukan biaya yang hilang begitu aja.",
+          "Makanya penting banget buat vendor menyimpan semua bukti potong PPh 23 dari klien-kliennya sepanjang tahun, karena kalau nggak lengkap, mereka bisa 'rugi' bayar pajak dobel — udah dipotong di muka tapi nggak bisa diklaim sebagai kredit pajak karena bukti potongnya hilang atau nggak sesuai dengan data di sistem Coretax DJP."
+        ],
+        "poin_penting": [
+          "💰 Bukti potong PPh 23 jadi kredit pajak pengurang PPh terutang di SPT Tahunan",
+          "📌 Berlaku untuk vendor Badan maupun OP yang menerima penghasilan objek PPh 23",
+          "⚠️ Bukti potong yang hilang bisa bikin vendor gagal klaim kredit pajak",
+          "🔑 Data bukti potong harus sinkron dengan sistem Coretax DJP"
+        ],
+        "analogi": "Bayangin kamu nyicil bayar utang tiap bulan, terus di akhir tahun kamu tinggal bayar sisa kekurangannya aja, nggak perlu bayar dari nol lagi. Nah, PPh 23 yang udah dipotong sepanjang tahun itu ibarat cicilan yang mengurangi 'utang pajak' vendor di SPT Tahunan.",
+        "contoh_kasus": {
+          "judul": "Kasus Pengkreditan PPh 23 CV Digital Prima",
+          "cerita": "CV Digital Prima punya total PPh Badan terutang di akhir tahun sebesar Rp50 juta. Sepanjang tahun, mereka menerima berbagai bukti potong PPh 23 dari klien-kliennya dengan total Rp12 juta.",
+          "poin": [
+            "PPh Badan yang masih harus dibayar CV Digital Prima: Rp50.000.000 - Rp12.000.000 = Rp38.000.000",
+            "Tanpa bukti potong lengkap, CV Digital Prima harus bayar penuh Rp50.000.000 tanpa pengurangan"
+          ]
+        },
+        "diagram_mermaid": [],
+        "penjelasan_diagram": "",
+        "prompt_gambar": [],
+        "kalkulator": null,
+        "mini_kuis": [
+          {
+            "id": "q1",
+            "pertanyaan": "Bukti potong PPh 23 berfungsi sebagai apa dalam SPT Tahunan vendor?",
+            "tipe": "pilihan_ganda",
+            "pilihan": [
+              "A. Biaya operasional",
+              "B. Kredit pajak pengurang PPh terutang",
+              "C. Denda pajak",
+              "D. Dasar Pengenaan PPN"
+            ],
+            "jawaban": "B",
+            "pembahasan": "Bukti potong PPh 23 berfungsi sebagai kredit pajak yang mengurangi jumlah PPh terutang vendor di SPT Tahunan akhir tahun."
+          },
+          {
+            "id": "q2",
+            "pertanyaan": "Kehilangan bukti potong PPh 23 tidak berpengaruh apa-apa terhadap kewajiban pajak vendor.",
+            "tipe": "benar_salah",
+            "pilihan": [
+              "Benar",
+              "Salah"
+            ],
+            "jawaban": "Salah",
+            "pembahasan": "Salah, kehilangan bukti potong bisa membuat vendor gagal mengklaim kredit pajak sehingga harus membayar PPh terutang secara penuh tanpa pengurangan."
+          }
+        ],
+        "kesalahan_umum": [
+          {
+            "salah": "Tidak menyimpan bukti potong PPh 23 dari klien",
+            "benar": "Simpan semua bukti potong sebagai dasar pengkreditan pajak di SPT Tahunan",
+            "tips": "Buat arsip digital bukti potong dan cocokkan berkala dengan data di Coretax DJP"
+          },
+          {
+            "salah": "Mengira PPh 23 yang dipotong adalah kerugian permanen",
+            "benar": "PPh 23 yang dipotong bisa dikreditkan sebagai pengurang PPh terutang di akhir tahun",
+            "tips": "Rekap seluruh bukti potong sepanjang tahun untuk pelaporan SPT Tahunan"
+          }
+        ],
+        "istilah": [
+          {
+            "kata": "Kredit Pajak",
+            "definisi": "Jumlah pajak yang sudah dibayar atau dipotong di muka yang bisa mengurangi pajak terutang di akhir periode pelaporan.",
+            "contoh": "Bukti potong PPh 23 Rp12 juta menjadi kredit pajak CV Digital Prima."
+          },
+          {
+            "kata": "SPT Tahunan",
+            "definisi": "Surat Pemberitahuan Tahunan yang berisi laporan penghasilan, harta, dan perhitungan pajak terutang wajib pajak dalam satu tahun pajak.",
+            "contoh": "CV Digital Prima melaporkan seluruh kredit pajak PPh 23 di SPT Tahunan mereka."
+          },
+          {
+            "kata": "Coretax DJP",
+            "definisi": "Core Tax Administration System, sistem administrasi perpajakan terintegrasi milik DJP yang aktif penuh di 2026.",
+            "contoh": "Data bukti potong PPh 23 harus sinkron dengan sistem Coretax DJP."
+          }
+        ]
+      },
+      {
+        "id": "bag-15",
+        "judul": "Sanksi Tanpa NPWP dan e-Bupot Coretax",
+        "paragraf": [
+          "Nah, ini bagian yang penting banget buat vendor yang belum punya NPWP. Kalau penerima penghasilan objek PPh 23 belum punya NPWP, tarif pemotongannya dinaikkan 100% dari tarif normal — jadi tarif 15% jadi 30%, dan tarif 2% jadi 4%. Ini sanksi administratif buat mendorong semua pelaku usaha segera daftar NPWP, apalagi sekarang NIK 16 digit udah otomatis jadi NPWP untuk Orang Pribadi sesuai kebijakan integrasi NIK-NPWP yang berlaku penuh di 2026.",
+          "Kode Akun Pajak (KAP) yang dipakai buat setoran PPh 23 adalah 411124, dengan Kode Jenis Setoran (KJS) yang beragam tergantung objeknya. Ini penting buat bagian finance/accounting perusahaan supaya nggak salah kode pas nyetor pajak lewat sistem pembayaran pajak yang terintegrasi dengan Coretax DJP.",
+          "Terakhir, semua bukti potong PPh 23 sekarang dibuat lewat e-Bupot Unifikasi di dalam sistem Coretax DJP 2026, menggantikan sistem lama yang terpisah-pisah. Proses ini bikin pemotong pajak wajib input data lawan transaksi (termasuk NPWP/NIK) secara akurat, karena kalau data nggak valid atau NPWP-nya salah, sistem bisa menolak penerbitan bukti potong, yang ujung-ujungnya bikin vendor nggak bisa klaim kredit pajaknya di SPT Tahunan."
+        ],
+        "poin_penting": [
+          "⚠️ Tanpa NPWP, tarif PPh 23 naik 100%: 15%→30%, 2%→4%",
+          "📌 Kode Akun Pajak (KAP) PPh 23: 411124",
+          "🔑 Bukti potong dibuat lewat e-Bupot Unifikasi Coretax DJP 2026",
+          "🆔 NIK 16 digit sudah terintegrasi sebagai NPWP Orang Pribadi di 2026"
+        ],
+        "analogi": "Ibaratnya tuh kayak kamu beli tiket konser tanpa kartu member — harganya otomatis dua kali lipat dari harga member. Nah, sanksi tanpa NPWP ini mirip gitu, kamu 'dihukum' bayar pajak dua kali lipat karena belum terdaftar resmi di sistem pajak.",
+        "contoh_kasus": {
+          "judul": "Kasus Vendor Tanpa NPWP CV Baru Berkembang",
+          "cerita": "CV Baru Berkembang menyediakan jasa maklon produksi ke PT Retail Nusantara senilai Rp20 juta, tapi ternyata CV tersebut belum memiliki NPWP aktif.",
+          "poin": [
+            "Karena tanpa NPWP, tarif PPh 23 naik jadi 4% (dari normalnya 2%): 4% x Rp20.000.000 = Rp800.000",
+            "Kalau CV Baru Berkembang sudah punya NPWP, PPh 23 yang dipotong cuma Rp400.000 (2% x Rp20.000.000)"
+          ]
+        },
+        "diagram_mermaid": [],
+        "penjelasan_diagram": "",
+        "prompt_gambar": [
+          {
+            "id": "img-04",
+            "prompt": "An ultra modern 3D isometric stylized studio render, landscape 16:9 format, depicting the consequence of not having a tax ID (NPWP) in the Indonesian withholding tax system. Deep dark-mode background gradient mesh #0F172A to #1E1B4B with dramatic ambient rim lighting. Center composition shows two glowing 3D percentage badges side by side on floating platforms: a smaller calm blue badge showing a normal rate, and a larger warning-red-and-gold badge doubled in size representing the penalty rate, connected by a glowing upward arrow. Beside them, a stylized 3D ID card icon with a red exclamation mark. Include short, clean, perfectly spelled modern Indonesian text labels such as 'Tanpa NPWP' and 'Sanksi Naik 100%' floating near the elements. Color palette: electric blue #3B82F6, warm amber #F59E0B, alert red #DC2626 accents against deep navy background, premium tech-education infographic aesthetic, crisp clean 3D render with soft shadows.",
+            "keterangan": "Ilustrasi sanksi kenaikan tarif PPh 23 sebesar 100% bagi penerima penghasilan yang belum memiliki NPWP, dari tarif normal menjadi dua kali lipat.",
+            "alt": "Ilustrasi 3D dua badge tarif pajak yang menunjukkan kenaikan sanksi 100% bagi wajib pajak tanpa NPWP",
+            "url_gambar": null
+          }
+        ],
+        "kalkulator": null,
+        "mini_kuis": [
+          {
+            "id": "q1",
+            "pertanyaan": "Berapa tarif PPh 23 bagi vendor tanpa NPWP untuk objek yang normalnya tarif 2%?",
+            "tipe": "pilihan_ganda",
+            "pilihan": [
+              "A. 2%",
+              "B. 3%",
+              "C. 4%",
+              "D. 6%"
+            ],
+            "jawaban": "C",
+            "pembahasan": "Tarif normal 2% naik 100% menjadi 4% bagi penerima penghasilan yang belum memiliki NPWP, sebagai sanksi administratif."
+          },
+          {
+            "id": "q2",
+            "pertanyaan": "Bukti potong PPh 23 di 2026 dibuat melalui sistem apa?",
+            "tipe": "isian_singkat",
+            "pilihan": null,
+            "jawaban": "e-Bupot Unifikasi Coretax DJP",
+            "pembahasan": "Sejak Coretax DJP aktif penuh, seluruh bukti potong PPh 23 dibuat melalui sistem e-Bupot Unifikasi yang terintegrasi dengan basis data NPWP/NIK wajib pajak."
+          }
+        ],
+        "kesalahan_umum": [
+          {
+            "salah": "Menggunakan tarif normal untuk vendor yang belum punya NPWP",
+            "benar": "Tarif harus dinaikkan 100% menjadi 30% (dari 15%) atau 4% (dari 2%) untuk vendor tanpa NPWP",
+            "tips": "Selalu verifikasi status NPWP/NIK vendor sebelum menghitung PPh 23"
+          },
+          {
+            "salah": "Salah input Kode Akun Pajak saat setor PPh 23",
+            "benar": "Gunakan KAP 411124 khusus untuk setoran PPh Pasal 23",
+            "tips": "Cek ulang KAP dan KJS di sistem pembayaran pajak sebelum submit setoran"
+          }
+        ],
+        "istilah": [
+          {
+            "kata": "KAP 411124",
+            "definisi": "Kode Akun Pajak yang digunakan khusus untuk penyetoran PPh Pasal 23 ke kas negara.",
+            "contoh": "Bagian finance PT Retail Nusantara menggunakan KAP 411124 saat menyetor PPh 23."
+          },
+          {
+            "kata": "Sanksi Tanpa NPWP",
+            "definisi": "Kenaikan tarif pemotongan pajak sebesar 100% dari tarif normal bagi penerima penghasilan yang belum memiliki NPWP.",
+            "contoh": "CV Baru Berkembang kena tarif 4% bukan 2% karena belum punya NPWP."
+          },
+          {
+            "kata": "Integrasi NIK-NPWP",
+            "definisi": "Kebijakan yang menjadikan Nomor Induk Kependudukan (NIK) 16 digit sebagai NPWP resmi bagi Orang Pribadi di Indonesia.",
+            "contoh": "Sejak 2026, Orang Pribadi tidak perlu NPWP terpisah karena NIK sudah otomatis berfungsi sebagai NPWP."
+          }
+        ]
+      }
+    ],
+    "kuis_akhir": {
+      "judul": "Kuis Akhir: Uji Pemahaman Modul PPh Pasal 23",
+      "nilai_lulus": 70,
+      "waktu_menit": 30,
+      "soal": [
+        {
+          "id": "q1",
+          "pertanyaan": "PPh Pasal 23 dipotong oleh siapa?",
+          "tipe": "pilihan_ganda",
+          "pilihan": [
+            "A. Penerima penghasilan",
+            "B. Pihak yang membayar penghasilan",
+            "C. Bank sentral",
+            "D. DJP langsung"
+          ],
+          "jawaban": "B",
+          "pembahasan": "PPh 23 dipotong oleh pihak yang membayar penghasilan (pemotong), bukan oleh penerimanya. Pilihan lain salah karena bukan pihak yang berkewajiban memotong sesuai UU PPh."
+        },
+        {
+          "id": "q2",
+          "pertanyaan": "Dividen, bunga, royalti, dan hadiah non-OP kena tarif berapa?",
+          "tipe": "pilihan_ganda",
+          "pilihan": [
+            "A. 2%",
+            "B. 5%",
+            "C. 15%",
+            "D. 22%"
+          ],
+          "jawaban": "C",
+          "pembahasan": "Keempat objek tersebut masuk kelompok tarif 15% dari jumlah bruto karena dianggap penghasilan pasif dari modal. Pilihan lain adalah tarif untuk objek/pajak yang berbeda."
+        },
+        {
+          "id": "q3",
+          "pertanyaan": "Sewa harta non-tanah/bangunan dan jasa lainnya kena tarif berapa?",
+          "tipe": "pilihan_ganda",
+          "pilihan": [
+            "A. 2%",
+            "B. 10%",
+            "C. 15%",
+            "D. 20%"
+          ],
+          "jawaban": "A",
+          "pembahasan": "Sewa non-tanah/bangunan dan berbagai jasa masuk kelompok tarif 2% dari jumlah bruto karena mempertimbangkan biaya operasional jasa. Pilihan lain adalah tarif objek pajak lain."
+        },
+        {
+          "id": "q4",
+          "pertanyaan": "Sewa tanah dan bangunan termasuk objek PPh Pasal 23.",
+          "tipe": "benar_salah",
+          "pilihan": [
+            "Benar",
+            "Salah"
+          ],
+          "jawaban": "Salah",
+          "pembahasan": "Salah, sewa tanah/bangunan masuk objek PPh Final Pasal 4 ayat (2) dengan tarif 10%, bukan PPh Pasal 23."
+        },
+        {
+          "id": "q5",
+          "pertanyaan": "Berapa PPh 23 atas jasa cleaning service dengan tagihan bruto Rp50.000.000 (tarif 2%)?",
+          "tipe": "isian_singkat",
+          "pilihan": null,
+          "jawaban": "Rp1.000.000",
+          "pembahasan": "2% x Rp50.000.000 = Rp1.000.000, dihitung dari nilai bruto jasa sebelum PPN ditambahkan sesuai ketentuan PPh 23."
+        },
+        {
+          "id": "q6",
+          "pertanyaan": "Berapa PPh 23 atas pembayaran royalti software Rp100.000.000 (tarif 15%)?",
+          "tipe": "pilihan_ganda",
+          "pilihan": [
+            "A. Rp2.000.000",
+            "B. Rp10.000.000",
+            "C. Rp15.000.000",
+            "D. Rp22.000.000"
+          ],
+          "jawaban": "C",
+          "pembahasan": "15% x Rp100.000.000 = Rp15.000.000. Royalti masuk kelompok tarif 15% dari jumlah bruto, dihitung tanpa pengurangan biaya apapun."
+        },
+        {
+          "id": "q7",
+          "pertanyaan": "Bunga yang dibayarkan ke bank atau lembaga keuangan resmi dikecualikan dari PPh 23.",
+          "tipe": "benar_salah",
+          "pilihan": [
+            "Benar",
+            "Salah"
+          ],
+          "jawaban": "Benar",
+          "pembahasan": "Benar, penghasilan berupa bunga yang dibayarkan ke bank/lembaga keuangan resmi termasuk salah satu pengecualian dari pemotongan PPh Pasal 23."
+        },
+        {
+          "id": "q8",
+          "pertanyaan": "Dividen yang diterima Orang Pribadi masuk skema pajak apa?",
+          "tipe": "pilihan_ganda",
+          "pilihan": [
+            "A. PPh Pasal 23",
+            "B. PPh Final Pasal 4(2)",
+            "C. PPh Pasal 21",
+            "D. PPh Pasal 26"
+          ],
+          "jawaban": "B",
+          "pembahasan": "Dividen ke Orang Pribadi masuk PPh Final Pasal 4(2), berbeda dengan dividen antar-badan yang masuk PPh Pasal 23 tarif 15%."
+        },
+        {
+          "id": "q9",
+          "pertanyaan": "SHU koperasi yang dibagikan ke anggotanya kena PPh 23.",
+          "tipe": "benar_salah",
+          "pilihan": [
+            "Benar",
+            "Salah"
+          ],
+          "jawaban": "Salah",
+          "pembahasan": "Salah, SHU koperasi ke anggota termasuk pengecualian resmi dari pemotongan PPh Pasal 23 sesuai Pasal 23 ayat 4 UU PPh."
+        },
+        {
+          "id": "q10",
+          "pertanyaan": "Kalau tagihan outsourcing tidak dirinci gaji vs fee manajemen, bagaimana PPh 23 dihitung?",
+          "tipe": "pilihan_ganda",
+          "pilihan": [
+            "A. Dari total tagihan penuh",
+            "B. Dari fee saja",
+            "C. Tidak dipotong sama sekali",
+            "D. Dari estimasi 50:50"
+          ],
+          "jawaban": "A",
+          "pembahasan": "Kalau tidak dirinci, DJP menganggap seluruh nilai tagihan sebagai jumlah bruto jasa manajemen sehingga PPh 23 dipotong dari total nilai tagihan tersebut."
+        },
+        {
+          "id": "q11",
+          "pertanyaan": "Reimbursement dengan nota asli atas nama klien termasuk jumlah bruto yang kena PPh 23.",
+          "tipe": "benar_salah",
+          "pilihan": [
+            "Benar",
+            "Salah"
+          ],
+          "jawaban": "Salah",
+          "pembahasan": "Salah, reimbursement dengan nota asli rinci atas nama klien dikecualikan dari jumlah bruto yang kena PPh Pasal 23."
+        },
+        {
+          "id": "q12",
+          "pertanyaan": "Bukti potong PPh 23 berfungsi sebagai apa di SPT Tahunan vendor?",
+          "tipe": "pilihan_ganda",
+          "pilihan": [
+            "A. Biaya operasional",
+            "B. Kredit pajak",
+            "C. Denda pajak",
+            "D. DPP PPN"
+          ],
+          "jawaban": "B",
+          "pembahasan": "Bukti potong PPh 23 berfungsi sebagai kredit pajak yang mengurangi PPh terutang vendor di akhir tahun, bukan sebagai biaya atau denda."
+        },
+        {
+          "id": "q13",
+          "pertanyaan": "Berapa tarif PPh 23 bagi vendor tanpa NPWP untuk objek tarif normal 15%?",
+          "tipe": "pilihan_ganda",
+          "pilihan": [
+            "A. 15%",
+            "B. 22%",
+            "C. 30%",
+            "D. 45%"
+          ],
+          "jawaban": "C",
+          "pembahasan": "Tarif normal 15% naik 100% menjadi 30% bagi penerima penghasilan yang belum memiliki NPWP, sebagai sanksi administratif sesuai UU PPh."
+        },
+        {
+          "id": "q14",
+          "pertanyaan": "Kode Akun Pajak (KAP) untuk setoran PPh Pasal 23 adalah 411124.",
+          "tipe": "benar_salah",
+          "pilihan": [
+            "Benar",
+            "Salah"
+          ],
+          "jawaban": "Benar",
+          "pembahasan": "Benar, KAP 411124 adalah kode khusus yang digunakan untuk penyetoran PPh Pasal 23 ke kas negara."
+        },
+        {
+          "id": "q15",
+          "pertanyaan": "Jelaskan perbedaan perlakuan PPh 23 antara jasa teknik dan jasa manajemen, serta kenapa keduanya tetap dikenai tarif yang sama!",
+          "tipe": "esai",
+          "pilihan": null,
+          "jawaban": "Jasa teknik adalah pemberian informasi berdasarkan pengalaman di bidang teknis/industri yang tidak bisa dilakukan sendiri oleh penerima jasa, misalnya instalasi mesin oleh vendor spesialis. Jasa manajemen melibatkan keikutsertaan langsung pihak penyedia jasa dalam pengelolaan operasional bisnis penerima jasa. Meski beda peran dan tingkat keterlibatan, keduanya sama-sama dikategorikan sebagai jasa dalam PMK 141/2015 sehingga dikenai tarif PPh 23 yang sama yaitu 2% dari jumlah bruto, karena keduanya sama-sama membutuhkan biaya operasional untuk dihasilkan, berbeda dengan penghasilan pasif seperti dividen atau bunga yang tarifnya 15%.",
+          "pembahasan": "Jawaban yang baik harus menjelaskan definisi jasa teknik (informasi teknis) vs jasa manajemen (keterlibatan langsung pengelolaan), dan alasan tarif sama (2%) karena keduanya sama-sama jasa aktif yang butuh biaya operasional, bukan penghasilan pasif seperti kelompok tarif 15%."
+        }
+      ]
+    },
+    "glosarium": [
+      {
+        "kata": "PPh Pasal 23",
+        "definisi": "Pajak yang dipotong atas penghasilan tertentu (dividen, bunga, royalti, sewa non-tanah/bangunan, jasa) yang dibayarkan kepada Wajib Pajak Dalam Negeri atau BUT.",
+        "penjelasan_sederhana": "Pajak yang dipotong duluan sama pemberi kerja/klien sebelum uangnya sampai ke kamu, khusus buat penghasilan dari modal, sewa, dan jasa."
+      },
+      {
+        "kata": "Jumlah Bruto",
+        "definisi": "Nilai penghasilan sebelum dikurangi biaya apapun, yang menjadi dasar pengenaan PPh Pasal 23.",
+        "penjelasan_sederhana": "Angka mentah di invoice/kontrak sebelum dipotong apa-apa."
+      },
+      {
+        "kata": "WP Dalam Negeri",
+        "definisi": "Wajib Pajak yang bertempat tinggal atau berkedudukan di Indonesia dan tunduk pada ketentuan perpajakan Indonesia.",
+        "penjelasan_sederhana": "Orang atau perusahaan yang emang tinggal/berdiri di Indonesia dan wajib bayar pajak di sini."
+      },
+      {
+        "kata": "BUT (Bentuk Usaha Tetap)",
+        "definisi": "Bentuk usaha perusahaan luar negeri yang beroperasi di Indonesia dan diperlakukan seperti Wajib Pajak Badan Dalam Negeri.",
+        "penjelasan_sederhana": "Cabang perusahaan asing yang beroperasi di Indonesia dan kena pajak kayak perusahaan lokal."
+      },
+      {
+        "kata": "Dividen",
+        "definisi": "Bagian laba perusahaan yang dibagikan kepada pemegang saham sesuai proporsi kepemilikan sahamnya.",
+        "penjelasan_sederhana": "Bagi-bagi untung perusahaan ke pemilik sahamnya."
+      },
+      {
+        "kata": "Diskonto",
+        "definisi": "Selisih antara nilai nominal instrumen utang dengan harga jual/beli-nya, diperlakukan sebagai bunga untuk keperluan pajak.",
+        "penjelasan_sederhana": "Selisih harga jual obligasi/surat utang yang dianggap bunga oleh pajak."
+      },
+      {
+        "kata": "Royalti",
+        "definisi": "Imbalan atas penggunaan hak kekayaan intelektual seperti lisensi, hak cipta, paten, merk dagang, atau rahasia dagang.",
+        "penjelasan_sederhana": "Uang yang kamu terima karena orang lain make hak cipta/merk/lisensi punya kamu."
+      },
+      {
+        "kata": "Waralaba (Franchise)",
+        "definisi": "Sistem bisnis di mana pemilik merk memberikan hak penggunaan merk dan sistem operasional ke pihak lain dengan imbalan fee tertentu.",
+        "penjelasan_sederhana": "Bisnis 'nebeng merk' orang lain dengan bayar fee bulanan, kayak buka cabang minuman kekinian."
+      },
+      {
+        "kata": "Jasa Teknik",
+        "definisi": "Pemberian informasi berkaitan dengan pengalaman di bidang industri, perdagangan, dan ilmu pengetahuan yang tidak bisa diberikan sendiri.",
+        "penjelasan_sederhana": "Jasa orang yang punya keahlian teknis khusus buat benerin/masang sesuatu yang kamu sendiri nggak bisa."
+      },
+      {
+        "kata": "Jasa Manajemen",
+        "definisi": "Pemberian jasa dengan ikut serta secara langsung dalam pelaksanaan manajemen operasional suatu bisnis.",
+        "penjelasan_sederhana": "Jasa orang yang beneran ikut ngurusin jalannya bisnis kamu sehari-hari."
+      },
+      {
+        "kata": "Jasa Konsultan",
+        "definisi": "Pemberian advice profesional berdasarkan keahlian tertentu seperti hukum, pajak, atau manajemen.",
+        "penjelasan_sederhana": "Jasa orang pinter yang ngasih saran profesional, kayak konsultan pajak atau hukum."
+      },
+      {
+        "kata": "Reimbursement",
+        "definisi": "Penggantian biaya yang telah dikeluarkan lebih dulu oleh suatu pihak atas nama pihak lain, dan ditagih kembali berdasarkan bukti pengeluaran asli.",
+        "penjelasan_sederhana": "Uang titipan yang kamu keluarin dulu buat klien, terus ditagih balik pake struk asli."
+      },
+      {
+        "kata": "Perusahaan Outsourcing",
+        "definisi": "Perusahaan penyedia dan penyalur tenaga kerja untuk berbagai posisi seperti security, cleaning service, atau customer service.",
+        "penjelasan_sederhana": "Perusahaan yang nyediain tenaga kerja (security, cleaning service, dll) buat perusahaan lain."
+      },
+      {
+        "kata": "Financial Lease",
+        "definisi": "Sewa guna usaha dengan hak opsi bagi penyewa untuk membeli barang di akhir masa sewa, memiliki perlakuan pajak khusus.",
+        "penjelasan_sederhana": "Sewa yang di akhir masa kontrak kamu bisa milih buat beli barangnya, kayak leasing mobil."
+      },
+      {
+        "kata": "SHU (Sisa Hasil Usaha)",
+        "definisi": "Keuntungan koperasi yang dibagikan kepada anggotanya berdasarkan partisipasi masing-masing anggota dalam kegiatan usaha koperasi.",
+        "penjelasan_sederhana": "Bagi hasil untung koperasi ke anggota-anggotanya."
+      },
+      {
+        "kata": "CV (Perseroan Komanditer)",
+        "definisi": "Bentuk badan usaha yang modalnya tidak terbagi atas saham, berbeda dengan PT yang modalnya berbentuk saham.",
+        "penjelasan_sederhana": "Badan usaha yang modalnya bukan berbentuk saham, beda sama PT."
+      },
+      {
+        "kata": "Kredit Pajak",
+        "definisi": "Jumlah pajak yang sudah dibayar atau dipotong di muka yang bisa mengurangi pajak terutang di akhir periode pelaporan.",
+        "penjelasan_sederhana": "Pajak yang udah dipotong duluan dan bisa 'dicicil balik' buat ngurangin bayar pajak di akhir tahun."
+      },
+      {
+        "kata": "e-Bupot Coretax",
+        "definisi": "Sistem elektronik pembuatan bukti potong unifikasi dalam platform Coretax DJP yang aktif penuh di 2026.",
+        "penjelasan_sederhana": "Aplikasi resmi DJP buat bikin bukti potong pajak secara online."
+      },
+      {
+        "kata": "KAP 411124",
+        "definisi": "Kode Akun Pajak yang digunakan khusus untuk penyetoran PPh Pasal 23 ke kas negara.",
+        "penjelasan_sederhana": "Kode khusus yang dipake pas nyetor PPh 23 ke bank/kas negara."
+      },
+      {
+        "kata": "Integrasi NIK-NPWP",
+        "definisi": "Kebijakan yang menjadikan Nomor Induk Kependudukan (NIK) 16 digit sebagai NPWP resmi bagi Orang Pribadi di Indonesia.",
+        "penjelasan_sederhana": "KTP kamu sekarang otomatis jadi NPWP, nggak perlu daftar NPWP terpisah lagi."
+      },
+      {
+        "kata": "PPh Final Pasal 4(2)",
+        "definisi": "Pajak yang bersifat final atas jenis penghasilan tertentu seperti sewa tanah/bangunan, dengan tarif dan perhitungan yang berdiri sendiri terpisah dari PPh 23.",
+        "penjelasan_sederhana": "Pajak khusus buat sewa tanah/bangunan yang perhitungannya beda sendiri dari PPh 23."
+      }
+    ]
+  }
+}

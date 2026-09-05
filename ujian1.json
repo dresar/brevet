@@ -1,0 +1,1164 @@
+{
+    "soal": [
+        {
+            "id": "q-1",
+            "pertanyaan": "Menurut Prof. Dr. Rochmat Soemitro, S.H., pajak adalah iuran rakyat kepada kas negara berdasarkan undang-undang tanpa mendapat jasa timbal balik yang langsung dapat ditunjukkan. Unsur manakah di bawah ini yang BUKAN termasuk unsur hakiki pajak menurut definisi tersebut?",
+            "tipe": "pilihan_ganda",
+            "pilihan": [
+                "A. Dapat dipaksakan berdasarkan undang-undang",
+                "B. Ada kontraprestasi langsung yang setara dari negara",
+                "C. Digunakan untuk membiayai pengeluaran umum negara",
+                "D. Merupakan iuran wajib dari rakyat"
+            ],
+            "jawaban": "B",
+            "pembahasan": "Empat unsur hakiki pajak adalah: wajib, memaksa berdasarkan UU, TANPA kontraprestasi langsung, dan untuk pengeluaran umum. Kontraprestasi langsung justru menjadi ciri pembeda pajak dengan retribusi (misalnya retribusi parkir yang langsung mendapat slot parkir). Pasal 1 ayat 1 UU KUP jo. UU HPP No. 7/2021 menegaskan pajak tidak memberikan imbalan secara langsung."
+        },
+        {
+            "id": "q-2",
+            "pertanyaan": "Dasar hukum konstitusional yang mewajibkan pajak dan pungutan lain yang bersifat memaksa diatur dengan undang-undang tercantum dalam...",
+            "tipe": "pilihan_ganda",
+            "pilihan": [
+                "A. UUD 1945 Pasal 23A",
+                "B. UUD 1945 Pasal 33",
+                "C. UU KUP Pasal 1",
+                "D. UU HPP Pasal 7"
+            ],
+            "jawaban": "A",
+            "pembahasan": "UUD 1945 Pasal 23A secara eksplisit menyatakan 'Pajak dan pungutan lain yang bersifat memaksa untuk keperluan negara diatur dengan undang-undang'. Ini menjadi landasan syarat yuridis pemungutan pajak di Indonesia, memastikan tidak ada pungutan pajak tanpa dasar hukum yang sah (asas legalitas)."
+        },
+        {
+            "id": "q-3",
+            "pertanyaan": "Bu Siti membayar retribusi parkir motor di mal dan langsung mendapatkan slot parkir. Karakteristik utama yang membedakan retribusi dengan pajak dalam kasus ini adalah...",
+            "tipe": "pilihan_ganda",
+            "pilihan": [
+                "A. Retribusi bersifat sukarela",
+                "B. Retribusi memiliki kontraprestasi langsung yang jelas",
+                "C. Retribusi tidak berdasarkan hukum",
+                "D. Retribusi dipungut oleh pemerintah pusat"
+            ],
+            "jawaban": "B",
+            "pembahasan": "Retribusi memiliki kontraprestasi LANGSUNG yang jelas dan dapat ditunjukkan (bayar parkir dapat slot parkir), sedangkan pajak tidak memberikan imbalan langsung yang setara. Retribusi tetap bersifat wajib dan berdasarkan hukum, sehingga opsi A dan C keliru."
+        },
+        {
+            "id": "q-4",
+            "pertanyaan": "Pemerintah menetapkan PPnBM 0% untuk mobil listrik guna mendorong masyarakat beralih ke kendaraan ramah lingkungan. Kebijakan ini merupakan penerapan fungsi pajak...",
+            "tipe": "pilihan_ganda",
+            "pilihan": [
+                "A. Budgetair",
+                "B. Regulerend",
+                "C. Stabilitas",
+                "D. Redistribusi"
+            ],
+            "jawaban": "B",
+            "pembahasan": "Fungsi Regulerend (mengatur) menjadikan pajak sebagai alat kebijakan sosial-ekonomi pemerintah, bukan sekadar sumber penerimaan. Contoh lain fungsi ini adalah cukai rokok tinggi untuk menekan konsumsi rokok dan tax holiday untuk menarik investasi. Fungsi Budgetair (A) berkaitan dengan pajak sebagai sumber pendapatan APBN, bukan pengarah perilaku."
+        },
+        {
+            "id": "q-5",
+            "pertanyaan": "Manakah dari Canons of Taxation Adam Smith berikut yang menekankan bahwa pemungutan pajak harus jelas kapan dan berapa jumlah yang harus dibayar?",
+            "tipe": "pilihan_ganda",
+            "pilihan": [
+                "A. Equality",
+                "B. Certainty",
+                "C. Convenience",
+                "D. Economy"
+            ],
+            "jawaban": "B",
+            "pembahasan": "Certainty (kepastian) menuntut kejelasan hukum mengenai waktu dan jumlah pajak yang harus dibayar wajib pajak, sehingga tidak ada kesewenang-wenangan fiskus. Equality mengacu pada kesetaraan sesuai kemampuan bayar, Convenience pada waktu pemungutan yang tepat, dan Economy pada efisiensi biaya pemungutan."
+        },
+        {
+            "id": "q-6",
+            "pertanyaan": "UU PPh yang mengatur siapa yang menjadi subjek pajak dan berapa tarif yang dikenakan merupakan contoh dari...",
+            "tipe": "pilihan_ganda",
+            "pilihan": [
+                "A. Hukum Pajak Formal",
+                "B. Hukum Pajak Material",
+                "C. Hukum Acara Pajak",
+                "D. Hukum Administrasi Negara"
+            ],
+            "jawaban": "B",
+            "pembahasan": "Hukum Pajak Material mengatur substansi pajak: subjek, objek, tarif, dan timbulnya utang pajak, contohnya UU PPh, UU PPN, dan UU PBB. Sementara Hukum Pajak Formal (contoh UU KUP) mengatur prosedur pelaksanaannya seperti tata cara daftar NPWP dan pelaporan SPT."
+        },
+        {
+            "id": "q-7",
+            "pertanyaan": "PPN dikategorikan sebagai Pajak Tidak Langsung karena...",
+            "tipe": "pilihan_ganda",
+            "pilihan": [
+                "A. Bebannya dipikul sendiri oleh penjual tanpa bisa dialihkan",
+                "B. Beban pajaknya dapat dialihkan/dilimpahkan ke pihak lain (konsumen)",
+                "C. Hanya dikenakan pada barang mewah",
+                "D. Dipungut langsung oleh Bapenda"
+            ],
+            "jawaban": "B",
+            "pembahasan": "Pajak Tidak Langsung memiliki karakteristik beban pajak yang dapat dialihkan ke pihak lain. Pada PPN, penjual berkewajiban menyetor ke negara, namun beban pajak sesungguhnya ditanggung konsumen melalui harga jual. Ini berbeda dengan PPh yang merupakan Pajak Langsung karena beban dipikul sendiri oleh wajib pajak."
+        },
+        {
+            "id": "q-8",
+            "pertanyaan": "PPh Orang Pribadi yang mempertimbangkan PTKP berdasarkan status pernikahan dan jumlah tanggungan digolongkan sebagai...",
+            "tipe": "pilihan_ganda",
+            "pilihan": [
+                "A. Pajak Objektif",
+                "B. Pajak Subjektif",
+                "C. Pajak Tidak Langsung",
+                "D. Pajak Daerah"
+            ],
+            "jawaban": "B",
+            "pembahasan": "Pajak Subjektif memperhatikan keadaan pribadi wajib pajak (status kawin, jumlah tanggungan lewat PTKP) sebelum menentukan besaran pajak. Sebaliknya, Pajak Objektif seperti PPN dan PBB hanya melihat objeknya tanpa mempertimbangkan kondisi personal wajib pajak."
+        },
+        {
+            "id": "q-9",
+            "pertanyaan": "Kak Nisa tinggal di Indonesia namun bekerja remote untuk perusahaan di Singapura. Ia berpotensi dikenakan pajak berganda karena adanya perbedaan penerapan...",
+            "tipe": "pilihan_ganda",
+            "pilihan": [
+                "A. Asas Domisili dan Asas Sumber antar negara",
+                "B. Sistem Self Assessment dan Official Assessment",
+                "C. Pajak Langsung dan Tidak Langsung",
+                "D. Hukum Pajak Material dan Formal"
+            ],
+            "jawaban": "A",
+            "pembahasan": "Double taxation muncul ketika negara domisili (Indonesia, memungut atas worldwide income) dan negara sumber penghasilan (Singapura, memungut atas penghasilan bersumber di negaranya) sama-sama mengklaim hak pemajakan. P3B (tax treaty) dibuat untuk menghindari benturan asas ini lewat mekanisme kredit pajak luar negeri."
+        },
+        {
+            "id": "q-10",
+            "pertanyaan": "PBB (Pajak Bumi dan Bangunan) menggunakan sistem pemungutan di mana wajib pajak cukup menerima Surat Pemberitahuan Pajak Terutang (SPPT) tanpa perlu menghitung sendiri. Ini adalah contoh...",
+            "tipe": "pilihan_ganda",
+            "pilihan": [
+                "A. Self Assessment System",
+                "B. Official Assessment System",
+                "C. Withholding Assessment System",
+                "D. Semi Self Assessment System"
+            ],
+            "jawaban": "B",
+            "pembahasan": "Official Assessment System adalah sistem di mana fiskus (DJP/Bapenda) yang aktif menghitung dan menetapkan besaran utang pajak, dengan contoh klasik PBB melalui SPPT. Self Assessment (PPh, PPN) mewajibkan WP menghitung sendiri, sedangkan Withholding melibatkan pihak ketiga sebagai pemotong."
+        },
+        {
+            "id": "q-11",
+            "pertanyaan": "Pemotongan PPh Pasal 21 oleh perusahaan atas gaji karyawan menggunakan skema TER sesuai PP 58/2023 merupakan penerapan sistem...",
+            "tipe": "pilihan_ganda",
+            "pilihan": [
+                "A. Official Assessment System",
+                "B. Self Assessment System",
+                "C. Withholding Assessment System",
+                "D. Semi Official System"
+            ],
+            "jawaban": "C",
+            "pembahasan": "Withholding Assessment System melibatkan pihak ketiga (dalam hal ini perusahaan pemberi kerja) yang ditunjuk undang-undang untuk memotong pajak dari wajib pajak lain (karyawan). PPh 21 dengan skema TER (PP 58/2023 & PMK 168/2023) dan PPh 23 adalah contoh utama sistem ini."
+        },
+        {
+            "id": "q-12",
+            "pertanyaan": "Menurut Ajaran Material, utang pajak timbul pada saat...",
+            "tipe": "pilihan_ganda",
+            "pilihan": [
+                "A. Fiskus menerbitkan Surat Ketetapan Pajak (SKP)",
+                "B. Wajib pajak melaporkan SPT Tahunan",
+                "C. Terpenuhinya syarat/keadaan (tatbestand) yang diatur undang-undang",
+                "D. Wajib pajak menerima Kode Billing"
+            ],
+            "jawaban": "C",
+            "pembahasan": "Ajaran Material menyatakan utang pajak timbul otomatis begitu tatbestand (syarat objektif) terpenuhi tanpa perlu surat ketetapan, dan berlaku untuk pajak Self Assessment seperti PPh dan PPN. Berbeda dengan Ajaran Formal yang mensyaratkan SKP terbit terlebih dahulu, umumnya untuk pajak Official Assessment seperti PBB."
+        },
+        {
+            "id": "q-13",
+            "pertanyaan": "Hak negara untuk menagih utang pajak menjadi hangus (daluwarsa) apabila sudah melewati jangka waktu berapa tahun sejak terutangnya pajak tanpa tindakan penagihan?",
+            "tipe": "pilihan_ganda",
+            "pilihan": [
+                "A. 3 tahun",
+                "B. 5 tahun",
+                "C. 7 tahun",
+                "D. 10 tahun"
+            ],
+            "jawaban": "B",
+            "pembahasan": "Daluwarsa penagihan pajak adalah 5 tahun sejak terutangnya pajak apabila tidak ada tindakan penagihan dari fiskus. Ini adalah salah satu dari 5 cara hapusnya utang pajak, selain Pembayaran, Kompensasi, Pembebasan, dan Penghapusan Piutang Pajak."
+        },
+        {
+            "id": "q-14",
+            "pertanyaan": "Sebuah perusahaan sengaja tidak membuat pembukuan sama sekali agar transaksinya sulit dilacak fiskus, dengan tujuan mengurangi kewajiban pajak. Tindakan ini termasuk...",
+            "tipe": "pilihan_ganda",
+            "pilihan": [
+                "A. Tax Avoidance yang legal",
+                "B. Tax Evasion yang ilegal",
+                "C. Perlawanan pasif",
+                "D. Pembetulan SPT"
+            ],
+            "jawaban": "B",
+            "pembahasan": "Tax Evasion adalah penggelapan pajak secara ILEGAL, termasuk rekayasa laporan keuangan atau sengaja tidak membuat pembukuan agar sulit dilacak. Berbeda dengan Tax Avoidance yang memanfaatkan celah hukum secara legal, Tax Evasion dapat dikenai sanksi pidana sesuai Pasal 39 UU KUP."
+        },
+        {
+            "id": "q-15",
+            "pertanyaan": "Manakah pernyataan yang TEPAT mengenai Tax Avoidance?",
+            "tipe": "pilihan_ganda",
+            "pilihan": [
+                "A. Merupakan tindak pidana yang diancam Pasal 39 UU KUP",
+                "B. Dilakukan secara legal dengan memanfaatkan celah peraturan perpajakan",
+                "C. Sama dengan menyembunyikan omzet sebenarnya",
+                "D. Termasuk kategori Perlawanan Pasif"
+            ],
+            "jawaban": "B",
+            "pembahasan": "Tax Avoidance adalah pengurangan pajak yang dilakukan secara LEGAL dengan memanfaatkan loopholes/celah dalam peraturan, meski kini banyak negara termasuk Indonesia memperketat aturan anti-penghindaran pajak. Ini berbeda dari Tax Evasion yang ilegal dan termasuk Perlawanan Aktif, bukan Pasif."
+        },
+        {
+            "id": "q-16",
+            "pertanyaan": "Pengusaha yang telah dikukuhkan untuk memungut, menyetor, dan melaporkan PPN atas penyerahan barang/jasa kena pajak disebut...",
+            "tipe": "pilihan_ganda",
+            "pilihan": [
+                "A. Wajib Pajak (WP)",
+                "B. Pengusaha Kena Pajak (PKP)",
+                "C. Subjek Pajak Luar Negeri (SPLN)",
+                "D. Fiskus"
+            ],
+            "jawaban": "B",
+            "pembahasan": "Pengusaha Kena Pajak (PKP) adalah pengusaha yang sudah dikukuhkan secara resmi untuk memungut, menyetor, dan melaporkan PPN. Ini berbeda dari WP secara umum yang merupakan istilah lebih luas mencakup semua orang pribadi/badan dengan hak dan kewajiban perpajakan."
+        },
+        {
+            "id": "q-17",
+            "pertanyaan": "SPT Masa PPh 21 dan PPN dilaporkan secara...",
+            "tipe": "pilihan_ganda",
+            "pilihan": [
+                "A. Tahunan",
+                "B. Bulanan",
+                "C. Triwulanan",
+                "D. Sesuai kebutuhan wajib pajak"
+            ],
+            "jawaban": "B",
+            "pembahasan": "SPT Masa dilaporkan setiap bulan, contohnya PPh 21 dan PPN, sedangkan SPT Tahunan dilaporkan setahun sekali untuk PPh Orang Pribadi dan Badan. Pembedaan ini penting karena berpengaruh pada deadline dan sanksi keterlambatan yang berbeda."
+        },
+        {
+            "id": "q-18",
+            "pertanyaan": "Surat ketetapan pajak yang diterbitkan ketika ditemukan data baru yang menyebabkan utang pajak bertambah SETELAH SKPKB terbit disebut...",
+            "tipe": "pilihan_ganda",
+            "pilihan": [
+                "A. SKPLB",
+                "B. SKPN",
+                "C. SKPKBT",
+                "D. SKPKB"
+            ],
+            "jawaban": "C",
+            "pembahasan": "SKPKBT (Surat Ketetapan Pajak Kurang Bayar Tambahan) diterbitkan saat ditemukan data baru yang menambah utang pajak setelah SKPKB terbit. SKPKB sendiri terbit saat pemeriksaan menemukan kekurangan bayar awal, SKPLB untuk kelebihan bayar, dan SKPN saat jumlah bayar pas."
+        },
+        {
+            "id": "q-19",
+            "pertanyaan": "Seorang warga negara asing berada di Indonesia selama 200 hari dalam jangka waktu 12 bulan. Berdasarkan time-test, statusnya adalah...",
+            "tipe": "pilihan_ganda",
+            "pilihan": [
+                "A. Subjek Pajak Luar Negeri (SPLN)",
+                "B. Subjek Pajak Dalam Negeri (SPDN)",
+                "C. Bukan Subjek Pajak",
+                "D. Wajib Pajak Non Efektif"
+            ],
+            "jawaban": "B",
+            "pembahasan": "SPDN mencakup orang pribadi yang berada di Indonesia lebih dari 183 hari dalam 12 bulan (time-test). Karena 200 hari > 183 hari, statusnya adalah SPDN, sehingga wajib melaporkan dan membayar pajak atas seluruh penghasilan baik dari dalam maupun luar negeri (worldwide income)."
+        },
+        {
+            "id": "q-20",
+            "pertanyaan": "Sejak berlakunya UU HPP dan PMK 112/2022, NPWP Orang Pribadi kini terintegrasi dengan...",
+            "tipe": "pilihan_ganda",
+            "pilihan": [
+                "A. Nomor Kartu Keluarga",
+                "B. NIK 16 digit pada KTP",
+                "C. Nomor Paspor",
+                "D. Nomor BPJS"
+            ],
+            "jawaban": "B",
+            "pembahasan": "NIK 16 digit pada KTP kini terintegrasi penuh menjadi NPWP untuk Wajib Pajak Orang Pribadi sesuai UU HPP dan PMK 112/2022, sehingga tidak perlu lagi mengingat nomor NPWP 15 digit terpisah. Pendaftaran dilakukan lewat e-Registration di Portal Coretax DJP."
+        },
+        {
+            "id": "q-21",
+            "pertanyaan": "Wajib Pajak Orang Pribadi dengan omzet Rp3 miliar per tahun yang menggunakan skema PPh Final UMKM 0,5% sesuai PP 55/2022 wajib melakukan...",
+            "tipe": "pilihan_ganda",
+            "pilihan": [
+                "A. Pembukuan penuh sesuai SAK",
+                "B. Pencatatan sederhana",
+                "C. Audit oleh Kantor Akuntan Publik",
+                "D. Pelaporan neraca dan laba rugi lengkap"
+            ],
+            "jawaban": "B",
+            "pembahasan": "Pencatatan (metode sederhana, hanya mencatat penghasilan bruto dan pengeluaran) boleh dilakukan WP OP dengan omzet di bawah Rp4,8 miliar/tahun, termasuk yang memilih PPh Final UMKM 0,5%. Pembukuan penuh sesuai SAK wajib bagi WP Badan dan WP OP beromzet di atas Rp4,8 miliar/tahun."
+        },
+        {
+            "id": "q-22",
+            "pertanyaan": "Batas waktu pelaporan SPT Tahunan bagi Wajib Pajak Badan adalah...",
+            "tipe": "pilihan_ganda",
+            "pilihan": [
+                "A. 31 Maret tahun berikutnya",
+                "B. 30 April tahun berikutnya",
+                "C. 31 Mei tahun berikutnya",
+                "D. 30 Juni tahun berikutnya"
+            ],
+            "jawaban": "B",
+            "pembahasan": "SPT Tahunan Wajib Pajak Badan paling lambat dilaporkan 30 April tahun berikutnya, sedangkan Wajib Pajak Orang Pribadi paling lambat 31 Maret tahun berikutnya. Keterlambatan pelaporan dikenai sanksi denda sesuai Pasal 7 UU KUP."
+        },
+        {
+            "id": "q-23",
+            "pertanyaan": "Denda keterlambatan pelaporan SPT Masa PPN sesuai Pasal 7 UU KUP adalah sebesar...",
+            "tipe": "pilihan_ganda",
+            "pilihan": [
+                "A. Rp100.000",
+                "B. Rp500.000",
+                "C. Rp1.000.000",
+                "D. Rp1.500.000"
+            ],
+            "jawaban": "B",
+            "pembahasan": "Denda telat lapor SPT Masa PPN adalah Rp500.000, sedangkan SPT Masa lainnya (misalnya PPh 21/23) Rp100.000, SPT Tahunan Orang Pribadi Rp100.000, dan SPT Tahunan Badan Rp1.000.000, sesuai Pasal 7 UU KUP. Ini murni denda keterlambatan lapor, terpisah dari sanksi kurang bayar."
+        },
+        {
+            "id": "q-24",
+            "pertanyaan": "Pembetulan SPT sesuai Pasal 8 UU KUP hanya dapat dilakukan wajib pajak dengan syarat...",
+            "tipe": "pilihan_ganda",
+            "pilihan": [
+                "A. Sebelum ada pemeriksaan yang dimulai fiskus terhadap wajib pajak",
+                "B. Setelah SKP terbit",
+                "C. Dalam waktu 3 bulan sejak SPT dilaporkan",
+                "D. Hanya boleh dilakukan satu kali seumur hidup"
+            ],
+            "jawaban": "A",
+            "pembahasan": "Pembetulan SPT (Pasal 8 UU KUP) dapat dilakukan wajib pajak yang menemukan kesalahan setelah pelaporan, dengan syarat dilakukan sebelum fiskus memulai tindakan pemeriksaan terhadapnya. Jika pemeriksaan sudah dimulai, hak pembetulan mandiri menjadi terbatas atau tidak berlaku lagi."
+        },
+        {
+            "id": "q-25",
+            "pertanyaan": "Tahapan pengawasan DJP yang berupa pengecekan administratif formal atas SPT (kelengkapan lampiran dan kebenaran hitungan matematis) dan biasanya dilakukan otomatis oleh sistem Coretax disebut...",
+            "tipe": "pilihan_ganda",
+            "pilihan": [
+                "A. Penelitian",
+                "B. Pemeriksaan Lapangan",
+                "C. Pemeriksaan Kantor",
+                "D. Penyidikan"
+            ],
+            "jawaban": "A",
+            "pembahasan": "Penelitian adalah tahap paling ringan berupa pengecekan administratif SPT yang biasanya berjalan otomatis via sistem. Pemeriksaan (Lapangan/Kantor) adalah tahap lebih mendalam untuk menguji kepatuhan, sedangkan Penyidikan adalah tahap paling serius untuk indikasi pidana pajak."
+        },
+        {
+            "id": "q-26",
+            "pertanyaan": "Asas yang menyatakan bahwa jalur pidana pajak hanya menjadi upaya TERAKHIR setelah upaya administratif dianggap tidak cukup disebut...",
+            "tipe": "pilihan_ganda",
+            "pilihan": [
+                "A. Asas Domisili",
+                "B. Asas Ultimum Remedium",
+                "C. Asas Legalitas",
+                "D. Asas Certainty"
+            ],
+            "jawaban": "B",
+            "pembahasan": "Asas Ultimum Remedium menegaskan bahwa penyidikan pidana pajak adalah upaya hukum terakhir, bukan langkah pertama, sehingga wajib pajak diberi kesempatan menyelesaikan masalah secara administratif terlebih dahulu. Filosofi ini menjaga keadilan penegakan hukum pajak."
+        },
+        {
+            "id": "q-27",
+            "pertanyaan": "Jika Keberatan wajib pajak DITOLAK oleh DJP, sanksi denda tambahan yang dikenakan sesuai UU HPP adalah sebesar...",
+            "tipe": "pilihan_ganda",
+            "pilihan": [
+                "A. 20% dari pajak yang belum dibayar",
+                "B. 30% dari pajak yang belum dibayar",
+                "C. 50% dari pajak yang belum dibayar",
+                "D. 60% dari pajak yang belum dibayar"
+            ],
+            "jawaban": "B",
+            "pembahasan": "Jika Keberatan ditolak, wajib pajak dikenai denda tambahan 30% dari jumlah pajak yang belum dibayar berdasarkan Surat Keputusan Keberatan (Pasal 25-26 UU KUP jo. UU HPP). Ini berbeda dari sanksi jika Banding ditolak yang mencapai 60%, dua kali lipatnya."
+        },
+        {
+            "id": "q-28",
+            "pertanyaan": "Jangka waktu maksimal bagi DJP untuk memproses dan memberikan Surat Keputusan atas pengajuan Keberatan wajib pajak adalah...",
+            "tipe": "pilihan_ganda",
+            "pilihan": [
+                "A. 3 bulan",
+                "B. 6 bulan",
+                "C. 12 bulan",
+                "D. 24 bulan"
+            ],
+            "jawaban": "C",
+            "pembahasan": "DJP memiliki waktu maksimal 12 bulan untuk memproses Keberatan dan menerbitkan Surat Keputusan Keberatan, yang dapat berupa menerima seluruhnya, menerima sebagian, menolak, atau bahkan menambah jumlah pajak terutang. Wajib pajak sendiri harus mengajukan Keberatan dalam 3 bulan sejak SKP diterima."
+        },
+        {
+            "id": "q-29",
+            "pertanyaan": "Syarat formal yang wajib dipenuhi wajib pajak sebelum mengajukan Banding ke Pengadilan Pajak, kecuali sudah dilunasi sebelumnya, adalah...",
+            "tipe": "pilihan_ganda",
+            "pilihan": [
+                "A. Melunasi minimal 25% dari pajak yang disengketakan",
+                "B. Melunasi minimal 50% dari pajak yang disengketakan",
+                "C. Melunasi 100% dari pajak yang disengketakan",
+                "D. Tidak ada syarat pelunasan"
+            ],
+            "jawaban": "B",
+            "pembahasan": "Wajib pajak yang mengajukan Banding harus melunasi minimal 50% dari jumlah pajak yang disengketakan sebagai syarat formal, kecuali telah dilunasi sebelumnya. Syarat lain adalah diajukan tertulis, dalam Bahasa Indonesia, dan dalam 3 bulan sejak Surat Keputusan Keberatan diterima (Pasal 27 UU KUP)."
+        },
+        {
+            "id": "q-30",
+            "pertanyaan": "Upaya hukum yang diajukan atas pelaksanaan penagihan pajak yang dianggap tidak sesuai prosedur, misalnya soal Surat Paksa, dengan jangka waktu pengajuan 14 hari disebut...",
+            "tipe": "pilihan_ganda",
+            "pilihan": [
+                "A. Keberatan",
+                "B. Banding",
+                "C. Gugatan",
+                "D. Peninjauan Kembali"
+            ],
+            "jawaban": "C",
+            "pembahasan": "Gugatan diajukan atas prosedur pelaksanaan penagihan (Surat Paksa, penyitaan) dengan jangka waktu 14 hari, atau 30 hari untuk keputusan lain. Ini berbeda dari Keberatan/Banding yang menyasar substansi ketetapan pajak, dan berbeda dari PK yang merupakan upaya hukum luar biasa ke Mahkamah Agung."
+        },
+        {
+            "id": "q-31",
+            "pertanyaan": "Peninjauan Kembali (PK) diajukan ke lembaga peradilan berikut, dengan salah satu alasan yang sah adalah ditemukannya bukti baru (novum):",
+            "tipe": "pilihan_ganda",
+            "pilihan": [
+                "A. Pengadilan Pajak",
+                "B. Pengadilan Negeri",
+                "C. Mahkamah Agung",
+                "D. Mahkamah Konstitusi"
+            ],
+            "jawaban": "C",
+            "pembahasan": "PK adalah upaya hukum luar biasa terakhir yang diajukan ke Mahkamah Agung, hanya dengan alasan khusus seperti novum (bukti baru) atau kekhilafan hakim yang nyata. Urutan sengketa pajak berjenjang: Keberatan → Banding/Gugatan → Peninjauan Kembali."
+        },
+        {
+            "id": "q-32",
+            "pertanyaan": "Kompensasi bunga yang dibayarkan negara kepada wajib pajak akibat SKPLB yang terlambat diterbitkan diatur dalam...",
+            "tipe": "pilihan_ganda",
+            "pilihan": [
+                "A. Pasal 7 UU KUP",
+                "B. Pasal 8 UU KUP",
+                "C. Pasal 27A UU KUP",
+                "D. Pasal 39 UU KUP"
+            ],
+            "jawaban": "C",
+            "pembahasan": "Imbalan Bunga diatur Pasal 27A UU KUP, yaitu kompensasi bunga dari negara ke wajib pajak akibat keterlambatan penerbitan SKPLB atau saat Keberatan/Banding dikabulkan. Sistem ini didesain adil dua arah: WP telat bayar kena bunga, negara telat restitusi wajib bayar Imbalan Bunga."
+        },
+        {
+            "id": "q-33",
+            "pertanyaan": "Formula perhitungan sanksi bunga dinamis pasca UU HPP adalah...",
+            "tipe": "pilihan_ganda",
+            "pilihan": [
+                "A. 2% per bulan flat dikali pajak kurang bayar",
+                "B. (Suku Bunga Acuan KMK + Uplift) ÷ 12 × bulan keterlambatan × pajak kurang bayar",
+                "C. Suku Bunga Acuan KMK dikali jumlah tahun keterlambatan",
+                "D. 5% per tahun tetap tanpa uplift"
+            ],
+            "jawaban": "B",
+            "pembahasan": "Sanksi bunga era UU HPP tidak lagi flat 2%/bulan seperti sistem lama, melainkan dinamis: (Suku Bunga Acuan KMK + Uplift) ÷ 12 × jumlah bulan keterlambatan × pajak kurang bayar. Uplift bervariasi 0%-20% tergantung jenis pelanggaran, ditetapkan lewat Keputusan Menteri Keuangan yang diperbarui tiap bulan."
+        },
+        {
+            "id": "q-34",
+            "pertanyaan": "Tarif resmi PPN menurut Pasal 7 UU HPP No. 7/2021 yang berlaku aktif adalah...",
+            "tipe": "pilihan_ganda",
+            "pilihan": [
+                "A. 10%",
+                "B. 11%",
+                "C. 12%",
+                "D. 15%"
+            ],
+            "jawaban": "C",
+            "pembahasan": "Tarif resmi PPN sesuai Pasal 7 UU HPP No. 7/2021 adalah 12%. Tarif ini berlaku penuh khususnya untuk barang mewah yang juga dikenakan PPnBM (mobil, motor besar, properti mewah), sementara transaksi umum menggunakan mekanisme DPP Nilai Lain."
+        },
+        {
+            "id": "q-35",
+            "pertanyaan": "PT Sejahtera Abadi memiliki Penghasilan Kena Pajak sebesar Rp2.000.000.000 pada tahun pajak 2026. Berapa PPh Badan terutang yang harus dibayar?",
+            "tipe": "pilihan_ganda",
+            "pilihan": [
+                "A. Rp220.000.000",
+                "B. Rp400.000.000",
+                "C. Rp440.000.000",
+                "D. Rp500.000.000"
+            ],
+            "jawaban": "C",
+            "pembahasan": "Tarif PPh Badan adalah 22% flat dari Penghasilan Kena Pajak. Perhitungan: Rp2.000.000.000 × 22% = Rp440.000.000. Tarif ini berlaku umum untuk Wajib Pajak Badan yang tidak memenuhi syarat fasilitas pengurangan tarif UMKM atau perusahaan terbuka tertentu."
+        },
+        {
+            "id": "q-36",
+            "pertanyaan": "Pak Budi (kawin, 2 anak/tanggungan) memiliki penghasilan neto setahun Rp150.000.000. Berapa besar PTKP yang berhak ia peroleh?",
+            "tipe": "pilihan_ganda",
+            "pilihan": [
+                "A. Rp54.000.000",
+                "B. Rp58.500.000",
+                "C. Rp67.500.000",
+                "D. Rp72.000.000"
+            ],
+            "jawaban": "C",
+            "pembahasan": "PTKP dasar WP sendiri Rp54.000.000, tambahan status kawin Rp4.500.000, dan tambahan tanggungan Rp4.500.000 per orang (maksimal 3 tanggungan). Perhitungan: Rp54.000.000 + Rp4.500.000 (kawin) + (2 × Rp4.500.000) (tanggungan) = Rp67.500.000."
+        },
+        {
+            "id": "q-37",
+            "pertanyaan": "Melanjutkan soal Pak Budi (PTKP Rp67.500.000, penghasilan neto Rp150.000.000), berapa Penghasilan Kena Pajak (PKP) yang digunakan untuk menghitung PPh Pasal 17?",
+            "tipe": "pilihan_ganda",
+            "pilihan": [
+                "A. Rp67.500.000",
+                "B. Rp82.500.000",
+                "C. Rp96.000.000",
+                "D. Rp150.000.000"
+            ],
+            "jawaban": "B",
+            "pembahasan": "Penghasilan Kena Pajak dihitung dari Penghasilan Neto dikurangi PTKP: Rp150.000.000 - Rp67.500.000 = Rp82.500.000. Angka inilah yang selanjutnya dimasukkan ke tarif progresif Pasal 17 UU HPP secara berlapis (5%, 15%, 25%, 30%, 35%) untuk menghitung PPh terutang setahun."
+        },
+        {
+            "id": "q-38",
+            "pertanyaan": "Dengan PKP Rp82.500.000 (soal Pak Budi), berapa PPh terutang setahun menggunakan tarif progresif Pasal 17 UU HPP (5% untuk 0-60jt, 15% untuk di atas 60jt-250jt)?",
+            "tipe": "pilihan_ganda",
+            "pilihan": [
+                "A. Rp3.375.000",
+                "B. Rp6.375.000",
+                "C. Rp8.250.000",
+                "D. Rp12.375.000"
+            ],
+            "jawaban": "B",
+            "pembahasan": "Perhitungan berlapis: lapisan pertama 5% × Rp60.000.000 = Rp3.000.000. Sisa PKP Rp82.500.000 - Rp60.000.000 = Rp22.500.000 dikenakan tarif 15% = Rp3.375.000. Total PPh terutang setahun = Rp3.000.000 + Rp3.375.000 = Rp6.375.000."
+        },
+        {
+            "id": "q-39",
+            "pertanyaan": "Sebuah perusahaan mengimpor bahan baku senilai Rp500.000.000 menggunakan Angka Pengenal Importir (API), dengan tarif PPh Pasal 22 impor 2,5%. Berapa PPh 22 yang harus dipungut?",
+            "tipe": "pilihan_ganda",
+            "pilihan": [
+                "A. Rp10.000.000",
+                "B. Rp12.500.000",
+                "C. Rp25.000.000",
+                "D. Rp37.500.000"
+            ],
+            "jawaban": "B",
+            "pembahasan": "PPh Pasal 22 atas impor dengan API dikenakan tarif 2,5% dari nilai impor. Perhitungan: Rp500.000.000 × 2,5% = Rp12.500.000. Bila importir tidak memiliki API, tarifnya lebih tinggi (7,5%) sebagai bentuk disinsentif administratif."
+        },
+        {
+            "id": "q-40",
+            "pertanyaan": "CV Makmur Jaya membayar jasa konsultan sebesar Rp50.000.000 kepada konsultan pajak berbadan hukum. Dengan tarif PPh Pasal 23 atas jasa sebesar 2%, berapa PPh 23 yang wajib dipotong?",
+            "tipe": "pilihan_ganda",
+            "pilihan": [
+                "A. Rp500.000",
+                "B. Rp1.000.000",
+                "C. Rp1.500.000",
+                "D. Rp2.500.000"
+            ],
+            "jawaban": "B",
+            "pembahasan": "PPh Pasal 23 atas jasa (termasuk jasa konsultan) dikenakan tarif 2% dari jumlah bruto bagi penerima penghasilan yang memiliki NPWP. Perhitungan: Rp50.000.000 × 2% = Rp1.000.000. Jika penerima tidak memiliki NPWP, tarif menjadi lebih tinggi (100% lebih besar, yakni 4%)."
+        },
+        {
+            "id": "q-41",
+            "pertanyaan": "Seorang pengusaha UMKM dengan omzet Rp600.000.000 per tahun memilih skema PPh Final UMKM sesuai PP 55/2022 dengan tarif 0,5%. Berapa PPh Final yang wajib dibayar dari omzet bulan tersebut jika omzet bulan itu Rp50.000.000?",
+            "tipe": "pilihan_ganda",
+            "pilihan": [
+                "A. Rp150.000",
+                "B. Rp250.000",
+                "C. Rp500.000",
+                "D. Rp1.000.000"
+            ],
+            "jawaban": "B",
+            "pembahasan": "PPh Final UMKM dihitung 0,5% dari omzet bruto bulanan, bukan dari laba bersih. Perhitungan: Rp50.000.000 × 0,5% = Rp250.000. Skema ini hanya berlaku bagi WP dengan omzet di bawah Rp4,8 miliar/tahun dan memiliki batas waktu penggunaan (maksimal beberapa tahun tergantung jenis WP)."
+        },
+        {
+            "id": "q-42",
+            "pertanyaan": "Sebuah tanah dan bangunan dengan Nilai Perolehan Objek Pajak (NPOP) Rp800.000.000 dan NPOPTKP Rp80.000.000 dikenakan BPHTB dengan tarif maksimal 5%. Berapa BPHTB yang harus dibayar?",
+            "tipe": "pilihan_ganda",
+            "pilihan": [
+                "A. Rp36.000.000",
+                "B. Rp38.000.000",
+                "C. Rp40.000.000",
+                "D. Rp42.000.000"
+            ],
+            "jawaban": "A",
+            "pembahasan": "Dasar pengenaan BPHTB adalah NPOP dikurangi NPOPTKP: Rp800.000.000 - Rp80.000.000 = Rp720.000.000. Kemudian dikalikan tarif maksimal 5%: Rp720.000.000 × 5% = Rp36.000.000. Tarif dan NPOPTKP BPHTB ditetapkan oleh Peraturan Daerah masing-masing sesuai UU HKPD No. 1/2022, sehingga bisa bervariasi antar daerah."
+        },
+        {
+            "id": "q-43",
+            "pertanyaan": "Deposito milik seorang nasabah menghasilkan bunga Rp10.000.000 dalam setahun. Dengan tarif PPh Final atas bunga deposito 20%, berapa pajak yang dipotong bank?",
+            "tipe": "pilihan_ganda",
+            "pilihan": [
+                "A. Rp1.000.000",
+                "B. Rp1.500.000",
+                "C. Rp2.000.000",
+                "D. Rp2.500.000"
+            ],
+            "jawaban": "C",
+            "pembahasan": "Bunga deposito dan tabungan dikenakan PPh Final Pasal 4 ayat (2) dengan tarif 20% dari jumlah bruto bunga yang diterima. Perhitungan: Rp10.000.000 × 20% = Rp2.000.000. Pajak ini bersifat final sehingga tidak digabung lagi dengan penghasilan lain saat pelaporan SPT Tahunan."
+        },
+        {
+            "id": "q-44",
+            "pertanyaan": "Sebuah SPT Masa PPh 21 seharusnya dilaporkan tanggal 20 Februari 2026, namun baru dilaporkan 25 Maret 2026 (terlambat). Berapa denda keterlambatan lapor yang dikenakan sesuai Pasal 7 UU KUP?",
+            "tipe": "pilihan_ganda",
+            "pilihan": [
+                "A. Rp100.000",
+                "B. Rp500.000",
+                "C. Rp1.000.000",
+                "D. Tidak ada denda karena masih dalam bulan yang sama"
+            ],
+            "jawaban": "A",
+            "pembahasan": "SPT Masa selain PPN (termasuk PPh 21) yang terlambat dilaporkan dikenai denda tetap Rp100.000 sesuai Pasal 7 UU KUP, terlepas dari berapa lama keterlambatannya. Denda ini murni sanksi administratif atas keterlambatan pelaporan, terpisah dari sanksi bunga bila ada pajak yang kurang dibayar."
+        },
+        {
+            "id": "q-45",
+            "pertanyaan": "Seorang wajib pajak kurang bayar pajak Rp20.000.000 dan terlambat membayar selama 3 bulan. Jika Suku Bunga Acuan KMK 6% per tahun dan uplift 5%, berapa sanksi bunga yang harus dibayar? (Gunakan formula (SBA+Uplift)÷12×bulan×pajak kurang bayar)",
+            "tipe": "pilihan_ganda",
+            "pilihan": [
+                "A. Rp275.000",
+                "B. Rp450.000",
+                "C. Rp550.000",
+                "D. Rp600.000"
+            ],
+            "jawaban": "C",
+            "pembahasan": "Perhitungan: (6% + 5%) ÷ 12 × 3 × Rp20.000.000 = 11% ÷ 12 × 3 × Rp20.000.000 = 0,009167 × 3 × Rp20.000.000 = 0,0275 × Rp20.000.000 = Rp550.000. Uplift 5% berlaku untuk kondisi keterlambatan pembayaran pajak yang kurang dibayar sesuai ketentuan UU HPP."
+        },
+        {
+            "id": "q-46",
+            "pertanyaan": "Seorang karyawan lajang (TER Kategori A) memiliki penghasilan bruto bulanan Rp10.000.000 dengan tarif TER kategori A sebesar 5% pada lapisan penghasilannya. Berapa PPh 21 yang dipotong bulan tersebut?",
+            "tipe": "pilihan_ganda",
+            "pilihan": [
+                "A. Rp300.000",
+                "B. Rp500.000",
+                "C. Rp750.000",
+                "D. Rp1.000.000"
+            ],
+            "jawaban": "B",
+            "pembahasan": "Skema TER (Tarif Efektif Rata-rata) sesuai PP 58/2023 dan PMK 168/2023 langsung mengalikan tarif efektif bulanan terhadap penghasilan bruto bulanan tanpa perhitungan PTKP manual tiap bulan. Perhitungan: Rp10.000.000 × 5% = Rp500.000. Perhitungan ulang tahunan (disetahunkan) tetap dilakukan pada Masa Pajak Desember menggunakan tarif Pasal 17."
+        },
+        {
+            "id": "q-47",
+            "pertanyaan": "Wajib pajak yang mengajukan Keberatan atas SKPKB harus memenuhi syarat waktu pengajuan paling lambat...",
+            "tipe": "pilihan_ganda",
+            "pilihan": [
+                "A. 1 bulan sejak SKP dikirim",
+                "B. 3 bulan sejak SKP dikirim",
+                "C. 6 bulan sejak SKP dikirim",
+                "D. 12 bulan sejak SKP dikirim"
+            ],
+            "jawaban": "B",
+            "pembahasan": "Keberatan harus diajukan tertulis dalam Bahasa Indonesia paling lambat 3 bulan sejak tanggal SKP dikirim atau sejak tanggal pemotongan/pemungutan dilakukan, disertai alasan jelas dan perhitungan versi wajib pajak (Pasal 25-26 UU KUP)."
+        },
+        {
+            "id": "q-48",
+            "pertanyaan": "Fungsi pajak yang berkaitan dengan penggunaan pajak progresif dari orang kaya untuk mensubsidi masyarakat kurang mampu disebut fungsi...",
+            "tipe": "pilihan_ganda",
+            "pilihan": [
+                "A. Budgetair",
+                "B. Regulerend",
+                "C. Stabilitas",
+                "D. Redistribusi Pendapatan"
+            ],
+            "jawaban": "D",
+            "pembahasan": "Fungsi Redistribusi memanfaatkan tarif progresif PPh OP (makin tinggi penghasilan, makin besar tarif) untuk mengumpulkan dana yang kemudian disalurkan sebagai subsidi dan bantuan sosial, sehingga mengurangi kesenjangan ekonomi antar kelompok masyarakat secara bertahap."
+        },
+        {
+            "id": "q-49",
+            "pertanyaan": "Manakah dari berikut ini yang merupakan contoh Pajak Pusat yang dipungut oleh DJP?",
+            "tipe": "pilihan_ganda",
+            "pilihan": [
+                "A. Pajak Kendaraan Bermotor (PKB)",
+                "B. Bea Meterai",
+                "C. BPHTB",
+                "D. Pajak Barang dan Jasa Tertentu (PBJT)"
+            ],
+            "jawaban": "B",
+            "pembahasan": "Bea Meterai termasuk Pajak Pusat yang dipungut DJP, bersama PPh, PPN, dan PPnBM. Sementara PKB, BPHTB, dan PBJT (10% sesuai UU HKPD No. 1/2022) adalah Pajak Daerah yang dipungut oleh Bapenda di masing-masing pemerintah daerah."
+        },
+        {
+            "id": "q-50",
+            "pertanyaan": "Seorang WP Orang Pribadi meninggal dunia tanpa meninggalkan warisan dan tidak lagi memenuhi syarat subjektif maupun objektif perpajakan. Prosedur administratif yang tepat dilakukan terhadap NPWP-nya adalah...",
+            "tipe": "pilihan_ganda",
+            "pilihan": [
+                "A. Pencabutan Pengukuhan PKP",
+                "B. Penghapusan NPWP",
+                "C. Pembetulan SPT",
+                "D. Pengajuan Keberatan"
+            ],
+            "jawaban": "B",
+            "pembahasan": "Penghapusan NPWP dapat diajukan/dilakukan ketika wajib pajak sudah tidak memenuhi syarat subjektif dan objektif, misalnya meninggal dunia tanpa warisan, pindah kewarganegaraan, atau badan usaha bubar. Pencabutan Pengukuhan PKP berlaku khusus bagi pengusaha yang sudah tidak menjalankan usaha kena pajak."
+        },
+        {
+            "id": "q-51",
+            "pertanyaan": "Bea Masuk atas barang impor dan Cukai atas rokok termasuk dalam kategori pungutan negara yang disebut...",
+            "tipe": "pilihan_ganda",
+            "pilihan": [
+                "A. Pajak Pusat murni",
+                "B. Pajak Daerah",
+                "C. Bea dan Cukai (objek spesifik)",
+                "D. Retribusi"
+            ],
+            "jawaban": "C",
+            "pembahasan": "Bea dan Cukai masih 'saudara' pajak namun objeknya spesifik: Bea Masuk untuk barang impor dan Cukai untuk barang tertentu seperti rokok dan minuman beralkohol yang sengaja dikenai pungutan tinggi guna mengatur konsumsi masyarakat, berbeda dengan pajak umum yang objeknya luas."
+        },
+        {
+            "id": "q-52",
+            "pertanyaan": "Natura dan kenikmatan tertentu dari pemberi kerja yang sesuai batasan PMK 66/2023 termasuk kategori...",
+            "tipe": "pilihan_ganda",
+            "pilihan": [
+                "A. Objek pajak yang wajib dikenakan PPh 21",
+                "B. Pengecualian objek pajak",
+                "C. Objek PPN 12%",
+                "D. Objek PPnBM"
+            ],
+            "jawaban": "B",
+            "pembahasan": "PMK 66/2023 mengatur batasan natura dan kenikmatan tertentu dari pemberi kerja yang dikecualikan dari objek pajak, meski secara umum objek pajak didefinisikan sebagai setiap tambahan kemampuan ekonomis yang diterima wajib pajak. Pengecualian lain termasuk warisan dan bantuan/sumbangan tanpa hubungan usaha."
+        },
+        {
+            "id": "q-53",
+            "pertanyaan": "Perbedaan mendasar Wajib Pajak Badan yang wajib Pembukuan dengan WP OP yang boleh Pencatatan adalah pada aspek...",
+            "tipe": "pilihan_ganda",
+            "pilihan": [
+                "A. Batas omzet Rp4,8 miliar dan status badan usaha",
+                "B. Lokasi domisili wajib pajak",
+                "C. Jenis usaha yang dijalankan",
+                "D. Jumlah karyawan yang dimiliki"
+            ],
+            "jawaban": "A",
+            "pembahasan": "WP Badan WAJIB melakukan Pembukuan tanpa syarat omzet, sedangkan WP OP boleh memilih Pencatatan hanya jika omzetnya di bawah Rp4,8 miliar/tahun dan menggunakan NPPN atau skema PPh Final UMKM. Begitu omzet WP OP melewati batas tersebut, wajib beralih ke Pembukuan penuh."
+        },
+        {
+            "id": "q-54",
+            "pertanyaan": "Kode unik yang harus digenerate sebelum membayar pajak lewat bank/ATM/internet banking di era Coretax disebut...",
+            "tipe": "pilihan_ganda",
+            "pilihan": [
+                "A. NPWP",
+                "B. Kode Billing",
+                "C. EFIN",
+                "D. SPT"
+            ],
+            "jawaban": "B",
+            "pembahasan": "Kode Billing (dahulu dikenal sebagai SSP/Surat Setoran Pajak) adalah kode unik yang harus digenerate wajib pajak sebelum melakukan pembayaran pajak melalui bank, ATM, internet banking, atau kanal pembayaran resmi lainnya. Tanpa Kode Billing, pembayaran tidak akan tercatat dengan benar di sistem DJP."
+        },
+        {
+            "id": "q-55",
+            "pertanyaan": "Manakah pernyataan yang PALING TEPAT mengenai Pemeriksaan Lapangan dibanding Pemeriksaan Kantor?",
+            "tipe": "pilihan_ganda",
+            "pilihan": [
+                "A. Pemeriksaan Lapangan dilakukan di tempat usaha/domisili WP, Pemeriksaan Kantor di kantor DJP",
+                "B. Keduanya sama-sama dilakukan di kantor DJP",
+                "C. Pemeriksaan Lapangan hanya untuk WP Badan",
+                "D. Pemeriksaan Kantor tidak memerlukan SPHP"
+            ],
+            "jawaban": "A",
+            "pembahasan": "Pemeriksaan Lapangan dilakukan langsung di tempat usaha atau domisili wajib pajak, sedangkan Pemeriksaan Kantor dilakukan di kantor DJP dengan WP dipanggil untuk klarifikasi dan menyerahkan dokumen. Keduanya sama-sama diakhiri dengan SPHP dan Closing Conference sebelum SKP diterbitkan."
+        },
+        {
+            "id": "q-56",
+            "pertanyaan": "Sistem administrasi perpajakan terbaru DJP yang mulai berlaku penuh menggantikan DJP Online sejak awal 2025 disebut...",
+            "tipe": "pilihan_ganda",
+            "pilihan": [
+                "A. e-Filing",
+                "B. e-Billing",
+                "C. Coretax (Core Tax Administration System)",
+                "D. e-Faktur"
+            ],
+            "jawaban": "C",
+            "pembahasan": "Coretax DJP atau Core Tax Administration System (CTAS) adalah sistem administrasi pajak terbaru yang mulai berlaku penuh menggantikan DJP Online sejak awal 2025 dan terus disempurnakan, mencakup e-Registration, Kode Billing, pelaporan SPT, dan berbagai layanan perpajakan terintegrasi lainnya."
+        },
+        {
+            "id": "q-57",
+            "pertanyaan": "PT Cahaya Mandiri menjual barang mewah (mobil) senilai Rp1.000.000.000 yang kena PPN 12% penuh dan PPnBM 20%. Berapa total PPN yang dipungut?",
+            "tipe": "pilihan_ganda",
+            "pilihan": [
+                "A. Rp100.000.000",
+                "B. Rp110.000.000",
+                "C. Rp120.000.000",
+                "D. Rp132.000.000"
+            ],
+            "jawaban": "C",
+            "pembahasan": "Untuk barang mewah yang juga dikenakan PPnBM (seperti mobil), tarif PPN yang berlaku adalah 12% penuh sesuai Pasal 7 UU HPP. Perhitungan PPN: Rp1.000.000.000 × 12% = Rp120.000.000 (belum termasuk PPnBM 20% yang dihitung terpisah dari harga jual sebelum PPN)."
+        },
+        {
+            "id": "q-58",
+            "pertanyaan": "Jenis SKP yang diterbitkan ketika jumlah pajak yang dibayar wajib pajak persis sama dengan yang terutang adalah...",
+            "tipe": "pilihan_ganda",
+            "pilihan": [
+                "A. SKPKB",
+                "B. SKPLB",
+                "C. SKPN",
+                "D. SKPKBT"
+            ],
+            "jawaban": "C",
+            "pembahasan": "SKPN (Surat Ketetapan Pajak Nihil) diterbitkan ketika jumlah pajak yang dibayar sama persis dengan jumlah yang terutang, alias tidak ada kurang maupun lebih bayar. Ini berbeda dari SKPKB (kurang bayar), SKPLB (lebih bayar), dan SKPKBT (tambahan kurang bayar setelah SKPKB)."
+        },
+        {
+            "id": "q-59",
+            "pertanyaan": "Manakah urutan yang BENAR dalam hierarki upaya hukum sengketa pajak dari yang paling ringan ke paling berat?",
+            "tipe": "pilihan_ganda",
+            "pilihan": [
+                "A. Banding → Keberatan → Peninjauan Kembali",
+                "B. Keberatan → Banding/Gugatan → Peninjauan Kembali",
+                "C. Peninjauan Kembali → Keberatan → Banding",
+                "D. Gugatan → Peninjauan Kembali → Keberatan"
+            ],
+            "jawaban": "B",
+            "pembahasan": "Sengketa pajak didesain berjenjang: dimulai dari Keberatan (administratif, ke DJP), lalu Banding atau Gugatan (yudisial tingkat pertama, ke Pengadilan Pajak), dan terakhir Peninjauan Kembali sebagai upaya hukum luar biasa ke Mahkamah Agung. Wajib pajak tidak bisa melompati tahapan ini."
+        },
+        {
+            "id": "q-60",
+            "pertanyaan": "Perlawanan pajak yang muncul BUKAN karena niat sengaja wajib pajak, melainkan karena kondisi struktural seperti rendahnya kesadaran masyarakat, disebut...",
+            "tipe": "pilihan_ganda",
+            "pilihan": [
+                "A. Perlawanan Aktif",
+                "B. Perlawanan Pasif",
+                "C. Tax Evasion",
+                "D. Tax Avoidance"
+            ],
+            "jawaban": "B",
+            "pembahasan": "Perlawanan Pasif adalah hambatan pemungutan pajak yang muncul bukan dari niat jahat, melainkan kondisi struktural seperti rendahnya kesadaran masyarakat, ekonomi yang belum merata, atau administrasi yang masih rumit. Berbeda dengan Perlawanan Aktif (Tax Avoidance dan Tax Evasion) yang melibatkan niat sengaja."
+        },
+        {
+            "id": "q-61",
+            "pertanyaan": "Sebuah restoran menjual makanan senilai Rp2.000.000 kena PPN 12%. Berapa total harga yang harus dibayar konsumen (harga + PPN)?",
+            "tipe": "pilihan_ganda",
+            "pilihan": [
+                "A. Rp2.120.000",
+                "B. Rp2.220.000",
+                "C. Rp2.240.000",
+                "D. Rp2.400.000"
+            ],
+            "jawaban": "C",
+            "pembahasan": "PPN dihitung dari Dasar Pengenaan Pajak (harga jual) dikali tarif: Rp2.000.000 × 12% = Rp240.000. Total yang dibayar konsumen = harga barang + PPN = Rp2.000.000 + Rp240.000 = Rp2.240.000, sesuai tarif resmi PPN 12% Pasal 7 UU HPP No. 7/2021."
+        },
+        {
+            "id": "q-62",
+            "pertanyaan": "Manakah yang merupakan contoh penerapan Asas Sumber (Source Principle) dalam pemajakan internasional?",
+            "tipe": "pilihan_ganda",
+            "pilihan": [
+                "A. Indonesia memungut pajak atas penghasilan warga negara asing yang bersumber dari kegiatan usaha di Indonesia",
+                "B. Indonesia memungut pajak atas seluruh penghasilan warganya di manapun diperoleh",
+                "C. Indonesia memungut pajak berdasarkan kewarganegaraan seseorang",
+                "D. Indonesia tidak memungut pajak dari WNA sama sekali"
+            ],
+            "jawaban": "A",
+            "pembahasan": "Asas Sumber menyatakan negara berhak memungut pajak atas penghasilan yang sumbernya berada di negara tersebut, tanpa memandang siapa penerimanya atau di mana ia berdomisili. Opsi B menggambarkan Asas Domisili (worldwide income), dan opsi C menggambarkan Asas Kebangsaan yang tidak dianut murni oleh Indonesia."
+        },
+        {
+            "id": "q-63",
+            "pertanyaan": "Dalam Coretax, proses verifikasi data NIK calon wajib pajak dilakukan melalui sinkronisasi dengan lembaga...",
+            "tipe": "pilihan_ganda",
+            "pilihan": [
+                "A. Kementerian Keuangan",
+                "B. Dukcapil (Kementerian Dalam Negeri)",
+                "C. OJK",
+                "D. Bank Indonesia"
+            ],
+            "jawaban": "B",
+            "pembahasan": "Proses e-Registration di Portal Coretax DJP melibatkan verifikasi data NIK melalui sinkronisasi dengan Dukcapil (Direktorat Jenderal Kependudukan dan Pencatatan Sipil), memastikan data KTP calon wajib pajak valid sebelum NPWP otomatis aktif tanpa perlu datang fisik ke KPP."
+        },
+        {
+            "id": "q-64",
+            "pertanyaan": "Seorang freelancer menerima honorarium jasa desain grafis Rp15.000.000 dari sebuah perusahaan berbadan hukum. Jika ia TIDAK memiliki NPWP, dan tarif normal PPh 23 jasa adalah 2%, berapa PPh 23 yang dipotong (tarif tanpa NPWP 100% lebih tinggi)?",
+            "tipe": "pilihan_ganda",
+            "pilihan": [
+                "A. Rp300.000",
+                "B. Rp450.000",
+                "C. Rp600.000",
+                "D. Rp900.000"
+            ],
+            "jawaban": "C",
+            "pembahasan": "Wajib pajak tanpa NPWP dikenai tarif PPh 23 lebih tinggi 100% dari tarif normal, sehingga tarif menjadi 2% × 2 = 4%. Perhitungan: Rp15.000.000 × 4% = Rp600.000. Ketentuan ini mendorong wajib pajak segera mengurus NPWP agar tidak dikenai tarif lebih besar."
+        },
+        {
+            "id": "q-65",
+            "pertanyaan": "Manakah pernyataan yang TEPAT mengenai hubungan antara Hukum Pajak Material dan Formal?",
+            "tipe": "pilihan_ganda",
+            "pilihan": [
+                "A. Keduanya saling terpisah dan tidak berkaitan",
+                "B. Hukum Formal mengatur substansi, Hukum Material mengatur prosedur",
+                "C. Hukum Material seperti resep masakan, Hukum Formal seperti cara memasaknya — keduanya saling melengkapi",
+                "D. Hanya Hukum Formal yang berlaku di Indonesia"
+            ],
+            "jawaban": "C",
+            "pembahasan": "Analogi yang tepat: Hukum Pajak Material seperti resep masakan (bahan dan takaran/substansi pajak), sedangkan Hukum Pajak Formal seperti cara memasaknya (prosedur pelaksanaan). Keduanya saling melengkapi — tanpa material kita tidak tahu berapa pajak terutang, tanpa formal kita tidak tahu cara bayarnya."
+        },
+        {
+            "id": "q-66",
+            "pertanyaan": "PT Global Sukses memiliki Penghasilan Kena Pajak Rp5.000.000.000 pada tahun pajak 2026. Dengan tarif PPh Badan 22%, berapa PPh Badan yang harus dibayar?",
+            "tipe": "pilihan_ganda",
+            "pilihan": [
+                "A. Rp900.000.000",
+                "B. Rp1.000.000.000",
+                "C. Rp1.100.000.000",
+                "D. Rp1.200.000.000"
+            ],
+            "jawaban": "C",
+            "pembahasan": "Tarif PPh Badan flat 22% berlaku untuk seluruh Penghasilan Kena Pajak tanpa berlapis (berbeda dengan PPh OP yang progresif). Perhitungan: Rp5.000.000.000 × 22% = Rp1.100.000.000."
+        },
+        {
+            "id": "q-67",
+            "pertanyaan": "Seorang WP OP memiliki PKP Rp600.000.000 setahun. Menggunakan tarif Pasal 17 berlapis (5% s/d 60jt, 15% 60jt-250jt, 25% 250jt-500jt, 30% di atas 500jt-5M), berapa PPh terutang setahun?",
+            "tipe": "pilihan_ganda",
+            "pilihan": [
+                "A. Rp120.000.000",
+                "B. Rp150.000.000",
+                "C. Rp153.500.000",
+                "D. Rp180.000.000"
+            ],
+            "jawaban": "C",
+            "pembahasan": "Perhitungan berlapis: 5% × 60jt = 3jt; 15% × (250jt-60jt=190jt) = 28,5jt; 25% × (500jt-250jt=250jt) = 62,5jt; 30% × (600jt-500jt=100jt) = 30jt. Total = 3jt + 28,5jt + 62,5jt + 30jt = Rp153.500.000 sebagai PPh terutang setahun secara progresif berlapis."
+        },
+        {
+            "id": "q-68",
+            "pertanyaan": "Batas waktu Gugatan atas keputusan-keputusan lain di luar sengketa pelaksanaan penagihan adalah...",
+            "tipe": "pilihan_ganda",
+            "pilihan": [
+                "A. 14 hari",
+                "B. 30 hari",
+                "C. 3 bulan",
+                "D. 12 bulan"
+            ],
+            "jawaban": "B",
+            "pembahasan": "Gugatan atas keputusan-keputusan lain (di luar sengketa pelaksanaan penagihan seperti Surat Paksa) memiliki jangka waktu pengajuan 30 hari, sedangkan Gugatan atas pelaksanaan penagihan hanya 14 hari. Kedua jangka waktu ini jauh lebih singkat dibanding Keberatan dan Banding yang masing-masing 3 bulan."
+        },
+        {
+            "id": "q-69",
+            "pertanyaan": "Manakah yang merupakan contoh Pajak Daerah sesuai UU HKPD No. 1/2022?",
+            "tipe": "pilihan_ganda",
+            "pilihan": [
+                "A. PPh Pasal 21",
+                "B. Pajak Kendaraan Bermotor (PKB)",
+                "C. Bea Meterai",
+                "D. PPnBM"
+            ],
+            "jawaban": "B",
+            "pembahasan": "Pajak Kendaraan Bermotor (PKB) adalah Pajak Daerah yang dipungut oleh Bapenda, bersama BPHTB dan PBJT 10% sesuai UU HKPD No. 1/2022. Sementara PPh 21, Bea Meterai, dan PPnBM adalah Pajak Pusat yang dipungut oleh DJP."
+        },
+        {
+            "id": "q-70",
+            "pertanyaan": "Setelah Pemeriksaan selesai, fiskus wajib memberikan dokumen berikut kepada wajib pajak sebelum SKP resmi diterbitkan:",
+            "tipe": "pilihan_ganda",
+            "pilihan": [
+                "A. Surat Paksa",
+                "B. Surat Pemberitahuan Hasil Pemeriksaan (SPHP)",
+                "C. Surat Keputusan Keberatan",
+                "D. Kode Billing"
+            ],
+            "jawaban": "B",
+            "pembahasan": "SPHP (Surat Pemberitahuan Hasil Pemeriksaan) wajib diberikan fiskus ke wajib pajak setelah pemeriksaan selesai, diikuti Closing Conference (pembahasan akhir) sebelum SKP resmi diterbitkan. Ini memberi kesempatan wajib pajak untuk menanggapi dan menyerahkan bukti tambahan sebelum ketetapan final."
+        },
+        {
+            "id": "q-71",
+            "pertanyaan": "Sebuah perusahaan yang menyewakan ruko dengan nilai sewa Rp100.000.000 per tahun dikenakan PPh Final Pasal 4 ayat (2) atas sewa tanah/bangunan sebesar 10%. Berapa PPh Final yang harus dipotong?",
+            "tipe": "pilihan_ganda",
+            "pilihan": [
+                "A. Rp5.000.000",
+                "B. Rp10.000.000",
+                "C. Rp15.000.000",
+                "D. Rp20.000.000"
+            ],
+            "jawaban": "B",
+            "pembahasan": "PPh Final Pasal 4 ayat (2) atas persewaan tanah dan/atau bangunan dikenakan tarif 10% dari jumlah bruto nilai sewa. Perhitungan: Rp100.000.000 × 10% = Rp10.000.000. Sifatnya final artinya tidak digabung dengan penghasilan lain dalam penghitungan PPh Tahunan."
+        },
+        {
+            "id": "q-72",
+            "pertanyaan": "Manakah pernyataan yang TEPAT terkait Sanksi Bunga uplift 20%?",
+            "tipe": "pilihan_ganda",
+            "pilihan": [
+                "A. Berlaku untuk kondisi normal seperti pembetulan SPT",
+                "B. Berlaku untuk kondisi terberat seperti indikasi pidana pajak yang belum masuk penyidikan",
+                "C. Berlaku untuk keterlambatan pembayaran biasa",
+                "D. Tidak pernah digunakan dalam praktik"
+            ],
+            "jawaban": "B",
+            "pembahasan": "Uplift 20% adalah tingkatan tertinggi, dikenakan untuk kondisi terberat seperti ditemukannya indikasi pidana pajak yang belum masuk tahap penyidikan. Tingkatan lain lebih rendah: 0% untuk pembetulan SPT normal, 5% untuk keterlambatan bayar biasa, hingga 10%-15% untuk kondisi terkait SKPKB dan pelanggaran lebih serius."
+        },
+        {
+            "id": "q-73",
+            "pertanyaan": "Wajib pajak Badan dengan omzet Rp10 miliar per tahun WAJIB menyelenggarakan...",
+            "tipe": "pilihan_ganda",
+            "pilihan": [
+                "A. Pencatatan sederhana",
+                "B. Pembukuan sesuai prinsip SAK",
+                "C. Tidak wajib mencatat apapun",
+                "D. NPPN"
+            ],
+            "jawaban": "B",
+            "pembahasan": "WP Badan wajib menyelenggarakan Pembukuan sesuai prinsip SAK tanpa syarat batas omzet, berbeda dengan WP OP yang baru wajib Pembukuan jika omzetnya di atas Rp4,8 miliar/tahun. Pembukuan harus disusun taat asas/konsisten dan bisa berbahasa Indonesia atau Inggris dengan izin Menteri Keuangan."
+        },
+        {
+            "id": "q-74",
+            "pertanyaan": "PPh Pasal 22 dengan tarif lebih tinggi (7,5%) dikenakan pada importir yang...",
+            "tipe": "pilihan_ganda",
+            "pilihan": [
+                "A. Memiliki Angka Pengenal Importir (API)",
+                "B. Tidak memiliki Angka Pengenal Importir (API)",
+                "C. Mengimpor barang mewah saja",
+                "D. Mengimpor barang untuk re-ekspor"
+            ],
+            "jawaban": "B",
+            "pembahasan": "Importir tanpa Angka Pengenal Importir (API) dikenakan tarif PPh Pasal 22 lebih tinggi (7,5%) dibanding importir yang memiliki API (2,5%), sebagai bentuk disinsentif administratif untuk mendorong kepatuhan dan kepemilikan izin impor resmi."
+        },
+        {
+            "id": "q-75",
+            "pertanyaan": "Dalam Coretax, jika Keberatan dan Banding wajib pajak DIKABULKAN sehingga terjadi kelebihan bayar, negara wajib memberikan...",
+            "tipe": "pilihan_ganda",
+            "pilihan": [
+                "A. Sanksi Bunga kepada wajib pajak",
+                "B. Imbalan Bunga kepada wajib pajak",
+                "C. Denda administratif",
+                "D. Surat Paksa"
+            ],
+            "jawaban": "B",
+            "pembahasan": "Imbalan Bunga (Pasal 27A UU KUP) wajib diberikan negara kepada wajib pajak apabila Keberatan atau Banding dikabulkan sehingga terjadi kelebihan bayar yang harus dikembalikan, sebagai bentuk keadilan dua arah dalam sistem perpajakan modern."
+        },
+        {
+            "id": "q-76",
+            "pertanyaan": "Manakah dari berikut yang merupakan contoh penerapan Withholding Assessment System selain PPh 21?",
+            "tipe": "pilihan_ganda",
+            "pilihan": [
+                "A. PBB melalui SPPT",
+                "B. PPh 23 yang dipotong pembeli jasa dari pembayaran ke penyedia jasa",
+                "C. SPT Tahunan yang dihitung sendiri oleh WP",
+                "D. NPWP yang didaftarkan sendiri oleh WP"
+            ],
+            "jawaban": "B",
+            "pembahasan": "PPh 23 adalah contoh lain Withholding Assessment System, di mana pihak pembeli jasa (sebagai pemotong yang ditunjuk UU) memotong pajak dari pembayaran ke penyedia jasa. PBB adalah Official Assessment, sedangkan penghitungan SPT sendiri dan pendaftaran NPWP mandiri berkaitan dengan Self Assessment System."
+        },
+        {
+            "id": "q-77",
+            "pertanyaan": "Sebuah perusahaan menjual saham di bursa efek senilai Rp200.000.000 dengan tarif PPh Final transaksi saham 0,1%. Berapa PPh Final yang dipotong?",
+            "tipe": "pilihan_ganda",
+            "pilihan": [
+                "A. Rp100.000",
+                "B. Rp200.000",
+                "C. Rp400.000",
+                "D. Rp2.000.000"
+            ],
+            "jawaban": "B",
+            "pembahasan": "Transaksi penjualan saham di bursa efek dikenakan PPh Final sebesar 0,1% dari nilai transaksi bruto (Pasal 4 ayat 2). Perhitungan: Rp200.000.000 × 0,1% = Rp200.000. Tarif ini bersifat final dan dipotong langsung oleh penyelenggara bursa saat transaksi terjadi."
+        },
+        {
+            "id": "q-78",
+            "pertanyaan": "Wajib pajak yang dengan sengaja tidak mendaftarkan diri untuk memperoleh NPWP padahal telah memenuhi syarat subjektif dan objektif, dapat dikenai sanksi pidana sesuai...",
+            "tipe": "pilihan_ganda",
+            "pilihan": [
+                "A. Pasal 7 UU KUP",
+                "B. Pasal 8 UU KUP",
+                "C. Pasal 27A UU KUP",
+                "D. Pasal 39 UU KUP"
+            ],
+            "jawaban": "D",
+            "pembahasan": "Pasal 39 UU KUP mengatur sanksi pidana bagi wajib pajak yang dengan sengaja tidak mendaftarkan diri untuk memperoleh NPWP atau NPPKP padahal telah memenuhi syarat, dengan ancaman mulai dari pidana penjara hingga denda yang nilainya bisa berkali lipat dari pajak terutang."
+        },
+        {
+            "id": "q-79",
+            "pertanyaan": "Manakah yang PALING TEPAT menggambarkan perbedaan antara Sumbangan dan Pajak?",
+            "tipe": "pilihan_ganda",
+            "pilihan": [
+                "A. Sumbangan bersifat wajib, pajak bersifat sukarela",
+                "B. Sumbangan bersifat sukarela, pajak bersifat wajib dan dapat dipaksakan",
+                "C. Keduanya sama-sama diatur undang-undang dan wajib",
+                "D. Sumbangan hanya boleh diberikan ke negara"
+            ],
+            "jawaban": "B",
+            "pembahasan": "Sumbangan sifatnya sukarela alias tidak dipaksa oleh hukum — seseorang boleh memilih untuk tidak memberi. Pajak sebaliknya bersifat wajib dan dapat dipaksakan berdasarkan undang-undang, dengan sanksi administratif hingga pidana bagi yang tidak patuh."
+        },
+        {
+            "id": "q-80",
+            "pertanyaan": "PT Bahagia Sentosa memiliki PKP Rp300.000.000. Dengan tarif progresif Pasal 17 (5% s/d 60jt, 15% 60jt-250jt, 25% di atas 250jt), namun perusahaan ini berstatus BADAN dengan tarif flat 22%, berapa PPh terutang yang benar?",
+            "tipe": "pilihan_ganda",
+            "pilihan": [
+                "A. Rp51.000.000 (dihitung progresif)",
+                "B. Rp66.000.000 (dihitung tarif flat 22%)",
+                "C. Rp75.000.000",
+                "D. Rp90.000.000"
+            ],
+            "jawaban": "B",
+            "pembahasan": "Ini adalah soal jebakan penting: tarif progresif Pasal 17 HANYA berlaku untuk PPh Orang Pribadi, sedangkan WP Badan selalu dikenakan tarif FLAT 22% tanpa berlapis. Karena PT Bahagia Sentosa adalah Badan, perhitungan yang benar: Rp300.000.000 × 22% = Rp66.000.000, bukan dihitung progresif seperti WP OP."
+        },
+        {
+            "id": "q-81",
+            "pertanyaan": "Jelaskan secara lengkap 4 unsur hakiki pajak menurut Pasal 1 ayat 1 UU KUP jo. UU HPP No. 7/2021, dan berikan satu contoh konkret sehari-hari untuk setiap unsur!",
+            "tipe": "esai",
+            "jawaban": "Pasal 1 ayat 1 UU KUP jo. UU HPP No. 7/2021 mendefinisikan pajak sebagai kontribusi wajib kepada negara yang terutang oleh orang pribadi atau badan yang bersifat memaksa berdasarkan undang-undang, dengan tidak mendapatkan imbalan secara langsung dan digunakan untuk keperluan negara bagi sebesar-besarnya kemakmuran rakyat. Terdapat empat unsur hakiki:\n\n1. Iuran wajib dari rakyat ke negara — setiap warga negara yang memenuhi syarat subjektif dan objektif WAJIB membayar, tanpa opsi menunda tanpa alasan sah. Contoh: setiap karyawan dengan penghasilan di atas PTKP wajib membayar PPh 21 dari gajinya setiap bulan.\n\n2. Bersifat memaksa berdasarkan undang-undang — jika tidak dibayar, ada sanksi administrasi (denda, bunga) hingga pidana yang telah diatur hukum, misalnya Pasal 39 UU KUP untuk pelanggaran berat. Contoh: wajib pajak yang tidak melaporkan SPT dikenai denda Rp100.000-Rp1.000.000 tergantung jenis SPT.\n\n3. Tanpa kontraprestasi langsung — berbeda dengan transaksi jual-beli, pembayar pajak tidak langsung menerima barang/jasa setara nilai pajaknya; manfaatnya dinikmati bersama lewat fasilitas publik. Contoh: Mas Andi membayar PPh 21 tiap bulan namun tidak menerima 'barang balasan' langsung, ia menikmati manfaatnya lewat jalan raya dan sekolah negeri yang dibiayai APBN.\n\n4. Digunakan untuk membiayai pengeluaran umum negara — dana pajak dialokasikan kembali untuk kepentingan bersama seperti pembangunan infrastruktur, gaji ASN, subsidi, dan program kesehatan. Contoh: penerimaan PPN dari transaksi ritel dialokasikan sebagian untuk pembangunan puskesmas di daerah tertinggal.\n\nJika salah satu dari keempat unsur ini tidak terpenuhi, maka pungutan tersebut bukan pajak, melainkan retribusi (ada kontraprestasi langsung), sumbangan (sukarela, tidak memaksa), atau iuran biasa lainnya."
+        },
+        {
+            "id": "q-82",
+            "pertanyaan": "PT Nusantara Jaya memiliki Penghasilan Kena Pajak Rp8.000.000.000 pada tahun pajak 2026. Hitunglah PPh Badan terutang, dan jelaskan dasar hukum tarifnya!",
+            "tipe": "esai",
+            "jawaban": "Dasar hukum: Tarif PPh Badan di Indonesia adalah tarif FLAT sebesar 22% dari Penghasilan Kena Pajak (PKP), berlaku umum untuk seluruh Wajib Pajak Badan sesuai UU PPh yang telah diharmonisasikan dengan UU HPP No. 7/2021 (kecuali ada fasilitas pengurangan tarif khusus seperti untuk UMKM Badan beromzet di bawah Rp4,8 miliar yang mendapat pengurangan 50% dari tarif normal, atau perusahaan terbuka yang memenuhi syarat tertentu mendapat pengurangan tambahan 3%).\n\nPerhitungan untuk PT Nusantara Jaya (diasumsikan tidak memenuhi syarat fasilitas khusus, sehingga dikenakan tarif normal):\nPPh Badan Terutang = PKP × Tarif\nPPh Badan Terutang = Rp8.000.000.000 × 22%\nPPh Badan Terutang = Rp1.760.000.000\n\nBerbeda dengan PPh Orang Pribadi yang menggunakan tarif progresif berlapis (Pasal 17 UU HPP: 5%, 15%, 25%, 30%, 35%), PPh Badan tidak mengenal sistem berlapis — seluruh PKP langsung dikalikan tarif tunggal 22%. Ini adalah salah satu kesalahan umum peserta ujian Brevet, di mana soal WP Badan sering keliru dihitung menggunakan tarif progresif PPh OP. Kewajiban pembayaran PPh Badan ini juga wajib dilaporkan melalui SPT Tahunan Badan paling lambat 30 April tahun berikutnya sesuai ketentuan batas waktu pelaporan dalam UU KUP."
+        },
+        {
+            "id": "q-83",
+            "pertanyaan": "Jelaskan perbedaan Official Assessment System, Self Assessment System, dan Withholding Assessment System, lengkap dengan contoh jenis pajak dan pihak yang berperan aktif pada masing-masing sistem!",
+            "tipe": "esai",
+            "jawaban": "Indonesia menganut tiga sistem pemungutan pajak yang berjalan berbarengan tergantung jenis pajaknya, semuanya kini terintegrasi dalam sistem Coretax DJP:\n\n1. Official Assessment System: Fiskus (petugas pajak/DJP atau Bapenda) berperan AKTIF menghitung dan menetapkan besarnya utang pajak wajib pajak. Wajib pajak bersifat pasif, hanya menerima ketetapan. Contoh paling jelas adalah PBB (Pajak Bumi dan Bangunan), di mana wajib pajak menerima Surat Pemberitahuan Pajak Terutang (SPPT) tanpa perlu menghitung sendiri nilai pajaknya.\n\n2. Self Assessment System: Wajib pajak sendiri yang berperan AKTIF menghitung, menyetor, dan melaporkan pajaknya tanpa menunggu ditagih fiskus. Sistem ini digunakan untuk PPh dan PPN, dan telah menjadi sistem utama Indonesia sejak reformasi pajak 1983. Prinsipnya negara memberi kepercayaan penuh kepada wajib pajak untuk jujur menghitung dan melapor sendiri, namun tetap diawasi lewat mekanisme Penelitian dan Pemeriksaan jika ada indikasi kecurangan.\n\n3. Withholding Assessment System: Pihak KETIGA yang ditunjuk undang-undang berperan aktif memotong atau memungut pajak dari wajib pajak lain. Contohnya PPh 21 yang dipotong perusahaan dari gaji karyawan menggunakan skema TER (Tarif Efektif Rata-rata) sesuai PP 58/2023 dan PMK 168/2023, atau PPh 23 yang dipotong pihak pembeli jasa dari pembayaran ke penyedia jasa.\n\nKetiga sistem ini berjalan bersamaan dalam ekosistem Coretax, dengan fiskus, wajib pajak, dan pihak ketiga masing-masing memiliki peran spesifik sesuai jenis pajak yang bersangkutan, sehingga saling melengkapi dalam menjamin kepatuhan dan penerimaan negara."
+        },
+        {
+            "id": "q-84",
+            "pertanyaan": "Pak Anton (kawin, 3 tanggungan) bekerja sebagai karyawan dengan penghasilan neto setahun Rp250.000.000. Hitunglah: (a) PTKP yang berhak diperoleh, (b) Penghasilan Kena Pajak (PKP), dan (c) PPh terutang setahun menggunakan tarif progresif Pasal 17 UU HPP!",
+            "tipe": "esai",
+            "jawaban": "(a) Perhitungan PTKP:\nPTKP dasar (WP sendiri) = Rp54.000.000\nTambahan status kawin = Rp4.500.000\nTambahan tanggungan (maksimal 3 orang) = 3 × Rp4.500.000 = Rp13.500.000\nTotal PTKP = Rp54.000.000 + Rp4.500.000 + Rp13.500.000 = Rp72.000.000\n\n(b) Perhitungan Penghasilan Kena Pajak (PKP):\nPKP = Penghasilan Neto - PTKP\nPKP = Rp250.000.000 - Rp72.000.000 = Rp178.000.000\n\n(c) Perhitungan PPh terutang setahun menggunakan tarif progresif berlapis Pasal 17 UU HPP (5% untuk lapisan 0-60jt, 15% untuk lapisan di atas 60jt-250jt):\nLapisan 1: 5% × Rp60.000.000 = Rp3.000.000\nLapisan 2: 15% × (Rp178.000.000 - Rp60.000.000) = 15% × Rp118.000.000 = Rp17.700.000\n\nTotal PPh Terutang = Rp3.000.000 + Rp17.700.000 = Rp20.700.000 per tahun.\n\nJika dikonversi menjadi PPh 21 bulanan menggunakan skema TER (untuk pemotongan bulan berjalan), perusahaan akan menggunakan tabel TER Kategori sesuai status PTKP Pak Anton (K/3) yang tarifnya berbeda dari perhitungan tahunan Pasal 17 ini; namun pada Masa Pajak Desember, dilakukan perhitungan ulang/disetahunkan menggunakan tarif Pasal 17 seperti perhitungan di atas untuk memastikan kesesuaian jumlah PPh 21 yang telah dipotong sepanjang tahun."
+        },
+        {
+            "id": "q-85",
+            "pertanyaan": "Jelaskan perbedaan Ajaran Formal dan Ajaran Material dalam menentukan timbulnya utang pajak, serta sebutkan dan jelaskan 5 cara hapusnya utang pajak!",
+            "tipe": "esai",
+            "jawaban": "Timbulnya Utang Pajak:\n\n1. Ajaran Formal: Utang pajak baru timbul saat fiskus menerbitkan Surat Ketetapan Pajak (SKP). Ajaran ini digunakan untuk pajak dengan sistem Official Assessment, seperti PBB, di mana kewajiban membayar baru mengikat setelah SPPT/SKP diterbitkan.\n\n2. Ajaran Material: Utang pajak timbul secara OTOMATIS begitu terpenuhi syarat atau keadaan yang diatur undang-undang (disebut tatbestand), tanpa perlu menunggu surat ketetapan apapun. Ajaran ini digunakan untuk pajak Self Assessment seperti PPh dan PPN — begitu wajib pajak menerima penghasilan kena pajak, utang pajaknya otomatis 'melekat' meski belum dilaporkan dalam SPT.\n\nLima Cara Hapusnya Utang Pajak:\n\n1. Pembayaran/Pelunasan: cara paling umum, wajib pajak membayar penuh sesuai jumlah pajak yang terutang melalui Kode Billing.\n\n2. Kompensasi: kelebihan bayar pajak pada periode sebelumnya digunakan untuk menutup utang pajak periode berikutnya, sehingga tidak perlu pembayaran tunai baru.\n\n3. Daluwarsa Penagihan: hak negara untuk menagih pajak menjadi hangus/gugur apabila telah lewat 5 tahun sejak terutangnya pajak tanpa ada tindakan penagihan dari fiskus.\n\n4. Pembebasan: keringanan yang diberikan pemerintah melalui kebijakan tertentu, misalnya program pengampunan pajak (tax amnesty) atau insentif khusus bagi sektor/wilayah tertentu.\n\n5. Penghapusan Piutang Pajak: penghapusan utang pajak yang sudah tidak mungkin lagi ditagih, misalnya karena wajib pajak tidak ditemukan, meninggal dunia tanpa warisan, atau badan usahanya bubar tanpa harta tersisa.\n\nPemahaman kelima cara ini penting agar wajib pajak paham bahwa kewajiban perpajakan tidak berlaku tanpa batas waktu selamanya, namun tetap harus dikelola secara bertanggung jawab."
+        },
+        {
+            "id": "q-86",
+            "pertanyaan": "CV Sinar Abadi mengimpor mesin produksi senilai Rp2.000.000.000 tanpa memiliki Angka Pengenal Importir (API), sehingga dikenakan PPh Pasal 22 dengan tarif 7,5%. Selain itu, atas transaksi tersebut juga dikenakan PPN 12%. Hitunglah total pungutan pajak (PPh 22 + PPN) yang harus dibayar CV Sinar Abadi!",
+            "tipe": "esai",
+            "jawaban": "Diketahui:\nNilai Impor = Rp2.000.000.000\nTarif PPh 22 (tanpa API) = 7,5%\nTarif PPN = 12%\n\nLangkah 1 — Menghitung PPh Pasal 22:\nPPh 22 = Nilai Impor × Tarif\nPPh 22 = Rp2.000.000.000 × 7,5%\nPPh 22 = Rp150.000.000\n\nDasar hukum: PPh Pasal 22 dikenakan atas kegiatan impor barang. Tarif normal dengan API adalah 2,5%, namun bagi importir yang TIDAK memiliki API dikenakan tarif lebih tinggi yaitu 7,5% sebagai bentuk disinsentif administratif untuk mendorong kepemilikan izin impor resmi.\n\nLangkah 2 — Menghitung PPN atas Impor:\nPPN = Nilai Impor × Tarif\nPPN = Rp2.000.000.000 × 12%\nPPN = Rp240.000.000\n\nDasar hukum: Tarif PPN resmi sesuai Pasal 7 UU HPP No. 7/2021 adalah 12%, berlaku atas impor Barang Kena Pajak sesuai UU PPN.\n\nLangkah 3 — Total Pungutan:\nTotal = PPh 22 + PPN\nTotal = Rp150.000.000 + Rp240.000.000\nTotal = Rp390.000.000\n\nJadi, CV Sinar Abadi harus membayar total pungutan pajak sebesar Rp390.000.000 atas kegiatan impor mesin produksi tersebut, di luar Bea Masuk yang mungkin juga berlaku terpisah sesuai ketentuan kepabeanan. Kedua pungutan ini (PPh 22 dan PPN Impor) wajib dilunasi sebelum barang dapat dikeluarkan dari kawasan pabean."
+        },
+        {
+            "id": "q-87",
+            "pertanyaan": "Jelaskan secara rinci mekanisme dan syarat pengajuan Keberatan (Pasal 25-26 UU KUP) dan Banding (Pasal 27 UU KUP), termasuk jangka waktu, konsekuensi jika ditolak, dan hubungan berjenjang antara keduanya!",
+            "tipe": "esai",
+            "jawaban": "Keberatan (Pasal 25-26 UU KUP):\nKeberatan adalah upaya hukum pertama dan paling dasar yang dapat diajukan wajib pajak yang tidak setuju dengan ketetapan fiskus. Dapat diajukan atas SKPKB, SKPKBT, SKPLB, SKPN, atau pemotongan/pemungutan pajak oleh pihak ketiga.\nSyarat: diajukan tertulis dalam Bahasa Indonesia, disertai alasan jelas dan jumlah pajak menurut perhitungan wajib pajak, paling lambat 3 bulan sejak SKP dikirim atau sejak pemotongan/pemungutan dilakukan.\nProses: DJP memiliki waktu maksimal 12 bulan untuk memberikan Surat Keputusan Keberatan (menerima seluruhnya, menerima sebagian, menolak, atau bahkan menambah jumlah pajak).\nKonsekuensi jika ditolak: dikenai sanksi denda tambahan sebesar 30% dari jumlah pajak yang belum dibayar berdasarkan Surat Keputusan Keberatan.\n\nBanding (Pasal 27 UU KUP):\nBanding adalah upaya hukum tingkat KEDUA setelah Keberatan, diajukan ke Pengadilan Pajak atas Surat Keputusan Keberatan yang diterima dari DJP. Banding TIDAK BISA diajukan langsung tanpa melewati proses Keberatan terlebih dahulu.\nSyarat: diajukan tertulis dalam Bahasa Indonesia, ditujukan ke Pengadilan Pajak, paling lambat 3 bulan sejak Surat Keputusan Keberatan diterima, dan wajib pajak harus melunasi minimal 50% dari jumlah pajak yang disengketakan (kecuali sudah dilunasi sebelumnya).\nProses: persidangan melibatkan pembuktian dari kedua pihak, wajib pajak dan DJP sebagai Terbanding.\nKonsekuensi jika ditolak: dikenai sanksi denda tambahan sebesar 60% dari jumlah pajak berdasarkan Putusan Banding yang belum dibayar — dua kali lipat dari sanksi Keberatan.\n\nHubungan Berjenjang:\nKedua jalur ini didesain berurutan dan tidak bisa dilompati: wajib pajak wajib menempuh Keberatan terlebih dahulu sebelum bisa mengajukan Banding. Filosofinya adalah memberi kesempatan penyelesaian sengketa secara bertahap, dari administratif (Keberatan) hingga yudisial (Banding), sambil menjaga kepastian hukum dan kepentingan penerimaan negara. Jika Banding masih ditolak, wajib pajak masih punya upaya hukum luar biasa terakhir yaitu Peninjauan Kembali (PK) ke Mahkamah Agung."
+        },
+        {
+            "id": "q-88",
+            "pertanyaan": "Sebuah perusahaan memiliki kekurangan bayar pajak sebesar Rp100.000.000 dengan keterlambatan 6 bulan. Suku Bunga Acuan KMK yang berlaku adalah 7% per tahun, dan kondisi pelanggaran dikenakan uplift 10% (terkait SKPKB). Hitunglah sanksi bunga yang harus dibayar dan jelaskan dasar hukum serta filosofi sistem uplift ini!",
+            "tipe": "esai",
+            "jawaban": "Dasar Hukum dan Filosofi:\nSesuai UU HPP, sistem sanksi bunga tidak lagi menggunakan bunga flat 2% per bulan seperti sistem lama, melainkan bersifat dinamis mengikuti kondisi pasar keuangan. Perhitungan berpatokan pada Suku Bunga Acuan yang ditetapkan Menteri Keuangan melalui Keputusan Menteri Keuangan (KMK), yang diperbarui setiap bulan, ditambah margin risiko atau 'uplift' tertentu sesuai tingkat keseriusan pelanggaran. Tingkatan uplift bervariasi dari 0% (kondisi normal seperti pembetulan SPT), 5% (keterlambatan pembayaran biasa), 10% (kondisi terkait SKPKB), 15% (pelanggaran lebih serius), hingga 20% (kondisi terberat seperti indikasi pidana pajak yang belum masuk penyidikan). Filosofi sistem berjenjang ini adalah memberikan sanksi yang proporsional dengan tingkat kesalahan wajib pajak, bukan pukul rata seperti sistem lama.\n\nRumus:\nSanksi Bunga = (Suku Bunga Acuan KMK + Uplift) ÷ 12 × Jumlah Bulan Keterlambatan × Pajak Kurang Bayar\n\nPerhitungan:\nSanksi Bunga = (7% + 10%) ÷ 12 × 6 × Rp100.000.000\nSanksi Bunga = 17% ÷ 12 × 6 × Rp100.000.000\nSanksi Bunga = 0,014167 × 6 × Rp100.000.000\nSanksi Bunga = 0,085 × Rp100.000.000\nSanksi Bunga = Rp8.500.000\n\nJadi, perusahaan tersebut harus membayar sanksi bunga sebesar Rp8.500.000 selain melunasi pokok kekurangan bayar Rp100.000.000, sehingga total kewajiban yang harus dilunasi adalah Rp108.500.000. Perlu diingat, sanksi bunga ini terpisah dari denda administratif keterlambatan lapor (Pasal 7 UU KUP) apabila keterlambatan bayar juga disertai keterlambatan pelaporan SPT."
+        },
+        {
+            "id": "q-89",
+            "pertanyaan": "Jelaskan perbedaan Pembukuan dan Pencatatan dalam konteks kewajiban administrasi perpajakan, termasuk siapa yang wajib menggunakan masing-masing metode, dasar hukum, dan prinsip penyusunannya!",
+            "tipe": "esai",
+            "jawaban": "Pembukuan:\nPembukuan adalah proses pencatatan keuangan yang lebih formal dan lengkap, WAJIB dilakukan oleh:\n1. Seluruh Wajib Pajak Badan, tanpa syarat batas omzet.\n2. Wajib Pajak Orang Pribadi dengan omzet di atas Rp4,8 miliar per tahun.\n\nPrinsip penyusunan: harus disusun berdasarkan Standar Akuntansi Keuangan (SAK), dilakukan secara taat asas alias konsisten dari tahun ke tahun, dan dapat disusun dalam Bahasa Indonesia atau Bahasa Inggris tergantung izin khusus dari Menteri Keuangan. Pembukuan mencakup laporan lengkap seperti neraca dan laporan laba rugi.\n\nPencatatan:\nPencatatan adalah metode yang lebih sederhana, hanya boleh dilakukan oleh:\n1. Wajib Pajak Orang Pribadi dengan omzet di bawah Rp4,8 miliar per tahun yang memilih menggunakan Norma Penghitungan Penghasilan Neto (NPPN) sesuai PER-17/PJ/2015.\n2. Wajib Pajak Orang Pribadi yang memilih skema PPh Final UMKM 0,5% sesuai PP 55/2022.\n\nPrinsip penyusunan: cukup mencatat penghasilan bruto dan pengeluaran secara sederhana, tidak seribet Pembukuan yang membutuhkan laporan laba rugi dan neraca lengkap.\n\nImplikasi Praktis:\nPilihan antara Pencatatan dan Pembukuan sangat penting bagi pelaku UMKM karena berpengaruh pada kompleksitas administrasi dan potensi penghematan biaya. Selama usaha masih kecil dengan omzet di bawah Rp4,8 miliar/tahun, Pencatatan lebih hemat waktu dan biaya. Namun begitu omzet mendekati atau melewati batas tersebut, wajib pajak WAJIB beralih ke sistem Pembukuan penuh, sehingga penting untuk mulai merapikan administrasi keuangan sejak dini agar tidak terkejut saat harus bertransisi ke kewajiban yang lebih kompleks."
+        },
+        {
+            "id": "q-90",
+            "pertanyaan": "Jelaskan tiga tahapan pengawasan kepatuhan wajib pajak yang dilakukan DJP (Penelitian, Pemeriksaan, dan Penyidikan), lengkap dengan perbedaan karakteristik dan asas hukum yang mendasari tahap paling serius!",
+            "tipe": "esai",
+            "jawaban": "Ada tiga tahapan pengawasan kepatuhan wajib pajak oleh DJP, dengan tingkat keseriusan yang meningkat secara berjenjang:\n\n1. Penelitian: Tahap paling ringan, berupa pengecekan administratif formal atas SPT yang dilaporkan wajib pajak, misalnya memeriksa kelengkapan lampiran dan kebenaran hitungan matematis sederhana. Tahap ini biasanya dilakukan secara OTOMATIS oleh sistem Coretax tanpa memerlukan interaksi langsung dengan wajib pajak.\n\n2. Pemeriksaan: Tahap yang lebih mendalam, bertujuan menguji kepatuhan pemenuhan kewajiban perpajakan wajib pajak atau untuk tujuan lain seperti verifikasi permohonan restitusi. Terdapat dua jenis:\n   - Pemeriksaan Lapangan: dilakukan langsung di tempat usaha atau domisili wajib pajak.\n   - Pemeriksaan Kantor: dilakukan di kantor DJP, dengan wajib pajak dipanggil untuk memberikan klarifikasi dan menyerahkan dokumen pendukung.\n   Setelah pemeriksaan selesai, fiskus wajib memberikan Surat Pemberitahuan Hasil Pemeriksaan (SPHP) kepada wajib pajak, kemudian dilaksanakan Closing Conference (pembahasan akhir) sebelum Surat Ketetapan Pajak (SKP) resmi diterbitkan — memberi kesempatan wajib pajak menanggapi dan menyerahkan bukti tambahan.\n\n3. Penyidikan Pidana Pajak: Tahap paling serius, dilakukan apabila ditemukan indikasi kuat tindak pidana perpajakan seperti Tax Evasion (penggelapan pajak ilegal). Penyidikan ini menganut Asas Ultimum Remedium, yang berarti jalur pidana menjadi upaya TERAKHIR setelah upaya administratif dianggap tidak cukup, bukan langsung ditempuh di awal. Filosofi ini penting agar penegakan hukum pajak tetap adil, memberikan kesempatan perbaikan administratif terlebih dahulu sebelum seseorang dipidanakan, sekaligus menyeimbangkan kepentingan penerimaan negara dengan hak-hak wajib pajak."
+        },
+        {
+            "id": "q-91",
+            "pertanyaan": "Nona Rina adalah seorang freelancer desain grafis (WP OP dengan omzet Rp400.000.000/tahun) yang memilih skema PPh Final UMKM 0,5%. Pada bulan Juli 2026, omzetnya Rp40.000.000. Hitunglah PPh Final yang harus dibayar, dan jelaskan mengapa skema ini disebut 'final' serta apa konsekuensinya terhadap pelaporan SPT Tahunan!",
+            "tipe": "esai",
+            "jawaban": "Perhitungan PPh Final UMKM:\nPPh Final = Omzet Bruto Bulanan × Tarif\nPPh Final = Rp40.000.000 × 0,5%\nPPh Final = Rp200.000\n\nJadi, Nona Rina harus membayar PPh Final sebesar Rp200.000 untuk omzet bulan Juli 2026.\n\nMengapa Disebut 'Final':\nSkema PPh Final UMKM sesuai PP 55/2022 disebut 'final' karena pajak yang telah dibayar (0,5% dari omzet bruto) merupakan pelunasan penuh atas kewajiban PPh dari penghasilan usaha tersebut. Ini berbeda dengan PPh tidak final (misalnya PPh 23) yang sifatnya sebagai kredit pajak (dapat dikreditkan/diperhitungkan kembali) dalam SPT Tahunan.\n\nKonsekuensi Terhadap Pelaporan SPT Tahunan:\n1. Penghasilan yang telah dikenakan PPh Final UMKM TIDAK digabungkan lagi dengan penghasilan lain dalam penghitungan PPh terutang di SPT Tahunan menggunakan tarif progresif Pasal 17.\n2. Nona Rina tetap wajib melaporkan SPT Tahunan Orang Pribadi (paling lambat 31 Maret tahun berikutnya), namun penghasilan dari usaha freelance-nya cukup dilaporkan sebagai penghasilan yang dikenakan PPh Final, bukan dihitung ulang dengan tarif progresif.\n3. Skema PPh Final UMKM memiliki batas waktu penggunaan (tidak berlaku selamanya) dan hanya dapat digunakan oleh WP OP dengan omzet di bawah Rp4,8 miliar per tahun; jika omzet melewati batas tersebut, Nona Rina wajib beralih ke skema PPh normal dengan kewajiban Pembukuan penuh."
+        },
+        {
+            "id": "q-92",
+            "pertanyaan": "Jelaskan konsep Subjek Pajak Dalam Negeri (SPDN) dan Subjek Pajak Luar Negeri (SPLN), termasuk kriteria time-test, serta perbedaan kewajiban pajaknya masing-masing dengan contoh kasus konkret!",
+            "tipe": "esai",
+            "jawaban": "Subjek Pajak Dalam Negeri (SPDN):\nSPDN mencakup orang pribadi yang memenuhi salah satu dari tiga kriteria berikut:\n1. Bertempat tinggal di Indonesia.\n2. Berada di Indonesia lebih dari 183 hari dalam jangka waktu 12 bulan (time-test).\n3. Memiliki niat untuk bertempat tinggal di Indonesia.\n\nKewajiban Pajak SPDN: wajib melaporkan dan membayar pajak atas SELURUH penghasilannya, baik yang bersumber dari dalam maupun luar negeri (worldwide income principle/Asas Domisili).\n\nSubjek Pajak Luar Negeri (SPLN):\nSPLN adalah subjek pajak yang TIDAK memenuhi kriteria SPDN di atas, namun tetap memiliki penghasilan yang bersumber dari Indonesia.\n\nKewajiban Pajak SPLN: hanya wajib membayar pajak atas penghasilan yang bersumber dari Indonesia saja, biasanya melalui mekanisme pemotongan PPh Pasal 26 oleh pihak yang membayarkan penghasilan tersebut.\n\nContoh Kasus Konkret:\nSeorang tenaga ahli asing bekerja di sebuah proyek konstruksi di Jakarta selama 200 hari dalam periode 12 bulan. Karena telah melewati batas time-test 183 hari, ia berstatus SPDN meskipun kewarganegaraannya asing, sehingga wajib melaporkan dan membayar pajak atas seluruh penghasilannya, termasuk penghasilan yang mungkin diterima dari negara asalnya.\n\nSebaliknya, jika tenaga ahli tersebut hanya bekerja di Indonesia selama 100 hari dalam 12 bulan (di bawah 183 hari) dan tidak berniat menetap, ia berstatus SPLN, sehingga hanya penghasilannya yang bersumber dari Indonesia (honorarium proyek konstruksi tersebut) yang dikenakan pajak, biasanya dipotong PPh 26 oleh perusahaan pemberi kerja di Indonesia, dan penghasilan dari negara asalnya tidak dikenakan pajak Indonesia."
+        },
+        {
+            "id": "q-93",
+            "pertanyaan": "PT Karya Utama membayar dividen kepada pemegang saham WP Orang Pribadi dalam negeri sebesar Rp80.000.000, dikenakan PPh Final Pasal 4 ayat (2) dengan tarif 10%. Hitunglah PPh Final yang harus dipotong, dan jelaskan mengapa dividen dikenakan tarif final serta pengecualian yang mungkin berlaku!",
+            "tipe": "esai",
+            "jawaban": "Perhitungan PPh Final atas Dividen:\nPPh Final = Jumlah Dividen × Tarif\nPPh Final = Rp80.000.000 × 10%\nPPh Final = Rp8.000.000\n\nJadi, PT Karya Utama wajib memotong PPh Final sebesar Rp8.000.000 dari dividen yang dibagikan kepada pemegang saham WP Orang Pribadi tersebut sebelum dividen bersih diterimakan.\n\nMengapa Dividen Dikenakan Tarif Final:\nDividen yang diterima WP Orang Pribadi dalam negeri dikenakan PPh Final Pasal 4 ayat (2) dengan tarif 10% sebagai bentuk penyederhanaan administrasi perpajakan atas penghasilan pasif (passive income). Sifat final berarti pajak yang dipotong sudah merupakan pelunasan penuh, sehingga penghasilan dividen tersebut tidak perlu digabungkan lagi dengan penghasilan lain dalam penghitungan PPh terutang tahunan menggunakan tarif progresif Pasal 17, dan tidak dapat dikreditkan kembali.\n\nPengecualian yang Mungkin Berlaku:\nSesuai ketentuan UU HPP, terdapat fasilitas pengecualian objek pajak apabila dividen yang diterima WP Orang Pribadi diinvestasikan kembali (reinvestasi) di wilayah Indonesia dalam jangka waktu tertentu sesuai ketentuan Peraturan Menteri Keuangan, misalnya diinvestasikan dalam bentuk surat berharga negara, kegiatan usaha, atau instrumen investasi lain yang diatur pemerintah. Jika syarat reinvestasi ini terpenuhi, dividen tersebut dapat dikecualikan dari pengenaan pajak sebagai insentif untuk mendorong perputaran modal domestik dan investasi dalam negeri, alih-alih dana tersebut mengalir keluar negeri atau hanya dikonsumsi."
+        },
+        {
+            "id": "q-94",
+            "pertanyaan": "Jelaskan lima syarat pemungutan pajak yang adil berdasarkan modul (Keadilan, Yuridis, Ekonomis, Finansial, Sederhana), termasuk uraian empat prinsip Canons of Taxation dari Adam Smith yang menjadi dasar syarat keadilan!",
+            "tipe": "esai",
+            "jawaban": "Terdapat lima syarat yang harus dipenuhi agar pemungutan pajak berjalan adil dan tidak membebani rakyat maupun mengganggu ekonomi:\n\n1. Syarat Keadilan: diambil dari pemikiran Adam Smith soal Canons of Taxation, terdiri dari empat prinsip:\n   - Equality (Kesetaraan): pemungutan pajak harus sesuai dengan kemampuan bayar (ability to pay) masing-masing wajib pajak.\n   - Certainty (Kepastian): harus ada kepastian hukum yang jelas mengenai kapan dan berapa jumlah pajak yang harus dibayar.\n   - Convenience (Kenyamanan): pajak dipungut pada waktu yang tepat bagi wajib pajak, misalnya saat menerima gaji (pemotongan langsung).\n   - Economy (Efisiensi): biaya pemungutan pajak harus efisien, tidak boros.\n\n2. Syarat Yuridis: pemungutan pajak harus memiliki landasan hukum yang jelas, yaitu UUD 1945 Pasal 23A. Tanpa dasar hukum yang sah, pemerintah tidak dapat memungut pajak secara sewenang-wenang.\n\n3. Syarat Ekonomis: pemungutan pajak tidak boleh sampai mengganggu iklim usaha dan pertumbuhan ekonomi. Jika tarif pajak terlalu tinggi hingga membuat pengusaha bangkrut atau investor kabur, syarat ini dianggap dilanggar.\n\n4. Syarat Finansial: biaya untuk memungut pajak harus lebih kecil daripada hasil penerimaan yang didapat. Jika biaya operasional penagihan lebih besar dari pajak yang berhasil dikumpulkan, pemungutan tersebut tidak efisien dan sia-sia.\n\n5. Syarat Sederhana: sistem pemungutan pajak harus mudah dipahami dan dilaksanakan oleh masyarakat awam, bukan hanya dapat dimengerti konsultan pajak profesional. Inilah alasan DJP terus mengembangkan sistem Coretax agar prosesnya semakin sederhana dan tidak berbelit-belit bagi wajib pajak umum."
+        },
+        {
+            "id": "q-95",
+            "pertanyaan": "Sebuah bangunan komersial memiliki NJOP Rp3.000.000.000. Dengan NJKP (Nilai Jual Kena Pajak) 40% dari NJOP dan tarif efektif PBB 0,3% dari NJKP, hitunglah PBB terutang, dan jelaskan sistem pemungutan yang digunakan untuk PBB!",
+            "tipe": "esai",
+            "jawaban": "Perhitungan PBB Terutang:\nLangkah 1 — Menghitung NJKP:\nNJKP = NJOP × Persentase NJKP\nNJKP = Rp3.000.000.000 × 40%\nNJKP = Rp1.200.000.000\n\nLangkah 2 — Menghitung PBB Terutang:\nPBB = NJKP × Tarif Efektif\nPBB = Rp1.200.000.000 × 0,3%\nPBB = Rp3.600.000\n\nJadi, PBB terutang atas bangunan komersial tersebut adalah Rp3.600.000 per tahun.\n\nSistem Pemungutan PBB:\nPBB menggunakan Official Assessment System, di mana fiskus (dalam hal ini otoritas pajak, baik pusat maupun daerah tergantung objek pajaknya sesuai desentralisasi PBB Perdesaan-Perkotaan ke Pemda) yang secara AKTIF menghitung dan menetapkan besarnya utang pajak berdasarkan data NJOP yang dimiliki. Wajib pajak bersifat pasif, cukup menerima Surat Pemberitahuan Pajak Terutang (SPPT) yang berisi jumlah PBB yang harus dibayar, tanpa perlu menghitung sendiri seperti pada sistem Self Assessment (PPh dan PPN). Hal ini sejalan dengan Ajaran Formal timbulnya utang pajak, di mana utang pajak PBB baru dianggap timbul secara formal setelah SKP/SPPT diterbitkan oleh fiskus, berbeda dengan PPh/PPN yang mengikuti Ajaran Material (utang pajak timbul otomatis saat tatbestand terpenuhi)."
+        },
+        {
+            "id": "q-96",
+            "pertanyaan": "Jelaskan konsep Asas Domisili, Asas Sumber, dan Asas Kebangsaan dalam pemajakan internasional, asas mana yang dianut Indonesia, serta bagaimana P3B (tax treaty) berperan menghindari pajak berganda!",
+            "tipe": "esai",
+            "jawaban": "Tiga Asas Pemungutan Pajak Internasional:\n\n1. Asas Domisili (Residency Principle): negara berhak memungut pajak dari seluruh penghasilan wajib pajak yang tinggal di negaranya, baik penghasilan yang diperoleh di dalam maupun luar negeri (worldwide income).\n\n2. Asas Sumber (Source Principle): negara berhak memungut pajak atas penghasilan yang sumbernya berada di negara tersebut, tanpa memandang siapa penerima penghasilan atau di mana ia tinggal.\n\n3. Asas Kebangsaan (Nationality Principle): pemungutan pajak didasarkan pada kewarganegaraan seseorang, bukan tempat tinggal atau sumber penghasilannya.\n\nAsas yang Dianut Indonesia:\nIndonesia menganut KOMBINASI Asas Domisili dan Asas Sumber dalam sistem perpajakannya — memungut pajak dari SPDN atas worldwide income mereka (Asas Domisili), sekaligus memungut pajak dari penghasilan yang bersumber di Indonesia meskipun diterima oleh SPLN (Asas Sumber).\n\nPeran P3B dalam Menghindari Pajak Berganda:\nKetika ketiga asas ini diterapkan berbeda oleh negara-negara yang berbeda, satu penghasilan bisa dikenakan pajak dua kali di dua negara sekaligus (double taxation) — misalnya seseorang yang berdomisili di satu negara namun berpenghasilan dari negara lain. Untuk mengatasi hal ini, dibuatlah P3B (Perjanjian Penghindaran Pajak Berganda) atau tax treaty antar negara. P3B mengatur mekanisme seperti kredit pajak luar negeri (foreign tax credit), di mana pajak yang telah dibayar di negara sumber dapat dikreditkan/dikurangkan dari pajak yang terutang di negara domisili, sehingga wajib pajak tidak dikenakan pajak berganda atas penghasilan yang sama. Contohnya, jika seseorang tinggal di Indonesia namun bekerja remote untuk perusahaan di negara lain yang memiliki P3B dengan Indonesia, pajak yang telah dipotong di negara sumber dapat diperhitungkan sebagai kredit pajak saat pelaporan SPT Tahunan di Indonesia."
+        },
+        {
+            "id": "q-97",
+            "pertanyaan": "Jelaskan empat jenis Surat Ketetapan Pajak (SKP): SKPKB, SKPKBT, SKPLB, dan SKPN, termasuk kondisi penerbitan masing-masing dan hubungan antara SKPKB dengan SKPKBT!",
+            "tipe": "esai",
+            "jawaban": "Terdapat empat jenis Surat Ketetapan Pajak (SKP) yang diterbitkan DJP berdasarkan hasil pemeriksaan atau penelitian terhadap kewajiban perpajakan wajib pajak:\n\n1. SKPKB (Surat Ketetapan Pajak Kurang Bayar): diterbitkan apabila hasil pemeriksaan menemukan bahwa pajak yang telah dibayar/dilaporkan wajib pajak KURANG dari yang seharusnya terutang. Fiskus menetapkan tambahan jumlah yang harus dilunasi wajib pajak berdasarkan temuan pemeriksaan tersebut.\n\n2. SKPKBT (Surat Ketetapan Pajak Kurang Bayar Tambahan): diterbitkan apabila SETELAH SKPKB terbit, ditemukan DATA BARU yang menyebabkan utang pajak bertambah lagi. Ini menunjukkan bahwa proses pemeriksaan/penelitian pajak bersifat berkelanjutan — DJP tetap dapat menerbitkan ketetapan tambahan jika ditemukan bukti baru meski SKPKB sudah pernah dikeluarkan sebelumnya, selama masih dalam batas daluwarsa penetapan yang berlaku.\n\n3. SKPLB (Surat Ketetapan Pajak Lebih Bayar): diterbitkan apabila ternyata wajib pajak mengalami kelebihan bayar pajak, dan berhak mengajukan permohonan restitusi (pengembalian) atas kelebihan tersebut. Jika penerbitan SKPLB ini terlambat dari ketentuan waktu yang ditetapkan, wajib pajak berhak menerima Imbalan Bunga sesuai Pasal 27A UU KUP sebagai kompensasi keterlambatan.\n\n4. SKPN (Surat Ketetapan Pajak Nihil): diterbitkan apabila jumlah pajak yang dibayar wajib pajak SAMA PERSIS dengan jumlah yang terutang, alias tidak ada kurang maupun lebih bayar.\n\nHubungan SKPKB dan SKPKBT:\nSKPKBT bersifat melengkapi/menambah SKPKB yang sudah diterbitkan sebelumnya. Artinya, proses penetapan pajak tidak selalu berhenti di satu SKP saja — apabila ada indikasi data baru yang belum terungkap saat pemeriksaan pertama (misalnya transaksi yang tidak dilaporkan), DJP masih berwenang menerbitkan SKPKBT untuk menagih kekurangan tambahan tersebut, selama diterbitkan dalam batas waktu yang diperbolehkan undang-undang."
+        },
+        {
+            "id": "q-98",
+            "pertanyaan": "PT Maju Bersama memiliki karyawan dengan penghasilan bruto bulanan Rp15.000.000 (status TER Kategori B, tarif efektif bulanan 10%). Hitunglah PPh 21 bulanan yang dipotong, dan jelaskan mengapa sistem TER dianggap menyederhanakan proses pemotongan PPh 21 dibanding sistem lama!",
+            "tipe": "esai",
+            "jawaban": "Perhitungan PPh 21 Bulanan dengan Skema TER:\nPPh 21 Bulanan = Penghasilan Bruto Bulanan × Tarif TER\nPPh 21 Bulanan = Rp15.000.000 × 10%\nPPh 21 Bulanan = Rp1.500.000\n\nJadi, PT Maju Bersama wajib memotong PPh 21 sebesar Rp1.500.000 dari gaji karyawan tersebut pada bulan berjalan.\n\nMengapa Sistem TER Menyederhanakan Proses:\nSistem TER (Tarif Efektif Rata-rata) yang diatur dalam PP 58/2023 dan PMK 168/2023 dirancang untuk menyederhanakan proses pemotongan PPh 21 bulanan dengan cara:\n\n1. Perhitungan Langsung: Sebelum adanya TER, pemberi kerja harus menghitung PPh 21 bulanan dengan cara menyetahunkan penghasilan, mengurangkan PTKP, menerapkan tarif progresif Pasal 17 secara berlapis, baru kemudian membaginya kembali menjadi angka bulanan — proses yang rumit dan rawan kesalahan. Dengan TER, pemberi kerja cukup mengalikan penghasilan bruto bulanan langsung dengan persentase TER yang sudah ditetapkan berdasarkan kategori (A, B, atau C sesuai status PTKP karyawan).\n\n2. Kategori TER: Terdapat tiga kategori TER (A, B, C) yang disesuaikan dengan status PTKP karyawan (TK/K dan jumlah tanggungan), sehingga pemotongan tetap memperhatikan kondisi personal wajib pajak meski prosesnya lebih sederhana.\n\n3. Penyesuaian Akhir Tahun: Meskipun perhitungan bulanan disederhanakan dengan TER, pada Masa Pajak Desember tetap dilakukan penghitungan ulang (disetahunkan) menggunakan tarif progresif Pasal 17 yang sesungguhnya, untuk memastikan total PPh 21 yang telah dipotong sepanjang tahun sudah sesuai dengan kewajiban pajak yang seharusnya — jika ada selisih kurang/lebih, akan disesuaikan pada pemotongan bulan Desember tersebut."
+        },
+        {
+            "id": "q-99",
+            "pertanyaan": "Jelaskan proses pendaftaran NPWP di era Coretax menggunakan integrasi NIK 16 digit, termasuk dasar hukum, prosedur e-Registration, serta sanksi bagi yang sengaja tidak mendaftar!",
+            "tipe": "esai",
+            "jawaban": "Dasar Hukum Integrasi NIK-NPWP:\nSejak berlakunya UU HPP dan PMK 112/2022, NIK (Nomor Induk Kependudukan) 16 digit yang tertera pada KTP kini terintegrasi penuh menjadi NPWP untuk Wajib Pajak Orang Pribadi. Kebijakan ini menghilangkan kebutuhan mengingat nomor NPWP 15 digit terpisah, karena NIK yang sudah melekat seumur hidup pada setiap warga negara langsung berfungsi sebagai identitas perpajakan.\n\nProsedur e-Registration:\nPendaftaran NPWP kini dilakukan melalui Portal Coretax DJP secara elektronik (e-Registration) dengan langkah-langkah:\n1. Membuka Portal Coretax DJP.\n2. Memasukkan NIK sebagai identitas dasar.\n3. Melakukan verifikasi data melalui sinkronisasi dengan sistem Dukcapil (Direktorat Jenderal Kependudukan dan Pencatatan Sipil).\n4. Mengisi data tambahan seperti alamat domisili dan jenis pekerjaan/penghasilan.\n5. Submit permohonan.\nJika seluruh data valid dan tersinkron dengan baik, NPWP akan otomatis aktif tanpa perlu wajib pajak datang secara fisik ke Kantor Pelayanan Pajak (KPP). Namun, apabila terjadi kendala teknis (misalnya data tidak sinkron), wajib pajak tetap dapat meminta bantuan langsung ke KPP terdekat atau menghubungi helpdesk resmi DJP.\n\nProses Terkait Lainnya:\nSelain pendaftaran, terdapat proses Penghapusan NPWP yang dapat diajukan ketika wajib pajak sudah tidak memenuhi syarat subjektif dan objektif (misalnya meninggal dunia tanpa warisan, pindah kewarganegaraan, atau perusahaan bubar), serta Pencabutan Pengukuhan PKP bagi pengusaha yang sudah tidak lagi menjalankan usaha kena pajak.\n\nSanksi Bagi yang Sengaja Tidak Mendaftar:\nPasal 39 UU KUP mengatur sanksi pidana bagi wajib pajak yang dengan SENGAJA tidak mendaftarkan diri untuk memperoleh NPWP atau NPPKP padahal telah memenuhi syarat subjektif dan objektif untuk itu. Ancaman sanksinya berjenjang mulai dari pidana penjara hingga denda yang nilainya bisa berkali-kali lipat dari jumlah pajak yang seharusnya terutang, sebagai bentuk penegakan hukum tegas terhadap ketidakpatuhan administratif yang disengaja."
+        },
+        {
+            "id": "q-100",
+            "pertanyaan": "Bandingkan secara komprehensif antara Tax Avoidance dan Tax Evasion sebagai bentuk Perlawanan Aktif terhadap pajak, lengkap dengan contoh konkret, konsekuensi hukum, dan bagaimana Indonesia merespons kedua fenomena ini melalui regulasi terkini!",
+            "tipe": "esai",
+            "jawaban": "Perlawanan pajak terbagi menjadi Perlawanan Pasif (hambatan struktural seperti rendahnya kesadaran masyarakat) dan Perlawanan Aktif (hambatan akibat niat sengaja wajib pajak), yang kemudian dibagi lagi menjadi Tax Avoidance dan Tax Evasion.\n\nTax Avoidance (Penghindaran Pajak):\n- Sifat: LEGAL — dilakukan dengan memanfaatkan celah atau loopholes dalam peraturan perpajakan yang berlaku, tanpa melanggar hukum secara harfiah.\n- Contoh: memindahkan struktur usaha ke skema yang mendapat insentif pajak lebih rendah, memanfaatkan perbedaan tarif pajak antar yurisdiksi (transfer pricing yang masih dalam koridor arm's length principle), atau menunda pengakuan penghasilan secara sah sesuai ketentuan akuntansi yang diperbolehkan.\n- Konsekuensi: meskipun legal secara teknis, banyak negara termasuk Indonesia kini mulai memperketat aturan anti-penghindaran pajak (anti tax avoidance rules) seperti aturan Controlled Foreign Corporation (CFC), Thin Capitalization Rules, dan General Anti-Avoidance Rule (GAAR), karena praktik ini dianggap merugikan penerimaan negara secara agresif meski tidak melanggar hukum secara eksplisit.\n\nTax Evasion (Penggelapan Pajak):\n- Sifat: ILEGAL — melanggar hukum secara langsung.\n- Contoh: merekayasa laporan keuangan agar terlihat rugi padahal sebenarnya untung, sengaja tidak membuat pembukuan sama sekali agar transaksi sulit dilacak fiskus, atau sengaja tidak melaporkan omzet yang sebenarnya dalam SPT.\n- Konsekuensi: Tax Evasion sudah masuk ranah PIDANA pajak dan dapat dikenai sanksi berat, termasuk pidana penjara dan denda besar sesuai Pasal 39 UU KUP, karena tergolong perbuatan yang secara sengaja dan melawan hukum merugikan penerimaan negara.\n\nRespons Regulasi Indonesia Terkini:\nMelalui UU HPP dan berbagai peraturan turunannya, Indonesia terus memperketat pengawasan terhadap kedua fenomena ini: untuk Tax Avoidance, pemerintah memperkuat ketentuan anti-penghindaran pajak dan meningkatkan pertukaran informasi otomatis antar negara (Automatic Exchange of Information/AEoI) guna mendeteksi skema penghindaran pajak lintas negara. Untuk Tax Evasion, penegakan hukum diperkuat lewat sistem Coretax yang memungkinkan deteksi dini ketidaksesuaian data secara otomatis, meski penerapan sanksi pidana tetap mengikuti Asas Ultimum Remedium — jalur pidana hanya ditempuh sebagai upaya terakhir setelah upaya administratif dianggap tidak mencukupi."
+        }
+    ]
+}

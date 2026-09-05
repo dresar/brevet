@@ -1,0 +1,15 @@
+{
+  "appId": "com.brevet.app",
+  "appName": "Brevet AB Hub",
+  "webDir": "out",
+  "bundledWebRuntime": false,
+  "server": {
+    "androidScheme": "https",
+    "cleartext": true
+  },
+  "android": {
+    "allowMixedContent": true,
+    "captureInput": true,
+    "backgroundColor": "#0f172a"
+  }
+}

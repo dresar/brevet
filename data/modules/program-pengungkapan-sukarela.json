@@ -1,0 +1,1675 @@
+{
+  "versi": "1.0",
+  "modul": {
+    "kode": "BRVT-AB-04",
+    "slug": "program-pengungkapan-sukarela",
+    "judul": "Program Pengungkapan Sukarela (PPS)",
+    "kategori": "Lainnya",
+    "tingkat_kesulitan": "menengah",
+    "estimasi_menit": 90,
+    "ringkasan": "Modul ini ngebahas tuntas Program Pengungkapan Sukarela (PPS) alias 'Tax Amnesty Jilid II' yang berlangsung 1 Januari sampai 30 Juni 2022, mulai dari dasar hukum, dua kebijakan (Kebijakan I dan II), tarif PPh Final, cara menilai harta, sampai prosedur pelaporan lewat SPPH dan sanksi kalau ketahuan belum ungkap semua harta.",
+    "tujuan_belajar": [
+      "Memahami filosofi dan latar belakang lahirnya Program Pengungkapan Sukarela (PPS)",
+      "Membedakan Kebijakan I dan Kebijakan II PPS beserta subjek, objek, dan tarifnya",
+      "Menghitung PPh Final PPS untuk berbagai jenis harta dan skema deklarasi/repatriasi",
+      "Menjelaskan pedoman penilaian harta sesuai jenisnya (kas, properti, saham, logam mulia)",
+      "Menerapkan prosedur pengisian SPPH dan pembayaran lewat DJP Online",
+      "Menganalisis konsekuensi hukum jika ditemukan harta yang belum diungkap pasca-PPS"
+    ],
+    "bagian": [
+      {
+        "id": "bag-01",
+        "judul": "Definisi dan Filosofi Dasar PPS",
+        "paragraf": [
+          "Oke, jadi gini, PPS itu singkatan dari Program Pengungkapan Sukarela alias program dari pemerintah yang ngasih 'kesempatan kedua' buat Wajib Pajak (WP) yang selama ini masih nyimpen harta yang belum dilaporkan ke negara. Nah, karena programnya mirip banget sama Tax Amnesty yang pernah ada tahun 2016-2017, banyak orang nyebut PPS ini sebagai 'Tax Amnesty Jilid II'. Bedanya, PPS ini bukan program yang berdiri sendiri, tapi nempel di dalam Undang-Undang Harmonisasi Peraturan Perpajakan (UU HPP) yang terbit tahun 2021.",
+          "Kenapa sih negara mau-maunya ngasih diskon gede-gedean kayak gini? Jawabannya simpel: daripada harta itu terus disembunyiin dan negara nggak dapet apa-apa, mendingan negara kasih jalan damai — WP bayar PPh Final dengan tarif yang jauh lebih ringan dibanding kalau ketahuan lewat pemeriksaan pajak biasa (yang bisa kena sanksi sampai berkali-kali lipat). Ibaratnya negara bilang, 'udah deh, ngaku aja sekarang, bayar sesuai tarif ini, nanti nggak dikejar-kejar lagi soal harta itu.'",
+          "Konsepnya itu 'pengungkapan harta berbasis kejujuran'. Jadi WP sendiri yang aktif melapor, ngisi Surat Pemberitahuan Pengungkapan Harta (SPPH), bayar PPh Final sesuai tarif yang berlaku, terus dapet Surat Keterangan (SKET) sebagai bukti resmi kalau harta itu udah 'bersih' secara administrasi pajak. Bukan DJP yang nyari-nyari harta kamu duluan, tapi kamu yang buka-bukaan duluan.",
+          "Penting banget dicatat: PPS ini programnya SUDAH SELESAI ya, periodenya cuma 1 Januari 2022 sampai 30 Juni 2022. Jadi materi di modul ini sifatnya historis dan edukatif — buat kamu paham konsep, dasar hukum, dan cara kerjanya, bukan buat ikutan program yang masih buka. Tapi konsep dan skemanya tetap penting dipelajari karena sering keluar di soal ujian Brevet AB dan jadi dasar pemahaman soal kepatuhan sukarela di sistem pajak Indonesia."
+        ],
+        "poin_penting": [
+          "💡 PPS adalah kesempatan kedua bagi WP untuk mengungkap harta yang belum dilaporkan, dengan tarif PPh Final yang lebih ringan",
+          "📌 PPS sering disebut 'Tax Amnesty Jilid II' karena mirip skema Tax Amnesty 2016-2017",
+          "⚠️ Program PPS sudah berakhir 30 Juni 2022, jadi sifatnya sekarang historis untuk pembelajaran",
+          "✅ Basisnya kejujuran WP sendiri yang melapor duluan, bukan DJP yang mengejar"
+        ],
+        "analogi": "Bayangin kamu pernah pinjem buku perpustakaan terus lupa balikin selama bertahun-tahun. Daripada kena denda gede banget kalau ketahuan petugas, perpustakaan bikin 'program amnesti buku' — kamu balikin sendiri, bayar denda kecil aja, terus urusan selesai tanpa dicap 'peminjam nakal'. Nah, PPS itu kurang lebih kayak gitu, tapi versi harta dan pajak.",
+        "contoh_kasus": {
+          "judul": "Kasus Bu Dewi yang Ragu Ikut PPS",
+          "cerita": "Bu Dewi punya deposito di luar negeri senilai Rp3 miliar yang belum pernah dia laporkan di SPT Tahunan sejak 2018. Dia was-was karena sekarang ada sistem pertukaran data perbankan antarnegara. Waktu PPS dibuka tahun 2022, Bu Dewi akhirnya memutuskan untuk ikut Kebijakan II dan melaporkan deposito tersebut lewat SPPH.",
+          "poin": [
+            "Bu Dewi masuk kategori WP OP dengan harta perolehan 2018 yang belum masuk SPT",
+            "Dengan ikut PPS, Bu Dewi cuma bayar PPh Final sesuai tarif Kebijakan II, bukan kena tarif progresif plus sanksi kalau ketahuan lewat pemeriksaan"
+          ]
+        },
+        "diagram_mermaid": [],
+        "prompt_gambar": [
+          {
+            "id": "img-01",
+            "prompt": "A highly detailed modern flat vector educational illustration in landscape 16:9 format, showing a symbolic Indonesian taxpayer figure stepping through an open glowing doorway labeled with a clean upward arrow icon, representing a second chance to declare hidden assets. Deep navy dark-mode studio background #0F172A with a soft indigo gradient mesh #1E1B4B, ambient 3D lighting, floating translucent panels showing abstract document icons, a shield icon, and a small vault icon opening gently. Clear modern bold Indonesian text label 'Kesempatan Kedua' printed cleanly above the central figure, and a smaller label 'Program Pengungkapan Sukarela' beneath it, both in crisp sans-serif white typography. Color palette: electric blue #3B82F6, emerald green #10B981, warm gold #F59E0B accents against the dark background. Smooth soft studio lighting, premium tech-education infographic style, high resolution, clean composition balanced left to right.",
+            "keterangan": "Ilustrasi konsep PPS sebagai kesempatan kedua bagi wajib pajak untuk mengungkap harta yang belum dilaporkan. Gambar ini menegaskan nuansa 'jalan damai' antara negara dan wajib pajak.",
+            "alt": "Ilustrasi simbolis wajib pajak melangkah melalui pintu kesempatan kedua dengan label Program Pengungkapan Sukarela",
+            "url_gambar": null
+          }
+        ],
+        "kalkulator": null,
+        "mini_kuis": [
+          {
+            "id": "q1",
+            "pertanyaan": "PPS sering disebut sebagai 'Tax Amnesty Jilid II' karena...",
+            "tipe": "pilihan_ganda",
+            "pilihan": [
+              "A. Diselenggarakan oleh lembaga yang sama persis dengan Tax Amnesty 2016",
+              "B. Konsep dan skemanya mirip Tax Amnesty 2016-2017, yaitu pengungkapan harta dengan PPh Final ringan",
+              "C. Tarifnya sama persis dengan Tax Amnesty 2016",
+              "D. Hanya berlaku untuk peserta Tax Amnesty 2016 saja"
+            ],
+            "jawaban": "B",
+            "pembahasan": "PPS disebut Tax Amnesty Jilid II karena konsepnya mirip, yaitu WP mengungkap harta yang belum dilaporkan dan membayar PPh Final dengan tarif lebih ringan dibanding sanksi normal. Namun PPS sebenarnya punya dua kebijakan dengan subjek dan tarif berbeda, bukan sekadar pengulangan Tax Amnesty 2016."
+          },
+          {
+            "id": "q2",
+            "pertanyaan": "Program PPS masih bisa diikuti oleh Wajib Pajak sampai sekarang (2026).",
+            "tipe": "benar_salah",
+            "pilihan": [
+              "Benar",
+              "Salah"
+            ],
+            "jawaban": "Salah",
+            "pembahasan": "PPS hanya berlaku dalam periode terbatas, yaitu 1 Januari 2022 sampai 30 Juni 2022. Setelah periode itu berakhir, program ini ditutup dan tidak bisa diikuti lagi, sehingga materi ini bersifat historis untuk pembelajaran."
+          }
+        ],
+        "kesalahan_umum": [
+          {
+            "salah": "Mengira PPS masih bisa diikuti sampai sekarang karena namanya mirip program pajak yang sering ada",
+            "benar": "PPS adalah program dengan periode terbatas yang sudah resmi ditutup sejak 30 Juni 2022",
+            "tips": "Selalu cek tanggal berlaku sebuah program pajak khusus sebelum menyimpulkan bisa diikuti atau tidak"
+          }
+        ],
+        "istilah": [
+          {
+            "kata": "PPS",
+            "definisi": "Program Pengungkapan Sukarela, yaitu program yang memberi kesempatan kepada Wajib Pajak untuk melaporkan harta yang belum diungkap dengan membayar PPh Final bertarif khusus.",
+            "contoh": "Bu Dewi mengikuti PPS untuk melaporkan deposito luar negerinya yang belum pernah dilaporkan."
+          },
+          {
+            "kata": "PPh Final",
+            "definisi": "Pajak Penghasilan yang begitu dibayar, kewajiban pajak atas objek tersebut dianggap selesai dan tidak digabung lagi dengan penghasilan lain di SPT Tahunan.",
+            "contoh": "Tarif PPh Final PPS Kebijakan I untuk deklarasi dalam negeri adalah 8%."
+          },
+          {
+            "kata": "SPPH",
+            "definisi": "Surat Pemberitahuan Pengungkapan Harta, dokumen resmi yang diisi WP untuk melaporkan harta dalam rangka PPS.",
+            "contoh": "Bu Dewi mengisi SPPH secara online lewat DJP Online untuk melaporkan depositonya."
+          }
+        ]
+      },
+      {
+        "id": "bag-02",
+        "judul": "Landasan Hukum Utama PPS",
+        "paragraf": [
+          "Nah, sekarang kita masuk ke dasar hukumnya biar kamu nggak cuma tahu konsepnya doang, tapi juga paham dari mana aturan ini lahir. PPS itu diatur khusus di BAB V Undang-Undang Nomor 7 Tahun 2021 tentang Harmonisasi Peraturan Perpajakan alias UU HPP. Jadi bukan undang-undang berdiri sendiri kayak Tax Amnesty 2016 dulu (yang punya UU sendiri, UU No. 11/2016), tapi PPS ini 'numpang' jadi salah satu bab di dalam UU HPP yang lebih besar dan lebih komprehensif.",
+          "Terus, biar bisa dijalankan secara teknis, pemerintah nerbitin aturan turunan yaitu Peraturan Menteri Keuangan (PMK) Nomor 196/PMK.03/2021 tentang Tata Cara Pelaksanaan Program Pengungkapan Sukarela Wajib Pajak. PMK inilah yang ngatur detail teknis kayak gimana cara ngisi SPPH, gimana cara bayar, gimana cara nilai harta, sampai gimana proses penerbitan SKET.",
+          "Yang paling krusial buat kamu inget adalah soal jangka waktunya — PPS ini punya periode super terbatas, cuma 6 bulan aja: 1 Januari 2022 sampai 30 Juni 2022. Beda banget sama Tax Amnesty 2016 yang periodenya lebih panjang dan dibagi jadi 3 periode. Karena periodenya pendek, makanya sosialisasinya waktu itu digencarkan banget sama DJP biar WP nggak kelewatan momen.",
+          "Kenapa penting banget kamu hafal ini? Karena di soal ujian Brevet biasanya suka nanya 'PPS diatur dalam UU apa' atau 'PMK berapa yang jadi aturan pelaksana PPS', jadi kombo UU HPP Bab V + PMK 196/2021 + periode Jan-Jun 2022 ini wajib nempel di kepala kamu."
+        ],
+        "poin_penting": [
+          "📌 Dasar hukum utama: BAB V UU No. 7 Tahun 2021 (UU HPP)",
+          "📝 Aturan teknis pelaksanaan: PMK 196/PMK.03/2021",
+          "⏰ Periode PPS: 1 Januari 2022 s.d. 30 Juni 2022 (6 bulan saja)",
+          "✅ PPS bukan UU tersendiri, melainkan bagian dari UU HPP yang lebih besar"
+        ],
+        "analogi": "Ibaratnya UU HPP itu kayak buku kurikulum sekolah yang isinya banyak bab (PPh, PPN, PPS, dan lain-lain), sedangkan PMK 196/2021 itu kayak buku panduan guru yang ngejelasin cara ngajar bab PPS-nya secara detail dan teknis.",
+        "contoh_kasus": {
+          "judul": "Kasus Mas Andi Cari Dasar Hukum",
+          "cerita": "Mas Andi, seorang mahasiswa Brevet AB, bingung waktu ditanya dosen soal dasar hukum PPS. Setelah baca ulang modul, dia baru sadar kalau PPS itu bukan UU tersendiri, tapi bagian dari UU HPP, tepatnya di BAB V, dan teknisnya diatur PMK 196/2021.",
+          "poin": [
+            "PPS bukan undang-undang tersendiri seperti Tax Amnesty 2016",
+            "PPS adalah salah satu bab dari UU HPP yang aturan teknisnya dijabarkan di PMK 196/2021"
+          ]
+        },
+        "diagram_mermaid": [
+          "graph TD\n    A[\"UU No. 7 Tahun 2021 - UU HPP\"] --> B[\"BAB V - Program Pengungkapan Sukarela\"]\n    B --> C[\"PMK 196/PMK.03/2021\"]\n    C --> D[\"Tata Cara Teknis Pelaksanaan PPS\"]\n    D --> E[\"Periode 1 Jan 2022 - 30 Jun 2022\"]\n    E --> F[\"Kebijakan I dan Kebijakan II\"]"
+        ],
+        "penjelasan_diagram": "Diagram ini menunjukkan hierarki dasar hukum PPS, mulai dari UU HPP sebagai payung utama, diturunkan ke PMK 196/2021 sebagai aturan teknis, sampai akhirnya membentuk periode dan dua kebijakan PPS yang berjalan.",
+        "prompt_gambar": [],
+        "kalkulator": null,
+        "mini_kuis": [
+          {
+            "id": "q1",
+            "pertanyaan": "PPS diatur secara khusus dalam bab berapa di UU HPP?",
+            "tipe": "pilihan_ganda",
+            "pilihan": [
+              "A. BAB II",
+              "B. BAB III",
+              "C. BAB IV",
+              "D. BAB V"
+            ],
+            "jawaban": "D",
+            "pembahasan": "PPS diatur dalam BAB V UU No. 7 Tahun 2021 tentang Harmonisasi Peraturan Perpajakan. Bab-bab lain di UU HPP membahas topik berbeda seperti KUP, PPh, dan PPN."
+          },
+          {
+            "id": "q2",
+            "pertanyaan": "Aturan teknis pelaksanaan PPS diatur dalam PMK 196/PMK.03/2021.",
+            "tipe": "benar_salah",
+            "pilihan": [
+              "Benar",
+              "Salah"
+            ],
+            "jawaban": "Benar",
+            "pembahasan": "Benar, PMK Nomor 196/PMK.03/2021 adalah peraturan pelaksana yang mengatur detail teknis PPS, mulai dari tata cara SPPH sampai penerbitan SKET."
+          },
+          {
+            "id": "q3",
+            "pertanyaan": "Berapa lama periode pengajuan PPS berlangsung?",
+            "tipe": "isian_singkat",
+            "pilihan": [],
+            "jawaban": "6 bulan",
+            "pembahasan": "Periode PPS berlangsung 1 Januari 2022 sampai 30 Juni 2022, yaitu selama 6 bulan penuh."
+          }
+        ],
+        "kesalahan_umum": [
+          {
+            "salah": "Menganggap PPS punya undang-undang tersendiri seperti Tax Amnesty 2016",
+            "benar": "PPS adalah bagian dari UU HPP (BAB V), bukan undang-undang berdiri sendiri",
+            "tips": "Ingat pola: Tax Amnesty 2016 = UU sendiri (UU 11/2016), PPS 2022 = bagian dari UU HPP"
+          },
+          {
+            "salah": "Mengira periode PPS sama panjangnya dengan Tax Amnesty 2016 yang berbulan-bulan lebih lama",
+            "benar": "Periode PPS jauh lebih pendek, cuma 6 bulan (Januari-Juni 2022)",
+            "tips": "Hafalkan tanggal spesifiknya: 1 Januari 2022 sampai 30 Juni 2022"
+          }
+        ],
+        "istilah": [
+          {
+            "kata": "UU HPP",
+            "definisi": "Undang-Undang Harmonisasi Peraturan Perpajakan, UU No. 7 Tahun 2021 yang merombak berbagai ketentuan perpajakan di Indonesia termasuk PPS.",
+            "contoh": "PPS diatur dalam BAB V UU HPP."
+          },
+          {
+            "kata": "PMK",
+            "definisi": "Peraturan Menteri Keuangan, aturan teknis yang diterbitkan Menteri Keuangan untuk menjalankan ketentuan dalam undang-undang.",
+            "contoh": "PMK 196/PMK.03/2021 mengatur tata cara teknis pelaksanaan PPS."
+          },
+          {
+            "kata": "Periode PPS",
+            "definisi": "Jangka waktu terbatas di mana WP bisa mengajukan pengungkapan harta lewat PPS, yaitu 1 Januari 2022 sampai 30 Juni 2022.",
+            "contoh": "Bu Dewi harus menyelesaikan pelaporan SPPH-nya sebelum 30 Juni 2022 agar sah ikut PPS."
+          }
+        ]
+      },
+      {
+        "id": "bag-03",
+        "judul": "Latar Belakang Terbitnya PPS",
+        "paragraf": [
+          "Kamu mungkin bertanya, kenapa sih pemerintah bikin lagi program amnesti setelah Tax Amnesty 2016-2017? Jawabannya nggak jauh-jauh dari hasil evaluasi. Ternyata, walaupun Tax Amnesty 2016 udah lumayan sukses narik banyak harta yang dideklarasikan, masih ada celah — banyak WP yang ikut Tax Amnesty waktu itu ternyata belum 100% jujur, alias masih ada harta yang 'ketinggalan' dan nggak dimasukin ke Surat Pernyataan Harta (SPH) mereka.",
+          "Selain itu, ada juga masalah lain: banyak harta yang diperoleh WP dalam rentang tahun 2016 sampai 2020 (jadi setelah periode Tax Amnesty berakhir) yang belum juga dilaporkan di SPT Tahunan. Ini kayak 'gap baru' yang muncul setelah Tax Amnesty selesai, jadi negara perlu bikin mekanisme lagi buat nutup gap ini.",
+          "Faktor yang bikin momentumnya makin pas adalah keterbukaan data perbankan internasional lewat program Automatic Exchange of Information (AEOI). Jadi sejak Indonesia ikut serta dalam pertukaran data finansial otomatis antarnegara, DJP jadi punya akses buat ngintip data rekening WP Indonesia yang disimpan di luar negeri. Ini bikin banyak WP yang tadinya PD nyimpen harta di luar negeri jadi mikir dua kali, karena datanya bisa aja udah 'ketahuan' lewat AEOI.",
+          "Jadi kombinasi tiga hal ini — evaluasi Tax Amnesty yang belum tuntas, gap harta baru 2016-2020, dan tekanan dari keterbukaan data AEOI — itulah yang jadi alasan kuat kenapa pemerintah akhirnya bikin PPS di tahun 2022. Tujuannya jelas: ngasih jalan damai terakhir sebelum DJP mulai 'nyari sendiri' pakai data AEOI."
+        ],
+        "poin_penting": [
+          "📊 Evaluasi menunjukkan masih ada harta Tax Amnesty 2016 yang belum sepenuhnya terungkap",
+          "💰 Muncul gap baru: harta perolehan 2016-2020 yang belum masuk SPT Tahunan",
+          "🌍 AEOI membuat data rekening WP di luar negeri jadi lebih transparan ke DJP",
+          "⚠️ PPS jadi 'jalan damai terakhir' sebelum DJP aktif mengejar data lewat AEOI"
+        ],
+        "analogi": "Bayangin kamu titip barang di rumah temen dan mikir 'ah aman, nggak bakal ketahuan'. Eh, tiba-tiba ada sistem baru di mana semua rumah temen kamu wajib lapor barang titipan ke RT. Nah, AEOI itu kayak sistem lapor RT itu — bikin harta yang disembunyiin di luar negeri jadi lebih gampang ketahuan, makanya banyak yang buru-buru 'ngaku' lewat PPS.",
+        "contoh_kasus": {
+          "judul": "Kasus Pak Joko Peserta Tax Amnesty 2016",
+          "cerita": "Pak Joko ikut Tax Amnesty 2016 dan melaporkan sebagian hartanya. Tapi ternyata dia masih punya rekening di Singapura senilai Rp1,5 miliar yang lupa (atau sengaja) nggak dilaporkan waktu itu. Setelah AEOI berjalan, Pak Joko khawatir datanya bakal ketahuan, sehingga dia memutuskan ikut PPS Kebijakan I untuk melengkapi pengungkapan hartanya.",
+          "poin": [
+            "Pak Joko adalah contoh nyata dari 'harta Tax Amnesty yang belum terungkap' yang jadi latar belakang PPS Kebijakan I",
+            "Tekanan dari AEOI menjadi salah satu pendorong keputusan Pak Joko untuk akhirnya ikut PPS"
+          ]
+        },
+        "diagram_mermaid": [],
+        "prompt_gambar": [
+          {
+            "id": "img-bag-3",
+            "prompt": "A highly detailed modern flat 3D isometric educational illustration in landscape 16:9 format depicting Latar Belakang Terbitnya PPS in Indonesian tax environment. Studio render style with deep navy background #0F172A, electric blue #3B82F6, emerald green #10B981, clean lighting. Crisp vector graphics. Clean bold text label in Indonesian printed on top of key elements. NO TEXT, NO LETTERS, NO NUMBERS, NO WORDS, NO WATERMARKS.",
+            "keterangan": "Infografis 3D ilustrasi visual mengenai Latar Belakang Terbitnya PPS",
+            "alt": "Diagram ilustrasi Latar Belakang Terbitnya PPS",
+            "url_gambar": null
+          }
+        ],
+        "kalkulator": null,
+        "mini_kuis": [
+          {
+            "id": "q1",
+            "pertanyaan": "Berikut ini yang BUKAN termasuk latar belakang terbitnya PPS adalah...",
+            "tipe": "pilihan_ganda",
+            "pilihan": [
+              "A. Masih ada harta Tax Amnesty 2016 yang belum terungkap",
+              "B. Munculnya gap harta perolehan 2016-2020 yang belum masuk SPT",
+              "C. Keterbukaan data lewat Automatic Exchange of Information (AEOI)",
+              "D. Penurunan tarif PPN dari 12% ke 11%"
+            ],
+            "jawaban": "D",
+            "pembahasan": "Penurunan tarif PPN tidak ada hubungannya dengan latar belakang PPS. Tiga faktor sebenarnya adalah evaluasi Tax Amnesty 2016, gap harta 2016-2020, dan tekanan keterbukaan data AEOI."
+          },
+          {
+            "id": "q2",
+            "pertanyaan": "AEOI adalah singkatan dari Automatic Exchange of Information, yaitu sistem pertukaran data finansial otomatis antarnegara.",
+            "tipe": "benar_salah",
+            "pilihan": [
+              "Benar",
+              "Salah"
+            ],
+            "jawaban": "Benar",
+            "pembahasan": "Benar, AEOI memungkinkan DJP mendapatkan data rekening finansial milik WP Indonesia yang disimpan di lembaga keuangan luar negeri, sehingga mendorong kepatuhan sukarela lewat PPS."
+          }
+        ],
+        "kesalahan_umum": [
+          {
+            "salah": "Mengira PPS lahir murni karena kebutuhan penerimaan negara semata",
+            "benar": "PPS lahir dari kombinasi evaluasi Tax Amnesty, gap harta 2016-2020, dan tekanan AEOI",
+            "tips": "Selalu sebutkan ketiga faktor ini kalau ditanya soal latar belakang PPS di ujian"
+          }
+        ],
+        "istilah": [
+          {
+            "kata": "AEOI",
+            "definisi": "Automatic Exchange of Information, sistem pertukaran data finansial secara otomatis antarnegara yang membuat data rekening luar negeri WP dapat diakses otoritas pajak domestik.",
+            "contoh": "Berkat AEOI, DJP bisa mengetahui data rekening Pak Joko di Singapura."
+          },
+          {
+            "kata": "SPH",
+            "definisi": "Surat Pernyataan Harta, dokumen yang digunakan WP untuk melaporkan harta dalam program Tax Amnesty 2016-2017.",
+            "contoh": "Pak Joko mengisi SPH saat ikut Tax Amnesty 2016, tapi ada harta yang belum dimasukkan."
+          },
+          {
+            "kata": "Gap Harta",
+            "definisi": "Istilah informal untuk menggambarkan harta yang diperoleh WP dalam periode tertentu tetapi belum dilaporkan di SPT Tahunan.",
+            "contoh": "Harta yang diperoleh WP OP antara tahun 2016-2020 menjadi gap harta yang menjadi objek PPS Kebijakan II."
+          }
+        ]
+      },
+      {
+        "id": "bag-04",
+        "judul": "Subjek dan Objek Harta Kebijakan I",
+        "paragraf": [
+          "Sekarang kita masuk ke bagian yang lebih teknis nih — Kebijakan I. Ini khusus buat WP yang dulu pernah ikutan Tax Amnesty tahun 2016. Jadi kalau kamu dulu nggak ikut Tax Amnesty sama sekali, kamu otomatis nggak bisa ikut Kebijakan I ini, karena syarat utamanya adalah 'pernah jadi peserta Tax Amnesty 2016'.",
+          "Subjeknya mencakup dua jenis WP: WP Badan (misalnya PT atau CV) dan WP Orang Pribadi, selama keduanya sama-sama pernah jadi peserta Tax Amnesty 2016. Ini beda sama Kebijakan II yang nanti bakal kamu pelajari, di mana Kebijakan II itu cuma buat WP Orang Pribadi doang, WP Badan dilarang ikut.",
+          "Nah, objek hartanya juga spesifik banget, yaitu harta yang diperoleh sampai dengan 31 Desember 2015 tapi belum diungkapkan di Surat Pernyataan Harta (SPH) waktu ikut Tax Amnesty dulu. Jadi ini murni soal 'menyempurnakan' pengungkapan harta yang seharusnya udah dilaporkan waktu Tax Amnesty 2016, tapi ternyata masih ada yang ketinggalan atau sengaja disembunyikan.",
+          "Penting dicatat, kalau harta itu diperoleh SETELAH 31 Desember 2015 (misalnya harta yang didapat tahun 2017 atau 2019), itu bukan objek Kebijakan I, melainkan bisa masuk ke Kebijakan II (kalau WP-nya orang pribadi dan hartanya diperoleh 2016-2020). Jadi batas waktu 31 Desember 2015 ini jadi garis pemisah yang krusial banget buat nentuin harta itu masuk kebijakan mana."
+        ],
+        "poin_penting": [
+          "👤 Subjek Kebijakan I: peserta Tax Amnesty 2016, baik WP Badan maupun WP Orang Pribadi",
+          "📅 Objek: harta perolehan sampai dengan 31 Desember 2015 yang belum diungkap di SPH",
+          "🔑 Syarat mutlak: harus pernah jadi peserta Tax Amnesty 2016-2017",
+          "⚠️ Harta yang diperoleh setelah 31 Desember 2015 bukan objek Kebijakan I"
+        ],
+        "analogi": "Ibaratnya Kebijakan I ini kayak 'ujian her' buat murid yang udah pernah ikut ujian utama (Tax Amnesty 2016) tapi ternyata masih ada soal yang belum dikerjain (harta yang belum diungkap). Bukan buat murid yang belum pernah ikut ujian utama sama sekali.",
+        "contoh_kasus": {
+          "judul": "Kasus PT Sejahtera Abadi",
+          "cerita": "PT Sejahtera Abadi, sebuah perusahaan yang ikut Tax Amnesty 2016, ternyata masih punya aset properti senilai Rp5 miliar yang diperoleh tahun 2014 tapi belum masuk SPH. Karena PT ini pernah jadi peserta Tax Amnesty dan hartanya diperoleh sebelum 31 Desember 2015, PT Sejahtera Abadi berhak ikut PPS Kebijakan I.",
+          "poin": [
+            "PT Sejahtera Abadi memenuhi syarat subjek karena pernah ikut Tax Amnesty 2016",
+            "Hartanya juga memenuhi syarat objek karena diperoleh sebelum 31 Desember 2015"
+          ]
+        },
+        "diagram_mermaid": [],
+        "prompt_gambar": [
+          {
+            "id": "img-bag-4",
+            "prompt": "A highly detailed modern flat 3D isometric educational illustration in landscape 16:9 format depicting Subjek dan Objek Harta Kebijakan I in Indonesian tax environment. Studio render style with deep navy background #0F172A, electric blue #3B82F6, emerald green #10B981, clean lighting. Crisp vector graphics. Clean bold text label in Indonesian printed on top of key elements. NO TEXT, NO LETTERS, NO NUMBERS, NO WORDS, NO WATERMARKS.",
+            "keterangan": "Infografis 3D ilustrasi visual mengenai Subjek dan Objek Harta Kebijakan I",
+            "alt": "Diagram ilustrasi Subjek dan Objek Harta Kebijakan I",
+            "url_gambar": null
+          }
+        ],
+        "kalkulator": null,
+        "mini_kuis": [
+          {
+            "id": "q1",
+            "pertanyaan": "Siapa yang boleh mengikuti PPS Kebijakan I?",
+            "tipe": "pilihan_ganda",
+            "pilihan": [
+              "A. Semua WP tanpa syarat",
+              "B. Hanya WP Orang Pribadi yang belum pernah ikut Tax Amnesty",
+              "C. WP Badan dan WP Orang Pribadi yang pernah menjadi peserta Tax Amnesty 2016",
+              "D. Hanya WP Badan saja"
+            ],
+            "jawaban": "C",
+            "pembahasan": "Kebijakan I terbuka untuk WP Badan maupun WP Orang Pribadi, dengan syarat mutlak keduanya pernah menjadi peserta Tax Amnesty 2016. Pilihan A salah karena ada syarat khusus, B dan D salah karena membatasi subjek secara tidak tepat."
+          },
+          {
+            "id": "q2",
+            "pertanyaan": "Objek harta Kebijakan I adalah harta yang diperoleh sampai dengan 31 Desember 2015.",
+            "tipe": "benar_salah",
+            "pilihan": [
+              "Benar",
+              "Salah"
+            ],
+            "jawaban": "Benar",
+            "pembahasan": "Benar, batas waktu perolehan harta untuk Kebijakan I adalah sampai dengan 31 Desember 2015, sesuai dengan periode yang seharusnya dilaporkan di Tax Amnesty 2016."
+          }
+        ],
+        "kesalahan_umum": [
+          {
+            "salah": "Mengira siapa saja bisa ikut Kebijakan I meski tidak pernah ikut Tax Amnesty 2016",
+            "benar": "Kebijakan I hanya untuk mantan peserta Tax Amnesty 2016 yang masih punya harta belum terungkap",
+            "tips": "Cek dulu status kepesertaan Tax Amnesty 2016 sebelum menentukan bisa ikut Kebijakan I atau tidak"
+          },
+          {
+            "salah": "Menganggap WP Badan tidak boleh ikut PPS sama sekali",
+            "benar": "WP Badan boleh ikut Kebijakan I (bukan Kebijakan II yang khusus WP OP)",
+            "tips": "Ingat: Kebijakan I terbuka untuk Badan dan OP, Kebijakan II hanya untuk OP"
+          }
+        ],
+        "istilah": [
+          {
+            "kata": "Kebijakan I",
+            "definisi": "Skema PPS untuk peserta Tax Amnesty 2016 yang masih memiliki harta perolehan sampai 31 Desember 2015 yang belum diungkap.",
+            "contoh": "PT Sejahtera Abadi mengikuti Kebijakan I untuk melengkapi pengungkapan hartanya."
+          },
+          {
+            "kata": "WP Badan",
+            "definisi": "Wajib Pajak yang berbentuk badan usaha seperti PT, CV, atau firma, berbeda dengan WP Orang Pribadi.",
+            "contoh": "PT Sejahtera Abadi adalah WP Badan yang berhak mengikuti Kebijakan I."
+          },
+          {
+            "kata": "Peserta Tax Amnesty",
+            "definisi": "WP yang pernah mengikuti program pengampunan pajak tahun 2016-2017 dan telah menerima Surat Keterangan Pengampunan Pajak.",
+            "contoh": "Status sebagai peserta Tax Amnesty 2016 menjadi syarat mutlak untuk ikut PPS Kebijakan I."
+          }
+        ]
+      },
+      {
+        "id": "bag-05",
+        "judul": "Tiga Tarif PPh Final Kebijakan I",
+        "paragraf": [
+          "Nah ini dia bagian yang paling sering ditanyain: berapa sih tarifnya kalau ikut Kebijakan I? Jawabannya ada tiga tarif berbeda, tergantung dari cara kamu mengungkapkan hartanya. Semakin 'baik' buat perekonomian Indonesia caranya (misalnya harta dibawa pulang dan diinvestasikan), semakin kecil tarifnya. Ini logika yang sama kayak Tax Amnesty dulu.",
+          "Tarif pertama adalah 11% untuk deklarasi luar negeri, artinya kamu cuma ngaku punya harta di luar negeri tapi hartanya tetap 'nangkring' di sana, nggak dibawa pulang ke Indonesia. Karena uangnya nggak masuk ke perekonomian dalam negeri, makanya tarifnya paling gede di antara ketiganya.",
+          "Tarif kedua adalah 8%, berlaku untuk dua skenario: repatriasi luar negeri (harta yang tadinya di luar negeri dibawa pulang ke Indonesia) ATAU deklarasi dalam negeri (harta yang memang udah dari awal ada di Indonesia dan cuma perlu diungkap statusnya). Tarifnya lebih murah dibanding yang pertama karena ada 'nilai tambah' buat ekonomi domestik.",
+          "Tarif ketiga, yang paling murah, adalah 6%. Ini berlaku kalau harta hasil repatriasi luar negeri ATAU deklarasi dalam negeri itu diinvestasikan lagi ke instrumen tertentu, yaitu Surat Berharga Negara (SBN) atau sektor hilirisasi Sumber Daya Alam (SDA). Jadi pemerintah kasih 'bonus diskon' 2% lagi buat yang mau nanem duitnya balik ke pembangunan negara lewat SBN atau hilirisasi."
+        ],
+        "poin_penting": [
+          "💰 Tarif 11%: deklarasi luar negeri (harta tetap di luar negeri, hanya diungkap)",
+          "💰 Tarif 8%: repatriasi luar negeri ATAU deklarasi dalam negeri",
+          "💰 Tarif 6%: repatriasi/deklarasi dalam negeri yang diinvestasikan di SBN atau hilirisasi SDA",
+          "🔑 Semakin harta 'membantu' ekonomi domestik, semakin kecil tarifnya"
+        ],
+        "analogi": "Bayangin kamu ikut lomba lari, terus panitia bilang: kalau kamu cuma nonton dari pinggir lapangan (harta tetap di luar negeri), kamu bayar tiket paling mahal. Kalau kamu ikut lari (bawa harta pulang), tiketnya lebih murah. Kalau kamu bahkan bantu jadi panitia (investasi ke SBN/hilirisasi), tiketnya paling murah dari semuanya. Makin kamu berkontribusi, makin murah 'biaya masuknya'.",
+        "contoh_kasus": {
+          "judul": "Kasus PT Sejahtera Abadi Menghitung PPh Final",
+          "cerita": "Lanjutan dari kasus sebelumnya, PT Sejahtera Abadi punya harta properti senilai Rp5 miliar yang diperoleh sebelum 2015 dan tetap berada di dalam negeri. Karena statusnya deklarasi dalam negeri (harta memang sudah ada di Indonesia), PT Sejahtera Abadi dikenai tarif 8%.",
+          "poin": [
+            "PPh Final = 8% x Rp5.000.000.000 = Rp400.000.000",
+            "Kalau PT ini memilih menginvestasikan sebagian harta itu ke SBN, tarifnya bisa turun jadi 6% untuk bagian yang diinvestasikan"
+          ]
+        },
+        "diagram_mermaid": [],
+        "prompt_gambar": [],
+        "kalkulator": {
+          "tipe": "pph_final",
+          "judul": "Kalkulator PPh Final PPS Kebijakan I",
+          "keterangan": "Masukkan nilai harta dan pilih skema (deklarasi LN 11%, repatriasi/deklarasi DN 8%, atau investasi SBN/hilirisasi 6%) untuk menghitung PPh Final yang harus dibayar."
+        },
+        "mini_kuis": [
+          {
+            "id": "q1",
+            "pertanyaan": "Berapa tarif PPh Final Kebijakan I untuk harta yang dideklarasikan tapi tetap berada di luar negeri?",
+            "tipe": "pilihan_ganda",
+            "pilihan": [
+              "A. 6%",
+              "B. 8%",
+              "C. 11%",
+              "D. 18%"
+            ],
+            "jawaban": "C",
+            "pembahasan": "Tarif 11% berlaku untuk deklarasi luar negeri, yaitu harta yang diungkap tapi tetap berada di luar negeri dan tidak dibawa pulang ke Indonesia. Tarif ini paling tinggi karena tidak memberi kontribusi langsung ke ekonomi domestik."
+          },
+          {
+            "id": "q2",
+            "pertanyaan": "Tarif paling rendah di Kebijakan I, yaitu 6%, berlaku untuk harta yang direpatriasi dan diinvestasikan di SBN atau hilirisasi SDA.",
+            "tipe": "benar_salah",
+            "pilihan": [
+              "Benar",
+              "Salah"
+            ],
+            "jawaban": "Benar",
+            "pembahasan": "Benar, tarif 6% adalah yang paling rendah di antara tiga tarif Kebijakan I, sebagai insentif bagi WP yang bersedia menginvestasikan hartanya ke instrumen yang mendukung pembangunan negara."
+          },
+          {
+            "id": "q3",
+            "pertanyaan": "Sebuah PT punya harta di dalam negeri senilai Rp2 miliar yang belum diungkap sejak sebelum 2015, dan tidak diinvestasikan ke SBN. Berapa PPh Final yang harus dibayar?",
+            "tipe": "isian_singkat",
+            "pilihan": [],
+            "jawaban": "Rp160.000.000",
+            "pembahasan": "Karena statusnya deklarasi dalam negeri tanpa investasi khusus, tarif yang berlaku adalah 8%. Maka PPh Final = 8% x Rp2.000.000.000 = Rp160.000.000."
+          }
+        ],
+        "kesalahan_umum": [
+          {
+            "salah": "Mengira tarif deklarasi dalam negeri sama dengan deklarasi luar negeri",
+            "benar": "Deklarasi dalam negeri kena tarif 8%, sedangkan deklarasi luar negeri kena tarif 11%",
+            "tips": "Fokus pada LOKASI harta (dalam/luar negeri) dan APAKAH diinvestasikan atau tidak untuk menentukan tarif yang tepat"
+          }
+        ],
+        "istilah": [
+          {
+            "kata": "Deklarasi",
+            "definisi": "Tindakan mengungkapkan kepemilikan harta tanpa memindahkan lokasi fisik harta tersebut.",
+            "contoh": "PT Sejahtera Abadi melakukan deklarasi dalam negeri atas propertinya yang memang sudah berada di Indonesia."
+          },
+          {
+            "kata": "Repatriasi",
+            "definisi": "Tindakan memindahkan atau membawa pulang harta dari luar negeri ke dalam wilayah Indonesia.",
+            "contoh": "Jika PT Sejahtera Abadi punya harta di Singapura dan membawanya pulang ke Indonesia, itu disebut repatriasi."
+          },
+          {
+            "kata": "Hilirisasi SDA",
+            "definisi": "Proses pengolahan sumber daya alam mentah menjadi produk bernilai tambah lebih tinggi di dalam negeri.",
+            "contoh": "Investasi ke sektor hilirisasi SDA bisa memberi WP tarif PPh Final PPS paling rendah, yaitu 6%."
+          }
+        ]
+      },
+      {
+        "id": "bag-06",
+        "judul": "Subjek dan Objek Harta Kebijakan II",
+        "paragraf": [
+          "Sekarang kita geser ke Kebijakan II, yang punya karakter beda banget sama Kebijakan I. Kalau Kebijakan I terbuka buat Badan dan OP, Kebijakan II ini EKSKLUSIF cuma buat Wajib Pajak Orang Pribadi aja. Jadi kalau kamu WP Badan, mau nggak mau kamu nggak bisa ikut Kebijakan II sama sekali, titik.",
+          "Kenapa dibatasin cuma buat OP? Soalnya Kebijakan II ini dirancang buat 'menutup gap' harta yang muncul SETELAH Tax Amnesty 2016 selesai, dan biasanya kasus-kasus kayak gini emang lebih sering ditemuin di level individu (orang pribadi) yang punya penghasilan tambahan atau warisan yang belum dilaporin, ketimbang di level perusahaan yang laporan keuangannya biasanya lebih diaudit ketat.",
+          "Objek hartanya adalah harta yang diperoleh dalam rentang 2016 sampai dengan 2020, yang belum dimasukkan ke SPT Tahunan PPh tahun pajak 2020. Jadi range waktunya 5 tahun, mulai dari 2016 (tepat setelah periode Tax Amnesty 2016 berakhir) sampai 2020 (tahun terakhir sebelum PPS dibuka di 2022).",
+          "Bedain baik-baik ya sama Kebijakan I: Kebijakan I itu soal harta SEBELUM 2016 yang belum diungkap di Tax Amnesty, sedangkan Kebijakan II itu soal harta 2016-2020 yang belum masuk SPT. Jadi dua kebijakan ini saling melengkapi, nggak tumpang tindih, karena beda rentang waktu perolehan hartanya."
+        ],
+        "poin_penting": [
+          "👤 Subjek Kebijakan II: HANYA Wajib Pajak Orang Pribadi, WP Badan dilarang ikut",
+          "📅 Objek: harta perolehan tahun 2016 s.d. 2020 yang belum masuk SPT Tahunan 2020",
+          "🔑 Kebijakan II menutup gap harta pasca Tax Amnesty 2016 sampai sebelum PPS dibuka",
+          "⚠️ Jangan sampai tertukar dengan Kebijakan I yang fokus ke harta sebelum 2016"
+        ],
+        "analogi": "Kalau Kebijakan I itu kayak 'ujian susulan' buat murid yang udah pernah ujian tapi masih ada soal ketinggalan, Kebijakan II itu lebih kayak 'ujian materi baru' — buat murid (khusus yang orang pribadi) yang punya materi tambahan (harta baru 2016-2020) yang belum pernah diujikan sama sekali sebelumnya.",
+        "contoh_kasus": {
+          "judul": "Kasus Kak Nisa Dapat Warisan",
+          "cerita": "Kak Nisa mendapat warisan berupa tanah dari orang tuanya di tahun 2018, tapi dia lupa memasukkan tanah itu ke SPT Tahunan-nya. Karena Kak Nisa adalah WP Orang Pribadi dan hartanya diperoleh di rentang 2016-2020, dia memenuhi syarat untuk ikut PPS Kebijakan II.",
+          "poin": [
+            "Kak Nisa memenuhi syarat subjek karena berstatus WP Orang Pribadi",
+            "Tanah warisan yang diperoleh 2018 memenuhi syarat objek Kebijakan II karena masuk rentang 2016-2020"
+          ]
+        },
+        "diagram_mermaid": [
+          "graph TD\n    A[\"Program Pengungkapan Sukarela\"] --> B[\"Kebijakan I\"]\n    A --> C[\"Kebijakan II\"]\n    B --> D[\"Subjek: WP Badan dan OP peserta Tax Amnesty 2016\"]\n    B --> E[\"Objek: harta s.d. 31 Des 2015\"]\n    C --> F[\"Subjek: HANYA WP Orang Pribadi\"]\n    C --> G[\"Objek: harta 2016 s.d. 2020\"]"
+        ],
+        "penjelasan_diagram": "Diagram ini menegaskan perbedaan utama antara Kebijakan I dan Kebijakan II dari sisi subjek (siapa yang boleh ikut) dan objek (rentang waktu harta), sehingga kamu nggak gampang ketuker saat menjawab soal.",
+        "prompt_gambar": [],
+        "kalkulator": null,
+        "mini_kuis": [
+          {
+            "id": "q1",
+            "pertanyaan": "Wajib Pajak Badan (PT/CV) boleh mengikuti PPS Kebijakan II.",
+            "tipe": "benar_salah",
+            "pilihan": [
+              "Benar",
+              "Salah"
+            ],
+            "jawaban": "Salah",
+            "pembahasan": "Salah, Kebijakan II hanya diperuntukkan bagi Wajib Pajak Orang Pribadi. WP Badan sama sekali tidak boleh mengikuti Kebijakan II, berbeda dengan Kebijakan I yang terbuka untuk Badan dan OP."
+          },
+          {
+            "id": "q2",
+            "pertanyaan": "Objek harta Kebijakan II adalah harta yang diperoleh pada rentang tahun...",
+            "tipe": "pilihan_ganda",
+            "pilihan": [
+              "A. Sampai dengan 2015",
+              "B. 2016 sampai dengan 2020",
+              "C. 2016 sampai dengan 2022",
+              "D. 2020 sampai dengan 2022"
+            ],
+            "jawaban": "B",
+            "pembahasan": "Objek Kebijakan II adalah harta yang diperoleh dalam rentang 2016 sampai dengan 2020 dan belum dimasukkan dalam SPT Tahunan PPh tahun pajak 2020."
+          }
+        ],
+        "kesalahan_umum": [
+          {
+            "salah": "Menyamakan syarat subjek Kebijakan I dan Kebijakan II",
+            "benar": "Kebijakan I terbuka untuk Badan dan OP, sedangkan Kebijakan II hanya untuk OP",
+            "tips": "Buat jembatan keledai: 'Kebijakan Dua, Orang Pribadi Doang'"
+          }
+        ],
+        "istilah": [
+          {
+            "kata": "Kebijakan II",
+            "definisi": "Skema PPS khusus WP Orang Pribadi untuk mengungkap harta perolehan tahun 2016-2020 yang belum masuk SPT Tahunan 2020.",
+            "contoh": "Kak Nisa mengikuti Kebijakan II untuk melaporkan tanah warisannya yang diperoleh tahun 2018."
+          },
+          {
+            "kata": "SPT Tahunan",
+            "definisi": "Surat Pemberitahuan Tahunan, laporan yang wajib disampaikan WP setiap tahun berisi rincian penghasilan, harta, dan kewajiban pajaknya.",
+            "contoh": "Tanah warisan Kak Nisa seharusnya sudah dilaporkan di SPT Tahunan 2018, tapi baru diungkap lewat PPS."
+          },
+          {
+            "kata": "Wajib Pajak Orang Pribadi",
+            "definisi": "WP yang berupa individu/perseorangan, berbeda dengan WP Badan yang berbentuk badan usaha.",
+            "contoh": "Kak Nisa adalah WP Orang Pribadi yang berhak mengikuti Kebijakan II."
+          }
+        ]
+      },
+      {
+        "id": "bag-07",
+        "judul": "Tiga Tarif PPh Final Kebijakan II",
+        "paragraf": [
+          "Sama kayak Kebijakan I, Kebijakan II juga punya tiga tingkatan tarif tergantung skema pengungkapannya. Bedanya, tarif di Kebijakan II ini secara keseluruhan lebih TINGGI dibanding Kebijakan I. Kenapa? Karena harta yang diungkap di Kebijakan II itu 'lebih baru' (2016-2020), jadi dianggap lebih pantas kena tarif yang lebih gede dibanding harta lama sebelum 2016 di Kebijakan I.",
+          "Tarif pertama adalah 18% untuk deklarasi luar negeri — harta yang cuma diungkap statusnya tapi tetap parkir di luar negeri. Ini tarif paling mahal di seluruh skema PPS, baik Kebijakan I maupun II.",
+          "Tarif kedua adalah 14%, berlaku untuk repatriasi luar negeri (harta dibawa pulang ke Indonesia) ATAU deklarasi dalam negeri (harta yang emang udah ada di Indonesia dari awal). Selisihnya 4% lebih murah dibanding deklarasi luar negeri.",
+          "Tarif ketiga, paling murah di Kebijakan II, adalah 12%. Ini berlaku untuk harta hasil repatriasi luar negeri atau deklarasi dalam negeri yang diinvestasikan ke SBN atau sektor hilirisasi SDA — sama polanya kayak Kebijakan I, cuma angkanya lebih tinggi semua. Jadi kalau kamu bandingin: 11-8-6 (Kebijakan I) vs 18-14-12 (Kebijakan II), Kebijakan II selalu lebih mahal di setiap levelnya."
+        ],
+        "poin_penting": [
+          "💰 Tarif 18%: deklarasi luar negeri (tarif termahal di seluruh skema PPS)",
+          "💰 Tarif 14%: repatriasi luar negeri ATAU deklarasi dalam negeri",
+          "💰 Tarif 12%: repatriasi/deklarasi dalam negeri yang diinvestasikan di SBN atau hilirisasi SDA",
+          "📊 Pola tarif Kebijakan II selalu lebih tinggi dibanding Kebijakan I di level yang sama"
+        ],
+        "analogi": "Ibaratnya kalau Kebijakan I itu kayak diskon 'member lama' yang udah loyal (walau masih ada tunggakan), Kebijakan II itu kayak diskon buat 'pelanggan baru' yang belum lama gabung — diskonnya tetap ada, tapi nggak segede member lama.",
+        "contoh_kasus": {
+          "judul": "Kasus Kak Nisa Menghitung PPh Final Kebijakan II",
+          "cerita": "Kak Nisa punya harta saham senilai Rp2 miliar yang diperoleh tahun 2019, belum dilaporkan di SPT 2020, dan tetap berada di dalam negeri (deklarasi dalam negeri) tanpa diinvestasikan lebih lanjut ke SBN.",
+          "poin": [
+            "Karena statusnya deklarasi dalam negeri, tarif yang berlaku adalah 14%",
+            "PPh Final = 14% x Rp2.000.000.000 = Rp280.000.000"
+          ]
+        },
+        "diagram_mermaid": [],
+        "prompt_gambar": [
+          {
+            "id": "img-02",
+            "prompt": "A highly detailed modern 3D isometric infographic illustration in landscape 16:9 format, comparing two side-by-side glowing tax rate towers on a deep navy dark-mode studio background #0F172A blended into a soft violet gradient mesh #1E1B4B, with subtle ambient 3D lighting and floating particle effects. The left tower is shorter and colored electric blue #3B82F6 representing a lower group of tax rates, the right tower is taller and colored warm gold #F59E0B representing a higher group of tax rates, both towers made of three stacked glowing translucent glass blocks of decreasing height. Clear bold modern Indonesian text label 'Kebijakan I' printed above the left tower and 'Kebijakan II' printed above the right tower, both in crisp white sans-serif typography, with small directional arrow icons connecting the blocks. Emerald green #10B981 accent lighting along the base platform. Premium tech-education studio render, high resolution, balanced symmetrical composition.",
+            "keterangan": "Ilustrasi perbandingan visual antara struktur tarif Kebijakan I dan Kebijakan II PPS, menunjukkan bahwa tarif Kebijakan II secara keseluruhan lebih tinggi di setiap tingkatannya.",
+            "alt": "Ilustrasi dua menara bertingkat yang melambangkan perbandingan tarif Kebijakan I dan Kebijakan II PPS",
+            "url_gambar": null
+          }
+        ],
+        "kalkulator": {
+          "tipe": "pph_final",
+          "judul": "Kalkulator PPh Final PPS Kebijakan II",
+          "keterangan": "Masukkan nilai harta dan pilih skema (deklarasi LN 18%, repatriasi/deklarasi DN 14%, atau investasi SBN/hilirisasi 12%) untuk menghitung PPh Final yang harus dibayar."
+        },
+        "mini_kuis": [
+          {
+            "id": "q1",
+            "pertanyaan": "Tarif tertinggi di seluruh skema PPS (Kebijakan I maupun II) adalah...",
+            "tipe": "pilihan_ganda",
+            "pilihan": [
+              "A. 11%",
+              "B. 14%",
+              "C. 18%",
+              "D. 8%"
+            ],
+            "jawaban": "C",
+            "pembahasan": "Tarif 18% adalah tarif tertinggi di seluruh skema PPS, berlaku untuk deklarasi luar negeri di Kebijakan II. Ini lebih tinggi dibanding tarif deklarasi luar negeri Kebijakan I yang hanya 11%."
+          },
+          {
+            "id": "q2",
+            "pertanyaan": "Tarif Kebijakan II secara keseluruhan lebih rendah dibanding Kebijakan I.",
+            "tipe": "benar_salah",
+            "pilihan": [
+              "Benar",
+              "Salah"
+            ],
+            "jawaban": "Salah",
+            "pembahasan": "Salah, justru sebaliknya. Tarif Kebijakan II (18%, 14%, 12%) secara keseluruhan lebih tinggi dibanding Kebijakan I (11%, 8%, 6%) di setiap tingkatan skemanya."
+          },
+          {
+            "id": "q3",
+            "pertanyaan": "Seorang WP OP punya harta senilai Rp1 miliar hasil repatriasi luar negeri yang diinvestasikan ke SBN dalam skema Kebijakan II. Berapa PPh Final-nya?",
+            "tipe": "isian_singkat",
+            "pilihan": [],
+            "jawaban": "Rp120.000.000",
+            "pembahasan": "Karena diinvestasikan ke SBN, tarif yang berlaku adalah 12% (tarif terendah Kebijakan II). Maka PPh Final = 12% x Rp1.000.000.000 = Rp120.000.000."
+          }
+        ],
+        "kesalahan_umum": [
+          {
+            "salah": "Mengira tarif Kebijakan II sama dengan Kebijakan I karena sama-sama punya 3 tingkatan",
+            "benar": "Meski strukturnya sama (3 tingkatan), angka tarif Kebijakan II selalu lebih tinggi",
+            "tips": "Hafalkan dengan pola angka: Kebijakan I = 11-8-6, Kebijakan II = 18-14-12"
+          }
+        ],
+        "istilah": [
+          {
+            "kata": "Tarif Progresif Diskon",
+            "definisi": "Istilah informal untuk menggambarkan pola tarif PPS yang semakin rendah ketika WP semakin berkontribusi pada ekonomi domestik.",
+            "contoh": "Tarif Kebijakan II turun dari 18% ke 12% tergantung skema deklarasi dan investasinya."
+          },
+          {
+            "kata": "SBN",
+            "definisi": "Surat Berharga Negara, instrumen investasi yang diterbitkan pemerintah dan menjadi salah satu opsi investasi untuk mendapat tarif PPh Final PPS paling rendah.",
+            "contoh": "Kak Nisa bisa mendapat tarif 12% jika hartanya diinvestasikan ke SBN."
+          },
+          {
+            "kata": "Deklarasi Dalam Negeri",
+            "definisi": "Pengungkapan harta yang secara fisik memang sudah berada di wilayah Indonesia sejak awal.",
+            "contoh": "Saham Kak Nisa yang tetap berada di Indonesia termasuk kategori deklarasi dalam negeri."
+          }
+        ]
+      },
+      {
+        "id": "bag-08",
+        "judul": "Syarat Mutlak Mengikuti Kebijakan II",
+        "paragraf": [
+          "Nah, buat ikut Kebijakan II, nggak cukup cuma memenuhi syarat subjek dan objek harta doang. Ada syarat tambahan yang sifatnya mutlak alias wajib dipenuhi, kalau nggak, permohonan PPS-nya bisa ditolak atau dianggap nggak sah. Ini penting banget buat kamu pahami karena sering jadi jebakan di soal ujian.",
+          "Syarat pertama adalah WP tersebut TIDAK SEDANG dilakukan pemeriksaan bukti permulaan atau penyidikan tindak pidana di bidang perpajakan. Jadi kalau kamu lagi 'diincer' DJP karena dicurigai ada indikasi pidana pajak, kamu nggak bisa langsung lari ke PPS buat 'nyuci' kasusnya. Logikanya, PPS itu buat WP yang mau jujur secara sukarela, bukan buat WP yang udah kepepet karena lagi diperiksa.",
+          "Syarat kedua adalah WP harus mencabut permohonan-permohonan tertentu yang sedang berjalan, yaitu permohonan keberatan, banding, atau restitusi pajak yang terkait dengan tahun pajak yang mau diungkapkan di PPS. Jadi kalau kamu masih ada sengketa pajak yang lagi diproses soal tahun pajak tertentu, kamu harus 'cabut' dulu sengketa itu sebelum bisa ikut PPS buat tahun pajak yang sama.",
+          "Kenapa syarat-syarat ini penting? Karena PPS itu prinsipnya 'clean slate' alias lembar bersih baru — pemerintah nggak mau ada WP yang manfaatin PPS buat 'lari' dari proses hukum yang udah berjalan atau buat dobel klaim (misalnya udah restitusi tapi masih pengen dapet keringanan PPS juga). Jadi dua syarat ini jadi filter biar PPS bener-bener dipakai sesuai tujuannya."
+        ],
+        "poin_penting": [
+          "⚠️ Syarat 1: Tidak sedang diperiksa bukti permulaan atau disidik pidana pajak",
+          "📝 Syarat 2: Harus mencabut permohonan keberatan, banding, atau restitusi terkait tahun pajak yang diungkap",
+          "🔑 Prinsipnya adalah 'clean slate' — PPS bukan alat untuk lari dari proses hukum yang sedang berjalan",
+          "✅ Syarat ini berlaku khusus disebutkan untuk Kebijakan II, jadi harus dipastikan terpenuhi sebelum SPPH diajukan"
+        ],
+        "analogi": "Bayangin kamu lagi ikut sidang di pengadilan karena dituduh nyontek pas ujian. Terus tiba-tiba ada 'program amnesti nyontek' buat siswa yang mau ngaku sendiri. Nah, kamu nggak bisa langsung ikut program itu buat ngeless dari sidang yang udah berjalan — kamu harus selesaikan dulu urusan sidangnya, atau program itu emang nggak berlaku buat kasus yang udah kadung diproses secara hukum.",
+        "contoh_kasus": {
+          "judul": "Kasus Dito yang Gagal Ikut PPS",
+          "cerita": "Dito, seorang pengusaha muda, ingin ikut PPS Kebijakan II untuk mengungkap harta 2019-nya. Tapi ternyata Dito masih punya permohonan restitusi pajak yang sedang diproses DJP untuk tahun pajak 2019. Karena belum mencabut permohonan restitusi itu, pengajuan SPPH Dito jadi tidak memenuhi syarat.",
+          "poin": [
+            "Dito harus mencabut dulu permohonan restitusinya sebelum bisa mengajukan SPPH untuk tahun pajak yang sama",
+            "Kasus ini menunjukkan pentingnya cek status sengketa pajak sebelum mengajukan PPS"
+          ]
+        },
+        "diagram_mermaid": [],
+        "prompt_gambar": [
+          {
+            "id": "img-bag-8",
+            "prompt": "A highly detailed modern flat 3D isometric educational illustration in landscape 16:9 format depicting Syarat Mutlak Mengikuti Kebijakan II in Indonesian tax environment. Studio render style with deep navy background #0F172A, electric blue #3B82F6, emerald green #10B981, clean lighting. Crisp vector graphics. Clean bold text label in Indonesian printed on top of key elements. NO TEXT, NO LETTERS, NO NUMBERS, NO WORDS, NO WATERMARKS.",
+            "keterangan": "Infografis 3D ilustrasi visual mengenai Syarat Mutlak Mengikuti Kebijakan II",
+            "alt": "Diagram ilustrasi Syarat Mutlak Mengikuti Kebijakan II",
+            "url_gambar": null
+          }
+        ],
+        "kalkulator": null,
+        "mini_kuis": [
+          {
+            "id": "q1",
+            "pertanyaan": "Berikut adalah syarat mutlak mengikuti Kebijakan II, KECUALI...",
+            "tipe": "pilihan_ganda",
+            "pilihan": [
+              "A. Tidak sedang diperiksa bukti permulaan pidana pajak",
+              "B. Tidak sedang disidik tindak pidana perpajakan",
+              "C. Harus mencabut permohonan keberatan, banding, atau restitusi terkait tahun pajak yang diungkap",
+              "D. Harus memiliki NPWP yang terdaftar sejak sebelum tahun 2010"
+            ],
+            "jawaban": "D",
+            "pembahasan": "Syarat mutlak Kebijakan II adalah tidak sedang diperiksa/disidik pidana pajak dan harus mencabut permohonan keberatan/banding/restitusi terkait. Tidak ada syarat soal usia pendaftaran NPWP."
+          },
+          {
+            "id": "q2",
+            "pertanyaan": "WP yang sedang mengajukan restitusi pajak untuk tahun pajak yang sama dengan harta yang mau diungkap, boleh langsung ikut PPS tanpa mencabut restitusinya.",
+            "tipe": "benar_salah",
+            "pilihan": [
+              "Benar",
+              "Salah"
+            ],
+            "jawaban": "Salah",
+            "pembahasan": "Salah, WP wajib mencabut permohonan restitusi (juga keberatan atau banding) yang terkait dengan tahun pajak yang diungkap sebelum bisa mengikuti PPS Kebijakan II."
+          }
+        ],
+        "kesalahan_umum": [
+          {
+            "salah": "Mengira PPS bisa dipakai untuk 'kabur' dari proses pemeriksaan bukti permulaan yang sedang berjalan",
+            "benar": "WP yang sedang diperiksa bukti permulaan atau disidik pidana pajak tidak memenuhi syarat ikut Kebijakan II",
+            "tips": "PPS hanya untuk WP yang benar-benar sukarela, bukan solusi darurat saat sudah terjerat proses hukum"
+          }
+        ],
+        "istilah": [
+          {
+            "kata": "Bukti Permulaan",
+            "definisi": "Tahap pemeriksaan awal oleh DJP untuk mencari indikasi terjadinya tindak pidana di bidang perpajakan.",
+            "contoh": "WP yang sedang diperiksa bukti permulaan tidak bisa mengikuti PPS Kebijakan II."
+          },
+          {
+            "kata": "Restitusi Pajak",
+            "definisi": "Permohonan pengembalian kelebihan pembayaran pajak yang diajukan WP kepada DJP.",
+            "contoh": "Dito harus mencabut permohonan restitusinya sebelum bisa ikut PPS."
+          },
+          {
+            "kata": "Keberatan Pajak",
+            "definisi": "Upaya hukum yang diajukan WP kepada DJP untuk menyatakan ketidaksetujuan atas suatu ketetapan pajak.",
+            "contoh": "Jika WP masih punya keberatan pajak yang berjalan untuk tahun pajak terkait, ia wajib mencabutnya dulu sebelum ikut PPS."
+          }
+        ]
+      },
+      {
+        "id": "bag-09",
+        "judul": "Pedoman Penilaian Harta Uang Tunai, Kas, dan Bank",
+        "paragraf": [
+          "Setelah paham subjek, objek, dan tarif, sekarang kita bahas hal teknis yang nggak kalah penting: gimana caranya nilai harta yang mau diungkap? Soalnya, PPh Final itu dihitung dari NILAI harta, jadi kalau nilainya salah hitung, PPh Final-nya juga ikutan salah. Kita mulai dari yang paling gampang dulu: uang tunai, kas, dan simpanan di bank.",
+          "Untuk harta berupa uang tunai, kas, dan simpanan bank dalam mata uang Rupiah, penilaiannya gampang banget — tinggal pakai nilai nominalnya aja pada tanggal cut-off yang berlaku. Untuk Kebijakan I, cut-off-nya adalah posisi per 31 Desember 2015. Untuk Kebijakan II, cut-off-nya adalah posisi per 31 Desember 2020. Jadi nggak perlu ribet-ribet ngitung, tinggal cek berapa saldo di tanggal itu.",
+          "Nah, yang agak beda dikit adalah kalau uang atau simpanannya dalam mata uang asing (misalnya Dolar Amerika atau Euro). Dalam kasus ini, WP wajib mengkonversi nilainya ke Rupiah menggunakan kurs resmi yang ditetapkan lewat Keputusan Menteri Keuangan (KMK) yang berlaku pada tanggal cut-off tersebut, bukan kurs pasar sembarangan atau kurs tengah Bank Indonesia biasa.",
+          "Kenapa harus pakai kurs KMK resmi? Supaya ada standar yang seragam dan nggak bisa diakalin. Kalau WP boleh pakai kurs sembarangan, bisa aja ada yang sengaja pilih kurs paling rendah biar nilai hartanya kelihatan kecil dan PPh Final-nya jadi lebih murah. Dengan kurs resmi KMK, semua WP diperlakukan adil dan konsisten."
+        ],
+        "poin_penting": [
+          "💵 Kas dan simpanan bank Rupiah dinilai berdasarkan nilai nominal per tanggal cut-off",
+          "📅 Cut-off Kebijakan I: 31 Desember 2015, Cut-off Kebijakan II: 31 Desember 2020",
+          "💱 Mata uang asing wajib dikonversi ke Rupiah pakai kurs KMK resmi pada tanggal cut-off",
+          "✅ Aturan kurs resmi ini mencegah WP 'mengakali' nilai hartanya biar kelihatan kecil"
+        ],
+        "analogi": "Bayangin kamu lagi nabung recehan di celengan dalam berbagai mata uang. Kalau semuanya Rupiah, gampang tinggal hitung langsung. Tapi kalau ada Dollar-nya, kamu nggak bisa asal nebak kursnya sendiri — kamu harus pakai 'harga resmi' yang udah ditentuin biar hasil hitungannya sama kayak yang dipakai orang lain, adil buat semua.",
+        "contoh_kasus": {
+          "judul": "Kasus Bu Dewi Menilai Deposito Dolar",
+          "cerita": "Bu Dewi punya deposito dalam Dolar Amerika senilai USD 50.000 per 31 Desember 2020 yang belum dilaporkan. Untuk mengikuti PPS Kebijakan II, Bu Dewi harus mengkonversi nilai deposito tersebut ke Rupiah menggunakan kurs KMK yang berlaku pada 31 Desember 2020, bukan kurs pasar hari itu.",
+          "poin": [
+            "Bu Dewi tidak boleh sembarangan memilih kurs, harus pakai kurs KMK resmi",
+            "Setelah dikonversi ke Rupiah, nilai itulah yang menjadi dasar penghitungan PPh Final"
+          ]
+        },
+        "diagram_mermaid": [],
+        "prompt_gambar": [
+          {
+            "id": "img-bag-9",
+            "prompt": "A highly detailed modern flat 3D isometric educational illustration in landscape 16:9 format depicting Pedoman Penilaian Harta Uang Tunai, Kas, dan Bank in Indonesian tax environment. Studio render style with deep navy background #0F172A, electric blue #3B82F6, emerald green #10B981, clean lighting. Crisp vector graphics. Clean bold text label in Indonesian printed on top of key elements. NO TEXT, NO LETTERS, NO NUMBERS, NO WORDS, NO WATERMARKS.",
+            "keterangan": "Infografis 3D ilustrasi visual mengenai Pedoman Penilaian Harta Uang Tunai, Kas, dan Bank",
+            "alt": "Diagram ilustrasi Pedoman Penilaian Harta Uang Tunai, Kas, dan Bank",
+            "url_gambar": null
+          }
+        ],
+        "kalkulator": null,
+        "mini_kuis": [
+          {
+            "id": "q1",
+            "pertanyaan": "Untuk Kebijakan II, harta berupa kas dan simpanan bank dinilai berdasarkan posisi per tanggal...",
+            "tipe": "pilihan_ganda",
+            "pilihan": [
+              "A. 31 Desember 2015",
+              "B. 31 Desember 2020",
+              "C. 1 Januari 2022",
+              "D. 30 Juni 2022"
+            ],
+            "jawaban": "B",
+            "pembahasan": "Untuk Kebijakan II, cut-off penilaian harta kas dan simpanan bank adalah posisi per 31 Desember 2020, sesuai dengan rentang objek harta Kebijakan II (2016-2020)."
+          },
+          {
+            "id": "q2",
+            "pertanyaan": "WP bebas memilih kurs mata uang asing yang paling menguntungkan untuk menilai simpanan bank dalam Dolar.",
+            "tipe": "benar_salah",
+            "pilihan": [
+              "Benar",
+              "Salah"
+            ],
+            "jawaban": "Salah",
+            "pembahasan": "Salah, WP wajib menggunakan kurs resmi yang ditetapkan lewat Keputusan Menteri Keuangan (KMK) pada tanggal cut-off yang berlaku, bukan kurs bebas pilihan sendiri."
+          }
+        ],
+        "kesalahan_umum": [
+          {
+            "salah": "Menggunakan kurs pasar atau kurs tengah BI biasa untuk konversi mata uang asing",
+            "benar": "Wajib menggunakan kurs resmi sesuai Keputusan Menteri Keuangan (KMK) pada tanggal cut-off",
+            "tips": "Selalu cek KMK kurs resmi yang berlaku pada tanggal cut-off sebelum menghitung nilai harta valas"
+          }
+        ],
+        "istilah": [
+          {
+            "kata": "Cut-off",
+            "definisi": "Tanggal batas yang menjadi acuan penilaian nilai harta dalam PPS, berbeda antara Kebijakan I dan Kebijakan II.",
+            "contoh": "Cut-off Kebijakan I adalah 31 Desember 2015, sedangkan Kebijakan II adalah 31 Desember 2020."
+          },
+          {
+            "kata": "KMK",
+            "definisi": "Keputusan Menteri Keuangan, salah satu bentuk aturan resmi yang mengatur hal teknis seperti kurs konversi mata uang asing.",
+            "contoh": "Bu Dewi menggunakan kurs KMK resmi untuk mengkonversi depositonya dalam Dolar ke Rupiah."
+          },
+          {
+            "kata": "Nilai Nominal",
+            "definisi": "Nilai yang tertera langsung pada suatu harta finansial tanpa perlu perhitungan tambahan, seperti saldo di rekening bank.",
+            "contoh": "Uang tunai Rupiah dinilai berdasarkan nilai nominalnya langsung per tanggal cut-off."
+          }
+        ]
+      },
+      {
+        "id": "bag-10",
+        "judul": "Pedoman Penilaian Harta Tanah, Bangunan, dan Kendaraan",
+        "paragraf": [
+          "Sekarang kita lanjut ke harta yang bentuknya fisik dan nggak bisa langsung dilihat 'nilai nominalnya' kayak uang tunai, yaitu tanah, bangunan, dan kendaraan bermotor. Buat jenis harta ini, DJP kasih dua opsi metode penilaian yang boleh dipilih WP, tergantung mana yang lebih menggambarkan nilai wajarnya.",
+          "Untuk tanah dan bangunan, opsi pertama adalah pakai Nilai Jual Objek Pajak (NJOP) PBB, yaitu nilai yang biasa dipakai sebagai dasar perhitungan Pajak Bumi dan Bangunan setiap tahun — ini nilai yang gampang dicek karena tercantum di Surat Pemberitahuan Pajak Terutang (SPPT) PBB. Opsi kedua adalah pakai Nilai Pasar Wajar, yaitu estimasi harga jual yang realistis di pasar, biasanya dibuktikan lewat appraisal atau perbandingan harga transaksi serupa di sekitar lokasi tersebut.",
+          "Untuk kendaraan bermotor seperti mobil dan motor, pola opsinya mirip: opsi pertama pakai Nilai Jual Kendaraan Bermotor (NJKB) yang biasa dipakai sebagai dasar Pajak Kendaraan Bermotor (pajak daerah), atau opsi kedua pakai Nilai Pasar kendaraan tersebut (misalnya harga jual mobil bekas sejenis di pasaran).",
+          "Kenapa dikasih dua opsi? Karena kadang NJOP atau NJKB itu nilainya jauh di bawah harga pasar sebenarnya (apalagi buat properti atau kendaraan yang udah lama), jadi DJP kasih fleksibilitas — WP boleh pilih mana yang paling representatif buat aset mereka, asal konsisten dan bisa dipertanggungjawabkan datanya kalau ditanya DJP di kemudian hari."
+        ],
+        "poin_penting": [
+          "🏠 Tanah/bangunan: pakai NJOP PBB atau Nilai Pasar Wajar (pilih salah satu)",
+          "🚗 Kendaraan bermotor: pakai NJKB Pajak Daerah atau Nilai Pasar",
+          "📌 WP bebas memilih metode mana yang paling representatif, asal konsisten dan bisa dipertanggungjawabkan",
+          "✅ Nilai yang dipilih akan menjadi dasar penghitungan PPh Final atas harta tersebut"
+        ],
+        "analogi": "Ibaratnya nilai NJOP itu kayak 'harga di label' yang udah ditempel dari dulu di rumah kamu, sedangkan Nilai Pasar Wajar itu kayak 'harga kalau kamu jual sekarang ke tetangga'. Kadang dua-duanya beda jauh, makanya kamu dikasih pilihan mau pakai yang mana buat ngelaporin harta di PPS.",
+        "contoh_kasus": {
+          "judul": "Kasus Pak Budi Menilai Rumahnya",
+          "cerita": "Pak Budi punya rumah di Jakarta yang NJOP-nya menurut SPPT PBB terbaru senilai Rp1,2 miliar, tapi harga pasar wajar di lingkungan tersebut sekitar Rp2 miliar. Pak Budi memilih menggunakan Nilai Pasar Wajar senilai Rp2 miliar sebagai dasar pengungkapan hartanya di PPS.",
+          "poin": [
+            "Pak Budi berhak memilih antara NJOP (Rp1,2 miliar) atau Nilai Pasar Wajar (Rp2 miliar)",
+            "Pilihan nilai yang lebih tinggi akan berdampak pada PPh Final yang lebih besar juga, sehingga WP perlu mempertimbangkan konsekuensinya"
+          ]
+        },
+        "diagram_mermaid": [],
+        "prompt_gambar": [
+          {
+            "id": "img-bag-10",
+            "prompt": "A highly detailed modern flat 3D isometric educational illustration in landscape 16:9 format depicting Pedoman Penilaian Harta Tanah, Bangunan, dan Kendaraan in Indonesian tax environment. Studio render style with deep navy background #0F172A, electric blue #3B82F6, emerald green #10B981, clean lighting. Crisp vector graphics. Clean bold text label in Indonesian printed on top of key elements. NO TEXT, NO LETTERS, NO NUMBERS, NO WORDS, NO WATERMARKS.",
+            "keterangan": "Infografis 3D ilustrasi visual mengenai Pedoman Penilaian Harta Tanah, Bangunan, dan Kendaraan",
+            "alt": "Diagram ilustrasi Pedoman Penilaian Harta Tanah, Bangunan, dan Kendaraan",
+            "url_gambar": null
+          }
+        ],
+        "kalkulator": null,
+        "mini_kuis": [
+          {
+            "id": "q1",
+            "pertanyaan": "Untuk menilai harta berupa tanah dan bangunan dalam PPS, WP dapat menggunakan...",
+            "tipe": "pilihan_ganda",
+            "pilihan": [
+              "A. NJOP PBB atau Nilai Pasar Wajar",
+              "B. Hanya NJKB",
+              "C. Hanya harga beli awal",
+              "D. Nilai yang ditentukan sepihak oleh DJP tanpa pilihan"
+            ],
+            "jawaban": "A",
+            "pembahasan": "Untuk tanah dan bangunan, WP dapat memilih antara Nilai Jual Objek Pajak (NJOP) PBB atau Nilai Pasar Wajar, tergantung mana yang lebih representatif untuk aset tersebut."
+          },
+          {
+            "id": "q2",
+            "pertanyaan": "NJKB digunakan sebagai salah satu opsi penilaian untuk harta berupa kendaraan bermotor.",
+            "tipe": "benar_salah",
+            "pilihan": [
+              "Benar",
+              "Salah"
+            ],
+            "jawaban": "Benar",
+            "pembahasan": "Benar, Nilai Jual Kendaraan Bermotor (NJKB) yang biasa dipakai untuk Pajak Kendaraan Bermotor daerah, bisa digunakan sebagai salah satu opsi penilaian kendaraan dalam PPS, selain Nilai Pasar."
+          }
+        ],
+        "kesalahan_umum": [
+          {
+            "salah": "Mengira WP wajib menggunakan NJOP tanpa opsi lain",
+            "benar": "WP boleh memilih antara NJOP PBB atau Nilai Pasar Wajar, mana yang lebih representatif",
+            "tips": "Ingat, ada FLEKSIBILITAS memilih metode penilaian untuk aset tanah, bangunan, dan kendaraan"
+          }
+        ],
+        "istilah": [
+          {
+            "kata": "NJOP",
+            "definisi": "Nilai Jual Objek Pajak, nilai yang menjadi dasar perhitungan Pajak Bumi dan Bangunan, tercantum dalam SPPT PBB.",
+            "contoh": "Pak Budi bisa memilih NJOP rumahnya sebagai dasar penilaian harta di PPS."
+          },
+          {
+            "kata": "Nilai Pasar Wajar",
+            "definisi": "Estimasi harga jual realistis suatu aset di pasar terbuka pada kondisi normal.",
+            "contoh": "Pak Budi memilih Nilai Pasar Wajar karena lebih tinggi dan lebih mencerminkan harga sebenarnya."
+          },
+          {
+            "kata": "NJKB",
+            "definisi": "Nilai Jual Kendaraan Bermotor, nilai yang menjadi dasar perhitungan Pajak Kendaraan Bermotor di tingkat pajak daerah.",
+            "contoh": "Mobil yang belum dilaporkan bisa dinilai menggunakan NJKB sebagai salah satu opsi."
+          }
+        ]
+      },
+      {
+        "id": "bag-11",
+        "judul": "Pedoman Penilaian Harta Saham, Obligasi, dan Logam Mulia",
+        "paragraf": [
+          "Lanjut ke jenis harta yang sifatnya investasi finansial, yaitu saham, obligasi, dan logam mulia. Buat harta jenis ini, penilaiannya lebih terikat sama data pasar resmi, nggak bisa asal tebak-tebak kayak properti tadi.",
+          "Untuk saham yang diperdagangkan di bursa efek (saham publik/listed), penilaiannya berdasarkan nilai penutupan (closing price) di akhir tahun pada tanggal cut-off yang berlaku (31 Desember 2015 untuk Kebijakan I, atau 31 Desember 2020 untuk Kebijakan II). Jadi tinggal cek harga penutupan saham tersebut di Bursa Efek Indonesia (BEI) pada tanggal itu, dikalikan jumlah lembar saham yang dimiliki.",
+          "Untuk obligasi, prinsipnya mirip, yaitu menggunakan nilai wajar pada tanggal cut-off, yang biasanya mengacu pada harga pasar obligasi tersebut di pasar sekunder. Sedangkan untuk logam mulia seperti emas batangan Antam, penilaiannya menggunakan harga publikasi resmi yang dikeluarkan oleh produsen resmi (misalnya PT Aneka Tambang/Antam) pada tanggal cut-off.",
+          "Kenapa harus pakai data resmi kayak gini? Karena saham, obligasi, dan logam mulia itu harganya bisa berubah-ubah setiap hari (fluktuatif), jadi DJP butuh patokan yang jelas dan bisa diverifikasi biar nggak ada WP yang sengaja pilih harga yang menguntungkan diri sendiri di luar tanggal resmi yang ditentukan."
+        ],
+        "poin_penting": [
+          "📈 Saham di bursa: dinilai berdasarkan closing price akhir tahun pada tanggal cut-off",
+          "📜 Obligasi: dinilai berdasarkan nilai wajar/harga pasar sekunder pada tanggal cut-off",
+          "🥇 Logam mulia (emas Antam): dinilai berdasarkan harga publikasi resmi pada tanggal cut-off",
+          "✅ Semua metode penilaian ini mengacu ke data pasar resmi agar objektif dan bisa diverifikasi"
+        ],
+        "analogi": "Bayangin kamu punya koleksi kartu Pokemon langka. Buat nentuin harganya, kamu nggak bisa asal nebak sendiri, tapi harus cek 'harga resmi' dari situs jual-beli kartu terpercaya pada tanggal tertentu. Nah, saham, obligasi, dan emas Antam di PPS juga gitu — harus pakai patokan resmi, bukan kira-kira sendiri.",
+        "contoh_kasus": {
+          "judul": "Kasus Mas Andi Menilai Sahamnya",
+          "cerita": "Mas Andi punya 10.000 lembar saham sebuah perusahaan yang belum dilaporkan, dengan harga penutupan pada 31 Desember 2020 sebesar Rp2.000 per lembar. Maka nilai total saham Mas Andi yang harus diungkap di PPS Kebijakan II adalah 10.000 x Rp2.000 = Rp20.000.000.",
+          "poin": [
+            "Mas Andi wajib menggunakan closing price 31 Desember 2020, bukan harga saham hari dia mengisi SPPH",
+            "Total nilai saham inilah yang menjadi dasar penghitungan PPh Final"
+          ]
+        },
+        "diagram_mermaid": [],
+        "prompt_gambar": [],
+        "kalkulator": {
+          "tipe": "pph_final",
+          "judul": "Kalkulator PPh Final atas Harta Saham/Logam Mulia",
+          "keterangan": "Masukkan nilai total harta (jumlah lembar saham x closing price, atau berat emas x harga resmi) dan pilih skema tarif untuk menghitung PPh Final yang harus dibayar."
+        },
+        "mini_kuis": [
+          {
+            "id": "q1",
+            "pertanyaan": "Saham yang diperdagangkan di bursa dinilai berdasarkan...",
+            "tipe": "pilihan_ganda",
+            "pilihan": [
+              "A. Harga beli awal saat membeli saham",
+              "B. Nilai penutupan (closing price) akhir tahun pada tanggal cut-off",
+              "C. Perkiraan harga masa depan",
+              "D. Harga rata-rata seumur hidup saham tersebut"
+            ],
+            "jawaban": "B",
+            "pembahasan": "Saham yang diperdagangkan di bursa dinilai berdasarkan nilai penutupan (closing price) pada tanggal cut-off yang berlaku, bukan harga beli awal atau perkiraan lainnya."
+          },
+          {
+            "id": "q2",
+            "pertanyaan": "Emas Antam dinilai berdasarkan harga publikasi resmi dari produsen pada tanggal cut-off.",
+            "tipe": "benar_salah",
+            "pilihan": [
+              "Benar",
+              "Salah"
+            ],
+            "jawaban": "Benar",
+            "pembahasan": "Benar, logam mulia seperti emas Antam dinilai menggunakan harga publikasi resmi yang dikeluarkan produsen resmi pada tanggal cut-off yang berlaku."
+          }
+        ],
+        "kesalahan_umum": [
+          {
+            "salah": "Menilai saham berdasarkan harga beli dulu, bukan harga di tanggal cut-off",
+            "benar": "Saham harus dinilai berdasarkan closing price pada tanggal cut-off yang relevan (31 Des 2015 atau 31 Des 2020)",
+            "tips": "Selalu cek data historis harga penutupan saham di BEI pada tanggal cut-off yang tepat"
+          }
+        ],
+        "istilah": [
+          {
+            "kata": "Closing Price",
+            "definisi": "Harga penutupan suatu saham pada akhir sesi perdagangan di bursa efek pada tanggal tertentu.",
+            "contoh": "Mas Andi menggunakan closing price 31 Desember 2020 untuk menilai sahamnya."
+          },
+          {
+            "kata": "Obligasi",
+            "definisi": "Surat utang yang diterbitkan oleh pemerintah atau perusahaan sebagai instrumen investasi berbunga.",
+            "contoh": "Obligasi dinilai berdasarkan nilai wajar pada tanggal cut-off dalam pengungkapan PPS."
+          },
+          {
+            "kata": "Logam Mulia",
+            "definisi": "Aset berupa emas atau logam berharga lain yang sering dijadikan instrumen investasi jangka panjang.",
+            "contoh": "Emas batangan Antam dinilai menggunakan harga publikasi resmi pada tanggal cut-off."
+          }
+        ]
+      },
+      {
+        "id": "bag-12",
+        "judul": "Prosedur Pengisian SPPH via e-Reporting DJP Online",
+        "paragraf": [
+          "Sekarang kita masuk ke bagian praktis: gimana sih cara sebenarnya WP ngajuin PPS ini? Semuanya dilakukan secara elektronik lewat sistem DJP Online, jadi nggak perlu dateng ke kantor pajak secara fisik buat ngisi formulir kertas kayak jaman dulu.",
+          "Langkah pertama, WP harus login ke akun DJP Online mereka menggunakan NPWP dan password/kode akses yang sudah terdaftar. Setelah masuk, WP tinggal cari menu khusus e-Reporting PPS yang disediakan DJP selama periode program berlangsung (waktu itu 1 Januari - 30 Juni 2022).",
+          "Langkah kedua, WP mengisi Surat Pemberitahuan Pengungkapan Harta (SPPH) secara online, di mana mereka harus mencantumkan detail seluruh harta yang mau diungkap: jenis harta, nilai (sesuai pedoman penilaian yang sudah kita bahas di bagian sebelumnya), lokasi harta, dan pilihan skema (deklarasi luar negeri, repatriasi, atau deklarasi dalam negeri).",
+          "Langkah ketiga, sistem bakal otomatis ngitung PPh Final yang harus dibayar berdasarkan data yang diinput. WP kemudian harus melunasi PPh Final tersebut menggunakan Kode Billing dengan Kode Akun Pajak (KAP) khusus PPS yang berbeda dari kode pajak biasa. Setelah bayar lunas lewat bank persepsi atau kanal pembayaran resmi, barulah proses SPPH dianggap selesai dan lengkap."
+        ],
+        "poin_penting": [
+          "💻 Seluruh proses PPS dilakukan online lewat DJP Online, bukan datang langsung ke KPP",
+          "📝 SPPH diisi dengan detail jenis harta, nilai, lokasi, dan skema deklarasi/repatriasi",
+          "💳 Pembayaran PPh Final menggunakan Kode Billing dengan KAP khusus PPS",
+          "✅ SPPH baru dianggap lengkap dan sah setelah PPh Final dilunasi"
+        ],
+        "analogi": "Ibaratnya kayak belanja online: kamu login ke akun, masukin barang ke keranjang (isi detail harta di SPPH), sistem otomatis ngitung total belanjaan (PPh Final), terus kamu bayar pakai kode pembayaran khusus. Baru setelah bayar lunas, pesanan kamu (SPPH-mu) dianggap sukses diproses.",
+        "contoh_kasus": {
+          "judul": "Kasus Bu Dewi Mengisi SPPH",
+          "cerita": "Bu Dewi login ke DJP Online, membuka menu e-Reporting PPS, lalu mengisi detail depositonya senilai Rp750 juta (setelah konversi kurs) beserta skema deklarasi dalam negeri. Sistem otomatis menghitung PPh Final sebesar 14% karena Bu Dewi ikut Kebijakan II. Setelah itu, Bu Dewi membayar lewat Kode Billing khusus PPS sebelum batas waktu 30 Juni 2022.",
+          "poin": [
+            "Bu Dewi menyelesaikan seluruh proses secara online tanpa perlu datang ke KPP",
+            "SPPH baru sah setelah pembayaran PPh Final dilakukan lewat Kode Billing khusus"
+          ]
+        },
+        "diagram_mermaid": [
+          "flowchart TD\n    A[\"Login DJP Online\"] --> B[\"Buka Menu e-Reporting PPS\"]\n    B --> C[\"Isi SPPH: Jenis, Nilai, Lokasi Harta\"]\n    C --> D[\"Pilih Skema Deklarasi/Repatriasi\"]\n    D --> E[\"Sistem Hitung PPh Final Otomatis\"]\n    E --> F[\"Bayar via Kode Billing KAP Khusus PPS\"]\n    F --> G[\"SPPH Sah dan Lengkap\"]\n    G --> H[\"SKET Terbit Otomatis\"]"
+        ],
+        "penjelasan_diagram": "Diagram ini menggambarkan alur lengkap pengajuan PPS mulai dari login DJP Online sampai terbitnya Surat Keterangan (SKET), sehingga kamu bisa lihat urutan langkah secara runtut.",
+        "prompt_gambar": [],
+        "kalkulator": null,
+        "mini_kuis": [
+          {
+            "id": "q1",
+            "pertanyaan": "Proses pengajuan PPS dilakukan melalui...",
+            "tipe": "pilihan_ganda",
+            "pilihan": [
+              "A. Datang langsung ke KPP membawa formulir kertas",
+              "B. Sistem elektronik DJP Online (e-Reporting)",
+              "C. Mengirim surat pos ke Kementerian Keuangan",
+              "D. Menghubungi call center pajak tanpa dokumen"
+            ],
+            "jawaban": "B",
+            "pembahasan": "Seluruh proses pengajuan PPS, mulai dari pengisian SPPH sampai pembayaran, dilakukan secara elektronik lewat sistem DJP Online (e-Reporting), tidak perlu datang langsung ke KPP."
+          },
+          {
+            "id": "q2",
+            "pertanyaan": "SPPH dianggap sah dan lengkap begitu diisi, meski PPh Final belum dibayar.",
+            "tipe": "benar_salah",
+            "pilihan": [
+              "Benar",
+              "Salah"
+            ],
+            "jawaban": "Salah",
+            "pembahasan": "Salah, SPPH baru dianggap sah dan lengkap setelah PPh Final yang terutang dilunasi lewat Kode Billing dengan KAP khusus PPS."
+          }
+        ],
+        "kesalahan_umum": [
+          {
+            "salah": "Mengira SPPH cukup diisi saja tanpa perlu membayar PPh Final",
+            "benar": "SPPH baru sah setelah PPh Final dilunasi lewat Kode Billing khusus PPS",
+            "tips": "Selalu selesaikan pembayaran sebelum batas waktu program berakhir agar SPPH dianggap valid"
+          }
+        ],
+        "istilah": [
+          {
+            "kata": "e-Reporting",
+            "definisi": "Sistem pelaporan elektronik yang digunakan DJP untuk memfasilitasi pengisian SPPH secara online dalam program PPS.",
+            "contoh": "Bu Dewi mengisi SPPH lewat menu e-Reporting di DJP Online."
+          },
+          {
+            "kata": "Kode Billing",
+            "definisi": "Kode pembayaran elektronik yang digunakan untuk melunasi kewajiban pajak melalui bank persepsi atau kanal pembayaran resmi.",
+            "contoh": "Bu Dewi membayar PPh Final PPS menggunakan Kode Billing khusus."
+          },
+          {
+            "kata": "KAP",
+            "definisi": "Kode Akun Pajak, kode yang menandakan jenis pajak tertentu, termasuk kode khusus untuk PPh Final PPS yang berbeda dari kode pajak reguler.",
+            "contoh": "PPh Final PPS memiliki KAP khusus yang berbeda dari KAP PPh Final Pasal 4(2) biasa."
+          }
+        ]
+      },
+      {
+        "id": "bag-13",
+        "judul": "Penerbitan SKET dan Pembetulan SPPH",
+        "paragraf": [
+          "Setelah WP selesai mengisi SPPH dan melunasi PPh Final-nya, langkah selanjutnya adalah menunggu terbitnya Surat Keterangan alias SKET. Ini adalah dokumen resmi yang jadi 'bukti sah' dari negara bahwa harta yang diungkap WP sudah tercatat dan statusnya sudah selesai secara administrasi perpajakan.",
+          "Kabar baiknya, penerbitan SKET ini dilakukan secara otomatis oleh sistem DJP begitu SPPH lengkap dan PPh Final sudah lunas dibayar, tanpa perlu WP mengajukan permohonan terpisah atau menunggu proses manual berhari-hari. Jadi begitu bayar, biasanya SKET langsung bisa diunduh dari sistem.",
+          "Tapi gimana kalau ternyata setelah SPPH terkirim, WP baru sadar ada harta lain yang ketinggalan, atau ada kesalahan data (misalnya salah tulis nilai harta)? Nah, di sinilah ada mekanisme pembetulan SPPH. WP masih diberi kesempatan untuk membetulkan atau menambahkan data SPPH-nya, SELAMA masih dalam periode program PPS berlangsung (sebelum 30 Juni 2022).",
+          "Yang perlu diingat, kalau ada tambahan harta yang diungkap lewat pembetulan, otomatis akan ada tambahan PPh Final yang harus dibayar lagi sesuai nilai harta tambahan tersebut. Jadi pembetulan SPPH ini fungsinya seperti 'revisi' yang memungkinkan WP menyempurnakan pengungkapan hartanya sebelum periode program benar-benar ditutup."
+        ],
+        "poin_penting": [
+          "📄 SKET adalah bukti resmi bahwa harta yang diungkap sudah tercatat sah secara administrasi",
+          "⚡ SKET terbit otomatis begitu SPPH lengkap dan PPh Final lunas dibayar",
+          "✏️ Pembetulan SPPH masih dimungkinkan selama periode program PPS masih berlangsung",
+          "💰 Pembetulan yang menambah harta akan menimbulkan tambahan kewajiban PPh Final"
+        ],
+        "analogi": "SKET itu ibarat 'sertifikat lulus' setelah kamu ngerjain dan bayar 'her' ujian susulan. Kalau ternyata ada jawaban yang ketinggalan sebelum waktu ujian benar-benar habis, kamu masih boleh nambahin jawaban (pembetulan), tapi ya konsekuensinya nilai kamu (PPh Final) juga ikut disesuaikan.",
+        "contoh_kasus": {
+          "judul": "Kasus Pak Joko Melakukan Pembetulan SPPH",
+          "cerita": "Setelah mengajukan SPPH pertamanya di bulan Maret 2022, Pak Joko baru ingat masih ada satu rekening lagi di luar negeri yang belum dilaporkan. Karena masih dalam periode PPS (sebelum 30 Juni 2022), Pak Joko melakukan pembetulan SPPH dan menambahkan rekening tersebut, lalu membayar tambahan PPh Final yang timbul.",
+          "poin": [
+            "Pembetulan SPPH Pak Joko masih sah karena dilakukan sebelum periode PPS berakhir",
+            "Penambahan harta baru otomatis menimbulkan kewajiban PPh Final tambahan"
+          ]
+        },
+        "diagram_mermaid": [],
+        "prompt_gambar": [
+          {
+            "id": "img-bag-13",
+            "prompt": "A highly detailed modern flat 3D isometric educational illustration in landscape 16:9 format depicting Penerbitan SKET dan Pembetulan SPPH in Indonesian tax environment. Studio render style with deep navy background #0F172A, electric blue #3B82F6, emerald green #10B981, clean lighting. Crisp vector graphics. Clean bold text label in Indonesian printed on top of key elements. NO TEXT, NO LETTERS, NO NUMBERS, NO WORDS, NO WATERMARKS.",
+            "keterangan": "Infografis 3D ilustrasi visual mengenai Penerbitan SKET dan Pembetulan SPPH",
+            "alt": "Diagram ilustrasi Penerbitan SKET dan Pembetulan SPPH",
+            "url_gambar": null
+          }
+        ],
+        "kalkulator": null,
+        "mini_kuis": [
+          {
+            "id": "q1",
+            "pertanyaan": "SKET diterbitkan oleh sistem DJP setelah...",
+            "tipe": "pilihan_ganda",
+            "pilihan": [
+              "A. WP mengajukan permohonan terpisah dan menunggu proses manual",
+              "B. SPPH lengkap diisi dan PPh Final lunas dibayar",
+              "C. WP menunggu 6 bulan setelah program berakhir",
+              "D. DJP melakukan pemeriksaan lapangan ke rumah WP"
+            ],
+            "jawaban": "B",
+            "pembahasan": "SKET diterbitkan secara otomatis oleh sistem DJP setelah SPPH lengkap diisi dan PPh Final yang terutang sudah lunas dibayar, tanpa perlu permohonan terpisah."
+          },
+          {
+            "id": "q2",
+            "pertanyaan": "WP masih bisa membetulkan SPPH selama periode program PPS masih berlangsung.",
+            "tipe": "benar_salah",
+            "pilihan": [
+              "Benar",
+              "Salah"
+            ],
+            "jawaban": "Benar",
+            "pembahasan": "Benar, selama masih dalam periode program (sebelum 30 Juni 2022), WP diberi kesempatan untuk membetulkan atau menambahkan data SPPH yang sudah diajukan sebelumnya."
+          }
+        ],
+        "kesalahan_umum": [
+          {
+            "salah": "Mengira SKET harus diajukan permohonan terpisah secara manual",
+            "benar": "SKET terbit otomatis begitu SPPH lengkap dan PPh Final lunas",
+            "tips": "Pastikan pembayaran PPh Final beres agar SKET bisa langsung terbit tanpa hambatan"
+          }
+        ],
+        "istilah": [
+          {
+            "kata": "SKET",
+            "definisi": "Surat Keterangan, dokumen resmi yang menjadi bukti bahwa harta yang diungkap WP dalam PPS sudah tercatat sah secara administrasi perpajakan.",
+            "contoh": "Pak Joko menerima SKET setelah SPPH dan pembayaran PPh Final-nya lengkap."
+          },
+          {
+            "kata": "Pembetulan SPPH",
+            "definisi": "Mekanisme untuk memperbaiki atau menambahkan data harta pada SPPH yang sudah diajukan, selama masih dalam periode program PPS.",
+            "contoh": "Pak Joko melakukan pembetulan SPPH untuk menambahkan rekening luar negerinya yang tertinggal."
+          },
+          {
+            "kata": "e-PPS",
+            "definisi": "Sistem elektronik DJP yang digunakan untuk memproses seluruh administrasi Program Pengungkapan Sukarela, termasuk penerbitan SKET otomatis.",
+            "contoh": "SKET Pak Joko diterbitkan otomatis lewat sistem e-PPS."
+          }
+        ]
+      },
+      {
+        "id": "bag-14",
+        "judul": "Ketentuan Repatriasi dan Komitmen Investasi SBN",
+        "paragraf": [
+          "Buat kamu yang milih skema repatriasi (bawa pulang harta dari luar negeri) biar dapet tarif lebih murah, ada beberapa komitmen yang harus dipenuhi, bukan cuma sekadar ngaku doang. Yang pertama soal jangka waktu — harta yang direpatriasi itu wajib 'mengendap' alias jadi holding period di Indonesia selama minimal 5 tahun sejak diterbitkannya SKET.",
+          "Kenapa ada syarat holding period 5 tahun? Karena kalau nggak ada syarat ini, bisa aja WP cuma 'pura-pura' bawa pulang uangnya sebentar buat dapetin tarif murah, abis itu langsung dibawa kabur lagi ke luar negeri. Dengan syarat 5 tahun ini, negara mastiin harta itu bener-bener 'menetap' dan bermanfaat buat perekonomian domestik dalam jangka panjang.",
+          "Nah, kalau WP milih opsi investasi biar dapet tarif paling murah (6% di Kebijakan I atau 12% di Kebijakan II), ada instrumen khusus yang disediakan, yaitu Surat Berharga Negara (SBN) yang emang dirancang khusus buat PPS, atau investasi ke sektor hilirisasi Sumber Daya Alam (SDA) dan energi terbarukan. Jadi bukan investasi bebas ke mana aja, tapi harus ke instrumen atau sektor yang udah ditentukan pemerintah.",
+          "Kalau WP ternyata melanggar komitmen ini, misalnya menarik harta sebelum 5 tahun atau mencairkan investasi SBN sebelum waktunya, ada konsekuensi tersendiri yang bisa berupa pengenaan sanksi tambahan, karena WP dianggap tidak memenuhi syarat yang jadi dasar mereka mendapatkan tarif diskon tadi."
+        ],
+        "poin_penting": [
+          "⏳ Harta hasil repatriasi wajib mengendap di Indonesia (holding period) minimal 5 tahun sejak SKET terbit",
+          "📈 Opsi investasi untuk dapat tarif termurah: SBN khusus PPS atau sektor hilirisasi SDA/energi terbarukan",
+          "🔑 Syarat holding period mencegah WP 'pura-pura' repatriasi lalu membawa kabur lagi hartanya",
+          "⚠️ Pelanggaran komitmen investasi/holding period bisa berujung sanksi tambahan"
+        ],
+        "analogi": "Ibaratnya kayak kamu dapet diskon gede beli HP dengan syarat harus dipakai sendiri minimal setahun, bukan langsung dijual lagi besoknya. Nah, syarat 5 tahun holding period buat harta repatriasi PPS itu mirip — biar diskon tarifnya nggak disalahgunakan cuma buat 'akal-akalan' sesaat.",
+        "contoh_kasus": {
+          "judul": "Kasus PT Sejahtera Abadi Investasi SBN",
+          "cerita": "PT Sejahtera Abadi memilih merepatriasi hartanya senilai Rp3 miliar dari luar negeri dan menginvestasikannya ke SBN khusus PPS agar mendapat tarif 6%. Sesuai ketentuan, dana tersebut wajib tetap berada di Indonesia dan diinvestasikan minimal 5 tahun sejak SKET terbit.",
+          "poin": [
+            "PT Sejahtera Abadi mendapat tarif termurah 6% karena berkomitmen investasi ke SBN",
+            "Jika PT ini mencairkan investasinya sebelum 5 tahun, ada risiko sanksi tambahan karena melanggar komitmen"
+          ]
+        },
+        "diagram_mermaid": [
+          "flowchart TD\n    A[\"Harta di Luar Negeri\"] --> B{\"Pilih Skema\"}\n    B -->|\"Deklarasi LN\"| C[\"Tetap di Luar Negeri - Tarif Tertinggi\"]\n    B -->|\"Repatriasi\"| D[\"Dibawa Pulang ke Indonesia\"]\n    D --> E{\"Diinvestasikan ke SBN/Hilirisasi?\"}\n    E -->|\"Ya\"| F[\"Tarif Termurah - Wajib Holding 5 Tahun\"]\n    E -->|\"Tidak\"| G[\"Tarif Menengah - Tetap di Dalam Negeri\"]"
+        ],
+        "penjelasan_diagram": "Diagram ini menunjukkan alur pengambilan keputusan WP terkait harta luar negerinya: apakah dideklarasikan saja, direpatriasi biasa, atau direpatriasi sekaligus diinvestasikan ke SBN/hilirisasi untuk mendapat tarif paling murah dengan konsekuensi wajib holding period 5 tahun.",
+        "prompt_gambar": [
+          {
+            "id": "img-03",
+            "prompt": "A highly detailed modern 3D isometric studio render illustration in landscape 16:9 format, depicting a glowing arc of money and asset icons flowing from an overseas building icon on the left, across a stylized ocean made of soft blue light waves, into a modern Indonesian government bond certificate icon and a renewable energy turbine icon on the right, all set against a deep navy dark-mode background #0F172A blending into a rich indigo gradient mesh #1E1B4B with ambient ray lighting. A glowing translucent five-segment ring icon floats above the destination side, symbolizing a five-year holding period. Clear bold modern Indonesian text label 'Repatriasi Harta' printed near the flowing arc, and 'Investasi SBN' printed near the bond certificate icon, both in crisp white sans-serif typography. Color palette: electric blue #3B82F6, emerald green #10B981, warm gold #F59E0B. Premium tech-education infographic style, high resolution, cinematic balanced composition.",
+            "keterangan": "Ilustrasi alur repatriasi harta dari luar negeri ke Indonesia yang diinvestasikan ke SBN atau sektor hilirisasi, lengkap dengan simbol komitmen holding period lima tahun.",
+            "alt": "Ilustrasi alur repatriasi harta dari luar negeri menuju investasi SBN dan hilirisasi dengan simbol lima tahun holding period",
+            "url_gambar": null
+          }
+        ],
+        "kalkulator": null,
+        "mini_kuis": [
+          {
+            "id": "q1",
+            "pertanyaan": "Berapa lama minimal holding period harta hasil repatriasi yang diinvestasikan agar tetap memenuhi syarat tarif PPS?",
+            "tipe": "pilihan_ganda",
+            "pilihan": [
+              "A. 1 tahun",
+              "B. 3 tahun",
+              "C. 5 tahun",
+              "D. 10 tahun"
+            ],
+            "jawaban": "C",
+            "pembahasan": "Harta hasil repatriasi yang diinvestasikan wajib mengendap di Indonesia (holding period) minimal 5 tahun sejak SKET terbit, agar WP tetap memenuhi syarat mendapatkan tarif PPh Final yang lebih rendah."
+          },
+          {
+            "id": "q2",
+            "pertanyaan": "WP boleh menginvestasikan harta hasil repatriasi ke instrumen investasi apa saja secara bebas untuk dapat tarif termurah.",
+            "tipe": "benar_salah",
+            "pilihan": [
+              "Benar",
+              "Salah"
+            ],
+            "jawaban": "Salah",
+            "pembahasan": "Salah, untuk mendapatkan tarif termurah, harta hanya boleh diinvestasikan ke instrumen tertentu yang sudah ditentukan, yaitu SBN khusus PPS atau sektor hilirisasi SDA/energi terbarukan, bukan bebas ke instrumen apa saja."
+          }
+        ],
+        "kesalahan_umum": [
+          {
+            "salah": "Mengira harta hasil repatriasi bebas ditarik kapan saja tanpa konsekuensi",
+            "benar": "Ada kewajiban holding period minimal 5 tahun, dan penarikan sebelum waktunya berisiko sanksi tambahan",
+            "tips": "Selalu perhitungkan komitmen jangka panjang sebelum memilih skema repatriasi dengan investasi"
+          }
+        ],
+        "istilah": [
+          {
+            "kata": "Repatriasi",
+            "definisi": "Proses memindahkan atau membawa pulang harta dari luar negeri ke dalam wilayah Republik Indonesia.",
+            "contoh": "PT Sejahtera Abadi melakukan repatriasi harta senilai Rp3 miliar dari luar negeri."
+          },
+          {
+            "kata": "Holding Period",
+            "definisi": "Jangka waktu minimal suatu harta atau investasi wajib dipertahankan sebelum bisa ditarik atau dicairkan tanpa konsekuensi.",
+            "contoh": "Holding period harta repatriasi PPS adalah minimal 5 tahun sejak SKET terbit."
+          },
+          {
+            "kata": "Hilirisasi",
+            "definisi": "Proses pengolahan bahan mentah atau sumber daya menjadi produk bernilai tambah lebih tinggi di dalam negeri.",
+            "contoh": "Investasi ke sektor hilirisasi SDA menjadi salah satu opsi untuk mendapat tarif PPS termurah."
+          }
+        ]
+      },
+      {
+        "id": "bag-15",
+        "judul": "Konsekuensi Hukum dan Sanksi Kurang Ungkap Pasca-PPS",
+        "paragraf": [
+          "Nah, ini bagian penutup yang paling krusial: apa yang terjadi kalau ternyata setelah program PPS berakhir, DJP menemukan ada harta WP yang belum diungkap sama sekali (istilahnya 'kurang ungkap')? Jawabannya beda-beda tergantung WP itu ikut Kebijakan I atau Kebijakan II, karena dasar hukum dan mekanisme sanksinya juga beda.",
+          "Untuk WP yang ikut Kebijakan I, kalau ditemukan ada harta yang ternyata belum diungkap (padahal seharusnya termasuk objek Tax Amnesty 2016), maka berlaku sanksi berdasarkan Pasal 18 UU Tax Amnesty, yaitu WP dikenai tambahan PPh Final plus sanksi administrasi berupa denda yang besarnya bisa mencapai 200% dari PPh yang seharusnya dibayar. Ini sanksi yang cukup berat karena sifatnya menghukum ketidakjujuran meski udah dikasih kesempatan dua kali (Tax Amnesty 2016 dan PPS Kebijakan I).",
+          "Untuk WP yang ikut Kebijakan II, mekanismenya beda lagi. Kalau ditemukan harta 2016-2020 yang belum diungkap, harta itu akan dianggap sebagai penghasilan tambahan dan dikenai PPh sesuai tarif normal Pasal 17 UU HPP (tarif progresif OP: 5%, 15%, 25%, 30%, 35% tergantung lapisan penghasilan), DITAMBAH sanksi bunga berdasarkan Pasal 13 ayat (2) UU KUP atas keterlambatan pembayaran pajak tersebut.",
+          "Pelajaran pentingnya di sini adalah: PPS itu kesempatan terakhir yang sifatnya 'sekali jalan'. Kalau WP nggak jujur waktu ikut PPS dan ternyata ketahuan masih nyembunyiin harta, sanksinya jauh lebih berat dibanding kalau WP jujur dari awal. Makanya, filosofi PPS ini sebenernya ngajarin kita soal pentingnya kepatuhan pajak yang tulus, bukan sekadar formalitas buat 'lolos' aja."
+        ],
+        "poin_penting": [
+          "⚠️ Kebijakan I: sanksi denda 200% berdasarkan Pasal 18 UU Tax Amnesty jika ditemukan harta tersembunyi",
+          "⚠️ Kebijakan II: dikenai PPh tarif progresif Pasal 17 UU HPP + sanksi bunga Pasal 13 ayat (2) UU KUP",
+          "🔑 PPS adalah kesempatan 'sekali jalan' — ketidakjujuran berujung sanksi yang jauh lebih berat",
+          "✅ Filosofi PPS menekankan pentingnya kepatuhan pajak yang tulus, bukan sekadar formalitas"
+        ],
+        "analogi": "Ibaratnya PPS itu kayak sesi 'jujur-jujuran terakhir' sebelum ujian akhir. Kalau kamu masih nyontek diam-diam padahal udah dikasih kesempatan ngaku duluan, terus ketahuan, hukumannya jauh lebih berat dibanding kalau kamu jujur dari awal — karena kamu dianggap udah 'buang-buang' kesempatan baik yang dikasih ke kamu.",
+        "contoh_kasus": {
+          "judul": "Kasus Mas Andi Ketahuan Kurang Ungkap",
+          "cerita": "Setelah PPS berakhir, DJP menemukan Mas Andi (peserta Kebijakan II) ternyata masih punya harta senilai Rp500 juta yang diperoleh tahun 2019 dan belum diungkap sama sekali di SPPH-nya. Harta tersebut dianggap sebagai penghasilan tambahan dan dikenai PPh sesuai tarif progresif Pasal 17 UU HPP, ditambah sanksi bunga sesuai Pasal 13 ayat (2) UU KUP.",
+          "poin": [
+            "Mas Andi tidak lagi mendapat tarif ringan PPS, melainkan kena tarif progresif normal karena ketahuan kurang ungkap",
+            "Selain PPh, Mas Andi juga dikenai sanksi bunga keterlambatan sesuai UU KUP"
+          ]
+        },
+        "diagram_mermaid": [],
+        "prompt_gambar": [
+          {
+            "id": "img-bag-15",
+            "prompt": "A highly detailed modern flat 3D isometric educational illustration in landscape 16:9 format depicting Konsekuensi Hukum dan Sanksi Kurang Ungkap Pasca-PPS in Indonesian tax environment. Studio render style with deep navy background #0F172A, electric blue #3B82F6, emerald green #10B981, clean lighting. Crisp vector graphics. Clean bold text label in Indonesian printed on top of key elements. NO TEXT, NO LETTERS, NO NUMBERS, NO WORDS, NO WATERMARKS.",
+            "keterangan": "Infografis 3D ilustrasi visual mengenai Konsekuensi Hukum dan Sanksi Kurang Ungkap Pasca-PPS",
+            "alt": "Diagram ilustrasi Konsekuensi Hukum dan Sanksi Kurang Ungkap Pasca-PPS",
+            "url_gambar": null
+          }
+        ],
+        "kalkulator": null,
+        "mini_kuis": [
+          {
+            "id": "q1",
+            "pertanyaan": "WP peserta Kebijakan I yang ditemukan masih menyembunyikan harta akan dikenai sanksi berdasarkan...",
+            "tipe": "pilihan_ganda",
+            "pilihan": [
+              "A. Pasal 18 UU Tax Amnesty dengan denda hingga 200%",
+              "B. Tarif PPh Final PPS yang sama seperti biasa",
+              "C. Tidak ada sanksi tambahan sama sekali",
+              "D. Sanksi pidana otomatis tanpa proses hukum"
+            ],
+            "jawaban": "A",
+            "pembahasan": "WP peserta Kebijakan I yang ditemukan masih menyembunyikan harta dikenai sanksi berdasarkan Pasal 18 UU Tax Amnesty, berupa denda yang bisa mencapai 200% dari PPh yang seharusnya dibayar."
+          },
+          {
+            "id": "q2",
+            "pertanyaan": "WP peserta Kebijakan II yang kurang ungkap harta akan dikenai PPh tarif progresif Pasal 17 UU HPP ditambah sanksi bunga Pasal 13 ayat (2) UU KUP.",
+            "tipe": "benar_salah",
+            "pilihan": [
+              "Benar",
+              "Salah"
+            ],
+            "jawaban": "Benar",
+            "pembahasan": "Benar, mekanisme sanksi Kebijakan II berbeda dari Kebijakan I. Harta yang belum diungkap dianggap penghasilan tambahan dan dikenai tarif progresif Pasal 17 UU HPP plus sanksi bunga sesuai Pasal 13 ayat (2) UU KUP."
+          },
+          {
+            "id": "q3",
+            "pertanyaan": "Jelaskan mengapa sanksi bagi WP yang kurang ungkap harta pasca-PPS dirancang jauh lebih berat dibanding tarif normal PPS!",
+            "tipe": "esai",
+            "pilihan": [],
+            "jawaban": "Sanksi dirancang lebih berat karena PPS adalah kesempatan sukarela yang sifatnya sekali jalan dan sudah diberi jangka waktu jelas. Jika WP tetap tidak jujur meski sudah diberi kesempatan mengungkap harta dengan tarif ringan, maka ketidakjujuran tersebut dianggap pelanggaran yang lebih serius karena WP sudah menyia-nyiakan itikad baik dari negara. Sanksi berat (200% untuk Kebijakan I, atau tarif progresif plus bunga untuk Kebijakan II) berfungsi sebagai efek jera agar WP ke depannya lebih memilih jujur sejak awal daripada menunggu ditemukan oleh otoritas pajak.",
+            "pembahasan": "Jawaban yang baik harus menyentuh dua poin utama: (1) PPS bersifat kesempatan sukarela sekali jalan dengan tarif ringan sebagai insentif kejujuran, dan (2) sanksi berat pasca-PPS berfungsi sebagai konsekuensi logis dan efek jera atas ketidakjujuran yang tetap terjadi meski sudah diberi kesempatan baik."
+          }
+        ],
+        "kesalahan_umum": [
+          {
+            "salah": "Mengira sanksi kurang ungkap sama untuk Kebijakan I dan Kebijakan II",
+            "benar": "Kebijakan I kena denda 200% Pasal 18 UU Tax Amnesty, sedangkan Kebijakan II kena tarif progresif Pasal 17 UU HPP plus bunga Pasal 13 ayat (2) UU KUP",
+            "tips": "Bedakan dasar hukum sanksinya: Kebijakan I merujuk UU Tax Amnesty lama, Kebijakan II merujuk UU HPP dan UU KUP"
+          },
+          {
+            "salah": "Mengira setelah ikut PPS, WP aman selamanya walau masih menyembunyikan sebagian harta",
+            "benar": "PPS hanya melindungi harta yang benar-benar diungkap; harta yang masih disembunyikan tetap berisiko sanksi berat jika ditemukan",
+            "tips": "Selalu sarankan WP untuk mengungkap SELURUH hartanya secara jujur, bukan sebagian saja"
+          }
+        ],
+        "istilah": [
+          {
+            "kata": "Kurang Ungkap",
+            "definisi": "Istilah untuk kondisi di mana WP peserta PPS ternyata masih memiliki harta yang belum diungkap sama sekali dalam SPPH.",
+            "contoh": "Mas Andi mengalami kondisi kurang ungkap karena masih ada harta 2019 yang belum dilaporkan."
+          },
+          {
+            "kata": "Pasal 18 UU Tax Amnesty",
+            "definisi": "Pasal yang mengatur sanksi denda bagi peserta Tax Amnesty yang ditemukan masih menyembunyikan harta, dengan denda hingga 200%.",
+            "contoh": "Sanksi kurang ungkap Kebijakan I merujuk pada Pasal 18 UU Tax Amnesty."
+          },
+          {
+            "kata": "Pasal 13 ayat (2) UU KUP",
+            "definisi": "Pasal yang mengatur sanksi bunga atas keterlambatan atau kekurangan pembayaran pajak.",
+            "contoh": "WP Kebijakan II yang kurang ungkap dikenai sanksi bunga sesuai Pasal 13 ayat (2) UU KUP."
+          }
+        ]
+      }
+    ],
+    "kuis_akhir": {
+      "judul": "Kuis Akhir: Uji Pemahaman Modul Program Pengungkapan Sukarela (PPS)",
+      "nilai_lulus": 70,
+      "waktu_menit": 40,
+      "soal": [
+        {
+          "id": "q1",
+          "pertanyaan": "PPS diatur secara khusus dalam bagian mana dari UU HPP?",
+          "tipe": "pilihan_ganda",
+          "pilihan": [
+            "A. BAB II",
+            "B. BAB III",
+            "C. BAB IV",
+            "D. BAB V"
+          ],
+          "jawaban": "D",
+          "pembahasan": "PPS diatur dalam BAB V UU No. 7 Tahun 2021 (UU HPP). Bab-bab lainnya membahas topik perpajakan berbeda seperti KUP dan PPh."
+        },
+        {
+          "id": "q2",
+          "pertanyaan": "Periode pengajuan PPS berlangsung dari...",
+          "tipe": "pilihan_ganda",
+          "pilihan": [
+            "A. 1 Januari 2021 s.d. 30 Juni 2021",
+            "B. 1 Januari 2022 s.d. 30 Juni 2022",
+            "C. 1 Januari 2022 s.d. 31 Desember 2022",
+            "D. 1 Juli 2022 s.d. 31 Desember 2022"
+          ],
+          "jawaban": "B",
+          "pembahasan": "Periode pengajuan PPS berlangsung selama 6 bulan, yaitu 1 Januari 2022 sampai dengan 30 Juni 2022, sesuai PMK 196/PMK.03/2021."
+        },
+        {
+          "id": "q3",
+          "pertanyaan": "WP Badan dapat mengikuti PPS Kebijakan II.",
+          "tipe": "benar_salah",
+          "pilihan": [
+            "Benar",
+            "Salah"
+          ],
+          "jawaban": "Salah",
+          "pembahasan": "Salah, Kebijakan II hanya diperuntukkan bagi WP Orang Pribadi. WP Badan hanya bisa mengikuti Kebijakan I, itupun dengan syarat pernah menjadi peserta Tax Amnesty 2016."
+        },
+        {
+          "id": "q4",
+          "pertanyaan": "Objek harta Kebijakan I adalah harta yang diperoleh sampai dengan...",
+          "tipe": "pilihan_ganda",
+          "pilihan": [
+            "A. 31 Desember 2015",
+            "B. 31 Desember 2018",
+            "C. 31 Desember 2020",
+            "D. 31 Desember 2021"
+          ],
+          "jawaban": "A",
+          "pembahasan": "Objek harta Kebijakan I adalah harta yang diperoleh sampai dengan 31 Desember 2015 dan belum diungkap dalam SPH Tax Amnesty 2016."
+        },
+        {
+          "id": "q5",
+          "pertanyaan": "Tarif PPh Final Kebijakan I untuk repatriasi luar negeri atau deklarasi dalam negeri (tanpa investasi khusus) adalah...",
+          "tipe": "pilihan_ganda",
+          "pilihan": [
+            "A. 6%",
+            "B. 8%",
+            "C. 11%",
+            "D. 14%"
+          ],
+          "jawaban": "B",
+          "pembahasan": "Tarif 8% berlaku untuk repatriasi luar negeri atau deklarasi dalam negeri di Kebijakan I, yang merupakan tarif menengah di antara 11% (deklarasi LN) dan 6% (investasi SBN/hilirisasi)."
+        },
+        {
+          "id": "q6",
+          "pertanyaan": "Sebuah PT (peserta Tax Amnesty 2016) punya harta di dalam negeri senilai Rp4 miliar yang belum diungkap dan tidak diinvestasikan ke SBN. Berapa PPh Final Kebijakan I yang harus dibayar?",
+          "tipe": "isian_singkat",
+          "pilihan": [],
+          "jawaban": "Rp320.000.000",
+          "pembahasan": "Karena statusnya deklarasi dalam negeri tanpa investasi khusus, tarif yang berlaku adalah 8%. PPh Final = 8% x Rp4.000.000.000 = Rp320.000.000."
+        },
+        {
+          "id": "q7",
+          "pertanyaan": "Tarif tertinggi di seluruh skema PPS (18%) berlaku untuk...",
+          "tipe": "pilihan_ganda",
+          "pilihan": [
+            "A. Deklarasi luar negeri Kebijakan I",
+            "B. Deklarasi luar negeri Kebijakan II",
+            "C. Repatriasi luar negeri Kebijakan I",
+            "D. Investasi SBN Kebijakan II"
+          ],
+          "jawaban": "B",
+          "pembahasan": "Tarif 18% adalah tarif tertinggi di seluruh skema PPS, berlaku khusus untuk deklarasi luar negeri di Kebijakan II."
+        },
+        {
+          "id": "q8",
+          "pertanyaan": "Seorang WP OP (Kebijakan II) merepatriasi dan menginvestasikan hartanya senilai Rp2 miliar ke SBN. Berapa PPh Final yang harus dibayar?",
+          "tipe": "isian_singkat",
+          "pilihan": [],
+          "jawaban": "Rp240.000.000",
+          "pembahasan": "Karena diinvestasikan ke SBN, tarif terendah Kebijakan II yaitu 12% berlaku. PPh Final = 12% x Rp2.000.000.000 = Rp240.000.000."
+        },
+        {
+          "id": "q9",
+          "pertanyaan": "Syarat mutlak mengikuti Kebijakan II antara lain WP tidak sedang diperiksa bukti permulaan atau disidik pidana pajak.",
+          "tipe": "benar_salah",
+          "pilihan": [
+            "Benar",
+            "Salah"
+          ],
+          "jawaban": "Benar",
+          "pembahasan": "Benar, WP yang sedang diperiksa bukti permulaan atau disidik pidana pajak tidak memenuhi syarat untuk mengikuti PPS Kebijakan II."
+        },
+        {
+          "id": "q10",
+          "pertanyaan": "Harta berupa kas dan simpanan bank dalam Rupiah dinilai berdasarkan...",
+          "tipe": "pilihan_ganda",
+          "pilihan": [
+            "A. Perkiraan nilai masa depan",
+            "B. Nilai nominal pada tanggal cut-off",
+            "C. Harga rata-rata 5 tahun terakhir",
+            "D. Nilai yang ditentukan sepihak oleh bank"
+          ],
+          "jawaban": "B",
+          "pembahasan": "Kas dan simpanan bank Rupiah dinilai berdasarkan nilai nominalnya langsung pada tanggal cut-off yang berlaku (31 Desember 2015 atau 31 Desember 2020)."
+        },
+        {
+          "id": "q11",
+          "pertanyaan": "Untuk tanah dan bangunan, WP hanya boleh menggunakan NJOP tanpa opsi lain.",
+          "tipe": "benar_salah",
+          "pilihan": [
+            "Benar",
+            "Salah"
+          ],
+          "jawaban": "Salah",
+          "pembahasan": "Salah, WP dapat memilih antara NJOP PBB atau Nilai Pasar Wajar untuk menilai tanah dan bangunan, tergantung mana yang lebih representatif."
+        },
+        {
+          "id": "q12",
+          "pertanyaan": "Saham yang diperdagangkan di bursa dinilai berdasarkan...",
+          "tipe": "pilihan_ganda",
+          "pilihan": [
+            "A. Harga beli awal",
+            "B. Closing price akhir tahun pada tanggal cut-off",
+            "C. Harga tertinggi sepanjang tahun",
+            "D. Harga rata-rata bulanan"
+          ],
+          "jawaban": "B",
+          "pembahasan": "Saham di bursa dinilai berdasarkan nilai penutupan (closing price) akhir tahun pada tanggal cut-off yang berlaku, bukan harga beli awal atau harga rata-rata."
+        },
+        {
+          "id": "q13",
+          "pertanyaan": "Seluruh proses pengajuan PPS, dari pengisian SPPH sampai pembayaran, dilakukan secara online lewat DJP Online.",
+          "tipe": "benar_salah",
+          "pilihan": [
+            "Benar",
+            "Salah"
+          ],
+          "jawaban": "Benar",
+          "pembahasan": "Benar, PPS diproses sepenuhnya secara elektronik lewat DJP Online, mulai dari pengisian SPPH sampai pembayaran PPh Final via Kode Billing."
+        },
+        {
+          "id": "q14",
+          "pertanyaan": "SKET diterbitkan oleh sistem DJP secara otomatis setelah...",
+          "tipe": "pilihan_ganda",
+          "pilihan": [
+            "A. WP mengajukan permohonan manual terpisah",
+            "B. SPPH lengkap diisi dan PPh Final lunas dibayar",
+            "C. Pemeriksaan lapangan oleh petugas pajak",
+            "D. Enam bulan setelah program berakhir"
+          ],
+          "jawaban": "B",
+          "pembahasan": "SKET terbit otomatis begitu SPPH lengkap diisi dan PPh Final yang terutang sudah lunas dibayar, tanpa perlu permohonan manual terpisah."
+        },
+        {
+          "id": "q15",
+          "pertanyaan": "Berapa minimal holding period harta hasil repatriasi yang diinvestasikan agar tetap memenuhi syarat tarif PPS?",
+          "tipe": "isian_singkat",
+          "pilihan": [],
+          "jawaban": "5 tahun",
+          "pembahasan": "Harta hasil repatriasi yang diinvestasikan wajib mengendap di Indonesia minimal 5 tahun sejak SKET terbit, agar WP tetap memenuhi syarat mendapatkan tarif PPh Final yang lebih rendah."
+        },
+        {
+          "id": "q16",
+          "pertanyaan": "WP peserta Kebijakan I yang ditemukan masih menyembunyikan harta dikenai sanksi berdasarkan...",
+          "tipe": "pilihan_ganda",
+          "pilihan": [
+            "A. Pasal 18 UU Tax Amnesty dengan denda hingga 200%",
+            "B. Tarif PPh Final PPS seperti biasa tanpa tambahan",
+            "C. Tidak ada sanksi apapun",
+            "D. Sanksi pidana otomatis tanpa proses hukum"
+          ],
+          "jawaban": "A",
+          "pembahasan": "WP peserta Kebijakan I yang ditemukan masih menyembunyikan harta dikenai sanksi berdasarkan Pasal 18 UU Tax Amnesty, berupa denda hingga 200% dari PPh yang seharusnya dibayar."
+        },
+        {
+          "id": "q17",
+          "pertanyaan": "WP peserta Kebijakan II yang kurang ungkap harta dikenai tarif progresif Pasal 17 UU HPP ditambah sanksi bunga Pasal 13 ayat (2) UU KUP.",
+          "tipe": "benar_salah",
+          "pilihan": [
+            "Benar",
+            "Salah"
+          ],
+          "jawaban": "Benar",
+          "pembahasan": "Benar, mekanisme sanksi Kebijakan II berbeda dari Kebijakan I, yaitu tarif progresif Pasal 17 UU HPP ditambah sanksi bunga sesuai Pasal 13 ayat (2) UU KUP."
+        },
+        {
+          "id": "q18",
+          "pertanyaan": "Jelaskan perbedaan utama antara subjek dan objek harta Kebijakan I dan Kebijakan II PPS!",
+          "tipe": "esai",
+          "pilihan": [],
+          "jawaban": "Kebijakan I terbuka untuk WP Badan dan WP Orang Pribadi yang pernah menjadi peserta Tax Amnesty 2016, dengan objek harta yang diperoleh sampai dengan 31 Desember 2015 dan belum diungkap di SPH. Sementara itu, Kebijakan II hanya terbuka untuk WP Orang Pribadi (WP Badan dilarang ikut), dengan objek harta yang diperoleh pada rentang tahun 2016 sampai dengan 2020 dan belum dimasukkan ke SPT Tahunan 2020. Perbedaan ini membuat kedua kebijakan saling melengkapi tanpa tumpang tindih dari sisi periode perolehan harta.",
+          "pembahasan": "Jawaban yang baik harus menyebutkan dua perbedaan kunci: (1) subjek — Kebijakan I untuk Badan dan OP peserta Tax Amnesty, Kebijakan II hanya OP; dan (2) objek — Kebijakan I untuk harta sampai 31 Desember 2015, Kebijakan II untuk harta 2016-2020."
+        },
+        {
+          "id": "q19",
+          "pertanyaan": "Instrumen investasi yang bisa memberi WP tarif PPh Final PPS termurah adalah...",
+          "tipe": "pilihan_ganda",
+          "pilihan": [
+            "A. Saham perusahaan swasta bebas",
+            "B. Deposito biasa di bank swasta",
+            "C. SBN khusus PPS atau sektor hilirisasi SDA/energi terbarukan",
+            "D. Reksadana campuran"
+          ],
+          "jawaban": "C",
+          "pembahasan": "Tarif termurah PPS diberikan kepada WP yang menginvestasikan harta hasil repatriasi/deklarasi dalam negerinya ke instrumen khusus, yaitu SBN khusus PPS atau sektor hilirisasi SDA/energi terbarukan, bukan instrumen investasi bebas."
+        },
+        {
+          "id": "q20",
+          "pertanyaan": "Automatic Exchange of Information (AEOI) menjadi salah satu latar belakang lahirnya PPS.",
+          "tipe": "benar_salah",
+          "pilihan": [
+            "Benar",
+            "Salah"
+          ],
+          "jawaban": "Benar",
+          "pembahasan": "Benar, keterbukaan data perbankan internasional lewat AEOI membuat data rekening WP di luar negeri lebih mudah diketahui otoritas pajak domestik, mendorong WP untuk sukarela mengungkap hartanya lewat PPS."
+        }
+      ]
+    },
+    "glosarium": [
+      {
+        "kata": "PPS",
+        "definisi": "Program Pengungkapan Sukarela, program yang memberi kesempatan kepada Wajib Pajak untuk mengungkap harta yang belum dilaporkan dengan membayar PPh Final bertarif khusus.",
+        "penjelasan_sederhana": "Ibaratnya kesempatan kedua buat 'ngaku' harta yang belum dilaporkan, dengan bayar pajak yang lebih ringan daripada ketahuan lewat pemeriksaan."
+      },
+      {
+        "kata": "Kebijakan I",
+        "definisi": "Skema PPS untuk peserta Tax Amnesty 2016 (WP Badan dan Orang Pribadi) yang masih memiliki harta perolehan sampai 31 Desember 2015 yang belum diungkap.",
+        "penjelasan_sederhana": "Buat yang dulu udah pernah ikut Tax Amnesty tapi masih ada harta lama yang ketinggalan dilaporkan."
+      },
+      {
+        "kata": "Kebijakan II",
+        "definisi": "Skema PPS khusus WP Orang Pribadi untuk mengungkap harta perolehan tahun 2016-2020 yang belum masuk SPT Tahunan 2020.",
+        "penjelasan_sederhana": "Buat orang pribadi yang punya harta baru (2016-2020) yang belum sempat dilaporkan di SPT."
+      },
+      {
+        "kata": "UU HPP",
+        "definisi": "Undang-Undang Harmonisasi Peraturan Perpajakan, UU No. 7 Tahun 2021 yang merombak berbagai ketentuan perpajakan di Indonesia termasuk PPS.",
+        "penjelasan_sederhana": "Undang-undang besar yang isinya banyak aturan pajak baru, salah satu babnya khusus soal PPS."
+      },
+      {
+        "kata": "PMK 196/2021",
+        "definisi": "Peraturan Menteri Keuangan Nomor 196/PMK.03/2021 yang mengatur tata cara teknis pelaksanaan PPS.",
+        "penjelasan_sederhana": "Buku panduan teknis yang jelasin gimana cara ngisi SPPH, bayar, sampai dapet SKET."
+      },
+      {
+        "kata": "Deklarasi",
+        "definisi": "Tindakan mengungkapkan kepemilikan harta tanpa memindahkan lokasi fisik harta tersebut.",
+        "penjelasan_sederhana": "Cuma ngaku punya harta, tapi hartanya tetap di tempat semula (baik di dalam maupun luar negeri)."
+      },
+      {
+        "kata": "Repatriasi",
+        "definisi": "Tindakan memindahkan atau membawa pulang harta dari luar negeri ke dalam wilayah Indonesia.",
+        "penjelasan_sederhana": "Harta yang tadinya nangkring di luar negeri, dibawa pulang ke Indonesia."
+      },
+      {
+        "kata": "SBN",
+        "definisi": "Surat Berharga Negara, instrumen investasi yang diterbitkan pemerintah dan menjadi salah satu opsi investasi untuk mendapat tarif PPh Final PPS paling rendah.",
+        "penjelasan_sederhana": "Semacam 'surat utang' pemerintah yang bisa dibeli WP biar dapat diskon tarif pajak paling murah di PPS."
+      },
+      {
+        "kata": "Hilirisasi SDA",
+        "definisi": "Proses pengolahan sumber daya alam mentah menjadi produk bernilai tambah lebih tinggi di dalam negeri.",
+        "penjelasan_sederhana": "Ngolah bahan mentah (misalnya nikel) jadi barang jadi di dalam negeri, bukan diekspor mentah-mentah."
+      },
+      {
+        "kata": "SPPH",
+        "definisi": "Surat Pemberitahuan Pengungkapan Harta, dokumen resmi yang diisi WP untuk melaporkan harta dalam rangka PPS.",
+        "penjelasan_sederhana": "Formulir online tempat WP nulis detail semua harta yang mau diungkap di PPS."
+      },
+      {
+        "kata": "SKET",
+        "definisi": "Surat Keterangan, dokumen resmi yang menjadi bukti bahwa harta yang diungkap WP dalam PPS sudah tercatat sah secara administrasi perpajakan.",
+        "penjelasan_sederhana": "'Sertifikat lulus' yang nandain harta kamu udah resmi tercatat dan urusannya beres."
+      },
+      {
+        "kata": "AEOI",
+        "definisi": "Automatic Exchange of Information, sistem pertukaran data finansial secara otomatis antarnegara yang membuat data rekening luar negeri WP dapat diakses otoritas pajak domestik.",
+        "penjelasan_sederhana": "Sistem tukar-menukar data bank antarnegara yang bikin harta di luar negeri makin susah disembunyikan."
+      },
+      {
+        "kata": "Cut-off",
+        "definisi": "Tanggal batas yang menjadi acuan penilaian nilai harta dalam PPS, berbeda antara Kebijakan I dan Kebijakan II.",
+        "penjelasan_sederhana": "Tanggal 'patokan' buat ngitung nilai harta kamu, bukan tanggal hari ini pas kamu ngisi SPPH."
+      },
+      {
+        "kata": "NJOP",
+        "definisi": "Nilai Jual Objek Pajak, nilai yang menjadi dasar perhitungan Pajak Bumi dan Bangunan, tercantum dalam SPPT PBB.",
+        "penjelasan_sederhana": "Harga tanah/bangunan versi 'resmi pajak' yang tercantum di surat PBB tahunan."
+      },
+      {
+        "kata": "NJKB",
+        "definisi": "Nilai Jual Kendaraan Bermotor, nilai yang menjadi dasar perhitungan Pajak Kendaraan Bermotor di tingkat pajak daerah.",
+        "penjelasan_sederhana": "Harga kendaraan versi 'resmi pajak daerah' yang biasa tercantum di STNK/pajak tahunan kendaraan."
+      },
+      {
+        "kata": "Holding Period",
+        "definisi": "Jangka waktu minimal suatu harta atau investasi wajib dipertahankan sebelum bisa ditarik atau dicairkan tanpa konsekuensi.",
+        "penjelasan_sederhana": "Batas waktu minimal 'nyimpen' harta sebelum boleh dicairkan lagi tanpa kena masalah."
+      },
+      {
+        "kata": "Bukti Permulaan",
+        "definisi": "Tahap pemeriksaan awal oleh DJP untuk mencari indikasi terjadinya tindak pidana di bidang perpajakan.",
+        "penjelasan_sederhana": "Tahap 'penyelidikan awal' DJP buat nyari indikasi pelanggaran pidana pajak."
+      },
+      {
+        "kata": "Pasal 18 UU Tax Amnesty",
+        "definisi": "Pasal yang mengatur sanksi denda bagi peserta Tax Amnesty yang ditemukan masih menyembunyikan harta, dengan denda hingga 200%.",
+        "penjelasan_sederhana": "Pasal 'hukuman berat' buat peserta Tax Amnesty yang ketahuan masih nyembunyiin harta."
+      },
+      {
+        "kata": "Pasal 13 ayat (2) UU KUP",
+        "definisi": "Pasal yang mengatur sanksi bunga atas keterlambatan atau kekurangan pembayaran pajak.",
+        "penjelasan_sederhana": "Pasal yang ngatur denda bunga kalau kamu telat atau kurang bayar pajak."
+      }
+    ]
+  }
+}

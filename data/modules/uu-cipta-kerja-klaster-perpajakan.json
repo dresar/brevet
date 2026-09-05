@@ -1,0 +1,1689 @@
+{
+  "versi": "1.0",
+  "modul": {
+    "kode": "BRVT-AB-02",
+    "slug": "uu-cipta-kerja-klaster-perpajakan",
+    "judul": "UU Cipta Kerja Klaster Perpajakan",
+    "kategori": "Lainnya",
+    "tingkat_kesulitan": "menengah",
+    "estimasi_menit": 120,
+    "ringkasan": "Modul ini ngebahas tuntas klaster perpajakan di UU Cipta Kerja (UU 11/2020, dikuatin lagi lewat Perppu 2/2022 dan UU 6/2023), mulai dari sejarah, konsep omnibus law, 4 pilar reformasinya, sampai perubahan konkret di PPh dan PPN yang beneran kepake sampai sekarang. Kamu bakal belajar dari nol banget, pake bahasa santai dan analogi sehari-hari, tapi tetep akurat sesuai aturan yang berlaku aktif di 2026.",
+    "tujuan_belajar": [
+      "Memahami latar belakang dan sejarah pengesahan UU Cipta Kerja klaster perpajakan",
+      "Menjelaskan konsep omnibus law dan kenapa metode ini dipake buat reformasi pajak",
+      "Membedakan 4 pilar utama klaster perpajakan UU Cipta Kerja",
+      "Menghitung dampak penurunan tarif PPh Badan dan pembebasan PPh dividen",
+      "Menerapkan syarat reinvestasi dividen dan pengkreditan Pajak Masukan 80%",
+      "Menganalisis perubahan status hukum batu bara, konsinyasi, dan pemajakan transaksi elektronik",
+      "Menjelaskan integrasi NIK sebagai NPWP dan perubahan pasal KUP terkait sanksi"
+    ],
+    "bagian": [
+      {
+        "id": "bag-01",
+        "judul": "Sejarah dan Latar Belakang UU Cipta Kerja",
+        "paragraf": [
+          "Oke, sebelum ngomongin pajaknya, kita mundur dulu ke awal cerita. Tanggal 2 November 2020, pemerintah resmi mengesahkan UU No. 11 Tahun 2020 tentang Cipta Kerja alias 'UU Cipta Kerja'. Ini bukan undang-undang biasa — isinya nyender ke ratusan pasal dari puluhan undang-undang lain sekaligus, termasuk soal ketenagakerjaan, perizinan usaha, sampai (yang jadi fokus kita) klaster perpajakan. Tujuannya simpel tapi ambisius: bikin Indonesia lebih gampang buat investor masuk dan buat pengusaha lokal naik kelas, karena selama ini banyak yang ngeluh urusan izin dan pajak di Indonesia itu ribet dan tumpang tindih antar-aturan.",
+          "Nah, ceritanya nggak berhenti di situ. Bulan November 2021, Mahkamah Konstitusi (MK) ngeluarin Putusan No. 91/PUU-XVIII/2020 yang bilang UU Cipta Kerja itu 'inkonstitusional bersyarat' — bukan dibatalin total, tapi pemerintah dikasih waktu 2 tahun buat benerin proses pembentukannya (yang dianggap kurang transparan dan partisipatif). Kalau lewat 2 tahun nggak dibenerin, baru deh UU-nya bener-bener batal permanen. Ini kayak dikasih kartu kuning, bukan kartu merah — tapi tetep serius karena taruhannya gede banget buat kepastian hukum investasi.",
+          "Pemerintah nggak mau ambil risiko, jadi di akhir Desember 2022 terbitlah Perppu No. 2 Tahun 2022 tentang Cipta Kerja — ini semacam 'jurus darurat' presiden buat bikin aturan setingkat undang-undang tanpa nunggu proses normal di DPR, karena situasinya dianggap mendesak (salah satunya biar investasi nggak kabur duluan). Terus di Maret 2023, DPR resmi mengesahkan Perppu ini jadi UU No. 6 Tahun 2023 tentang Penetapan Perppu Cipta Kerja Menjadi Undang-Undang. Jadi singkatnya: UU 11/2020 → dikoreksi MK → Perppu 2/2022 → dikuatin jadi UU 6/2023. Semua pasal soal perpajakan yang bakal kita bahas di modul ini, dasar hukumnya sekarang ya UU 6/2023 ini (plus turunan-turunannya kayak PP dan PMK).",
+          "Kenapa sih Indonesia butuh banget aturan kayak gini? Gampangnya gini: bayangin kamu mau buka usaha, tapi buat ngurus satu izin aja kamu harus baca belasan undang-undang berbeda yang kadang saling bertentangan. Investor asing juga mikir dua kali kalau aturan pajaknya nggak jelas dan gampang berubah-ubah. UU Cipta Kerja klaster perpajakan itu jawaban buat masalah ini — nge-refresh aturan PPh, PPN, dan KUP (Ketentuan Umum dan Tata Cara Perpajakan) biar lebih ramah investasi, tapi tetep ngejaga penerimaan negara."
+        ],
+        "poin_penting": [
+          "📌 UU Cipta Kerja disahkan 2 November 2020, mencakup klaster ketenagakerjaan DAN perpajakan sekaligus",
+          "⚠️ Sempat dinyatakan inkonstitusional bersyarat oleh MK di 2021, harus diperbaiki dalam 2 tahun",
+          "🔑 Dasar hukum final sekarang adalah UU No. 6 Tahun 2023 (hasil pengesahan Perppu 2/2022)",
+          "💡 Tujuan utamanya: menyatukan aturan yang tumpang tindih biar investasi dan usaha lebih gampang jalan"
+        ],
+        "analogi": "Bayangin kamu punya lemari baju yang isinya berantakan banget — baju kerja campur sama baju olahraga, kaos kaki nyempil di rak sepatu. UU Cipta Kerja itu kayak sesi beres-beres besar-besaran: semua aturan yang tadinya nyebar di puluhan undang-undang berbeda, dikumpulin dan ditata ulang jadi satu sistem yang lebih rapi dan nggak saling tabrakan.",
+        "contoh_kasus": {
+          "judul": "Bu Dewi dan Kebingungan Aturan Lama",
+          "cerita": "Bu Dewi punya pabrik garmen kecil di Bandung yang mau ekspansi tahun 2020. Sebelum UU Cipta Kerja ada, dia harus ngurus izin usaha lewat berbagai undang-undang sektoral yang aturannya kadang beda-beda antara pusat dan daerah, plus tarif PPh Badan yang masih 25% bikin margin usahanya tergerus. Setelah UU Cipta Kerja dan turunannya berlaku penuh, proses perizinan usaha Bu Dewi disederhanakan lewat sistem OSS (Online Single Submission), dan tarif PPh Badan yang berlaku turun jadi 22% mulai tahun pajak 2022.",
+          "poin": [
+            "Sebelum UU Cipta Kerja: aturan tumpang tindih, tarif PPh Badan masih 25%",
+            "Sesudah UU Cipta Kerja: perizinan lebih terintegrasi, tarif PPh Badan turun jadi 22%"
+          ]
+        },
+        "diagram_mermaid": [
+          "graph LR\n    A[\"UU 11/2020\\nDisahkan 2 Nov 2020\"] --> B[\"Putusan MK\\nInkonstitusional Bersyarat 2021\"]\n    B --> C[\"Perppu 2/2022\\nDiterbitkan Des 2022\"]\n    C --> D[\"UU 6/2023\\nDisahkan Maret 2023\"]\n    D --> E[\"Dasar Hukum Aktif\\nKlaster Perpajakan\"]"
+        ],
+        "penjelasan_diagram": "Diagram ini nunjukin perjalanan panjang UU Cipta Kerja dari pertama disahkan, sempat dikoreksi MK, sampai akhirnya jadi UU 6/2023 yang jadi dasar hukum aktif sampai sekarang.",
+        "prompt_gambar": [],
+        "kalkulator": null,
+        "mini_kuis": [
+          {
+            "id": "q1",
+            "pertanyaan": "UU Cipta Kerja pertama kali disahkan pada tanggal berapa?",
+            "tipe": "pilihan_ganda",
+            "pilihan": [
+              "A. 2 November 2020",
+              "B. 17 Agustus 2020",
+              "C. 1 Januari 2021",
+              "D. 31 Desember 2022"
+            ],
+            "jawaban": "A",
+            "pembahasan": "UU No. 11 Tahun 2020 tentang Cipta Kerja resmi disahkan pada 2 November 2020. Tanggal ini penting sebagai titik awal dari seluruh rangkaian perubahan aturan yang kita pelajari di modul ini."
+          },
+          {
+            "id": "q2",
+            "pertanyaan": "Dasar hukum klaster perpajakan Cipta Kerja yang berlaku aktif sekarang adalah Perppu No. 2 Tahun 2022.",
+            "tipe": "benar_salah",
+            "pilihan": [
+              "Benar",
+              "Salah"
+            ],
+            "jawaban": "Salah",
+            "pembahasan": "Salah, karena Perppu 2/2022 itu sudah dikuatkan dan resmi jadi UU No. 6 Tahun 2023 lewat pengesahan DPR di Maret 2023. Jadi dasar hukum final dan aktifnya adalah UU 6/2023, bukan Perppu-nya lagi."
+          }
+        ],
+        "kesalahan_umum": [
+          {
+            "salah": "Menganggap UU Cipta Kerja itu dibatalkan total oleh MK di tahun 2021",
+            "benar": "MK menyatakan UU-nya 'inkonstitusional bersyarat', bukan batal total — pemerintah dikasih waktu 2 tahun buat memperbaiki proses pembentukannya",
+            "tips": "Inget bedanya 'inkonstitusional bersyarat' (masih berlaku sambil diperbaiki) sama 'dibatalkan' (langsung nggak berlaku lagi)"
+          },
+          {
+            "salah": "Menyebut dasar hukum klaster perpajakan Cipta Kerja masih pakai UU 11/2020",
+            "benar": "Dasar hukum yang aktif dan berlaku sekarang adalah UU No. 6 Tahun 2023, hasil penetapan Perppu 2/2022",
+            "tips": "Kalau ngerjain soal ujian Brevet, selalu cek versi undang-undang paling akhir karena ini sering jadi jebakan soal"
+          }
+        ],
+        "istilah": [
+          {
+            "kata": "Omnibus Law",
+            "definisi": "Metode pembentukan undang-undang yang menggabungkan dan mengubah banyak undang-undang sekaligus dalam satu undang-undang baru, biar nggak perlu revisi satu-satu.",
+            "contoh": "UU Cipta Kerja adalah omnibus law karena mengubah puluhan undang-undang sekaligus, termasuk UU PPh, UU PPN, dan UU KUP."
+          },
+          {
+            "kata": "Perppu",
+            "definisi": "Peraturan Pemerintah Pengganti Undang-Undang — aturan setingkat undang-undang yang diterbitkan presiden dalam kondisi mendesak tanpa menunggu proses normal di DPR, tapi wajib disetujui DPR di sidang berikutnya.",
+            "contoh": "Perppu No. 2 Tahun 2022 diterbitkan buat menjaga kepastian hukum UU Cipta Kerja sebelum akhirnya disahkan jadi UU 6/2023."
+          },
+          {
+            "kata": "Inkonstitusional Bersyarat",
+            "definisi": "Putusan Mahkamah Konstitusi yang menyatakan suatu undang-undang bertentangan dengan UUD 1945 secara prosedural, tapi masih tetap berlaku selama pemerintah memperbaikinya dalam jangka waktu tertentu.",
+            "contoh": "Putusan MK No. 91/PUU-XVIII/2020 menyatakan UU Cipta Kerja inkonstitusional bersyarat dengan tenggat perbaikan 2 tahun."
+          }
+        ]
+      },
+      {
+        "id": "bag-02",
+        "judul": "Konsep dan Metode Omnibus Law Perpajakan",
+        "paragraf": [
+          "Sekarang kita bedah lebih dalam soal 'omnibus law' ini, karena istilah ini bakal sering banget muncul. Gampangnya gini: sebelum ada omnibus law, kalau pemerintah mau ubah satu ketentuan di UU PPh, mereka harus bikin proses revisi UU PPh sendiri dari nol — bahas di DPR, dengar pendapat, sampai disahkan. Nah kalau mau ubah UU PPN juga, prosesnya diulang lagi dari awal buat UU PPN. Bayangin kalau ada 5 undang-undang yang perlu diubah bareng-bareng biar nyambung satu sama lain, itu bisa makan waktu bertahun-tahun sendiri-sendiri.",
+          "Omnibus law itu jalan pintas yang sah secara hukum: satu undang-undang yang isinya sekaligus mengubah pasal-pasal di banyak undang-undang lain dalam satu paket pembahasan. Di klaster perpajakan UU Cipta Kerja, ini artinya UU PPh (UU 7/1983 dan perubahannya), UU PPN (UU 8/1983 dan perubahannya), UU KUP (UU 6/1983 dan perubahannya), sampai UU Pajak Daerah dan Retribusi Daerah, semuanya kena 'sentuhan' perubahan lewat satu paket undang-undang yang sama. Efeknya, perubahan di satu bidang (misal insentif investasi) bisa langsung nyambung rapi sama perubahan di bidang lain (misal tarif PPh) tanpa nunggu proses terpisah-pisah.",
+          "Kenapa metode ini dipilih buat ngurusin 'ease of doing business' alias kemudahan berusaha? Karena masalah utama investor itu biasanya bukan cuma satu aturan doang, tapi kombinasi banyak aturan yang saling bertentangan. Misalnya, insentif pajak buat investasi baru nggak ada gunanya kalau di saat bersamaan prosedur pengkreditan pajaknya masih ribet secara administratif. Dengan omnibus law, pemerintah bisa 'menyambungkan' insentif fiskal (kayak penurunan tarif PPh Badan) dengan penyederhanaan prosedur administrasi pajak (kayak pengkreditan Pajak Masukan) dalam satu paket kebijakan yang konsisten.",
+          "Tapi ya, metode ini juga punya kritik. Karena cakupannya luas banget dan dibahas cepat, banyak pihak (termasuk yang akhirnya menggugat ke MK) merasa proses partisipasi publiknya kurang maksimal — makanya kayak yang udah kita bahas di bagian sebelumnya, ini jadi salah satu alasan MK ngasih status 'inkonstitusional bersyarat'. Jadi omnibus law itu ibarat pisau bermata dua: efisien buat nyambungin banyak aturan sekaligus, tapi butuh proses yang bener-bener hati-hati biar semua pihak kebagian ruang buat kasih masukan."
+        ],
+        "poin_penting": [
+          "💡 Omnibus law = satu UU yang ngubah banyak UU lain sekaligus dalam satu paket",
+          "📌 Klaster perpajakan Cipta Kerja menyentuh UU PPh, UU PPN, UU KUP, dan UU PDRD sekaligus",
+          "🎯 Tujuannya menyambungkan insentif fiskal dengan kemudahan administrasi biar nggak setengah-setengah",
+          "⚠️ Kelemahannya: proses cepat & luas bisa mengurangi ruang partisipasi publik yang mendalam"
+        ],
+        "analogi": "Ibaratnya tuh kayak kamu renovasi rumah. Kalau tiap ruangan direnovasi terpisah dengan kontraktor beda-beda dan jadwal beda-beda, hasilnya bisa nggak nyambung — kabel listrik ruang tamu nggak konek sama panel di dapur. Omnibus law itu kayak manggil satu kontraktor besar buat renovasi seluruh rumah sekaligus dalam satu blueprint, biar semua sistemnya nyambung rapi dari awal.",
+        "contoh_kasus": {
+          "judul": "Mas Andi Bandingin Sebelum-Sesudah",
+          "cerita": "Mas Andi, dosen pajak di Jakarta, sering kasih contoh ke mahasiswanya soal betapa ribetnya dulu kalau mau ubah satu aturan pajak. Sebelum omnibus law, kalau DJP mau nyambungin insentif tarif PPh Badan yang turun dengan aturan pengkreditan Pajak Masukan yang lebih longgar, dua-duanya harus lewat proses revisi undang-undang terpisah yang bisa makan waktu tahunan sendiri-sendiri. Dengan omnibus law Cipta Kerja, dua perubahan itu (penurunan tarif PPh Badan di UU PPh dan relaksasi PM 80% di UU PPN) disahkan dalam satu paket UU yang sama di tahun yang sama.",
+          "poin": [
+            "Metode lama: revisi UU PPh dan UU PPN harus lewat proses terpisah, bisa makan waktu bertahun-tahun",
+            "Metode omnibus: perubahan di UU PPh dan UU PPN disahkan bareng dalam satu paket UU Cipta Kerja"
+          ]
+        },
+        "diagram_mermaid": [
+          "graph TD\n    A[\"Sebelum: Revisi Terpisah\"] --> B[\"Revisi UU PPh\\nSendiri-Sendiri\"]\n    A --> C[\"Revisi UU PPN\\nSendiri-Sendiri\"]\n    A --> D[\"Revisi UU KUP\\nSendiri-Sendiri\"]\n    E[\"Omnibus Law Cipta Kerja\"] --> F[\"Satu Paket UU\\nMengubah PPh, PPN, KUP Sekaligus\"]"
+        ],
+        "penjelasan_diagram": "Diagram ini membandingkan pendekatan lama yang merevisi tiap undang-undang secara terpisah, versus pendekatan omnibus law yang menggabungkan semua perubahan dalam satu paket.",
+        "prompt_gambar": [],
+        "kalkulator": null,
+        "mini_kuis": [
+          {
+            "id": "q1",
+            "pertanyaan": "Apa yang dimaksud dengan omnibus law dalam konteks UU Cipta Kerja?",
+            "tipe": "pilihan_ganda",
+            "pilihan": [
+              "A. Undang-undang yang hanya mengatur satu bidang tertentu secara mendalam",
+              "B. Satu undang-undang yang mengubah pasal-pasal di banyak undang-undang lain sekaligus",
+              "C. Peraturan pemerintah yang hanya berlaku sementara",
+              "D. Undang-undang yang khusus mengatur pajak daerah saja"
+            ],
+            "jawaban": "B",
+            "pembahasan": "Omnibus law adalah metode pembentukan hukum yang menyatukan perubahan atas banyak undang-undang dalam satu paket undang-undang baru. Pilihan A salah karena omnibus law justru mencakup banyak bidang, bukan satu bidang mendalam."
+          },
+          {
+            "id": "q2",
+            "pertanyaan": "Metode omnibus law dianggap bisa mengurangi ruang partisipasi publik karena prosesnya cepat dan cakupannya luas.",
+            "tipe": "benar_salah",
+            "pilihan": [
+              "Benar",
+              "Salah"
+            ],
+            "jawaban": "Benar",
+            "pembahasan": "Benar, ini salah satu kritik utama yang jadi dasar gugatan ke Mahkamah Konstitusi — cakupan yang luas dan proses yang cepat dianggap mengurangi kesempatan publik untuk memberi masukan mendalam pada tiap bagian."
+          }
+        ],
+        "kesalahan_umum": [
+          {
+            "salah": "Mengira omnibus law hanya mengubah satu undang-undang saja",
+            "benar": "Omnibus law justru khas karena mengubah banyak undang-undang sekaligus dalam satu paket",
+            "tips": "Kata kuncinya 'omnibus' dari bahasa Latin yang artinya 'untuk semua' — jadi cakupannya memang luas by design"
+          },
+          {
+            "salah": "Menganggap ease of doing business cuma soal izin usaha, nggak ada hubungannya sama pajak",
+            "benar": "Ease of doing business juga mencakup kemudahan administrasi pajak, kepastian tarif, dan insentif fiskal",
+            "tips": "Ingat, salah satu indikator kemudahan berusaha versi lembaga internasional itu termasuk 'paying taxes' alias kemudahan bayar pajak"
+          }
+        ],
+        "istilah": [
+          {
+            "kata": "Ease of Doing Business",
+            "definisi": "Konsep kemudahan berusaha yang mengukur seberapa gampang atau ribetnya proses mendirikan dan menjalankan usaha di suatu negara, termasuk soal perizinan dan perpajakan.",
+            "contoh": "Salah satu tujuan klaster perpajakan Cipta Kerja adalah meningkatkan peringkat ease of doing business Indonesia."
+          },
+          {
+            "kata": "UU PDRD",
+            "definisi": "Undang-Undang Pajak Daerah dan Retribusi Daerah, aturan yang mengatur jenis-jenis pajak dan retribusi yang boleh dipungut oleh pemerintah daerah.",
+            "contoh": "UU PDRD ikut disentuh dalam klaster perpajakan UU Cipta Kerja untuk menyelaraskan pajak daerah dengan iklim investasi nasional."
+          },
+          {
+            "kata": "Harmonisasi Regulasi",
+            "definisi": "Proses menyelaraskan berbagai aturan yang berbeda-beda supaya nggak saling bertentangan dan bisa berjalan konsisten satu sama lain.",
+            "contoh": "Omnibus law adalah salah satu instrumen harmonisasi regulasi yang dipakai pemerintah Indonesia sejak 2020."
+          }
+        ]
+      },
+      {
+        "id": "bag-03",
+        "judul": "Empat Pilar Klaster Perpajakan Cipta Kerja",
+        "paragraf": [
+          "Nah, sekarang kita masuk ke inti banget: klaster perpajakan UU Cipta Kerja itu sebenarnya dibangun di atas 4 pilar utama. Anggap aja ini kayak 4 tiang penyangga rumah — kalau salah satu goyang, seluruh bangunan reformasi pajaknya bisa oleng. Keempat pilar ini bakal jadi 'peta jalan' buat kita ngerti kenapa masing-masing perubahan aturan yang bakal kita bahas di bagian-bagian selanjutnya itu ada.",
+          "Pilar pertama adalah meningkatkan pendanaan investasi. Ini soal gimana caranya bikin uang (baik dari investor lokal maupun asing) betah masuk dan menetap di Indonesia, bukan cuma numpang lewat. Contoh konkretnya yang bakal kita bahas: penurunan tarif PPh Badan dan pembebasan pajak atas dividen yang diinvestasikan lagi di dalam negeri.",
+          "Pilar kedua adalah mendorong kepatuhan wajib pajak secara sukarela. Alih-alih cuma mengandalkan sanksi dan pemeriksaan buat maksa orang bayar pajak, pemerintah nyoba bikin sistemnya sendiri lebih 'ramah' dan masuk akal, biar wajib pajak dengan sadar diri mau patuh tanpa perlu digertak terus. Contohnya, relaksasi pengkreditan Pajak Masukan 80% buat PKP baru yang belum sempat dikukuhkan.",
+          "Pilar ketiga adalah meningkatkan kepastian hukum. Ini penting banget buat dunia usaha, karena ketidakjelasan aturan itu biaya tersembunyi yang mahal — bikin orang ragu-ragu invest. Contohnya penegasan status batu bara sebagai barang kena pajak dan kejelasan soal penyerahan konsinyasi yang sebelumnya abu-abu. Sementara pilar keempat adalah menciptakan keadilan iklim berusaha, yang nyoba nge-level-in lapangan permainan antara pemain bisnis konvensional dan pemain bisnis digital (makanya ada aturan soal pajak transaksi elektronik) supaya nggak ada yang 'curang' karena celah aturan lama."
+        ],
+        "poin_penting": [
+          "🏢 Pilar 1: Meningkatkan Pendanaan Investasi — lewat insentif tarif dan pembebasan pajak dividen",
+          "✅ Pilar 2: Mendorong Kepatuhan Sukarela — lewat relaksasi administrasi kayak PM 80%",
+          "⚖️ Pilar 3: Meningkatkan Kepastian Hukum — lewat penegasan status batu bara dan konsinyasi",
+          "🎯 Pilar 4: Menciptakan Keadilan Iklim Berusaha — lewat pemajakan transaksi elektronik biar level playing field"
+        ],
+        "analogi": "Gampangnya gini, bayangin 4 pilar ini kayak 4 kaki meja. Meja itu 'iklim investasi Indonesia'. Kalau cuma ada insentif buat investor (kaki 1) tapi kepatuhan pajak masih ribet (kaki 2 pincang) dan aturan hukumnya masih abu-abu (kaki 3 pendek sebelah), mejanya bakal goyang terus dan nggak bisa dipakai kerja dengan nyaman.",
+        "contoh_kasus": {
+          "judul": "Startup Kak Nisa dan Empat Pilar Sekaligus",
+          "cerita": "Kak Nisa punya startup teknologi finansial di Jakarta yang lagi cari investor. Dari sisi Pilar 1, startup Kak Nisa menikmati tarif PPh Badan 22% yang lebih rendah dibanding tarif lama 25%. Dari sisi Pilar 2, waktu perusahaannya baru mulai dan belum resmi dikukuhkan sebagai PKP tapi udah terlanjur mungut PPN, dia tetap bisa mengkreditkan 80% Pajak Masukannya berkat relaksasi aturan baru. Dari sisi Pilar 4, karena bisnisnya di ranah digital, dia juga harus paham soal kewajiban pajak transaksi elektronik yang berlaku buat platform digital.",
+          "poin": [
+            "Pilar 1 kasih Kak Nisa keringanan tarif PPh Badan jadi 22%",
+            "Pilar 2 kasih dia fleksibilitas kredit Pajak Masukan 80% meski belum jadi PKP resmi",
+            "Pilar 4 relevan karena bisnisnya berbasis digital, jadi kena aturan pajak transaksi elektronik"
+          ]
+        },
+        "diagram_mermaid": [
+          "graph TD\n    A[\"Klaster Perpajakan\\nUU Cipta Kerja\"] --> B[\"Pilar 1\\nPendanaan Investasi\"]\n    A --> C[\"Pilar 2\\nKepatuhan Sukarela\"]\n    A --> D[\"Pilar 3\\nKepastian Hukum\"]\n    A --> E[\"Pilar 4\\nKeadilan Iklim Berusaha\"]\n    B --> F[\"Tarif PPh Badan Turun\\nPembebasan PPh Dividen\"]\n    C --> G[\"Kredit PM 80%\\nSanksi Bunga Dinamis\"]\n    D --> H[\"Status Batu Bara\\nAturan Konsinyasi\"]\n    E --> I[\"Pajak Transaksi\\nElektronik PMSE\"]"
+        ],
+        "penjelasan_diagram": "Diagram ini nunjukin struktur 4 pilar klaster perpajakan Cipta Kerja beserta contoh perubahan konkret di masing-masing pilar yang bakal kita bahas lebih detail di bagian-bagian berikutnya.",
+        "prompt_gambar": [],
+        "kalkulator": null,
+        "mini_kuis": [
+          {
+            "id": "q1",
+            "pertanyaan": "Relaksasi pengkreditan Pajak Masukan 80% termasuk contoh dari pilar yang mana?",
+            "tipe": "pilihan_ganda",
+            "pilihan": [
+              "A. Pilar 1 - Pendanaan Investasi",
+              "B. Pilar 2 - Kepatuhan Sukarela",
+              "C. Pilar 3 - Kepastian Hukum",
+              "D. Pilar 4 - Keadilan Iklim Berusaha"
+            ],
+            "jawaban": "B",
+            "pembahasan": "Relaksasi PM 80% termasuk Pilar 2 karena tujuannya menyederhanakan administrasi supaya wajib pajak lebih mudah dan sukarela patuh, bukan soal insentif investasi (Pilar 1) atau kepastian hukum atas suatu status barang (Pilar 3)."
+          },
+          {
+            "id": "q2",
+            "pertanyaan": "Ada berapa pilar utama dalam klaster perpajakan UU Cipta Kerja?",
+            "tipe": "isian_singkat",
+            "pilihan": null,
+            "jawaban": "4 (empat)",
+            "pembahasan": "Ada 4 pilar utama: meningkatkan pendanaan investasi, mendorong kepatuhan sukarela, meningkatkan kepastian hukum, dan menciptakan keadilan iklim berusaha."
+          }
+        ],
+        "kesalahan_umum": [
+          {
+            "salah": "Menganggap keempat pilar itu berdiri sendiri-sendiri tanpa saling berhubungan",
+            "benar": "Keempat pilar saling melengkapi — insentif investasi (Pilar 1) nggak akan efektif kalau kepatuhan (Pilar 2) dan kepastian hukum (Pilar 3) nggak dibenahi bareng",
+            "tips": "Waktu belajar tiap perubahan aturan spesifik, selalu coba kaitkan balik ke pilar mana dia termasuk biar lebih nyantol di kepala"
+          },
+          {
+            "salah": "Mengira Pilar 4 (keadilan iklim berusaha) hanya soal pajak digital doang",
+            "benar": "Pilar 4 lebih luas dari itu — intinya soal menyamakan level playing field antar pelaku usaha, dan pajak transaksi elektronik cuma salah satu contohnya",
+            "tips": "Fokus ke 'tujuan' pilar, bukan cuma satu contoh aturannya, biar paham konsepnya secara utuh"
+          }
+        ],
+        "istilah": [
+          {
+            "kata": "Level Playing Field",
+            "definisi": "Kondisi di mana semua pelaku usaha bersaing dengan aturan yang setara, nggak ada yang diuntungkan atau dirugikan cuma karena celah regulasi.",
+            "contoh": "Pemajakan transaksi elektronik dibuat supaya ada level playing field antara toko fisik dan platform digital luar negeri."
+          },
+          {
+            "kata": "Kepatuhan Sukarela",
+            "definisi": "Kondisi wajib pajak memenuhi kewajiban perpajakannya atas kesadaran sendiri, bukan semata-mata karena takut sanksi atau diperiksa.",
+            "contoh": "Penyederhanaan administrasi pajak diharapkan mendorong kepatuhan sukarela wajib pajak baru."
+          },
+          {
+            "kata": "Insentif Fiskal",
+            "definisi": "Kebijakan yang memberikan keringanan atau kemudahan di bidang perpajakan untuk mendorong perilaku ekonomi tertentu, misalnya investasi.",
+            "contoh": "Penurunan tarif PPh Badan dan pembebasan PPh dividen adalah bentuk insentif fiskal di Pilar 1."
+          }
+        ]
+      },
+      {
+        "id": "bag-04",
+        "judul": "Penurunan Tarif PPh Badan",
+        "paragraf": [
+          "Ini salah satu perubahan paling kerasa dampaknya buat dunia usaha: tarif Pajak Penghasilan (PPh) Badan diturunin dari yang tadinya 25% jadi 22%. PPh Badan sendiri itu pajak yang dikenakan atas penghasilan kena pajak perusahaan (PT, CV, dan bentuk badan usaha lainnya) dalam satu tahun pajak. Penurunan ini mulai berlaku sejak tahun pajak 2022 dan seterusnya, jadi kalau kamu ketemu soal tahun pajak 2020-2021, tarifnya masih 22% juga (karena sebenarnya penurunan tahap awal dari 25% ke 22% ini sudah mulai berlaku sejak tahun pajak 2020-2021 lewat aturan sebelumnya, lalu dikuatkan lagi lewat UU Cipta Kerja).",
+          "Nah, ini bagian yang penting buat cross-check: rencana awal di UU Cipta Kerja sebenarnya PPh Badan direncanakan turun lagi jadi 20% mulai tahun pajak 2022. Tapi rencana itu batal — Undang-Undang Harmonisasi Peraturan Perpajakan (UU HPP No. 7 Tahun 2021) yang terbit setahun setelah UU Cipta Kerja justru 'membatalkan' rencana penurunan lanjutan itu dan mengunci tarif PPh Badan tetap di 22% secara permanen sampai sekarang (2026). Jadi kalau ada modul lama yang bilang 'PPh Badan akan turun jadi 20%', itu udah nggak berlaku lagi — 22% adalah tarif final yang aktif sampai hari ini.",
+          "Selain penurunan tarif umum, ada juga bonus tambahan buat perusahaan yang go public alias melantai di bursa saham. Kalau perusahaan berbentuk Perseroan Terbuka (Tbk) memenuhi syarat tertentu — minimal 40% dari total saham disetor diperdagangkan di bursa efek Indonesia dan dimiliki minimal oleh 300 pihak, masing-masing pihak nggak boleh punya lebih dari 5% saham, serta syarat itu dipenuhi minimal 183 hari kalender dalam setahun — mereka berhak dapat potongan tarif tambahan 3% dari tarif normal. Jadi 22% dikurangi 3% jadi 19% aja. Ini insentif yang cukup menarik buat mendorong perusahaan berani IPO (Initial Public Offering) alias menjual sahamnya ke publik.",
+          "Kenapa sih pemerintah rela 'kehilangan' penerimaan pajak dengan nurunin tarif ini? Logikanya simpel: tarif yang lebih kompetitif dibanding negara tetangga (kayak Singapura yang tarifnya lebih rendah lagi, atau Malaysia dan Thailand) diharapkan bikin Indonesia lebih menarik di mata investor, sehingga jumlah investasi yang masuk dan basis pajak yang bisa dipungut jadi makin luas — istilahnya 'lebih kecil persentasenya tapi jumlah wajib pajaknya lebih banyak'."
+        ],
+        "poin_penting": [
+          "📉 Tarif PPh Badan turun dari 25% jadi 22%, berlaku sejak tahun pajak 2022 dan seterusnya",
+          "⚠️ Rencana penurunan lanjutan ke 20% DIBATALKAN oleh UU HPP — 22% itu tarif final yang aktif sampai 2026",
+          "🏢 Perusahaan Tbk yang memenuhi syarat tertentu dapat potongan tambahan 3%, jadi tarifnya cuma 19%",
+          "🎯 Tujuannya bikin tarif pajak Indonesia lebih kompetitif dibanding negara tetangga buat menarik investasi"
+        ],
+        "analogi": "Bayangin kamu jualan online dan mikirin harga produk. Kalau kamu pasang harga ketinggian, calon pembeli kabur ke toko sebelah yang lebih murah. Tarif PPh Badan itu mirip 'harga' buat perusahaan yang mau beroperasi di Indonesia — kalau kemahalan dibanding negara tetangga, investor bisa aja pindah ke sana. Makanya diturunin biar tetap kompetitif, tapi jumlah 'pembeli' alias wajib pajaknya diharapkan makin banyak.",
+        "contoh_kasus": {
+          "judul": "PT Maju Bersama vs PT Sejahtera Tbk",
+          "cerita": "PT Maju Bersama, perusahaan manufaktur milik Pak Joko di Surabaya, punya penghasilan kena pajak Rp2 miliar di tahun pajak 2026. Karena perusahaannya belum go public, tarif PPh Badan yang berlaku adalah 22%, sehingga pajak terutangnya Rp2.000.000.000 x 22% = Rp440.000.000. Sementara itu, PT Sejahtera Tbk yang sudah melantai di bursa dan memenuhi syarat minimal 40% saham publik, punya penghasilan kena pajak yang sama persis yaitu Rp2 miliar, tapi karena berhak dapat potongan 3%, tarifnya jadi 19%, sehingga pajak terutangnya hanya Rp2.000.000.000 x 19% = Rp380.000.000 — selisih Rp60 juta lebih hemat dibanding PT Maju Bersama.",
+          "poin": [
+            "PT Maju Bersama (belum Tbk): Rp2 miliar x 22% = Rp440 juta pajak terutang",
+            "PT Sejahtera Tbk (memenuhi syarat go public): Rp2 miliar x 19% = Rp380 juta pajak terutang"
+          ]
+        },
+        "diagram_mermaid": [],
+        "penjelasan_diagram": "",
+        "prompt_gambar": [
+          {
+            "id": "img-01",
+            "prompt": "A highly detailed ultra modern 3D isometric stylized studio render, landscape orientation 16:9, depicting the reduction of corporate income tax rate in Indonesia. A rich dark-mode studio background gradient mesh in deep navy #0F172A blending into indigo #1E1B4B with soft ambient volumetric lighting. In the center, a large glowing 3D percentage sign descending from 25 down to 22, rendered as glossy floating glass panels with clean bold modern Indonesian text labels reading 'Tarif Turun' printed clearly above the falling numbers. To the left, a stylized 3D corporate building icon in electric blue #3B82F6 with a small upward arrow of golden coins #F59E0B rising beside it, labeled 'Investasi Masuk'. To the right, a sleek 3D stock exchange bell and ascending bar chart in emerald green #10B981 representing a public listed company, labeled 'Diskon Go Public 19%'. Smooth reflective floor surface, cinematic depth of field, premium fintech education aesthetic, crisp clean vector-meets-3D rendering style with soft rim lighting. NO extraneous clutter, elegant minimalist composition.",
+            "keterangan": "Visualisasi penurunan tarif PPh Badan dari 25% menjadi 22%, lengkap dengan insentif tambahan untuk perusahaan yang go public. Gambar ini membantu kamu ngebayangin dampak insentif ini terhadap keputusan investasi perusahaan.",
+            "alt": "Ilustrasi 3D penurunan tarif PPh Badan dari 25 persen ke 22 persen dengan elemen gedung perusahaan dan bursa saham",
+            "url_gambar": null
+          }
+        ],
+        "kalkulator": {
+          "tipe": "pph_badan",
+          "judul": "Kalkulator PPh Badan 22% vs 19% (Go Public)",
+          "keterangan": "Masukkan penghasilan kena pajak perusahaan kamu untuk membandingkan pajak terutang dengan tarif normal 22% dan tarif diskon 19% untuk perusahaan Tbk yang memenuhi syarat."
+        },
+        "mini_kuis": [
+          {
+            "id": "q1",
+            "pertanyaan": "Berapa tarif PPh Badan yang berlaku aktif di Indonesia sejak tahun pajak 2022 sampai 2026?",
+            "tipe": "pilihan_ganda",
+            "pilihan": [
+              "A. 20%",
+              "B. 22%",
+              "C. 25%",
+              "D. 19%"
+            ],
+            "jawaban": "B",
+            "pembahasan": "Tarif PPh Badan yang berlaku adalah 22%. Rencana penurunan lanjutan ke 20% sudah dibatalkan oleh UU HPP, dan 19% hanya berlaku khusus untuk perusahaan Tbk yang memenuhi syarat go public, bukan tarif umum."
+          },
+          {
+            "id": "q2",
+            "pertanyaan": "Semua perusahaan yang sudah melantai di bursa saham otomatis dapat tarif PPh Badan 19%.",
+            "tipe": "benar_salah",
+            "pilihan": [
+              "Benar",
+              "Salah"
+            ],
+            "jawaban": "Salah",
+            "pembahasan": "Salah, karena ada syarat spesifik yang harus dipenuhi: minimal 40% saham disetor diperdagangkan di bursa, dimiliki minimal 300 pihak dengan masing-masing maksimal 5% kepemilikan, dan syarat ini harus terpenuhi minimal 183 hari kalender dalam setahun."
+          }
+        ],
+        "kesalahan_umum": [
+          {
+            "salah": "Menjawab tarif PPh Badan sekarang adalah 20% karena itu rencana awal UU Cipta Kerja",
+            "benar": "Rencana penurunan ke 20% sudah dibatalkan UU HPP, tarif yang berlaku aktif adalah 22%",
+            "tips": "Selalu update referensi ke aturan paling baru — UU HPP (2021) terbit setelah UU Cipta Kerja (2020) dan mengubah rencana ini"
+          },
+          {
+            "salah": "Mengira diskon 3% itu langsung mengurangi jumlah pajak terutang, bukan mengurangi tarifnya",
+            "benar": "Diskon 3% itu mengurangi persentase tarif (dari 22% jadi 19%), bukan potongan nominal rupiah langsung dari pajak terutang",
+            "tips": "Hitung dulu tarif efektifnya (22% - 3% = 19%), baru kalikan ke penghasilan kena pajak"
+          }
+        ],
+        "istilah": [
+          {
+            "kata": "PPh Badan",
+            "definisi": "Pajak Penghasilan yang dikenakan atas penghasilan kena pajak yang diterima atau diperoleh badan usaha (PT, CV, koperasi, dan lainnya) dalam satu tahun pajak.",
+            "contoh": "PT Maju Bersama wajib membayar PPh Badan atas laba yang diperolehnya di tahun pajak 2026."
+          },
+          {
+            "kata": "Penghasilan Kena Pajak (PKP)",
+            "definisi": "Jumlah penghasilan bersih yang sudah dikurangi biaya-biaya yang diperbolehkan dan menjadi dasar penghitungan pajak terutang.",
+            "contoh": "Setelah dikurangi biaya operasional, penghasilan kena pajak PT Maju Bersama tahun 2026 adalah Rp2 miliar."
+          },
+          {
+            "kata": "Perseroan Terbuka (Tbk)",
+            "definisi": "Perseroan yang sahamnya dimiliki minimal oleh 300 pemegang saham dan sudah menjual sahamnya kepada publik melalui penawaran umum, biasanya ditandai dengan sahamnya diperdagangkan di bursa efek.",
+            "contoh": "PT Sejahtera Tbk berhak atas diskon tarif PPh Badan karena sudah menjadi perusahaan terbuka yang sahamnya diperdagangkan di Bursa Efek Indonesia."
+          }
+        ]
+      },
+      {
+        "id": "bag-05",
+        "judul": "Penyesuaian Tarif PPh Pasal 26 Bunga Pinjaman",
+        "paragraf": [
+          "Selanjutnya kita bahas soal PPh Pasal 26. Ini pajak yang dipotong atas penghasilan yang diterima Wajib Pajak Luar Negeri (WPLN) dari sumber di Indonesia — misalnya bunga, dividen, royalti, dan sejenisnya. Sebelum ada reformasi lewat UU Cipta Kerja, tarif standar PPh Pasal 26 atas bunga itu 20% dari jumlah bruto (kecuali ada perjanjian penghindaran pajak berganda alias tax treaty yang bikin tarifnya lebih rendah).",
+          "Masalahnya, tarif 20% flat ini kadang bikin instrumen investasi tertentu — misalnya obligasi pemerintah atau surat utang korporasi yang mau dijual ke investor asing — jadi kurang menarik dibanding negara lain yang tarif pajaknya lebih ringan atau malah dibebaskan buat instrumen sejenis. Padahal Indonesia butuh banget dana segar dari luar negeri buat membiayai pembangunan infrastruktur dan menggerakkan pasar modal domestik.",
+          "Makanya, lewat klaster perpajakan UU Cipta Kerja (yang diatur lebih lanjut lewat Peraturan Pemerintah), pemerintah dikasih kewenangan buat menurunkan tarif PPh Pasal 26 atas penghasilan bunga tertentu, bahkan bisa sampai di bawah tarif normal 20%, tergantung jenis instrumennya. Ini biasanya diterapkan buat bunga dari obligasi negara atau instrumen tertentu yang mau ditarik minat investor institusi asing seperti dana pensiun luar negeri.",
+          "Intinya, perubahan ini bukan berarti tarif PPh Pasal 26 jadi 0% buat semua jenis bunga — melainkan pemerintah punya fleksibilitas lebih buat mengatur tarif khusus lewat Peraturan Pemerintah tanpa perlu selalu balik lagi ke DPR buat revisi undang-undang, biar bisa lebih responsif menyesuaikan sama kondisi pasar keuangan global yang cepat berubah."
+        ],
+        "poin_penting": [
+          "💰 PPh Pasal 26 adalah pajak atas penghasilan WP Luar Negeri dari sumber Indonesia, termasuk bunga pinjaman",
+          "📌 Tarif normalnya 20% dari jumlah bruto, kecuali ada tax treaty yang menurunkannya",
+          "🔑 UU Cipta Kerja kasih pemerintah kewenangan menurunkan tarif ini lewat Peraturan Pemerintah untuk instrumen tertentu",
+          "🎯 Tujuannya menarik minat investor asing masuk ke instrumen surat utang dan pasar modal Indonesia"
+        ],
+        "analogi": "Simpelnya begini, bayangin kamu jualan obligasi (surat utang) kayak jualan diskon voucher belanja ke turis asing. Kalau turis itu harus bayar 'pajak masuk' 20% buat nikmatin voucher itu, mereka mungkin mikir dua kali. Tapi kalau pajaknya diturunin buat produk tertentu, turisnya jadi lebih tertarik beli — dan walaupun tarifnya lebih kecil per orang, karena yang beli jadi lebih banyak, total pemasukannya bisa tetap besar.",
+        "contoh_kasus": {
+          "judul": "Dana Pensiun Asing Beli Obligasi Negara",
+          "cerita": "Sebuah dana pensiun dari Jepang tertarik membeli obligasi negara Indonesia senilai Rp50 miliar dengan kupon bunga 6% per tahun. Kalau tarif PPh Pasal 26 yang berlaku normal 20%, maka pajak yang dipotong dari bunga tahunan Rp3 miliar (6% x Rp50 miliar) adalah Rp600 juta per tahun. Tapi karena pemerintah menetapkan tarif khusus lebih rendah untuk instrumen obligasi negara tertentu demi menarik investor institusi asing, potongan pajaknya bisa jadi jauh lebih kecil, sehingga dana pensiun tadi lebih tertarik menaruh dananya di Indonesia dibanding negara lain.",
+          "poin": [
+            "Tarif normal PPh Pasal 26 atas bunga adalah 20% dari jumlah bruto",
+            "Untuk instrumen tertentu, pemerintah bisa menetapkan tarif lebih rendah lewat Peraturan Pemerintah demi menarik investasi asing"
+          ]
+        },
+        "diagram_mermaid": [
+          "graph LR\n    A[\"Investor Asing\\nBeli Obligasi Indonesia\"] --> B[\"Terima Bunga\\nDari Indonesia\"]\n    B --> C{\"Ada Tax Treaty\\natau Aturan Khusus?\"}\n    C -->|\"Ya\"| D[\"Tarif Lebih Rendah\\ndari 20%\"]\n    C -->|\"Tidak\"| E[\"Tarif Normal\\n20% dari Bruto\"]"
+        ],
+        "penjelasan_diagram": "Diagram ini menunjukkan alur penentuan tarif PPh Pasal 26 atas bunga yang diterima investor luar negeri, tergantung ada tidaknya tax treaty atau aturan khusus yang berlaku.",
+        "prompt_gambar": [],
+        "kalkulator": null,
+        "mini_kuis": [
+          {
+            "id": "q1",
+            "pertanyaan": "PPh Pasal 26 dikenakan atas penghasilan yang diterima oleh siapa?",
+            "tipe": "pilihan_ganda",
+            "pilihan": [
+              "A. Wajib Pajak Dalam Negeri saja",
+              "B. Wajib Pajak Luar Negeri dari sumber penghasilan di Indonesia",
+              "C. Hanya pemerintah asing",
+              "D. Hanya bank BUMN"
+            ],
+            "jawaban": "B",
+            "pembahasan": "PPh Pasal 26 dikenakan atas penghasilan yang diterima atau diperoleh Wajib Pajak Luar Negeri (WPLN) yang bersumber dari Indonesia, termasuk bunga, dividen, dan royalti."
+          },
+          {
+            "id": "q2",
+            "pertanyaan": "Tarif normal PPh Pasal 26 atas bunga adalah 20% dari jumlah bruto.",
+            "tipe": "benar_salah",
+            "pilihan": [
+              "Benar",
+              "Salah"
+            ],
+            "jawaban": "Benar",
+            "pembahasan": "Benar, tarif normal PPh Pasal 26 adalah 20% dari jumlah bruto, kecuali ada perjanjian penghindaran pajak berganda (tax treaty) atau aturan khusus yang menurunkan tarifnya."
+          }
+        ],
+        "kesalahan_umum": [
+          {
+            "salah": "Mengira penurunan tarif PPh Pasal 26 berlaku otomatis untuk semua jenis bunga",
+            "benar": "Penurunan tarif ini biasanya spesifik untuk instrumen tertentu (misalnya obligasi negara) yang ditetapkan lewat Peraturan Pemerintah, bukan berlaku umum untuk semua bunga",
+            "tips": "Selalu cek jenis instrumen dan aturan turunannya sebelum menyimpulkan tarif yang berlaku"
+          },
+          {
+            "salah": "Menyamakan PPh Pasal 26 dengan PPh Pasal 23",
+            "benar": "PPh Pasal 26 khusus untuk Wajib Pajak Luar Negeri, sedangkan PPh Pasal 23 untuk Wajib Pajak Dalam Negeri atas jenis penghasilan tertentu",
+            "tips": "Ingat kata kuncinya: Pasal 26 = 'orang luar', Pasal 23 = 'orang dalam'"
+          }
+        ],
+        "istilah": [
+          {
+            "kata": "Wajib Pajak Luar Negeri (WPLN)",
+            "definisi": "Subjek pajak yang tidak bertempat tinggal atau tidak berkedudukan di Indonesia, tapi menerima penghasilan yang bersumber dari Indonesia.",
+            "contoh": "Dana pensiun asal Jepang yang membeli obligasi negara Indonesia termasuk Wajib Pajak Luar Negeri."
+          },
+          {
+            "kata": "Tax Treaty",
+            "definisi": "Perjanjian penghindaran pajak berganda antara dua negara yang bertujuan mencegah suatu penghasilan dikenakan pajak dua kali di dua negara berbeda.",
+            "contoh": "Kalau Indonesia dan Jepang punya tax treaty, tarif PPh Pasal 26 atas bunga bisa lebih rendah dari 20%."
+          },
+          {
+            "kata": "Jumlah Bruto",
+            "definisi": "Jumlah penghasilan sebelum dikurangi biaya atau potongan apa pun, dijadikan dasar penghitungan pajak untuk beberapa jenis PPh termasuk Pasal 26.",
+            "contoh": "PPh Pasal 26 atas bunga dihitung dari jumlah bruto bunga yang diterima, bukan dari bunga bersih setelah biaya."
+          }
+        ]
+      },
+      {
+        "id": "bag-06",
+        "judul": "Pembebasan PPh atas Dividen Domestik",
+        "paragraf": [
+          "Ini salah satu perubahan yang paling sering ditanyain di ujian Brevet, jadi merhatiin baik-baik ya. Dulu, sebelum UU Cipta Kerja, dividen yang diterima oleh Wajib Pajak Badan dalam negeri hanya dikecualikan dari objek pajak kalau perusahaan penerima memiliki minimal 25% saham di perusahaan yang bagi dividen (syarat kepemilikan). Kalau nggak penuhi syarat itu, dividennya tetap kena pajak. Nah, UU Cipta Kerja mengubah Pasal 4 ayat (3) huruf f UU PPh, dan sekarang syarat kepemilikan minimal 25% itu DIHAPUS.",
+          "Jadi sekarang, dividen yang diterima Wajib Pajak Badan dalam negeri dari badan usaha di Indonesia dikecualikan dari objek PPh TANPA SYARAT apa pun soal persentase kepemilikan saham. Mau kamu punya 1% saham atau 90% saham di perusahaan yang bagi dividen, dividennya tetap bebas pajak asal sama-sama badan usaha dalam negeri. Ini beneran perubahan besar dibanding aturan lama.",
+          "Buat Wajib Pajak Orang Pribadi (OP) dalam negeri, ceritanya sedikit beda dan ini yang paling sering bikin bingung: dividen yang diterima WP OP dalam negeri JUGA dikecualikan dari objek pajak, TAPI dengan syarat — dividen tersebut harus diinvestasikan di wilayah Negara Kesatuan Republik Indonesia (NKRI) dalam jangka waktu tertentu (minimal 3 tahun pajak, yang bakal kita bahas detail di bagian selanjutnya). Kalau nggak diinvestasikan (atau diinvestasikan tapi nggak penuh), maka bagian yang nggak diinvestasikan itu tetap kena PPh sesuai ketentuan yang berlaku.",
+          "Kenapa dibedain gitu antara badan dan OP? Logikanya, badan usaha dalam negeri secara alami memutar uangnya lagi buat operasional dan ekspansi bisnis, jadi risikonya uang 'kabur' keluar sistem ekonomi lebih kecil. Sementara OP, dividen yang diterima bisa aja langsung dipakai buat konsumsi pribadi (beli mobil, liburan, dan lain-lain) yang nggak nambah investasi produktif di ekonomi. Makanya buat OP, pembebasan pajaknya 'diikat' sama syarat harus diinvestasikan lagi, biar uangnya tetap muter di ekonomi domestik."
+        ],
+        "poin_penting": [
+          "✅ Dividen ke WP Badan dalam negeri: bebas PPh TANPA syarat kepemilikan minimal (beda dari aturan lama yang mensyaratkan 25%)",
+          "📌 Dividen ke WP OP dalam negeri: bebas PPh KALAU diinvestasikan lagi di wilayah NKRI",
+          "⚠️ Kalau dividen OP nggak diinvestasikan (sebagian atau seluruhnya), bagian itu tetap kena PPh",
+          "🔑 Dasar hukumnya perubahan Pasal 4 ayat (3) huruf f UU PPh, diatur lebih lanjut lewat PP 55/2022 dan PMK 18/2021"
+        ],
+        "analogi": "Ibaratnya tuh kayak orang tua yang kasih uang saku ke dua anaknya beda cara. Anak sulung (badan usaha) dipercaya penuh bakal pakai uangnya buat hal produktif, jadi dikasih bebas tanpa syarat. Anak bungsu (orang pribadi) juga dikasih bebas, tapi dengan pesan 'asal ditabung atau diputer lagi buat sesuatu yang produktif ya, jangan langsung dihabisin jajan'.",
+        "contoh_kasus": {
+          "judul": "PT Investa vs Pak Budi Terima Dividen",
+          "cerita": "PT Investa, sebuah perusahaan holding di Jakarta, menerima dividen Rp500 juta dari anak usahanya meski cuma memiliki 10% saham di sana. Karena penerimanya badan usaha dalam negeri, dividen Rp500 juta ini langsung bebas PPh tanpa syarat apa pun, meski kepemilikan sahamnya di bawah 25%. Sementara itu, Pak Budi, seorang investor individu, menerima dividen Rp200 juta dari saham yang dia punya di sebuah PT terbuka. Kalau Pak Budi menginvestasikan kembali seluruh Rp200 juta itu ke instrumen yang diizinkan (misalnya deposito atau saham lain) dalam waktu yang ditentukan, dividennya bebas PPh. Tapi kalau dia cuma investasikan Rp120 juta dan sisanya Rp80 juta dipakai buat beli mobil, maka Rp80 juta itu tetap kena PPh.",
+          "poin": [
+            "PT Investa (badan usaha): dividen Rp500 juta bebas PPh tanpa syarat kepemilikan minimal",
+            "Pak Budi (orang pribadi): dividen Rp200 juta bebas PPh HANYA untuk bagian yang diinvestasikan kembali"
+          ]
+        },
+        "diagram_mermaid": [
+          "graph LR\n    A[\"Dividen Domestik\\nDiterima\"] --> B{\"Penerima Badan\\natau OP?\"}\n    B -->|\"Badan Usaha DN\"| C[\"Bebas PPh\\nTanpa Syarat\"]\n    B -->|\"Orang Pribadi DN\"| D{\"Diinvestasikan\\ndi NKRI?\"}\n    D -->|\"Ya, Penuh\"| E[\"Bebas PPh\"]\n    D -->|\"Sebagian/Tidak\"| F[\"Bagian yang Tidak\\nDiinvestasikan Kena PPh\"]"
+        ],
+        "penjelasan_diagram": "Diagram ini menunjukkan perbedaan perlakuan pajak dividen domestik antara penerima badan usaha (bebas tanpa syarat) dan penerima orang pribadi (bebas kalau diinvestasikan kembali).",
+        "prompt_gambar": [],
+        "kalkulator": null,
+        "mini_kuis": [
+          {
+            "id": "q1",
+            "pertanyaan": "Apa syarat pembebasan PPh dividen untuk Wajib Pajak Badan dalam negeri setelah UU Cipta Kerja?",
+            "tipe": "pilihan_ganda",
+            "pilihan": [
+              "A. Harus memiliki minimal 25% saham perusahaan pemberi dividen",
+              "B. Tidak ada syarat kepemilikan minimal saham",
+              "C. Harus melaporkan dividen ke DJP dalam 30 hari",
+              "D. Hanya berlaku untuk perusahaan Tbk"
+            ],
+            "jawaban": "B",
+            "pembahasan": "Setelah UU Cipta Kerja, syarat kepemilikan minimal 25% saham yang dulu berlaku sudah dihapus. Dividen ke WP Badan dalam negeri sekarang bebas PPh tanpa syarat kepemilikan minimal."
+          },
+          {
+            "id": "q2",
+            "pertanyaan": "Dividen yang diterima Wajib Pajak Orang Pribadi dalam negeri otomatis bebas PPh tanpa syarat apa pun, sama seperti WP Badan.",
+            "tipe": "benar_salah",
+            "pilihan": [
+              "Benar",
+              "Salah"
+            ],
+            "jawaban": "Salah",
+            "pembahasan": "Salah. Dividen untuk WP Orang Pribadi dalam negeri bebas PPh hanya jika diinvestasikan kembali di wilayah NKRI dalam jangka waktu tertentu. Kalau tidak diinvestasikan, bagian itu tetap kena PPh."
+          },
+          {
+            "id": "q3",
+            "pertanyaan": "Jelaskan kenapa pemerintah membedakan perlakuan pajak dividen antara Wajib Pajak Badan dan Wajib Pajak Orang Pribadi dalam negeri!",
+            "tipe": "esai",
+            "pilihan": null,
+            "jawaban": "Jawaban lengkap harus mencakup: (1) Badan usaha dalam negeri secara alami cenderung memutar kembali dana yang diterima untuk operasional dan ekspansi bisnis, sehingga risiko dana keluar dari sistem ekonomi produktif lebih kecil, makanya dibebaskan tanpa syarat. (2) Orang pribadi berpotensi menggunakan dividen untuk konsumsi pribadi yang tidak menambah investasi produktif, sehingga pembebasan pajaknya diikat dengan syarat harus diinvestasikan kembali di wilayah NKRI dalam jangka waktu tertentu (minimal 3 tahun pajak). (3) Tujuan akhirnya adalah menjaga agar dana dividen tetap berputar di ekonomi domestik dan mendukung Pilar 1 klaster perpajakan yaitu meningkatkan pendanaan investasi.",
+            "pembahasan": "Ini soal esai — bandingkan jawaban siswa dengan poin-poin di atas untuk menilai apakah pemahamannya mencakup aspek investasi produktif dan tujuan kebijakan reinvestasi."
+          }
+        ],
+        "kesalahan_umum": [
+          {
+            "salah": "Mengira syarat minimal 25% kepemilikan saham masih berlaku untuk pembebasan dividen badan usaha",
+            "benar": "Syarat itu sudah dihapus sejak UU Cipta Kerja — sekarang berapa pun persentase kepemilikannya, dividen ke badan usaha dalam negeri tetap bebas PPh",
+            "tips": "Ini jebakan klasik soal ujian yang masih pakai logika aturan lama sebelum 2020, hati-hati"
+          },
+          {
+            "salah": "Mengira dividen orang pribadi otomatis kena pajak penuh kalau tidak diinvestasikan sama sekali",
+            "benar": "Yang kena pajak hanya bagian yang TIDAK diinvestasikan — kalau sebagian diinvestasikan, bagian itu tetap bebas dan hanya sisanya yang kena PPh",
+            "tips": "Perhitungannya proporsional, bukan semua-atau-tidak-sama-sekali"
+          }
+        ],
+        "istilah": [
+          {
+            "kata": "Dividen",
+            "definisi": "Bagian laba perusahaan yang dibagikan kepada pemegang saham sesuai dengan proporsi kepemilikan sahamnya.",
+            "contoh": "PT Investa menerima dividen dari anak usahanya karena memiliki saham di perusahaan tersebut."
+          },
+          {
+            "kata": "Objek Pajak",
+            "definisi": "Segala sesuatu yang menjadi sasaran pengenaan pajak, misalnya penghasilan, kekayaan, atau transaksi tertentu.",
+            "contoh": "Dividen yang tidak diinvestasikan kembali tetap menjadi objek pajak bagi WP Orang Pribadi."
+          },
+          {
+            "kata": "Wajib Pajak Dalam Negeri (WPDN)",
+            "definisi": "Subjek pajak yang bertempat tinggal atau berkedudukan di Indonesia dan memenuhi kriteria tertentu sesuai UU PPh, sehingga dikenakan pajak atas penghasilan dari mana pun (worldwide income).",
+            "contoh": "PT Investa adalah Wajib Pajak Dalam Negeri karena berkedudukan di Indonesia."
+          }
+        ]
+      },
+      {
+        "id": "bag-07",
+        "judul": "Syarat Reinvestasi Dividen di NKRI",
+        "paragraf": [
+          "Nah, ini lanjutan dari bagian sebelumnya yang khusus ngebahas gimana caranya WP Orang Pribadi bisa dapetin pembebasan pajak atas dividennya. Syarat utamanya: dividen itu harus diinvestasikan di wilayah Negara Kesatuan Republik Indonesia (NKRI) dalam jangka waktu tertentu, dengan jangka waktu minimal investasi yang paling singkat adalah 3 tahun pajak dihitung sejak tahun pajak diperolehnya penghasilan dividen tersebut. Kalau kamu tarik dananya sebelum 3 tahun, ya artinya syarat investasinya dianggap nggak terpenuhi.",
+          "Terus, kemana aja sih dana dividen ini boleh 'ditaruh' biar dianggap sebagai investasi yang sah? Berdasarkan ketentuan turunannya (PMK 18/2021), ada banyak pilihan kanal investasi yang diperbolehkan, di antaranya: Surat Berharga Negara (SBN) seperti obligasi negara, deposito dan tabungan di bank dalam negeri, obligasi atau sukuk yang diterbitkan BUMN atau lembaga pembiayaan pemerintah, saham perusahaan yang baru melakukan penawaran umum perdana (IPO) di bursa efek Indonesia, investasi infrastruktur lewat skema kerja sama pemerintah dan badan usaha (KPBU), penyertaan modal pada perusahaan yang baru didirikan sebagai pendiri, penyertaan modal tambahan pada perusahaan yang sudah ada, kerja sama dengan lembaga pengelola investasi pemerintah, investasi sektor riil sesuai prioritas pembangunan pemerintah, dan beberapa bentuk investasi lain yang diatur dan dianggap sah menurut peraturan yang berlaku.",
+          "Setelah dana diinvestasikan, kewajiban wajib pajak nggak berhenti sampai situ aja — mereka wajib menyampaikan laporan realisasi investasi lewat sistem e-Reporting di DJP Online, yang biasanya dilampirkan bersamaan dengan pelaporan SPT Tahunan PPh Orang Pribadi. Laporan ini penting banget karena jadi bukti buat DJP bahwa dividen yang diklaim bebas pajak tadi memang benar-benar diinvestasikan sesuai ketentuan, bukan cuma janji di atas kertas doang.",
+          "Kalau ternyata di tengah jalan (sebelum 3 tahun) dananya ditarik dan nggak diinvestasikan lagi ke kanal yang sah, atau ternyata laporan e-Reporting-nya nggak disampaikan sesuai ketentuan, maka DJP berhak mengenakan PPh atas dividen tersebut terhitung sejak dividen itu diterima atau diperoleh — jadi bisa kena pajak plus sanksi keterlambatan segala. Makanya penting banget buat disiplin ngelaporin dan jaga komitmen investasi minimal 3 tahun itu."
+        ],
+        "poin_penting": [
+          "⏳ Jangka waktu minimal investasi adalah 3 tahun pajak sejak tahun pajak diperolehnya dividen",
+          "📊 Ada banyak kanal investasi sah: SBN, deposito, saham IPO, penyertaan modal, KPBU infrastruktur, dan lainnya",
+          "📝 Wajib lapor realisasi investasi lewat e-Reporting DJP Online, biasanya bareng SPT Tahunan",
+          "⚠️ Kalau syarat nggak terpenuhi atau nggak lapor, dividen bisa kena PPh plus sanksi keterlambatan"
+        ],
+        "analogi": "Bayangin kamu ditawarin cashback belanja online, tapi syaratnya kamu harus 'kunci' saldo cashback itu di dompet digital minimal 3 tahun dan nggak boleh ditarik ke rekening biasa. Kalau kamu tahan sampai 3 tahun, cashback-nya beneran gratis. Tapi kalau kamu tarik lebih cepat, sistemnya bakal 'narik balik' dan minta kamu bayar biaya yang tadinya digratisin.",
+        "contoh_kasus": {
+          "judul": "Mbak Rina Investasi Dividen ke Deposito",
+          "cerita": "Mbak Rina menerima dividen Rp150 juta dari saham yang dia punya di tahun pajak 2026. Dia memutuskan menaruh seluruh dana itu ke deposito Bank BCA sebagai bentuk investasi yang sah, dan berkomitmen nggak akan menariknya sampai tahun pajak 2029 (3 tahun kemudian). Setiap tahun, Mbak Rina rajin melaporkan realisasi investasinya lewat DJP Online bersamaan dengan SPT Tahunannya. Karena semua syarat terpenuhi, dividen Rp150 juta itu bebas sepenuhnya dari PPh. Tapi kalau misalnya di tahun 2027 Mbak Rina tiba-tiba menarik depositonya buat beli mobil, maka dividen Rp150 juta itu jadi kena PPh terhitung sejak awal diterima.",
+          "poin": [
+            "Mbak Rina taruh dividen Rp150 juta di deposito dan komit minimal 3 tahun pajak",
+            "Selama syarat investasi dan pelaporan e-Reporting terpenuhi, dividen bebas PPh sepenuhnya"
+          ]
+        },
+        "diagram_mermaid": [
+          "flowchart TD\n    A[\"WP OP Terima Dividen\\nDomestik\"] --> B{\"Diinvestasikan di\\nWilayah NKRI?\"}\n    B -->|\"Tidak\"| C[\"Kena PPh\\nSesuai Ketentuan Umum\"]\n    B -->|\"Ya\"| D{\"Jangka Waktu Investasi\\nMinimal 3 Tahun Pajak?\"}\n    D -->|\"Tidak Terpenuhi\\nDitarik Lebih Cepat\"| C\n    D -->|\"Terpenuhi\"| E{\"Lapor e-Reporting\\nDJP Online?\"}\n    E -->|\"Tidak Lapor\"| C\n    E -->|\"Lapor Sesuai Ketentuan\"| F[\"Dividen Bebas PPh\\nSepenuhnya\"]"
+        ],
+        "penjelasan_diagram": "Diagram flowchart ini menunjukkan alur lengkap syarat pengecualian PPh atas dividen yang diinvestasikan kembali di NKRI, mulai dari penerimaan dividen sampai penentuan status bebas pajak atau kena pajak.",
+        "prompt_gambar": [],
+        "kalkulator": null,
+        "mini_kuis": [
+          {
+            "id": "q1",
+            "pertanyaan": "Berapa jangka waktu minimal investasi dividen agar bebas PPh bagi WP Orang Pribadi?",
+            "tipe": "pilihan_ganda",
+            "pilihan": [
+              "A. 1 tahun pajak",
+              "B. 2 tahun pajak",
+              "C. 3 tahun pajak",
+              "D. 5 tahun pajak"
+            ],
+            "jawaban": "C",
+            "pembahasan": "Jangka waktu minimal investasi yang dipersyaratkan adalah 3 tahun pajak, dihitung sejak tahun pajak diperolehnya penghasilan dividen tersebut."
+          },
+          {
+            "id": "q2",
+            "pertanyaan": "Wajib Pajak yang menginvestasikan dividen tidak perlu melapor apa pun ke DJP karena investasinya sudah otomatis tercatat.",
+            "tipe": "benar_salah",
+            "pilihan": [
+              "Benar",
+              "Salah"
+            ],
+            "jawaban": "Salah",
+            "pembahasan": "Salah, wajib pajak tetap harus aktif melaporkan realisasi investasinya lewat sistem e-Reporting di DJP Online, biasanya dilampirkan bersama SPT Tahunan, sebagai bukti bahwa syarat investasi benar-benar dipenuhi."
+          }
+        ],
+        "kesalahan_umum": [
+          {
+            "salah": "Mengira dividen yang ditaruh di rekening tabungan biasa otomatis dianggap 'investasi' yang sah",
+            "benar": "Hanya kanal investasi yang diatur secara spesifik dalam ketentuan (seperti SBN, deposito, saham IPO, penyertaan modal, dan lainnya) yang diakui sebagai investasi sah untuk tujuan pembebasan pajak ini",
+            "tips": "Cek daftar kanal investasi yang diperbolehkan sebelum memutuskan kemana dana dividen akan ditaruh"
+          },
+          {
+            "salah": "Menganggap begitu dana sudah diinvestasikan, kewajiban wajib pajak selesai total",
+            "benar": "Wajib pajak tetap harus menjaga dana itu tetap terinvestasi minimal 3 tahun DAN rutin melapor lewat e-Reporting setiap tahun",
+            "tips": "Ingat, ini kewajiban berkelanjutan, bukan sekali jalan doang"
+          }
+        ],
+        "istilah": [
+          {
+            "kata": "Reinvestasi",
+            "definisi": "Tindakan menanamkan kembali dana yang diterima (misalnya dividen) ke instrumen investasi tertentu, bukan digunakan untuk konsumsi.",
+            "contoh": "Mbak Rina melakukan reinvestasi dividennya ke deposito bank."
+          },
+          {
+            "kata": "e-Reporting",
+            "definisi": "Sistem pelaporan elektronik lewat DJP Online yang digunakan wajib pajak untuk melaporkan realisasi investasi dividen yang diklaim bebas pajak.",
+            "contoh": "Mbak Rina wajib mengisi e-Reporting setiap tahun selama masa investasi 3 tahunnya berlangsung."
+          },
+          {
+            "kata": "Surat Berharga Negara (SBN)",
+            "definisi": "Surat utang yang diterbitkan oleh pemerintah Indonesia sebagai salah satu instrumen investasi, termasuk obligasi negara dan sukuk negara.",
+            "contoh": "Dividen bisa diinvestasikan ke Surat Berharga Negara sebagai salah satu kanal investasi yang sah."
+          }
+        ]
+      },
+      {
+        "id": "bag-08",
+        "judul": "Pengecualian Objek PPh Lainnya",
+        "paragraf": [
+          "Selain dividen domestik, UU Cipta Kerja juga memperluas beberapa jenis penghasilan lain yang dikecualikan dari objek PPh — masih dalam semangat yang sama, yaitu mendorong dana tetap berputar produktif di dalam negeri dan mendukung sektor-sektor tertentu yang dianggap penting secara sosial-ekonomi.",
+          "Yang pertama adalah penghasilan dari luar negeri yang direpatriasi alias ditarik pulang ke Indonesia. Kalau seorang WP Dalam Negeri punya penghasilan dari usaha di luar negeri (bukan lewat Bentuk Usaha Tetap alias BUT), penghasilan itu bisa dikecualikan dari objek PPh dengan syarat mirip banget kayak dividen tadi — harus diinvestasikan di wilayah NKRI dalam jangka waktu tertentu. Jadi konsepnya konsisten: pemerintah kasih 'karpet merah' pajak buat duit yang mau pulang kampung dan diputer lagi di ekonomi Indonesia.",
+          "Yang kedua adalah Sisa Hasil Usaha (SHU) koperasi yang dibagikan kepada anggotanya. Ini sebenarnya bukan hal baru banget, tapi ditegaskan lagi dalam kerangka klaster perpajakan Cipta Kerja bahwa bagian SHU yang diterima anggota koperasi tertentu dikecualikan dari objek pajak, sebagai bentuk dukungan pemerintah terhadap ekonomi kerakyatan berbasis koperasi yang emang jadi soko guru perekonomian nasional secara konstitusional.",
+          "Yang ketiga, dan ini yang sering luput dari perhatian, adalah dana haji dan dana terkait keagamaan lainnya yang dikelola oleh Badan Pengelola Keuangan Haji (BPKH). Hasil pengembangan dari dana setoran Biaya Penyelenggaraan Ibadah Haji (BPIH) yang dikelola BPKH dikecualikan dari objek pajak, karena dana ini pada dasarnya milik calon jemaah haji yang lagi mengantre keberangkatan, jadi hasil pengembangannya juga harus tetap utuh buat kepentingan mereka, bukan tergerus pajak."
+        ],
+        "poin_penting": [
+          "🌍 Penghasilan luar negeri yang direpatriasi bisa bebas PPh kalau diinvestasikan di NKRI, mirip syarat dividen",
+          "🤝 SHU koperasi yang dibagikan ke anggota dikecualikan dari objek pajak sebagai dukungan ekonomi kerakyatan",
+          "🕋 Hasil pengembangan dana haji yang dikelola BPKH dikecualikan dari objek pajak",
+          "💡 Semua pengecualian ini konsisten dengan semangat Pilar 1: mendorong dana produktif berputar di dalam negeri"
+        ],
+        "analogi": "Gampangnya gini, bayangin pemerintah kayak orang tua yang seneng banget kalau anaknya yang lama merantau di luar negeri (penghasilan luar negeri) akhirnya pulang kampung dan mau buka usaha di desa (diinvestasikan di NKRI) — makanya dikasih 'hadiah pulang kampung' berupa bebas pajak. Sementara SHU koperasi dan dana haji itu kayak 'kas bersama' warga desa yang emang dari awal disepakati nggak boleh dipotong-potong buat kepentingan pribadi.",
+        "contoh_kasus": {
+          "judul": "Dito Repatriasi Penghasilan dari Singapura",
+          "cerita": "Dito, seorang WNI yang punya usaha kecil di Singapura, memperoleh penghasilan Rp800 juta dari usahanya di sana. Karena dia berencana pulang ke Indonesia dan mau buka cabang usaha di Jakarta, dia menarik seluruh dana itu ke Indonesia dan menginvestasikannya untuk modal usaha barunya. Karena penghasilan luar negeri ini direpatriasi dan diinvestasikan sesuai ketentuan yang berlaku, Dito bisa mengklaim pengecualian dari objek PPh atas penghasilan tersebut, mirip seperti mekanisme pembebasan dividen yang diinvestasikan.",
+          "poin": [
+            "Dito menarik pulang penghasilan usahanya dari Singapura senilai Rp800 juta",
+            "Karena diinvestasikan kembali di Indonesia sesuai ketentuan, penghasilan itu dikecualikan dari objek PPh"
+          ]
+        },
+        "diagram_mermaid": [
+          "graph TD\n    A[\"Pengecualian Objek PPh\\nLainnya (Cipta Kerja)\"] --> B[\"Penghasilan LN\\nDirepatriasi & Diinvestasikan\"]\n    A --> C[\"SHU Koperasi\\nyang Dibagikan ke Anggota\"]\n    A --> D[\"Hasil Pengembangan\\nDana Haji via BPKH\"]"
+        ],
+        "penjelasan_diagram": "Diagram ini merangkum tiga jenis pengecualian objek PPh lainnya yang diatur dalam klaster perpajakan UU Cipta Kerja, di luar pengecualian dividen yang sudah dibahas sebelumnya.",
+        "prompt_gambar": [],
+        "kalkulator": null,
+        "mini_kuis": [
+          {
+            "id": "q1",
+            "pertanyaan": "Penghasilan dari luar negeri bisa dikecualikan dari objek PPh dengan syarat apa?",
+            "tipe": "pilihan_ganda",
+            "pilihan": [
+              "A. Harus dilaporkan ke KBRI setempat",
+              "B. Harus direpatriasi dan diinvestasikan di wilayah NKRI",
+              "C. Harus berasal dari negara ASEAN saja",
+              "D. Tidak ada syarat apa pun"
+            ],
+            "jawaban": "B",
+            "pembahasan": "Penghasilan luar negeri (bukan dari Bentuk Usaha Tetap) bisa dikecualikan dari objek PPh kalau direpatriasi dan diinvestasikan kembali di wilayah NKRI, mirip dengan mekanisme pembebasan dividen."
+          },
+          {
+            "id": "q2",
+            "pertanyaan": "Hasil pengembangan dana haji yang dikelola BPKH dikecualikan dari objek PPh.",
+            "tipe": "benar_salah",
+            "pilihan": [
+              "Benar",
+              "Salah"
+            ],
+            "jawaban": "Benar",
+            "pembahasan": "Benar, hasil pengembangan dana setoran BPIH yang dikelola oleh Badan Pengelola Keuangan Haji (BPKH) dikecualikan dari objek pajak karena dana tersebut pada dasarnya milik calon jemaah haji."
+          }
+        ],
+        "kesalahan_umum": [
+          {
+            "salah": "Mengira semua penghasilan dari luar negeri otomatis bebas pajak tanpa syarat apa pun",
+            "benar": "Bebas pajak hanya berlaku kalau penghasilan itu direpatriasi DAN diinvestasikan sesuai ketentuan yang berlaku",
+            "tips": "Sama seperti aturan dividen, selalu cek dua syarat: direpatriasi dan diinvestasikan"
+          },
+          {
+            "salah": "Menganggap SHU koperasi selalu bebas pajak tanpa terkecuali",
+            "benar": "Pengecualian ini berlaku untuk SHU yang dibagikan kepada anggota koperasi sesuai ketentuan yang berlaku, bukan berarti semua penghasilan koperasi otomatis bebas pajak",
+            "tips": "Bedakan antara penghasilan koperasi sebagai badan usaha dengan SHU yang dibagikan ke anggotanya"
+          }
+        ],
+        "istilah": [
+          {
+            "kata": "Repatriasi",
+            "definisi": "Proses menarik atau memulangkan dana/aset dari luar negeri kembali ke dalam negeri.",
+            "contoh": "Dito melakukan repatriasi penghasilan usahanya dari Singapura ke Indonesia."
+          },
+          {
+            "kata": "Bentuk Usaha Tetap (BUT)",
+            "definisi": "Bentuk usaha yang digunakan oleh subjek pajak luar negeri untuk menjalankan usaha atau kegiatan di Indonesia, yang perlakuan pajaknya mirip dengan Wajib Pajak Badan dalam negeri.",
+            "contoh": "Penghasilan dari BUT di luar negeri tidak termasuk dalam skema pengecualian pajak penghasilan luar negeri yang direpatriasi."
+          },
+          {
+            "kata": "BPKH",
+            "definisi": "Badan Pengelola Keuangan Haji, lembaga pemerintah yang bertugas mengelola dana setoran Biaya Penyelenggaraan Ibadah Haji dari calon jemaah haji.",
+            "contoh": "Hasil pengembangan dana yang dikelola BPKH dikecualikan dari objek PPh."
+          }
+        ]
+      },
+      {
+        "id": "bag-09",
+        "judul": "Relaksasi Kredit Pajak Masukan 80%",
+        "paragraf": [
+          "Sekarang kita pindah topik ke PPN, mulai dari perubahan yang jadi jantung Pilar 2 (kepatuhan sukarela). Sebelum kita ke aturannya, inget dulu konsep dasar PPN: Pengusaha Kena Pajak (PKP) — alias pengusaha yang sudah dikukuhkan DJP buat mungut PPN — punya hak mengkreditkan Pajak Masukan (PM, yaitu PPN yang dia bayar waktu beli barang/jasa) terhadap Pajak Keluaran (PK, yaitu PPN yang dia pungut waktu jual barang/jasa). Selisihnya itulah PPN yang harus disetor atau bisa jadi lebih bayar.",
+          "Nah, masalah klasik yang sering kejadian: banyak pengusaha yang secara omzet sebenarnya udah wajib jadi PKP (karena omzetnya udah lewat batas tertentu), tapi belum sempat atau belum sadar buat daftar dan dikukuhkan secara resmi. Padahal selama periode 'belum dikukuhkan' itu, dia tetap punya kewajiban mungut PPN atas penjualannya (secara hukum dianggap terutang), tapi di sisi lain dia nggak bisa mengkreditkan Pajak Masukan yang udah dia bayar, karena secara administratif belum berstatus PKP. Ini kan nggak adil — dia dipaksa mungut PK penuh tapi PM-nya hangus.",
+          "UU Cipta Kerja ngasih solusi lewat perubahan Pasal 9 ayat (2a) UU PPN: Pengusaha Kena Pajak yang baru dikukuhkan (biasanya lewat mekanisme jabatan setelah DJP mendeteksi dia harusnya udah PKP dari dulu) tetap bisa mengkreditkan Pajak Masukan untuk masa sebelum pengukuhannya, tapi dibatasi maksimal 80% dari Pajak Keluaran yang seharusnya sudah dipungut di masa itu. Jadi bukan 100% penuh, tapi lumayan banget dibanding sebelumnya yang 0%.",
+          "Kenapa cuma 80%, bukan 100%? Ini semacam jalan tengah — pemerintah tetap kasih keringanan buat pengusaha yang terlambat daftar, tapi tetap ada 'disinsentif' kecil (selisih 20%) biar pengusaha tetap terdorong buat proaktif daftar PKP tepat waktu, bukan sengaja nunda-nunda karena toh nanti dapat kredit juga. Jadi ini keseimbangan antara kepatuhan sukarela dan kepastian hukum yang adil buat pengusaha."
+        ],
+        "poin_penting": [
+          "🧮 PM adalah PPN yang dibayar saat beli, PK adalah PPN yang dipungut saat jual — selisihnya jadi PPN terutang",
+          "⚠️ Sebelum aturan ini, PKP yang telat dikukuhkan sama sekali nggak bisa kreditkan PM untuk masa sebelum dikukuhkan",
+          "✅ Sekarang PKP baru bisa mengkreditkan PM maksimal 80% dari PK yang seharusnya dipungut sebelum dikukuhkan",
+          "🎯 Batasan 80% (bukan 100%) tetap kasih insentif kecil buat pengusaha daftar PKP tepat waktu"
+        ],
+        "analogi": "Bayangin kamu telat daftar member di sebuah minimarket yang punya program poin belanja. Ternyata sebelum daftar resmi, transaksi belanja kamu sebenarnya udah kehitung, tapi poinnya nggak otomatis masuk karena kamu belum jadi member. Aturan lama itu kayak poin kamu hangus semua. Aturan baru ini kayak minimarketnya baik hati, ngasih balik 80% dari poin yang harusnya kamu dapat itu, meskipun kamu telat daftar.",
+        "contoh_kasus": {
+          "judul": "Warung Online Bu Siti Telat Daftar PKP",
+          "cerita": "Bu Siti punya bisnis warung online yang omzetnya sudah tembus Rp5 miliar setahun, jauh di atas batas wajib PKP (Rp4,8 miliar), tapi dia baru sadar dan didaftarkan secara jabatan oleh DJP enam bulan setelah harusnya dia jadi PKP. Selama enam bulan itu, seharusnya Bu Siti memungut PPN (Pajak Keluaran) sebesar Rp150 juta dari penjualannya. Di sisi lain, dia juga sudah membayar Pajak Masukan sebesar Rp100 juta atas pembelian bahan baku selama periode yang sama. Dengan aturan relaksasi ini, Bu Siti bisa mengkreditkan Pajak Masukan maksimal 80% dari Rp150 juta (Pajak Keluaran), yaitu Rp120 juta — meskipun PM aktual yang dia bayar cuma Rp100 juta, jadi yang bisa dikreditkan tetap dibatasi oleh PM aktual yang dia punya, yaitu Rp100 juta penuh karena masih di bawah batas 80% dari PK.",
+          "poin": [
+            "Bu Siti seharusnya memungut PK Rp150 juta selama periode sebelum dikukuhkan",
+            "Batas maksimal PM yang bisa dikreditkan adalah 80% dari PK yaitu Rp120 juta, dan karena PM aktualnya Rp100 juta (di bawah batas), semuanya bisa dikreditkan penuh"
+          ]
+        },
+        "diagram_mermaid": [
+          "flowchart TD\n    A[\"Pengusaha Omzet Lewat\\nBatas Wajib PKP\"] --> B[\"Belum Dikukuhkan\\nsebagai PKP\"]\n    B --> C[\"DJP Kukuhkan Secara Jabatan\\n(Terlambat Daftar)\"]\n    C --> D[\"PK Terutang Selama\\nBelum Dikukuhkan Dihitung\"]\n    D --> E[\"PM yang Dibayar\\nSelama Periode Sama Dihitung\"]\n    E --> F{\"PM Aktual vs\\n80% dari PK?\"}\n    F -->|\"PM Aktual Lebih Kecil\\ndari 80% PK\"| G[\"PM Dikreditkan\\nPenuh Sesuai Aktual\"]\n    F -->|\"PM Aktual Lebih Besar\\ndari 80% PK\"| H[\"PM yang Dikreditkan\\nDibatasi Maksimal 80% PK\"]"
+        ],
+        "penjelasan_diagram": "Diagram flowchart ini menjelaskan alur lengkap relaksasi pengkreditan Pajak Masukan sebesar maksimal 80% untuk PKP yang baru dikukuhkan setelah terlambat mendaftar.",
+        "prompt_gambar": [],
+        "kalkulator": {
+          "tipe": "ppn",
+          "judul": "Kalkulator Kredit PM 80% untuk PKP Baru Dikukuhkan",
+          "keterangan": "Masukkan estimasi Pajak Keluaran dan Pajak Masukan aktual selama periode sebelum dikukuhkan untuk melihat berapa maksimal PM yang bisa dikreditkan."
+        },
+        "mini_kuis": [
+          {
+            "id": "q1",
+            "pertanyaan": "Berapa persen maksimal Pajak Masukan yang bisa dikreditkan oleh PKP yang baru dikukuhkan atas masa sebelum pengukuhannya?",
+            "tipe": "pilihan_ganda",
+            "pilihan": [
+              "A. 50%",
+              "B. 60%",
+              "C. 80%",
+              "D. 100%"
+            ],
+            "jawaban": "C",
+            "pembahasan": "Berdasarkan perubahan Pasal 9 ayat (2a) UU PPN, PKP yang baru dikukuhkan bisa mengkreditkan Pajak Masukan maksimal 80% dari Pajak Keluaran yang seharusnya dipungut selama masa sebelum dikukuhkan."
+          },
+          {
+            "id": "q2",
+            "pertanyaan": "Sebelum ada relaksasi ini, PKP yang telat dikukuhkan sama sekali tidak bisa mengkreditkan Pajak Masukan untuk masa sebelum pengukuhannya.",
+            "tipe": "benar_salah",
+            "pilihan": [
+              "Benar",
+              "Salah"
+            ],
+            "jawaban": "Benar",
+            "pembahasan": "Benar, sebelum UU Cipta Kerja, PKP yang terlambat dikukuhkan tidak bisa mengkreditkan Pajak Masukan sama sekali untuk periode sebelum dikukuhkan, meskipun tetap wajib memungut Pajak Keluaran."
+          },
+          {
+            "id": "q3",
+            "pertanyaan": "Menurutmu, kenapa pemerintah membatasi kredit Pajak Masukan di angka 80% dan bukan 100% penuh? Jelaskan dari sisi keadilan dan disinsentif kepatuhan!",
+            "tipe": "esai",
+            "pilihan": null,
+            "jawaban": "Jawaban lengkap sebaiknya mencakup: (1) Pembatasan 80% memberikan keringanan signifikan dibanding aturan lama yang 0%, jadi tetap adil bagi pengusaha yang terlambat daftar. (2) Selisih 20% berfungsi sebagai disinsentif kecil supaya pengusaha tetap terdorong mendaftar PKP tepat waktu, bukan sengaja menunda pendaftaran karena toh nanti tetap dapat kredit besar. (3) Ini mencerminkan keseimbangan antara mendorong kepatuhan sukarela (Pilar 2) dengan tetap menjaga kepastian hukum dan keadilan bagi PKP yang taat aturan sejak awal.",
+            "pembahasan": "Ini soal esai — nilai apakah jawaban siswa menyentuh aspek keseimbangan antara keringanan dan disinsentif, bukan cuma menyebut angka 80% tanpa penjelasan alasannya."
+          }
+        ],
+        "kesalahan_umum": [
+          {
+            "salah": "Mengira PM yang bisa dikreditkan selalu tepat 80% dari PK, berapa pun nilai PM aktualnya",
+            "benar": "80% dari PK itu adalah BATAS MAKSIMAL, bukan angka tetap — kalau PM aktual lebih kecil dari 80% PK, yang dikreditkan ya sesuai PM aktual",
+            "tips": "Selalu bandingkan PM aktual dengan batas 80% PK, ambil mana yang lebih kecil (lower of the two)"
+          },
+          {
+            "salah": "Mengira aturan ini berlaku untuk semua PKP, termasuk yang daftar tepat waktu secara sukarela",
+            "benar": "Aturan 80% ini khusus untuk kondisi PKP yang dikukuhkan terlambat (misalnya secara jabatan), bukan mekanisme kredit PM normal sehari-hari",
+            "tips": "Untuk transaksi normal setelah PKP resmi dikukuhkan, mekanisme kredit PM tetap pakai aturan umum (bisa 100% sesuai bukti PM yang sah)"
+          }
+        ],
+        "istilah": [
+          {
+            "kata": "Pengusaha Kena Pajak (PKP)",
+            "definisi": "Pengusaha yang melakukan penyerahan Barang Kena Pajak dan/atau Jasa Kena Pajak dan sudah dikukuhkan oleh DJP untuk memungut, menyetor, dan melaporkan PPN.",
+            "contoh": "Bu Siti akhirnya dikukuhkan sebagai PKP secara jabatan setelah DJP mendeteksi omzetnya lewat batas."
+          },
+          {
+            "kata": "Pajak Keluaran (PK)",
+            "definisi": "PPN yang dipungut oleh PKP atas penyerahan Barang Kena Pajak atau Jasa Kena Pajak yang dilakukannya.",
+            "contoh": "Bu Siti seharusnya memungut Pajak Keluaran Rp150 juta selama enam bulan sebelum dikukuhkan sebagai PKP."
+          },
+          {
+            "kata": "Pajak Masukan (PM)",
+            "definisi": "PPN yang dibayar oleh PKP saat membeli Barang Kena Pajak atau Jasa Kena Pajak, yang bisa dikreditkan terhadap Pajak Keluaran.",
+            "contoh": "Bu Siti membayar Pajak Masukan Rp100 juta atas pembelian bahan baku warung onlinenya."
+          },
+          {
+            "kata": "Dikukuhkan Secara Jabatan",
+            "definisi": "Proses pengukuhan PKP yang dilakukan oleh DJP secara langsung tanpa menunggu permohonan dari pengusaha, biasanya karena DJP mendeteksi omzet pengusaha sudah wajib PKP.",
+            "contoh": "Bu Siti dikukuhkan secara jabatan setelah DJP mendeteksi omzet warung onlinenya sudah melewati batas wajib PKP."
+          }
+        ]
+      },
+      {
+        "id": "bag-10",
+        "judul": "Kredit Pajak Masukan atas SKPKB",
+        "paragraf": [
+          "Masih di ranah PPN, ada satu lagi perubahan yang berhubungan sama pengkreditan Pajak Masukan, kali ini yang berkaitan dengan Surat Ketetapan Pajak Kurang Bayar alias SKPKB. Buat yang belum familiar, SKPKB itu semacam 'surat tagihan resmi' dari DJP yang diterbitkan kalau hasil pemeriksaan menunjukkan wajib pajak kurang bayar pajaknya dibanding yang seharusnya.",
+          "Dulu, sebelum UU Cipta Kerja, kalau ada Pajak Masukan yang ditagih lewat SKPKB (misalnya karena PKP lupa melaporkan PM tertentu dan baru ketahuan saat pemeriksaan), PM yang ditagih lewat SKPKB itu sama sekali TIDAK BISA dikreditkan oleh PKP yang bersangkutan. Jadi selain harus bayar pokok pajaknya, PKP juga 'rugi' karena kehilangan hak kredit PM itu selamanya — istilahnya kena hukuman ganda.",
+          "UU Cipta Kerja ngubah ini lewat penambahan ketentuan di UU PPN: Pajak Masukan yang ditagih melalui SKPKB SEKARANG BISA dikreditkan oleh PKP, tapi dengan catatan — hanya sebesar nilai pokok pajak yang tercantum dalam SKPKB tersebut, dan PKP yang bersangkutan harus melunasi SKPKB itu dulu (termasuk sanksi administrasinya kalau ada). Jadi ini bukan berarti PKP bebas dari sanksi keterlambatan atau kesalahan pelaporan, tapi minimal dia nggak kehilangan hak kredit PM-nya secara permanen.",
+          "Perubahan ini penting banget dari sisi keadilan dan kepastian hukum (Pilar 3). Logikanya, kalau PM itu memang benar-benar ada dan sah secara substansi (cuma telat dilaporkan atau ada kesalahan administratif), kenapa harus dihilangkan haknya selamanya? Yang penting kan PKP-nya tetap kena sanksi atas keterlambatan/kesalahannya, tapi hak substantifnya buat mengkreditkan PM yang memang sah tetap dijaga."
+        ],
+        "poin_penting": [
+          "📄 SKPKB adalah surat ketetapan resmi dari DJP kalau wajib pajak kurang bayar pajak berdasarkan hasil pemeriksaan",
+          "⚠️ Dulu, PM yang ditagih lewat SKPKB sama sekali tidak bisa dikreditkan — sekarang bisa",
+          "✅ PM dari SKPKB bisa dikreditkan sebesar nilai pokok pajak, dengan syarat SKPKB-nya sudah dilunasi",
+          "⚖️ Perubahan ini mencerminkan Pilar 3 (kepastian hukum) — sanksi tetap ada, tapi hak kredit PM yang sah tetap dijaga"
+        ],
+        "analogi": "Ibaratnya tuh kayak kamu telat bayar cicilan kartu kredit dan kena denda keterlambatan. Aturan lama itu kayak selain kena denda, poin reward dari transaksi yang telat dilaporkan itu juga dihanguskan semua. Aturan baru ini lebih adil: kamu tetap kena denda keterlambatan (sanksi SKPKB), tapi poin reward dari transaksi yang sah itu (PM-nya) tetap bisa kamu pakai, asal dendanya udah dilunasin dulu.",
+        "contoh_kasus": {
+          "judul": "PT Cahaya Terang Kena SKPKB",
+          "cerita": "PT Cahaya Terang, perusahaan distribusi elektronik, diperiksa oleh DJP dan ditemukan ada Pajak Masukan sebesar Rp80 juta yang belum dilaporkan dengan benar di SPT Masa PPN mereka. DJP kemudian menerbitkan SKPKB dengan nilai pokok pajak Rp80 juta plus sanksi bunga sesuai ketentuan. Setelah PT Cahaya Terang melunasi seluruh SKPKB tersebut (pokok plus sanksi), mereka tetap berhak mengkreditkan Pajak Masukan sebesar Rp80 juta (sesuai nilai pokok pajak dalam SKPKB) di masa pajak berikutnya, sesuatu yang tidak mungkin terjadi sebelum UU Cipta Kerja berlaku.",
+          "poin": [
+            "PT Cahaya Terang kena SKPKB senilai pokok pajak Rp80 juta plus sanksi bunga",
+            "Setelah SKPKB dilunasi, PM sebesar Rp80 juta (nilai pokok) tetap bisa dikreditkan — beda dari aturan lama"
+          ]
+        },
+        "diagram_mermaid": [
+          "flowchart TD\n    A[\"Hasil Pemeriksaan DJP\\nTemukan PM Belum Dilaporkan\"] --> B[\"DJP Terbitkan SKPKB\\n(Pokok Pajak + Sanksi)\"]\n    B --> C[\"PKP Melunasi\\nSeluruh SKPKB\"]\n    C --> D[\"PM Sebesar Nilai Pokok\\nSKPKB Bisa Dikreditkan\"]"
+        ],
+        "penjelasan_diagram": "Diagram ini menunjukkan alur pengkreditan Pajak Masukan yang ditagih lewat SKPKB, dari hasil pemeriksaan sampai PM tersebut bisa dikreditkan setelah SKPKB dilunasi.",
+        "prompt_gambar": [],
+        "kalkulator": null,
+        "mini_kuis": [
+          {
+            "id": "q1",
+            "pertanyaan": "Setelah UU Cipta Kerja, Pajak Masukan yang ditagih lewat SKPKB bisa dikreditkan sebesar berapa?",
+            "tipe": "pilihan_ganda",
+            "pilihan": [
+              "A. Tidak bisa dikreditkan sama sekali",
+              "B. Sebesar nilai pokok pajak dalam SKPKB",
+              "C. Sebesar 50% dari nilai SKPKB",
+              "D. Sebesar nilai SKPKB termasuk sanksinya"
+            ],
+            "jawaban": "B",
+            "pembahasan": "PM yang ditagih lewat SKPKB bisa dikreditkan sebesar nilai pokok pajak yang tercantum dalam SKPKB tersebut, bukan termasuk sanksi administrasinya, dan dengan syarat SKPKB tersebut sudah dilunasi."
+          },
+          {
+            "id": "q2",
+            "pertanyaan": "PKP bisa langsung mengkreditkan PM dari SKPKB tanpa perlu melunasi SKPKB tersebut terlebih dahulu.",
+            "tipe": "benar_salah",
+            "pilihan": [
+              "Benar",
+              "Salah"
+            ],
+            "jawaban": "Salah",
+            "pembahasan": "Salah, syarat utama supaya PM dari SKPKB bisa dikreditkan adalah PKP harus melunasi SKPKB tersebut terlebih dahulu, termasuk pokok pajak dan sanksi administrasinya."
+          }
+        ],
+        "kesalahan_umum": [
+          {
+            "salah": "Mengira dengan adanya aturan baru ini, PKP tidak lagi kena sanksi kalau ketahuan kurang lapor PM",
+            "benar": "PKP tetap kena sanksi administrasi sesuai SKPKB — yang berubah hanya soal hak kreditnya, bukan penghapusan sanksinya",
+            "tips": "Pisahkan dua hal ini: kewajiban bayar SKPKB (termasuk sanksi) itu tetap ada, dan hak kredit PM itu hal yang terpisah"
+          },
+          {
+            "salah": "Mengira PM dari SKPKB bisa dikreditkan sebesar total nilai SKPKB termasuk sanksinya",
+            "benar": "Yang bisa dikreditkan hanya sebesar nilai pokok pajaknya saja, tidak termasuk komponen sanksi administrasi",
+            "tips": "Selalu pisahkan komponen 'pokok pajak' dan 'sanksi' saat membaca sebuah SKPKB"
+          }
+        ],
+        "istilah": [
+          {
+            "kata": "SKPKB",
+            "definisi": "Surat Ketetapan Pajak Kurang Bayar, surat resmi dari DJP yang menetapkan besarnya kekurangan pembayaran pajak berdasarkan hasil pemeriksaan.",
+            "contoh": "PT Cahaya Terang menerima SKPKB senilai Rp80 juta setelah diperiksa DJP."
+          },
+          {
+            "kata": "Sanksi Administrasi",
+            "definisi": "Denda atau bunga yang dikenakan kepada wajib pajak karena pelanggaran ketentuan perpajakan, terpisah dari kewajiban membayar pokok pajaknya.",
+            "contoh": "SKPKB PT Cahaya Terang terdiri dari pokok pajak Rp80 juta plus sanksi administrasi berupa bunga."
+          },
+          {
+            "kata": "Pemeriksaan Pajak",
+            "definisi": "Serangkaian kegiatan yang dilakukan DJP untuk menguji kepatuhan pemenuhan kewajiban perpajakan wajib pajak berdasarkan bukti dan data yang objektif.",
+            "contoh": "Kekurangan pelaporan PM PT Cahaya Terang ditemukan lewat proses pemeriksaan pajak oleh DJP."
+          }
+        ]
+      },
+      {
+        "id": "bag-11",
+        "judul": "Reformasi Sanksi Administrasi Bunga",
+        "paragraf": [
+          "Sekarang kita bahas perubahan yang sifatnya lebih 'teknis administratif' tapi dampaknya kerasa banget buat wajib pajak yang telat bayar atau kurang bayar pajak: reformasi sanksi bunga. Dulu, sebelum UU Cipta Kerja, sanksi bunga keterlambatan atau kekurangan bayar pajak itu flat 2% per bulan, nggak peduli kondisi ekonomi lagi kayak apa. Jadi meskipun suku bunga acuan Bank Indonesia lagi rendah banget (misalnya di bawah 5%), wajib pajak tetap kena sanksi bunga pajak 2% per bulan yang kalau disetahunin bisa sampai 24%. Ini dianggap kurang adil dan nggak nyambung sama kondisi ekonomi riil.",
+          "UU Cipta Kerja mengubah pendekatan ini jadi sanksi bunga yang lebih dinamis, berbasis suku bunga acuan yang ditetapkan Menteri Keuangan (dikenal sebagai 'suku bunga acuan KMK' karena diterbitkan lewat Keputusan Menteri Keuangan setiap bulan) ditambah dengan uplift factor tertentu tergantung jenis pelanggarannya. Uplift factor ini semacam 'tambahan margin' yang besarnya bervariasi — bisa 5%, 10%, sampai 20% per tahun tergantung tingkat kesalahannya, terus dibagi 12 buat dapetin tarif bulanan, dan dikenakan maksimal untuk 24 bulan.",
+          "Kenapa perubahan ini penting? Karena sekarang besaran sanksi bunga jadi lebih 'nyambung' sama kondisi ekonomi riil — kalau suku bunga acuan lagi rendah, sanksinya juga otomatis ikut lebih rendah, dan sebaliknya. Ini juga bikin sanksi terasa lebih proporsional: pelanggaran yang lebih ringan (misalnya cuma telat bayar tapi udah lapor SPT dengan benar) kena uplift factor yang lebih kecil dibanding pelanggaran yang lebih berat (misalnya ketahuan sengaja nggak lapor penghasilan).",
+          "Buat kamu yang lagi belajar Brevet, penting banget buat hafal bahwa besaran suku bunga acuan KMK ini diumumkan tiap bulan oleh Kementerian Keuangan dan bisa berubah-ubah, jadi kalau ketemu soal ujian yang nyebut angka pasti (misalnya 'suku bunga acuan bulan ini adalah 0,75%'), itu cuma contoh angka buat latihan soal — di dunia nyata, kamu harus selalu cek angka terbaru yang diterbitkan resmi lewat KMK setiap bulannya."
+        ],
+        "poin_penting": [
+          "📉 Sanksi bunga lama: flat 2% per bulan, nggak peduli kondisi ekonomi",
+          "🔄 Sanksi bunga baru: dinamis, berbasis suku bunga acuan KMK (Keputusan Menteri Keuangan) ditambah uplift factor",
+          "📊 Uplift factor bervariasi tergantung jenis pelanggaran, biasanya berkisar 5% sampai 20% per tahun",
+          "⏳ Sanksi bunga dikenakan maksimal untuk 24 bulan, dihitung per bulan dari suku bunga acuan dibagi 12"
+        ],
+        "analogi": "Bayangin dulu, mau kondisi ekonomi lagi krisis atau lagi bagus-bagusnya, semua orang yang telat bayar cicilan kena bunga denda yang sama persis, nggak peduli suku bunga bank lagi tinggi atau rendah — itu aturan lama. Aturan baru itu kayak bunga denda kartu kredit modern yang nyesuaiin sama suku bunga acuan Bank Indonesia — kalau ekonomi lagi longgar, dendanya juga ikut lebih ringan.",
+        "contoh_kasus": {
+          "judul": "Mas Andi Telat Setor PPh Masa",
+          "cerita": "Mas Andi, pemilik usaha konveksi, telat menyetor PPh Pasal 21 karyawannya selama 2 bulan dengan nilai kurang bayar Rp10 juta. Misalkan suku bunga acuan KMK yang berlaku saat itu adalah 9% per tahun, dan uplift factor untuk jenis keterlambatan setor seperti ini adalah 5% per tahun, maka total tarif bunga per tahun adalah 9% + 5% = 14%, atau sekitar 1,17% per bulan (14% dibagi 12). Karena telat 2 bulan, sanksi bunga yang harus dibayar Mas Andi adalah Rp10.000.000 x 1,17% x 2 bulan = sekitar Rp233.000.",
+          "poin": [
+            "Tarif bunga = suku bunga acuan KMK + uplift factor, dibagi 12 untuk dapat tarif bulanan",
+            "Sanksi bunga Mas Andi jauh lebih kecil dibanding kalau pakai aturan lama flat 2% per bulan (yang totalnya bisa Rp400 ribu untuk kasus yang sama)"
+          ]
+        },
+        "diagram_mermaid": [
+          "graph LR\n    A[\"Suku Bunga Acuan\\nKMK per Bulan\"] --> C[\"+ Uplift Factor\\n(5%-20% per tahun)\"]\n    C --> D[\"Total Tarif Bunga\\nper Tahun\"]\n    D --> E[\"Dibagi 12\\njadi Tarif Bulanan\"]\n    E --> F[\"Dikenakan Maksimal\\n24 Bulan\"]"
+        ],
+        "penjelasan_diagram": "Diagram ini menjelaskan cara menghitung sanksi bunga administrasi versi baru, mulai dari suku bunga acuan KMK sampai jadi tarif bulanan yang dikenakan ke wajib pajak.",
+        "prompt_gambar": [],
+        "kalkulator": null,
+        "mini_kuis": [
+          {
+            "id": "q1",
+            "pertanyaan": "Sebelum UU Cipta Kerja, berapa besaran sanksi bunga keterlambatan pajak yang berlaku secara umum?",
+            "tipe": "pilihan_ganda",
+            "pilihan": [
+              "A. 1% per bulan",
+              "B. 2% per bulan flat",
+              "C. 5% per bulan",
+              "D. Mengikuti suku bunga BI"
+            ],
+            "jawaban": "B",
+            "pembahasan": "Sebelum reformasi ini, sanksi bunga keterlambatan pajak berlaku flat 2% per bulan tanpa memperhitungkan kondisi suku bunga acuan yang berlaku saat itu."
+          },
+          {
+            "id": "q2",
+            "pertanyaan": "Suku bunga acuan yang jadi dasar perhitungan sanksi bunga sekarang ditetapkan lewat Keputusan Menteri Keuangan dan bisa berubah tiap bulan.",
+            "tipe": "benar_salah",
+            "pilihan": [
+              "Benar",
+              "Salah"
+            ],
+            "jawaban": "Benar",
+            "pembahasan": "Benar, suku bunga acuan ini diterbitkan setiap bulan lewat Keputusan Menteri Keuangan (KMK), sehingga besarannya bisa berubah-ubah mengikuti kondisi ekonomi terkini."
+          }
+        ],
+        "kesalahan_umum": [
+          {
+            "salah": "Menghafal angka sanksi bunga tertentu sebagai angka yang tetap berlaku selamanya",
+            "benar": "Besaran suku bunga acuan berubah tiap bulan lewat KMK, jadi angka pastinya harus selalu dicek update terbarunya, bukan dihafal sebagai angka tetap",
+            "tips": "Fokus hafalin KONSEP dan RUMUS-nya (suku bunga acuan + uplift factor, dibagi 12), bukan angka spesifiknya"
+          },
+          {
+            "salah": "Mengira sanksi bunga sekarang selalu lebih kecil dari aturan lama 2% per bulan",
+            "benar": "Tergantung kondisi — kalau suku bunga acuan lagi tinggi dan uplift factor-nya juga tinggi, sanksi bunga barunya bisa aja lebih besar dari 2% per bulan",
+            "tips": "Jangan generalisasi bahwa aturan baru selalu lebih ringan, itu tergantung kondisi suku bunga acuan yang berlaku"
+          }
+        ],
+        "istilah": [
+          {
+            "kata": "Suku Bunga Acuan KMK",
+            "definisi": "Suku bunga yang ditetapkan oleh Menteri Keuangan setiap bulan lewat Keputusan Menteri Keuangan, digunakan sebagai dasar perhitungan sanksi bunga administrasi perpajakan.",
+            "contoh": "Sanksi bunga keterlambatan setor PPh Mas Andi dihitung berdasarkan suku bunga acuan KMK yang berlaku di bulan terjadinya keterlambatan."
+          },
+          {
+            "kata": "Uplift Factor",
+            "definisi": "Tambahan persentase di atas suku bunga acuan yang besarnya bervariasi tergantung jenis pelanggaran perpajakan, digunakan untuk menghitung total tarif sanksi bunga.",
+            "contoh": "Uplift factor untuk keterlambatan setor biasanya lebih kecil dibanding uplift factor untuk pelanggaran yang lebih berat."
+          },
+          {
+            "kata": "Sanksi Bunga",
+            "definisi": "Jenis sanksi administrasi berupa tambahan pembayaran yang dihitung berdasarkan persentase tertentu dan jangka waktu keterlambatan atau kekurangan bayar pajak.",
+            "contoh": "Mas Andi dikenakan sanksi bunga karena telat menyetor PPh Pasal 21 selama 2 bulan."
+          }
+        ]
+      },
+      {
+        "id": "bag-12",
+        "judul": "Kepastian Hukum Batu Bara dan Konsinyasi",
+        "paragraf": [
+          "Sekarang kita masuk ke Pilar 3, kepastian hukum, lewat dua contoh konkret yang sering jadi sengketa panjang antara DJP dan pelaku usaha sebelum UU Cipta Kerja: status batu bara dan penyerahan konsinyasi. Dua-duanya ini contoh bagus soal gimana 'ketidakjelasan aturan' itu bisa jadi biaya mahal buat dunia usaha.",
+          "Soal batu bara: dalam UU PPN versi lama, ada ketentuan bahwa barang hasil pertambangan yang diambil langsung dari sumbernya (termasuk batu bara) itu DIKECUALIKAN dari kategori Barang Kena Pajak (BKP), artinya nggak kena PPN. Tapi ini jadi bahan sengketa panjang karena di sisi lain, batu bara juga kena pungutan royalti dan PNBP (Penerimaan Negara Bukan Pajak) yang berbeda skema. Nah, UU Cipta Kerja menegaskan dan mengubah ketentuan ini: batu bara sekarang RESMI dikategorikan sebagai Barang Kena Pajak yang terutang PPN, ngilangin celah pengecualian yang dulu sering diperdebatkan.",
+          "Soal konsinyasi: ini juga isu klasik. Konsinyasi (atau 'titip jual') itu praktik di mana pemilik barang (consignor) nitip barangnya ke pihak lain (consignee, misalnya toko) buat dijualin, tapi kepemilikan barangnya masih di tangan consignor sampai barangnya beneran laku terjual ke pembeli akhir. Sebelum ada kepastian hukum, sering muncul perdebatan: apakah momen 'nitip barang' itu udah dianggap penyerahan BKP yang terutang PPN, atau baru dianggap terutang PPN pas barangnya beneran laku? UU Cipta Kerja menegaskan lewat perubahan Pasal 1A UU PPN: penyerahan barang secara konsinyasi BUKAN merupakan penyerahan BKP yang terutang PPN. PPN baru terutang nanti pas barang titipan itu benar-benar terjual ke pembeli akhir.",
+          "Kedua penegasan ini penting banget buat kepastian hukum karena ngurangin ruang sengketa dan perbedaan tafsir antara DJP dan wajib pajak yang bisa berujung ke pemeriksaan atau sengketa pajak berkepanjangan. Pelaku usaha jadi lebih jelas kapan tepatnya kewajiban PPN mereka muncul, sehingga bisa merencanakan arus kas dan administrasi pajaknya dengan lebih pasti."
+        ],
+        "poin_penting": [
+          "⛏️ Batu bara sekarang RESMI jadi Barang Kena Pajak (BKP) yang terutang PPN, menghapus celah pengecualian lama",
+          "📦 Penyerahan barang secara konsinyasi (titip jual) BUKAN penyerahan BKP yang terutang PPN",
+          "⏳ PPN atas barang konsinyasi baru terutang saat barang titipan benar-benar terjual ke pembeli akhir",
+          "⚖️ Kedua penegasan ini mengurangi sengketa tafsir hukum antara DJP dan wajib pajak"
+        ],
+        "analogi": "Bayangin kamu nitip baju ke toko konsinyasi. Kalau aturannya nggak jelas, toko itu bisa dianggap 'udah beli' baju kamu begitu kamu nitip (padahal belum tentu laku), jadi harus bayar pajak dari sekarang — padahal duitnya belum masuk. Aturan baru ini kayak nyatain dengan jelas: pajaknya baru muncul pas baju itu beneran laku terjual ke orang lain, bukan pas dititipin doang. Lebih adil dan sesuai logika arus kas beneran.",
+        "contoh_kasus": {
+          "judul": "PT Tambang Sentosa dan Toko Fashion Kak Nisa",
+          "cerita": "PT Tambang Sentosa menjual batu bara senilai Rp10 miliar ke sebuah pembangkit listrik. Karena batu bara sekarang resmi menjadi BKP, PT Tambang Sentosa wajib memungut PPN atas penjualan tersebut sesuai tarif yang berlaku. Di sisi lain, Kak Nisa yang punya toko fashion, menerima titipan 100 potong baju dari seorang desainer lokal untuk dijualkan secara konsinyasi. Karena ini penyerahan konsinyasi, PPN belum terutang saat baju dititipkan — PPN baru terutang untuk setiap potong baju yang benar-benar terjual ke pembeli, bukan untuk seluruh 100 potong yang dititipkan di awal.",
+          "poin": [
+            "PT Tambang Sentosa wajib memungut PPN atas penjualan batu bara karena statusnya sekarang BKP",
+            "Kak Nisa baru wajib memungut PPN untuk baju konsinyasi yang benar-benar laku terjual, bukan saat dititipkan"
+          ]
+        },
+        "diagram_mermaid": [
+          "graph LR\n    subgraph Batu Bara\n    A1[\"Aturan Lama:\\nBukan BKP, Bebas PPN\"] --> A2[\"Aturan Cipta Kerja:\\nJadi BKP, Terutang PPN\"]\n    end\n    subgraph Konsinyasi\n    B1[\"Barang Dititipkan\\nke Toko\"] --> B2[\"Belum Terutang PPN\"]\n    B2 --> B3[\"Barang Terjual\\nke Pembeli Akhir\"]\n    B3 --> B4[\"Baru Terutang PPN\"]\n    end"
+        ],
+        "penjelasan_diagram": "Diagram ini membandingkan dua penegasan kepastian hukum: perubahan status batu bara menjadi BKP, dan alur kapan PPN terutang dalam penyerahan konsinyasi.",
+        "prompt_gambar": [],
+        "kalkulator": null,
+        "mini_kuis": [
+          {
+            "id": "q1",
+            "pertanyaan": "Setelah UU Cipta Kerja, bagaimana status batu bara dalam konteks PPN?",
+            "tipe": "pilihan_ganda",
+            "pilihan": [
+              "A. Tetap dikecualikan dari BKP seperti aturan lama",
+              "B. Resmi menjadi Barang Kena Pajak (BKP) yang terutang PPN",
+              "C. Hanya kena PPN kalau diekspor",
+              "D. Kena PPN hanya untuk batu bara kualitas tinggi"
+            ],
+            "jawaban": "B",
+            "pembahasan": "UU Cipta Kerja menegaskan bahwa batu bara resmi menjadi Barang Kena Pajak yang terutang PPN, menghapus pengecualian yang berlaku di aturan lama."
+          },
+          {
+            "id": "q2",
+            "pertanyaan": "Kapan PPN terutang atas penyerahan barang secara konsinyasi?",
+            "tipe": "isian_singkat",
+            "pilihan": null,
+            "jawaban": "Saat barang terjual ke pembeli akhir",
+            "pembahasan": "PPN atas barang konsinyasi baru terutang saat barang titipan tersebut benar-benar terjual kepada pembeli akhir, bukan saat barang dititipkan ke penerima titipan."
+          }
+        ],
+        "kesalahan_umum": [
+          {
+            "salah": "Mengira semua hasil tambang termasuk batu bara masih dikecualikan dari BKP",
+            "benar": "Batu bara secara spesifik sudah ditegaskan menjadi BKP yang terutang PPN sejak UU Cipta Kerja, meski jenis barang tambang lain perlu dicek aturannya masing-masing",
+            "tips": "Jangan generalisasi semua barang tambang sama — cek aturan spesifik untuk tiap jenis barang"
+          },
+          {
+            "salah": "Mengira penyerahan konsinyasi tetap terutang PPN sejak barang dititipkan, mengikuti logika penyerahan BKP biasa",
+            "benar": "Penyerahan konsinyasi punya perlakuan khusus — PPN baru terutang saat barang benar-benar terjual, bukan saat dititipkan",
+            "tips": "Konsinyasi itu pengecualian dari logika umum 'penyerahan = terutang PPN', jadi perlu diingat sebagai kasus khusus"
+          }
+        ],
+        "istilah": [
+          {
+            "kata": "Barang Kena Pajak (BKP)",
+            "definisi": "Barang yang dikenakan pajak berdasarkan ketentuan UU PPN, baik berwujud maupun tidak berwujud.",
+            "contoh": "Batu bara sekarang termasuk Barang Kena Pajak setelah UU Cipta Kerja berlaku."
+          },
+          {
+            "kata": "Konsinyasi",
+            "definisi": "Praktik penitipan barang oleh pemilik barang (consignor) kepada pihak lain (consignee) untuk dijualkan, di mana kepemilikan barang masih di tangan consignor sampai barang terjual.",
+            "contoh": "Kak Nisa menerima titipan baju secara konsinyasi dari seorang desainer lokal untuk dijual di tokonya."
+          },
+          {
+            "kata": "PNBP",
+            "definisi": "Penerimaan Negara Bukan Pajak, yaitu pungutan yang diterima pemerintah di luar penerimaan pajak, misalnya royalti pertambangan.",
+            "contoh": "Sebelum jadi BKP, batu bara sudah dikenakan royalti dalam skema PNBP terpisah dari PPN."
+          }
+        ]
+      },
+      {
+        "id": "bag-13",
+        "judul": "Subjek Pajak SPDN vs SPLN",
+        "paragraf": [
+          "Topik ini soal siapa aja sih yang dianggap 'subjek pajak dalam negeri' dan 'subjek pajak luar negeri' menurut aturan yang diperbaharui lewat UU Cipta Kerja. Ini penting banget karena status ini nentuin gimana cara seseorang dikenakan pajak — apakah atas penghasilan dari seluruh dunia (worldwide income) atau cuma penghasilan yang bersumber dari Indonesia doang.",
+          "Kriteria utama buat nentuin status Subjek Pajak Dalam Negeri (SPDN) buat orang pribadi ada dua: pertama, time-test alias tes waktu — kalau seseorang berada di Indonesia lebih dari 183 hari dalam jangka waktu 12 bulan, dia otomatis dianggap SPDN. Kedua, ada juga faktor niat bertempat tinggal di Indonesia — meskipun belum genap 183 hari, kalau seseorang menunjukkan niat yang jelas buat menetap di Indonesia (misalnya punya rumah tetap, keluarga menetap di Indonesia, dan indikator lainnya), dia juga bisa dianggap SPDN. Sebaliknya, Subjek Pajak Luar Negeri (SPLN) adalah orang yang nggak memenuhi kriteria itu, tapi tetap punya kewajiban pajak atas penghasilan yang bersumber dari Indonesia.",
+          "Nah, yang jadi terobosan baru dari UU Cipta Kerja adalah penerapan Territorial Tax System khusus buat Warga Negara Asing (WNA) yang punya keahlian tertentu dan memutuskan menjadi Subjek Pajak Dalam Negeri Indonesia. Normalnya, begitu seseorang jadi SPDN, dia harus bayar pajak atas seluruh penghasilannya dari mana pun sumbernya (worldwide income). Tapi khusus buat WNA berkeahlian tertentu ini, mereka dikasih fasilitas: selama 4 tahun pajak pertama sejak menjadi SPDN, mereka HANYA dikenakan pajak atas penghasilan yang bersumber dari Indonesia aja (mirip sistem yang berlaku buat SPLN), bukan worldwide income.",
+          "Kenapa ada fasilitas khusus ini? Tujuannya buat menarik talenta asing berkeahlian tinggi — misalnya profesional teknologi, peneliti, atau tenaga ahli tertentu — supaya mau pindah dan menetap di Indonesia tanpa takut kena pajak ganda atau beban pajak berlebihan atas penghasilan yang sebenarnya masih 'nyangkut' di negara asalnya. Setelah lewat 4 tahun pertama, barulah mereka dikenakan pajak worldwide seperti SPDN pada umumnya."
+        ],
+        "poin_penting": [
+          "⏱️ Time-test SPDN: berada di Indonesia lebih dari 183 hari dalam 12 bulan",
+          "🏠 Selain time-test, niat bertempat tinggal di Indonesia juga bisa jadi indikator status SPDN",
+          "🌍 SPDN kena pajak atas worldwide income, SPLN cuma kena pajak atas penghasilan bersumber Indonesia",
+          "🎯 WNA berkeahlian tertentu dapat fasilitas Territorial Tax System selama 4 tahun pajak pertama sebagai SPDN"
+        ],
+        "analogi": "Bayangin kamu pindah sekolah. Kalau kamu udah masuk sekolah baru lebih dari setengah tahun (183 hari), kamu resmi dianggap 'murid tetap' sekolah itu dan harus ikut semua aturan penuh. Tapi buat murid pindahan yang punya keahlian khusus (misal juara olimpiade), sekolah kasih 'masa adaptasi' 4 tahun di mana dia cuma dinilai dari nilai pelajaran di sekolah baru itu aja, nggak digabung sama nilai-nilai dari sekolah lamanya di luar negeri.",
+        "contoh_kasus": {
+          "judul": "Dr. Tanaka, Ahli Teknologi dari Jepang",
+          "cerita": "Dr. Tanaka, seorang ahli kecerdasan buatan asal Jepang, pindah ke Indonesia untuk bekerja di sebuah startup teknologi di Jakarta dan berencana menetap lebih dari 183 hari. Karena keahliannya termasuk kategori yang diakui pemerintah, selama 4 tahun pajak pertama sejak dia resmi jadi SPDN Indonesia, Dr. Tanaka hanya dikenakan PPh atas penghasilan yang bersumber dari Indonesia saja — misalnya gajinya dari startup tersebut. Penghasilan lain yang mungkin masih dia terima dari Jepang (misalnya royalti dari paten lama) tidak ikut dikenakan pajak di Indonesia selama periode 4 tahun ini. Setelah 4 tahun berlalu, Dr. Tanaka baru dikenakan pajak atas seluruh penghasilannya dari mana pun, termasuk dari Jepang.",
+          "poin": [
+            "Dr. Tanaka jadi SPDN karena tinggal di Indonesia lebih dari 183 hari",
+            "Selama 4 tahun pertama, dia hanya kena pajak atas penghasilan dari Indonesia berkat Territorial Tax System"
+          ]
+        },
+        "diagram_mermaid": [
+          "flowchart TD\n    A[\"Orang Asing Datang\\nke Indonesia\"] --> B{\"Lebih dari 183 Hari\\ndalam 12 Bulan?\"}\n    B -->|\"Tidak, dan Tidak Ada\\nNiat Menetap\"| C[\"Status SPLN\\nKena Pajak dari Sumber Indonesia Saja\"]\n    B -->|\"Ya, atau Ada\\nNiat Menetap Jelas\"| D[\"Status SPDN\"]\n    D --> E{\"Punya Keahlian Tertentu\\nyang Diakui?\"}\n    E -->|\"Tidak\"| F[\"Kena Pajak Worldwide Income\\nSejak Awal jadi SPDN\"]\n    E -->|\"Ya\"| G[\"4 Tahun Pertama: Kena Pajak\\nHanya dari Sumber Indonesia\\n(Territorial Tax System)\"]\n    G --> H[\"Setelah 4 Tahun: Kena Pajak\\nWorldwide Income Seperti SPDN Biasa\"]"
+        ],
+        "penjelasan_diagram": "Diagram ini menjelaskan alur penentuan status SPDN atau SPLN, sekaligus fasilitas Territorial Tax System untuk WNA berkeahlian tertentu selama 4 tahun pajak pertama.",
+        "prompt_gambar": [],
+        "kalkulator": null,
+        "mini_kuis": [
+          {
+            "id": "q1",
+            "pertanyaan": "Berapa lama fasilitas Territorial Tax System berlaku untuk WNA berkeahlian tertentu yang menjadi SPDN?",
+            "tipe": "pilihan_ganda",
+            "pilihan": [
+              "A. 1 tahun pajak",
+              "B. 2 tahun pajak",
+              "C. 4 tahun pajak",
+              "D. Selamanya"
+            ],
+            "jawaban": "C",
+            "pembahasan": "Fasilitas Territorial Tax System berlaku selama 4 tahun pajak pertama sejak WNA berkeahlian tertentu tersebut menjadi Subjek Pajak Dalam Negeri Indonesia."
+          },
+          {
+            "id": "q2",
+            "pertanyaan": "Status SPDN hanya bisa ditentukan berdasarkan time-test 183 hari, tidak ada faktor lain yang berpengaruh.",
+            "tipe": "benar_salah",
+            "pilihan": [
+              "Benar",
+              "Salah"
+            ],
+            "jawaban": "Salah",
+            "pembahasan": "Salah, selain time-test 183 hari, faktor niat bertempat tinggal di Indonesia (misalnya punya rumah tetap atau keluarga menetap) juga bisa jadi indikator status SPDN meski belum genap 183 hari."
+          }
+        ],
+        "kesalahan_umum": [
+          {
+            "salah": "Mengira semua WNA yang jadi SPDN otomatis dapat fasilitas Territorial Tax System",
+            "benar": "Fasilitas ini khusus untuk WNA yang punya keahlian tertentu sesuai kriteria yang ditetapkan pemerintah, bukan berlaku untuk semua WNA",
+            "tips": "Cek dulu apakah keahlian orang tersebut termasuk kategori yang diakui sebelum menyimpulkan dia dapat fasilitas ini"
+          },
+          {
+            "salah": "Mengira setelah 4 tahun, WNA tersebut otomatis kembali jadi SPLN",
+            "benar": "Setelah 4 tahun, WNA tersebut tetap berstatus SPDN, tapi perlakuan pajaknya berubah jadi dikenakan atas worldwide income seperti SPDN pada umumnya",
+            "tips": "Yang berubah setelah 4 tahun itu CARA pengenaan pajaknya (worldwide vs teritorial), bukan status subjek pajaknya"
+          }
+        ],
+        "istilah": [
+          {
+            "kata": "Subjek Pajak Dalam Negeri (SPDN)",
+            "definisi": "Subjek pajak yang memenuhi kriteria tertentu (seperti time-test 183 hari atau niat bertempat tinggal) sehingga dikenakan pajak atas seluruh penghasilannya dari mana pun sumbernya.",
+            "contoh": "Dr. Tanaka menjadi SPDN Indonesia setelah menetap lebih dari 183 hari di Jakarta."
+          },
+          {
+            "kata": "Subjek Pajak Luar Negeri (SPLN)",
+            "definisi": "Subjek pajak yang tidak memenuhi kriteria SPDN, sehingga hanya dikenakan pajak atas penghasilan yang bersumber dari Indonesia saja.",
+            "contoh": "Turis asing yang hanya berkunjung singkat ke Indonesia berstatus SPLN."
+          },
+          {
+            "kata": "Territorial Tax System",
+            "definisi": "Sistem pemajakan yang hanya mengenakan pajak atas penghasilan yang bersumber dari suatu wilayah tertentu, tanpa memperhitungkan penghasilan dari luar wilayah tersebut.",
+            "contoh": "Dr. Tanaka menikmati Territorial Tax System selama 4 tahun pertama sebagai SPDN Indonesia."
+          }
+        ]
+      },
+      {
+        "id": "bag-14",
+        "judul": "Pemajakan Transaksi Elektronik PMSE",
+        "paragraf": [
+          "Sekarang kita masuk ke Pilar 4: keadilan iklim berusaha, lewat isu yang paling relevan sama kehidupan digital kita sehari-hari — pemajakan Perdagangan Melalui Sistem Elektronik alias PMSE. Coba deh mikir, kamu langganan Netflix, Spotify, atau pakai Zoom buat kerja — semua platform itu 'jualan' jasa ke orang Indonesia, tapi perusahaannya berkedudukan di luar negeri dan nggak punya kantor fisik (Bentuk Usaha Tetap) di sini. Dulu, ini jadi celah besar karena aturan pajak lama kesulitan 'menjangkau' transaksi kayak gini.",
+          "UU Cipta Kerja memperkuat dasar hukum buat menunjuk pelaku usaha PMSE luar negeri — termasuk platform digital besar kayak Netflix, Spotify, Google, dan Zoom — sebagai Pemungut PPN PMSE. Jadi mereka wajib memungut, menyetor, dan melaporkan PPN atas penjualan produk digital mereka ke konsumen di Indonesia, dengan tarif mengikuti tarif PPN yang berlaku umum (yang untuk sebagian besar layanan digital nonmewah itu tarif efektifnya 11%, bukan 12%, sesuai mekanisme DPP Nilai Lain yang sudah kita bahas — inget lagi soal koreksi tarif PPN di awal modul ini ya).",
+          "Selain PPN PMSE, UU Cipta Kerja juga memperkenalkan konsep Kehadiran Ekonomi Signifikan (Significant Economic Presence) sebagai dasar buat mengenakan Pajak Transaksi Elektronik (PTE) atau bahkan PPh, khusus buat perusahaan digital luar negeri yang punya 'kehadiran ekonomi' signifikan di Indonesia tapi secara fisik nggak punya BUT di sini, DAN aturan pajak internasional biasa (lewat tax treaty) nggak bisa menjangkau mereka. Jadi PTE ini semacam 'jurus cadangan' kalau mekanisme normal nggak mempan.",
+          "Penting buat kamu tahu, sampai saat modul ini ditulis (2026), PTE belum sepenuhnya diberlakukan secara aktif di Indonesia. Ini karena pemerintah Indonesia masih mengikuti perkembangan konsensus perpajakan digital global yang digagas OECD (dikenal sebagai Pilar 1 Pajak Digital Internasional), yang tujuannya menyepakati cara bersama secara global buat memajaki perusahaan digital raksasa. PTE dirancang sebagai opsi cadangan kalau konsensus global itu nggak kunjung tercapai atau berjalan lambat. Yang sudah aktif dan berjalan penuh sekarang adalah PPN PMSE, bukan PTE-nya."
+        ],
+        "poin_penting": [
+          "📱 Platform digital luar negeri (Netflix, Spotify, Google, Zoom, dll) ditunjuk sebagai Pemungut PPN PMSE",
+          "💰 Tarif PPN PMSE mengikuti tarif umum yang berlaku (efektif 11% untuk layanan nonmewah, sesuai mekanisme DPP Nilai Lain)",
+          "🌐 Konsep Kehadiran Ekonomi Signifikan jadi dasar hukum untuk Pajak Transaksi Elektronik (PTE) sebagai opsi cadangan",
+          "⚠️ Sampai 2026, PTE belum diberlakukan aktif — Indonesia masih menunggu perkembangan konsensus pajak digital global OECD"
+        ],
+        "analogi": "Ibaratnya tuh kayak ada penjual online dari luar negeri yang jualan lewat marketplace tapi nggak punya toko fisik di Indonesia. Dulu, DJP kayak satpam yang cuma bisa jagain toko fisik doang, jadi penjual online luar negeri ini bisa lolos dari pengawasan. Sekarang, aturannya diubah biar si satpam bisa 'nitip' ke marketplace-nya sendiri (platformnya) buat mungutin pajak dari setiap transaksi, meskipun penjualnya nggak punya toko fisik.",
+        "contoh_kasus": {
+          "judul": "Kak Nisa Langganan Layanan Streaming",
+          "cerita": "Kak Nisa berlangganan sebuah layanan streaming musik internasional seharga Rp54.999 per bulan. Karena platform tersebut sudah ditunjuk sebagai Pemungut PPN PMSE, harga yang dibayar Kak Nisa sudah termasuk PPN yang dipungut, disetor, dan dilaporkan langsung oleh platform streaming tersebut ke DJP, tanpa Kak Nisa perlu repot lapor sendiri. Ini beda banget dengan dulu sebelum aturan PMSE diperkuat, di mana banyak transaksi digital luar negeri kayak gini nyaris nggak ada mekanisme pemungutan PPN-nya sama sekali.",
+          "poin": [
+            "Platform streaming internasional wajib memungut PPN dari harga langganan Kak Nisa sebagai Pemungut PPN PMSE",
+            "Kak Nisa tidak perlu melapor sendiri karena kewajiban pemungutan ada di pihak platform"
+          ]
+        },
+        "diagram_mermaid": [],
+        "penjelasan_diagram": "",
+        "prompt_gambar": [
+          {
+            "id": "img-02",
+            "prompt": "A highly detailed ultra modern 3D isometric stylized studio render, landscape orientation 16:9, depicting digital electronic transaction taxation for cross-border streaming and digital platforms. Rich dark-mode studio background with deep navy #0F172A blending into a soft indigo gradient mesh #1E1B4B, ambient cinematic volumetric lighting from above. In the center, a large glossy floating 3D smartphone screen displaying stylized abstract streaming and video-call icons, surrounded by orbiting glass panels representing digital platforms, each with a soft glowing outline in electric blue #3B82F6. Below the phone, a translucent 3D collection funnel in emerald green #10B981 channels small glowing coin particles downward into a stylized 3D government treasury building icon, with a clean bold modern Indonesian text label reading 'Pemungut PPN PMSE' floating clearly above the funnel. To the side, a subtle 3D world map grid rendered in thin glowing lines in warm gold #F59E0B, symbolizing cross-border digital commerce. Smooth reflective dark floor, premium fintech education aesthetic, crisp clean vector-meets-3D rendering, soft rim lighting, elegant balanced composition with generous negative space.",
+            "keterangan": "Ilustrasi konsep pemungutan PPN atas transaksi digital lintas negara (PMSE), menunjukkan bagaimana platform digital luar negeri berperan sebagai pemungut pajak sebelum menyetorkannya ke negara. Gambar ini membantu memvisualisasikan alur pajak digital yang biasanya nggak kelihatan secara langsung oleh konsumen.",
+            "alt": "Ilustrasi 3D konsep pemungutan PPN transaksi elektronik dari platform digital lintas negara ke pemerintah Indonesia",
+            "url_gambar": null
+          }
+        ],
+        "kalkulator": {
+          "tipe": "ppn",
+          "judul": "Kalkulator PPN Langganan Layanan Digital",
+          "keterangan": "Masukkan harga langganan layanan digital untuk menghitung berapa PPN yang dipungut oleh platform sebagai Pemungut PPN PMSE, menggunakan tarif efektif 11% untuk layanan nonmewah."
+        },
+        "mini_kuis": [
+          {
+            "id": "q1",
+            "pertanyaan": "Siapa yang ditunjuk sebagai Pemungut PPN PMSE atas transaksi layanan digital luar negeri?",
+            "tipe": "pilihan_ganda",
+            "pilihan": [
+              "A. Konsumen Indonesia yang membeli layanan tersebut",
+              "B. Bank yang memproses pembayaran",
+              "C. Platform digital luar negeri yang ditunjuk pemerintah (misalnya Netflix, Spotify, Zoom)",
+              "D. Kantor pajak setempat konsumen"
+            ],
+            "jawaban": "C",
+            "pembahasan": "Platform digital luar negeri yang ditunjuk pemerintah, seperti Netflix, Spotify, Google, dan Zoom, berperan sebagai Pemungut PPN PMSE yang wajib memungut, menyetor, dan melaporkan PPN atas transaksi digital ke konsumen Indonesia."
+          },
+          {
+            "id": "q2",
+            "pertanyaan": "Pajak Transaksi Elektronik (PTE) sudah diberlakukan secara penuh dan aktif dipungut di Indonesia sejak 2026.",
+            "tipe": "benar_salah",
+            "pilihan": [
+              "Benar",
+              "Salah"
+            ],
+            "jawaban": "Salah",
+            "pembahasan": "Salah, sampai 2026 PTE belum diberlakukan secara aktif karena Indonesia masih mengikuti perkembangan konsensus pajak digital global OECD. Yang sudah aktif berjalan adalah PPN PMSE, bukan PTE."
+          }
+        ],
+        "kesalahan_umum": [
+          {
+            "salah": "Menganggap PPN PMSE dan PTE (Pajak Transaksi Elektronik) itu hal yang sama",
+            "benar": "PPN PMSE adalah mekanisme pemungutan PPN biasa lewat platform digital yang sudah aktif berjalan, sedangkan PTE adalah opsi pajak cadangan berbasis Kehadiran Ekonomi Signifikan yang belum diberlakukan aktif",
+            "tips": "Ingat PPN PMSE = sudah jalan, PTE = masih opsi cadangan yang belum aktif dipungut"
+          },
+          {
+            "salah": "Mengira semua transaksi digital luar negeri otomatis kena tarif PPN 12%",
+            "benar": "Sebagian besar layanan digital nonmewah kena tarif efektif 11% mengikuti mekanisme DPP Nilai Lain, sama seperti transaksi domestik nonmewah lainnya",
+            "tips": "Selalu ingat: 12% itu untuk barang mewah, 11% untuk yang nonmewah, termasuk kebanyakan layanan digital"
+          }
+        ],
+        "istilah": [
+          {
+            "kata": "PMSE",
+            "definisi": "Perdagangan Melalui Sistem Elektronik, yaitu perdagangan barang dan/atau jasa yang dilakukan melalui serangkaian perangkat dan prosedur elektronik seperti internet.",
+            "contoh": "Layanan streaming musik dan video call yang Kak Nisa gunakan termasuk kategori PMSE."
+          },
+          {
+            "kata": "Kehadiran Ekonomi Signifikan",
+            "definisi": "Konsep yang menyatakan suatu perusahaan dianggap punya kehadiran ekonomi bermakna di suatu negara meskipun tidak punya kantor fisik di sana, sebagai dasar pengenaan pajak alternatif.",
+            "contoh": "Konsep Kehadiran Ekonomi Signifikan jadi dasar hukum untuk PTE, meski belum diberlakukan aktif."
+          },
+          {
+            "kata": "Pajak Transaksi Elektronik (PTE)",
+            "definisi": "Jenis pajak alternatif yang dirancang untuk dikenakan pada perusahaan digital luar negeri yang tidak bisa dijangkau lewat mekanisme pajak internasional biasa, sebagai opsi cadangan jika konsensus pajak digital global tidak tercapai.",
+            "contoh": "PTE masih menjadi opsi cadangan yang belum diberlakukan aktif di Indonesia sampai 2026."
+          }
+        ]
+      },
+      {
+        "id": "bag-15",
+        "judul": "Integrasi NIK dan Perubahan Pasal KUP",
+        "paragraf": [
+          "Terakhir nih, kita bahas dua hal yang sifatnya administratif tapi penting banget buat kamu pahami sebagai calon praktisi pajak: integrasi NIK sebagai NPWP, dan beberapa perubahan pasal di UU KUP (Ketentuan Umum dan Tata Cara Perpajakan) yang berkaitan sama sengketa dan sanksi.",
+          "Soal integrasi NIK: sejak diberlakukannya sistem Coretax DJP (Core Tax Administration System) yang aktif penuh di 2026, Nomor Induk Kependudukan (NIK) 16 digit setiap Warga Negara Indonesia sudah terintegrasi penuh sebagai Nomor Pokok Wajib Pajak (NPWP) Orang Pribadi. Jadi sekarang, format NPWP orang pribadi ya sama persis dengan NIK di KTP kamu, nggak ada lagi format NPWP 15 digit yang lama. Nah, konsekuensinya di dunia e-Faktur (faktur pajak elektronik): kalau kamu jual barang/jasa ke pembeli Orang Pribadi yang belum punya NPWP, kamu WAJIB mencantumkan NIK 16 digit pembeli tersebut di e-Faktur yang diterbitkan lewat sistem Coretax. Ini penting banget buat validitas faktur pajak dan supaya PPN-nya bisa tervalidasi otomatis di sistem DJP.",
+          "Soal perubahan pasal KUP: UU Cipta Kerja juga menyentuh beberapa ketentuan di UU KUP, termasuk soal daluwarsa penagihan pajak yang tetap 5 tahun sejak terbitnya surat ketetapan pajak (dengan beberapa penyesuaian teknis terkait kondisi yang bisa memperpanjang jangka waktu itu, misalnya kalau ada tindakan penagihan aktif atau force majeure tertentu). Selain itu, ada juga penyesuaian di Pasal 44B UU KUP soal penghentian penyidikan tindak pidana pajak — kalau wajib pajak yang lagi disidik bersedia melunasi kerugian pada pendapatan negara ditambah sanksi denda, penyidikannya bisa dihentikan, dengan besaran sanksi denda yang disesuaikan (diturunkan) dibanding ketentuan sebelumnya, sebagai bentuk keseimbangan antara penegakan hukum dan pemulihan kerugian negara secara lebih efisien.",
+          "Kenapa dua hal ini penting buat kamu sebagai calon praktisi Brevet? Karena sehari-hari kamu bakal sering banget berurusan sama penerbitan faktur pajak dan pengecekan validitas dokumen perpajakan klien. Salah cantumin NIK pembeli di e-Faktur, atau salah paham soal batas waktu daluwarsa penagihan, bisa berakibat fatal buat kepatuhan pajak klien kamu nantinya."
+        ],
+        "poin_penting": [
+          "🆔 NIK 16 digit sudah terintegrasi penuh jadi NPWP Orang Pribadi sejak Coretax DJP aktif penuh",
+          "📝 e-Faktur wajib mencantumkan NIK 16 digit pembeli Orang Pribadi yang belum punya NPWP",
+          "⏳ Daluwarsa penagihan pajak tetap 5 tahun, dengan penyesuaian teknis untuk kondisi tertentu",
+          "⚖️ Pasal 44B UU KUP diperbarui soal penghentian penyidikan tindak pidana pajak lewat pelunasan kerugian negara plus sanksi denda"
+        ],
+        "analogi": "Bayangin dulu kamu punya dua kartu identitas terpisah: KTP buat urusan umum dan kartu member terpisah buat urusan pajak, dan kamu harus selalu bawa dua-duanya biar nggak ribet. Sekarang, integrasi NIK-NPWP itu kayak dua kartu itu digabung jadi satu kartu aja — KTP kamu SEKALIGUS jadi 'kartu member pajak' kamu, jadi nggak perlu bingung lagi bawa kartu yang mana buat urusan apa.",
+        "contoh_kasus": {
+          "judul": "Toko Online Pak Joko Terbitkan e-Faktur",
+          "cerita": "Pak Joko, pemilik toko online alat elektronik yang sudah jadi PKP, menjual sebuah laptop ke seorang pembeli bernama Bu Ratna yang ternyata belum punya NPWP karena baru lulus kuliah dan belum kerja. Saat menerbitkan e-Faktur lewat sistem Coretax, Pak Joko wajib mencantumkan NIK 16 digit Bu Ratna (sesuai KTP-nya) sebagai identitas pembeli, karena Bu Ratna belum punya NPWP terpisah. Kalau Pak Joko lupa atau salah mencantumkan NIK tersebut, e-Faktur yang diterbitkan berisiko dianggap tidak valid oleh sistem DJP.",
+          "poin": [
+            "Bu Ratna belum punya NPWP, jadi identitasnya di e-Faktur menggunakan NIK 16 digit dari KTP",
+            "Kesalahan mencantumkan NIK pembeli bisa membuat e-Faktur dianggap tidak valid oleh sistem Coretax DJP"
+          ]
+        },
+        "diagram_mermaid": [
+          "flowchart TD\n    A[\"PKP Jual Barang/Jasa\\nke Pembeli Orang Pribadi\"] --> B{\"Pembeli Sudah\\nPunya NPWP?\"}\n    B -->|\"Ya\"| C[\"Cantumkan NPWP\\n(Format NIK 16 Digit)\\ndi e-Faktur\"]\n    B -->|\"Belum\"| D[\"Cantumkan NIK 16 Digit\\ndari KTP Pembeli\\ndi e-Faktur\"]\n    C --> E[\"e-Faktur Tervalidasi\\ndi Sistem Coretax\"]\n    D --> E"
+        ],
+        "penjelasan_diagram": "Diagram ini menunjukkan alur kewajiban mencantumkan identitas pembeli Orang Pribadi (NPWP atau NIK) saat menerbitkan e-Faktur lewat sistem Coretax DJP.",
+        "prompt_gambar": [],
+        "kalkulator": null,
+        "mini_kuis": [
+          {
+            "id": "q1",
+            "pertanyaan": "Apa yang wajib dicantumkan PKP di e-Faktur jika pembeli Orang Pribadi belum punya NPWP?",
+            "tipe": "pilihan_ganda",
+            "pilihan": [
+              "A. Nomor KTP lama format 15 digit",
+              "B. NIK 16 digit sesuai KTP pembeli",
+              "C. Nomor telepon pembeli",
+              "D. Boleh dikosongkan saja"
+            ],
+            "jawaban": "B",
+            "pembahasan": "PKP wajib mencantumkan NIK 16 digit pembeli Orang Pribadi yang belum memiliki NPWP di e-Faktur yang diterbitkan lewat sistem Coretax, agar faktur tersebut tervalidasi dengan benar."
+          },
+          {
+            "id": "q2",
+            "pertanyaan": "Sejak Coretax DJP aktif penuh, NIK 16 digit sudah terintegrasi sebagai NPWP Orang Pribadi.",
+            "tipe": "benar_salah",
+            "pilihan": [
+              "Benar",
+              "Salah"
+            ],
+            "jawaban": "Benar",
+            "pembahasan": "Benar, sejak sistem Coretax DJP aktif penuh, format NPWP Orang Pribadi sudah menggunakan NIK 16 digit yang sama dengan nomor di KTP, menggantikan format NPWP 15 digit yang lama."
+          }
+        ],
+        "kesalahan_umum": [
+          {
+            "salah": "Mengira NPWP Orang Pribadi masih menggunakan format 15 digit yang lama",
+            "benar": "Format NPWP Orang Pribadi sekarang menggunakan NIK 16 digit yang sama dengan KTP, sejak integrasi penuh lewat Coretax DJP",
+            "tips": "Kalau ketemu soal atau dokumen dengan format NPWP 15 digit, itu kemungkinan referensi lama yang perlu diperbarui pemahamannya"
+          },
+          {
+            "salah": "Mengira pencantuman NIK pembeli di e-Faktur itu opsional, boleh dikosongkan kalau pembeli tidak mau kasih data",
+            "benar": "Pencantuman NIK 16 digit pembeli Orang Pribadi yang belum ber-NPWP itu WAJIB untuk validitas e-Faktur di sistem Coretax",
+            "tips": "Selalu minta data NIK dari pembeli Orang Pribadi yang belum punya NPWP sebelum menerbitkan e-Faktur"
+          }
+        ],
+        "istilah": [
+          {
+            "kata": "Coretax DJP",
+            "definisi": "Core Tax Administration System, sistem inti administrasi perpajakan Direktorat Jenderal Pajak yang mengintegrasikan berbagai layanan dan data perpajakan dalam satu platform.",
+            "contoh": "Pak Joko menerbitkan e-Faktur lewat sistem Coretax DJP yang sudah aktif penuh di 2026."
+          },
+          {
+            "kata": "e-Faktur",
+            "definisi": "Faktur pajak elektronik yang diterbitkan PKP sebagai bukti pemungutan PPN atas penyerahan Barang Kena Pajak atau Jasa Kena Pajak.",
+            "contoh": "Pak Joko wajib menerbitkan e-Faktur untuk setiap penjualan laptop yang dilakukannya."
+          },
+          {
+            "kata": "Daluwarsa Penagihan",
+            "definisi": "Batas waktu di mana DJP masih berhak melakukan tindakan penagihan atas utang pajak, yang setelah lewat batas itu hak penagihan menjadi gugur.",
+            "contoh": "Daluwarsa penagihan pajak umumnya tetap 5 tahun sejak terbitnya surat ketetapan pajak."
+          }
+        ]
+      }
+    ],
+    "kuis_akhir": {
+      "judul": "Kuis Akhir: UU Cipta Kerja Klaster Perpajakan",
+      "nilai_lulus": 70,
+      "waktu_menit": 30,
+      "soal": [
+        {
+          "id": "q1",
+          "pertanyaan": "Dasar hukum final klaster perpajakan UU Cipta Kerja yang berlaku aktif sampai 2026 adalah?",
+          "tipe": "pilihan_ganda",
+          "pilihan": [
+            "A. UU No. 11 Tahun 2020",
+            "B. Perppu No. 2 Tahun 2022",
+            "C. UU No. 6 Tahun 2023",
+            "D. UU No. 7 Tahun 2021"
+          ],
+          "jawaban": "C",
+          "pembahasan": "Jawaban C benar karena UU No. 6 Tahun 2023 adalah hasil penetapan Perppu 2/2022 oleh DPR dan menjadi dasar hukum final. Pilihan A adalah UU awal yang sempat dikoreksi MK, pilihan B adalah Perppu sementara sebelum ditetapkan jadi UU, dan pilihan D adalah UU HPP yang mengatur harmonisasi tarif pajak, bukan Cipta Kerja."
+        },
+        {
+          "id": "q2",
+          "pertanyaan": "Metode omnibus law dipakai dalam UU Cipta Kerja karena tujuan utamanya adalah?",
+          "tipe": "pilihan_ganda",
+          "pilihan": [
+            "A. Mengubah satu undang-undang secara sangat mendalam",
+            "B. Menggabungkan perubahan banyak undang-undang dalam satu paket agar saling nyambung",
+            "C. Membatalkan semua undang-undang pajak yang lama",
+            "D. Hanya mengatur pajak daerah saja"
+          ],
+          "jawaban": "B",
+          "pembahasan": "Jawaban B benar karena inti omnibus law adalah menyatukan perubahan banyak undang-undang sekaligus. Pilihan A salah karena omnibus law justru cakupannya luas, bukan mendalam di satu bidang. Pilihan C salah karena undang-undang lama tidak dibatalkan total, hanya diubah sebagian pasalnya. Pilihan D salah karena cakupannya jauh lebih luas dari pajak daerah saja."
+        },
+        {
+          "id": "q3",
+          "pertanyaan": "Manakah yang BUKAN termasuk salah satu dari 4 pilar utama klaster perpajakan UU Cipta Kerja?",
+          "tipe": "pilihan_ganda",
+          "pilihan": [
+            "A. Meningkatkan pendanaan investasi",
+            "B. Mendorong kepatuhan wajib pajak secara sukarela",
+            "C. Menghapus seluruh jenis pajak daerah",
+            "D. Menciptakan keadilan iklim berusaha"
+          ],
+          "jawaban": "C",
+          "pembahasan": "Jawaban C benar karena bukan salah satu dari 4 pilar. Keempat pilar yang benar adalah: meningkatkan pendanaan investasi, mendorong kepatuhan sukarela, meningkatkan kepastian hukum, dan menciptakan keadilan iklim berusaha — tidak ada pilar yang bertujuan menghapus pajak daerah."
+        },
+        {
+          "id": "q4",
+          "pertanyaan": "PT Sentosa punya penghasilan kena pajak Rp3 miliar di tahun pajak 2026 dan belum menjadi perusahaan terbuka. Berapa PPh Badan yang terutang?",
+          "tipe": "pilihan_ganda",
+          "pilihan": [
+            "A. Rp750.000.000",
+            "B. Rp660.000.000",
+            "C. Rp570.000.000",
+            "D. Rp600.000.000"
+          ],
+          "jawaban": "B",
+          "pembahasan": "Jawaban B benar: Rp3.000.000.000 x 22% = Rp660.000.000, karena PT Sentosa belum menjadi perusahaan terbuka sehingga tidak dapat diskon tarif 3%. Pilihan A memakai tarif lama 25%, pilihan C memakai tarif diskon 19% yang tidak berlaku untuknya, dan pilihan D adalah hasil perhitungan yang keliru."
+        },
+        {
+          "id": "q5",
+          "pertanyaan": "Rencana penurunan tarif PPh Badan menjadi 20% yang awalnya direncanakan dalam UU Cipta Kerja tetap berlaku dan sudah diterapkan sejak 2022.",
+          "tipe": "benar_salah",
+          "pilihan": [
+            "Benar",
+            "Salah"
+          ],
+          "jawaban": "Salah",
+          "pembahasan": "Salah, karena rencana penurunan lanjutan ke 20% dibatalkan oleh UU HPP (UU No. 7 Tahun 2021), sehingga tarif PPh Badan yang berlaku aktif sampai 2026 tetap 22%."
+        },
+        {
+          "id": "q6",
+          "pertanyaan": "Dividen yang diterima Wajib Pajak Badan dalam negeri sekarang dikecualikan dari objek PPh dengan syarat minimal kepemilikan saham 25%.",
+          "tipe": "benar_salah",
+          "pilihan": [
+            "Benar",
+            "Salah"
+          ],
+          "jawaban": "Salah",
+          "pembahasan": "Salah, karena UU Cipta Kerja menghapus syarat kepemilikan minimal 25% tersebut. Sekarang dividen ke WP Badan dalam negeri bebas PPh tanpa syarat kepemilikan saham berapa pun."
+        },
+        {
+          "id": "q7",
+          "pertanyaan": "Mbak Rina menerima dividen Rp300 juta di tahun 2026 sebagai Wajib Pajak Orang Pribadi. Dia menginvestasikan Rp200 juta ke deposito sesuai ketentuan, dan sisanya dipakai untuk konsumsi pribadi. Berapa bagian dividen yang tetap kena PPh?",
+          "tipe": "pilihan_ganda",
+          "pilihan": [
+            "A. Rp0 (semua bebas pajak)",
+            "B. Rp100 juta",
+            "C. Rp200 juta",
+            "D. Rp300 juta (semua kena pajak)"
+          ],
+          "jawaban": "B",
+          "pembahasan": "Jawaban B benar karena hanya bagian yang TIDAK diinvestasikan (Rp300 juta dikurangi Rp200 juta = Rp100 juta) yang tetap kena PPh, sedangkan Rp200 juta yang diinvestasikan sesuai ketentuan tetap bebas pajak."
+        },
+        {
+          "id": "q8",
+          "pertanyaan": "Berapa jangka waktu minimal reinvestasi dividen agar bisa dikecualikan dari objek PPh bagi Wajib Pajak Orang Pribadi?",
+          "tipe": "isian_singkat",
+          "pilihan": null,
+          "jawaban": "3 tahun pajak",
+          "pembahasan": "Jangka waktu minimal investasi yang dipersyaratkan adalah 3 tahun pajak, dihitung sejak tahun pajak diperolehnya dividen tersebut, dan wajib dilaporkan lewat e-Reporting DJP Online."
+        },
+        {
+          "id": "q9",
+          "pertanyaan": "Berapa persen maksimal Pajak Masukan yang bisa dikreditkan oleh PKP yang baru dikukuhkan atas masa sebelum pengukuhannya?",
+          "tipe": "pilihan_ganda",
+          "pilihan": [
+            "A. 50%",
+            "B. 70%",
+            "C. 80%",
+            "D. 90%"
+          ],
+          "jawaban": "C",
+          "pembahasan": "Jawaban C benar sesuai perubahan Pasal 9 ayat (2a) UU PPN yang menetapkan batas maksimal 80% dari Pajak Keluaran yang seharusnya dipungut sebelum PKP dikukuhkan."
+        },
+        {
+          "id": "q10",
+          "pertanyaan": "Pajak Masukan yang ditagih lewat SKPKB sekarang bisa dikreditkan sebesar nilai pokok pajaknya, dengan syarat SKPKB tersebut sudah dilunasi.",
+          "tipe": "benar_salah",
+          "pilihan": [
+            "Benar",
+            "Salah"
+          ],
+          "jawaban": "Benar",
+          "pembahasan": "Benar, ini perubahan penting dari UU Cipta Kerja — sebelumnya PM dari SKPKB sama sekali tidak bisa dikreditkan, sekarang bisa dikreditkan sebesar nilai pokok pajaknya setelah SKPKB dilunasi."
+        },
+        {
+          "id": "q11",
+          "pertanyaan": "Sanksi bunga administrasi perpajakan sekarang dihitung berdasarkan?",
+          "tipe": "pilihan_ganda",
+          "pilihan": [
+            "A. Tarif flat 2% per bulan seperti dulu",
+            "B. Suku bunga acuan KMK ditambah uplift factor, dibagi 12",
+            "C. Tarif tetap 5% per tahun",
+            "D. Suku bunga Bank Indonesia tanpa tambahan apa pun"
+          ],
+          "jawaban": "B",
+          "pembahasan": "Jawaban B benar karena sanksi bunga sekarang dihitung dari suku bunga acuan yang ditetapkan lewat Keputusan Menteri Keuangan (KMK) ditambah uplift factor tertentu, lalu dibagi 12 untuk mendapatkan tarif bulanan, maksimal dikenakan 24 bulan."
+        },
+        {
+          "id": "q12",
+          "pertanyaan": "Mas Dito telat setor pajak Rp20 juta selama 3 bulan. Jika suku bunga acuan KMK 8% per tahun dan uplift factor 7% per tahun, berapa total sanksi bunga yang harus dibayar?",
+          "tipe": "pilihan_ganda",
+          "pilihan": [
+            "A. Rp600.000",
+            "B. Rp750.000",
+            "C. Rp900.000",
+            "D. Rp1.200.000"
+          ],
+          "jawaban": "B",
+          "pembahasan": "Jawaban B benar: total tarif per tahun = 8% + 7% = 15%, dibagi 12 = 1,25% per bulan. Sanksi = Rp20.000.000 x 1,25% x 3 bulan = Rp750.000. Pilihan lain merupakan hasil perhitungan yang keliru dalam mengalikan komponen tarif atau jumlah bulan."
+        },
+        {
+          "id": "q13",
+          "pertanyaan": "Setelah UU Cipta Kerja, batu bara dikecualikan dari kategori Barang Kena Pajak (BKP).",
+          "tipe": "benar_salah",
+          "pilihan": [
+            "Benar",
+            "Salah"
+          ],
+          "jawaban": "Salah",
+          "pembahasan": "Salah, justru sebaliknya — UU Cipta Kerja menegaskan batu bara RESMI menjadi Barang Kena Pajak yang terutang PPN, menghapus pengecualian yang berlaku di aturan lama."
+        },
+        {
+          "id": "q14",
+          "pertanyaan": "Kapan PPN terutang atas penyerahan barang secara konsinyasi menurut UU Cipta Kerja?",
+          "tipe": "pilihan_ganda",
+          "pilihan": [
+            "A. Saat barang dititipkan ke penerima titipan",
+            "B. Saat barang benar-benar terjual ke pembeli akhir",
+            "C. Setiap bulan secara otomatis",
+            "D. Konsinyasi tidak pernah terutang PPN"
+          ],
+          "jawaban": "B",
+          "pembahasan": "Jawaban B benar karena UU Cipta Kerja menegaskan bahwa penyerahan barang secara konsinyasi bukan penyerahan BKP yang terutang PPN — PPN baru terutang saat barang titipan tersebut benar-benar terjual ke pembeli akhir."
+        },
+        {
+          "id": "q15",
+          "pertanyaan": "Kriteria time-test untuk menentukan status Subjek Pajak Dalam Negeri (SPDN) bagi orang pribadi adalah berada di Indonesia lebih dari berapa hari dalam 12 bulan?",
+          "tipe": "isian_singkat",
+          "pilihan": null,
+          "jawaban": "183 hari",
+          "pembahasan": "Kriteria time-test SPDN adalah berada di Indonesia lebih dari 183 hari dalam jangka waktu 12 bulan. Selain time-test, faktor niat bertempat tinggal juga bisa jadi indikator tambahan."
+        },
+        {
+          "id": "q16",
+          "pertanyaan": "WNA berkeahlian tertentu yang menjadi SPDN mendapat fasilitas Territorial Tax System selama 4 tahun pajak pertama, di mana mereka hanya dikenakan pajak atas penghasilan dari Indonesia saja.",
+          "tipe": "benar_salah",
+          "pilihan": [
+            "Benar",
+            "Salah"
+          ],
+          "jawaban": "Benar",
+          "pembahasan": "Benar, ini adalah fasilitas khusus yang diberikan untuk menarik talenta asing berkeahlian tinggi, di mana selama 4 tahun pajak pertama mereka hanya dikenakan pajak atas penghasilan bersumber Indonesia, bukan worldwide income."
+        },
+        {
+          "id": "q17",
+          "pertanyaan": "Platform digital luar negeri seperti Netflix dan Spotify ditunjuk sebagai apa dalam mekanisme pemajakan PMSE?",
+          "tipe": "pilihan_ganda",
+          "pilihan": [
+            "A. Wajib Pajak Bebas Pajak",
+            "B. Pemungut PPN PMSE",
+            "C. Objek Pajak Khusus",
+            "D. Bentuk Usaha Tetap Otomatis"
+          ],
+          "jawaban": "B",
+          "pembahasan": "Jawaban B benar karena platform digital luar negeri ditunjuk sebagai Pemungut PPN PMSE, yang wajib memungut, menyetor, dan melaporkan PPN atas transaksi digital mereka ke konsumen di Indonesia."
+        },
+        {
+          "id": "q18",
+          "pertanyaan": "Sejak Coretax DJP aktif penuh, format apa yang digunakan sebagai NPWP Orang Pribadi?",
+          "tipe": "pilihan_ganda",
+          "pilihan": [
+            "A. Format 15 digit lama",
+            "B. NIK 16 digit sesuai KTP",
+            "C. Kombinasi huruf dan angka",
+            "D. Nomor telepon terdaftar"
+          ],
+          "jawaban": "B",
+          "pembahasan": "Jawaban B benar karena sejak integrasi penuh lewat sistem Coretax DJP, NPWP Orang Pribadi menggunakan format NIK 16 digit yang sama dengan nomor di KTP, menggantikan format 15 digit yang lama."
+        },
+        {
+          "id": "q19",
+          "pertanyaan": "Jelaskan hubungan antara Pilar 1 (pendanaan investasi) dan Pilar 2 (kepatuhan sukarela) dalam klaster perpajakan UU Cipta Kerja, dengan menyebutkan minimal satu contoh konkret dari masing-masing pilar!",
+          "tipe": "esai",
+          "pilihan": null,
+          "jawaban": "Jawaban lengkap sebaiknya mencakup: (1) Pilar 1 berfokus pada menarik dan mempertahankan dana investasi di Indonesia, contohnya lewat penurunan tarif PPh Badan dari 25% ke 22% dan pembebasan PPh dividen yang diinvestasikan kembali di NKRI. (2) Pilar 2 berfokus pada mendorong wajib pajak patuh secara sukarela lewat penyederhanaan administrasi, contohnya relaksasi kredit Pajak Masukan 80% untuk PKP yang baru dikukuhkan. (3) Kedua pilar saling melengkapi karena insentif investasi (Pilar 1) tidak akan efektif kalau proses administrasi perpajakan sehari-hari (Pilar 2) masih ribet dan menghambat pelaku usaha yang baru mulai berkembang.",
+          "pembahasan": "Ini soal esai — nilai apakah jawaban siswa menjelaskan keterkaitan kedua pilar dengan contoh konkret yang tepat, bukan hanya menyebutkan definisi masing-masing pilar secara terpisah tanpa menghubungkannya."
+        }
+      ]
+    },
+    "glosarium": [
+      {
+        "kata": "Omnibus Law",
+        "definisi": "Metode pembentukan undang-undang yang menggabungkan dan mengubah banyak undang-undang sekaligus dalam satu undang-undang baru.",
+        "penjelasan_sederhana": "Kayak beres-beres besar-besaran, banyak aturan yang tadinya nyebar dirapiin jadi satu paket sekaligus."
+      },
+      {
+        "kata": "Perppu",
+        "definisi": "Peraturan Pemerintah Pengganti Undang-Undang, aturan setingkat undang-undang yang diterbitkan presiden dalam kondisi mendesak.",
+        "penjelasan_sederhana": "Jurus darurat presiden buat bikin aturan cepat tanpa nunggu proses normal di DPR, tapi tetap harus disetujui DPR belakangan."
+      },
+      {
+        "kata": "PPh Badan",
+        "definisi": "Pajak Penghasilan yang dikenakan atas penghasilan kena pajak yang diperoleh badan usaha dalam satu tahun pajak.",
+        "penjelasan_sederhana": "Pajak yang dibayar perusahaan dari untungnya, sekarang tarifnya 22%."
+      },
+      {
+        "kata": "Dividen",
+        "definisi": "Bagian laba perusahaan yang dibagikan kepada pemegang saham sesuai proporsi kepemilikan sahamnya.",
+        "penjelasan_sederhana": "Bagian keuntungan perusahaan yang dibagiin ke orang-orang yang punya sahamnya."
+      },
+      {
+        "kata": "Reinvestasi",
+        "definisi": "Tindakan menanamkan kembali dana yang diterima ke instrumen investasi tertentu, bukan digunakan untuk konsumsi.",
+        "penjelasan_sederhana": "Duitnya diputer lagi buat investasi, bukan dihabisin buat belanja."
+      },
+      {
+        "kata": "e-Reporting",
+        "definisi": "Sistem pelaporan elektronik lewat DJP Online untuk melaporkan realisasi investasi dividen yang diklaim bebas pajak.",
+        "penjelasan_sederhana": "Laporan online ke DJP buat buktiin dividen kamu beneran diinvestasikan sesuai janji."
+      },
+      {
+        "kata": "Pengusaha Kena Pajak (PKP)",
+        "definisi": "Pengusaha yang sudah dikukuhkan DJP untuk memungut, menyetor, dan melaporkan PPN atas penyerahan BKP/JKP.",
+        "penjelasan_sederhana": "Pengusaha yang resmi punya 'izin' buat mungut PPN dari pelanggannya."
+      },
+      {
+        "kata": "Pajak Keluaran (PK)",
+        "definisi": "PPN yang dipungut oleh PKP atas penyerahan Barang Kena Pajak atau Jasa Kena Pajak yang dilakukannya.",
+        "penjelasan_sederhana": "PPN yang kamu pungut waktu kamu jual barang atau jasa."
+      },
+      {
+        "kata": "Pajak Masukan (PM)",
+        "definisi": "PPN yang dibayar oleh PKP saat membeli Barang Kena Pajak atau Jasa Kena Pajak, yang bisa dikreditkan.",
+        "penjelasan_sederhana": "PPN yang kamu bayar waktu kamu beli barang atau jasa buat usaha."
+      },
+      {
+        "kata": "SKPKB",
+        "definisi": "Surat Ketetapan Pajak Kurang Bayar, surat resmi DJP yang menetapkan kekurangan pembayaran pajak berdasarkan hasil pemeriksaan.",
+        "penjelasan_sederhana": "Surat tagihan resmi dari DJP kalau kamu ketahuan kurang bayar pajak."
+      },
+      {
+        "kata": "Suku Bunga Acuan KMK",
+        "definisi": "Suku bunga yang ditetapkan Menteri Keuangan setiap bulan sebagai dasar perhitungan sanksi bunga administrasi perpajakan.",
+        "penjelasan_sederhana": "Angka bunga resmi yang diumumin Kemenkeu tiap bulan, dipakai buat ngitung denda telat bayar pajak."
+      },
+      {
+        "kata": "Barang Kena Pajak (BKP)",
+        "definisi": "Barang yang dikenakan pajak berdasarkan ketentuan UU PPN, baik berwujud maupun tidak berwujud.",
+        "penjelasan_sederhana": "Barang yang kena PPN kalau dijual atau diserahkan."
+      },
+      {
+        "kata": "Konsinyasi",
+        "definisi": "Praktik penitipan barang oleh pemilik barang kepada pihak lain untuk dijualkan, di mana kepemilikan masih di tangan pemilik sampai barang terjual.",
+        "penjelasan_sederhana": "Nitip barang ke toko buat dijualin, tapi barangnya masih punya kamu sampai beneran laku."
+      },
+      {
+        "kata": "Subjek Pajak Dalam Negeri (SPDN)",
+        "definisi": "Subjek pajak yang memenuhi kriteria tertentu sehingga dikenakan pajak atas seluruh penghasilannya dari mana pun sumbernya.",
+        "penjelasan_sederhana": "Orang yang dianggap 'penduduk pajak' Indonesia, kena pajak dari penghasilan di mana pun dia dapetinnya."
+      },
+      {
+        "kata": "Territorial Tax System",
+        "definisi": "Sistem pemajakan yang hanya mengenakan pajak atas penghasilan yang bersumber dari suatu wilayah tertentu.",
+        "penjelasan_sederhana": "Sistem pajak yang cuma ngitung penghasilan dari satu negara aja, nggak digabung sama penghasilan dari negara lain."
+      },
+      {
+        "kata": "PMSE",
+        "definisi": "Perdagangan Melalui Sistem Elektronik, yaitu perdagangan barang dan/atau jasa yang dilakukan melalui perangkat dan prosedur elektronik.",
+        "penjelasan_sederhana": "Jualan atau transaksi yang dilakukan lewat internet, kayak platform streaming atau marketplace."
+      },
+      {
+        "kata": "Kehadiran Ekonomi Signifikan",
+        "definisi": "Konsep yang menyatakan suatu perusahaan dianggap punya kehadiran ekonomi bermakna di suatu negara meski tidak punya kantor fisik di sana.",
+        "penjelasan_sederhana": "Perusahaan dianggap 'ada' secara ekonomi di suatu negara meski nggak punya kantor fisik di situ, karena transaksinya gede banget di sana."
+      },
+      {
+        "kata": "Coretax DJP",
+        "definisi": "Core Tax Administration System, sistem inti administrasi perpajakan DJP yang mengintegrasikan berbagai layanan dan data perpajakan.",
+        "penjelasan_sederhana": "Sistem pajak online terbaru dan terintegrasi dari DJP yang aktif penuh mulai 2026."
+      },
+      {
+        "kata": "e-Faktur",
+        "definisi": "Faktur pajak elektronik yang diterbitkan PKP sebagai bukti pemungutan PPN atas penyerahan BKP/JKP.",
+        "penjelasan_sederhana": "Bukti pungut PPN versi digital yang diterbitkan lewat sistem DJP."
+      },
+      {
+        "kata": "DPP Nilai Lain",
+        "definisi": "Mekanisme perhitungan Dasar Pengenaan Pajak PPN yang membuat tarif efektif menjadi 11% meskipun tarif nominal UU PPN adalah 12%, berlaku untuk barang/jasa nonmewah.",
+        "penjelasan_sederhana": "Trik hitung resmi dari pemerintah biar PPN barang sehari-hari efektifnya tetap 11%, meski di atas kertas tarifnya 12%."
+      },
+      {
+        "kata": "Daluwarsa Penagihan",
+        "definisi": "Batas waktu di mana DJP masih berhak melakukan tindakan penagihan atas utang pajak, umumnya 5 tahun sejak surat ketetapan pajak terbit.",
+        "penjelasan_sederhana": "Batas waktu DJP boleh nagih utang pajak kamu, biasanya 5 tahun."
+      }
+    ]
+  }
+}

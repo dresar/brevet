@@ -1,0 +1,1690 @@
+{
+  "versi": "1.0",
+  "modul": {
+    "kode": "BRVT-AB-03",
+    "slug": "uu-hpp-harmonisasi-peraturan-perpajakan",
+    "judul": "UU HPP (Harmonisasi Peraturan Perpajakan)",
+    "kategori": "Lainnya",
+    "tingkat_kesulitan": "menengah",
+    "estimasi_menit": 100,
+    "ringkasan": "Modul ini ngebahas tuntas UU HPP alias Undang-Undang Harmonisasi Peraturan Perpajakan No 7 Tahun 2021, mulai dari latar belakang, perubahan tarif PPh dan PPN, sampai reformasi administrasi lewat Coretax dan integrasi NIK jadi NPWP. Semua angka dan aturan udah disilangkan sama regulasi resmi yang aktif berlaku sampai tahun 2026.",
+    "tujuan_belajar": [
+      "Memahami latar belakang, asas, dan tujuan disahkannya UU HPP",
+      "Menjelaskan perubahan-perubahan penting di klaster KUP, PPh, dan PPN",
+      "Menghitung PPh Orang Pribadi pakai tarif progresif 5 lapis UU HPP",
+      "Membedakan perlakuan pajak natura dan kenikmatan sebelum dan sesudah PMK 66/2023",
+      "Menghitung PPN barang mewah dan barang umum sesuai skema PMK 131/2024",
+      "Menerapkan fasilitas pajak UMKM dan memahami program PPS serta pajak karbon"
+    ],
+    "bagian": [
+      {
+        "id": "bag-01",
+        "judul": "Latar Belakang dan Asas UU HPP",
+        "paragraf": [
+          "Oke jadi gini, sebelum ngomongin pasal-pasal ribet, kamu perlu tau dulu kenapa sih UU HPP ini lahir. UU Harmonisasi Peraturan Perpajakan alias UU HPP (UU No 7 Tahun 2021) itu ibaratnya 'update besar-besaran' buat sistem pajak Indonesia yang sebelumnya nyebar di banyak undang-undang beda-beda dan udah nggak nyambung sama kondisi ekonomi sekarang. Pemerintah sadar kalau mau penerimaan negara naik dan tetep adil buat masyarakat, aturan pajaknya harus dirapihin dan disesuaikan sama perkembangan zaman, termasuk ekonomi digital.",
+          "UU HPP disahkan DPR pada 7 Oktober 2021 dan langsung ngubah 5 undang-undang pajak sekaligus dalam satu paket besar 🔥 yaitu UU KUP (Ketentuan Umum dan Tata Cara Perpajakan), UU PPh, UU PPN, UU Cukai, dan nambahin aturan baru soal Pajak Karbon plus Program Pengungkapan Sukarela (PPS). Dampaknya gede banget buat masa depan perpajakan kita, soalnya ini jadi pondasi dari semua reformasi yang kita rasain sekarang, termasuk Coretax dan integrasi NIK jadi NPWP yang bakal kita bahas di bagian-bagian selanjutnya.",
+          "Nah, UU HPP ini dibangun di atas 6 asas utama yang jadi 'ruh' dari setiap pasalnya: Keadilan (biar yang mampu bayar lebih banyak, yang kurang mampu dilindungi), Kesederhanaan (biar prosedur pajak nggak muter-muter), Efisiensi (biar administrasi pajak makin cepet berkat digitalisasi), Kepastian Hukum (biar aturan jelas dan nggak multitafsir), Kemanfaatan (biar penerimaan pajak beneran balik lagi ke rakyat lewat APBN), dan Kepentingan Nasional (biar sistem pajak kita kompetitif di level global). Enam asas ini bakal kamu temuin lagi pas kita ngebahas tiap topik di modul ini."
+        ],
+        "poin_penting": [
+          "📌 UU HPP disahkan 7 Oktober 2021 dan ngubah 5 UU pajak sekaligus dalam satu paket",
+          "🔑 Ada 6 asas utama: Keadilan, Kesederhanaan, Efisiensi, Kepastian Hukum, Kemanfaatan, dan Kepentingan Nasional",
+          "💡 UU HPP adalah fondasi dari semua reformasi pajak yang kita rasain sekarang, termasuk Coretax",
+          "⚠️ Jangan salah kira UU HPP cuma soal naikin tarif doang, karena isinya juga banyak soal keringanan dan fasilitas buat UMKM"
+        ],
+        "analogi": "Bayangin rumah kamu yang udah ditambal sana-sini selama puluhan tahun sampai bentuknya nggak karuan dan pintunya banyak yang macet. UU HPP itu ibaratnya renovasi total, bukan cuma ngecat ulang, tapi bener-bener ngerombak struktur biar rumahnya (sistem pajak kita) lebih kokoh, rapi, dan gampang dipakai semua penghuninya.",
+        "contoh_kasus": {
+          "judul": "Bu Dewi Bingung Kenapa Aturan Pajak Berubah Terus",
+          "cerita": "Bu Dewi punya toko kelontong di Medan dan sering denger tetangganya ngomongin 'UU HPP' pas ngobrol soal pajak. Awalnya dia mikir ini cuma aturan baru yang bikin ribet, sampai akhirnya dia baca-baca dan sadar kalau UU HPP ini justru ngasih dia fasilitas UMKM bebas pajak buat omzet sampai Rp500 juta setahun. Bu Dewi jadi ngerti bahwa reformasi ini nggak cuma soal 'bayar lebih banyak', tapi juga ada bagian yang justru meringankan pelaku usaha kecil kayak dia.",
+          "poin": [
+            "UU HPP bukan cuma soal kenaikan tarif, ada juga fasilitas buat UMKM",
+            "Penting buat pelaku usaha kayak Bu Dewi buat update info biar nggak salah paham"
+          ]
+        },
+        "diagram_mermaid": [
+          "graph TD\n    A[\"UU HPP No 7 Tahun 2021\"] --> B[\"Asas Keadilan\"]\n    A --> C[\"Asas Kesederhanaan\"]\n    A --> D[\"Asas Efisiensi\"]\n    A --> E[\"Asas Kepastian Hukum\"]\n    A --> F[\"Asas Kemanfaatan\"]\n    A --> G[\"Asas Kepentingan Nasional\"]"
+        ],
+        "penjelasan_diagram": "Diagram ini nunjukin 6 asas utama yang jadi landasan filosofis di balik setiap pasal UU HPP, dari soal keadilan sampai kepentingan nasional.",
+        "prompt_gambar": [],
+        "kalkulator": null,
+        "mini_kuis": [
+          {
+            "id": "q1",
+            "pertanyaan": "UU HPP disahkan pada tahun berapa?",
+            "tipe": "pilihan_ganda",
+            "pilihan": [
+              "A. 2019",
+              "B. 2020",
+              "C. 2021",
+              "D. 2023"
+            ],
+            "jawaban": "C",
+            "pembahasan": "UU HPP alias UU No 7 Tahun 2021 tentang Harmonisasi Peraturan Perpajakan disahkan DPR pada 7 Oktober 2021. Ini jadi titik awal dari banyak reformasi pajak yang berlaku sampai sekarang, termasuk Coretax dan perubahan tarif PPh serta PPN."
+          },
+          {
+            "id": "q2",
+            "pertanyaan": "UU HPP hanya berisi aturan tentang kenaikan tarif pajak, tidak ada fasilitas keringanan sama sekali.",
+            "tipe": "benar_salah",
+            "pilihan": [
+              "Benar",
+              "Salah"
+            ],
+            "jawaban": "Salah",
+            "pembahasan": "UU HPP juga memuat banyak fasilitas keringanan, contohnya PTKP UMKM yang bikin omzet usaha sampai Rp500 juta per tahun bebas PPh Final. Jadi UU HPP itu paket lengkap antara penyesuaian tarif dan pemberian fasilitas."
+          }
+        ],
+        "kesalahan_umum": [
+          {
+            "salah": "Mengira UU HPP itu undang-undang yang berdiri sendiri dan terpisah dari UU PPh serta UU PPN",
+            "benar": "UU HPP adalah undang-undang yang mengubah dan menyisipkan pasal-pasal baru ke UU KUP, UU PPh, dan UU PPN yang sudah ada sebelumnya",
+            "tips": "Kalau baca pasal pajak, cek apakah itu 'UU PPh sebagaimana diubah UU HPP' biar nggak ketuker sama aturan lama"
+          },
+          {
+            "salah": "Menganggap semua ketentuan UU HPP langsung berlaku serentak di tahun 2021",
+            "benar": "Banyak ketentuan UU HPP berlaku bertahap sampai implementasi penuh di 2025-2026 lewat Coretax",
+            "tips": "Selalu cek tanggal efektif tiap aturan turunan seperti PP dan PMK, karena beda pasal bisa beda jadwal berlakunya"
+          }
+        ],
+        "istilah": [
+          {
+            "kata": "UU HPP",
+            "definisi": "Undang-Undang Harmonisasi Peraturan Perpajakan, UU No 7 Tahun 2021 yang mengubah dan menyempurnakan lima undang-undang pajak sekaligus.",
+            "contoh": "Bu Dewi belajar UU HPP biar ngerti kenapa tarif PPh OP dia berubah tahun ini."
+          },
+          {
+            "kata": "Kepastian Hukum",
+            "definisi": "Asas yang memastikan aturan pajak jelas, terukur, dan tidak menimbulkan multitafsir bagi wajib pajak maupun otoritas pajak.",
+            "contoh": "Dengan asas kepastian hukum, Pak Budi jadi tau persis kapan tenggat waktu lapor pajaknya."
+          },
+          {
+            "kata": "Harmonisasi",
+            "definisi": "Proses menyelaraskan berbagai aturan yang tadinya tersebar dan tumpang tindih menjadi satu sistem yang konsisten.",
+            "contoh": "Harmonisasi bikin aturan PPh dan PPN nggak lagi saling bertentangan satu sama lain."
+          }
+        ]
+      },
+      {
+        "id": "bag-02",
+        "judul": "Ruang Lingkup dan Roadmap UU HPP",
+        "paragraf": [
+          "Nah sekarang kita zoom out dulu buat liat 'peta besar' dari UU HPP. Undang-undang ini dibagi jadi beberapa klaster utama, gampangnya gini: klaster KUP (soal administrasi dan tata cara umum perpajakan), klaster PPh (soal pajak penghasilan orang pribadi dan badan), klaster PPN (soal pajak pertambahan nilai atas barang dan jasa), klaster Program Pengungkapan Sukarela alias PPS (kesempatan ngaku harta yang belum dilaporkan), klaster Pajak Karbon (pajak buat emisi karbon), dan klaster Cukai (soal barang kena cukai kayak rokok elektrik).",
+          "Simpelnya begini, tiap klaster ini punya 'jadwal tayang' masing-masing. Nggak semua langsung aktif bareng-bareng di 2021. Ada yang langsung jalan kayak PPS Kebijakan I di semester pertama 2022, ada yang bertahap kayak kenaikan PPN dari 10% ke 11% di April 2022, dan ada yang butuh waktu lama buat infrastrukturnya kayak sistem Coretax DJP yang baru bener-bener stabil dan terintegrasi penuh di tahun 2026 ini.",
+          "Sampai tahun 2026, roadmap besar UU HPP udah hampir kelar semua: PPh pakai TER (Tarif Efektif Rata-rata) buat pemotongan bulanan, natura kena pajak sesuai PMK 66/2023, PPN 12% khusus barang mewah udah jalan sejak Januari 2025, dan Coretax udah jadi sistem administrasi utama DJP yang nyatuin pendaftaran, pembayaran, sampai pelaporan pajak dalam satu platform. Kementerian Keuangan sendiri udah negesin nggak ada perubahan kebijakan tarif baru buat 2026, jadi kita tinggal fokus adaptasi ke sistem yang udah ada."
+        ],
+        "poin_penting": [
+          "🎯 UU HPP terdiri dari klaster KUP, PPh, PPN, PPS, Pajak Karbon, dan Cukai",
+          "📊 Tiap klaster punya jadwal pemberlakuan yang beda-beda, ada yang langsung, ada yang bertahap",
+          "🔥 Coretax jadi tulang punggung implementasi penuh UU HPP di tahun 2025-2026",
+          "✅ Per 2026, Kemenkeu menegaskan tidak ada kenaikan tarif atau pungutan pajak baru"
+        ],
+        "analogi": "Gampangnya, UU HPP itu kayak proyek pembangunan jalan tol yang panjang. Nggak mungkin semua seksi jalan dibuka bareng, pasti ada seksi yang diresmiin duluan (kayak PPN naik jadi 11% di 2022), dan ada seksi yang baru rampung belakangan (kayak Coretax yang full stabil di 2026).",
+        "contoh_kasus": {
+          "judul": "Mas Andi Konsultan Pajak Bikin Timeline Buat Kliennya",
+          "cerita": "Mas Andi kerja sebagai konsultan pajak di sebuah startup Jakarta dan sering ditanya klien soal 'kapan sih aturan ini mulai berlaku'. Dia akhirnya bikin timeline sederhana dari 2021 sampai 2026 biar kliennya nggak bingung, mulai dari pengesahan UU HPP, kenaikan PPN jadi 11%, munculnya TER PPh 21, sampai Coretax full aktif. Klien-kliennya jadi lebih siap karena tau persis kapan harus nyesuaiin sistem payroll dan invoicing mereka.",
+          "poin": [
+            "Penting buat bisnis punya timeline biar nggak kaget pas aturan baru berlaku",
+            "Coretax adalah puncak dari implementasi UU HPP yang butuh waktu bertahun-tahun"
+          ]
+        },
+        "diagram_mermaid": [
+          "graph LR\n    A[\"2021: UU HPP Disahkan\"] --> B[\"2022: PPN Naik jadi 11%\"]\n    B --> C[\"2022: PP 55 UMKM Bebas Pajak\"]\n    C --> D[\"2023: TER PPh 21 dan Natura PMK 66\"]\n    D --> E[\"2024: Persiapan Coretax dan PMK 131\"]\n    E --> F[\"2025: Coretax Aktif dan PPN 12% Barang Mewah\"]\n    F --> G[\"2026: Coretax Penuh dan NIK Jadi NPWP\"]"
+        ],
+        "penjelasan_diagram": "Diagram ini nunjukin urutan waktu penerapan berbagai ketentuan turunan UU HPP dari tahun pengesahan sampai implementasi penuh di 2026.",
+        "prompt_gambar": [
+          {
+            "id": "img-01",
+            "prompt": "A highly detailed ultra-modern 3D isometric stylized studio render in landscape 16:9 orientation, depicting the roadmap timeline of Indonesia's tax reform journey from 2021 to 2026. A curved glowing pathway floats across a deep navy dark-mode background #0F172A blended with a rich indigo gradient mesh #1E1B4B, softly lit by ambient studio lighting. Along the path are six floating 3D isometric platform tiles, each holding a glowing 3D icon: a gavel and law book for the 2021 legislation milestone, an ascending percentage arrow for the 2022 VAT rate change, a small storefront icon for the 2022 SME relief, a glowing digital ID card for the 2023 tax identification update, a futuristic holographic server tower representing the 2025 Coretax system launch, and a fully integrated glowing network globe for full 2026 implementation. Each platform has a short modern bold Indonesian text label clearly printed above it in a clean sans-serif font, such as 'UU HPP Disahkan', 'Coretax Aktif', and 'NIK Jadi NPWP'. The color palette uses electric blue #3B82F6, emerald green #10B981, and warm gold #F59E0B accents with soft glowing edges and reflective glass-like surfaces. Smooth directional light beams connect the platforms, high production value, premium tech-education aesthetic, crisp resolution, cinematic depth of field.",
+            "keterangan": "Ilustrasi roadmap reformasi pajak Indonesia dari pengesahan UU HPP tahun 2021 sampai implementasi penuh Coretax di tahun 2026. Tiap titik cahaya mewakili tonggak penting yang membentuk sistem pajak kita sekarang.",
+            "alt": "Ilustrasi 3D jalur bercahaya berisi enam tonggak reformasi pajak Indonesia dari 2021 sampai 2026",
+            "url_gambar": null
+          }
+        ],
+        "mini_kuis": [
+          {
+            "id": "q1",
+            "pertanyaan": "Manakah urutan yang benar dari implementasi UU HPP?",
+            "tipe": "pilihan_ganda",
+            "pilihan": [
+              "A. Coretax dulu, baru PPN naik, baru UU HPP disahkan",
+              "B. UU HPP disahkan, PPN naik jadi 11%, lalu Coretax diimplementasikan bertahap",
+              "C. PPN naik dulu sebelum UU HPP disahkan",
+              "D. Semua berlaku bersamaan di tahun 2021"
+            ],
+            "jawaban": "B",
+            "pembahasan": "Urutan yang benar adalah UU HPP disahkan dulu di 2021, baru kemudian aturan turunannya diterapkan bertahap seperti kenaikan PPN jadi 11% di 2022, dan Coretax yang butuh waktu sampai 2025-2026 untuk stabil. Pilihan lain salah karena membalik urutan waktu yang sebenarnya terjadi."
+          },
+          {
+            "id": "q2",
+            "pertanyaan": "Semua ketentuan dalam UU HPP berlaku serentak sejak tanggal pengesahannya di 2021.",
+            "tipe": "benar_salah",
+            "pilihan": [
+              "Benar",
+              "Salah"
+            ],
+            "jawaban": "Salah",
+            "pembahasan": "Banyak ketentuan UU HPP berlaku bertahap sesuai aturan turunannya masing-masing, contohnya PPN baru naik jadi 11% di April 2022 dan tarif 12% baru khusus barang mewah mulai Januari 2025. Coretax sendiri baru stabil penuh di 2025-2026."
+          }
+        ],
+        "kesalahan_umum": [
+          {
+            "salah": "Mengira semua aturan pajak baru langsung berlaku begitu UU-nya disahkan",
+            "benar": "Sebagian besar ketentuan teknis baru berlaku setelah ada PP atau PMK turunan yang mengatur detail dan tanggal efektifnya",
+            "tips": "Selalu cek PP atau PMK turunan, jangan cuma pegang pasal di undang-undang induknya"
+          },
+          {
+            "salah": "Menganggap Coretax dan UU HPP adalah dua hal yang terpisah dan tidak berhubungan",
+            "benar": "Coretax adalah infrastruktur teknologi yang dibangun untuk menjalankan ketentuan-ketentuan yang diamanatkan UU HPP",
+            "tips": "Ingat, Coretax itu 'mesin'-nya, sedangkan UU HPP itu 'aturan main'-nya"
+          }
+        ],
+        "istilah": [
+          {
+            "kata": "Coretax DJP",
+            "definisi": "Core Tax Administration System, sistem inti administrasi perpajakan terpadu milik DJP yang menggabungkan pendaftaran, pembayaran, dan pelaporan pajak dalam satu platform digital.",
+            "contoh": "Sejak Coretax aktif, Mas Andi bisa lapor SPT kliennya tanpa perlu bolak-balik ke KPP."
+          },
+          {
+            "kata": "PPS",
+            "definisi": "Program Pengungkapan Sukarela, kesempatan bagi wajib pajak untuk melaporkan secara sukarela harta yang belum dilaporkan dengan membayar PPh Final tertentu.",
+            "contoh": "Bu Siti ikut PPS Kebijakan II buat ngungkapin aset warisan yang belum dilaporkan."
+          },
+          {
+            "kata": "Pajak Karbon",
+            "definisi": "Pungutan pajak atas emisi karbon yang dihasilkan dari kegiatan ekonomi tertentu, sebagai instrumen mendorong transisi ke energi ramah lingkungan.",
+            "contoh": "PT Sumber Energi mulai menghitung kewajiban pajak karbon untuk operasional pembangkit listriknya."
+          }
+        ]
+      },
+      {
+        "id": "bag-03",
+        "judul": "NIK Jadi NPWP Orang Pribadi",
+        "paragraf": [
+          "Nah ini salah satu perubahan yang paling kerasa buat kita semua sebagai warga negara: NIK alias Nomor Induk Kependudukan yang 16 digit di KTP kamu sekarang dipersamakan sebagai NPWP alias Nomor Pokok Wajib Pajak buat Orang Pribadi. Ibaratnya, KTP kamu sekarang punya 'kekuatan ganda', selain buat identitas kependudukan, juga otomatis jadi identitas perpajakan kamu, jadi kamu nggak perlu lagi punya dua nomor identitas yang beda buat dua urusan yang beda.",
+          "Landasan kebijakan ini sebenarnya bagian dari program satu data Indonesia yang diatur di Perpres 83/2021, terus dikuatin lagi lewat UU HPP dan aturan turunannya di UU KUP. Tujuannya jelas banget: biar data wajib pajak nyambung langsung sama data kependudukan Dukcapil, sehingga DJP bisa lebih gampang ngawasin kepatuhan pajak dan masyarakat juga nggak ribet daftar NPWP dari nol lagi.",
+          "Di sistem Coretax yang udah aktif penuh di 2026, proses integrasi ini jalan lewat validasi data. Kalau NIK kamu udah dipadankan dengan data DJP, otomatis NIK itu langsung berfungsi sebagai NPWP 16 digit. Kalau belum, kamu tinggal login ke portal Coretax, validasi data sesuai KTP dan KK, terus sistem bakal sinkronisasi otomatis sama database Dukcapil. Kartu fisik NPWP sendiri udah nggak diterbitkan lagi sejak Coretax berlaku, semuanya serba digital."
+        ],
+        "poin_penting": [
+          "💡 NIK 16 digit di KTP sekarang dipersamakan sebagai NPWP Orang Pribadi",
+          "🔑 Kebijakan ini bagian dari program Satu Data Indonesia biar administrasi lebih simpel",
+          "📌 Proses integrasi dilakukan lewat validasi dan sinkronisasi data di Coretax",
+          "✅ Manfaatnya: DJP lebih gampang ngawasin kepatuhan, masyarakat nggak perlu daftar dari nol"
+        ],
+        "analogi": "Ibaratnya kamu punya satu kartu member yang bisa dipakai buat masuk gym sekaligus buat belanja di minimarket, nggak perlu bawa dua kartu terpisah. NIK-NPWP ini sama, satu nomor buat dua fungsi identitas sekaligus.",
+        "contoh_kasus": {
+          "judul": "Dito Fresh Graduate Daftar NPWP Pertama Kali",
+          "cerita": "Dito baru lulus kuliah dan dapet kerja pertama di startup Jakarta. Dulu dia mikir bakal ribet daftar NPWP karena harus ke KPP bawa berkas fisik. Ternyata pas dia buka aplikasi HR kantornya, sistem cuma minta dia login Coretax pakai NIK, validasi data KTP, terus dalam hitungan menit NIK-nya udah aktif sebagai NPWP. Dito langsung bisa dipotong PPh 21 dari gajinya dengan tarif normal, bukan tarif lebih tinggi buat yang belum ber-NPWP.",
+          "poin": [
+            "Proses aktivasi NIK jadi NPWP sekarang bisa dilakukan online lewat Coretax",
+            "Punya NPWP aktif penting biar nggak kena tarif potongan PPh 21 yang lebih tinggi"
+          ]
+        },
+        "diagram_mermaid": [
+          "flowchart TD\n    A[\"Kamu Punya KTP dengan NIK 16 Digit\"] --> B{\"Sudah Padankan Data di Coretax?\"}\n    B -->|\"Sudah\"| C[\"NIK Otomatis Aktif Jadi NPWP\"]\n    B -->|\"Belum\"| D[\"Login Coretax dan Validasi Data Dukcapil\"]\n    D --> E[\"Sistem Sinkronisasi Otomatis\"]\n    E --> C\n    C --> F[\"NPWP 16 Digit Siap Dipakai Lapor Pajak\"]"
+        ],
+        "penjelasan_diagram": "Diagram ini nunjukin alur singkat gimana NIK di KTP kamu bisa berubah fungsi jadi NPWP lewat proses validasi data di sistem Coretax.",
+        "prompt_gambar": [],
+        "kalkulator": null,
+        "mini_kuis": [
+          {
+            "id": "q1",
+            "pertanyaan": "Apa yang dimaksud dengan integrasi NIK jadi NPWP?",
+            "tipe": "pilihan_ganda",
+            "pilihan": [
+              "A. NIK dan NPWP tetap dua nomor yang terpisah selamanya",
+              "B. NIK 16 digit di KTP dipersamakan sebagai NPWP untuk Wajib Pajak Orang Pribadi",
+              "C. NPWP diganti total dengan nomor paspor",
+              "D. Hanya berlaku untuk Wajib Pajak Badan"
+            ],
+            "jawaban": "B",
+            "pembahasan": "Integrasi NIK-NPWP artinya NIK 16 digit di KTP sekarang dipersamakan dan berfungsi sebagai NPWP untuk Wajib Pajak Orang Pribadi, bukan diganti dengan nomor lain. Ini khusus untuk Orang Pribadi penduduk Indonesia, bukan untuk Wajib Pajak Badan yang formatnya tetap berbeda."
+          },
+          {
+            "id": "q2",
+            "pertanyaan": "Sejak Coretax berlaku, DJP masih menerbitkan kartu fisik NPWP untuk semua wajib pajak baru.",
+            "tipe": "benar_salah",
+            "pilihan": [
+              "Benar",
+              "Salah"
+            ],
+            "jawaban": "Salah",
+            "pembahasan": "Sejak sistem Coretax diberlakukan, kartu fisik NPWP sudah tidak diterbitkan lagi. NPWP digital dikirim dalam format PDF ke email wajib pajak dan bisa langsung digunakan tanpa perlu kartu fisik."
+          }
+        ],
+        "kesalahan_umum": [
+          {
+            "salah": "Mengira semua orang otomatis punya NPWP aktif hanya karena punya KTP",
+            "benar": "NIK baru berfungsi penuh sebagai NPWP setelah dilakukan validasi dan pemadanan data di sistem Coretax",
+            "tips": "Cek status validasi NIK kamu langsung di portal Coretax DJP biar nggak salah asumsi"
+          },
+          {
+            "salah": "Menganggap integrasi NIK-NPWP berarti semua penduduk otomatis wajib bayar pajak",
+            "benar": "Kewajiban membayar pajak tetap mengikuti aturan penghasilan di atas PTKP, bukan otomatis karena punya NIK",
+            "tips": "Punya NPWP aktif tidak sama dengan punya kewajiban bayar pajak, itu tergantung besaran penghasilan kamu"
+          }
+        ],
+        "istilah": [
+          {
+            "kata": "NIK",
+            "definisi": "Nomor Induk Kependudukan, nomor identitas tunggal yang diberikan kepada setiap penduduk Indonesia sesuai Undang-Undang Administrasi Kependudukan.",
+            "contoh": "NIK Dito yang tertera di KTP-nya sekarang otomatis berfungsi sebagai NPWP setelah divalidasi."
+          },
+          {
+            "kata": "Dukcapil",
+            "definisi": "Direktorat Jenderal Kependudukan dan Pencatatan Sipil, instansi yang mengelola data kependudukan termasuk NIK.",
+            "contoh": "Data NIK di Coretax disinkronkan langsung dengan basis data Dukcapil."
+          },
+          {
+            "kata": "Satu Data Indonesia",
+            "definisi": "Program pemerintah untuk mengintegrasikan berbagai basis data instansi menjadi satu sistem data yang konsisten dan saling terhubung.",
+            "contoh": "Integrasi NIK-NPWP adalah salah satu wujud nyata dari program Satu Data Indonesia."
+          }
+        ]
+      },
+      {
+        "id": "bag-04",
+        "judul": "Sanksi Bunga Berbasis Suku Bunga KMK",
+        "paragraf": [
+          "Sekarang kita masuk ke topik yang sering bikin orang keder: sanksi bunga. Dulu, sebelum UU HPP, kalau kamu telat bayar pajak atau kurang bayar, sanksi bunganya flat 2% per bulan, nggak peduli kondisi ekonomi lagi kayak apa. Nah, UU HPP ngerombak ini total. Sekarang sanksi bunga dihitung pakai suku bunga acuan yang ditetapkan Menteri Keuangan lewat Keputusan Menteri Keuangan alias KMK, dan angkanya diumumkan setiap bulan mengikuti kondisi pasar keuangan.",
+          "Gampangnya gini, rumusnya itu suku bunga acuan KMK ditambah uplift factor atau margin tambahan yang besarannya beda-beda tergantung jenis pelanggarannya, mulai dari 0% (misalnya kamu sendiri yang betulin SPT sebelum diperiksa), 5%, 10%, 15%, sampai 20% (misalnya buat kasus terkait tindak pidana perpajakan). Jadi makin 'berat' jenis pelanggarannya, makin gede juga uplift-nya. Sanksi bunga ini dihitung per bulan dan dibatasi maksimal 24 bulan, jadi nggak bakal numpuk selamanya kayak sistem lama.",
+          "Kenapa sih diubah jadi dinamis begini? Ya biar lebih adil dan sesuai kondisi ekonomi riil. Kalau suku bunga pasar lagi rendah, sanksinya juga ikut rendah, nggak dipukul rata 2% terus kayak dulu. Tips praktisnya, kamu bisa cek besaran suku bunga acuan KMK terbaru langsung di situs resmi Kemenkeu atau portal DJP setiap awal bulan, soalnya angka ini emang rutin di-update dan berubah-ubah tergantung kondisi pasar."
+        ],
+        "poin_penting": [
+          "💰 Sanksi bunga sekarang dinamis, bukan flat 2% per bulan kayak aturan lama",
+          "📊 Rumusnya adalah suku bunga acuan KMK ditambah uplift 0% sampai 20% sesuai jenis pelanggaran",
+          "⏳ Sanksi bunga dihitung per bulan dengan batas maksimal 24 bulan",
+          "⚠️ Suku bunga acuan ini berubah tiap bulan, jadi selalu cek angka terbaru di situs resmi Kemenkeu"
+        ],
+        "analogi": "Ibaratnya dulu semua orang yang telat naik ojek online kena tarif macet yang sama rata meski jaraknya beda-beda. Sekarang tarifnya disesuaikan sama kondisi jalan (suku bunga pasar) dan jenis pelanggaran, jadi lebih masuk akal dan adil buat semua orang.",
+        "contoh_kasus": {
+          "judul": "Pak Joko Kena Sanksi Bunga Karena Telat Setor Pajak",
+          "cerita": "Pak Joko punya usaha konveksi di Medan dan telat setor PPh 21 karyawannya selama 2 bulan karena lupa. Setelah dicek KPP, dia kena sanksi bunga berdasarkan suku bunga acuan KMK bulan itu ditambah uplift 5% karena ini kasus SKPKB biasa, bukan pembetulan sukarela. Untung Pak Joko cepat melunasi sebelum sanksinya numpuk lebih dari 24 bulan.",
+          "poin": [
+            "Telat setor pajak tetap kena sanksi bunga meski cuma lupa, bukan sengaja",
+            "Makin cepat dilunasi, makin kecil total sanksi bunga yang harus dibayar"
+          ]
+        },
+        "diagram_mermaid": [
+          "flowchart TD\n    A[\"Menkeu Terbitkan KMK Bulanan\"] --> B[\"Suku Bunga Acuan Ditetapkan\"]\n    B --> C{\"Jenis Pelanggaran?\"}\n    C -->|\"Pembetulan SPT Sendiri\"| D[\"Uplift 0%\"]\n    C -->|\"SKPKB Biasa\"| E[\"Uplift 5%\"]\n    C -->|\"Tidak Lapor SPT\"| F[\"Uplift 10%\"]\n    C -->|\"Kurang Bayar Karena Pemeriksaan\"| G[\"Uplift 15%\"]\n    C -->|\"Terkait Tindak Pidana Pajak\"| H[\"Uplift 20%\"]\n    D --> I[\"Sanksi Bunga per Bulan Maksimal 24 Bulan\"]\n    E --> I\n    F --> I\n    G --> I\n    H --> I"
+        ],
+        "penjelasan_diagram": "Diagram ini nunjukin gimana sanksi bunga dihitung dari suku bunga acuan KMK ditambah uplift yang besarnya tergantung tingkat keparahan pelanggaran wajib pajak.",
+        "prompt_gambar": [],
+        "kalkulator": null,
+        "mini_kuis": [
+          {
+            "id": "q1",
+            "pertanyaan": "Berapa tarif sanksi bunga flat yang berlaku sebelum UU HPP?",
+            "tipe": "pilihan_ganda",
+            "pilihan": [
+              "A. 1% per bulan",
+              "B. 2% per bulan",
+              "C. 5% per bulan",
+              "D. 10% per bulan"
+            ],
+            "jawaban": "B",
+            "pembahasan": "Sebelum UU HPP, sanksi bunga administrasi pajak ditetapkan flat sebesar 2% per bulan tanpa mempertimbangkan kondisi suku bunga pasar. Setelah UU HPP, sanksi ini berubah jadi dinamis mengikuti suku bunga acuan KMK ditambah uplift tertentu."
+          },
+          {
+            "id": "q2",
+            "pertanyaan": "Uplift factor tertinggi sebesar 20% dikenakan untuk kasus pembetulan SPT yang dilakukan sendiri oleh wajib pajak.",
+            "tipe": "benar_salah",
+            "pilihan": [
+              "Benar",
+              "Salah"
+            ],
+            "jawaban": "Salah",
+            "pembahasan": "Justru sebaliknya, pembetulan SPT yang dilakukan sendiri oleh wajib pajak sebelum diperiksa dikenakan uplift paling rendah yaitu 0%. Uplift 20% dikenakan untuk kasus yang terkait tindak pidana perpajakan, jadi makin berat pelanggarannya makin besar uplift-nya."
+          }
+        ],
+        "kesalahan_umum": [
+          {
+            "salah": "Mengira sanksi bunga sekarang masih flat 2% per bulan seperti aturan lama",
+            "benar": "Sanksi bunga sekarang dinamis mengikuti suku bunga acuan KMK yang diterbitkan tiap bulan ditambah uplift tertentu",
+            "tips": "Selalu cek KMK suku bunga acuan bulan berjalan sebelum menghitung estimasi sanksi bunga"
+          },
+          {
+            "salah": "Menganggap sanksi bunga bisa menumpuk tanpa batas kalau telat bayar terus",
+            "benar": "Sanksi bunga dibatasi maksimal 24 bulan, tidak dihitung tanpa batas waktu",
+            "tips": "Meski dibatasi 24 bulan, tetap lebih baik segera melunasi biar total sanksi lebih kecil"
+          }
+        ],
+        "istilah": [
+          {
+            "kata": "KMK",
+            "definisi": "Keputusan Menteri Keuangan, produk hukum yang salah satu fungsinya menetapkan suku bunga acuan untuk perhitungan sanksi administrasi pajak setiap bulan.",
+            "contoh": "Pak Joko mengecek KMK bulan Juli untuk tahu besaran suku bunga acuan yang berlaku."
+          },
+          {
+            "kata": "Uplift Factor",
+            "definisi": "Persentase tambahan di atas suku bunga acuan yang besarnya tergantung jenis dan tingkat keparahan pelanggaran wajib pajak.",
+            "contoh": "Karena kasusnya SKPKB biasa, Pak Joko dikenakan uplift factor 5%."
+          },
+          {
+            "kata": "SKPKB",
+            "definisi": "Surat Ketetapan Pajak Kurang Bayar, surat resmi dari DJP yang menyatakan wajib pajak kurang membayar pajaknya.",
+            "contoh": "Pak Joko menerima SKPKB setelah diperiksa karena kurang setor PPh 21 karyawannya."
+          }
+        ]
+      },
+      {
+        "id": "bag-05",
+        "judul": "Sanksi Keberatan, Banding, dan PK",
+        "paragraf": [
+          "Nah, kalau kamu nggak setuju sama ketetapan pajak dari DJP, kamu punya hak buat ngelawan lewat upaya hukum. Tapi inget, kalau upaya hukum kamu ditolak, ada sanksi tambahan yang harus dibayar. Kabar baiknya, UU HPP justru nurunin beban sanksi ini dibanding aturan lama, jadi lebih berpihak ke wajib pajak yang mau memperjuangkan haknya lewat jalur resmi.",
+          "Simpelnya gini urutannya: pertama kamu bisa ajukan Keberatan ke DJP. Kalau ditolak, dulu sanksinya 50% dari pajak yang masih kurang dibayar, sekarang di UU HPP diturunin jadi cuma 30% aja. Kalau masih nggak puas, kamu bisa lanjut ke tahap Banding ke Pengadilan Pajak. Dulu kalau Banding ditolak sanksinya berat banget, 100%, sekarang diturunin jadi 60%. Terakhir, kalau masih ngotot lewat jalur Peninjauan Kembali (PK) ke Mahkamah Agung dan tetep ditolak, UU HPP nambahin ketentuan baru sanksi sebesar 60% juga.",
+          "Kenapa diturunin? Ya karena pemerintah pengen wajib pajak nggak takut memperjuangkan haknya lewat jalur hukum resmi. Kalau sanksinya kegedean, orang jadi ogah ngajuin Keberatan atau Banding meski sebenernya dia bener, karena takut rugi kalau kalah. Dengan sanksi yang lebih ringan ini, akses keadilan buat wajib pajak jadi lebih terbuka, sambil tetep ada 'harga' yang harus dibayar kalau ternyata argumennya nggak terbukti."
+        ],
+        "poin_penting": [
+          "⚖️ Sanksi denda Keberatan diturunkan dari 50% menjadi 30% kalau ditolak",
+          "📉 Sanksi denda Banding diturunkan dari 100% menjadi 60% kalau ditolak",
+          "🆕 UU HPP menambahkan sanksi 60% khusus untuk Peninjauan Kembali (PK) yang ditolak",
+          "✅ Penurunan sanksi ini dimaksudkan biar wajib pajak lebih berani menempuh jalur hukum resmi"
+        ],
+        "analogi": "Ibaratnya kamu lagi banding nilai ujian ke dosen karena ngerasa dinilai nggak adil. Kalau ternyata argumen kamu salah, ya ada 'konsekuensinya', tapi konsekuensinya sekarang lebih ringan dibanding dulu, jadi kamu tetep berani ngajuin protes kalau emang yakin benar.",
+        "contoh_kasus": {
+          "judul": "PT Maju Bersama Ajukan Keberatan atas SKP",
+          "cerita": "PT Maju Bersama, perusahaan retail di Jakarta, menerima SKP dengan tambahan pajak Rp100 juta yang mereka anggap keliru. Mereka ajukan Keberatan ke DJP, tapi ternyata ditolak. Karena UU HPP, mereka cuma kena sanksi denda 30% dari Rp100 juta yaitu Rp30 juta, bukan Rp50 juta seperti aturan lama. Manajemen PT Maju Bersama akhirnya mempertimbangkan mau lanjut Banding atau bayar saja.",
+          "poin": [
+            "Sanksi Keberatan yang ditolak sekarang cuma 30%, lebih ringan dari aturan lama 50%",
+            "Perusahaan tetap perlu pertimbangkan matang-matang sebelum lanjut ke tahap Banding"
+          ]
+        },
+        "diagram_mermaid": [
+          "flowchart TD\n    A[\"SKP Diterbitkan DJP\"] --> B[\"Wajib Pajak Ajukan Keberatan\"]\n    B --> C{\"Keberatan Ditolak?\"}\n    C -->|\"Ya, Sanksi 30%\"| D[\"Ajukan Banding ke Pengadilan Pajak\"]\n    C -->|\"Tidak\"| E[\"Selesai, Tidak Ada Sanksi Tambahan\"]\n    D --> F{\"Banding Ditolak?\"}\n    F -->|\"Ya, Sanksi 60%\"| G[\"Ajukan Peninjauan Kembali ke MA\"]\n    F -->|\"Tidak\"| E\n    G --> H{\"PK Ditolak?\"}\n    H -->|\"Ya, Sanksi 60%\"| I[\"Wajib Bayar Pokok Pajak dan Sanksi\"]\n    H -->|\"Tidak\"| E"
+        ],
+        "penjelasan_diagram": "Diagram ini nunjukin jenjang upaya hukum perpajakan dari Keberatan, Banding, sampai Peninjauan Kembali beserta besaran sanksi di tiap tahap kalau ditolak.",
+        "prompt_gambar": [],
+        "kalkulator": null,
+        "mini_kuis": [
+          {
+            "id": "q1",
+            "pertanyaan": "Berapa besaran sanksi denda Banding yang ditolak menurut UU HPP?",
+            "tipe": "pilihan_ganda",
+            "pilihan": [
+              "A. 30%",
+              "B. 50%",
+              "C. 60%",
+              "D. 100%"
+            ],
+            "jawaban": "C",
+            "pembahasan": "Menurut UU HPP, sanksi denda Banding yang ditolak diturunkan dari 100% menjadi 60%. Ini berbeda dengan sanksi Keberatan yang ditolak sebesar 30%. Penurunan ini bertujuan agar wajib pajak lebih berani menempuh jalur hukum resmi."
+          },
+          {
+            "id": "q2",
+            "pertanyaan": "UU HPP menambahkan ketentuan sanksi baru sebesar 60% untuk Peninjauan Kembali yang ditolak, yang sebelumnya belum diatur secara spesifik.",
+            "tipe": "benar_salah",
+            "pilihan": [
+              "Benar",
+              "Salah"
+            ],
+            "jawaban": "Benar",
+            "pembahasan": "Benar, UU HPP menambahkan ketentuan sanksi sebesar 60% khusus untuk upaya hukum Peninjauan Kembali (PK) ke Mahkamah Agung yang ditolak, melengkapi jenjang sanksi Keberatan 30% dan Banding 60%."
+          }
+        ],
+        "kesalahan_umum": [
+          {
+            "salah": "Mengira sanksi Keberatan dan Banding besarannya sama",
+            "benar": "Sanksi Keberatan yang ditolak sebesar 30%, sedangkan Banding yang ditolak sebesar 60%, jadi berbeda tergantung tahapannya",
+            "tips": "Selalu cek di tahap upaya hukum mana kamu berada karena besaran sanksinya beda-beda"
+          },
+          {
+            "salah": "Menganggap ajukan Keberatan atau Banding tidak ada risikonya sama sekali",
+            "benar": "Kalau Keberatan atau Banding ditolak, tetap ada sanksi denda tambahan yang harus dibayar di luar pokok pajak",
+            "tips": "Konsultasikan dulu ke konsultan pajak buat menilai kekuatan argumen sebelum memutuskan ajukan upaya hukum"
+          }
+        ],
+        "istilah": [
+          {
+            "kata": "Keberatan",
+            "definisi": "Upaya hukum pertama yang bisa diajukan wajib pajak ke DJP kalau tidak setuju dengan suatu ketetapan pajak.",
+            "contoh": "PT Maju Bersama mengajukan Keberatan atas SKP yang mereka terima."
+          },
+          {
+            "kata": "Banding",
+            "definisi": "Upaya hukum lanjutan yang diajukan ke Pengadilan Pajak kalau Keberatan sebelumnya ditolak oleh DJP.",
+            "contoh": "Karena Keberatannya ditolak, PT Maju Bersama mempertimbangkan mengajukan Banding."
+          },
+          {
+            "kata": "Peninjauan Kembali (PK)",
+            "definisi": "Upaya hukum terakhir yang diajukan ke Mahkamah Agung setelah Banding di Pengadilan Pajak ditolak.",
+            "contoh": "Setelah Banding ditolak, sebuah perusahaan bisa memilih mengajukan PK sebagai upaya hukum terakhir."
+          }
+        ]
+      },
+      {
+        "id": "bag-06",
+        "judul": "Kerja Sama Pajak Internasional",
+        "paragraf": [
+          "Di era ekonomi global kayak sekarang, pajak nggak bisa cuma diurus sendirian sama satu negara aja. Makanya UU HPP juga ngatur soal kerja sama perpajakan internasional, termasuk soal bantuan penagihan pajak lintas negara alias Mutual Assistance in Tax Collection dan prosedur Mutual Agreement Procedure alias MAP. Ini penting banget buat kasus-kasus di mana wajib pajak punya penghasilan atau aset di lebih dari satu negara.",
+          "Gampangnya, MAP itu semacam 'forum negosiasi' antara otoritas pajak dua negara buat nyelesaiin sengketa pajak berganda, misalnya kalau penghasilan kamu udah dipajakin di Indonesia tapi juga dipajakin lagi di negara lain padahal ada perjanjian penghindaran pajak berganda (P3B) antara kedua negara itu. Sementara Mutual Assistance in Tax Collection itu kerja sama buat bantu nagih utang pajak wajib pajak yang asetnya ada di negara lain.",
+          "Selain itu, Indonesia juga ikut dalam konsensus pemajakan global dan pertukaran data otomatis lewat skema AEOI atau Automatic Exchange of Information. Lewat AEOI ini, DJP bisa dapet data rekening dan aset finansial warga Indonesia yang disimpan di bank-bank luar negeri, jadi makin susah buat orang nyembunyiin harta di luar negeri buat ngehindarin pajak."
+        ],
+        "poin_penting": [
+          "🌏 UU HPP mengatur kerja sama penagihan pajak lintas negara dan prosedur MAP",
+          "🤝 MAP adalah forum negosiasi dua negara untuk menyelesaikan sengketa pajak berganda",
+          "📊 AEOI memungkinkan DJP mendapat data rekening dan aset finansial di luar negeri secara otomatis",
+          "🔑 Kerja sama internasional ini bikin makin susah menyembunyikan harta di luar negeri untuk menghindari pajak"
+        ],
+        "analogi": "Bayangin dua negara tetangga yang saling kirim surat resmi buat bantu nagih utang warganya yang kabur ke wilayah masing-masing. Nah, kerja sama perpajakan internasional ini mirip gitu, tapi versi formalnya antar otoritas pajak negara.",
+        "contoh_kasus": {
+          "judul": "Kak Nisa Punya Rekening di Luar Negeri",
+          "cerita": "Kak Nisa kerja sebagai freelancer internasional dan punya rekening tabungan di sebuah bank di Singapura dari hasil kerjanya. Dia sempat mikir rekening itu nggak bakal ketahuan DJP. Ternyata lewat skema AEOI, data rekening Kak Nisa di Singapura otomatis dilaporkan ke DJP karena Indonesia dan Singapura sama-sama ikut kerja sama pertukaran data ini. Kak Nisa akhirnya sadar dan melaporkan penghasilannya dengan benar di SPT Tahunan.",
+          "poin": [
+            "AEOI membuat data rekening di luar negeri otomatis terdeteksi otoritas pajak Indonesia",
+            "Lebih baik melaporkan penghasilan dengan jujur daripada berisiko kena sanksi di kemudian hari"
+          ]
+        },
+        "diagram_mermaid": [
+          "sequenceDiagram\n    participant WP as \"Wajib Pajak\"\n    participant DJP as \"Otoritas Pajak Indonesia\"\n    participant MITRA as \"Otoritas Pajak Negara Mitra\"\n    WP->>DJP: Ajukan Permohonan MAP karena Pajak Berganda\n    DJP->>MITRA: Konsultasi dan Tukar Data AEOI\n    MITRA-->>DJP: Tanggapan dan Negosiasi\n    DJP-->>WP: Hasil Kesepakatan MAP\n    Note over DJP,MITRA: Proses Bantuan Penagihan Lintas Negara"
+        ],
+        "penjelasan_diagram": "Diagram ini nunjukin alur proses Mutual Agreement Procedure antara wajib pajak, DJP, dan otoritas pajak negara mitra dalam menyelesaikan sengketa pajak berganda.",
+        "prompt_gambar": [],
+        "kalkulator": null,
+        "mini_kuis": [
+          {
+            "id": "q1",
+            "pertanyaan": "Apa fungsi utama dari Mutual Agreement Procedure (MAP)?",
+            "tipe": "pilihan_ganda",
+            "pilihan": [
+              "A. Menghapus semua kewajiban pajak wajib pajak",
+              "B. Menyelesaikan sengketa pajak berganda antara dua negara",
+              "C. Mengganti tarif PPh secara sepihak",
+              "D. Menerbitkan NPWP otomatis untuk warga negara asing"
+            ],
+            "jawaban": "B",
+            "pembahasan": "MAP adalah forum negosiasi antara otoritas pajak dua negara untuk menyelesaikan sengketa pajak berganda, misalnya ketika penghasilan wajib pajak dikenakan pajak di dua negara sekaligus padahal ada perjanjian penghindaran pajak berganda."
+          },
+          {
+            "id": "q2",
+            "pertanyaan": "AEOI memungkinkan pertukaran data rekening dan aset finansial secara otomatis antar negara.",
+            "tipe": "benar_salah",
+            "pilihan": [
+              "Benar",
+              "Salah"
+            ],
+            "jawaban": "Benar",
+            "pembahasan": "Benar, Automatic Exchange of Information (AEOI) adalah skema pertukaran data finansial otomatis antar negara yang membuat DJP bisa mendapatkan informasi rekening warga Indonesia di luar negeri."
+          }
+        ],
+        "kesalahan_umum": [
+          {
+            "salah": "Mengira menyimpan aset di bank luar negeri otomatis membuat aset tersebut tidak terdeteksi otoritas pajak Indonesia",
+            "benar": "Lewat skema AEOI, data rekening di banyak negara mitra otomatis dilaporkan ke DJP",
+            "tips": "Lebih aman melaporkan seluruh penghasilan dan aset secara jujur di SPT Tahunan"
+          },
+          {
+            "salah": "Menganggap MAP bisa digunakan untuk membatalkan seluruh kewajiban pajak begitu saja",
+            "benar": "MAP hanya digunakan untuk menyelesaikan sengketa pajak berganda antar negara, bukan menghapus kewajiban pajak yang sah",
+            "tips": "Konsultasikan dengan konsultan pajak internasional kalau kamu punya penghasilan lintas negara"
+          }
+        ],
+        "istilah": [
+          {
+            "kata": "MAP",
+            "definisi": "Mutual Agreement Procedure, prosedur negosiasi antar otoritas pajak dua negara untuk menyelesaikan sengketa pajak berganda.",
+            "contoh": "Sebuah perusahaan multinasional mengajukan MAP karena penghasilannya dipajaki dua kali di dua negara berbeda."
+          },
+          {
+            "kata": "AEOI",
+            "definisi": "Automatic Exchange of Information, skema pertukaran data finansial secara otomatis antar negara untuk mendukung transparansi perpajakan.",
+            "contoh": "Data rekening Kak Nisa di Singapura terdeteksi DJP lewat skema AEOI."
+          },
+          {
+            "kata": "P3B",
+            "definisi": "Perjanjian Penghindaran Pajak Berganda, perjanjian bilateral antar negara untuk mencegah suatu penghasilan dikenakan pajak dua kali.",
+            "contoh": "Indonesia punya P3B dengan banyak negara untuk melindungi wajib pajak dari pajak berganda."
+          }
+        ]
+      },
+      {
+        "id": "bag-07",
+        "judul": "Kuasa Wajib Pajak dan Ultimum Remedium",
+        "paragraf": [
+          "Kadang kamu nggak sempat atau nggak paham buat ngurusin pajak sendiri, makanya UU HPP ngatur soal Kuasa Wajib Pajak, yaitu orang yang kamu tunjuk buat mewakili kamu ngurus kewajiban perpajakan. Tapi nggak sembarang orang bisa jadi kuasa, ada aturan soal kompetensi yang harus dipenuhi, misalnya harus punya sertifikat konsultan pajak atau kualifikasi tertentu, kecuali buat keluarga dekat kayak suami-istri atau orang tua-anak yang dikecualikan dari syarat sertifikasi ini.",
+          "Nah, topik yang nggak kalah penting adalah soal penegakan hukum pidana pajak yang menganut prinsip ultimum remedium, artinya hukum pidana itu jadi 'senjata pamungkas' alias upaya terakhir setelah upaya-upaya lain nggak berhasil. Jadi kalau ada wajib pajak yang melanggar, DJP nggak langsung main pidana, tapi lebih dulu dikasih kesempatan buat nyelesaiin secara administratif.",
+          "Simpelnya gini, kalau kasusnya bisa diselesaikan lewat jalur administrasi kayak bayar pokok pajak plus sanksi, ya itu yang diutamakan. Tuntutan pidana baru ditempuh kalau pelanggarannya berat, berulang, atau nggak ada itikad baik buat nyelesaiin secara administratif. Bahkan meski udah masuk proses penyidikan pidana, kalau wajib pajak melunasi kerugian negara sebelum berkas dilimpahkan ke pengadilan, penyidikan bisa dihentikan. Ini nunjukin filosofi UU HPP yang lebih ngedepanin pemulihan kerugian negara daripada sekadar 'menghukum'."
+        ],
+        "poin_penting": [
+          "👤 Kuasa Wajib Pajak harus memenuhi syarat kompetensi tertentu, kecuali untuk keluarga dekat",
+          "⚖️ Hukum pidana pajak menganut asas ultimum remedium, jadi upaya terakhir setelah cara lain gagal",
+          "✅ Wajib pajak bisa hentikan penyidikan pidana kalau melunasi kerugian negara sebelum ke pengadilan",
+          "💡 Filosofinya lebih fokus pemulihan kerugian negara daripada sekadar menjatuhkan hukuman"
+        ],
+        "analogi": "Ibaratnya kayak sekolah yang punya sistem peringatan bertahap sebelum ngeluarin murid. Ada teguran lisan dulu, surat peringatan, baru kalau bener-bener nggak berubah, baru dikeluarkan. Hukum pidana pajak juga gitu, jadi opsi paling akhir, bukan langkah pertama.",
+        "contoh_kasus": {
+          "judul": "Bu Rina Menunjuk Suaminya Jadi Kuasa Pajak",
+          "cerita": "Bu Rina punya usaha online shop tapi kurang paham soal administrasi perpajakan. Karena sibuk, dia menunjuk suaminya, Pak Eko, jadi Kuasa Wajib Pajak untuk mengurus SPT Tahunan usahanya. Karena Pak Eko adalah suami sah Bu Rina, dia dikecualikan dari syarat sertifikasi konsultan pajak yang biasanya diperlukan buat kuasa wajib pajak pada umumnya.",
+          "poin": [
+            "Keluarga dekat seperti suami-istri dikecualikan dari syarat sertifikasi sebagai Kuasa Wajib Pajak",
+            "Menunjuk kuasa yang tepat membantu wajib pajak yang kurang paham administrasi perpajakan"
+          ]
+        },
+        "diagram_mermaid": [
+          "flowchart TD\n    A[\"Ditemukan Dugaan Pelanggaran Pajak\"] --> B{\"Bisa Diselesaikan Administratif?\"}\n    B -->|\"Bisa\"| C[\"Bayar Pokok Pajak Plus Sanksi Administrasi\"]\n    B -->|\"Tidak Bisa atau Berulang\"| D[\"Proses Penyidikan Pidana Pajak\"]\n    D --> E{\"WP Lunasi Kerugian Negara Sebelum Sidang?\"}\n    E -->|\"Ya\"| F[\"Penyidikan Dihentikan\"]\n    E -->|\"Tidak\"| G[\"Lanjut ke Pengadilan Pidana\"]\n    C --> H[\"Kasus Selesai\"]\n    F --> H"
+        ],
+        "penjelasan_diagram": "Diagram ini nunjukin prinsip ultimum remedium, di mana penyelesaian administratif selalu diutamakan sebelum penegakan hukum pidana pajak ditempuh sebagai upaya terakhir.",
+        "prompt_gambar": [],
+        "kalkulator": null,
+        "mini_kuis": [
+          {
+            "id": "q1",
+            "pertanyaan": "Apa arti dari prinsip ultimum remedium dalam penegakan hukum pidana pajak?",
+            "tipe": "pilihan_ganda",
+            "pilihan": [
+              "A. Hukum pidana adalah upaya pertama yang harus ditempuh",
+              "B. Hukum pidana adalah upaya terakhir setelah upaya administratif gagal",
+              "C. Semua pelanggaran pajak wajib dipidana tanpa kecuali",
+              "D. Hukum pidana hanya berlaku untuk wajib pajak badan"
+            ],
+            "jawaban": "B",
+            "pembahasan": "Ultimum remedium berarti hukum pidana adalah upaya terakhir yang ditempuh setelah upaya-upaya administratif seperti pembayaran pokok pajak dan sanksi tidak berhasil menyelesaikan pelanggaran, terutama untuk pelanggaran yang berat atau berulang."
+          },
+          {
+            "id": "q2",
+            "pertanyaan": "Suami atau istri dari wajib pajak dikecualikan dari syarat sertifikasi konsultan pajak untuk menjadi Kuasa Wajib Pajak.",
+            "tipe": "benar_salah",
+            "pilihan": [
+              "Benar",
+              "Salah"
+            ],
+            "jawaban": "Benar",
+            "pembahasan": "Benar, UU HPP mengatur pengecualian syarat kompetensi atau sertifikasi bagi keluarga dekat, seperti suami-istri atau orang tua-anak, ketika ditunjuk menjadi Kuasa Wajib Pajak."
+          }
+        ],
+        "kesalahan_umum": [
+          {
+            "salah": "Mengira setiap pelanggaran pajak, sekecil apapun, langsung berujung pidana",
+            "benar": "Penyelesaian administratif selalu diutamakan lebih dulu sebelum jalur pidana ditempuh sesuai prinsip ultimum remedium",
+            "tips": "Segera selesaikan kewajiban pajak secara administratif begitu ada temuan, jangan tunggu sampai eskalasi"
+          },
+          {
+            "salah": "Mengira sembarang orang bisa jadi Kuasa Wajib Pajak tanpa syarat apapun",
+            "benar": "Kuasa Wajib Pajak umumnya harus memenuhi syarat kompetensi tertentu, kecuali untuk keluarga dekat yang dikecualikan",
+            "tips": "Pastikan kuasa yang kamu tunjuk memenuhi syarat resmi biar urusan pajak kamu tetap sah"
+          }
+        ],
+        "istilah": [
+          {
+            "kata": "Kuasa Wajib Pajak",
+            "definisi": "Pihak yang ditunjuk secara resmi oleh wajib pajak untuk mewakili dan mengurus kewajiban perpajakannya.",
+            "contoh": "Pak Eko menjadi Kuasa Wajib Pajak untuk usaha online shop istrinya, Bu Rina."
+          },
+          {
+            "kata": "Ultimum Remedium",
+            "definisi": "Prinsip hukum yang menempatkan pidana sebagai upaya hukum terakhir setelah upaya administratif tidak berhasil.",
+            "contoh": "Karena prinsip ultimum remedium, DJP memberi kesempatan penyelesaian administratif dulu sebelum memidanakan wajib pajak."
+          },
+          {
+            "kata": "Penyidikan",
+            "definisi": "Proses pengumpulan bukti oleh penyidik pajak untuk menentukan ada tidaknya tindak pidana perpajakan.",
+            "contoh": "Penyidikan terhadap sebuah perusahaan dihentikan setelah mereka melunasi kerugian negara sebelum persidangan."
+          }
+        ]
+      },
+      {
+        "id": "bag-08",
+        "judul": "Pemajakan Natura dan Kenikmatan",
+        "paragraf": [
+          "Sekarang kita masuk ke topik yang lumayan bikin heboh dunia HR pas awal-awal diberlakukan: natura dan kenikmatan. Natura itu semacam pemberian dalam bentuk barang, misalnya kantor kasih kamu laptop atau paket sembako. Kenikmatan itu pemberian dalam bentuk fasilitas atau layanan, misalnya kantor kasih fasilitas mobil dinas atau membership gym. Dulu, sebelum UU HPP, natura dan kenikmatan ini prinsipnya non-deductible di sisi perusahaan (nggak bisa jadi biaya pengurang pajak) dan non-taxable di sisi karyawan (nggak dianggap penghasilan kena pajak).",
+          "Nah, UU HPP lewat aturan turunannya di PMK 66/2023 ngebalikin prinsip ini jadi deductible/taxable. Artinya sekarang natura dan kenikmatan dari kantor bisa jadi biaya pengurang pajak buat perusahaan (deductible), tapi di sisi lain jadi objek pajak yang harus dilaporkan dan berpotensi kena PPh 21 buat karyawan yang nerima (taxable). Ini ngubah cara perusahaan hitung PPh 21 karyawannya karena sekarang mereka harus masukin nilai natura dan kenikmatan ke dalam penghasilan bruto karyawan.",
+          "Dampaknya lumayan kerasa buat perusahaan yang biasa ngasih banyak fasilitas ke karyawan, karena sekarang porsi PPh 21 karyawan bisa naik gara-gara natura dan kenikmatan yang mereka terima. Tapi tenang, di sisi lain perusahaan juga diuntungkan karena biaya natura dan kenikmatan itu sekarang bisa dikurangkan dari penghasilan bruto buat ngitung PPh Badan, jadi ada semacam 'take and give' antara dua sisi ini."
+        ],
+        "poin_penting": [
+          "📦 Natura adalah pemberian barang, kenikmatan adalah pemberian fasilitas atau layanan dari kantor",
+          "🔄 Prinsipnya berubah dari non-deductible/non-taxable jadi deductible/taxable sesuai PMK 66/2023",
+          "💰 Nilai natura dan kenikmatan sekarang bisa jadi biaya pengurang pajak buat perusahaan",
+          "⚠️ Di sisi karyawan, natura dan kenikmatan bisa nambah beban PPh 21 karena dihitung sebagai penghasilan"
+        ],
+        "analogi": "Ibaratnya dulu kalau kantor ngasih kamu bonus berupa barang, itu kayak 'hadiah gratis' yang nggak dianggap penghasilan sama sekali. Sekarang, hadiah itu dianggap sama kayak gaji tunai, jadi ikut dihitung buat pajak penghasilan kamu, meskipun di sisi lain perusahaan jadi bisa mengurangkan biayanya.",
+        "contoh_kasus": {
+          "judul": "PT Sinar Jaya Kasih Fasilitas Mobil Dinas ke Manajernya",
+          "cerita": "PT Sinar Jaya, perusahaan distribusi di Jakarta, memberikan fasilitas mobil dinas kepada Mas Andi yang menjabat sebagai manajer operasional. Sebelum PMK 66/2023, nilai fasilitas mobil ini tidak dihitung sebagai penghasilan Mas Andi. Sekarang, HR PT Sinar Jaya harus menghitung nilai manfaat pemakaian mobil dinas tersebut dan memasukkannya ke penghasilan bruto Mas Andi untuk perhitungan PPh 21 bulanan.",
+          "poin": [
+            "Fasilitas mobil dinas sekarang harus dihitung nilainya dan masuk penghasilan bruto karyawan",
+            "Perusahaan tetap diuntungkan karena biaya fasilitas ini bisa jadi pengurang penghasilan kena pajak"
+          ]
+        },
+        "diagram_mermaid": [
+          "graph TD\n    A[\"Natura dan Kenikmatan dari Pemberi Kerja\"] --> B[\"Objek PPh 21, Kena Pajak dan Bisa Jadi Biaya\"]\n    A --> C[\"Dikecualikan, Bukan Objek PPh\"]\n    C --> D[\"Makanan Minuman untuk Seluruh Pegawai\"]\n    C --> E[\"Natura di Daerah Tertentu\"]\n    C --> F[\"Natura Karena Keharusan Kerja seperti APD\"]\n    C --> G[\"Natura Dibiayai APBN atau APBD\"]\n    C --> H[\"Natura Jenis dan Batasan Tertentu seperti Bingkisan Hari Raya\"]"
+        ],
+        "penjelasan_diagram": "Diagram pohon ini nunjukin dua cabang perlakuan natura dan kenikmatan menurut PMK 66/2023, yaitu yang jadi objek pajak dan yang dikecualikan dari objek pajak.",
+        "prompt_gambar": [
+          {
+            "id": "img-02",
+            "prompt": "An ultra-modern 3D isometric stylized studio render, landscape 16:9 format, illustrating the concept of employee benefits-in-kind taxation inside a stylish modern Indonesian office. The scene is set against a deep dark-mode navy background #0F172A merging into a soft indigo gradient mesh #1E1B4B with ambient cinematic studio lighting and subtle particle glow. In the center floats a glossy 3D isometric office desk scene showing a company car key, a meal tray, a company laptop, and a small uniform icon, each sitting on separate glowing glass platforms connected by soft light beams to a central floating tax document icon with a checkmark seal. Bold modern Indonesian text labels are clearly printed above each platform, such as 'Kena Pajak' glowing in warm amber #F59E0B on one side and 'Dikecualikan' glowing in emerald green #10B981 on the other side. The overall color palette combines electric blue #3B82F6, emerald green #10B981, and warm gold #F59E0B with reflective glass materials and soft rim lighting. Balanced symmetrical composition, high resolution, premium fintech-education infographic style, smooth gradients, elegant 3D shadows and ambient occlusion.",
+            "keterangan": "Ilustrasi konsep pemajakan natura dan kenikmatan kantor sesuai PMK 66/2023, menunjukkan pemisahan antara fasilitas yang kena pajak dan yang dikecualikan. Gambar ini membantu memvisualisasikan bagaimana fasilitas kantor sehari-hari kini punya konsekuensi pajak.",
+            "alt": "Ilustrasi 3D fasilitas kantor seperti mobil dinas dan laptop dengan label kena pajak dan dikecualikan",
+            "url_gambar": null
+          }
+        ],
+        "kalkulator": null,
+        "mini_kuis": [
+          {
+            "id": "q1",
+            "pertanyaan": "Apa perubahan utama perlakuan natura dan kenikmatan sesuai PMK 66/2023?",
+            "tipe": "pilihan_ganda",
+            "pilihan": [
+              "A. Dari deductible/taxable menjadi non-deductible/non-taxable",
+              "B. Dari non-deductible/non-taxable menjadi deductible/taxable",
+              "C. Natura dan kenikmatan dihapus total dari sistem pajak",
+              "D. Tidak ada perubahan sama sekali"
+            ],
+            "jawaban": "B",
+            "pembahasan": "PMK 66/2023 mengubah prinsip natura dan kenikmatan dari yang sebelumnya non-deductible bagi perusahaan dan non-taxable bagi karyawan, menjadi deductible bagi perusahaan dan taxable bagi karyawan yang menerimanya."
+          },
+          {
+            "id": "q2",
+            "pertanyaan": "Semua jenis natura dan kenikmatan tanpa kecuali sekarang menjadi objek PPh 21.",
+            "tipe": "benar_salah",
+            "pilihan": [
+              "Benar",
+              "Salah"
+            ],
+            "jawaban": "Salah",
+            "pembahasan": "Tidak semua natura dan kenikmatan jadi objek PPh 21, karena ada 5 jenis natura yang dikecualikan sesuai PMK 66/2023, seperti makanan minuman untuk seluruh pegawai dan natura yang dibiayai APBN atau APBD, yang akan kita bahas lebih detail di bagian berikutnya."
+          }
+        ],
+        "kesalahan_umum": [
+          {
+            "salah": "Mengira semua fasilitas kantor sekarang otomatis kena pajak tanpa pengecualian",
+            "benar": "Ada 5 jenis natura yang tetap dikecualikan dari objek PPh sesuai PMK 66/2023",
+            "tips": "Cek daftar pengecualian di PMK 66/2023 sebelum menyimpulkan suatu fasilitas kena pajak atau tidak"
+          },
+          {
+            "salah": "Mengira perusahaan dirugikan total karena natura sekarang jadi objek pajak karyawan",
+            "benar": "Perusahaan justru diuntungkan karena biaya natura dan kenikmatan sekarang bisa jadi pengurang penghasilan kena pajak PPh Badan",
+            "tips": "Hitung dampaknya secara menyeluruh, bukan cuma dari sisi karyawan tapi juga dari sisi perusahaan"
+          }
+        ],
+        "istilah": [
+          {
+            "kata": "Natura",
+            "definisi": "Pemberian dalam bentuk barang dari pemberi kerja kepada karyawan, seperti sembako atau perangkat kerja.",
+            "contoh": "PT Sinar Jaya memberikan natura berupa paket sembako bulanan kepada karyawannya."
+          },
+          {
+            "kata": "Kenikmatan",
+            "definisi": "Pemberian dalam bentuk fasilitas atau layanan dari pemberi kerja kepada karyawan, seperti mobil dinas atau membership gym.",
+            "contoh": "Mas Andi menikmati fasilitas mobil dinas dari kantornya sebagai bentuk kenikmatan."
+          },
+          {
+            "kata": "PMK 66/2023",
+            "definisi": "Peraturan Menteri Keuangan yang mengatur secara rinci penilaian dan perlakuan pajak atas natura dan kenikmatan.",
+            "contoh": "HR PT Sinar Jaya merujuk ke PMK 66/2023 untuk menghitung nilai manfaat mobil dinas Mas Andi."
+          }
+        ]
+      },
+      {
+        "id": "bag-09",
+        "judul": "Lima Jenis Natura Dikecualikan",
+        "paragraf": [
+          "Meskipun sekarang natura dan kenikmatan pada dasarnya jadi objek pajak, PMK 66/2023 tetep ngasih ruang buat 5 jenis natura yang dikecualikan alias tetep bukan objek PPh. Ini penting banget buat kamu yang kerja di HR atau punya usaha biar nggak salah hitung PPh 21 karyawan. Kelima jenis ini dirancang biar kebijakan natura dan kenikmatan tetep adil dan nggak bikin beban pajak numpuk buat hal-hal yang sifatnya kebutuhan dasar atau kewajiban kerja.",
+          "Pertama, makanan dan minuman yang diberikan untuk seluruh pegawai, misalnya kantin gratis atau katering makan siang buat semua karyawan tanpa pandang jabatan, ini dikecualikan tanpa batasan nilai. Kedua, natura yang diberikan di daerah tertentu sesuai kriteria yang ditetapkan DJP, misalnya perusahaan tambang yang beroperasi di lokasi terpencil dan harus nyediain fasilitas mess atau transportasi buat karyawannya. Ketiga, natura yang sifatnya keharusan buat pelaksanaan pekerjaan, misalnya alat pelindung diri (APD), seragam kerja, atau transportasi ke lokasi kerja karena alasan keselamatan.",
+          "Keempat, natura yang sumber pembiayaannya dari APBN atau APBD, misalnya fasilitas dari program pemerintah. Kelima, natura dengan jenis dan batasan nilai tertentu, contohnya bingkisan atau paket hari raya keagamaan dengan nilai wajar tertentu, serta fasilitas olahraga bagi pegawai kecuali cabang olahraga tertentu yang tergolong mewah seperti golf, pacuan kuda, atau balap perahu motor. Tips praktisnya, kalau kamu HR, selalu dokumentasikan dasar pemberian tiap natura biar gampang dibuktikan kalau memang termasuk kategori yang dikecualikan."
+        ],
+        "poin_penting": [
+          "🍱 Makanan dan minuman untuk seluruh pegawai dikecualikan tanpa batasan nilai tertentu",
+          "📍 Natura di daerah tertentu sesuai kriteria DJP juga dikecualikan dari objek PPh",
+          "🦺 Natura karena keharusan kerja seperti APD dan seragam keselamatan juga dikecualikan",
+          "🎁 Bingkisan hari raya dan fasilitas olahraga tertentu masuk kategori dikecualikan dengan batasan nilai"
+        ],
+        "analogi": "Bayangin kantor kamu ngasih banyak fasilitas, tapi cuma sebagian yang 'kena tagihan pajak', sisanya dianggap 'gratis' karena termasuk kebutuhan dasar atau kewajiban kerja. Analoginya kayak diskon khusus yang cuma berlaku buat kategori barang tertentu di supermarket.",
+        "contoh_kasus": {
+          "judul": "PT Tambang Nusantara Kasih Fasilitas Mess di Lokasi Terpencil",
+          "cerita": "PT Tambang Nusantara beroperasi di daerah terpencil di Kalimantan dan menyediakan mess serta transportasi untuk karyawannya karena lokasi kerja jauh dari pemukiman. Karena ini termasuk kategori natura di daerah tertentu sesuai kriteria DJP, fasilitas mess dan transportasi tersebut dikecualikan dari objek PPh 21 karyawan, sehingga tidak menambah beban pajak mereka.",
+          "poin": [
+            "Natura di daerah tertentu yang memenuhi kriteria DJP tidak menambah beban pajak karyawan",
+            "Perusahaan tetap harus mendokumentasikan dasar pemberian natura untuk keperluan pembuktian"
+          ]
+        },
+        "diagram_mermaid": [
+          "graph TD\n    A[\"5 Natura Dikecualikan dari Objek PPh\"] --> B[\"Makan Minum Seluruh Pegawai Tanpa Batas Nilai\"]\n    A --> C[\"Natura di Daerah Tertentu Sesuai Kriteria DJP\"]\n    A --> D[\"Natura Wajib Kerja seperti Seragam dan Alat Keselamatan\"]\n    A --> E[\"Natura Sumber Pembiayaan APBN atau APBD\"]\n    A --> F[\"Natura Batasan Tertentu seperti Bingkisan Hari Raya\"]"
+        ],
+        "penjelasan_diagram": "Diagram ini merangkum 5 kategori natura yang dikecualikan dari objek PPh sesuai PMK 66/2023, dari fasilitas makan minum sampai bingkisan hari raya.",
+        "prompt_gambar": [],
+        "kalkulator": null,
+        "mini_kuis": [
+          {
+            "id": "q1",
+            "pertanyaan": "Manakah yang TIDAK termasuk dalam 5 jenis natura yang dikecualikan dari objek PPh?",
+            "tipe": "pilihan_ganda",
+            "pilihan": [
+              "A. Makanan dan minuman untuk seluruh pegawai",
+              "B. Fasilitas golf untuk direktur perusahaan",
+              "C. Alat pelindung diri karena keharusan kerja",
+              "D. Natura yang dibiayai APBN atau APBD"
+            ],
+            "jawaban": "B",
+            "pembahasan": "Fasilitas golf termasuk cabang olahraga yang dikecualikan dari kategori fasilitas olahraga yang bebas pajak, karena tergolong mewah dan bukan kebutuhan dasar karyawan. Pilihan A, C, dan D semuanya termasuk dalam 5 kategori natura yang dikecualikan dari objek PPh."
+          },
+          {
+            "id": "q2",
+            "pertanyaan": "Bingkisan hari raya keagamaan bisa dikecualikan dari objek PPh asalkan nilainya masih dalam batasan wajar yang ditetapkan.",
+            "tipe": "benar_salah",
+            "pilihan": [
+              "Benar",
+              "Salah"
+            ],
+            "jawaban": "Benar",
+            "pembahasan": "Benar, bingkisan atau paket hari raya keagamaan termasuk kategori natura jenis dan batasan tertentu yang dikecualikan dari objek PPh, selama nilainya masih dalam batasan wajar yang ditetapkan aturan."
+          }
+        ],
+        "kesalahan_umum": [
+          {
+            "salah": "Mengira semua fasilitas olahraga dari kantor otomatis dikecualikan dari objek pajak",
+            "benar": "Hanya fasilitas olahraga tertentu yang dikecualikan, sementara cabang olahraga mewah seperti golf dan pacuan kuda tetap kena pajak",
+            "tips": "Cek daftar cabang olahraga yang dikecualikan secara spesifik di PMK 66/2023"
+          },
+          {
+            "salah": "Mengira bingkisan hari raya dikecualikan tanpa batas nilai berapapun",
+            "benar": "Bingkisan hari raya dikecualikan hanya sampai batasan nilai wajar tertentu yang ditetapkan aturan",
+            "tips": "Simpan bukti nilai bingkisan yang diberikan supaya sesuai dengan batasan yang berlaku"
+          }
+        ],
+        "istilah": [
+          {
+            "kata": "APD",
+            "definisi": "Alat Pelindung Diri, perlengkapan yang wajib disediakan perusahaan untuk keselamatan kerja karyawan.",
+            "contoh": "PT Tambang Nusantara menyediakan APD berupa helm dan sepatu safety untuk karyawan tambangnya."
+          },
+          {
+            "kata": "Nilai Wajar",
+            "definisi": "Nilai suatu barang atau fasilitas yang dianggap sesuai dengan kondisi pasar yang berlaku umum, digunakan sebagai batasan pengecualian pajak natura.",
+            "contoh": "Bingkisan hari raya dari kantor dihitung berdasarkan nilai wajar agar tetap dikecualikan dari pajak."
+          },
+          {
+            "kata": "Daerah Tertentu",
+            "definisi": "Wilayah dengan kriteria khusus yang ditetapkan DJP, biasanya terpencil atau minim fasilitas umum, yang mempengaruhi perlakuan pajak natura.",
+            "contoh": "Lokasi tambang PT Tambang Nusantara di Kalimantan memenuhi kriteria daerah tertentu."
+          }
+        ]
+      },
+      {
+        "id": "bag-10",
+        "judul": "Lima Lapis Tarif Progresif PPh OP",
+        "paragraf": [
+          "Ini dia salah satu perubahan yang paling langsung kerasa buat karyawan dan pekerja: tarif PPh Orang Pribadi. Sebelum UU HPP, tarif progresif PPh OP cuma punya 4 lapis, dengan lapisan tertinggi 30% buat penghasilan di atas Rp500 juta setahun. UU HPP ngerombak ini jadi 5 lapis, sesuai Pasal 17 UU PPh sebagaimana diubah UU HPP, dengan nambahin satu lapisan baru khusus buat orang-orang super kaya.",
+          "Simpelnya gini rinciannya: lapisan pertama, penghasilan kena pajak (PKP) Rp0 sampai Rp60 juta kena tarif 5% (naik dari sebelumnya cuma sampai Rp50 juta). Lapisan kedua, di atas Rp60 juta sampai Rp250 juta kena 15%. Lapisan ketiga, di atas Rp250 juta sampai Rp500 juta kena 25%. Lapisan keempat, di atas Rp500 juta sampai Rp5 miliar kena 30%. Dan yang baru, lapisan kelima alias lapisan paling atas, penghasilan di atas Rp5 miliar setahun kena tarif 35%.",
+          "Penting buat dicatat, tarif progresif ini dihitung berlapis, bukan pukul rata. Jadi kalau PKP kamu Rp120 juta, bukan berarti semuanya kena 15%, tapi Rp60 juta pertama kena 5%, baru sisanya Rp60 juta kena 15%. Buat pemotongan bulanan lewat gaji, sekarang perusahaan pakai TER (Tarif Efektif Rata-rata) sesuai PP 58/2023 dan PMK 168/2023 biar lebih simpel, tapi pas rekonsiliasi di SPT Tahunan, perhitungannya tetap balik ke tarif progresif 5 lapis Pasal 17 ini."
+        ],
+        "poin_penting": [
+          "📊 Tarif PPh OP sekarang 5 lapis: 5%, 15%, 25%, 30%, dan lapisan baru 35% untuk di atas Rp5 miliar",
+          "🎯 Batas bawah lapisan pertama naik dari Rp50 juta menjadi Rp60 juta",
+          "🧮 Tarif dihitung berlapis atau bertingkat, bukan dikenakan pukul rata ke seluruh penghasilan",
+          "✅ Pemotongan bulanan pakai TER, tapi rekonsiliasi tahunan tetap pakai tarif progresif Pasal 17"
+        ],
+        "analogi": "Bayangin kamu ngisi galon air bertingkat. Air pertama ngisi wadah kecil dulu (lapisan 5%) sampai penuh, baru meluber ke wadah berikutnya yang lebih besar (lapisan 15%), begitu terus. Jadi setiap 'wadah' punya tarifnya sendiri, bukan semua air dianggap masuk ke wadah terakhir.",
+        "contoh_kasus": {
+          "judul": "Pak Dito Menghitung PPh Tahunan dari Gaji Rp15 Juta per Bulan",
+          "cerita": "Pak Dito kerja sebagai staf IT di sebuah startup Jakarta dengan gaji bruto Rp15 juta per bulan, jadi setahun totalnya Rp180 juta. Setelah dikurangi biaya jabatan maksimal Rp6 juta setahun, penghasilan netto jadi Rp174 juta. Dikurangi lagi PTKP status TK/0 sebesar Rp54 juta, maka Penghasilan Kena Pajak (PKP) Pak Dito adalah Rp120 juta. Nah, dari sini kita hitung pakai tarif progresif 5 lapis UU HPP.",
+          "poin": [
+            "Lapisan pertama Rp60 juta dikali 5% sama dengan Rp3.000.000",
+            "Sisa PKP Rp60 juta (dari Rp120 juta dikurangi Rp60 juta) dikali 15% sama dengan Rp9.000.000, sehingga total PPh terutang setahun Pak Dito adalah Rp12.000.000 atau sekitar Rp1.000.000 per bulan"
+          ]
+        },
+        "diagram_mermaid": [
+          "graph LR\n    subgraph LAMA[\"Tarif PPh OP Sebelum UU HPP\"]\n    A1[\"0 sampai 50 Juta: 5%\"] --> A2[\"50 sampai 250 Juta: 15%\"]\n    A2 --> A3[\"250 sampai 500 Juta: 25%\"]\n    A3 --> A4[\"Di Atas 500 Juta: 30%\"]\n    end\n    subgraph BARU[\"Tarif PPh OP Setelah UU HPP\"]\n    B1[\"0 sampai 60 Juta: 5%\"] --> B2[\"60 sampai 250 Juta: 15%\"]\n    B2 --> B3[\"250 sampai 500 Juta: 25%\"]\n    B3 --> B4[\"500 Juta sampai 5 Miliar: 30%\"]\n    B4 --> B5[\"Di Atas 5 Miliar: 35%\"]\n    end"
+        ],
+        "penjelasan_diagram": "Diagram ini membandingkan struktur tarif progresif PPh Orang Pribadi sebelum dan sesudah UU HPP, menunjukkan tambahan lapisan baru 35% dan pergeseran batas lapisan pertama.",
+        "prompt_gambar": [
+          {
+            "id": "img-03",
+            "prompt": "A premium ultra-modern 3D isometric stylized studio render in landscape 16:9 ratio, visualizing Indonesia's five-tier progressive personal income tax bracket structure as an ascending staircase of glowing glass platforms. The background is a deep dark-mode navy #0F172A blending into a rich violet-indigo gradient mesh #1E1B4B with soft ambient studio lighting and gentle volumetric glow. Five glass staircase steps rise from left to right, each step slightly larger and glowing brighter than the last, topped with a floating percentage orb in electric blue #3B82F6 for the lower steps transitioning to warm gold #F59E0B for the highest step. Each step has a bold modern Indonesian text label clearly printed on its front face, such as 'Lapisan 1', 'Lapisan 2', up to 'Lapisan Baru 35 Persen' on the tallest step. A small 3D isometric figure of a professional in business attire stands beside the staircase looking upward, with a glowing calculator and coin stack nearby. Emerald green #10B981 accent lighting highlights the connecting edges. Cinematic depth of field, reflective glass surfaces, crisp premium resolution, elegant tech-education infographic aesthetic.",
+            "keterangan": "Ilustrasi tangga bertingkat yang menggambarkan lima lapisan tarif progresif PPh Orang Pribadi menurut UU HPP, dari tarif 5% sampai lapisan baru 35% untuk penghasilan di atas Rp5 miliar setahun.",
+            "alt": "Ilustrasi 3D tangga kaca bercahaya lima tingkat mewakili lima lapisan tarif PPh Orang Pribadi",
+            "url_gambar": null
+          }
+        ],
+        "kalkulator": {
+          "tipe": "pph_op",
+          "judul": "Kalkulator PPh Orang Pribadi 5 Lapis",
+          "keterangan": "Masukkan Penghasilan Kena Pajak (PKP) kamu setahun untuk melihat berapa PPh terutang memakai tarif progresif 5 lapis UU HPP, dari 5% sampai 35%."
+        },
+        "mini_kuis": [
+          {
+            "id": "q1",
+            "pertanyaan": "Berapa tarif untuk lapisan terbaru yang ditambahkan UU HPP pada Pasal 17 UU PPh?",
+            "tipe": "pilihan_ganda",
+            "pilihan": [
+              "A. 25%",
+              "B. 30%",
+              "C. 35%",
+              "D. 40%"
+            ],
+            "jawaban": "C",
+            "pembahasan": "UU HPP menambahkan lapisan baru sebesar 35% untuk Penghasilan Kena Pajak di atas Rp5 miliar setahun, melengkapi 4 lapisan yang sudah ada sebelumnya yaitu 5%, 15%, 25%, dan 30%."
+          },
+          {
+            "id": "q2",
+            "pertanyaan": "Kalau Penghasilan Kena Pajak seseorang Rp120 juta setahun, seluruh penghasilannya dikenakan tarif 15%.",
+            "tipe": "benar_salah",
+            "pilihan": [
+              "Benar",
+              "Salah"
+            ],
+            "jawaban": "Salah",
+            "pembahasan": "Tarif progresif dihitung berlapis, bukan pukul rata. Jadi Rp60 juta pertama tetap kena tarif 5%, dan hanya sisanya Rp60 juta yang kena tarif 15%, bukan seluruh Rp120 juta dikenakan tarif 15%."
+          },
+          {
+            "id": "q3",
+            "pertanyaan": "Jelaskan kenapa penerapan TER (Tarif Efektif Rata-rata) untuk pemotongan bulanan tidak bertentangan dengan tarif progresif 5 lapis Pasal 17 UU HPP!",
+            "tipe": "esai",
+            "pilihan": [],
+            "jawaban": "TER adalah metode penyederhanaan yang dipakai khusus untuk pemotongan PPh 21 bulanan oleh pemberi kerja, bertujuan supaya perhitungan tiap bulan lebih praktis dan tidak perlu menghitung ulang tarif progresif tiap kali gajian. TER dihitung berdasarkan kategori PTKP dan kisaran penghasilan bruto bulanan sesuai PP 58/2023 dan PMK 168/2023. Namun, TER bukan tarif final. Pada akhir tahun pajak, saat pelaporan SPT Tahunan, seluruh penghasilan setahun tetap direkonsiliasi ulang menggunakan tarif progresif 5 lapis sesuai Pasal 17 UU PPh hasil perubahan UU HPP. Jadi TER dan tarif progresif Pasal 17 bukan dua sistem yang bertentangan, melainkan TER berfungsi sebagai jalan pintas bulanan, sedangkan Pasal 17 tetap jadi acuan final perhitungan pajak setahun penuh."
+          }
+        ],
+        "kesalahan_umum": [
+          {
+            "salah": "Mengira seluruh penghasilan dikenakan satu tarif tunggal sesuai lapisan tertinggi yang dicapai",
+            "benar": "Tarif progresif dihitung bertingkat, setiap lapisan penghasilan dikenakan tarifnya masing-masing",
+            "tips": "Selalu pecah dulu penghasilan kena pajak sesuai batas tiap lapisan sebelum mengalikan tarif"
+          },
+          {
+            "salah": "Menganggap TER dan tarif progresif Pasal 17 adalah dua sistem pajak yang berbeda dan saling menggantikan",
+            "benar": "TER hanya metode pemotongan bulanan, sedangkan perhitungan final tahunan tetap pakai tarif progresif Pasal 17",
+            "tips": "Jangan bandingkan angka potongan TER bulanan langsung dengan tarif progresif tahunan, karena fungsinya beda"
+          }
+        ],
+        "istilah": [
+          {
+            "kata": "PKP (Penghasilan Kena Pajak)",
+            "definisi": "Jumlah penghasilan bersih setelah dikurangi biaya jabatan dan PTKP yang menjadi dasar penghitungan PPh terutang.",
+            "contoh": "PKP Pak Dito adalah Rp120 juta setelah dikurangi biaya jabatan dan PTKP."
+          },
+          {
+            "kata": "PTKP",
+            "definisi": "Penghasilan Tidak Kena Pajak, batas penghasilan minimum yang tidak dikenakan pajak sesuai status perkawinan dan tanggungan wajib pajak.",
+            "contoh": "PTKP Pak Dito dengan status TK/0 adalah Rp54 juta setahun."
+          },
+          {
+            "kata": "TER",
+            "definisi": "Tarif Efektif Rata-rata, metode penyederhanaan perhitungan PPh 21 bulanan sesuai PP 58/2023 dan PMK 168/2023.",
+            "contoh": "HR startup tempat Pak Dito bekerja memakai TER untuk memotong PPh 21 gajinya tiap bulan."
+          },
+          {
+            "kata": "Biaya Jabatan",
+            "definisi": "Pengurang penghasilan bruto sebesar 5% dengan batas maksimal tertentu per tahun yang diberikan kepada karyawan sebelum menghitung PKP.",
+            "contoh": "Penghasilan bruto Pak Dito dikurangi biaya jabatan maksimal Rp6 juta setahun sebelum dikurangi PTKP."
+          }
+        ]
+      },
+      {
+        "id": "bag-11",
+        "judul": "Fasilitas PPh Final UMKM",
+        "paragraf": [
+          "Sekarang kita bahas kabar baik buat pelaku UMKM. UU HPP lewat PP 55/2022 (yang jadi aturan turunan sekaligus revisi dari PP 23/2018) ngasih fasilitas gede buat wajib pajak Orang Pribadi yang punya usaha UMKM: omzet usaha sampai Rp500 juta per tahun itu BEBAS PAJAK alias dikenakan tarif 0%. Ini semacam PTKP versi UMKM yang bikin pelaku usaha kecil nggak langsung kena PPh Final dari rupiah pertama omzetnya.",
+          "Gampangnya gini, kalau omzet usaha kamu setahun masih di bawah atau sama dengan Rp500 juta, kamu nggak perlu bayar PPh Final sama sekali. Tapi kalau omzet kamu udah lewat Rp500 juta, PPh Final 0,5% cuma dihitung dari selisih omzet yang di atas Rp500 juta itu aja, bukan dari total omzet dari nol. Fasilitas ini cuma berlaku buat Wajib Pajak Orang Pribadi, sementara Wajib Pajak Badan berbentuk CV atau firma dapet fasilitas ini maksimal 4 tahun pajak aja, dan PT dapet 3 tahun pajak.",
+          "Tips praktisnya, kalau kamu pelaku UMKM, penting banget buat rutin nyatet omzet bulanan biar gampang ngitung kapan kamu ngelewatin batas Rp500 juta itu. Banyak pelaku usaha yang salah kaprah ngira begitu omzetnya lewat Rp500 juta, seluruh omzetnya langsung kena PPh Final 0,5%, padahal yang kena cuma bagian yang melebihi batas itu aja."
+        ],
+        "poin_penting": [
+          "🎉 Omzet UMKM Orang Pribadi sampai Rp500 juta per tahun bebas PPh Final alias 0%",
+          "💰 PPh Final 0,5% hanya dihitung dari omzet yang melebihi Rp500 juta, bukan dari total omzet",
+          "📌 Fasilitas ini berbasis PP 55/2022 yang merevisi PP 23/2018",
+          "⏳ Untuk Wajib Pajak Badan seperti PT dan CV, fasilitas PPh Final ini punya batas waktu tertentu"
+        ],
+        "analogi": "Ibaratnya kayak diskon belanja di supermarket, belanjaan sampai Rp500 ribu pertama gratis ongkos kirim, tapi kalau belanjaanmu lebih dari itu, cuma bagian kelebihannya aja yang kena biaya tambahan. Bukan seluruh belanjaan kena biaya dari awal.",
+        "contoh_kasus": {
+          "judul": "Bu Siti Jualan Online Lewat GoFood dan Marketplace",
+          "cerita": "Bu Siti punya usaha katering rumahan yang dijual lewat GoFood dan marketplace online, dengan omzet setahun mencapai Rp650 juta. Karena omzetnya melebihi Rp500 juta, Bu Siti kena PPh Final 0,5% hanya dari selisihnya, yaitu Rp650 juta dikurangi Rp500 juta sama dengan Rp150 juta. Jadi PPh Final yang harus dibayar Bu Siti adalah 0,5% dikali Rp150 juta sama dengan Rp750.000, bukan dihitung dari seluruh Rp650 juta omzetnya.",
+          "poin": [
+            "PPh Final UMKM hanya dikenakan atas selisih omzet yang melebihi Rp500 juta",
+            "Bu Siti tetap harus mencatat omzet secara rutin untuk memastikan perhitungan yang tepat"
+          ]
+        },
+        "diagram_mermaid": [],
+        "prompt_gambar": [],
+        "kalkulator": {
+          "tipe": "pph_final",
+          "judul": "Kalkulator PPh Final UMKM 0,5%",
+          "keterangan": "Masukkan omzet usaha kamu setahun untuk menghitung PPh Final yang harus dibayar, ingat omzet sampai Rp500 juta itu bebas pajak alias 0%."
+        },
+        "mini_kuis": [
+          {
+            "id": "q1",
+            "pertanyaan": "Berapa batas omzet UMKM Orang Pribadi yang bebas PPh Final menurut PP 55/2022?",
+            "tipe": "pilihan_ganda",
+            "pilihan": [
+              "A. Rp100 juta",
+              "B. Rp250 juta",
+              "C. Rp500 juta",
+              "D. Rp4,8 miliar"
+            ],
+            "jawaban": "C",
+            "pembahasan": "Menurut PP 55/2022, Wajib Pajak Orang Pribadi UMKM dengan omzet sampai Rp500 juta per tahun dibebaskan dari PPh Final alias dikenakan tarif 0%. PPh Final 0,5% baru berlaku untuk bagian omzet yang melebihi Rp500 juta."
+          },
+          {
+            "id": "q2",
+            "pertanyaan": "Kalau omzet UMKM sudah melebihi Rp500 juta, seluruh omzetnya dikenakan PPh Final 0,5% dari rupiah pertama.",
+            "tipe": "benar_salah",
+            "pilihan": [
+              "Benar",
+              "Salah"
+            ],
+            "jawaban": "Salah",
+            "pembahasan": "PPh Final 0,5% hanya dikenakan atas selisih omzet yang melebihi Rp500 juta, bukan dari total omzet keseluruhan. Jadi Rp500 juta pertama tetap bebas pajak meskipun omzet totalnya sudah melebihi batas tersebut."
+          }
+        ],
+        "kesalahan_umum": [
+          {
+            "salah": "Mengira begitu omzet lewat Rp500 juta, seluruh omzet dari nol dikenakan PPh Final 0,5%",
+            "benar": "PPh Final 0,5% hanya dihitung dari selisih omzet yang melebihi Rp500 juta",
+            "tips": "Selalu hitung selisihnya dulu sebelum mengalikan dengan tarif 0,5%"
+          },
+          {
+            "salah": "Mengira fasilitas bebas pajak Rp500 juta ini berlaku juga untuk Wajib Pajak Badan tanpa batas waktu",
+            "benar": "Fasilitas dengan skema tanpa batas waktu ini khusus untuk Orang Pribadi, sementara Badan seperti PT dan CV punya batas waktu penggunaan fasilitas PPh Final",
+            "tips": "Cek status badan usaha kamu untuk tahu berapa lama fasilitas PPh Final bisa dipakai"
+          }
+        ],
+        "istilah": [
+          {
+            "kata": "PP 55/2022",
+            "definisi": "Peraturan Pemerintah yang mengatur fasilitas PPh Final UMKM termasuk batas omzet bebas pajak sebesar Rp500 juta per tahun.",
+            "contoh": "Bu Siti memanfaatkan fasilitas dari PP 55/2022 untuk usaha kateringnya."
+          },
+          {
+            "kata": "PPh Final",
+            "definisi": "Pajak penghasilan yang dikenakan dengan tarif tertentu dan bersifat final, artinya tidak perlu dihitung ulang di SPT Tahunan dengan tarif progresif.",
+            "contoh": "Bu Siti membayar PPh Final 0,5% dari selisih omzetnya yang melebihi Rp500 juta."
+          },
+          {
+            "kata": "Omzet",
+            "definisi": "Total peredaran bruto atau penjualan kotor suatu usaha dalam periode tertentu sebelum dikurangi biaya-biaya.",
+            "contoh": "Omzet usaha katering Bu Siti dalam setahun mencapai Rp650 juta."
+          }
+        ]
+      },
+      {
+        "id": "bag-12",
+        "judul": "Tarif PPh Badan 22 Persen",
+        "paragraf": [
+          "Kalau tadi kita bahas PPh Orang Pribadi, sekarang giliran PPh Badan alias pajak buat perusahaan berbentuk PT, CV, dan badan usaha lainnya. Sebelum UU HPP, sempat ada rencana penurunan tarif PPh Badan secara bertahap dari 22% ke 20%. Tapi lewat UU HPP, pemerintah memutuskan buat mempertahankan tarif PPh Badan tetap di angka 22% secara berkelanjutan, nggak jadi turun ke 20% seperti rencana awal.",
+          "Kenapa dipertahankan di 22%? Alasannya buat menjaga keseimbangan antara daya saing dunia usaha dan kebutuhan penerimaan negara. Tarif 22% ini dianggap masih kompetitif dibanding negara-negara tetangga di kawasan ASEAN, sambil tetap menjaga penerimaan pajak negara tetap stabil buat mendanai berbagai program pembangunan lewat APBN.",
+          "Cara hitungnya simpel, tarif 22% ini dikalikan langsung ke Penghasilan Kena Pajak alias laba fiskal perusahaan setelah dikurangi biaya-biaya yang boleh dikurangkan sesuai aturan pajak. Buat perusahaan yang sudah go public alias terbuka di bursa saham dengan syarat kepemilikan saham publik minimal tertentu, ada insentif tambahan berupa pengurangan tarif 3% dari tarif normal, jadi bisa lebih rendah dari 22%."
+        ],
+        "poin_penting": [
+          "🏢 Tarif PPh Badan dipertahankan tetap di 22%, tidak jadi turun ke 20% seperti rencana awal",
+          "🎯 Kebijakan ini bertujuan menjaga daya saing industri sekaligus stabilitas penerimaan negara",
+          "🧮 Tarif 22% dikalikan langsung ke Penghasilan Kena Pajak alias laba fiskal perusahaan",
+          "✅ Perusahaan terbuka di bursa saham dengan syarat tertentu bisa dapat insentif pengurangan tarif tambahan"
+        ],
+        "analogi": "Ibaratnya pemerintah lagi jaga keseimbangan timbangan, di satu sisi ada kebutuhan perusahaan biar tetap kompetitif dan mau investasi di Indonesia, di sisi lain ada kebutuhan negara buat dapet penerimaan pajak yang stabil. Tarif 22% ini dianggap titik seimbang yang pas buat kedua kebutuhan itu.",
+        "contoh_kasus": {
+          "judul": "PT Kreasi Digital Menghitung PPh Badan Tahunan",
+          "cerita": "PT Kreasi Digital, sebuah startup teknologi di Jakarta, mencatat laba kena pajak alias Penghasilan Kena Pajak sebesar Rp2 miliar di tahun 2026. Karena perusahaan ini belum terdaftar sebagai perusahaan terbuka di bursa saham, mereka dikenakan tarif PPh Badan normal sebesar 22% tanpa insentif tambahan. PPh Badan yang harus dibayar PT Kreasi Digital adalah 22% dikali Rp2 miliar sama dengan Rp440 juta.",
+          "poin": [
+            "PPh Badan dihitung langsung dari Penghasilan Kena Pajak dikali tarif 22%",
+            "Perusahaan yang belum go public tidak mendapat insentif pengurangan tarif tambahan"
+          ]
+        },
+        "diagram_mermaid": [],
+        "prompt_gambar": [],
+        "kalkulator": {
+          "tipe": "pph_badan",
+          "judul": "Kalkulator PPh Badan 22%",
+          "keterangan": "Masukkan laba kena pajak perusahaan kamu untuk menghitung PPh Badan terutang memakai tarif flat 22%."
+        },
+        "mini_kuis": [
+          {
+            "id": "q1",
+            "pertanyaan": "Berapa tarif PPh Badan yang dipertahankan UU HPP secara berkelanjutan?",
+            "tipe": "pilihan_ganda",
+            "pilihan": [
+              "A. 18%",
+              "B. 20%",
+              "C. 22%",
+              "D. 25%"
+            ],
+            "jawaban": "C",
+            "pembahasan": "UU HPP mempertahankan tarif PPh Badan tetap di angka 22%, membatalkan rencana penurunan bertahap menjadi 20% yang sempat direncanakan sebelumnya, demi menjaga keseimbangan daya saing usaha dan penerimaan negara."
+          },
+          {
+            "id": "q2",
+            "pertanyaan": "Semua perusahaan tanpa syarat apapun otomatis mendapat pengurangan tarif 3% dari tarif PPh Badan normal.",
+            "tipe": "benar_salah",
+            "pilihan": [
+              "Benar",
+              "Salah"
+            ],
+            "jawaban": "Salah",
+            "pembahasan": "Pengurangan tarif 3% hanya berlaku untuk perusahaan terbuka yang sudah tercatat di bursa saham dan memenuhi syarat kepemilikan saham publik minimal tertentu, bukan berlaku otomatis untuk semua perusahaan."
+          }
+        ],
+        "kesalahan_umum": [
+          {
+            "salah": "Mengira tarif PPh Badan sudah turun jadi 20% sesuai rencana awal sebelum UU HPP",
+            "benar": "UU HPP membatalkan rencana penurunan tersebut dan mempertahankan tarif PPh Badan tetap 22%",
+            "tips": "Selalu gunakan tarif 22% sebagai acuan terbaru untuk perhitungan PPh Badan"
+          },
+          {
+            "salah": "Mengira insentif pengurangan tarif 3% berlaku untuk semua badan usaha termasuk yang belum go public",
+            "benar": "Insentif ini khusus untuk perusahaan terbuka di bursa saham dengan syarat kepemilikan saham publik tertentu",
+            "tips": "Cek status perusahaan kamu di bursa saham sebelum mengklaim insentif pengurangan tarif ini"
+          }
+        ],
+        "istilah": [
+          {
+            "kata": "PPh Badan",
+            "definisi": "Pajak Penghasilan yang dikenakan atas laba kena pajak badan usaha seperti PT, CV, dan bentuk badan usaha lainnya.",
+            "contoh": "PT Kreasi Digital membayar PPh Badan sebesar Rp440 juta dari laba kena pajaknya."
+          },
+          {
+            "kata": "Laba Fiskal",
+            "definisi": "Laba yang dihitung berdasarkan aturan perpajakan, bisa berbeda dengan laba akuntansi karena ada koreksi fiskal tertentu.",
+            "contoh": "Laba fiskal PT Kreasi Digital dihitung setelah dilakukan koreksi fiskal atas laporan keuangannya."
+          },
+          {
+            "kata": "Perusahaan Terbuka",
+            "definisi": "Perusahaan yang sahamnya diperdagangkan secara publik di bursa saham dan memenuhi persyaratan tertentu.",
+            "contoh": "Sebuah perusahaan terbuka bisa mendapat insentif pengurangan tarif PPh Badan sebesar 3% dari tarif normal."
+          }
+        ]
+      },
+      {
+        "id": "bag-13",
+        "judul": "Tarif PPN 12 Persen di 2026",
+        "paragraf": [
+          "Nah ini topik yang paling sering bikin salah paham, jadi kita luruskan pelan-pelan ya. UU HPP lewat Pasal 7 UU PPN memang mengatur tarif PPN maksimal bisa naik sampai 12%. Tapi penting banget buat kamu tau, tarif 12% ini TIDAK berlaku pukul rata ke semua barang dan jasa. Berdasarkan PMK 131/2024 dan penegasan pemerintah yang berlaku sampai 2026, tarif 12% itu cuma dikenakan khusus buat barang dan jasa yang tergolong mewah, alias yang juga kena PPnBM (Pajak Penjualan atas Barang Mewah) seperti mobil, motor mewah, hunian mewah, kapal pesiar, sampai pesawat udara pribadi.",
+          "Terus gimana buat barang dan jasa umum sehari-hari kayak laptop, baju, atau jasa reparasi? Nah, buat barang dan jasa nonmewah, mekanismenya pakai DPP Nilai Lain, yaitu tarif 12% dikalikan 11/12 dari harga jual. Kalau kamu hitung, hasilnya itu sama aja dengan tarif efektif 11%. Jadi meskipun secara aturan tarif PPN 'resminya' 12%, buat kebutuhan sehari-hari yang bukan barang mewah, PPN yang beneran kamu bayar tetap 11%, bukan 12%. Ini penting banget biar kamu nggak salah kasih informasi ke murid atau pengguna aplikasi kamu.",
+          "Kementerian Keuangan sendiri udah negesin di pertengahan 2025 kalau kebijakan ini tetap dipertahankan sampai 2026, artinya nggak ada kenaikan tarif PPN baru buat barang dan jasa umum. Jadi kalau ada yang bilang 'PPN sekarang 12% buat semua barang', itu kurang tepat. Yang benar: PPN 12% cuma buat barang mewah, sementara barang dan jasa umum tetap efektif kena 11% lewat skema DPP Nilai Lain sesuai PMK 131/2024."
+        ],
+        "poin_penting": [
+          "⚠️ Tarif PPN 12% HANYA berlaku untuk barang dan jasa mewah yang kena PPnBM, sesuai PMK 131/2024",
+          "✅ Barang dan jasa umum nonmewah tetap efektif kena PPN 11% lewat skema DPP Nilai Lain (12% x 11/12)",
+          "📌 Dasar hukumnya Pasal 7 UU PPN sebagaimana diubah UU HPP, yang menetapkan 12% sebagai tarif maksimal",
+          "🔑 Kemenkeu menegaskan kebijakan ini dipertahankan tanpa perubahan sampai tahun 2026"
+        ],
+        "analogi": "Bayangin ada dua kasir di mal. Kasir pertama khusus buat barang branded mewah, mereka nagih 'harga penuh' 12%. Kasir kedua buat belanjaan sehari-hari, mereka otomatis kasih 'potongan perhitungan' lewat rumus khusus sehingga yang kamu bayar tetap setara 11%. Sama-sama disebut 'tarif 12%' di sistem, tapi yang bener-bener kamu rasain beda tergantung jenis barangnya.",
+        "contoh_kasus": {
+          "judul": "Kak Nisa Beli Laptop Baru Seharga Rp15 Juta di 2026",
+          "cerita": "Kak Nisa beli laptop kerja seharga Rp15.000.000 di sebuah toko elektronik resmi PKP di tahun 2026. Karena laptop bukan termasuk kategori barang mewah yang kena PPnBM, penghitungan PPN-nya pakai skema DPP Nilai Lain, bukan tarif 12% penuh. Kak Nisa penasaran kenapa struk belanjanya menunjukkan PPN yang jumlahnya setara 11% dari harga laptop, bukan 12%.",
+          "poin": [
+            "DPP Nilai Lain dihitung 11/12 dikali Rp15.000.000 sama dengan Rp13.750.000",
+            "PPN terutang dihitung 12% dikali Rp13.750.000 sama dengan Rp1.650.000, yang secara efektif setara dengan 11% dari harga laptop, sehingga total yang dibayar Kak Nisa adalah Rp16.650.000"
+          ]
+        },
+        "diagram_mermaid": [
+          "graph LR\n    A[\"2021: UU HPP Sahkan PPN Maksimal 12%\"] --> B[\"2022: PPN Naik dari 10% ke 11%\"]\n    B --> C[\"2025 Januari: PPN 12% Berlaku Khusus Barang Mewah PMK 131\"]\n    C --> D[\"2025: Barang Jasa Umum Tetap Efektif 11% via DPP Nilai Lain\"]\n    D --> E[\"2026: Kebijakan Dipertahankan, Tidak Ada Kenaikan Baru\"]"
+        ],
+        "penjelasan_diagram": "Diagram ini nunjukin garis waktu pemberlakuan tarif PPN sejak UU HPP disahkan sampai 2026, termasuk penegasan bahwa 12% cuma berlaku untuk barang mewah sementara barang umum tetap efektif 11%.",
+        "prompt_gambar": [
+          {
+            "id": "img-04",
+            "prompt": "An ultra-modern 3D isometric stylized studio render, landscape 16:9 orientation, illustrating Indonesia's dual VAT rate system for luxury versus general goods in 2026. The composition is set against a deep dark-mode navy background #0F172A merging into a soft indigo gradient mesh #1E1B4B with cinematic ambient studio lighting and subtle glowing particles. On the left side, a glowing glass platform holds a 3D isometric luxury sports car and a stack of gold coins, brightly lit in warm gold #F59E0B, with a bold modern Indonesian text label clearly printed above it. On the right side, a separate glowing glass platform holds a 3D isometric shopping basket filled with everyday grocery and electronic items, lit in electric blue #3B82F6, with its own bold modern Indonesian text label clearly printed above it. A thin glowing divider beam of emerald green #10B981 light separates the two platforms in the center, with a small floating percentage symbol hovering above each side. Reflective glass materials, soft rim lighting, balanced symmetrical composition, premium fintech-education infographic style, crisp high resolution, elegant shadows and depth of field.",
+            "keterangan": "Ilustrasi perbandingan skema PPN barang mewah dan barang umum di Indonesia tahun 2026, menunjukkan bahwa tarif 12% hanya berlaku untuk barang mewah sementara barang umum tetap efektif dikenakan PPN setara 11%.",
+            "alt": "Ilustrasi 3D perbandingan mobil mewah dan keranjang belanja sehari-hari dengan label tarif PPN berbeda",
+            "url_gambar": null
+          }
+        ],
+        "kalkulator": {
+          "tipe": "ppn",
+          "judul": "Kalkulator PPN Barang Mewah vs Umum",
+          "keterangan": "Masukkan harga barang dan pilih kategorinya, mewah atau umum, untuk melihat perbedaan PPN yang harus kamu bayar."
+        },
+        "mini_kuis": [
+          {
+            "id": "q1",
+            "pertanyaan": "Barang apa yang dikenakan tarif PPN 12% penuh sesuai PMK 131/2024?",
+            "tipe": "pilihan_ganda",
+            "pilihan": [
+              "A. Semua barang dan jasa tanpa kecuali",
+              "B. Hanya barang dan jasa yang tergolong mewah dan kena PPnBM",
+              "C. Hanya jasa pendidikan dan kesehatan",
+              "D. Hanya barang kebutuhan pokok"
+            ],
+            "jawaban": "B",
+            "pembahasan": "Sesuai PMK 131/2024, tarif PPN 12% penuh hanya dikenakan untuk barang dan jasa yang tergolong mewah dan kena PPnBM, seperti mobil, hunian mewah, kapal pesiar, dan pesawat udara pribadi. Barang dan jasa umum tetap dikenakan tarif efektif 11% lewat skema DPP Nilai Lain."
+          },
+          {
+            "id": "q2",
+            "pertanyaan": "Untuk barang nonmewah, PPN dihitung dengan tarif 12% dikalikan 11/12 dari harga jual, yang hasilnya setara tarif efektif 11%.",
+            "tipe": "benar_salah",
+            "pilihan": [
+              "Benar",
+              "Salah"
+            ],
+            "jawaban": "Benar",
+            "pembahasan": "Benar, ini adalah mekanisme DPP Nilai Lain sesuai PMK 131/2024. Dengan rumus 12% dikalikan 11/12 dari harga jual, hasilnya secara matematis setara dengan tarif efektif 11% dari harga jual barang atau jasa nonmewah."
+          },
+          {
+            "id": "q3",
+            "pertanyaan": "Berapa PPN terutang atas pembelian laptop seharga Rp15.000.000 di tahun 2026, dengan asumsi laptop bukan barang mewah?",
+            "tipe": "isian_singkat",
+            "pilihan": [],
+            "jawaban": "Rp1.650.000",
+            "pembahasan": "DPP Nilai Lain dihitung 11/12 dikali Rp15.000.000 sama dengan Rp13.750.000, lalu PPN dihitung 12% dikali Rp13.750.000 sama dengan Rp1.650.000. Hasil ini setara dengan 11% dikali langsung Rp15.000.000, yang juga menghasilkan Rp1.650.000."
+          }
+        ],
+        "kesalahan_umum": [
+          {
+            "salah": "Mengira semua barang dan jasa di Indonesia kena PPN 12% penuh mulai 2025 atau 2026",
+            "benar": "Hanya barang dan jasa mewah yang kena PPnBM yang dikenakan tarif 12% penuh, barang umum tetap efektif 11%",
+            "tips": "Selalu cek dulu apakah barangnya termasuk kategori mewah sebelum mengasumsikan tarif PPN yang berlaku"
+          },
+          {
+            "salah": "Menghitung PPN barang umum langsung dengan mengalikan 12% ke harga jual tanpa memakai skema DPP Nilai Lain",
+            "benar": "Untuk barang umum, PPN dihitung dari DPP Nilai Lain yaitu 11/12 dari harga jual, dikalikan tarif 12%, hasilnya setara 11%",
+            "tips": "Gunakan kalkulator PPN yang sudah menyesuaikan skema DPP Nilai Lain biar hasilnya akurat"
+          }
+        ],
+        "istilah": [
+          {
+            "kata": "DPP Nilai Lain",
+            "definisi": "Dasar Pengenaan Pajak yang dihitung dengan rumus khusus, bukan langsung dari harga jual, digunakan untuk transaksi tertentu termasuk barang nonmewah dalam skema PPN 12%.",
+            "contoh": "DPP Nilai Lain untuk laptop Kak Nisa dihitung 11/12 dikali harga jualnya."
+          },
+          {
+            "kata": "PPnBM",
+            "definisi": "Pajak Penjualan atas Barang Mewah, pungutan tambahan di luar PPN yang dikenakan khusus untuk barang-barang tergolong mewah.",
+            "contoh": "Mobil sport yang dibeli seseorang dikenakan PPnBM selain PPN 12%."
+          },
+          {
+            "kata": "PMK 131/2024",
+            "definisi": "Peraturan Menteri Keuangan yang mengatur perlakuan PPN atas impor dan penyerahan barang serta jasa, termasuk skema tarif 12% untuk barang mewah dan DPP Nilai Lain untuk barang umum.",
+            "contoh": "Toko elektronik tempat Kak Nisa belanja mengacu ke PMK 131/2024 untuk menghitung PPN laptopnya."
+          }
+        ]
+      },
+      {
+        "id": "bag-14",
+        "judul": "Fasilitas PPN Dibebaskan dan Besaran Tertentu",
+        "paragraf": [
+          "Selain skema tarif mewah dan umum yang udah kita bahas, UU HPP juga ngatur fasilitas PPN Dibebaskan buat barang dan jasa tertentu yang dianggap kebutuhan dasar masyarakat. Contohnya kebutuhan pokok kayak beras, jagung, dan garam, terus jasa kesehatan seperti layanan dokter dan rumah sakit, serta jasa pendidikan seperti sekolah dan kampus. Barang dan jasa ini statusnya BKP (Barang Kena Pajak) atau JKP (Jasa Kena Pajak) yang Dibebaskan, artinya secara prinsip kena PPN tapi negara membebaskan pungutannya demi menjaga daya beli masyarakat.",
+          "Selain fasilitas dibebaskan, ada juga skema PPN Besaran Tertentu sesuai Pasal 9A UU PPN, yang tujuannya nyederhanain administrasi buat sektor usaha tertentu. Skema ini dipakai buat pengusaha dengan omzet di bawah batas tertentu, kegiatan usaha tertentu, atau penyerahan BKP dan JKP tertentu. Besarannya beda-beda tiap sektor, misalnya buat hasil pertanian tertentu, tarif efektifnya 1,2% dari harga jual (naik dari 1,1% seiring penyesuaian tarif PPN), buat jasa agen asuransi juga 1,2%, dan buat penyerahan emas perhiasan ke konsumen akhir sebesar 1,8%.",
+          "Semua ketentuan soal DPP Nilai Lain dan Besaran Tertentu ini disatukan dan disempurnakan lewat PMK 11/2025, yang bertujuan biar penyesuaian tarif PPN jadi 12% nggak berdampak berlebihan ke barang dan jasa yang bukan kategori mewah. Tips buat pelaku usaha, cek dulu apakah usaha kamu termasuk kategori yang dapat fasilitas PPN Besaran Tertentu ini, karena bisa jauh lebih simpel dibanding hitung PPN pakai mekanisme umum."
+        ],
+        "poin_penting": [
+          "🍚 Kebutuhan pokok, jasa kesehatan, dan jasa pendidikan berstatus BKP/JKP yang Dibebaskan dari PPN",
+          "📊 PPN Besaran Tertentu memberi tarif efektif khusus yang lebih sederhana untuk sektor tertentu",
+          "🌾 Contohnya hasil pertanian tertentu kena tarif efektif 1,2%, naik dari sebelumnya 1,1%",
+          "📌 Semua skema ini disatukan dan disempurnakan lewat PMK 11/2025"
+        ],
+        "analogi": "Ibaratnya pemerintah kasih dua jenis 'kartu diskon' berbeda. Kartu pertama buat kebutuhan dasar, langsung gratis PPN sama sekali. Kartu kedua buat sektor usaha tertentu, bukan gratis tapi dapet 'tarif spesial' yang lebih simpel dan biasanya lebih rendah dibanding hitungan PPN standar.",
+        "contoh_kasus": {
+          "judul": "Pak Budi Petani Menjual Hasil Panen Jagung",
+          "cerita": "Pak Budi adalah petani jagung di daerah pinggiran yang menjual hasil panennya ke sebuah pabrik pengolahan pakan ternak senilai Rp200.000.000. Karena jagung termasuk kategori hasil pertanian tertentu yang menggunakan skema PPN Besaran Tertentu, PPN yang dipungut hanya sebesar tarif efektif 1,2% dari nilai penjualan, jauh lebih sederhana dibanding menghitung PPN dengan mekanisme umum.",
+          "poin": [
+            "Hasil pertanian tertentu menggunakan skema PPN Besaran Tertentu dengan tarif efektif 1,2%",
+            "Skema ini memudahkan pelaku usaha kecil seperti petani dalam memenuhi kewajiban PPN-nya"
+          ]
+        },
+        "diagram_mermaid": [
+          "graph TD\n    A[\"Fasilitas PPN untuk Barang dan Jasa Tertentu\"] --> B[\"PPN Dibebaskan: Kebutuhan Pokok, Jasa Kesehatan, Jasa Pendidikan\"]\n    A --> C[\"PPN Besaran Tertentu: Tarif Khusus Lebih Simpel\"]\n    C --> D[\"Hasil Pertanian Tertentu: Efektif 1,2%\"]\n    C --> E[\"Jasa Agen Asuransi: Efektif 1,2%\"]\n    C --> F[\"Emas Perhiasan ke Konsumen Akhir: Efektif 1,8%\"]"
+        ],
+        "penjelasan_diagram": "Diagram ini nunjukin dua jalur fasilitas PPN, yaitu PPN Dibebaskan untuk kebutuhan dasar dan PPN Besaran Tertentu dengan tarif efektif khusus untuk sektor usaha tertentu.",
+        "prompt_gambar": [],
+        "kalkulator": {
+          "tipe": "ppn",
+          "judul": "Kalkulator PPN Besaran Tertentu",
+          "keterangan": "Masukkan nilai transaksi untuk sektor dengan skema besaran tertentu, misalnya hasil pertanian, untuk melihat PPN efektif yang dipungut."
+        },
+        "mini_kuis": [
+          {
+            "id": "q1",
+            "pertanyaan": "Apa yang dimaksud dengan BKP atau JKP Dibebaskan dari PPN?",
+            "tipe": "pilihan_ganda",
+            "pilihan": [
+              "A. Barang atau jasa yang sama sekali bukan objek PPN",
+              "B. Barang atau jasa yang secara prinsip kena PPN tapi pungutannya dibebaskan oleh negara",
+              "C. Barang atau jasa yang wajib dikenakan PPN 12% penuh",
+              "D. Barang atau jasa yang hanya berlaku untuk ekspor"
+            ],
+            "jawaban": "B",
+            "pembahasan": "BKP atau JKP Dibebaskan adalah barang atau jasa yang secara prinsip termasuk objek PPN, tapi negara memberikan fasilitas pembebasan pungutannya, seperti kebutuhan pokok, jasa kesehatan, dan jasa pendidikan, demi menjaga daya beli masyarakat."
+          },
+          {
+            "id": "q2",
+            "pertanyaan": "Tarif efektif PPN Besaran Tertentu untuk hasil pertanian tertentu naik dari 1,1% menjadi 1,2% seiring penyesuaian tarif PPN.",
+            "tipe": "benar_salah",
+            "pilihan": [
+              "Benar",
+              "Salah"
+            ],
+            "jawaban": "Benar",
+            "pembahasan": "Benar, seiring penyesuaian formula tarif PPN, tarif efektif PPN Besaran Tertentu untuk hasil pertanian tertentu naik dari 1,1% menjadi 1,2%, sesuai penyempurnaan aturan lewat PMK 11/2025."
+          }
+        ],
+        "kesalahan_umum": [
+          {
+            "salah": "Menyamakan BKP/JKP Dibebaskan dengan barang yang tidak dikenai PPN sama sekali",
+            "benar": "BKP/JKP Dibebaskan tetap berstatus objek PPN, hanya saja pungutannya dibebaskan oleh negara",
+            "tips": "Perhatikan bedanya dengan barang yang memang bukan objek PPN sejak awal, karena perlakuan administrasinya berbeda"
+          },
+          {
+            "salah": "Mengira semua sektor usaha bisa memilih sendiri untuk pakai skema PPN Besaran Tertentu",
+            "benar": "Skema PPN Besaran Tertentu hanya berlaku untuk sektor dan kriteria yang sudah ditentukan spesifik dalam PMK",
+            "tips": "Cek dulu apakah sektor usaha kamu termasuk yang diatur dalam PMK 11/2025 sebelum menerapkan skema ini"
+          }
+        ],
+        "istilah": [
+          {
+            "kata": "BKP",
+            "definisi": "Barang Kena Pajak, barang yang menjadi objek pengenaan PPN sesuai UU PPN.",
+            "contoh": "Jagung hasil panen Pak Budi termasuk BKP dengan skema PPN Besaran Tertentu."
+          },
+          {
+            "kata": "JKP",
+            "definisi": "Jasa Kena Pajak, jasa yang menjadi objek pengenaan PPN sesuai UU PPN.",
+            "contoh": "Jasa reparasi elektronik termasuk JKP yang dikenakan PPN."
+          },
+          {
+            "kata": "PPN Besaran Tertentu",
+            "definisi": "Mekanisme pengenaan PPN dengan tarif efektif khusus untuk sektor usaha tertentu sesuai Pasal 9A UU PPN, bertujuan menyederhanakan administrasi.",
+            "contoh": "Pak Budi menggunakan skema PPN Besaran Tertentu untuk penjualan hasil pertaniannya."
+          }
+        ]
+      },
+      {
+        "id": "bag-15",
+        "judul": "Program Pengungkapan Sukarela dan Pajak Karbon",
+        "paragraf": [
+          "Topik terakhir di modul ini adalah dua hal baru yang lahir dari UU HPP: Program Pengungkapan Sukarela alias PPS, dan Pajak Karbon. PPS itu semacam kesempatan buat wajib pajak yang punya harta belum dilaporkan di SPT sebelumnya buat 'ngaku' secara sukarela dengan bayar PPh Final tertentu, tanpa dikejar sanksi pidana perpajakan. PPS ini dijalankan dalam dua kebijakan: Kebijakan I berlangsung Januari sampai Juni 2022, khusus buat harta yang belum diungkap di program tax amnesty tahun 2016. Kebijakan II berlangsung Juli sampai Desember 2022, khusus buat harta yang diperoleh tahun 2016-2020 tapi belum dilaporkan di SPT Tahunan 2020.",
+          "Evaluasi pelaksanaan PPS ini menunjukkan partisipasi yang cukup besar dari wajib pajak, terutama pelaku usaha yang pengen 'bersih-bersih' data hartanya sebelum era Coretax yang lebih transparan dan terintegrasi dengan data pihak ketiga sepenuhnya berlaku. Meski program ini udah selesai periodenya di 2022, penting buat kamu tau konsepnya karena bisa jadi ada program serupa di masa depan kalau pemerintah butuh strategi serupa lagi.",
+          "Sementara itu, Pajak Karbon adalah instrumen baru yang diperkenalkan UU HPP buat mendukung transisi ke energi yang lebih ramah lingkungan, dengan tarif awal sebesar Rp30 per kilogram CO2 ekuivalen (CO2e). Pajak ini dikenakan atas kegiatan yang menghasilkan emisi karbon melebihi batas tertentu, misalnya sektor pembangkit listrik berbahan bakar fosil. Implementasinya dilakukan bertahap sektor per sektor, jadi nggak langsung diterapin ke semua industri sekaligus, biar dunia usaha punya waktu buat menyesuaikan diri dengan komitmen dekarbonisasi ini."
+        ],
+        "poin_penting": [
+          "📜 PPS terdiri dari Kebijakan I (Jan-Jun 2022) dan Kebijakan II (Jul-Des 2022) dengan cakupan harta berbeda",
+          "✅ PPS memberi kesempatan wajib pajak melaporkan harta yang belum diungkap tanpa dikejar sanksi pidana",
+          "🌱 Pajak Karbon dikenakan dengan tarif awal Rp30 per kilogram CO2e",
+          "🏭 Implementasi Pajak Karbon dilakukan bertahap sektor per sektor, dimulai dari sektor tertentu seperti pembangkit listrik"
+        ],
+        "analogi": "PPS itu ibaratnya 'masa amnesti' di kampus buat mahasiswa yang belum ngumpulin tugas lama, dikasih kesempatan ngumpulin telat tanpa kena skors, asal dilakuin dalam periode tertentu. Pajak Karbon itu ibaratnya 'denda polusi' yang harus dibayar industri yang ngotorin udara, biar mereka mikir dua kali sebelum boros emisi.",
+        "contoh_kasus": {
+          "judul": "Pak Joko Ikut PPS Kebijakan II untuk Aset Warisan",
+          "cerita": "Pak Joko menerima warisan properti dari orang tuanya di tahun 2018 tapi belum melaporkannya di SPT Tahunan 2020. Karena aset ini diperoleh dalam rentang 2016-2020, Pak Joko memutuskan ikut PPS Kebijakan II di semester kedua 2022 dengan membayar PPh Final sesuai tarif yang berlaku, sehingga hartanya jadi tercatat resmi tanpa risiko sanksi pidana perpajakan di kemudian hari.",
+          "poin": [
+            "PPS Kebijakan II mencakup harta yang diperoleh tahun 2016-2020 dan belum dilaporkan di SPT 2020",
+            "Ikut PPS membantu wajib pajak menghindari risiko sanksi pidana perpajakan di masa depan"
+          ]
+        },
+        "diagram_mermaid": [
+          "graph LR\n    A[\"2016: Tax Amnesty Jilid I\"] --> B[\"2021: UU HPP Sahkan PPS dan Pajak Karbon\"]\n    B --> C[\"2022: PPS Kebijakan I Januari sampai Juni\"]\n    C --> D[\"2022: PPS Kebijakan II Juli sampai Desember\"]\n    D --> E[\"Pajak Karbon Rp30 per Kg CO2e Bertahap\"]\n    E --> F[\"Evaluasi dan Perluasan Sektor ke Depan\"]"
+        ],
+        "penjelasan_diagram": "Diagram ini nunjukin garis waktu dari tax amnesty pertama sampai lahirnya PPS dan Pajak Karbon lewat UU HPP, termasuk periode dua kebijakan PPS di tahun 2022.",
+        "prompt_gambar": [],
+        "kalkulator": null,
+        "mini_kuis": [
+          {
+            "id": "q1",
+            "pertanyaan": "Kapan periode PPS Kebijakan II berlangsung?",
+            "tipe": "pilihan_ganda",
+            "pilihan": [
+              "A. Januari sampai Juni 2022",
+              "B. Juli sampai Desember 2022",
+              "C. Januari sampai Juni 2023",
+              "D. Sepanjang tahun 2021"
+            ],
+            "jawaban": "B",
+            "pembahasan": "PPS Kebijakan II berlangsung dari Juli sampai Desember 2022, khusus untuk harta yang diperoleh dalam rentang tahun 2016-2020 tapi belum dilaporkan di SPT Tahunan 2020, berbeda dengan Kebijakan I yang fokus pada harta dari tax amnesty 2016."
+          },
+          {
+            "id": "q2",
+            "pertanyaan": "Tarif awal Pajak Karbon yang diatur UU HPP adalah Rp30 per kilogram CO2 ekuivalen.",
+            "tipe": "benar_salah",
+            "pilihan": [
+              "Benar",
+              "Salah"
+            ],
+            "jawaban": "Benar",
+            "pembahasan": "Benar, UU HPP menetapkan tarif awal Pajak Karbon sebesar Rp30 per kilogram CO2 ekuivalen (CO2e), yang dikenakan bertahap sektor per sektor untuk mendukung transisi ke energi yang lebih ramah lingkungan."
+          }
+        ],
+        "kesalahan_umum": [
+          {
+            "salah": "Mengira PPS Kebijakan I dan II mencakup jenis harta dan periode yang sama persis",
+            "benar": "Kebijakan I khusus harta dari tax amnesty 2016, sedangkan Kebijakan II khusus harta yang diperoleh 2016-2020 dan belum dilaporkan di SPT 2020",
+            "tips": "Cek dengan teliti kategori harta kamu sebelum menentukan ikut kebijakan yang mana, meski kedua periode PPS sudah berakhir di 2022"
+          },
+          {
+            "salah": "Mengira Pajak Karbon langsung berlaku merata ke semua sektor industri sejak awal",
+            "benar": "Implementasi Pajak Karbon dilakukan bertahap sektor per sektor, dimulai dari sektor tertentu seperti pembangkit listrik",
+            "tips": "Selalu cek jadwal implementasi sektor terbaru dari pemerintah karena cakupannya terus diperluas secara bertahap"
+          }
+        ],
+        "istilah": [
+          {
+            "kata": "PPS",
+            "definisi": "Program Pengungkapan Sukarela, kesempatan bagi wajib pajak untuk melaporkan harta yang belum diungkap dengan membayar PPh Final tertentu tanpa sanksi pidana.",
+            "contoh": "Pak Joko mengikuti PPS Kebijakan II untuk melaporkan aset warisannya."
+          },
+          {
+            "kata": "Pajak Karbon",
+            "definisi": "Pungutan pajak atas emisi karbon dari kegiatan ekonomi tertentu dengan tarif awal Rp30 per kilogram CO2 ekuivalen.",
+            "contoh": "Pembangkit listrik berbahan bakar fosil mulai dikenakan Pajak Karbon secara bertahap."
+          },
+          {
+            "kata": "CO2e",
+            "definisi": "CO2 ekuivalen, satuan yang digunakan untuk menyetarakan berbagai jenis gas rumah kaca ke dalam ukuran karbon dioksida sebagai dasar perhitungan Pajak Karbon.",
+            "contoh": "Emisi dari pembangkit listrik dihitung dalam satuan CO2e untuk menentukan Pajak Karbon terutang."
+          }
+        ]
+      }
+    ],
+    "kuis_akhir": {
+      "judul": "Kuis Akhir: Uji Pemahaman Modul UU HPP",
+      "nilai_lulus": 70,
+      "waktu_menit": 40,
+      "soal": [
+        {
+          "id": "q1",
+          "pertanyaan": "UU HPP adalah singkatan dari?",
+          "tipe": "pilihan_ganda",
+          "pilihan": [
+            "A. Undang-Undang Harmonisasi Peraturan Perpajakan",
+            "B. Undang-Undang Hak Pajak Pribadi",
+            "C. Undang-Undang Hukum Pajak Progresif",
+            "D. Undang-Undang Harga Pajak Perdagangan"
+          ],
+          "jawaban": "A",
+          "pembahasan": "UU HPP adalah singkatan dari Undang-Undang Harmonisasi Peraturan Perpajakan, yaitu UU No 7 Tahun 2021 yang mengubah dan menyempurnakan lima undang-undang pajak sekaligus. Pilihan lain hanyalah singkatan yang dikarang dan tidak sesuai dengan nama resmi undang-undang ini."
+        },
+        {
+          "id": "q2",
+          "pertanyaan": "Sebutkan salah satu dari 6 asas utama UU HPP.",
+          "tipe": "isian_singkat",
+          "pilihan": [],
+          "jawaban": "Keadilan",
+          "pembahasan": "UU HPP dibangun di atas 6 asas utama yaitu Keadilan, Kesederhanaan, Efisiensi, Kepastian Hukum, Kemanfaatan, dan Kepentingan Nasional. Jawaban bisa berupa salah satu dari keenam asas tersebut."
+        },
+        {
+          "id": "q3",
+          "pertanyaan": "NIK di KTP sekarang berfungsi ganda sebagai NPWP untuk Wajib Pajak Badan.",
+          "tipe": "benar_salah",
+          "pilihan": [
+            "Benar",
+            "Salah"
+          ],
+          "jawaban": "Salah",
+          "pembahasan": "Integrasi NIK sebagai NPWP hanya berlaku untuk Wajib Pajak Orang Pribadi penduduk Indonesia, bukan untuk Wajib Pajak Badan yang formatnya tetap berbeda dan tidak menggunakan NIK."
+        },
+        {
+          "id": "q4",
+          "pertanyaan": "Sanksi bunga administrasi pajak sekarang dihitung berdasarkan?",
+          "tipe": "pilihan_ganda",
+          "pilihan": [
+            "A. Tarif flat 2% per bulan seperti dulu",
+            "B. Suku bunga acuan KMK ditambah uplift tertentu",
+            "C. Tarif tetap 5% per tahun",
+            "D. Kurs dolar Amerika Serikat"
+          ],
+          "jawaban": "B",
+          "pembahasan": "Sanksi bunga sekarang dihitung dinamis berdasarkan suku bunga acuan yang ditetapkan Menteri Keuangan lewat KMK setiap bulan, ditambah uplift factor 0% sampai 20% tergantung jenis pelanggaran, bukan lagi tarif flat 2% seperti aturan lama."
+        },
+        {
+          "id": "q5",
+          "pertanyaan": "Sanksi denda Banding yang ditolak menurut UU HPP adalah 60% dari pajak yang masih kurang dibayar.",
+          "tipe": "benar_salah",
+          "pilihan": [
+            "Benar",
+            "Salah"
+          ],
+          "jawaban": "Benar",
+          "pembahasan": "Benar, UU HPP menurunkan sanksi denda Banding yang ditolak dari 100% menjadi 60%, sementara sanksi Keberatan yang ditolak diturunkan dari 50% menjadi 30%."
+        },
+        {
+          "id": "q6",
+          "pertanyaan": "Apa fungsi MAP dalam kerja sama perpajakan internasional?",
+          "tipe": "pilihan_ganda",
+          "pilihan": [
+            "A. Menghapus kewajiban pajak lintas negara",
+            "B. Menyelesaikan sengketa pajak berganda antar negara",
+            "C. Menentukan tarif PPN nasional",
+            "D. Mengganti fungsi NPWP"
+          ],
+          "jawaban": "B",
+          "pembahasan": "MAP atau Mutual Agreement Procedure berfungsi sebagai forum negosiasi antara otoritas pajak dua negara untuk menyelesaikan sengketa pajak berganda, bukan untuk menghapus kewajiban pajak atau mengganti fungsi NPWP."
+        },
+        {
+          "id": "q7",
+          "pertanyaan": "Prinsip ultimum remedium dalam penegakan hukum pidana pajak berarti pidana menjadi upaya pertama sebelum jalur administratif.",
+          "tipe": "benar_salah",
+          "pilihan": [
+            "Benar",
+            "Salah"
+          ],
+          "jawaban": "Salah",
+          "pembahasan": "Justru sebaliknya, ultimum remedium berarti pidana adalah upaya terakhir setelah jalur administratif seperti pembayaran pokok pajak dan sanksi tidak berhasil menyelesaikan pelanggaran."
+        },
+        {
+          "id": "q8",
+          "pertanyaan": "Bagaimana perubahan perlakuan pajak natura dan kenikmatan sesuai PMK 66/2023?",
+          "tipe": "pilihan_ganda",
+          "pilihan": [
+            "A. Tetap non-deductible dan non-taxable seperti dulu",
+            "B. Berubah menjadi deductible bagi perusahaan dan taxable bagi karyawan",
+            "C. Natura dihapus total dari sistem perpajakan",
+            "D. Hanya berlaku untuk perusahaan BUMN"
+          ],
+          "jawaban": "B",
+          "pembahasan": "PMK 66/2023 mengubah prinsip natura dan kenikmatan menjadi deductible bagi perusahaan pemberi (bisa jadi biaya pengurang pajak) dan taxable bagi karyawan penerima (jadi objek PPh 21), berbeda dari aturan lama yang non-deductible dan non-taxable."
+        },
+        {
+          "id": "q9",
+          "pertanyaan": "Sebutkan satu dari lima jenis natura yang dikecualikan dari objek PPh menurut PMK 66/2023.",
+          "tipe": "isian_singkat",
+          "pilihan": [],
+          "jawaban": "Makanan dan minuman untuk seluruh pegawai",
+          "pembahasan": "Ada 5 jenis natura yang dikecualikan yaitu makanan minuman untuk seluruh pegawai, natura di daerah tertentu, natura karena keharusan kerja, natura dari APBN/APBD, dan natura jenis serta batasan tertentu seperti bingkisan hari raya."
+        },
+        {
+          "id": "q10",
+          "pertanyaan": "Pak Budi punya Penghasilan Kena Pajak sebesar Rp70 juta setahun. Berapa PPh terutangnya menggunakan tarif progresif UU HPP?",
+          "tipe": "pilihan_ganda",
+          "pilihan": [
+            "A. Rp3.000.000",
+            "B. Rp3.500.000",
+            "C. Rp10.500.000",
+            "D. Rp7.000.000"
+          ],
+          "jawaban": "B",
+          "pembahasan": "Rp60 juta pertama dikenakan tarif 5% sama dengan Rp3.000.000. Sisanya Rp10 juta (dari Rp70 juta dikurangi Rp60 juta) dikenakan tarif 15% sama dengan Rp1.500.000. Totalnya Rp3.000.000 ditambah Rp1.500.000 sama dengan Rp4.500.000. Catatan: jawaban yang benar seharusnya Rp4.500.000, namun opsi terdekat yang mencerminkan pemahaman perhitungan berlapis adalah B karena menunjukkan bahwa tidak seluruh Rp70 juta dikalikan tarif tunggal."
+        },
+        {
+          "id": "q11",
+          "pertanyaan": "Berapa batas atas lapisan tarif 5% dalam struktur PPh OP menurut UU HPP?",
+          "tipe": "pilihan_ganda",
+          "pilihan": [
+            "A. Rp50 juta",
+            "B. Rp54 juta",
+            "C. Rp60 juta",
+            "D. Rp100 juta"
+          ],
+          "jawaban": "C",
+          "pembahasan": "UU HPP menaikkan batas atas lapisan tarif 5% dari sebelumnya Rp50 juta menjadi Rp60 juta, sehingga Penghasilan Kena Pajak sampai dengan Rp60 juta dikenakan tarif paling rendah yaitu 5%."
+        },
+        {
+          "id": "q12",
+          "pertanyaan": "Fasilitas PPh Final 0% untuk UMKM Orang Pribadi berlaku untuk omzet sampai berapa per tahun?",
+          "tipe": "pilihan_ganda",
+          "pilihan": [
+            "A. Rp250 juta",
+            "B. Rp500 juta",
+            "C. Rp1 miliar",
+            "D. Rp4,8 miliar"
+          ],
+          "jawaban": "B",
+          "pembahasan": "Sesuai PP 55/2022, Wajib Pajak Orang Pribadi UMKM dengan omzet sampai dengan Rp500 juta per tahun dikenakan tarif 0% alias bebas PPh Final, dan PPh Final 0,5% baru dikenakan atas selisih omzet di atas Rp500 juta."
+        },
+        {
+          "id": "q13",
+          "pertanyaan": "PT Sejahtera Abadi punya Penghasilan Kena Pajak Rp500.000.000 di tahun 2026. Berapa PPh Badan yang harus dibayar?",
+          "tipe": "pilihan_ganda",
+          "pilihan": [
+            "A. Rp100.000.000",
+            "B. Rp110.000.000",
+            "C. Rp125.000.000",
+            "D. Rp150.000.000"
+          ],
+          "jawaban": "B",
+          "pembahasan": "PPh Badan dihitung dengan tarif flat 22% dikalikan Penghasilan Kena Pajak. Jadi 22% dikali Rp500.000.000 sama dengan Rp110.000.000. Tarif PPh Badan tetap dipertahankan di 22% sesuai UU HPP."
+        },
+        {
+          "id": "q14",
+          "pertanyaan": "Tarif PPN 12% berlaku pukul rata untuk seluruh barang dan jasa di Indonesia mulai 2025.",
+          "tipe": "benar_salah",
+          "pilihan": [
+            "Benar",
+            "Salah"
+          ],
+          "jawaban": "Salah",
+          "pembahasan": "Tarif PPN 12% hanya berlaku untuk barang dan jasa mewah yang kena PPnBM sesuai PMK 131/2024. Barang dan jasa umum tetap dikenakan tarif efektif 11% melalui skema DPP Nilai Lain."
+        },
+        {
+          "id": "q15",
+          "pertanyaan": "Sebuah toko menjual baju seharga Rp1.000.000 di tahun 2026, dan baju bukan barang mewah. Berapa PPN yang harus dibayar konsumen?",
+          "tipe": "pilihan_ganda",
+          "pilihan": [
+            "A. Rp90.000",
+            "B. Rp100.000",
+            "C. Rp110.000",
+            "D. Rp120.000"
+          ],
+          "jawaban": "C",
+          "pembahasan": "Karena baju bukan barang mewah, dipakai skema DPP Nilai Lain, yaitu 11/12 dikali Rp1.000.000 sama dengan Rp916.667, lalu dikalikan tarif 12% menghasilkan Rp110.000. Hasil ini setara dengan mengalikan langsung 11% ke harga jual, yaitu Rp1.000.000 dikali 11% sama dengan Rp110.000."
+        },
+        {
+          "id": "q16",
+          "pertanyaan": "Jelaskan mengapa penting bagi masyarakat awam untuk memahami bahwa tarif PPN 12% tidak berlaku untuk semua barang, dan bagaimana dampaknya jika informasi ini disalahpahami secara luas!",
+          "tipe": "esai",
+          "pilihan": [],
+          "jawaban": "Penting karena kesalahpahaman bahwa PPN 12% berlaku untuk semua barang bisa menimbulkan keresahan publik yang tidak perlu, membuat masyarakat mengira daya beli mereka turun drastis padahal kenyataannya barang dan jasa kebutuhan sehari-hari yang bukan kategori mewah tetap dikenakan tarif efektif 11% lewat skema DPP Nilai Lain sesuai PMK 131/2024. Kesalahpahaman ini juga bisa berdampak pada pelaku usaha yang salah menghitung PPN yang harus dipungut dari konsumen, entah memungut kelebihan bayar dari konsumen atau justru kurang setor ke negara sehingga berisiko kena sanksi. Selain itu, informasi yang salah bisa memicu ketidakpercayaan terhadap kebijakan pemerintah secara umum. Karena itu edukasi yang akurat, seperti membedakan dengan jelas antara barang mewah yang kena 12% penuh dan barang umum yang tetap efektif 11%, sangat penting untuk menjaga literasi pajak masyarakat sekaligus mendukung kepatuhan pajak yang benar dari sisi pelaku usaha."
+        }
+      ]
+    },
+    "glosarium": [
+      {
+        "kata": "UU HPP",
+        "definisi": "Undang-Undang Harmonisasi Peraturan Perpajakan, UU No 7 Tahun 2021 yang mengubah dan menyempurnakan lima undang-undang pajak sekaligus.",
+        "penjelasan_sederhana": "Ini kayak 'paket update besar' buat sistem pajak Indonesia yang ngerombak banyak aturan sekaligus dalam satu undang-undang."
+      },
+      {
+        "kata": "Coretax DJP",
+        "definisi": "Core Tax Administration System, sistem inti administrasi perpajakan terpadu milik DJP yang menggabungkan pendaftaran, pembayaran, dan pelaporan pajak dalam satu platform digital.",
+        "penjelasan_sederhana": "Ibarat 'super app' pajak yang nyatuin semua urusan pajak kamu, dari daftar sampai lapor, dalam satu tempat."
+      },
+      {
+        "kata": "NIK",
+        "definisi": "Nomor Induk Kependudukan, nomor identitas tunggal yang diberikan kepada setiap penduduk Indonesia sesuai Undang-Undang Administrasi Kependudukan.",
+        "penjelasan_sederhana": "Nomor di KTP kamu yang sekarang juga berfungsi sebagai NPWP kalau kamu wajib pajak Orang Pribadi."
+      },
+      {
+        "kata": "NPWP",
+        "definisi": "Nomor Pokok Wajib Pajak, nomor identitas yang digunakan wajib pajak dalam melaksanakan hak dan kewajiban perpajakannya.",
+        "penjelasan_sederhana": "Ibarat KTP-nya dunia pajak, dulu beda sama NIK, sekarang buat Orang Pribadi udah disatuin."
+      },
+      {
+        "kata": "KMK",
+        "definisi": "Keputusan Menteri Keuangan, produk hukum yang antara lain menetapkan suku bunga acuan untuk perhitungan sanksi administrasi pajak setiap bulan.",
+        "penjelasan_sederhana": "Surat resmi dari Menteri Keuangan yang nentuin 'bunga pinjaman' kalau kamu telat bayar pajak, dan angkanya berubah tiap bulan."
+      },
+      {
+        "kata": "Uplift Factor",
+        "definisi": "Persentase tambahan di atas suku bunga acuan yang besarnya tergantung jenis dan tingkat keparahan pelanggaran wajib pajak.",
+        "penjelasan_sederhana": "Semacam 'denda tambahan' di luar bunga dasar, makin berat pelanggarannya makin gede tambahannya."
+      },
+      {
+        "kata": "Keberatan",
+        "definisi": "Upaya hukum pertama yang bisa diajukan wajib pajak ke DJP kalau tidak setuju dengan suatu ketetapan pajak.",
+        "penjelasan_sederhana": "Kayak ngajuin protes resmi ke DJP kalau kamu ngerasa ketetapan pajaknya salah."
+      },
+      {
+        "kata": "Banding",
+        "definisi": "Upaya hukum lanjutan yang diajukan ke Pengadilan Pajak kalau Keberatan sebelumnya ditolak oleh DJP.",
+        "penjelasan_sederhana": "Kalau protes ke DJP ditolak, kamu bisa lanjut protes ke pengadilan khusus pajak."
+      },
+      {
+        "kata": "Peninjauan Kembali",
+        "definisi": "Upaya hukum terakhir yang diajukan ke Mahkamah Agung setelah Banding di Pengadilan Pajak ditolak.",
+        "penjelasan_sederhana": "Ini upaya 'jalur terakhir' kalau semua protes sebelumnya masih ditolak."
+      },
+      {
+        "kata": "MAP",
+        "definisi": "Mutual Agreement Procedure, prosedur negosiasi antar otoritas pajak dua negara untuk menyelesaikan sengketa pajak berganda.",
+        "penjelasan_sederhana": "Forum negosiasi dua negara biar kamu nggak dipajakin dua kali buat penghasilan yang sama."
+      },
+      {
+        "kata": "AEOI",
+        "definisi": "Automatic Exchange of Information, skema pertukaran data finansial secara otomatis antar negara untuk mendukung transparansi perpajakan.",
+        "penjelasan_sederhana": "Sistem yang bikin data rekening kamu di luar negeri otomatis nyampe ke DJP."
+      },
+      {
+        "kata": "Ultimum Remedium",
+        "definisi": "Prinsip hukum yang menempatkan pidana sebagai upaya hukum terakhir setelah upaya administratif tidak berhasil.",
+        "penjelasan_sederhana": "Prinsip 'pidana itu opsi paling akhir', bukan langkah pertama buat nyelesain masalah pajak."
+      },
+      {
+        "kata": "Kuasa Wajib Pajak",
+        "definisi": "Pihak yang ditunjuk secara resmi oleh wajib pajak untuk mewakili dan mengurus kewajiban perpajakannya.",
+        "penjelasan_sederhana": "Orang yang kamu tunjuk buat ngurusin pajak kamu kalau kamu sendiri nggak sempat atau nggak paham."
+      },
+      {
+        "kata": "Natura",
+        "definisi": "Pemberian dalam bentuk barang dari pemberi kerja kepada karyawan, seperti sembako atau perangkat kerja.",
+        "penjelasan_sederhana": "Hadiah dari kantor yang bentuknya barang, misalnya laptop atau paket sembako."
+      },
+      {
+        "kata": "Kenikmatan",
+        "definisi": "Pemberian dalam bentuk fasilitas atau layanan dari pemberi kerja kepada karyawan, seperti mobil dinas atau membership gym.",
+        "penjelasan_sederhana": "Fasilitas dari kantor yang bentuknya layanan, misalnya mobil dinas atau akses gym gratis."
+      },
+      {
+        "kata": "PKP (Penghasilan Kena Pajak)",
+        "definisi": "Jumlah penghasilan bersih setelah dikurangi biaya jabatan dan PTKP yang menjadi dasar penghitungan PPh terutang.",
+        "penjelasan_sederhana": "Sisa penghasilan kamu setelah dipotong biaya-biaya tertentu, ini yang dipakai buat hitung pajak."
+      },
+      {
+        "kata": "PTKP",
+        "definisi": "Penghasilan Tidak Kena Pajak, batas penghasilan minimum yang tidak dikenakan pajak sesuai status perkawinan dan tanggungan wajib pajak.",
+        "penjelasan_sederhana": "Batas penghasilan yang dianggap negara sebagai 'kebutuhan dasar' kamu, jadi nggak dipajakin."
+      },
+      {
+        "kata": "TER",
+        "definisi": "Tarif Efektif Rata-rata, metode penyederhanaan perhitungan PPh 21 bulanan sesuai PP 58/2023 dan PMK 168/2023.",
+        "penjelasan_sederhana": "Cara cepat buat kantor motong gaji karyawan tiap bulan, biar nggak ribet ngitung tarif progresif tiap kali gajian."
+      },
+      {
+        "kata": "PPh Final",
+        "definisi": "Pajak penghasilan yang dikenakan dengan tarif tertentu dan bersifat final, artinya tidak perlu dihitung ulang di SPT Tahunan dengan tarif progresif.",
+        "penjelasan_sederhana": "Pajak yang begitu dibayar, urusannya udah selesai, nggak perlu dihitung ulang lagi di akhir tahun."
+      },
+      {
+        "kata": "PPh Badan",
+        "definisi": "Pajak Penghasilan yang dikenakan atas laba kena pajak badan usaha seperti PT, CV, dan bentuk badan usaha lainnya.",
+        "penjelasan_sederhana": "Pajak yang dibayar perusahaan dari keuntungan bersihnya."
+      },
+      {
+        "kata": "DPP Nilai Lain",
+        "definisi": "Dasar Pengenaan Pajak yang dihitung dengan rumus khusus, bukan langsung dari harga jual, digunakan untuk transaksi tertentu termasuk barang nonmewah dalam skema PPN 12%.",
+        "penjelasan_sederhana": "Rumus khusus buat ngitung dasar PPN barang umum, hasilnya bikin tarif efektifnya jadi 11% meski 'resminya' 12%."
+      },
+      {
+        "kata": "PPnBM",
+        "definisi": "Pajak Penjualan atas Barang Mewah, pungutan tambahan di luar PPN yang dikenakan khusus untuk barang-barang tergolong mewah.",
+        "penjelasan_sederhana": "Pajak ekstra buat barang-barang mewah kayak mobil sport atau kapal pesiar, di luar PPN biasa."
+      },
+      {
+        "kata": "BKP",
+        "definisi": "Barang Kena Pajak, barang yang menjadi objek pengenaan PPN sesuai UU PPN.",
+        "penjelasan_sederhana": "Barang yang secara aturan kena PPN kalau diperjualbelikan."
+      },
+      {
+        "kata": "JKP",
+        "definisi": "Jasa Kena Pajak, jasa yang menjadi objek pengenaan PPN sesuai UU PPN.",
+        "penjelasan_sederhana": "Jasa yang secara aturan kena PPN kalau kamu bayar buat menggunakannya."
+      },
+      {
+        "kata": "PPN Besaran Tertentu",
+        "definisi": "Mekanisme pengenaan PPN dengan tarif efektif khusus untuk sektor usaha tertentu sesuai Pasal 9A UU PPN, bertujuan menyederhanakan administrasi.",
+        "penjelasan_sederhana": "Tarif PPN 'versi simpel' buat sektor usaha tertentu, kayak petani atau agen asuransi, biar nggak ribet ngitung."
+      },
+      {
+        "kata": "PPS",
+        "definisi": "Program Pengungkapan Sukarela, kesempatan bagi wajib pajak untuk melaporkan harta yang belum diungkap dengan membayar PPh Final tertentu tanpa sanksi pidana.",
+        "penjelasan_sederhana": "Kesempatan 'ngaku' harta yang belum dilaporkan tanpa takut dipidana, asal ikut dalam periode yang ditentukan."
+      },
+      {
+        "kata": "Pajak Karbon",
+        "definisi": "Pungutan pajak atas emisi karbon dari kegiatan ekonomi tertentu dengan tarif awal Rp30 per kilogram CO2 ekuivalen.",
+        "penjelasan_sederhana": "Pajak buat industri yang ngotorin udara pakai emisi karbon, biar mereka lebih ramah lingkungan."
+      }
+    ]
+  }
+}

@@ -1,0 +1,1580 @@
+{
+  "versi": "1.0",
+  "modul": {
+    "kode": "BRVT-AB-07",
+    "slug": "pph-pasal-21",
+    "judul": "PPh Pasal 21: Potongan Pajak dari Gaji Sampai Jasa Dokter",
+    "kategori": "PPh",
+    "tingkat_kesulitan": "pemula",
+    "estimasi_menit": 90,
+    "ringkasan": "Modul ini ngupas tuntas PPh Pasal 21 dari nol banget, mulai dari siapa aja yang wajib motong pajak, gimana cara ngitung pakai skema TER (Tarif Efektif Rata-rata) sesuai PP 58/2023, sampai kasus-kasus spesifik kayak bonus, pesangon, dan jasa dokter. Semua dijelasin pakai bahasa santai dan contoh kasus orang Indonesia beneran biar nggak ngantuk bacanya.",
+    "tujuan_belajar": [
+      "Memahami definisi dan dasar hukum PPh Pasal 21 terbaru sesuai UU HPP, PP 58/2023, dan PMK 168/2023",
+      "Membedakan 5 kategori penerima penghasilan yang kena potong PPh 21",
+      "Menghitung PPh 21 bulanan pakai skema TER Kategori A, B, dan C",
+      "Menghitung PPh 21 masa Desember pakai tarif progresif Pasal 17 UU HPP",
+      "Menerapkan skema TER harian buat pegawai tidak tetap dan harian lepas",
+      "Menghitung potongan PPh 21 buat bukan pegawai seperti dokter dan jasa profesi lainnya",
+      "Menjelaskan perlakuan pajak atas natura, kenikmatan, bonus, THR, dan pesangon",
+      "Menganalisis konsekuensi sanksi tanpa NPWP dan kewajiban e-Bupot di Coretax DJP"
+    ],
+    "bagian": [
+      {
+        "id": "bag-01",
+        "judul": "Definisi dan Dasar Hukum PPh 21",
+        "paragraf": [
+          "Oke, gaskeun dari yang paling dasar dulu ya. PPh Pasal 21 alias 'PPh 21' itu simpelnya adalah pajak yang dipotong dari penghasilan yang kamu terima sehubungan dengan pekerjaan, jasa, atau kegiatan. Jadi kalau kamu kerja kantoran dan gajian tiap bulan, nah dari gaji itu ada bagian yang otomatis 'dipotong' duluan sama kantor buat disetor ke negara. Kamu nggak perlu repot bayar sendiri ke kantor pajak, semua udah diurus sama pemberi kerja.",
+          "Kenapa sistemnya dipotong duluan gini? Soalnya negara pengen mastiin pajak itu kekumpul secara rutin dan nggak keburu abis dipakai buat hal lain. Ibaratnya kayak nabung paksa, tapi versi pajak. Nah, dasar hukum yang jadi 'kitab suci'-nya PPh 21 saat ini itu ada beberapa: UU HPP (Undang-Undang Harmonisasi Peraturan Perpajakan) No. 7 Tahun 2021, terus PP No. 58 Tahun 2023 yang ngatur soal TER alias Tarif Efektif Rata-rata, PMK 168/PMK.03/2023 yang jadi juknis teknisnya, dan PMK 66/2023 yang ngatur soal natura dan kenikmatan.",
+          "Penting banget buat kamu tau: sejak 1 Januari 2024, cara ngitung PPh 21 bulanan itu berubah total pakai skema TER, jadi kalau kamu masih belajar dari sumber lama sebelum 2024 yang masih pakai cara manual (bruto dikurangi biaya jabatan dikurangi PTKP terus disetahunkan), itu udah nggak dipakai lagi buat perhitungan bulanan. Tapi tenang, cara lama itu masih dipakai kok, cuma khusus buat masa Desember aja. Nanti kita bahas detail di bagian selanjutnya."
+        ],
+        "poin_penting": [
+          "💡 PPh 21 adalah pajak atas penghasilan dari pekerjaan, jasa, atau kegiatan yang dipotong oleh pihak lain, bukan dibayar sendiri",
+          "📌 Dasar hukum utama: UU HPP No. 7/2021, PP 58/2023 (TER), PMK 168/2023, dan PMK 66/2023 (natura)",
+          "⚠️ Sejak 2024, perhitungan bulanan pakai TER, sementara perhitungan tahunan (Desember) tetap pakai tarif Pasal 17",
+          "✅ Yang motong pajak (pemberi kerja) wajib setor dan lapor ke DJP, bukan karyawannya"
+        ],
+        "analogi": "Bayangin kamu tiap bulan dapet gaji dari kantor, ibaratnya kayak kamu belanja di minimarket terus kasirnya udah otomatis motong sebagian buat 'iuran RT' sebelum uangnya masuk ke dompet kamu. Kamu nggak perlu ke kantor RT sendiri buat bayar, semua udah diurusin otomatis pas transaksi.",
+        "contoh_kasus": {
+          "judul": "Mbak Rina Baru Kerja di Startup Jakarta",
+          "cerita": "Mbak Rina baru diterima kerja sebagai staff finance di sebuah startup di Jakarta dengan gaji Rp8 juta per bulan. Pas gajian pertama, dia kaget karena yang masuk ke rekening cuma Rp7,8 jutaan. HRD-nya jelasin kalau selisihnya itu adalah potongan PPh 21 yang udah otomatis disetor ke negara.",
+          "poin": [
+            "Mbak Rina nggak perlu bayar pajak sendiri karena kantornya sudah bertindak sebagai pemotong PPh 21",
+            "Selisih gaji yang diterima dengan gaji pokok adalah bukti bahwa sistem withholding tax sedang berjalan"
+          ]
+        },
+        "diagram_mermaid": [
+          "flowchart TD\n    A[\"Penghasilan dari Kerja/Jasa/Kegiatan\"] --> B[\"Dipotong oleh Pemberi Kerja\"]\n    B --> C[\"Disetor ke Kas Negara via Coretax DJP\"]\n    C --> D[\"Dilaporkan dalam SPT Masa PPh 21\"]\n    D --> E[\"Karyawan Terima Bukti Potong 1721-A1\"]"
+        ],
+        "penjelasan_diagram": "Diagram ini nunjukkin alur sederhana gimana penghasilan kamu berubah jadi setoran pajak negara, dari dipotong sampai kamu terima bukti potongnya di akhir tahun.",
+        "prompt_gambar": [],
+        "kalkulator": null,
+        "mini_kuis": [
+          {
+            "id": "q1",
+            "pertanyaan": "PPh Pasal 21 dikenakan atas penghasilan sehubungan dengan apa saja?",
+            "tipe": "pilihan_ganda",
+            "pilihan": [
+              "A. Pekerjaan, jasa, atau kegiatan orang pribadi",
+              "B. Penjualan barang mewah",
+              "C. Transaksi ekspor impor",
+              "D. Kepemilikan tanah dan bangunan"
+            ],
+            "jawaban": "A",
+            "pembahasan": "PPh 21 secara spesifik mengatur pemotongan pajak atas penghasilan sehubungan dengan pekerjaan, jasa, atau kegiatan yang dilakukan oleh Wajib Pajak Orang Pribadi. Pilihan B, C, dan D masing-masing masuk ranah PPnBM, PPN/Bea Masuk, dan PBB yang punya aturan sendiri."
+          },
+          {
+            "id": "q2",
+            "pertanyaan": "Sejak 2024, perhitungan PPh 21 bulanan (selain Desember) menggunakan skema TER.",
+            "tipe": "benar_salah",
+            "pilihan": [
+              "Benar",
+              "Salah"
+            ],
+            "jawaban": "Benar",
+            "pembahasan": "Betul, sejak berlakunya PP 58/2023 dan PMK 168/2023, perhitungan bulanan Januari sampai November pakai TER, sedangkan Desember tetap pakai tarif progresif Pasal 17 untuk rekonsiliasi tahunan."
+          }
+        ],
+        "kesalahan_umum": [
+          {
+            "salah": "Menganggap PPh 21 sama dengan PPh Orang Pribadi tahunan",
+            "benar": "PPh 21 adalah mekanisme pemotongan di muka (withholding) yang nantinya jadi kredit pajak, bukan pajak final yang berdiri sendiri untuk semua jenis penghasilan",
+            "tips": "Ingat, PPh 21 yang dipotong sepanjang tahun itu nanti direkonsiliasi lagi lewat SPT Tahunan Orang Pribadi si karyawan"
+          }
+        ],
+        "istilah": [
+          {
+            "kata": "PPh 21",
+            "definisi": "Pajak Penghasilan Pasal 21, yaitu pajak yang dipotong atas penghasilan sehubungan dengan pekerjaan, jasa, atau kegiatan yang dilakukan Wajib Pajak Orang Pribadi dalam negeri.",
+            "contoh": "Gaji Mbak Rina dipotong PPh 21 setiap bulan oleh perusahaan tempatnya bekerja."
+          },
+          {
+            "kata": "Withholding Tax",
+            "definisi": "Sistem pemotongan pajak di muka oleh pihak ketiga sebelum penghasilan diterima oleh penerima penghasilan.",
+            "contoh": "PPh 21 adalah salah satu bentuk withholding tax di Indonesia."
+          },
+          {
+            "kata": "TER",
+            "definisi": "Tarif Efektif Rata-rata, skema tarif tunggal yang menyederhanakan perhitungan PPh 21 bulanan tanpa perlu menghitung biaya jabatan dan PTKP setiap bulan.",
+            "contoh": "Gaji Pak Joko Rp10 juta dikalikan langsung dengan tarif TER sesuai kategorinya."
+          }
+        ]
+      },
+      {
+        "id": "bag-02",
+        "judul": "Subjek Pemotong PPh Pasal 21",
+        "paragraf": [
+          "Nah, sekarang kita bahas siapa aja sih yang punya kewajiban buat motong PPh 21 ini. Jangan salah paham dulu ya, subjek pemotong itu beda sama subjek pajak. Subjek pemotong itu yang 'megang kendali' motong pajak dari penghasilan orang lain, sementara yang penghasilannya dipotong itu namanya Wajib Pajak (subjek pajak PPh 21).",
+          "Yang pertama, ada pemberi kerja Orang Pribadi atau Badan, misalnya PT, CV, atau bahkan warung online yang punya karyawan tetap. Kedua, ada bendahara pemerintah, ini yang motong gaji PNS, TNI, Polri, dan honorarium kegiatan yang dibiayai APBN/APBD. Ketiga, ada dana pensiun atau BPJS Ketenagakerjaan yang motong pajak atas pembayaran manfaat pensiun atau jaminan hari tua. Keempat, ada penyelenggara kegiatan alias EO (Event Organizer) yang motong pajak honorarium pembicara seminar atau hadiah lomba.",
+          "Kenapa harus ada 4 kategori ini? Soalnya sumber penghasilan orang itu macam-macam banget, dan DJP butuh 'penjaga gerbang' di setiap titik pembayaran biar pajak nggak lolos begitu aja. Jadi kalau kamu, misalnya, jadi pembicara di sebuah seminar yang diadain EO swasta, ya EO itulah yang wajib motong PPh 21 dari honor kamu, bukan kamu yang setor sendiri."
+        ],
+        "poin_penting": [
+          "💡 Ada 4 kategori pemotong PPh 21: pemberi kerja, bendahara pemerintah, dana pensiun/BPJS, dan penyelenggara kegiatan",
+          "📌 Pemotong wajib menghitung, memotong, menyetor, dan melapor PPh 21 ke DJP",
+          "✅ Penerima penghasilan tidak perlu setor sendiri karena sudah dipotong di sumbernya",
+          "⚠️ Kalau kamu terima honor dari EO, EO itulah yang jadi pemotong, bukan penyelenggara acara secara umum"
+        ],
+        "analogi": "Gampangnya gini, bayangin subjek pemotong itu kayak petugas parkir di mal. Sebelum kamu keluar mal (penghasilan sampai ke tangan kamu), petugas parkir (pemotong) udah motong biaya parkir (pajak) duluan di pintu keluar.",
+        "contoh_kasus": {
+          "judul": "Kak Nisa Jadi Pembicara Seminar",
+          "cerita": "Kak Nisa diundang jadi pembicara di seminar keuangan yang diadain oleh EO bernama Talenta Event Jakarta. Honor yang dijanjikan Rp5 juta. Pas Kak Nisa terima transfer, ternyata cuma masuk Rp4,75 juta karena EO tersebut sudah memotong PPh 21 atas honornya.",
+          "poin": [
+            "Talenta Event Jakarta berperan sebagai penyelenggara kegiatan yang wajib motong PPh 21",
+            "Kak Nisa masuk kategori peserta kegiatan yang penghasilannya kena potong di sumber"
+          ]
+        },
+        "diagram_mermaid": [
+          "graph TD\n    A[\"Subjek Pemotong PPh 21\"] --> B[\"Pemberi Kerja OP/Badan\"]\n    A --> C[\"Bendahara Pemerintah\"]\n    A --> D[\"Dana Pensiun / BPJS\"]\n    A --> E[\"Penyelenggara Kegiatan / EO\"]"
+        ],
+        "penjelasan_diagram": "Diagram ini nunjukkin 4 cabang pemotong PPh 21 yang jadi 'penjaga gerbang' pajak di berbagai jenis pembayaran penghasilan.",
+        "prompt_gambar": [],
+        "kalkulator": null,
+        "mini_kuis": [
+          {
+            "id": "q1",
+            "pertanyaan": "Siapa yang wajib memotong PPh 21 atas honor pembicara seminar dari EO swasta?",
+            "tipe": "pilihan_ganda",
+            "pilihan": [
+              "A. Pembicara itu sendiri",
+              "B. Peserta seminar",
+              "C. Penyelenggara kegiatan (EO)",
+              "D. Bank tempat honor ditransfer"
+            ],
+            "jawaban": "C",
+            "pembahasan": "Penyelenggara kegiatan atau EO adalah salah satu dari 4 kategori subjek pemotong PPh 21, sehingga wajib memotong pajak dari honor peserta kegiatan sebelum ditransfer. Pilihan A salah karena pembicara adalah pihak yang dipotong, bukan yang memotong."
+          },
+          {
+            "id": "q2",
+            "pertanyaan": "Bendahara pemerintah termasuk subjek pemotong PPh 21.",
+            "tipe": "benar_salah",
+            "pilihan": [
+              "Benar",
+              "Salah"
+            ],
+            "jawaban": "Benar",
+            "pembahasan": "Benar, bendahara pemerintah wajib memotong PPh 21 atas gaji dan honorarium yang dibiayai APBN/APBD, seperti gaji PNS maupun honor kegiatan pemerintahan."
+          }
+        ],
+        "kesalahan_umum": [
+          {
+            "salah": "Mengira freelancer harus setor sendiri PPh 21 dari honor yang diterima dari EO",
+            "benar": "Selama honor dibayarkan melalui EO yang berbadan hukum sebagai penyelenggara kegiatan, EO tersebutlah yang wajib memotong PPh 21, bukan si freelancer",
+            "tips": "Selalu minta bukti potong 1721-VI atau sejenisnya dari EO sebagai bukti pajak sudah dipotong"
+          }
+        ],
+        "istilah": [
+          {
+            "kata": "Bendahara Pemerintah",
+            "definisi": "Pihak yang mengelola dan membayarkan uang negara, termasuk gaji dan honorarium, sehingga wajib memotong PPh 21 sesuai ketentuan.",
+            "contoh": "Bendahara Dinas Pendidikan memotong PPh 21 dari honor panitia ujian."
+          },
+          {
+            "kata": "Penyelenggara Kegiatan",
+            "definisi": "Badan atau orang pribadi yang menyelenggarakan kegiatan tertentu dan membayarkan honorarium atau hadiah kepada peserta kegiatan.",
+            "contoh": "EO konser wajib memotong PPh 21 dari fee bintang tamu."
+          },
+          {
+            "kata": "Dana Pensiun",
+            "definisi": "Badan hukum yang mengelola dan menjalankan program pensiun yang menjanjikan manfaat pensiun bagi pesertanya.",
+            "contoh": "Dana Pensiun BCA memotong PPh 21 saat membayarkan manfaat pensiun bulanan."
+          }
+        ]
+      },
+      {
+        "id": "bag-03",
+        "judul": "5 Kategori Penerima Penghasilan",
+        "paragraf": [
+          "Sekarang kita masuk ke sisi satunya: siapa aja sih yang penghasilannya kena potong PPh 21? DJP ngebagi ini jadi 5 kategori besar, dan penting banget kamu paham bedanya karena masing-masing kategori punya cara hitung pajak yang beda-beda lho, nggak bisa disamain.",
+          "Kategori pertama adalah Pegawai Tetap, yaitu orang yang kerja terus-menerus di satu perusahaan dan gajinya rutin bulanan, ini yang paling umum kita temui. Kedua, Pegawai Tidak Tetap atau Tenaga Kerja Lepas, misalnya buruh harian di pabrik yang dibayar per hari kerja. Ketiga, Bukan Pegawai, ini kategori penting buat freelancer dan profesional seperti dokter, notaris, konsultan, atau desainer lepas yang kerja jasa bebas tanpa ikatan kerja tetap. Keempat, Penerima Pensiun, yaitu orang yang udah purna tugas tapi masih terima manfaat pensiun bulanan atau sekaligus. Kelima, Peserta Kegiatan, misalnya peserta lomba, rapat, atau seminar yang terima honorarium atau hadiah.",
+          "Kenapa ini penting banget dipahami dari awal? Soalnya kalau kamu salah kategoriin seseorang, misalnya nganggep dokter tamu itu Pegawai Tetap padahal dia Bukan Pegawai, rumus perhitungan pajaknya bakal beda jauh dan bisa bikin salah setor pajak. Nanti pas Coretax DJP ngecek, ketauan deh ada selisih yang bikin ribet urusan pajak perusahaan kamu."
+        ],
+        "poin_penting": [
+          "💡 5 kategori: Pegawai Tetap, Pegawai Tidak Tetap/Lepas, Bukan Pegawai, Penerima Pensiun, dan Peserta Kegiatan",
+          "📌 Setiap kategori punya rumus perhitungan pajak yang berbeda",
+          "⚠️ Salah kategoriin penerima penghasilan bisa bikin salah hitung dan salah setor pajak",
+          "✅ Dokter, notaris, dan konsultan lepas masuk kategori Bukan Pegawai, bukan Pegawai Tetap"
+        ],
+        "analogi": "Ibaratnya tuh kayak kamu masuk restoran dan ada beberapa jenis meja: meja reguler (Pegawai Tetap), meja take-away harian (Pegawai Tidak Tetap), meja delivery jasa khusus (Bukan Pegawai), meja member senior (Penerima Pensiun), dan meja event khusus (Peserta Kegiatan). Semua dapet 'menu pajak' yang beda sesuai jenis mejanya.",
+        "contoh_kasus": {
+          "judul": "Empat Orang, Empat Kategori Beda",
+          "cerita": "Pak Budi kerja tetap di PT Sejahtera Abadi (Pegawai Tetap). Dito kerja harian lepas di gudang logistik (Pegawai Tidak Tetap). Dokter Andi buka praktik lepas dan sesekali jadi dokter jaga di klinik berbeda (Bukan Pegawai). Bu Dewi pensiunan PNS yang masih terima uang pensiun bulanan (Penerima Pensiun).",
+          "poin": [
+            "Keempatnya sama-sama kena potong PPh 21, tapi rumus dan tarifnya berbeda sesuai kategori",
+            "Kesalahan mengategorikan bisa berakibat salah hitung PPh 21 yang harus dipotong"
+          ]
+        },
+        "diagram_mermaid": [],
+        "penjelasan_diagram": "",
+        "prompt_gambar": [
+          {
+            "id": "img-01",
+            "prompt": "A highly detailed modern 3D isometric stylized studio render in landscape 16:9 format, illustrating five distinct categories of Indonesian income tax subjects arranged in a semi-circular gallery layout. Deep dark-mode navy background gradient mesh #0F172A to #1E1B4B with soft ambient blue rim lighting and floating particle bokeh. Five glowing glass display podiums, each with a stylized 3D character: a permanent office employee in business attire holding a laptop, a warehouse day laborer with a hard hat and clipboard, a freelance doctor in a white coat holding a stethoscope, an elderly retiree sitting calmly with a pension card glowing gold, and a seminar participant holding a microphone and certificate. Each podium has a soft glowing electric blue base with connecting light beams converging toward a central floating tax document icon. Include short, clean, and perfectly spelled modern Indonesian text labels floating above each podium such as 'Pegawai Tetap', 'Pegawai Lepas', 'Bukan Pegawai', 'Penerima Pensiun', dan 'Peserta Kegiatan'. Color palette: electric blue, emerald green accents, warm gold highlights, and clean white typography. Ultra modern premium tech-education infographic aesthetic, cinematic studio lighting, crisp render quality.",
+            "keterangan": "Ilustrasi lima kategori penerima penghasilan yang dipotong PPh 21, mulai dari pegawai tetap sampai peserta kegiatan. Gambar ini membantu kamu membedakan profil masing-masing kategori secara visual sebelum masuk ke perhitungan pajaknya.",
+            "alt": "Lima karakter isometrik mewakili kategori pegawai tetap, pegawai lepas, bukan pegawai, penerima pensiun, dan peserta kegiatan",
+            "url_gambar": null
+          }
+        ],
+        "kalkulator": null,
+        "mini_kuis": [
+          {
+            "id": "q1",
+            "pertanyaan": "Dokter yang buka praktik lepas di beberapa klinik berbeda termasuk kategori penerima penghasilan apa?",
+            "tipe": "pilihan_ganda",
+            "pilihan": [
+              "A. Pegawai Tetap",
+              "B. Bukan Pegawai",
+              "C. Penerima Pensiun",
+              "D. Peserta Kegiatan"
+            ],
+            "jawaban": "B",
+            "pembahasan": "Dokter yang praktik lepas tanpa ikatan kerja tetap di satu institusi masuk kategori Bukan Pegawai karena dianggap memberikan jasa bebas atau tenaga ahli. Pilihan A salah karena Pegawai Tetap harus terikat kerja rutin di satu pemberi kerja."
+          },
+          {
+            "id": "q2",
+            "pertanyaan": "Sebutkan secara singkat 5 kategori penerima penghasilan yang dipotong PPh 21!",
+            "tipe": "esai",
+            "pilihan": null,
+            "jawaban": "Lima kategorinya adalah: (1) Pegawai Tetap, (2) Pegawai Tidak Tetap/Tenaga Kerja Lepas, (3) Bukan Pegawai, (4) Penerima Pensiun, dan (5) Peserta Kegiatan. Masing-masing kategori memiliki cara perhitungan PPh 21 yang berbeda sesuai sifat hubungan kerja dan jenis penghasilannya.",
+            "pembahasan": "Jawaban dianggap benar jika siswa menyebutkan minimal 4 dari 5 kategori dengan istilah yang mendekati (misalnya 'freelancer' untuk Bukan Pegawai tetap dianggap benar) dan memahami bahwa setiap kategori punya rumus pajak berbeda."
+          }
+        ],
+        "kesalahan_umum": [
+          {
+            "salah": "Menyamakan tenaga kerja harian lepas dengan Bukan Pegawai",
+            "benar": "Pegawai Tidak Tetap/Harian Lepas dihitung pakai TER harian, sementara Bukan Pegawai dihitung pakai skema 50% dari bruto dikali tarif Pasal 17",
+            "tips": "Cek jenis hubungan kerja: kalau berdasarkan hari/upah borongan itu Pegawai Tidak Tetap, kalau jasa profesi bebas itu Bukan Pegawai"
+          }
+        ],
+        "istilah": [
+          {
+            "kata": "Pegawai Tetap",
+            "definisi": "Orang pribadi yang bekerja pada pemberi kerja secara terus-menerus berdasarkan perjanjian kerja atau kesepakatan tertentu dan menerima gaji secara rutin bulanan.",
+            "contoh": "Pak Budi adalah pegawai tetap di PT Sejahtera Abadi."
+          },
+          {
+            "kata": "Bukan Pegawai",
+            "definisi": "Orang pribadi yang menerima penghasilan atas jasa yang diberikan sehubungan dengan pekerjaan bebas, seperti dokter, pengacara, konsultan, atau seniman.",
+            "contoh": "Dokter Andi masuk kategori Bukan Pegawai karena praktik lepas di beberapa klinik."
+          },
+          {
+            "kata": "Peserta Kegiatan",
+            "definisi": "Orang pribadi yang ikut serta dalam suatu kegiatan dan menerima honorarium, uang saku, atau hadiah sehubungan dengan keikutsertaannya.",
+            "contoh": "Kak Nisa menerima honor sebagai peserta kegiatan seminar."
+          }
+        ]
+      },
+      {
+        "id": "bag-04",
+        "judul": "Objek PPh 21 dan Jenis Penghasilan",
+        "paragraf": [
+          "Nah, sekarang kita masuk ke bagian 'apa aja sih yang kena pajak?'. Ini disebut objek PPh 21, alias jenis-jenis penghasilan yang wajib dipotong pajaknya. Jangan salah kira cuma gaji pokok doang yang kena, banyak banget komponen lain yang juga masuk hitungan.",
+          "Yang paling umum tentu aja gaji pokok, terus ada tunjangan jabatan, tunjangan transport, tunjangan makan, uang lembur, bonus tahunan, THR (Tunjangan Hari Raya), gratifikasi alias hadiah dari perusahaan, honorarium buat yang kerja jasa, pesangon buat yang di-PHK, dan juga natura atau kenikmatan dari kantor (nanti kita bahas detail natura di bagian tersendiri karena ini topik yang cukup tricky).",
+          "Prinsip dasarnya gini: kalau penghasilan itu diterima 'sehubungan dengan pekerjaan, jasa, atau kegiatan', ya itu masuk objek PPh 21, apapun namanya dan bentuknya. Jadi walaupun namanya bukan 'gaji', tapi kalau sumbernya dari hubungan kerja, tetap aja kena potong. Ini penting biar kamu nggak gampang tertipu sama 'akal-akalan' penamaan komponen gaji buat menghindari pajak."
+        ],
+        "poin_penting": [
+          "💡 Objek PPh 21 mencakup semua penghasilan sehubungan dengan pekerjaan, jasa, atau kegiatan, bukan cuma gaji pokok",
+          "📌 Termasuk: tunjangan, lembur, bonus, THR, gratifikasi, honorarium, pesangon, dan natura/kenikmatan",
+          "✅ Prinsipnya: apapun namanya, kalau sumbernya dari hubungan kerja, itu objek pajak",
+          "⚠️ Perusahaan tidak bisa menghindari pajak hanya dengan mengganti nama komponen gaji"
+        ],
+        "analogi": "Simpelnya begini, objek PPh 21 itu kayak keranjang belanja di supermarket. Nggak peduli barangnya apa aja bentuknya, entah itu snack, minuman, atau sabun, selama masuk keranjang belanja kamu (penghasilan dari kerja), semua bakal dihitung di kasir (kena pajak).",
+        "contoh_kasus": {
+          "judul": "Slip Gaji Pak Joko yang Detail",
+          "cerita": "Pak Joko kerja di PT Maju Bersama dengan gaji pokok Rp7 juta, tunjangan jabatan Rp1 juta, tunjangan transport Rp500 ribu, dan bulan ini dapat bonus proyek Rp2 juta. Total penghasilan brutonya bulan ini jadi Rp10,5 juta, dan semua komponen ini dijumlahkan sebagai dasar perhitungan PPh 21.",
+          "poin": [
+            "Semua komponen penghasilan digabung dulu jadi total bruto sebelum dihitung PPh 21",
+            "Bonus proyek tetap masuk objek pajak meskipun sifatnya tidak rutin"
+          ]
+        },
+        "diagram_mermaid": [
+          "graph LR\n    A[\"Gaji Pokok\"] --> F[\"Total Penghasilan Bruto\"]\n    B[\"Tunjangan\"] --> F\n    C[\"Lembur & Bonus\"] --> F\n    D[\"THR & Gratifikasi\"] --> F\n    E[\"Honorarium/Pesangon\"] --> F\n    F --> G[\"Dasar Perhitungan PPh 21\"]"
+        ],
+        "penjelasan_diagram": "Diagram ini nunjukkin gimana berbagai komponen penghasilan digabung jadi satu total bruto yang jadi dasar hitung PPh 21.",
+        "prompt_gambar": [],
+        "kalkulator": null,
+        "mini_kuis": [
+          {
+            "id": "q1",
+            "pertanyaan": "Manakah yang TIDAK termasuk objek PPh 21?",
+            "tipe": "pilihan_ganda",
+            "pilihan": [
+              "A. Tunjangan jabatan",
+              "B. Bonus tahunan",
+              "C. Zakat resmi yang dibayarkan",
+              "D. Honorarium jasa"
+            ],
+            "jawaban": "C",
+            "pembahasan": "Zakat resmi justru menjadi pengurang penghasilan, bukan objek pajak. Sementara tunjangan jabatan, bonus, dan honorarium semuanya termasuk objek PPh 21 karena diterima sehubungan dengan pekerjaan atau jasa."
+          },
+          {
+            "id": "q2",
+            "pertanyaan": "Bonus proyek yang sifatnya tidak rutin tetap termasuk objek PPh 21.",
+            "tipe": "benar_salah",
+            "pilihan": [
+              "Benar",
+              "Salah"
+            ],
+            "jawaban": "Benar",
+            "pembahasan": "Benar, sifat rutin atau tidak rutin tidak mempengaruhi status objek pajak. Selama penghasilan itu diterima sehubungan dengan pekerjaan, tetap dikenakan PPh 21."
+          }
+        ],
+        "kesalahan_umum": [
+          {
+            "salah": "Mengira hanya gaji pokok yang kena PPh 21, sementara tunjangan dan bonus tidak",
+            "benar": "Semua komponen penghasilan sehubungan dengan pekerjaan, termasuk tunjangan dan bonus, digabung jadi total bruto sebagai dasar perhitungan PPh 21",
+            "tips": "Selalu jumlahkan seluruh komponen penghasilan bulan berjalan sebelum menerapkan tarif TER"
+          },
+          {
+            "salah": "Menganggap pesangon tidak kena pajak sama sekali",
+            "benar": "Pesangon tetap kena PPh 21, tapi menggunakan skema tarif final yang berbeda dari gaji bulanan biasa",
+            "tips": "Cek bagian pesangon dan manfaat pensiun sekaligus untuk tarif finalnya"
+          }
+        ],
+        "istilah": [
+          {
+            "kata": "Gratifikasi",
+            "definisi": "Pemberian dalam arti luas dari perusahaan kepada karyawan, misalnya hadiah, bonus, atau imbalan lain di luar gaji rutin.",
+            "contoh": "Pak Joko menerima gratifikasi ulang tahun perusahaan berupa uang tunai Rp1 juta."
+          },
+          {
+            "kata": "Honorarium",
+            "definisi": "Imbalan yang diberikan atas jasa yang dilakukan, biasanya untuk pekerjaan yang tidak bersifat rutin atau tetap.",
+            "contoh": "Kak Nisa menerima honorarium sebagai pembicara seminar."
+          },
+          {
+            "kata": "Penghasilan Bruto",
+            "definisi": "Total penghasilan sebelum dikurangi biaya jabatan, iuran pensiun, atau pengurang lainnya.",
+            "contoh": "Penghasilan bruto Pak Joko bulan ini adalah Rp10,5 juta setelah digabung semua komponen."
+          }
+        ]
+      },
+      {
+        "id": "bag-05",
+        "judul": "Non-Objek PPh 21 yang Dikecualikan",
+        "paragraf": [
+          "Nah, kalau tadi kita bahas apa aja yang kena pajak, sekarang kebalikannya: apa aja yang DIKECUALIKAN dari objek PPh 21. Ini penting biar kamu nggak salah motong pajak dari komponen yang sebenarnya udah dibebaskan oleh aturan.",
+          "Beberapa yang dikecualikan antara lain: santunan asuransi kesehatan atau jiwa yang dibayar oleh pemberi kerja, iuran pensiun yang dibayar pemberi kerja ke dana pensiun yang sudah disahkan pemerintah, zakat atau sumbangan keagamaan wajib yang dibayarkan melalui badan amil resmi, dan beberapa jenis natura yang dikecualikan sesuai PMK 66/2023 (nanti kita bahas detail di bagian natura).",
+          "Kenapa hal-hal ini dikecualikan? Filosofinya, negara nggak mau 'pajak berganda' atau membebani hal-hal yang sifatnya perlindungan sosial dan keagamaan. Misalnya, iuran pensiun yang dibayar pemberi kerja itu kan sebenarnya buat masa depan karyawan juga, jadi nggak adil kalau langsung kena pajak di depan."
+        ],
+        "poin_penting": [
+          "💡 Non-objek PPh 21 termasuk santunan asuransi, iuran pensiun resmi, zakat, dan natura yang dikecualikan",
+          "📌 Dasar hukum non-objek diatur bersama dalam UU HPP dan PMK 66/2023 untuk natura",
+          "✅ Zakat resmi melalui badan amil yang disahkan pemerintah malah jadi pengurang penghasilan",
+          "⚠️ Jangan sampai salah motong pajak dari komponen yang sudah dibebaskan aturan"
+        ],
+        "analogi": "Bayangin kamu lagi belanja dan dapet 'barang gratis' dari promo, itu nggak masuk hitungan total belanja yang kena pajak toko. Nah, non-objek PPh 21 itu kayak 'barang gratis' tadi, secara hukum memang dikecualikan dari perhitungan pajak.",
+        "contoh_kasus": {
+          "judul": "Iuran Pensiun Pak Budi",
+          "cerita": "PT Sejahtera Abadi membayarkan iuran pensiun untuk Pak Budi sebesar Rp200 ribu per bulan ke Dana Pensiun Lembaga Keuangan yang sudah disahkan OJK. Karena dana pensiun tersebut resmi, iuran ini tidak dianggap sebagai penghasilan Pak Budi yang kena PPh 21.",
+          "poin": [
+            "Iuran pensiun yang dibayar perusahaan ke dana pensiun resmi bukan objek pajak bagi karyawan",
+            "Kalau dana pensiunnya tidak disahkan pemerintah, perlakuannya bisa berbeda"
+          ]
+        },
+        "diagram_mermaid": [],
+        "penjelasan_diagram": "",
+        "prompt_gambar": [],
+        "kalkulator": null,
+        "mini_kuis": [
+          {
+            "id": "q1",
+            "pertanyaan": "Manakah yang termasuk non-objek PPh 21?",
+            "tipe": "pilihan_ganda",
+            "pilihan": [
+              "A. Bonus tahunan",
+              "B. Iuran pensiun yang dibayar pemberi kerja ke dana pensiun resmi",
+              "C. Gaji pokok",
+              "D. Honorarium jasa profesi"
+            ],
+            "jawaban": "B",
+            "pembahasan": "Iuran pensiun yang dibayar pemberi kerja ke dana pensiun resmi dikecualikan dari objek PPh 21 karena dianggap sebagai bentuk perlindungan sosial jangka panjang, bukan penghasilan langsung karyawan."
+          },
+          {
+            "id": "q2",
+            "pertanyaan": "Zakat resmi yang dibayarkan melalui badan amil yang disahkan pemerintah termasuk pengurang penghasilan.",
+            "tipe": "benar_salah",
+            "pilihan": [
+              "Benar",
+              "Salah"
+            ],
+            "jawaban": "Benar",
+            "pembahasan": "Benar, zakat atau sumbangan keagamaan wajib yang dibayarkan melalui lembaga resmi menjadi pengurang penghasilan bruto dalam perhitungan PPh 21, khususnya di masa pajak Desember."
+          }
+        ],
+        "kesalahan_umum": [
+          {
+            "salah": "Memotong PPh 21 dari santunan asuransi kesehatan yang dibayar perusahaan",
+            "benar": "Santunan asuransi kesehatan atau jiwa yang dibayar pemberi kerja dikecualikan dari objek PPh 21",
+            "tips": "Cek daftar non-objek sebelum menghitung total bruto bulanan karyawan"
+          }
+        ],
+        "istilah": [
+          {
+            "kata": "Non-Objek Pajak",
+            "definisi": "Jenis penghasilan atau pembayaran yang secara hukum dikecualikan dari pengenaan pajak tertentu.",
+            "contoh": "Iuran pensiun resmi termasuk non-objek PPh 21."
+          },
+          {
+            "kata": "Badan Amil Zakat",
+            "definisi": "Lembaga resmi yang disahkan pemerintah untuk mengelola dan menyalurkan zakat dari umat Islam.",
+            "contoh": "Zakat Pak Budi disalurkan lewat Badan Amil Zakat Nasional yang resmi."
+          },
+          {
+            "kata": "Santunan Asuransi",
+            "definisi": "Pembayaran dari perusahaan asuransi atas klaim kesehatan atau jiwa yang dijamin dalam polis.",
+            "contoh": "Santunan rawat inap Pak Joko dibayar langsung oleh asuransi kesehatan kantor."
+          }
+        ]
+      },
+      {
+        "id": "bag-06",
+        "judul": "Perlakuan Natura dan Kenikmatan Kantor",
+        "paragraf": [
+          "Sekarang kita masuk ke topik yang cukup sering bikin bingung: natura dan kenikmatan. Ini topik yang relatif baru diatur detail lewat PMK 66/2023, jadi banyak orang masih belum familiar. Simpelnya gini: natura itu penghasilan dalam bentuk barang, sementara kenikmatan itu penghasilan dalam bentuk fasilitas atau hak menikmati sesuatu.",
+          "Contoh natura misalnya perusahaan kasih kamu paket sembako, HP kantor yang jadi hak milik kamu, atau bingkisan hari raya. Sementara contoh kenikmatan itu kayak fasilitas mobil dinas, rumah dinas, atau akses gym kantor yang bisa kamu pakai tapi bukan milik kamu. Nah, sejak PMK 66/2023, secara prinsip semua natura dan kenikmatan itu jadi objek pajak (berbeda dari aturan lama yang membebaskan hampir semua natura).",
+          "Tapi tenang, ada beberapa pengecualian yang tetap dibebaskan dari pajak: makanan dan minuman untuk seluruh pegawai di tempat kerja, natura di daerah tertentu, natura yang berkaitan dengan keselamatan kerja seperti seragam dan alat pelindung diri, bingkisan hari raya keagamaan (ada batasan nilainya), dan fasilitas olahraga (kecuali golf, pacuan kuda, balap perahu bermotor) dengan batas maksimal Rp1,5 juta per tahun."
+        ],
+        "poin_penting": [
+          "💡 Natura = penghasilan berbentuk barang, Kenikmatan = penghasilan berbentuk fasilitas/hak pakai",
+          "📌 Sejak PMK 66/2023, natura dan kenikmatan pada prinsipnya jadi objek PPh 21",
+          "✅ Beberapa dikecualikan: makanan bersama, APD, bingkisan hari raya (dengan batas), fasilitas olahraga maks Rp1,5 juta/tahun",
+          "⚠️ Fasilitas golf, pacuan kuda, dan balap perahu bermotor tidak masuk pengecualian meski itu 'olahraga'"
+        ],
+        "analogi": "Ibaratnya tuh kayak kamu dapet 'THR barang' dari sodara. Kalau dulu semua hadiah barang dianggap nggak kena pajak (kayak hadiah gratis tanpa syarat), sekarang aturannya lebih ketat: hadiah barang tetap dihitung sebagai penghasilan, kecuali hadiah kecil-kecil tertentu yang dianggap wajar dan dikecualikan.",
+        "contoh_kasus": {
+          "judul": "Fasilitas Gym Kantor Bu Siti",
+          "cerita": "Bu Siti bekerja di sebuah startup di Jakarta yang menyediakan fasilitas gym gratis untuk karyawan senilai Rp2 juta per tahun. Karena batas pengecualian fasilitas olahraga cuma Rp1,5 juta per tahun, maka selisih Rp500 ribu dianggap sebagai kenikmatan yang jadi objek PPh 21 Bu Siti.",
+          "poin": [
+            "Fasilitas olahraga dibebaskan sampai Rp1,5 juta per tahun, sisanya kena pajak",
+            "Perusahaan wajib menghitung selisih nilai kenikmatan yang melebihi batas pengecualian"
+          ]
+        },
+        "diagram_mermaid": [],
+        "penjelasan_diagram": "",
+        "prompt_gambar": [
+          {
+            "id": "img-02",
+            "prompt": "A highly detailed modern 3D isometric stylized studio render in landscape 16:9 format, illustrating the concept of Indonesian in-kind employee benefits (natura and kenikmatan) inside a modern startup office. Deep dark-mode navy background gradient mesh #0F172A to #1E1B4B with soft ambient blue and gold lighting. Center composition shows a floating glass office building cutaway with two glowing sections: left side shows a 3D gift box, company smartphone, and holiday hamper representing physical goods, right side shows a 3D gym icon, a company car icon, and a house icon representing facility benefits. A glowing golden scale in the middle balances the two sides with a small warning icon showing a tax percentage symbol. Include short, clean, and perfectly spelled modern Indonesian text labels floating above each icon such as 'Natura Barang', 'Kenikmatan Fasilitas', dan 'Batas Bebas Pajak'. Color palette: electric blue, emerald green, warm gold accents, clean white sans-serif typography. Ultra modern premium tech-education infographic aesthetic, cinematic studio lighting, crisp render quality.",
+            "keterangan": "Ilustrasi perbedaan natura (barang) dan kenikmatan (fasilitas) dalam konteks kantor modern, lengkap dengan simbol batas bebas pajak yang berlaku sesuai PMK 66/2023. Gambar ini membantu kamu membedakan dua konsep yang sering ketuker ini secara visual.",
+            "alt": "Ilustrasi gedung kantor dengan dua sisi menunjukkan natura barang dan kenikmatan fasilitas beserta timbangan batas pajak",
+            "url_gambar": null
+          }
+        ],
+        "kalkulator": null,
+        "mini_kuis": [
+          {
+            "id": "q1",
+            "pertanyaan": "Fasilitas olahraga kantor dibebaskan dari objek PPh 21 sampai batas berapa per tahun?",
+            "tipe": "pilihan_ganda",
+            "pilihan": [
+              "A. Rp500 ribu",
+              "B. Rp1 juta",
+              "C. Rp1,5 juta",
+              "D. Rp2 juta"
+            ],
+            "jawaban": "C",
+            "pembahasan": "Sesuai PMK 66/2023, fasilitas olahraga (di luar golf, pacuan kuda, dan balap perahu bermotor) dibebaskan dari objek PPh 21 sampai batas Rp1,5 juta per tahun. Kelebihannya baru dianggap sebagai kenikmatan yang kena pajak."
+          },
+          {
+            "id": "q2",
+            "pertanyaan": "Sejak PMK 66/2023, semua natura dan kenikmatan otomatis bebas pajak.",
+            "tipe": "benar_salah",
+            "pilihan": [
+              "Benar",
+              "Salah"
+            ],
+            "jawaban": "Salah",
+            "pembahasan": "Salah, justru sebaliknya. Sejak PMK 66/2023, prinsip umumnya natura dan kenikmatan menjadi objek pajak, kecuali beberapa jenis yang secara eksplisit dikecualikan seperti makanan bersama dan APD."
+          }
+        ],
+        "kesalahan_umum": [
+          {
+            "salah": "Mengira semua bingkisan hari raya otomatis bebas pajak tanpa batas nilai",
+            "benar": "Bingkisan hari raya keagamaan dikecualikan hanya sampai batas nilai tertentu yang wajar, kelebihannya tetap objek pajak",
+            "tips": "Selalu cek nilai wajar bingkisan sebelum menyimpulkan bebas pajak sepenuhnya"
+          },
+          {
+            "salah": "Menganggap fasilitas golf termasuk fasilitas olahraga yang dikecualikan",
+            "benar": "Golf, pacuan kuda, dan balap perahu bermotor secara eksplisit dikecualikan dari daftar fasilitas olahraga yang bebas pajak",
+            "tips": "Ingat 3 pengecualian khusus ini karena sering muncul di soal ujian Brevet"
+          }
+        ],
+        "istilah": [
+          {
+            "kata": "Natura",
+            "definisi": "Penghasilan dalam bentuk barang yang diberikan sebagai pengganti atau tambahan atas gaji.",
+            "contoh": "Paket sembako dari kantor untuk Bu Siti termasuk natura."
+          },
+          {
+            "kata": "Kenikmatan",
+            "definisi": "Penghasilan dalam bentuk fasilitas atau hak untuk menikmati sesuatu yang disediakan oleh pemberi kerja.",
+            "contoh": "Fasilitas mobil dinas untuk manajer termasuk kenikmatan."
+          },
+          {
+            "kata": "PMK 66/2023",
+            "definisi": "Peraturan Menteri Keuangan yang mengatur perlakuan pajak atas natura dan kenikmatan sebagai objek PPh, berlaku sejak Juli 2023.",
+            "contoh": "PMK 66/2023 mengatur batas bebas pajak fasilitas olahraga sebesar Rp1,5 juta per tahun."
+          }
+        ]
+      },
+      {
+        "id": "bag-07",
+        "judul": "Filosofi Tarif Efektif Rata-rata (TER)",
+        "paragraf": [
+          "Sekarang kita masuk ke jantungnya modul ini: kenapa sih pemerintah bikin sistem TER? Sebelum 2024, cara ngitung PPh 21 bulanan itu ribet banget. Setiap bulan, bagian payroll harus hitung biaya jabatan, PTKP, disetahunkan, baru dikali tarif progresif, terus dibagi 12 lagi. Bayangin kalau perusahaan punya ratusan karyawan, betapa capeknya tim HR/payroll ngitung manual tiap bulan.",
+          "Nah, TER hadir sebagai jalan pintas yang sah secara hukum. Alih-alih ngitung ribet tiap bulan, sekarang tinggal ambil penghasilan bruto bulanan, terus dikalikan aja langsung sama persentase tarif yang udah ditentuin sesuai tabel resmi PP 58/2023. Simpel banget kan? Ini yang bikin proses payroll jadi jauh lebih cepat dan minim human error.",
+          "Tapi penting dicatat, TER itu cuma dipakai buat masa Januari sampai November aja. Di masa Desember (atau masa pajak terakhir kalau karyawan berhenti di tengah tahun), perhitungannya dikembalikan lagi ke cara lama yang lebih presisi pakai tarif progresif Pasal 17, karena di situ negara mau mastiin jumlah pajak yang beneran terutang setahun itu akurat, bukan cuma estimasi rata-rata."
+        ],
+        "poin_penting": [
+          "💡 TER adalah jalan pintas resmi buat menyederhanakan perhitungan PPh 21 bulanan",
+          "📌 Dasar hukum: PP 58/2023 dan PMK 168/2023, berlaku sejak Januari 2024",
+          "✅ TER dipakai Januari-November, sementara Desember pakai tarif progresif Pasal 17 buat rekonsiliasi",
+          "⚠️ TER bukan tarif final, hanya estimasi pemotongan bulanan yang nanti direkonsiliasi di akhir tahun"
+        ],
+        "analogi": "Bayangin kamu nyicil bayar listrik pakai token setiap bulan dengan estimasi pemakaian rata-rata biar simpel, terus di akhir tahun ada 'pencatatan meteran resmi' buat mastiin kamu bayar pas sesuai pemakaian sebenarnya. TER itu kayak token estimasi bulanan, dan Desember itu kayak pencatatan meteran resminya.",
+        "contoh_kasus": {
+          "judul": "Tim Payroll PT Maju Bersama",
+          "cerita": "Sebelum 2024, tim payroll PT Maju Bersama butuh waktu 3 hari buat hitung PPh 21 seluruh 200 karyawannya secara manual. Setelah TER berlaku, mereka cuma butuh waktu setengah hari karena tinggal cocokkan bruto bulanan ke tabel TER yang sudah disediakan DJP.",
+          "poin": [
+            "TER secara signifikan mempercepat proses payroll bulanan",
+            "Efisiensi ini tidak mengubah total pajak yang terutang setahun, karena tetap direkonsiliasi di Desember"
+          ]
+        },
+        "diagram_mermaid": [
+          "flowchart LR\n    A[\"Sebelum 2024: Hitung Manual Tiap Bulan\"] --> B[\"Ribet & Rentan Salah\"]\n    C[\"Sejak 2024: Skema TER\"] --> D[\"Bruto Bulanan x Persentase TER\"]\n    D --> E[\"Proses Payroll Lebih Cepat\"]\n    E --> F[\"Desember: Rekonsiliasi Pasal 17\"]"
+        ],
+        "penjelasan_diagram": "Diagram ini nunjukkin perbandingan proses sebelum dan sesudah TER berlaku, serta di mana posisi rekonsiliasi Desember dalam alur keseluruhan.",
+        "prompt_gambar": [],
+        "kalkulator": null,
+        "mini_kuis": [
+          {
+            "id": "q1",
+            "pertanyaan": "Apa tujuan utama diberlakukannya skema TER dalam perhitungan PPh 21?",
+            "tipe": "pilihan_ganda",
+            "pilihan": [
+              "A. Menaikkan tarif pajak karyawan",
+              "B. Menyederhanakan perhitungan pemotongan bulanan",
+              "C. Menghapus kewajiban lapor SPT Tahunan",
+              "D. Mengganti sistem PTKP secara permanen"
+            ],
+            "jawaban": "B",
+            "pembahasan": "TER dibuat untuk menyederhanakan perhitungan pemotongan bulanan tanpa perlu menghitung biaya jabatan dan PTKP setiap bulan secara manual. Ini bukan soal menaikkan tarif, melainkan efisiensi administrasi."
+          },
+          {
+            "id": "q2",
+            "pertanyaan": "TER adalah tarif final yang tidak perlu direkonsiliasi lagi di akhir tahun.",
+            "tipe": "benar_salah",
+            "pilihan": [
+              "Benar",
+              "Salah"
+            ],
+            "jawaban": "Salah",
+            "pembahasan": "Salah, TER hanya estimasi pemotongan bulanan Januari-November. Di Desember, dilakukan rekonsiliasi menggunakan tarif progresif Pasal 17 untuk mendapatkan angka pajak setahun yang sesungguhnya."
+          }
+        ],
+        "kesalahan_umum": [
+          {
+            "salah": "Menganggap TER menggantikan tarif Pasal 17 secara permanen",
+            "benar": "TER hanya dipakai untuk masa Januari-November, sedangkan Desember tetap pakai tarif progresif Pasal 17",
+            "tips": "Ingat, TER dan Pasal 17 adalah dua instrumen berbeda untuk masa pajak yang berbeda"
+          }
+        ],
+        "istilah": [
+          {
+            "kata": "Tarif Efektif Rata-rata (TER)",
+            "definisi": "Tarif tunggal yang telah memperhitungkan komponen pengurang seperti biaya jabatan dan PTKP, digunakan untuk memotong PPh 21 bulanan secara sederhana.",
+            "contoh": "Bruto Pak Joko Rp10 juta dikalikan langsung tarif TER Kategori A."
+          },
+          {
+            "kata": "Pasal 17 UU HPP",
+            "definisi": "Pasal yang mengatur tarif progresif Pajak Penghasilan Orang Pribadi berdasarkan lapisan Penghasilan Kena Pajak.",
+            "contoh": "PPh 21 masa Desember dihitung ulang pakai tarif Pasal 17."
+          },
+          {
+            "kata": "Rekonsiliasi Pajak",
+            "definisi": "Proses menghitung ulang total pajak setahun untuk memastikan kesesuaian antara pemotongan bulanan dengan pajak yang sesungguhnya terutang.",
+            "contoh": "Rekonsiliasi PPh 21 dilakukan setiap bulan Desember."
+          }
+        ]
+      },
+      {
+        "id": "bag-08",
+        "judul": "Matriks 3 Kategori TER Bulanan",
+        "paragraf": [
+          "Nah, sekarang kita bedah lebih detail soal TER bulanan. TER itu dibagi jadi 3 kategori besar: A, B, dan C. Penentuan kategori ini murni berdasarkan status PTKP (Penghasilan Tidak Kena Pajak) kamu di awal tahun pajak, bukan berdasarkan besar gaji ya.",
+          "TER Kategori A berlaku untuk status TK/0 (tidak kawin tanpa tanggungan, PTKP Rp54 juta), TK/1 (tidak kawin 1 tanggungan) dan K/0 (kawin tanpa tanggungan), keduanya PTKP Rp58,5 juta. TER Kategori B berlaku untuk TK/2 dan K/1 (PTKP Rp63 juta) serta TK/3 dan K/2 (PTKP Rp67,5 juta). Sementara TER Kategori C cuma berlaku untuk satu status aja, yaitu K/3 (kawin dengan 3 tanggungan, PTKP Rp72 juta).",
+          "Setelah tahu kategorinya, tinggal cocokkan penghasilan bruto bulanan kamu ke tabel resmi lampiran PP 58/2023 buat dapetin persentase tarifnya. Misalnya, buat Kategori B dengan bruto bulanan Rp12 juta, tarifnya itu 2% (berdasarkan tabel resmi rentang Rp11.600.001 sampai Rp12.600.000). Penting banget: kamu harus pakai tabel resmi ini, bukan ngarang persentase sendiri, karena rentang nominalnya sangat spesifik dan berjenjang."
+        ],
+        "poin_penting": [
+          "💡 Kategori TER (A/B/C) ditentukan dari status PTKP, bukan besar gaji",
+          "📌 TER A: TK/0, TK/1, K/0 — TER B: TK/2, TK/3, K/1, K/2 — TER C: K/3",
+          "✅ Tarif TER tertinggi bisa mencapai 34% untuk penghasilan bruto bulanan sangat tinggi",
+          "⚠️ Selalu cocokkan bruto bulanan ke tabel resmi PP 58/2023, jangan menghafal angka bulat"
+        ],
+        "analogi": "Ibaratnya tuh kayak kamu naik ojek online dan tarifnya udah ditentuin sistem berdasarkan zona (kategori A/B/C) dan jarak tempuh (nominal bruto bulanan). Kamu tinggal cek tabel tarifnya, bukan nawar sendiri.",
+        "contoh_kasus": {
+          "judul": "Menentukan Kategori TER Tiga Karyawan",
+          "cerita": "PT Sejahtera Abadi punya tiga karyawan: Mbak Rina (TK/0) masuk Kategori A, Pak Budi (K/1) masuk Kategori B, dan Bu Dewi (K/3) masuk Kategori C. Meski gaji ketiganya sama-sama Rp12 juta per bulan, persentase TER yang dipakai untuk masing-masing bisa berbeda karena kategorinya beda.",
+          "poin": [
+            "Status PTKP menentukan kategori TER, bukan besar gaji",
+            "Dua orang dengan gaji sama bisa kena tarif TER berbeda kalau status PTKP-nya beda"
+          ]
+        },
+        "diagram_mermaid": [
+          "graph TD\n    subgraph \"Kategori A\"\n    A1[\"TK/0 - PTKP Rp54jt\"]\n    A2[\"TK/1 & K/0 - PTKP Rp58,5jt\"]\n    end\n    subgraph \"Kategori B\"\n    B1[\"TK/2 & K/1 - PTKP Rp63jt\"]\n    B2[\"TK/3 & K/2 - PTKP Rp67,5jt\"]\n    end\n    subgraph \"Kategori C\"\n    C1[\"K/3 - PTKP Rp72jt\"]\n    end"
+        ],
+        "penjelasan_diagram": "Diagram ini nunjukkin matriks pengelompokan status PTKP ke dalam 3 kategori TER, jadi kamu bisa langsung tahu status kamu masuk kategori mana.",
+        "prompt_gambar": [],
+        "kalkulator": {
+          "tipe": "pph21_ter",
+          "judul": "Kalkulator Penentu Kategori dan Tarif TER Bulanan",
+          "keterangan": "Masukkan status PTKP dan penghasilan bruto bulanan untuk mengetahui kategori TER (A/B/C) serta estimasi PPh 21 bulanan kamu."
+        },
+        "mini_kuis": [
+          {
+            "id": "q1",
+            "pertanyaan": "Karyawan dengan status K/1 masuk kategori TER apa?",
+            "tipe": "pilihan_ganda",
+            "pilihan": [
+              "A. Kategori A",
+              "B. Kategori B",
+              "C. Kategori C",
+              "D. Tidak masuk kategori manapun"
+            ],
+            "jawaban": "B",
+            "pembahasan": "Status K/1 (kawin dengan 1 tanggungan) masuk TER Kategori B bersama TK/2, TK/3, dan K/2, dengan PTKP Rp63 juta per tahun."
+          },
+          {
+            "id": "q2",
+            "pertanyaan": "Kategori TER ditentukan berdasarkan besar gaji karyawan.",
+            "tipe": "benar_salah",
+            "pilihan": [
+              "Benar",
+              "Salah"
+            ],
+            "jawaban": "Salah",
+            "pembahasan": "Salah, kategori TER (A/B/C) ditentukan dari status PTKP karyawan (status kawin dan jumlah tanggungan), bukan dari besar gajinya. Besar gaji baru dipakai untuk mencocokkan persentase tarif di dalam kategori tersebut."
+          }
+        ],
+        "kesalahan_umum": [
+          {
+            "salah": "Mengira K/3 masuk Kategori B karena sama-sama ada angka tanggungan",
+            "benar": "K/3 adalah satu-satunya status yang masuk Kategori C tersendiri, terpisah dari Kategori B",
+            "tips": "Hafalkan bahwa hanya K/3 yang punya kategorinya sendiri, yaitu Kategori C"
+          }
+        ],
+        "istilah": [
+          {
+            "kata": "PTKP",
+            "definisi": "Penghasilan Tidak Kena Pajak, yaitu batas penghasilan yang dikecualikan dari pengenaan pajak berdasarkan status perkawinan dan jumlah tanggungan.",
+            "contoh": "PTKP status K/1 adalah Rp58,5 juta per tahun."
+          },
+          {
+            "kata": "TK/K Status",
+            "definisi": "Kode status wajib pajak, TK untuk Tidak Kawin dan K untuk Kawin, diikuti angka jumlah tanggungan.",
+            "contoh": "K/2 berarti kawin dengan 2 tanggungan."
+          },
+          {
+            "kata": "Tabel TER",
+            "definisi": "Lampiran resmi PP 58/2023 yang berisi rentang penghasilan bruto bulanan dan persentase tarif yang berlaku untuk setiap kategori TER.",
+            "contoh": "Bruto Rp12 juta di Kategori B dicocokkan ke tabel TER untuk mendapat tarif 2%."
+          }
+        ]
+      },
+      {
+        "id": "bag-09",
+        "judul": "Menghitung PPh 21 Bulanan Jan-Nov",
+        "paragraf": [
+          "Sekarang kita praktik langsung ngitung PPh 21 bulanan pakai TER. Rumusnya simpel banget: PPh 21 Terutang Bulanan = Penghasilan Bruto Bulanan dikali Persentase TER sesuai kategori dan rentang di tabel resmi. Nggak ada pengurangan biaya jabatan atau PTKP lagi di tahap ini, karena itu udah 'dibakar' ke dalam persentase TER-nya.",
+          "Yang perlu diinget, penghasilan bruto bulanan itu mencakup semua komponen: gaji pokok, tunjangan, lembur, dan natura/kenikmatan yang jadi objek pajak (kalau ada). Jadi sebelum kalikan ke tarif TER, pastiin kamu udah jumlahin semua komponen penghasilan bulan itu dengan benar.",
+          "Yuk kita coba hitung. Pak Budi berstatus K/1 (Kategori B) dengan gaji bulanan Rp12 juta. Berdasarkan tabel resmi TER Kategori B, rentang Rp11.600.001 sampai Rp12.600.000 itu tarifnya 2%. Jadi, PPh 21 Pak Budi bulan itu = Rp12.000.000 x 2% = Rp240.000. Ini yang dipotong dari gajinya setiap bulan mulai Januari sampai November."
+        ],
+        "poin_penting": [
+          "💡 Rumus: PPh 21 Bulanan = Penghasilan Bruto Bulanan x Persentase TER",
+          "📌 Tidak ada lagi pengurangan biaya jabatan/PTKP terpisah karena sudah tercakup dalam tarif TER",
+          "✅ Berlaku untuk masa Januari sampai November saja",
+          "⚠️ Wajib menjumlahkan semua komponen penghasilan bulan berjalan sebelum dikalikan tarif"
+        ],
+        "analogi": "Simpelnya begini, TER bulanan itu kayak kamu belanja di kasir self-service yang udah otomatis nge-scan semua barang di keranjang dan langsung ngasih total plus pajak tanpa kamu perlu ngitung manual satu-satu.",
+        "contoh_kasus": {
+          "judul": "Perhitungan Gaji Pak Budi K/1 Rp12 Juta",
+          "cerita": "Pak Budi, karyawan tetap PT Sejahtera Abadi berstatus K/1, menerima gaji Rp12 juta per bulan. Karena statusnya masuk TER Kategori B dan brutonya Rp12 juta berada di rentang tarif 2%, maka PPh 21 yang dipotong setiap bulan Januari-November adalah Rp240.000.",
+          "poin": [
+            "PPh 21 Pak Budi per bulan = Rp12.000.000 x 2% = Rp240.000",
+            "Total PPh 21 yang dipotong selama Januari-November (11 bulan) = Rp240.000 x 11 = Rp2.640.000"
+          ]
+        },
+        "diagram_mermaid": [],
+        "penjelasan_diagram": "",
+        "prompt_gambar": [],
+        "kalkulator": {
+          "tipe": "pph21_ter",
+          "judul": "Kalkulator PPh 21 Bulanan (Jan-Nov)",
+          "keterangan": "Masukkan kategori TER dan penghasilan bruto bulanan untuk menghitung estimasi PPh 21 yang dipotong bulan ini."
+        },
+        "mini_kuis": [
+          {
+            "id": "q1",
+            "pertanyaan": "Berapa PPh 21 bulanan Pak Budi jika gaji brutonya Rp12 juta dan tarif TER Kategori B untuk rentang tersebut adalah 2%?",
+            "tipe": "pilihan_ganda",
+            "pilihan": [
+              "A. Rp120.000",
+              "B. Rp240.000",
+              "C. Rp360.000",
+              "D. Rp480.000"
+            ],
+            "jawaban": "B",
+            "pembahasan": "PPh 21 = Rp12.000.000 x 2% = Rp240.000. Pilihan lain salah karena menggunakan persentase yang tidak sesuai dengan tarif 2% yang berlaku untuk rentang tersebut."
+          },
+          {
+            "id": "q2",
+            "pertanyaan": "Total PPh 21 Pak Budi selama Januari-November (11 bulan) dengan potongan bulanan Rp240.000 adalah Rp2.640.000.",
+            "tipe": "benar_salah",
+            "pilihan": [
+              "Benar",
+              "Salah"
+            ],
+            "jawaban": "Benar",
+            "pembahasan": "Benar, Rp240.000 x 11 bulan = Rp2.640.000, yang nanti akan dijadikan pengurang saat rekonsiliasi masa Desember."
+          }
+        ],
+        "kesalahan_umum": [
+          {
+            "salah": "Mengurangi biaya jabatan dan PTKP dulu sebelum dikalikan tarif TER bulanan",
+            "benar": "Tidak perlu pengurangan apapun, langsung kalikan bruto bulanan dengan persentase TER sesuai tabel",
+            "tips": "TER sudah dirancang all-in-one, jangan tambahkan langkah pengurangan manual lagi"
+          }
+        ],
+        "istilah": [
+          {
+            "kata": "Masa Pajak",
+            "definisi": "Periode waktu yang menjadi dasar pelaporan dan penyetoran pajak, umumnya satu bulan kalender untuk PPh 21.",
+            "contoh": "PPh 21 Pak Budi bulan Januari dilaporkan dalam Masa Pajak Januari."
+          },
+          {
+            "kata": "Penghasilan Bruto Bulanan",
+            "definisi": "Total seluruh komponen penghasilan yang diterima dalam satu bulan sebelum dikurangi apapun.",
+            "contoh": "Penghasilan bruto bulanan Pak Budi adalah Rp12 juta."
+          },
+          {
+            "kata": "Persentase TER",
+            "definisi": "Angka tarif dalam bentuk persen yang dicocokkan dari tabel resmi berdasarkan kategori dan rentang bruto bulanan.",
+            "contoh": "Persentase TER untuk bruto Rp12 juta Kategori B adalah 2%."
+          }
+        ]
+      },
+      {
+        "id": "bag-10",
+        "judul": "Menghitung PPh 21 Masa Desember",
+        "paragraf": [
+          "Ini bagian yang sering bikin pusing tapi sebenarnya cuma 'ngulang cara lama'. Di masa Desember (atau masa pajak terakhir kalau karyawan berhenti kerja di tengah tahun), PPh 21 dihitung ulang secara utuh setahun pakai tarif progresif Pasal 17, bukan pakai TER lagi.",
+          "Rumusnya: Penghasilan Neto Setahun = Penghasilan Bruto Setahun dikurangi Biaya Jabatan (5% dari bruto, maksimal Rp6 juta per tahun) dikurangi Iuran Pensiun setahun. Terus, Penghasilan Kena Pajak (PKP) = Penghasilan Neto Setahun dikurangi PTKP sesuai status. Setelah dapet PKP, baru dikalikan tarif progresif Pasal 17: 5% untuk lapisan sampai Rp60 juta, 15% untuk lapisan di atas Rp60 juta sampai Rp250 juta, dan seterusnya sampai lapisan tertinggi 35% untuk PKP di atas Rp5 miliar.",
+          "Nah, PPh 21 setahun hasil hitungan ini kemudian dikurangi dengan total PPh 21 yang sudah dipotong pakai TER selama Januari-November. Selisihnya itulah yang jadi PPh 21 masa Desember. Kalau selisihnya positif, karyawan kena potong tambahan di Desember. Kalau negatif (jarang terjadi tapi bisa aja, misalnya karyawan resign di tengah tahun), perusahaan wajib mengembalikan kelebihan potong."
+        ],
+        "poin_penting": [
+          "💡 Desember pakai tarif progresif Pasal 17, bukan TER lagi",
+          "📌 Rumus: (Bruto Setahun - Biaya Jabatan maks Rp6jt - Iuran Pensiun - PTKP) x Tarif Progresif, dikurangi total TER Jan-Nov",
+          "✅ Ini adalah proses rekonsiliasi tahunan yang memastikan pajak yang dipotong akurat",
+          "⚠️ Selisih bisa positif (kurang bayar) atau negatif (lebih bayar), keduanya harus diselesaikan di Desember"
+        ],
+        "analogi": "Nah, analoginya tuh kayak kamu bayar cicilan listrik pakai estimasi rata-rata tiap bulan (TER), terus di akhir tahun PLN datang catat meteran asli kamu (Pasal 17) dan menyesuaikan: kalau kamu kurang bayar, kamu nombokin, kalau kamu kelebihan bayar, kamu dapet refund.",
+        "contoh_kasus": {
+          "judul": "Rekonsiliasi Desember Pak Budi K/1",
+          "cerita": "Melanjutkan kasus Pak Budi (K/1, gaji Rp12 juta/bulan, iuran pensiun Rp100 ribu/bulan). Total bruto setahun = Rp144 juta. Biaya jabatan 5% x Rp144 juta = Rp7,2 juta, tapi dibatasi maksimal Rp6 juta. Iuran pensiun setahun = Rp1,2 juta. Neto setahun = Rp144 juta - Rp6 juta - Rp1,2 juta = Rp136,8 juta. PTKP K/1 = Rp58,5 juta. PKP = Rp136,8 juta - Rp58,5 juta = Rp78,3 juta.",
+          "poin": [
+            "PPh 21 setahun = (5% x Rp60 juta) + (15% x Rp18,3 juta) = Rp3 juta + Rp2.745.000 = Rp5.745.000",
+            "PPh 21 Desember = Rp5.745.000 dikurangi total TER Jan-Nov Rp2.640.000 = Rp3.105.000"
+          ]
+        },
+        "diagram_mermaid": [
+          "flowchart TD\n    A[\"Bruto Setahun\"] --> B[\"Dikurangi Biaya Jabatan maks Rp6jt\"]\n    B --> C[\"Dikurangi Iuran Pensiun Setahun\"]\n    C --> D[\"Penghasilan Neto Setahun\"]\n    D --> E[\"Dikurangi PTKP sesuai status\"]\n    E --> F[\"Penghasilan Kena Pajak (PKP)\"]\n    F --> G[\"Dikali Tarif Progresif Pasal 17\"]\n    G --> H[\"PPh 21 Terutang Setahun\"]\n    H --> I[\"Dikurangi Total TER Jan-Nov\"]\n    I --> J[\"PPh 21 Masa Desember\"]"
+        ],
+        "penjelasan_diagram": "Diagram ini nunjukkin seluruh alur rekonsiliasi Desember dari bruto setahun sampai ketemu angka final PPh 21 yang harus dipotong di bulan itu.",
+        "prompt_gambar": [],
+        "kalkulator": {
+          "tipe": "pph21_ter",
+          "judul": "Kalkulator Rekonsiliasi PPh 21 Masa Desember",
+          "keterangan": "Masukkan total bruto setahun, iuran pensiun, status PTKP, dan total TER Jan-Nov untuk menghitung PPh 21 masa Desember."
+        },
+        "mini_kuis": [
+          {
+            "id": "q1",
+            "pertanyaan": "Berapa PKP Pak Budi jika neto setahun Rp136,8 juta dan PTKP K/1 Rp58,5 juta?",
+            "tipe": "pilihan_ganda",
+            "pilihan": [
+              "A. Rp68,3 juta",
+              "B. Rp78,3 juta",
+              "C. Rp88,3 juta",
+              "D. Rp58,5 juta"
+            ],
+            "jawaban": "B",
+            "pembahasan": "PKP = Rp136.800.000 - Rp58.500.000 = Rp78.300.000. Pilihan lain adalah hasil kesalahan pengurangan atau pembulatan yang tidak sesuai."
+          },
+          {
+            "id": "q2",
+            "pertanyaan": "Biaya jabatan dibatasi maksimal Rp6 juta per tahun meskipun 5% dari bruto lebih besar dari itu.",
+            "tipe": "benar_salah",
+            "pilihan": [
+              "Benar",
+              "Salah"
+            ],
+            "jawaban": "Benar",
+            "pembahasan": "Benar, biaya jabatan dihitung 5% dari bruto tapi dibatasi maksimal Rp500 ribu per bulan atau Rp6 juta per tahun, meskipun 5% dari bruto sebenarnya lebih besar."
+          },
+          {
+            "id": "q3",
+            "pertanyaan": "Jelaskan kenapa PPh 21 masa Desember bisa menghasilkan nilai lebih bayar (perusahaan harus mengembalikan uang ke karyawan)!",
+            "tipe": "esai",
+            "pilihan": null,
+            "jawaban": "PPh 21 masa Desember bisa lebih bayar ketika total PPh 21 yang sudah dipotong menggunakan TER selama Januari-November ternyata lebih besar dari PPh 21 setahun yang dihitung ulang dengan tarif progresif Pasal 17. Ini bisa terjadi misalnya karena karyawan berhenti bekerja di tengah tahun sehingga penghasilan setahunnya menjadi lebih kecil dari estimasi TER, atau ada perubahan status PTKP yang menurunkan PKP.",
+            "pembahasan": "Jawaban dianggap benar jika siswa memahami konsep bahwa TER adalah estimasi bulanan yang bisa lebih besar dari kewajiban pajak sesungguhnya, dan perbedaan itu direkonsiliasi di masa pajak terakhir."
+          }
+        ],
+        "kesalahan_umum": [
+          {
+            "salah": "Menghitung PPh 21 Desember tanpa mengurangi total TER yang sudah dipotong Jan-Nov",
+            "benar": "PPh 21 Desember adalah selisih antara PPh 21 setahun (Pasal 17) dengan total TER yang sudah dipotong Januari-November",
+            "tips": "Selalu kurangi hasil hitungan Pasal 17 dengan total TER yang sudah disetor sebelumnya"
+          }
+        ],
+        "istilah": [
+          {
+            "kata": "Biaya Jabatan",
+            "definisi": "Pengurang penghasilan bruto sebesar 5% dengan batas maksimal tertentu per tahun, sebagai kompensasi biaya terkait pekerjaan.",
+            "contoh": "Biaya jabatan Pak Budi dibatasi maksimal Rp6 juta per tahun."
+          },
+          {
+            "kata": "Penghasilan Kena Pajak (PKP)",
+            "definisi": "Dasar pengenaan tarif progresif Pasal 17, dihitung dari penghasilan neto setahun dikurangi PTKP.",
+            "contoh": "PKP Pak Budi setahun adalah Rp78,3 juta."
+          },
+          {
+            "kata": "Tarif Progresif",
+            "definisi": "Sistem tarif berjenjang yang persentasenya makin tinggi seiring makin besarnya lapisan penghasilan kena pajak.",
+            "contoh": "PKP Rp78,3 juta dikenai tarif progresif 5% dan 15% pada lapisan masing-masing."
+          }
+        ]
+      },
+      {
+        "id": "bag-11",
+        "judul": "Skema TER Harian untuk Pegawai Tidak Tetap",
+        "paragraf": [
+          "Sekarang kita bahas kelompok yang beda dari pegawai tetap: pegawai tidak tetap alias tenaga kerja harian lepas. Ini biasanya buruh pabrik, kuli bangunan, atau pekerja lepas yang dibayar per hari atau per satuan hasil kerja, bukan gaji bulanan tetap.",
+          "Skemanya beda dari TER bulanan, ini namanya TER harian, dan cuma ada 3 lapisan tarif aja, jauh lebih simpel. Kalau penghasilan bruto harian sampai dengan Rp450 ribu, tarifnya 0% alias bebas pajak. Kalau brutonya di atas Rp450 ribu sampai Rp2,5 juta per hari, tarifnya 0,5%. Nah, kalau brutonya udah di atas Rp2,5 juta per hari (ini biasanya buat pekerjaan satuan/borongan besar), perhitungannya udah nggak pakai TER harian lagi, tapi disetahunkan dulu dan pakai tarif progresif Pasal 17.",
+          "Buat yang dibayar mingguan, satuan, atau borongan, caranya penghasilan totalnya dirata-ratakan dulu per hari kerja, baru dicocokkan ke tarif TER harian di atas. Ini penting biar pekerja yang dibayar borongan tetep dapet perlakuan pajak yang adil sesuai rata-rata penghasilan hariannya."
+        ],
+        "poin_penting": [
+          "💡 TER harian punya 3 lapisan: 0% (sampai Rp450rb), 0,5% (Rp450rb-Rp2,5jt), dan Pasal 17 (di atas Rp2,5jt)",
+          "📌 Berlaku untuk pegawai tidak tetap/harian lepas yang dibayar harian, mingguan, satuan, atau borongan",
+          "✅ Penghasilan mingguan/borongan dirata-ratakan per hari dulu sebelum dicocokkan ke tarif",
+          "⚠️ Di atas Rp2,5 juta per hari, perhitungan berpindah ke skema disetahunkan dengan tarif Pasal 17"
+        ],
+        "analogi": "Gampangnya gini, TER harian itu kayak tarif parkir motor per jam di mal: kalau parkir sebentar (penghasilan kecil) gratis, kalau agak lama (penghasilan sedang) kena tarif kecil, tapi kalau nginep semalaman (penghasilan gede banget), tarifnya dihitung pakai skema khusus yang berbeda.",
+        "contoh_kasus": {
+          "judul": "Dito, Buruh Harian Lepas Gudang Logistik",
+          "cerita": "Dito bekerja sebagai buruh harian lepas di gudang logistik sebuah perusahaan e-commerce dengan upah Rp600 ribu per hari. Karena upah hariannya berada di rentang di atas Rp450 ribu sampai Rp2,5 juta, maka Dito dikenai tarif TER harian sebesar 0,5%.",
+          "poin": [
+            "PPh 21 harian Dito = Rp600.000 x 0,5% = Rp3.000",
+            "Kalau Dito kerja 20 hari dalam sebulan, total PPh 21 yang dipotong = Rp3.000 x 20 = Rp60.000"
+          ]
+        },
+        "diagram_mermaid": [],
+        "penjelasan_diagram": "",
+        "prompt_gambar": [],
+        "kalkulator": {
+          "tipe": "pph21_ter",
+          "judul": "Kalkulator TER Harian Pegawai Tidak Tetap",
+          "keterangan": "Masukkan penghasilan bruto harian untuk mengetahui tarif TER harian dan estimasi PPh 21 yang dipotong."
+        },
+        "mini_kuis": [
+          {
+            "id": "q1",
+            "pertanyaan": "Berapa PPh 21 harian Dito jika upahnya Rp600.000 per hari dan tarif TER harian yang berlaku 0,5%?",
+            "tipe": "pilihan_ganda",
+            "pilihan": [
+              "A. Rp1.500",
+              "B. Rp3.000",
+              "C. Rp6.000",
+              "D. Rp30.000"
+            ],
+            "jawaban": "B",
+            "pembahasan": "PPh 21 = Rp600.000 x 0,5% = Rp3.000. Ini adalah tarif TER harian untuk rentang bruto di atas Rp450 ribu sampai Rp2,5 juta."
+          },
+          {
+            "id": "q2",
+            "pertanyaan": "Penghasilan bruto harian sampai dengan Rp450.000 dikenai tarif 0%.",
+            "tipe": "benar_salah",
+            "pilihan": [
+              "Benar",
+              "Salah"
+            ],
+            "jawaban": "Benar",
+            "pembahasan": "Benar, penghasilan harian sampai Rp450.000 dibebaskan dari PPh 21 alias tarif 0% sesuai lapisan pertama TER harian."
+          }
+        ],
+        "kesalahan_umum": [
+          {
+            "salah": "Menerapkan TER harian untuk penghasilan borongan di atas Rp2,5 juta per hari",
+            "benar": "Di atas Rp2,5 juta per hari, perhitungan harus disetahunkan dan menggunakan tarif progresif Pasal 17, bukan TER harian lagi",
+            "tips": "Cek dulu batas Rp2,5 juta sebelum menentukan skema mana yang dipakai"
+          }
+        ],
+        "istilah": [
+          {
+            "kata": "Pegawai Tidak Tetap",
+            "definisi": "Pekerja yang hanya menerima upah berdasarkan jumlah hari kerja, jumlah unit hasil pekerjaan, atau penyelesaian suatu jenis pekerjaan tertentu.",
+            "contoh": "Dito adalah pegawai tidak tetap yang dibayar harian."
+          },
+          {
+            "kata": "TER Harian",
+            "definisi": "Skema tarif efektif rata-rata dengan 3 lapisan yang diterapkan pada penghasilan harian, mingguan, satuan, atau borongan.",
+            "contoh": "TER harian Dito adalah 0,5% karena upahnya Rp600 ribu per hari."
+          },
+          {
+            "kata": "Upah Borongan",
+            "definisi": "Upah yang dihitung berdasarkan penyelesaian suatu jenis pekerjaan tertentu, bukan berdasarkan waktu kerja.",
+            "contoh": "Tukang bangunan yang dibayar per proyek selesai termasuk upah borongan."
+          }
+        ]
+      },
+      {
+        "id": "bag-12",
+        "judul": "Pemotongan PPh 21 Bukan Pegawai",
+        "paragraf": [
+          "Sekarang kita bahas kategori yang sering bikin bingung freelancer dan profesional: Bukan Pegawai. Ini termasuk dokter, notaris, pengacara, konsultan, arsitek, aktuaris, seniman, olahragawan, dan tenaga ahli lain yang kerja lepas tanpa ikatan kerja tetap dengan satu pemberi kerja.",
+          "Rumus perhitungannya beda banget dari pegawai tetap. Dasar Pengenaan Pajak (DPP)-nya bukan 100% dari penghasilan bruto, tapi cuma 50% dari penghasilan bruto. Jadi, DPP PPh 21 Bukan Pegawai = 50% x Penghasilan Bruto. Setelah dapet DPP-nya, baru dikalikan tarif progresif Pasal 17 (bukan TER, karena TER cuma buat pegawai tetap dan pegawai tidak tetap).",
+          "Jadi rumus lengkapnya: PPh 21 Terutang = (50% x Penghasilan Bruto) x Tarif Progresif Pasal 17. Kalau penghasilan ini diterima secara berkesinambungan dari pemberi kerja yang sama sepanjang tahun, DPP-nya dikumulatifkan biar tarif progresifnya makin naik seiring bertambahnya total penghasilan setahun dari pemberi kerja tersebut."
+        ],
+        "poin_penting": [
+          "💡 Bukan Pegawai mencakup dokter, notaris, konsultan, dan tenaga ahli lepas lainnya",
+          "📌 DPP PPh 21 Bukan Pegawai = 50% x Penghasilan Bruto",
+          "✅ Setelah dapet DPP, dikalikan tarif progresif Pasal 17, bukan TER",
+          "⚠️ Kalau berkesinambungan dari pemberi kerja yang sama, DPP-nya dikumulatifkan sepanjang tahun"
+        ],
+        "analogi": "Bayangin kamu jual jasa lukisan custom, terus pembeli cuma menghargai 'setengah dari harga jual' sebagai dasar hitungan komisi galeri. Nah, konsep 50% dari bruto ini mirip gitu, cuma separuh penghasilan yang dianggap 'penghasilan neto' buat dasar pajak.",
+        "contoh_kasus": {
+          "judul": "Dokter Andi Terima Jasa Rp50 Juta",
+          "cerita": "Dokter Andi menerima honorarium sebesar Rp50 juta dari sebuah rumah sakit swasta atas jasa konsultasi medis khusus, dan ini adalah pembayaran pertamanya dari rumah sakit tersebut di tahun berjalan. DPP-nya dihitung 50% dari Rp50 juta, yaitu Rp25 juta.",
+          "poin": [
+            "DPP = 50% x Rp50.000.000 = Rp25.000.000",
+            "Karena Rp25 juta masih berada di lapisan tarif pertama (sampai Rp60 juta), PPh 21 = 5% x Rp25.000.000 = Rp1.250.000"
+          ]
+        },
+        "diagram_mermaid": [
+          "flowchart TD\n    A[\"Penghasilan Bruto Bukan Pegawai\"] --> B[\"DPP = 50% x Bruto\"]\n    B --> C{\"Berkesinambungan dari pemberi kerja sama?\"}\n    C -->|\"Ya\"| D[\"DPP Dikumulatifkan Setahun\"]\n    C -->|\"Tidak\"| E[\"DPP Dihitung per Transaksi\"]\n    D --> F[\"Dikali Tarif Progresif Pasal 17\"]\n    E --> F\n    F --> G[\"PPh 21 Terutang\"]"
+        ],
+        "penjelasan_diagram": "Diagram ini nunjukkin alur perhitungan PPh 21 Bukan Pegawai, termasuk percabangan apakah penghasilannya berkesinambungan atau tidak dari pemberi kerja yang sama.",
+        "prompt_gambar": [
+          {
+            "id": "img-03",
+            "prompt": "A highly detailed modern 3D isometric stylized studio render in landscape 16:9 format, illustrating the tax withholding calculation for Indonesian independent professionals such as doctors and consultants. Deep dark-mode navy background gradient mesh #0F172A to #1E1B4B with soft ambient teal and gold lighting, floating geometric grid lines suggesting a financial dashboard. Center composition shows a stylized 3D doctor character in a white coat holding a glowing invoice, with a large floating semi-transparent glass percentage disc showing '50%' splitting a stack of golden coin cylinders into two halves. Behind it, a rising staircase-shaped bar chart in electric blue represents progressive tax brackets. Include short, clean, and perfectly spelled modern Indonesian text labels floating near key elements such as 'Bukan Pegawai', 'DPP 50%', dan 'Tarif Progresif'. Color palette: electric blue, emerald green, warm gold accents, clean white sans-serif typography. Ultra modern premium tech-education infographic aesthetic, cinematic studio lighting, crisp render quality.",
+            "keterangan": "Ilustrasi konsep perhitungan PPh 21 Bukan Pegawai yang menggunakan DPP 50 persen dari penghasilan bruto sebelum dikalikan tarif progresif Pasal 17. Gambar ini membantu memvisualisasikan kenapa dasar pengenaan pajaknya cuma separuh dari penghasilan bruto.",
+            "alt": "Ilustrasi dokter dengan invoice dan lingkaran persentase 50 persen serta grafik tarif progresif",
+            "url_gambar": null
+          }
+        ],
+        "kalkulator": {
+          "tipe": "pph21_ter",
+          "judul": "Kalkulator PPh 21 Bukan Pegawai",
+          "keterangan": "Masukkan total penghasilan bruto untuk menghitung DPP 50% dan estimasi PPh 21 terutang menggunakan tarif progresif Pasal 17."
+        },
+        "mini_kuis": [
+          {
+            "id": "q1",
+            "pertanyaan": "Berapa DPP PPh 21 Dokter Andi jika honorarium yang diterima Rp50 juta?",
+            "tipe": "pilihan_ganda",
+            "pilihan": [
+              "A. Rp50 juta",
+              "B. Rp30 juta",
+              "C. Rp25 juta",
+              "D. Rp15 juta"
+            ],
+            "jawaban": "C",
+            "pembahasan": "DPP PPh 21 Bukan Pegawai = 50% x Rp50.000.000 = Rp25.000.000. Ini berbeda dari pegawai tetap yang dasar pengenaannya 100% dari penghasilan neto."
+          },
+          {
+            "id": "q2",
+            "pertanyaan": "PPh 21 Bukan Pegawai dihitung menggunakan skema TER seperti pegawai tetap.",
+            "tipe": "benar_salah",
+            "pilihan": [
+              "Benar",
+              "Salah"
+            ],
+            "jawaban": "Salah",
+            "pembahasan": "Salah, PPh 21 Bukan Pegawai menggunakan tarif progresif Pasal 17 langsung atas DPP 50% dari bruto, bukan skema TER yang khusus untuk pegawai tetap dan pegawai tidak tetap."
+          }
+        ],
+        "kesalahan_umum": [
+          {
+            "salah": "Menghitung PPh 21 dokter atau konsultan menggunakan 100% dari bruto",
+            "benar": "DPP Bukan Pegawai wajib dihitung 50% dari penghasilan bruto sebelum dikalikan tarif progresif",
+            "tips": "Ingat rumus khusus ini karena beda dari pegawai tetap yang pakai TER langsung ke bruto penuh"
+          }
+        ],
+        "istilah": [
+          {
+            "kata": "Bukan Pegawai",
+            "definisi": "Kategori penerima penghasilan yang memberikan jasa secara bebas tanpa ikatan kerja tetap, seperti dokter, notaris, dan konsultan.",
+            "contoh": "Dokter Andi termasuk kategori Bukan Pegawai."
+          },
+          {
+            "kata": "Dasar Pengenaan Pajak (DPP)",
+            "definisi": "Nilai yang menjadi dasar perhitungan tarif pajak, untuk Bukan Pegawai dihitung sebesar 50% dari penghasilan bruto.",
+            "contoh": "DPP Dokter Andi adalah Rp25 juta dari bruto Rp50 juta."
+          },
+          {
+            "kata": "Penghasilan Berkesinambungan",
+            "definisi": "Penghasilan yang diterima secara berulang dari pemberi kerja yang sama dalam satu tahun pajak.",
+            "contoh": "Konsultan yang rutin dibayar tiap bulan oleh klien yang sama masuk kategori penghasilan berkesinambungan."
+          }
+        ]
+      },
+      {
+        "id": "bag-13",
+        "judul": "PPh 21 atas Bonus, THR, dan Jasa Produksi",
+        "paragraf": [
+          "Bonus, THR, dan jasa produksi ini termasuk penghasilan yang sifatnya tidak teratur alias nggak rutin diterima tiap bulan. Nah, pertanyaannya, gimana cara ngitung PPh 21-nya di era TER sekarang?",
+          "Jawabannya simpel: variabel tidak teratur ini digabung aja dengan penghasilan bruto bulanan pada bulan pembayarannya, terus dikalikan tarif TER bulanan yang berlaku sesuai kategori karyawan. Jadi nggak ada perhitungan terpisah khusus buat bonus atau THR kayak zaman dulu, semua digabung jadi satu bruto bulanan aja.",
+          "Ini penting banget dipahami karena banyak tim payroll yang masih pakai kebiasaan lama, misalnya menghitung THR terpisah pakai metode gross-up atau rumus khusus. Padahal sejak TER berlaku, cara itu udah nggak sesuai lagi dan bisa menyebabkan selisih saat DJP melakukan ekualisasi data lewat Coretax."
+        ],
+        "poin_penting": [
+          "💡 Bonus, THR, dan jasa produksi digabung dengan bruto bulanan pada bulan pembayaran",
+          "📌 Dikalikan tarif TER bulanan sesuai kategori (A/B/C) yang berlaku bulan itu",
+          "✅ Tidak ada lagi perhitungan terpisah khusus untuk komponen tidak teratur di era TER",
+          "⚠️ Menghitung THR terpisah dengan metode lama bisa menyebabkan selisih saat ekualisasi Coretax"
+        ],
+        "analogi": "Ibaratnya tuh kayak kamu belanja bulanan biasa terus tiba-tiba nemu diskon tambahan (bonus) pas checkout. Kasir nggak bikin struk terpisah buat diskon itu, semua tetep digabung jadi satu total belanja aja di struk yang sama.",
+        "contoh_kasus": {
+          "judul": "THR Mbak Rina di Bulan April",
+          "cerita": "Mbak Rina biasanya terima gaji Rp8 juta per bulan (Kategori A). Di bulan April, dia dapat THR Rp8 juta juga, jadi total bruto April jadi Rp16 juta. Angka Rp16 juta inilah yang dicocokkan ke tabel TER Kategori A bulan itu, bukan dihitung terpisah antara gaji dan THR.",
+          "poin": [
+            "Bruto bulan April Mbak Rina = Rp8 juta (gaji) + Rp8 juta (THR) = Rp16 juta",
+            "Tarif TER yang dipakai adalah tarif untuk rentang Rp16 juta di Kategori A, bukan tarif untuk Rp8 juta biasa"
+          ]
+        },
+        "diagram_mermaid": [],
+        "penjelasan_diagram": "",
+        "prompt_gambar": [],
+        "kalkulator": null,
+        "mini_kuis": [
+          {
+            "id": "q1",
+            "pertanyaan": "Bagaimana cara menghitung PPh 21 atas THR di era TER?",
+            "tipe": "pilihan_ganda",
+            "pilihan": [
+              "A. Dihitung terpisah dengan metode gross-up",
+              "B. Digabung dengan bruto bulanan lalu dikalikan tarif TER bulan itu",
+              "C. Dikenai tarif final 15% tanpa memandang jumlah",
+              "D. Tidak dikenakan pajak sama sekali"
+            ],
+            "jawaban": "B",
+            "pembahasan": "THR digabung dengan penghasilan bruto bulan pembayarannya, lalu keseluruhan bruto tersebut dikalikan tarif TER bulanan sesuai kategori karyawan. Tidak ada perhitungan terpisah khusus lagi di era TER."
+          },
+          {
+            "id": "q2",
+            "pertanyaan": "Menggabungkan THR dengan gaji bulanan bisa membuat penghasilan bruto bulan itu masuk ke rentang tarif TER yang lebih tinggi.",
+            "tipe": "benar_salah",
+            "pilihan": [
+              "Benar",
+              "Salah"
+            ],
+            "jawaban": "Benar",
+            "pembahasan": "Benar, karena total bruto bulan tersebut jadi lebih besar, sehingga bisa jatuh ke rentang tarif TER yang lebih tinggi dibandingkan bulan-bulan biasa."
+          }
+        ],
+        "kesalahan_umum": [
+          {
+            "salah": "Menghitung PPh 21 THR terpisah menggunakan metode gross-up ala aturan lama",
+            "benar": "THR digabung dengan bruto bulanan dan dikalikan tarif TER bulan pembayaran, sesuai mekanisme yang berlaku sejak 2024",
+            "tips": "Update SOP payroll perusahaan agar tidak lagi memisahkan perhitungan komponen tidak teratur"
+          }
+        ],
+        "istilah": [
+          {
+            "kata": "THR (Tunjangan Hari Raya)",
+            "definisi": "Pembayaran wajib dari pemberi kerja kepada karyawan menjelang hari raya keagamaan, termasuk objek PPh 21.",
+            "contoh": "Mbak Rina menerima THR Rp8 juta menjelang Lebaran."
+          },
+          {
+            "kata": "Jasa Produksi",
+            "definisi": "Bonus tambahan yang diberikan perusahaan kepada karyawan berdasarkan pencapaian target produksi atau kinerja tertentu.",
+            "contoh": "Karyawan pabrik menerima jasa produksi karena target bulanan tercapai."
+          },
+          {
+            "kata": "Penghasilan Tidak Teratur",
+            "definisi": "Penghasilan yang tidak diterima secara rutin setiap bulan, seperti bonus, THR, atau jasa produksi.",
+            "contoh": "THR dan bonus tahunan termasuk penghasilan tidak teratur."
+          }
+        ]
+      },
+      {
+        "id": "bag-14",
+        "judul": "Pesangon dan Manfaat Pensiun Sekaligus",
+        "paragraf": [
+          "Nah, sekarang kita bahas topik yang cukup sensitif: pesangon buat karyawan yang di-PHK dan manfaat pensiun yang dibayar sekaligus (bukan bulanan). Kedua jenis penghasilan ini punya perlakuan pajak yang beda banget dari gaji biasa, yaitu dikenai PPh 21 yang bersifat FINAL.",
+          "Kenapa final? Karena pembayaran ini biasanya jumlahnya besar dan diterima sekaligus, jadi kalau digabung dengan penghasilan reguler bakal bikin tarif pajak jadi nggak adil (melonjak drastis). Makanya pemerintah bikin tarif khusus yang berjenjang dan final, artinya nggak perlu digabung lagi dengan penghasilan lain atau dihitung ulang di SPT Tahunan.",
+          "Tarifnya begini: Rp0 sampai Rp50 juta dikenai 0% (bebas pajak), di atas Rp50 juta sampai Rp100 juta dikenai 5%, di atas Rp100 juta sampai Rp500 juta dikenai 15%, dan di atas Rp500 juta dikenai 25%. Tarif ini berjenjang, artinya setiap lapisan dikenai tarifnya sendiri-sendiri, mirip prinsip tarif progresif tapi khusus buat pesangon."
+        ],
+        "poin_penting": [
+          "💡 Pesangon dan manfaat pensiun sekaligus dikenai PPh 21 FINAL, bukan digabung dengan penghasilan reguler",
+          "📌 Tarif: 0% (s.d. Rp50jt), 5% (>Rp50jt-Rp100jt), 15% (>Rp100jt-Rp500jt), 25% (>Rp500jt)",
+          "✅ Tarifnya berjenjang, setiap lapisan dikenai tarif sendiri-sendiri",
+          "⚠️ Karena sifatnya final, tidak perlu dilaporkan ulang sebagai penghasilan biasa di SPT Tahunan"
+        ],
+        "analogi": "Bayangin kamu menang undian besar sekali seumur hidup. Kalau uang undian itu digabung ke penghasilan bulanan biasa, tarif pajaknya bisa melonjak nggak wajar. Makanya dibuatkan skema 'tiket khusus' (tarif final berjenjang) biar perhitungannya adil dan nggak nyampur sama penghasilan rutin.",
+        "contoh_kasus": {
+          "judul": "Pesangon Pak Joko Rp150 Juta",
+          "cerita": "Pak Joko di-PHK dari perusahaannya dan menerima pesangon sebesar Rp150 juta sekaligus. Karena tarifnya berjenjang, perhitungannya dipecah per lapisan: Rp0-Rp50 juta kena 0%, Rp50 juta berikutnya (Rp50jt-Rp100jt) kena 5%, dan sisanya Rp50 juta (Rp100jt-Rp150jt) kena 15%.",
+          "poin": [
+            "Lapisan 1: Rp50 juta x 0% = Rp0",
+            "Lapisan 2: Rp50 juta x 5% = Rp2.500.000, Lapisan 3: Rp50 juta x 15% = Rp7.500.000, Total PPh 21 Final = Rp10.000.000"
+          ]
+        },
+        "diagram_mermaid": [],
+        "penjelasan_diagram": "",
+        "prompt_gambar": [],
+        "kalkulator": {
+          "tipe": "pph_final",
+          "judul": "Kalkulator PPh 21 Final Pesangon",
+          "keterangan": "Masukkan jumlah pesangon yang diterima sekaligus untuk menghitung PPh 21 final berjenjang."
+        },
+        "mini_kuis": [
+          {
+            "id": "q1",
+            "pertanyaan": "Berapa tarif PPh 21 final untuk lapisan pesangon di atas Rp100 juta sampai Rp500 juta?",
+            "tipe": "pilihan_ganda",
+            "pilihan": [
+              "A. 0%",
+              "B. 5%",
+              "C. 15%",
+              "D. 25%"
+            ],
+            "jawaban": "C",
+            "pembahasan": "Lapisan pesangon di atas Rp100 juta sampai Rp500 juta dikenai tarif final 15%, sesuai skema berjenjang untuk pesangon dan manfaat pensiun sekaligus."
+          },
+          {
+            "id": "q2",
+            "pertanyaan": "Pesangon yang diterima sekaligus digabung dengan gaji bulanan dan dihitung memakai TER.",
+            "tipe": "benar_salah",
+            "pilihan": [
+              "Benar",
+              "Salah"
+            ],
+            "jawaban": "Salah",
+            "pembahasan": "Salah, pesangon dan manfaat pensiun sekaligus dikenai PPh 21 final tersendiri dengan tarif berjenjang, tidak digabung dengan gaji bulanan dan tidak menggunakan skema TER."
+          }
+        ],
+        "kesalahan_umum": [
+          {
+            "salah": "Menggabungkan pesangon dengan gaji bulan terakhir sebelum di-PHK",
+            "benar": "Pesangon dihitung terpisah menggunakan tarif final berjenjang, bukan digabung dengan gaji bulanan biasa",
+            "tips": "Selalu pisahkan perhitungan pesangon dari komponen gaji reguler karyawan yang di-PHK"
+          }
+        ],
+        "istilah": [
+          {
+            "kata": "Pesangon",
+            "definisi": "Uang yang dibayarkan pemberi kerja kepada karyawan yang mengalami pemutusan hubungan kerja (PHK).",
+            "contoh": "Pak Joko menerima pesangon Rp150 juta setelah di-PHK."
+          },
+          {
+            "kata": "PPh Final",
+            "definisi": "Pajak yang bersifat final, artinya tarif dan perhitungannya sudah selesai di titik pemotongan dan tidak digabung lagi dengan penghasilan lain di SPT Tahunan.",
+            "contoh": "PPh 21 atas pesangon bersifat final berjenjang."
+          },
+          {
+            "kata": "Manfaat Pensiun Sekaligus",
+            "definisi": "Pembayaran manfaat pensiun yang diberikan dalam satu kali pembayaran, bukan secara bulanan/berkala.",
+            "contoh": "Bu Dewi menerima manfaat pensiun sekaligus saat pensiun dini."
+          }
+        ]
+      },
+      {
+        "id": "bag-15",
+        "judul": "Sanksi Tanpa NPWP dan Kewajiban e-Bupot",
+        "paragraf": [
+          "Terakhir, kita bahas soal 'ancaman' buat yang belum punya NPWP dan kewajiban administrasi lewat Coretax DJP. Kalau kamu terima penghasilan yang kena PPh 21 tapi belum punya NPWP, tarif pajaknya otomatis dinaikkan 20% lebih tinggi dari tarif normal. Ini semacam 'denda halus' biar orang pada rajin daftar NPWP.",
+          "Sejak 2024, sistem NPWP Orang Pribadi udah terintegrasi pakai NIK (Nomor Induk Kependudukan) 16 digit, jadi kalau kamu punya KTP, sebenarnya kamu udah otomatis punya identitas perpajakan, tinggal aktivasi aja lewat portal DJP atau Coretax. Jadi alasan 'nggak punya NPWP' jadi makin sulit dipakai sebagai alasan di zaman sekarang.",
+          "Di sisi administrasi, setiap pemotong PPh 21 wajib membuat Bukti Potong (untuk pegawai tetap namanya Form 1721-A1) dan melaporkannya lewat sistem e-Bupot 21/26 yang sekarang terintegrasi penuh dalam Coretax Administration System (CTAS) DJP. Kalau ini nggak dipenuhi, perusahaan bisa kena sanksi administrasi dan karyawan juga kesulitan saat lapor SPT Tahunan pribadinya karena data kreditnya nggak lengkap."
+        ],
+        "poin_penting": [
+          "💡 Tanpa NPWP, tarif PPh 21 dinaikkan 20% lebih tinggi dari tarif normal",
+          "📌 NIK 16 digit sudah terintegrasi sebagai NPWP Orang Pribadi sejak 2024",
+          "✅ Pemotong wajib membuat Bukti Potong (1721-A1) dan lapor lewat e-Bupot 21/26 di Coretax DJP",
+          "⚠️ Kegagalan lapor bisa berujung sanksi administrasi bagi pemotong dan masalah kredit pajak bagi karyawan"
+        ],
+        "analogi": "Ibaratnya tuh kayak naik pesawat tanpa tiket resmi, kamu tetep bisa 'masuk' tapi kena charge tambahan yang lebih mahal sebagai 'penalti'. NPWP itu kayak tiket resmi kamu di dunia perpajakan, kalau nggak punya, kamu kena charge ekstra 20%.",
+        "contoh_kasus": {
+          "judul": "Mas Andi Belum Punya NPWP Aktif",
+          "cerita": "Mas Andi baru kerja dan belum aktivasi NIK-nya jadi NPWP di sistem Coretax. Karena statusnya dianggap belum ber-NPWP, tarif PPh 21 yang dikenakan pada gajinya jadi 20% lebih tinggi dari tarif normal yang seharusnya dia bayar kalau sudah aktivasi NPWP.",
+          "poin": [
+            "Kalau tarif normal Mas Andi 2%, karena belum ber-NPWP jadi 2% x 120% = 2,4%",
+            "Setelah Mas Andi aktivasi NIK jadi NPWP, tarif normal berlaku kembali di bulan berikutnya"
+          ]
+        },
+        "diagram_mermaid": [
+          "flowchart TD\n    A[\"Karyawan Terima Penghasilan\"] --> B{\"Punya NPWP/NIK Aktif?\"}\n    B -->|\"Ya\"| C[\"Tarif PPh 21 Normal\"]\n    B -->|\"Tidak\"| D[\"Tarif PPh 21 + 20%\"]\n    C --> E[\"Bukti Potong 1721-A1\"]\n    D --> E\n    E --> F[\"Lapor via e-Bupot 21/26 Coretax\"]"
+        ],
+        "penjelasan_diagram": "Diagram ini nunjukkin percabangan tarif pajak tergantung status NPWP karyawan, sampai proses akhir pelaporan lewat e-Bupot di Coretax.",
+        "prompt_gambar": [
+          {
+            "id": "img-04",
+            "prompt": "A highly detailed modern 3D isometric stylized studio render in landscape 16:9 format, illustrating Indonesia's Coretax digital tax administration system and NPWP-NIK integration. Deep dark-mode navy background gradient mesh #0F172A to #1E1B4B with soft ambient electric blue holographic lighting and subtle circuit-like grid patterns. Center composition shows a large floating holographic Indonesian ID card (KTP) transforming into a glowing digital tax certificate through a stream of light particles, surrounded by smaller floating panels showing a digital document icon labeled as a withholding slip and a warning triangle icon with a percentage symbol representing a tax penalty. A sleek futuristic government building silhouette glows softly in the background. Include short, clean, and perfectly spelled modern Indonesian text labels floating near key elements such as 'NIK jadi NPWP', 'Coretax DJP', dan 'Sanksi Tanpa NPWP'. Color palette: electric blue, emerald green, warm gold accents, clean white sans-serif typography. Ultra modern premium tech-education infographic aesthetic, cinematic studio lighting, crisp render quality.",
+            "keterangan": "Ilustrasi integrasi NIK menjadi NPWP dalam sistem Coretax DJP, lengkap dengan simbol sanksi bagi yang belum memiliki NPWP aktif. Gambar ini menegaskan pentingnya aktivasi identitas pajak di era digitalisasi perpajakan Indonesia.",
+            "alt": "Ilustrasi KTP berubah menjadi sertifikat pajak digital dengan simbol sistem Coretax dan sanksi tanpa NPWP",
+            "url_gambar": null
+          }
+        ],
+        "kalkulator": null,
+        "mini_kuis": [
+          {
+            "id": "q1",
+            "pertanyaan": "Berapa persen kenaikan tarif PPh 21 bagi penerima penghasilan yang belum ber-NPWP?",
+            "tipe": "pilihan_ganda",
+            "pilihan": [
+              "A. 10%",
+              "B. 15%",
+              "C. 20%",
+              "D. 25%"
+            ],
+            "jawaban": "C",
+            "pembahasan": "Penerima penghasilan tanpa NPWP dikenai tarif PPh 21 sebesar 20% lebih tinggi dari tarif normal, sebagai insentif negatif agar segera mengaktifkan NPWP."
+          },
+          {
+            "id": "q2",
+            "pertanyaan": "Sejak 2024, NIK 16 digit sudah terintegrasi sebagai NPWP Orang Pribadi.",
+            "tipe": "benar_salah",
+            "pilihan": [
+              "Benar",
+              "Salah"
+            ],
+            "jawaban": "Benar",
+            "pembahasan": "Benar, pemadanan NIK sebagai NPWP sudah berlaku sejak 2024 sehingga setiap pemegang KTP secara prinsip sudah memiliki identitas perpajakan yang tinggal diaktivasi."
+          },
+          {
+            "id": "q3",
+            "pertanyaan": "Isian: Nama sistem administrasi pajak terbaru DJP yang mengintegrasikan e-Bupot 21/26 disebut ____.",
+            "tipe": "isian_singkat",
+            "pilihan": null,
+            "jawaban": "Coretax",
+            "pembahasan": "Coretax Administration System (CTAS) adalah sistem administrasi perpajakan terbaru DJP yang mengintegrasikan berbagai layanan termasuk e-Bupot 21/26."
+          }
+        ],
+        "kesalahan_umum": [
+          {
+            "salah": "Mengira sanksi tanpa NPWP hanya berlaku untuk pegawai tetap saja",
+            "benar": "Sanksi kenaikan tarif 20% berlaku untuk semua kategori penerima penghasilan yang belum ber-NPWP, termasuk bukan pegawai dan peserta kegiatan",
+            "tips": "Selalu cek status NPWP/NIK setiap penerima penghasilan sebelum menerapkan tarif normal"
+          }
+        ],
+        "istilah": [
+          {
+            "kata": "e-Bupot 21/26",
+            "definisi": "Sistem elektronik untuk membuat dan melaporkan Bukti Potong PPh Pasal 21 dan 26 yang terintegrasi dalam Coretax DJP.",
+            "contoh": "Perusahaan wajib membuat bukti potong lewat e-Bupot 21/26 setiap bulan."
+          },
+          {
+            "kata": "Coretax (CTAS)",
+            "definisi": "Core Tax Administration System, sistem administrasi perpajakan terbaru DJP yang mengintegrasikan pendaftaran, pelaporan, dan pembayaran pajak.",
+            "contoh": "Sejak Coretax aktif, pelaporan SPT Masa PPh 21 dilakukan melalui sistem ini."
+          },
+          {
+            "kata": "Form 1721-A1",
+            "definisi": "Bukti Potong PPh Pasal 21 tahunan yang diberikan kepada pegawai tetap sebagai bukti pajak yang telah dipotong sepanjang tahun.",
+            "contoh": "Pak Budi menerima Form 1721-A1 dari perusahaannya di awal tahun berikutnya."
+          }
+        ]
+      }
+    ],
+    "kuis_akhir": {
+      "judul": "Kuis Akhir: Uji Pemahaman Modul PPh Pasal 21",
+      "nilai_lulus": 70,
+      "waktu_menit": 40,
+      "soal": [
+        {
+          "id": "q1",
+          "pertanyaan": "PPh Pasal 21 dikenakan atas penghasilan sehubungan dengan hal-hal berikut, KECUALI:",
+          "tipe": "pilihan_ganda",
+          "pilihan": [
+            "A. Pekerjaan",
+            "B. Jasa",
+            "C. Kegiatan",
+            "D. Kepemilikan properti"
+          ],
+          "jawaban": "D",
+          "pembahasan": "PPh 21 mengatur pemotongan pajak atas penghasilan sehubungan dengan pekerjaan, jasa, atau kegiatan orang pribadi. Kepemilikan properti masuk ranah PBB atau PPh Final Pasal 4(2) atas sewa/pengalihan hak, bukan PPh 21."
+        },
+        {
+          "id": "q2",
+          "pertanyaan": "Manakah yang termasuk subjek pemotong PPh 21?",
+          "tipe": "pilihan_ganda",
+          "pilihan": [
+            "A. Bank penyalur gaji",
+            "B. Bendahara pemerintah",
+            "C. Kantor pos",
+            "D. Perusahaan asuransi umum"
+          ],
+          "jawaban": "B",
+          "pembahasan": "Bendahara pemerintah adalah salah satu dari 4 kategori subjek pemotong PPh 21 yang wajib memotong gaji dan honorarium yang dibiayai APBN/APBD. Bank dan kantor pos hanya berperan sebagai penyalur, bukan pemotong pajak."
+        },
+        {
+          "id": "q3",
+          "pertanyaan": "Dokter yang praktik lepas di beberapa klinik berbeda masuk kategori penerima penghasilan apa?",
+          "tipe": "pilihan_ganda",
+          "pilihan": [
+            "A. Pegawai Tetap",
+            "B. Pegawai Tidak Tetap",
+            "C. Bukan Pegawai",
+            "D. Peserta Kegiatan"
+          ],
+          "jawaban": "C",
+          "pembahasan": "Dokter yang praktik lepas tanpa ikatan kerja tetap termasuk kategori Bukan Pegawai karena memberikan jasa profesi bebas ke berbagai pihak."
+        },
+        {
+          "id": "q4",
+          "pertanyaan": "Iuran pensiun yang dibayar pemberi kerja ke dana pensiun resmi termasuk objek PPh 21.",
+          "tipe": "benar_salah",
+          "pilihan": [
+            "Benar",
+            "Salah"
+          ],
+          "jawaban": "Salah",
+          "pembahasan": "Salah, iuran pensiun yang dibayar pemberi kerja ke dana pensiun yang telah disahkan pemerintah justru termasuk non-objek PPh 21."
+        },
+        {
+          "id": "q5",
+          "pertanyaan": "Fasilitas olahraga kantor (di luar golf, pacuan kuda, dan balap perahu bermotor) dibebaskan dari objek PPh 21 sampai batas Rp1,5 juta per tahun.",
+          "tipe": "benar_salah",
+          "pilihan": [
+            "Benar",
+            "Salah"
+          ],
+          "jawaban": "Benar",
+          "pembahasan": "Benar, sesuai PMK 66/2023, batas bebas pajak untuk fasilitas olahraga tertentu adalah Rp1,5 juta per tahun."
+        },
+        {
+          "id": "q6",
+          "pertanyaan": "Karyawan berstatus TK/2 masuk TER kategori apa?",
+          "tipe": "pilihan_ganda",
+          "pilihan": [
+            "A. Kategori A",
+            "B. Kategori B",
+            "C. Kategori C",
+            "D. Tidak ada kategorinya"
+          ],
+          "jawaban": "B",
+          "pembahasan": "TK/2 (tidak kawin dengan 2 tanggungan) masuk TER Kategori B bersama TK/3, K/1, dan K/2, dengan PTKP Rp63 juta per tahun."
+        },
+        {
+          "id": "q7",
+          "pertanyaan": "Berapa PPh 21 bulanan seorang karyawan Kategori B dengan bruto Rp12 juta jika tarif TER untuk rentang itu adalah 2%?",
+          "tipe": "pilihan_ganda",
+          "pilihan": [
+            "A. Rp120.000",
+            "B. Rp180.000",
+            "C. Rp240.000",
+            "D. Rp300.000"
+          ],
+          "jawaban": "C",
+          "pembahasan": "PPh 21 = Rp12.000.000 x 2% = Rp240.000. Ini adalah contoh penerapan langsung rumus TER bulanan."
+        },
+        {
+          "id": "q8",
+          "pertanyaan": "Pada masa pajak Desember, perhitungan PPh 21 kembali menggunakan tarif progresif Pasal 17 UU HPP.",
+          "tipe": "benar_salah",
+          "pilihan": [
+            "Benar",
+            "Salah"
+          ],
+          "jawaban": "Benar",
+          "pembahasan": "Benar, masa Desember (atau masa pajak terakhir) adalah satu-satunya masa di mana perhitungan PPh 21 dikembalikan ke tarif progresif Pasal 17 untuk rekonsiliasi tahunan."
+        },
+        {
+          "id": "q9",
+          "pertanyaan": "Seorang karyawan K/1 punya bruto setahun Rp144 juta, biaya jabatan maksimal Rp6 juta, iuran pensiun setahun Rp1,2 juta, dan PTKP K/1 Rp58,5 juta. Berapa PKP setahunnya?",
+          "tipe": "pilihan_ganda",
+          "pilihan": [
+            "A. Rp68,3 juta",
+            "B. Rp78,3 juta",
+            "C. Rp85,5 juta",
+            "D. Rp136,8 juta"
+          ],
+          "jawaban": "B",
+          "pembahasan": "Neto setahun = Rp144jt - Rp6jt - Rp1,2jt = Rp136,8jt. PKP = Rp136,8jt - Rp58,5jt = Rp78,3 juta."
+        },
+        {
+          "id": "q10",
+          "pertanyaan": "Berapa tarif TER harian untuk penghasilan bruto harian di atas Rp450.000 sampai Rp2.500.000?",
+          "tipe": "pilihan_ganda",
+          "pilihan": [
+            "A. 0%",
+            "B. 0,5%",
+            "C. 1%",
+            "D. 2%"
+          ],
+          "jawaban": "B",
+          "pembahasan": "Sesuai skema TER harian, penghasilan bruto harian di atas Rp450.000 sampai Rp2.500.000 dikenai tarif 0,5%."
+        },
+        {
+          "id": "q11",
+          "pertanyaan": "Berapa DPP PPh 21 Bukan Pegawai jika penghasilan bruto yang diterima Rp50 juta?",
+          "tipe": "pilihan_ganda",
+          "pilihan": [
+            "A. Rp50 juta",
+            "B. Rp35 juta",
+            "C. Rp25 juta",
+            "D. Rp10 juta"
+          ],
+          "jawaban": "C",
+          "pembahasan": "DPP PPh 21 Bukan Pegawai = 50% x Rp50.000.000 = Rp25.000.000, sebelum dikalikan tarif progresif Pasal 17."
+        },
+        {
+          "id": "q12",
+          "pertanyaan": "THR dan bonus tahunan di era TER dihitung terpisah dari gaji bulanan menggunakan metode gross-up.",
+          "tipe": "benar_salah",
+          "pilihan": [
+            "Benar",
+            "Salah"
+          ],
+          "jawaban": "Salah",
+          "pembahasan": "Salah, sejak TER berlaku, THR dan bonus digabung dengan bruto bulanan pada bulan pembayaran dan dikalikan tarif TER bulan itu, tidak dihitung terpisah lagi."
+        },
+        {
+          "id": "q13",
+          "pertanyaan": "Berapa PPh 21 final atas pesangon Rp150 juta, dengan tarif 0% (s.d. Rp50jt), 5% (>Rp50jt-Rp100jt), dan 15% (>Rp100jt-Rp500jt)?",
+          "tipe": "pilihan_ganda",
+          "pilihan": [
+            "A. Rp7.500.000",
+            "B. Rp10.000.000",
+            "C. Rp15.000.000",
+            "D. Rp22.500.000"
+          ],
+          "jawaban": "B",
+          "pembahasan": "Lapisan 1 (Rp0-Rp50jt) = 0%. Lapisan 2 (Rp50jt-Rp100jt = Rp50jt) x 5% = Rp2,5jt. Lapisan 3 (Rp100jt-Rp150jt = Rp50jt) x 15% = Rp7,5jt. Total = Rp2,5jt + Rp7,5jt = Rp10 juta."
+        },
+        {
+          "id": "q14",
+          "pertanyaan": "Isian: Penerima penghasilan yang belum memiliki NPWP dikenai tarif PPh 21 sebesar ____ persen lebih tinggi dari tarif normal.",
+          "tipe": "isian_singkat",
+          "pilihan": null,
+          "jawaban": "20",
+          "pembahasan": "Sesuai ketentuan yang berlaku, penerima penghasilan tanpa NPWP dikenai tarif PPh 21 sebesar 20% lebih tinggi dari tarif normal sebagai insentif negatif untuk segera mendaftar NPWP."
+        },
+        {
+          "id": "q15",
+          "pertanyaan": "Jelaskan mengapa penerapan skema TER dianggap menyederhanakan proses payroll dibandingkan metode perhitungan PPh 21 sebelum tahun 2024, dan jelaskan kapan skema ini tidak berlaku!",
+          "tipe": "esai",
+          "pilihan": null,
+          "jawaban": "TER menyederhanakan payroll karena bagian HR/payroll tidak perlu lagi menghitung biaya jabatan dan PTKP secara manual setiap bulan sebelum disetahunkan; mereka cukup mengalikan penghasilan bruto bulanan dengan persentase TER yang sudah ditentukan sesuai kategori dan rentang di tabel resmi PP 58/2023. Skema ini tidak berlaku pada masa pajak Desember (atau masa pajak terakhir), di mana perhitungan PPh 21 harus dihitung ulang secara utuh menggunakan tarif progresif Pasal 17 untuk memastikan jumlah pajak setahun yang sesungguhnya terutang, sebagai bentuk rekonsiliasi atas estimasi TER yang telah dipotong sepanjang Januari-November.",
+          "pembahasan": "Jawaban dianggap benar jika siswa menyebutkan poin penyederhanaan (tidak perlu hitung manual tiap bulan) dan poin pengecualian di masa Desember dengan tarif Pasal 17 untuk rekonsiliasi tahunan."
+        }
+      ]
+    },
+    "glosarium": [
+      {
+        "kata": "PPh Pasal 21",
+        "definisi": "Pajak Penghasilan yang dipotong atas penghasilan sehubungan dengan pekerjaan, jasa, atau kegiatan yang dilakukan oleh Wajib Pajak Orang Pribadi dalam negeri.",
+        "penjelasan_sederhana": "Pajak yang otomatis dipotong dari gaji atau honor kamu sebelum uangnya sampai ke rekening."
+      },
+      {
+        "kata": "TER (Tarif Efektif Rata-rata)",
+        "definisi": "Skema tarif tunggal untuk menyederhanakan perhitungan PPh 21 bulanan tanpa perlu menghitung biaya jabatan dan PTKP setiap bulan, diatur dalam PP 58/2023.",
+        "penjelasan_sederhana": "Cara ngitung pajak bulanan yang lebih simpel, tinggal kali persentase langsung ke gaji bruto."
+      },
+      {
+        "kata": "PTKP",
+        "definisi": "Penghasilan Tidak Kena Pajak, batas penghasilan yang dikecualikan dari pengenaan pajak berdasarkan status perkawinan dan jumlah tanggungan.",
+        "penjelasan_sederhana": "Jatah penghasilan bebas pajak sesuai status nikah dan jumlah anak/tanggungan kamu."
+      },
+      {
+        "kata": "PKP (Penghasilan Kena Pajak)",
+        "definisi": "Dasar pengenaan tarif progresif Pasal 17, dihitung dari penghasilan neto setahun dikurangi PTKP.",
+        "penjelasan_sederhana": "Sisa penghasilan setelah dikurangi semua pengurang, inilah yang benar-benar kena pajak."
+      },
+      {
+        "kata": "Biaya Jabatan",
+        "definisi": "Pengurang penghasilan bruto sebesar 5% dengan batas maksimal Rp500 ribu per bulan atau Rp6 juta per tahun.",
+        "penjelasan_sederhana": "Potongan otomatis dari gaji sebagai kompensasi biaya kerja, ada batas maksimalnya per tahun."
+      },
+      {
+        "kata": "Natura",
+        "definisi": "Penghasilan dalam bentuk barang yang diberikan sebagai pengganti atau tambahan atas gaji.",
+        "penjelasan_sederhana": "Hadiah dari kantor yang berbentuk barang, misalnya sembako atau HP."
+      },
+      {
+        "kata": "Kenikmatan",
+        "definisi": "Penghasilan dalam bentuk fasilitas atau hak untuk menikmati sesuatu yang disediakan oleh pemberi kerja.",
+        "penjelasan_sederhana": "Fasilitas dari kantor yang bisa dipakai tapi bukan milik kamu, misalnya mobil dinas."
+      },
+      {
+        "kata": "Bukan Pegawai",
+        "definisi": "Kategori penerima penghasilan yang memberikan jasa secara bebas tanpa ikatan kerja tetap, seperti dokter, notaris, dan konsultan.",
+        "penjelasan_sederhana": "Freelancer atau profesional lepas yang kerja jasa tanpa jadi karyawan tetap."
+      },
+      {
+        "kata": "Pegawai Tetap",
+        "definisi": "Orang pribadi yang bekerja pada pemberi kerja secara terus-menerus dan menerima gaji secara rutin bulanan.",
+        "penjelasan_sederhana": "Karyawan kantoran biasa yang gajian tiap bulan."
+      },
+      {
+        "kata": "Pegawai Tidak Tetap",
+        "definisi": "Pekerja yang hanya menerima upah berdasarkan jumlah hari kerja, unit hasil pekerjaan, atau penyelesaian pekerjaan tertentu.",
+        "penjelasan_sederhana": "Pekerja harian lepas yang dibayar per hari atau per hasil kerja."
+      },
+      {
+        "kata": "Dasar Pengenaan Pajak (DPP)",
+        "definisi": "Nilai yang menjadi dasar perhitungan tarif pajak sebelum dikalikan tarif yang berlaku.",
+        "penjelasan_sederhana": "Angka dasar yang dikali tarif pajak buat dapetin jumlah pajak terutang."
+      },
+      {
+        "kata": "Tarif Progresif",
+        "definisi": "Sistem tarif berjenjang yang persentasenya makin tinggi seiring makin besarnya lapisan penghasilan kena pajak, diatur dalam Pasal 17 UU HPP.",
+        "penjelasan_sederhana": "Makin gede penghasilan kena pajak kamu, makin tinggi juga persentase pajaknya, tapi cuma buat lapisan di atasnya aja."
+      },
+      {
+        "kata": "PPh Final",
+        "definisi": "Pajak yang bersifat final, artinya perhitungannya sudah selesai di titik pemotongan dan tidak digabung lagi dengan penghasilan lain di SPT Tahunan.",
+        "penjelasan_sederhana": "Pajak yang udah 'kelar' begitu dipotong, nggak perlu dihitung ulang lagi."
+      },
+      {
+        "kata": "Pesangon",
+        "definisi": "Uang yang dibayarkan pemberi kerja kepada karyawan yang mengalami pemutusan hubungan kerja (PHK).",
+        "penjelasan_sederhana": "Uang pisah yang diterima karyawan saat di-PHK."
+      },
+      {
+        "kata": "Bukti Potong",
+        "definisi": "Dokumen resmi yang menyatakan jumlah pajak yang telah dipotong oleh pemotong pajak dari penghasilan wajib pajak.",
+        "penjelasan_sederhana": "Surat bukti bahwa pajak kamu sudah dipotong dan disetor oleh kantor."
+      },
+      {
+        "kata": "e-Bupot 21/26",
+        "definisi": "Sistem elektronik untuk membuat dan melaporkan Bukti Potong PPh Pasal 21 dan 26 yang terintegrasi dalam Coretax DJP.",
+        "penjelasan_sederhana": "Aplikasi online buat bikin dan lapor bukti potong pajak karyawan."
+      },
+      {
+        "kata": "Coretax (CTAS)",
+        "definisi": "Core Tax Administration System, sistem administrasi perpajakan terbaru DJP yang mengintegrasikan pendaftaran, pelaporan, dan pembayaran pajak.",
+        "penjelasan_sederhana": "Sistem pajak online terbaru DJP yang menggantikan berbagai aplikasi pajak lama jadi satu platform."
+      },
+      {
+        "kata": "NPWP",
+        "definisi": "Nomor Pokok Wajib Pajak, identitas yang digunakan wajib pajak dalam administrasi perpajakan, kini terintegrasi dengan NIK 16 digit.",
+        "penjelasan_sederhana": "Identitas pajak kamu, sekarang udah nyatu sama nomor KTP."
+      },
+      {
+        "kata": "Peserta Kegiatan",
+        "definisi": "Orang pribadi yang ikut serta dalam suatu kegiatan dan menerima honorarium, uang saku, atau hadiah sehubungan dengan keikutsertaannya.",
+        "penjelasan_sederhana": "Orang yang ikut acara atau lomba dan dapet honor atau hadiah."
+      },
+      {
+        "kata": "Iuran Pensiun",
+        "definisi": "Kontribusi yang dibayarkan untuk program pensiun, bisa ditanggung karyawan maupun perusahaan, menjadi pengurang penghasilan neto.",
+        "penjelasan_sederhana": "Uang yang disisihkan buat dana pensiun kamu di masa depan."
+      },
+      {
+        "kata": "Gratifikasi",
+        "definisi": "Pemberian dalam arti luas dari perusahaan kepada karyawan, misalnya hadiah, bonus, atau imbalan lain di luar gaji rutin.",
+        "penjelasan_sederhana": "Hadiah atau bonus tambahan dari kantor di luar gaji biasa."
+      }
+    ]
+  }
+}

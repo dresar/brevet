@@ -1,0 +1,1707 @@
+{
+  "versi": "1.0",
+  "modul": {
+    "kode": "BRVT-AB-08",
+    "slug": "pph-pasal-22",
+    "judul": "PPh Pasal 22: Pajak yang Nempel di Hampir Semua Transaksi Barang",
+    "kategori": "PPh",
+    "tingkat_kesulitan": "pemula",
+    "estimasi_menit": 110,
+    "ringkasan": "Modul ini ngebahas tuntas PPh Pasal 22, mulai dari definisi, dasar hukum terbaru (PMK 51/2025), sampai cara hitung buat impor, bendahara, BUMN, industri tertentu, sampai barang sangat mewah. Semua tarif dan contoh sudah disesuaikan sama aturan yang aktif berlaku di 2026, termasuk update penting yang bikin beberapa tarif lama nggak berlaku lagi.",
+    "tujuan_belajar": [
+      "Memahami konsep dasar dan dasar hukum PPh Pasal 22 sesuai regulasi terbaru 2026",
+      "Membedakan berbagai jenis pemungut PPh Pasal 22 dan objek yang mereka pungut",
+      "Menghitung PPh Pasal 22 atas impor barang dengan dan tanpa API",
+      "Menerapkan tarif PPh Pasal 22 untuk transaksi bendahara pemerintah, BUMN, dan industri tertentu",
+      "Menganalisis kriteria barang sangat mewah dan tarif PPh 22 yang berlaku",
+      "Menjelaskan mekanisme pengkreditan PPh Pasal 22 dalam SPT Tahunan"
+    ],
+    "bagian": [
+      {
+        "id": "bag-01",
+        "judul": "Definisi dan Dasar Hukum PPh 22",
+        "paragraf": [
+          "Oke, jadi gini. PPh Pasal 22 itu sebenernya bukan pajak jenis baru yang beda sendiri dari PPh yang lain — dia tuh lebih ke 'cara pungut'-nya doang yang unik. Bayangin kamu beli barang di Alfamart, terus di struk itu udah otomatis ada PPN yang dipotong sama kasir buat disetor ke negara. Nah, PPh 22 mirip-mirip gitu, bedanya dia dikenain di transaksi-transaksi tertentu kayak impor barang, pembelian sama instansi pemerintah, sampai penjualan barang dari industri-industri tertentu. Jadi definisinya: PPh 22 adalah pajak penghasilan yang dipungut sehubungan dengan penyerahan barang, kegiatan impor, atau kegiatan usaha lain, termasuk penjualan barang yang tergolong sangat mewah.",
+          "Dasar hukumnya berlapis-lapis kayak lasagna 🍝. Fondasinya ada di Pasal 22 UU PPh (UU No. 36/2008 yang udah disesuaikan lagi sama UU HPP No. 7/2021), yang intinya cuma ngasih 'kuasa' ke Menteri Keuangan buat nunjuk siapa aja yang boleh jadi pemungut. Nah, teknisnya baru diatur detail di Peraturan Menteri Keuangan alias PMK. Dulu aturan teknisnya ada di PMK 34/PMK.03/2017 yang diubah lagi sama PMK 41/PMK.010/2022 — tapi PENTING banget nih, per 2026 aturan teknis untuk PPh 22 atas penyerahan barang, impor, dan kegiatan usaha lain itu udah di-update total lewat PMK 51/2025. Jadi kalau kamu nemu modul atau buku lama yang masih nyebut PMK 34/2017 sebagai rujukan utama tarif, itu udah agak basi — struktur tarifnya udah berubah di beberapa poin.",
+          "Kenapa sih pemerintah repot-repot bikin sistem kayak gini? Simpelnya gini: pemerintah pengen 'nangkep' potensi pajak dari transaksi-transaksi besar yang seringkali susah diawasi kalau nunggu SPT Tahunan doang. Impor misalnya — kalau nggak dipungut di pelabuhan pas barang masuk, gimana DJP mau ngawasin ribuan kontainer yang keluar-masuk tiap hari? Makanya dipungut di 'titik strategis' kayak Bea Cukai, bendahara pemerintah, BUMN, sampai industri besar yang jual produk ke distributor.",
+          "Satu hal yang wajib kamu inget dari awal: PPh 22 itu ada yang sifatnya final (langsung lunas, nggak perlu dihitung lagi) dan ada yang tidak final alias bisa dikreditkan (dikurangkan) di SPT Tahunan. Nanti kita bakal bahas mana yang final dan mana yang enggak di bagian-bagian selanjutnya, jadi jangan kemana-mana ya! 😉"
+        ],
+        "poin_penting": [
+          "💡 PPh 22 bukan jenis pajak baru, tapi cara pemungutan PPh yang 'nempel' di transaksi tertentu",
+          "📌 Dasar hukum utama: Pasal 22 UU PPh jo. UU HPP No. 7/2021",
+          "⚠️ Aturan teknis terbaru 2026 adalah PMK 51/2025, bukan lagi PMK 34/2017 semata",
+          "✅ Ada yang bersifat final dan ada yang tidak final (bisa dikreditkan)"
+        ],
+        "analogi": "Bayangin kamu titip duit ke temen buat dibayarin cicilan HP tiap bulan sebelum gajian kamu cair. Nah, PPh 22 itu kayak si temen yang 'nyicil duluan' pajak kamu di setiap transaksi, biar pas akhir tahun tinggal dicocokin aja sisa kurang atau lebihnya.",
+        "contoh_kasus": {
+          "judul": "Kasus Bu Dewi yang Bingung Baca Modul Lama",
+          "cerita": "Bu Dewi, pemilik CV kecil di Bandung, lagi belajar pajak otodidak pakai modul brevet warisan tahun 2019. Pas dia baca soal tarif impor, dia nemu angka yang beda sama yang dijelasin konsultan pajaknya. Ternyata, konsultannya make acuan PMK 51/2025 yang jauh lebih baru.",
+          "poin": [
+            "Modul pajak yang lama belum tentu salah total, tapi tarifnya bisa aja udah di-update peraturan baru",
+            "Selalu cek PMK terbaru atau tanya konsultan resmi sebelum menghitung pajak buat bisnis beneran"
+          ]
+        },
+        "diagram_mermaid": [],
+        "penjelasan_diagram": "",
+        "prompt_gambar": [
+          {
+            "id": "img-01",
+            "prompt": "Ultra modern 3D isometric stylized studio render, landscape 16:9 composition, depicting the legal foundation of Indonesian withholding tax PPh Pasal 22. A glowing translucent 3D law book stack floats at the center on a sleek dark pedestal, with holographic document panels orbiting around it representing UU PPh, UU HPP, and PMK 51/2025. Deep navy dark-mode studio background #0F172A blending into a rich gradient mesh #1E1B4B with soft ambient rim lighting in electric blue and warm gold. Small floating 3D icons of a cargo ship, a government building, and a factory surround the law book to hint at the tax's scope. Include short, clean, perfectly spelled modern Indonesian text labels printed clearly above key elements, such as 'Dasar Hukum PPh 22' and 'PMK 51/2025'. Contemporary color palette of electric blue, emerald green, and warm gold accents, smooth reflective surfaces, premium tech-education infographic aesthetic, crisp studio lighting, high detail render.",
+            "keterangan": "Ilustrasi 3D bertema hukum perpajakan yang menggambarkan tumpukan dasar hukum PPh Pasal 22 dari UU PPh sampai PMK 51/2025. Gambar ini membantu kamu membayangkan bahwa aturan pajak itu berlapis dan terus di-update.",
+            "alt": "Ilustrasi 3D tumpukan buku hukum pajak dengan label PMK 51/2025 melayang di atas panel hologram",
+            "url_gambar": null
+          }
+        ],
+        "kalkulator": null,
+        "mini_kuis": [
+          {
+            "id": "q1",
+            "pertanyaan": "PPh Pasal 22 pada dasarnya adalah...",
+            "tipe": "pilihan_ganda",
+            "pilihan": [
+              "A. Jenis pajak yang benar-benar terpisah dari PPh",
+              "B. Cara pemungutan PPh yang dikenakan pada transaksi tertentu",
+              "C. Pajak khusus untuk karyawan",
+              "D. Pajak daerah"
+            ],
+            "jawaban": "B",
+            "pembahasan": "PPh 22 adalah cara pemungutan pajak penghasilan yang 'nempel' di transaksi tertentu seperti impor, pembelian pemerintah, dan penjualan industri tertentu, bukan jenis pajak yang berdiri sendiri di luar PPh."
+          },
+          {
+            "id": "q2",
+            "pertanyaan": "Aturan teknis PPh 22 atas impor dan penyerahan barang tahun 2026 mengacu pada PMK 34/2017 saja.",
+            "tipe": "benar_salah",
+            "pilihan": [
+              "Benar",
+              "Salah"
+            ],
+            "jawaban": "Salah",
+            "pembahasan": "Aturan teknis terbaru per 2026 sudah diperbarui lewat PMK 51/2025, sehingga PMK 34/2017 beserta perubahannya sudah tidak lagi jadi acuan utama untuk pos-pos yang diatur ulang di PMK baru tersebut."
+          }
+        ],
+        "kesalahan_umum": [
+          {
+            "salah": "Menganggap PPh 22 adalah pajak yang benar-benar terpisah dan berbeda konsep dari PPh secara umum",
+            "benar": "PPh 22 tetaplah Pajak Penghasilan, hanya mekanisme pemungutannya yang berbeda karena dipungut di muka oleh pihak ketiga",
+            "tips": "Ingat kata kuncinya: 'cara pungut', bukan 'jenis pajak baru'"
+          },
+          {
+            "salah": "Memakai tarif dari modul atau artikel lama tanpa mengecek update PMK terbaru",
+            "benar": "Selalu cross-check tarif PPh 22 dengan PMK yang berlaku aktif, karena tarif teknis bisa berubah tanpa mengubah undang-undang induknya",
+            "tips": "Cek langsung di situs resmi pajak.go.id atau database peraturan yang terpercaya sebelum menghitung pajak untuk transaksi nyata"
+          }
+        ],
+        "istilah": [
+          {
+            "kata": "Withholding Tax",
+            "definisi": "Sistem pemungutan pajak di mana pihak ketiga (pemungut) memotong atau memungut pajak dari wajib pajak lain sebelum penghasilan diterima penuh.",
+            "contoh": "PPh 22 adalah salah satu bentuk withholding tax yang dipungut saat transaksi impor terjadi."
+          },
+          {
+            "kata": "PMK",
+            "definisi": "Peraturan Menteri Keuangan, yaitu aturan teknis pelaksana dari undang-undang perpajakan yang diterbitkan oleh Kementerian Keuangan.",
+            "contoh": "PMK 51/2025 mengatur detail tarif PPh 22 atas impor dan penyerahan barang."
+          },
+          {
+            "kata": "UU HPP",
+            "definisi": "Undang-Undang Harmonisasi Peraturan Perpajakan No. 7/2021, yang mengubah dan menyelaraskan berbagai ketentuan pajak termasuk PPh dan PPN.",
+            "contoh": "UU HPP jadi salah satu payung hukum yang memperbarui ketentuan Pasal 22 UU PPh."
+          }
+        ]
+      },
+      {
+        "id": "bag-02",
+        "judul": "Filosofi Pajak Dibayar di Muka",
+        "paragraf": [
+          "Nah, ini bagian yang sering bikin pemula garuk-garuk kepala: kenapa sih pajak harus dibayar duluan sebelum tau untung ruginya usaha di akhir tahun? Gampangnya gini — bayangin kamu langganan GoFood terus tiap transaksi udah otomatis kepotong ongkir dan biaya layanan di muka, sebelum makanan sampai ke rumah kamu. PPh 22 itu mirip gitu, dia dipungut di 'titik transaksi', bukan nunggu kamu ngitung untung-rugi usaha di akhir tahun.",
+          "Filosofinya ada dua: pertama, buat ngamanin penerimaan negara supaya nggak keteteran nunggu SPT Tahunan doang (yang baru dilaporin setahun sekali). Kedua, buat 'membantu' wajib pajak nyicil kewajiban pajaknya secara bertahap biar nggak keberatan bayar sekaligus gede di akhir tahun. Ibaratnya kayak nabung dikit-dikit di celengan sebelum THR cair, biar pas hari H nggak kaget harus keluar duit banyak.",
+          "Nah yang penting dicatat: PPh 22 yang sifatnya TIDAK FINAL itu cuma 'uang muka' doang alias prepayment. Nanti di akhir tahun, total PPh 22 yang udah dipotong sepanjang tahun itu jadi kredit pajak alias pengurang dari PPh terutang yang sebenarnya. Kalau PPh 22 yang udah dipotong lebih besar dari PPh terutang, kamu malah bisa lebih bayar dan berhak restitusi (minta balik kelebihannya).",
+          "Beda cerita kalau PPh 22-nya bersifat FINAL — begitu dipotong, urusan pajak buat transaksi itu langsung selesai, nggak perlu dihitung ulang lagi di SPT Tahunan. Contohnya nanti bakal kita bahas di bagian BBM dan pelumas, di mana ada yang final dan ada yang enggak tergantung siapa pembelinya."
+        ],
+        "poin_penting": [
+          "💰 PPh 22 dibayar di muka supaya penerimaan negara lebih terjamin sepanjang tahun",
+          "✅ Yang tidak final = kredit pajak, mengurangi PPh terutang di SPT Tahunan",
+          "❌ Yang final = selesai begitu dipotong, tidak dihitung ulang lagi",
+          "📊 Kalau kredit pajak lebih besar dari PPh terutang, wajib pajak berhak restitusi"
+        ],
+        "analogi": "Ibaratnya kayak kamu nyicil bayar utang belanjaan online tiap ada transaksi, bukan nunggu ditagih borongan di akhir bulan. Jadi pas ditagih total di akhir bulan (baca: SPT Tahunan), yang perlu dibayar cuma sisa kurangnya doang, bukan semuanya dari nol.",
+        "contoh_kasus": {
+          "judul": "Kasus PT Rina Jaya yang Kaget Lihat Kredit Pajak",
+          "cerita": "PT Rina Jaya adalah importir alat elektronik. Sepanjang tahun, tiap kali impor barang, mereka selalu dipungut PPh 22 sama DJBC. Pas lapor SPT Tahunan, ternyata total PPh 22 yang udah dipotong sepanjang tahun itu jauh lebih besar dari PPh Badan yang seharusnya terutang.",
+          "poin": [
+            "Karena PPh 22 impor bersifat tidak final, seluruh nilainya jadi kredit pajak di SPT Tahunan",
+            "Karena kredit pajaknya lebih besar dari pajak terutang, PT Rina Jaya berhak mengajukan restitusi alias PPh Lebih Bayar"
+          ]
+        },
+        "diagram_mermaid": [
+          "flowchart TD\nA[\"Transaksi Terjadi Misalnya Impor\"] --> B[\"Pemungut Potong PPh 22 di Muka\"]\nB --> C[\"Setor ke Kas Negara Lewat Kode Billing Coretax\"]\nC --> D[\"Wajib Pajak Terima Bukti Pemungutan\"]\nD --> E[\"Bukti Pemungutan Dikumpulkan Setahun\"]\nE --> F[\"Jadi Kredit Pajak di SPT Tahunan\"]\nF --> G[\"Dikurangkan dari PPh Terutang Akhir Tahun\"]"
+        ],
+        "penjelasan_diagram": "Diagram ini menjelaskan alur logika mengapa PPh 22 disebut pajak dibayar di muka: mulai dari transaksi terjadi, dipungut, disetor, sampai akhirnya jadi pengurang pajak di SPT Tahunan.",
+        "prompt_gambar": [],
+        "kalkulator": null,
+        "mini_kuis": [
+          {
+            "id": "q1",
+            "pertanyaan": "PPh 22 yang bersifat tidak final memiliki fungsi utama sebagai...",
+            "tipe": "pilihan_ganda",
+            "pilihan": [
+              "A. Pajak final yang tidak bisa dikreditkan",
+              "B. Kredit pajak atau uang muka PPh terutang di akhir tahun",
+              "C. Denda administrasi",
+              "D. Pajak daerah tambahan"
+            ],
+            "jawaban": "B",
+            "pembahasan": "PPh 22 tidak final berfungsi sebagai kredit pajak alias uang muka, yang nantinya mengurangi PPh terutang di SPT Tahunan. Pilihan A salah karena justru sebaliknya, dan pilihan C serta D tidak relevan dengan konsep ini."
+          },
+          {
+            "id": "q2",
+            "pertanyaan": "Jika total PPh 22 yang dipotong sepanjang tahun lebih besar dari PPh terutang, wajib pajak otomatis kehilangan kelebihan tersebut.",
+            "tipe": "benar_salah",
+            "pilihan": [
+              "Benar",
+              "Salah"
+            ],
+            "jawaban": "Salah",
+            "pembahasan": "Kelebihan pembayaran tersebut tidak hilang — wajib pajak berhak mengajukan restitusi atau kompensasi ke tahun pajak berikutnya sesuai ketentuan yang berlaku."
+          }
+        ],
+        "kesalahan_umum": [
+          {
+            "salah": "Menganggap semua PPh 22 sifatnya final",
+            "benar": "Sebagian besar PPh 22 bersifat tidak final dan bisa dikreditkan, hanya sebagian kecil transaksi tertentu yang bersifat final",
+            "tips": "Cek dulu jenis transaksinya sebelum menyimpulkan sifat pemotongan pajaknya"
+          },
+          {
+            "salah": "Lupa menyimpan bukti pemungutan PPh 22 sepanjang tahun",
+            "benar": "Bukti pemungutan wajib disimpan rapi karena jadi dasar pengkreditan pajak di SPT Tahunan",
+            "tips": "Simpan salinan digital bukti potong di folder khusus per tahun pajak biar gampang dicari"
+          }
+        ],
+        "istilah": [
+          {
+            "kata": "Kredit Pajak",
+            "definisi": "Jumlah pajak yang sudah dibayar atau dipungut di muka, yang boleh dikurangkan dari total pajak terutang dalam SPT Tahunan.",
+            "contoh": "PPh 22 yang tidak final menjadi kredit pajak bagi PT Rina Jaya di akhir tahun."
+          },
+          {
+            "kata": "Restitusi",
+            "definisi": "Pengembalian kelebihan pembayaran pajak dari negara kepada wajib pajak setelah melalui proses pemeriksaan atau penelitian oleh DJP.",
+            "contoh": "Karena kredit pajaknya lebih besar dari pajak terutang, PT Rina Jaya mengajukan restitusi."
+          },
+          {
+            "kata": "Final",
+            "definisi": "Sifat pemotongan pajak yang membuat kewajiban pajak atas suatu transaksi dianggap selesai begitu dipotong, tanpa perlu dihitung ulang di SPT Tahunan.",
+            "contoh": "PPh 22 atas penjualan BBM ke SPBU dari Pertamina bersifat final."
+          }
+        ]
+      },
+      {
+        "id": "bag-03",
+        "judul": "Daftar Subjek Pemungut PPh 22",
+        "paragraf": [
+          "Nggak semua orang atau badan boleh sembarangan mungut PPh 22 lho. Menteri Keuangan cuma nunjuk pihak-pihak tertentu aja yang punya 'wewenang' buat jadi pemungut, karena mereka biasanya berada di titik-titik strategis transaksi besar. Anggap aja mereka ini kayak 'kasir resmi negara' di sektor masing-masing.",
+          "Yang pertama ada Ditjen Bea dan Cukai (DJBC), yang bertugas mungut PPh 22 setiap ada barang impor masuk ke Indonesia. Terus ada bendahara pemerintah pusat maupun daerah, yang mungut PPh 22 setiap kali instansi mereka beli barang pakai dana APBN atau APBD. Selanjutnya BUMN-BUMN besar kayak Pertamina, PLN, Telkom, dan bank-bank pelat merah, yang mungut PPh 22 saat beli barang atau bahan baku buat operasional mereka.",
+          "Selain itu ada juga badan usaha industri tertentu — kayak pabrik semen, kertas, baja, otomotif, dan farmasi — yang wajib mungut PPh 22 pas jual hasil produksi mereka ke distributor. Ada juga produsen dan importir BBM, gas, dan pelumas. Terakhir, ada pedagang pengumpul di sektor kehutanan, perkebunan, pertanian, peternakan, dan perikanan yang jadi objek pemungutan (bukan pemungut) saat menjual hasil produksinya ke badan usaha industri atau eksportir.",
+          "Yang menarik, per PMK 51/2025 daftar objeknya makin lengkap — sekarang juga mencakup pembelian batu bara dan mineral, pembelian emas batangan lewat usaha bulion, transaksi kripto, sampai transaksi lewat marketplace alias PMSE (Perdagangan Melalui Sistem Elektronik). Jadi cakupan PPh 22 makin luas mengikuti perkembangan ekonomi digital di Indonesia."
+        ],
+        "poin_penting": [
+          "🏢 Pemungut PPh 22 ditunjuk khusus oleh Menteri Keuangan, nggak sembarangan",
+          "📦 DJBC mungut PPh 22 impor, bendahara pemerintah mungut dari belanja APBN/APBD",
+          "🏭 BUMN dan industri tertentu (semen, baja, otomotif, farmasi) juga jadi pemungut",
+          "🔥 Cakupan terbaru 2026 makin luas: mencakup kripto, emas batangan, sampai marketplace"
+        ],
+        "analogi": "Bayangin kayak sistem keamanan di mal — ada satpam di pintu masuk (DJBC buat impor), ada kasir di tiap toko (bendahara dan BUMN), dan ada juga petugas khusus di lantai tertentu (industri tertentu). Semuanya punya 'wilayah tugas' masing-masing buat mungut pajak.",
+        "contoh_kasus": {
+          "judul": "Kasus Mas Andi Bingung Siapa yang Mungut",
+          "cerita": "Mas Andi baru buka usaha kecil yang jual alat tulis ke kantor pemerintah daerah. Dia heran kenapa pembayarannya selalu dipotong duluan sebelum masuk rekening usahanya.",
+          "poin": [
+            "Yang memungut adalah bendahara instansi pemerintah tempat Mas Andi menjual barangnya",
+            "Potongan itu adalah PPh 22 sebesar 1,5% dari harga pembelian, bukan kesalahan administrasi"
+          ]
+        },
+        "diagram_mermaid": [],
+        "penjelasan_diagram": "",
+        "prompt_gambar": [
+          {
+            "id": "img-02",
+            "prompt": "Ultra modern 3D isometric stylized studio render, landscape 16:9, showing five distinct floating platforms representing different Indonesian PPh 22 tax collectors arranged in a semicircle. Platform one shows a stylized customs checkpoint building for DJBC, platform two shows a government treasury icon for bendahara pemerintah, platform three shows a state-owned enterprise tower resembling Pertamina and PLN icons, platform four shows a factory silhouette for specific industries, and platform five shows a farmer's basket for hasil pertanian. Deep dark-mode studio background #0F172A merging into a rich indigo gradient mesh #1E1B4B, dramatic ambient studio lighting, floating particles, glossy reflective 3D surfaces. Include short, clean, perfectly spelled modern Indonesian text labels printed clearly above each platform, such as 'Bea Cukai', 'Bendahara', 'BUMN', 'Industri Tertentu', and 'Pedagang Pengumpul'. Contemporary palette of electric blue, emerald green, and warm gold, premium tech-education infographic style, crisp high-resolution render.",
+            "keterangan": "Ilustrasi 3D yang menunjukkan lima kelompok utama pemungut PPh Pasal 22 dalam bentuk platform melayang: Bea Cukai, Bendahara, BUMN, Industri Tertentu, dan Pedagang Pengumpul. Gambar ini membantu memvisualisasikan betapa luasnya cakupan pemungutan PPh 22.",
+            "alt": "Ilustrasi 3D lima platform pemungut PPh Pasal 22 dengan label Bea Cukai, Bendahara, BUMN, Industri, dan Pedagang Pengumpul",
+            "url_gambar": null
+          }
+        ],
+        "kalkulator": null,
+        "mini_kuis": [
+          {
+            "id": "q1",
+            "pertanyaan": "Siapa yang bertugas memungut PPh 22 atas kegiatan impor barang?",
+            "tipe": "pilihan_ganda",
+            "pilihan": [
+              "A. Bendahara pemerintah daerah",
+              "B. Ditjen Bea dan Cukai (DJBC)",
+              "C. Kantor pos",
+              "D. Bank swasta"
+            ],
+            "jawaban": "B",
+            "pembahasan": "DJBC adalah pihak yang ditunjuk untuk memungut PPh 22 atas kegiatan impor barang saat barang tersebut melewati proses kepabeanan di pelabuhan atau bandara."
+          },
+          {
+            "id": "q2",
+            "pertanyaan": "Cakupan pemungut PPh 22 di tahun 2026 sudah mencakup transaksi kripto dan marketplace.",
+            "tipe": "benar_salah",
+            "pilihan": [
+              "Benar",
+              "Salah"
+            ],
+            "jawaban": "Benar",
+            "pembahasan": "Benar, sesuai perkembangan aturan terbaru, penyelenggara PMSE (marketplace) dan transaksi aset kripto kini juga masuk dalam cakupan objek pemungutan PPh 22."
+          }
+        ],
+        "kesalahan_umum": [
+          {
+            "salah": "Mengira semua pihak swasta bisa jadi pemungut PPh 22 asal punya NPWP",
+            "benar": "Hanya pihak yang secara spesifik ditunjuk lewat PMK yang berwenang memungut PPh 22",
+            "tips": "Cek daftar resmi pemungut di PMK terkait sebelum mengasumsikan status pemungut"
+          },
+          {
+            "salah": "Menyamakan bendahara pemerintah dengan BUMN sebagai satu kelompok yang sama",
+            "benar": "Bendahara pemerintah dan BUMN adalah dua kelompok pemungut yang berbeda meski tarifnya sama-sama 1,5%",
+            "tips": "Perhatikan status badan hukum lawan transaksimu untuk memastikan siapa pemungutnya"
+          }
+        ],
+        "istilah": [
+          {
+            "kata": "PMSE",
+            "definisi": "Perdagangan Melalui Sistem Elektronik, yaitu transaksi jual beli yang dilakukan lewat platform digital seperti marketplace.",
+            "contoh": "Sejak aturan terbaru, penyelenggara PMSE ditunjuk sebagai pemungut PPh 22 atas penghasilan merchant dalam negeri."
+          },
+          {
+            "kata": "Bulion",
+            "definisi": "Kegiatan usaha jual beli emas batangan yang diselenggarakan lembaga jasa keuangan berizin OJK.",
+            "contoh": "Pembelian emas batangan lewat usaha bulion dikenakan PPh 22 sebesar 0,25%."
+          },
+          {
+            "kata": "APBN/APBD",
+            "definisi": "Anggaran Pendapatan dan Belanja Negara/Daerah, yaitu dana yang digunakan pemerintah pusat atau daerah untuk belanja termasuk pembelian barang.",
+            "contoh": "Pembelian alat tulis oleh instansi pemerintah menggunakan dana APBD kena PPh 22."
+          }
+        ]
+      },
+      {
+        "id": "bag-04",
+        "judul": "PPh 22 Impor oleh DJBC",
+        "paragraf": [
+          "Ini dia salah satu bagian paling sering ditanyain di ujian Brevet: PPh 22 impor. Konsepnya gini — begitu barang kamu nyampe di pelabuhan Indonesia, sebelum barang itu bisa 'lolos' keluar dari kawasan pabean, ada tagihan pajak yang harus diselesaiin dulu, salah satunya PPh 22. Yang mungut adalah DJBC alias Ditjen Bea dan Cukai.",
+          "Nah, tarifnya beda-beda tergantung kamu punya API (Angka Pengenal Impor) atau enggak, dan tergantung jenis barangnya juga. Merujuk PMK 51/2025 yang berlaku aktif di 2026, ini rinciannya: barang tertentu di Lampiran A dikenakan 10% dari nilai impor (dengan atau tanpa API), barang tertentu di Lampiran B kena 7,5%, barang tertentu di Lampiran C (kayak kedelai, gandum, dan tepung terigu) kena 0,5%, dan emas batangan kena 0,25%. Kalau barangnya di luar daftar-daftar itu, berlaku tarif umum: 2,5% dari nilai impor kalau pakai API, dan 7,5% kalau nggak pakai API.",
+          "Poin yang bikin banyak orang kaget: kalau barang yang nggak dikuasai (misalnya barang yang dilelang karena nggak diambil pemiliknya), tarifnya 7,5% dari harga jual lelang. Jadi bukan cuma soal API atau nggak, tapi juga soal status barangnya di pelabuhan.",
+          "Satu lagi yang wajib kamu inget: kalau kamu nggak punya NPWP sama sekali, tarif yang dikenakan jadi 100% lebih tinggi alias dua kali lipat dari tarif normal. Makanya, punya NPWP itu bukan cuma soal patuh administrasi doang, tapi juga soal ngirit duit beneran pas transaksi impor 😅."
+        ],
+        "poin_penting": [
+          "📦 DJBC mungut PPh 22 pas barang impor diselesaikan dokumen kepabeanannya",
+          "🧮 Tarif barang tertentu (PMK 51/2025): 10% (Lampiran A), 7,5% (Lampiran B), 0,5% (Lampiran C)",
+          "💡 Barang selain daftar khusus: 2,5% (dengan API) atau 7,5% (tanpa API)",
+          "⚠️ Tanpa NPWP, tarif naik 100% alias dua kali lipat dari tarif normal"
+        ],
+        "analogi": "Ibaratnya kayak kamu mau ambil paket di kantor ekspedisi — sebelum paket dikasih ke kamu, kamu harus bayar dulu biaya administrasi dan pajak yang udah nempel di paket itu. Barang impor juga gitu, harus 'lunas dulu' urusan PPh 22-nya sebelum boleh keluar dari pelabuhan.",
+        "contoh_kasus": {
+          "judul": "Kasus PT Omorfi Impor Sampo dari Jepang",
+          "cerita": "PT Omorfi yang punya API mengimpor sampo dari Jepang senilai USD30.000. Sampo termasuk barang tertentu di Lampiran A PMK 51/2025 dengan tarif 10%. Biaya asuransi 0,5% dan biaya angkut 10% dari harga faktur, sementara bea masuk 10% dari CIF.",
+          "poin": [
+            "Karena sampo masuk kategori barang tertentu di Lampiran A, tarifnya tetap 10% baik pakai API maupun tidak",
+            "Nilai impor dihitung dari CIF ditambah bea masuk, lalu dikalikan tarif 10% untuk dapat PPh 22 terutang"
+          ]
+        },
+        "diagram_mermaid": [
+          "flowchart TD\nA[\"Barang Impor Tiba di Pelabuhan Indonesia\"] --> B{\"Termasuk Barang Tertentu di Lampiran A, B, atau C PMK 51/2025?\"}\nB -->|\"Ya, Lampiran A\"| C[\"Tarif 10 persen dari Nilai Impor\"]\nB -->|\"Ya, Lampiran B\"| D[\"Tarif 7,5 persen dari Nilai Impor\"]\nB -->|\"Ya, Lampiran C\"| E[\"Tarif 0,5 persen dari Nilai Impor\"]\nB -->|\"Tidak, Barang Umum\"| F{\"Punya API?\"}\nF -->|\"Ya\"| G[\"Tarif 2,5 persen dari Nilai Impor\"]\nF -->|\"Tidak\"| H[\"Tarif 7,5 persen dari Nilai Impor\"]\nC --> I[\"DJBC Pungut PPh 22 Saat Penyelesaian Dokumen Impor\"]\nD --> I\nE --> I\nG --> I\nH --> I\nI --> J[\"Terbit Bukti Pemungutan, Jadi Kredit Pajak\"]"
+        ],
+        "penjelasan_diagram": "Diagram ini menggambarkan alur pemungutan PPh 22 atas impor barang mulai dari kedatangan barang di pelabuhan, penentuan kategori barang berdasarkan lampiran PMK 51/2025, sampai penerbitan bukti pemungutan yang bisa jadi kredit pajak.",
+        "prompt_gambar": [],
+        "kalkulator": null,
+        "mini_kuis": [
+          {
+            "id": "q1",
+            "pertanyaan": "Barang impor yang tidak termasuk daftar barang tertentu dan diimpor tanpa API dikenakan tarif PPh 22 sebesar...",
+            "tipe": "pilihan_ganda",
+            "pilihan": [
+              "A. 2,5%",
+              "B. 0,5%",
+              "C. 7,5%",
+              "D. 10%"
+            ],
+            "jawaban": "C",
+            "pembahasan": "Barang umum (di luar daftar khusus) yang diimpor tanpa API dikenakan tarif 7,5% dari nilai impor, lebih tinggi dari tarif dengan API yang hanya 2,5%, sebagai bentuk insentif untuk memiliki API."
+          },
+          {
+            "id": "q2",
+            "pertanyaan": "Tarif PPh 22 untuk barang di Lampiran A PMK 51/2025 berbeda tergantung punya API atau tidak.",
+            "tipe": "benar_salah",
+            "pilihan": [
+              "Benar",
+              "Salah"
+            ],
+            "jawaban": "Salah",
+            "pembahasan": "Untuk barang tertentu di Lampiran A, B, dan C, tarifnya tetap sama baik importir punya API maupun tidak — beda API hanya berpengaruh pada barang di luar daftar tersebut."
+          },
+          {
+            "id": "q3",
+            "pertanyaan": "Jelaskan mengapa tarif PPh 22 impor tanpa API dibuat lebih tinggi dibanding dengan API!",
+            "tipe": "esai",
+            "pilihan": null,
+            "jawaban": "Tarif tanpa API dibuat lebih tinggi sebagai insentif kebijakan agar pelaku usaha mendaftar dan memiliki Angka Pengenal Impor (API), yang membuat aktivitas impor lebih tercatat dan mudah diawasi oleh otoritas. Selain itu, ketiadaan API juga sering diasosiasikan dengan importir non-produsen atau berskala kecil yang risikonya lebih sulit dipetakan, sehingga tarif lebih tinggi juga berfungsi sebagai pengaman penerimaan negara.",
+            "pembahasan": "Jawaban dianggap benar jika menyebutkan unsur insentif kepatuhan (mendorong kepemilikan API) dan unsur pengamanan penerimaan negara akibat risiko pengawasan yang lebih rendah pada importir tanpa API."
+          }
+        ],
+        "kesalahan_umum": [
+          {
+            "salah": "Mengira semua barang impor dikenakan tarif 2,5% atau 7,5% saja",
+            "benar": "Barang tertentu yang masuk Lampiran A, B, atau C PMK 51/2025 punya tarif khusus sendiri (10%, 7,5%, atau 0,5%) terlepas dari status API",
+            "tips": "Selalu cek dulu apakah barang impor kamu termasuk daftar barang tertentu sebelum pakai tarif umum"
+          },
+          {
+            "salah": "Lupa memperhitungkan status NPWP saat menghitung PPh 22 impor",
+            "benar": "Tanpa NPWP, tarif yang berlaku naik 100% dari tarif normal",
+            "tips": "Pastikan NPWP aktif sebelum melakukan transaksi impor untuk menghindari beban pajak berlipat"
+          }
+        ],
+        "istilah": [
+          {
+            "kata": "API",
+            "definisi": "Angka Pengenal Impor, yaitu tanda pengenal sebagai importir yang wajib dimiliki badan usaha atau perorangan untuk melakukan kegiatan impor secara resmi.",
+            "contoh": "PT Omorfi memiliki API sehingga bisa memakai tarif PPh 22 impor yang lebih menguntungkan untuk kategori barang tertentu."
+          },
+          {
+            "kata": "DJBC",
+            "definisi": "Direktorat Jenderal Bea dan Cukai, instansi yang bertugas mengawasi lalu lintas barang impor dan ekspor sekaligus memungut PPh 22 atas impor.",
+            "contoh": "DJBC memungut PPh 22 saat barang impor diselesaikan dokumen kepabeanannya di pelabuhan."
+          },
+          {
+            "kata": "Lampiran PMK",
+            "definisi": "Daftar rinci barang atau kategori tertentu yang dilampirkan pada Peraturan Menteri Keuangan sebagai acuan penerapan tarif atau ketentuan pajak.",
+            "contoh": "Sampo yang diimpor PT Omorfi termasuk barang tertentu di Lampiran A PMK 51/2025."
+          }
+        ]
+      },
+      {
+        "id": "bag-05",
+        "judul": "Rumus Menghitung Nilai Impor",
+        "paragraf": [
+          "Sebelum bisa ngitung PPh 22 impor, kamu wajib tahu dulu apa itu 'Nilai Impor', karena ini yang jadi Dasar Pengenaan Pajak (DPP) alias 'lapangan tempat tarif dikalikan'. Nilai Impor itu bukan cuma harga barangnya doang, tapi gabungan dari beberapa komponen biaya yang timbul selama proses impor.",
+          "Rumusnya: Nilai Impor = CIF + Bea Masuk + Pungutan Pabean Lainnya yang Sah. CIF sendiri singkatan dari Cost, Insurance, and Freight alias harga barang ditambah biaya asuransi ditambah biaya pengiriman/pengapalan dari negara asal ke Indonesia. Jadi CIF ini semacam 'harga total barang nyampe di pelabuhan Indonesia', belum termasuk pajak-pajak lain.",
+          "Setelah dapat CIF, kamu tambahin Bea Masuk (pajak yang dikenakan atas kegiatan impor itu sendiri, beda dari PPh 22 ya!) dan pungutan pabean lain yang sah kayak Bea Masuk Tambahan kalau ada. Baru deh hasil penjumlahan itu yang disebut Nilai Impor, dan inilah yang dikalikan sama tarif PPh 22 sesuai kategorinya.",
+          "Yuk langsung praktik biar nempel di kepala kamu — kita hitung kasus impor mesin pabrik dari Jerman senilai CIF USD100.000 dengan kurs pajak Rp15.500 per dolar, dan asumsi bea masuk 5% dari CIF, buat dua skenario: pakai API dan nggak pakai API."
+        ],
+        "poin_penting": [
+          "🧮 Rumus wajib hafal: Nilai Impor = CIF + Bea Masuk + Pungutan Pabean Sah Lainnya",
+          "📌 CIF = Cost (harga barang) + Insurance (asuransi) + Freight (ongkos kirim)",
+          "⚠️ Bea Masuk itu pajak yang berbeda dari PPh 22, tapi jadi komponen penghitungnya",
+          "💡 Kurs yang dipakai adalah kurs pajak yang berlaku saat itu, bukan kurs pasar harian"
+        ],
+        "analogi": "Bayangin kamu belanja online dari luar negeri. Harga barangnya doang belum final — kamu masih harus tambahin ongkir internasional, asuransi paket, plus bea masuk pas paketnya nyampe di Indonesia. Nah, totalan semua itu yang jadi 'harga sesungguhnya' buat dasar hitung pajak, bukan cuma harga barang di etalase toko online.",
+        "contoh_kasus": {
+          "judul": "Impor Mesin Pabrik CIF USD100.000: API vs Non-API",
+          "cerita": "PT Maju Bersama mengimpor mesin produksi dari Jerman dengan nilai CIF USD100.000. Kurs pajak yang berlaku saat itu Rp15.500 per USD, dan bea masuk yang berlaku adalah 5% dari CIF. Mesin pabrik ini tidak termasuk barang tertentu di Lampiran A, B, atau C PMK 51/2025, sehingga memakai tarif umum.",
+          "poin": [
+            "CIF dalam Rupiah = USD100.000 x Rp15.500 = Rp1.550.000.000",
+            "Bea Masuk = 5% x Rp1.550.000.000 = Rp77.500.000, sehingga Nilai Impor = Rp1.627.500.000",
+            "Kalau PT Maju Bersama punya API, PPh 22 = 2,5% x Rp1.627.500.000 = Rp40.687.500",
+            "Kalau PT Maju Bersama TIDAK punya API, PPh 22 = 7,5% x Rp1.627.500.000 = Rp122.062.500 — beda jauh sekitar Rp81.375.000!"
+          ]
+        },
+        "diagram_mermaid": [],
+        "penjelasan_diagram": "",
+        "prompt_gambar": [],
+        "kalkulator": {
+          "tipe": "pph22",
+          "judul": "Kalkulator PPh 22 Impor",
+          "keterangan": "Masukkan nilai CIF, kurs pajak, bea masuk, dan status API untuk menghitung otomatis PPh 22 yang terutang atas transaksi impormu."
+        },
+        "mini_kuis": [
+          {
+            "id": "q1",
+            "pertanyaan": "Komponen apa saja yang membentuk Nilai Impor sebagai DPP PPh 22?",
+            "tipe": "pilihan_ganda",
+            "pilihan": [
+              "A. Harga barang saja",
+              "B. CIF ditambah Bea Masuk dan pungutan pabean sah lainnya",
+              "C. CIF dikurangi diskon",
+              "D. Harga jual di dalam negeri"
+            ],
+            "jawaban": "B",
+            "pembahasan": "Nilai Impor dihitung dari CIF (harga barang, asuransi, dan ongkos kirim) ditambah Bea Masuk dan pungutan pabean sah lainnya, bukan hanya harga barang saja."
+          },
+          {
+            "id": "q2",
+            "pertanyaan": "Jika PT Maju Bersama tidak memiliki API, PPh 22 yang dibayar lebih besar dibanding punya API.",
+            "tipe": "benar_salah",
+            "pilihan": [
+              "Benar",
+              "Salah"
+            ],
+            "jawaban": "Benar",
+            "pembahasan": "Benar, tarif tanpa API sebesar 7,5% jauh lebih tinggi dibanding dengan API yang hanya 2,5%, sehingga PPh 22 yang dibayar juga jauh lebih besar."
+          }
+        ],
+        "kesalahan_umum": [
+          {
+            "salah": "Menganggap Nilai Impor sama dengan harga barang di invoice/faktur saja",
+            "benar": "Nilai Impor mencakup CIF ditambah bea masuk dan pungutan pabean lain, bukan cuma harga faktur",
+            "tips": "Selalu cek dokumen PIB (Pemberitahuan Impor Barang) untuk melihat komponen lengkap Nilai Impor"
+          },
+          {
+            "salah": "Memakai kurs pasar harian alih-alih kurs pajak yang berlaku resmi",
+            "benar": "Perhitungan pajak wajib memakai kurs pajak (kurs KMK) yang diterbitkan berkala, bukan kurs jual-beli bank harian",
+            "tips": "Cek kurs pajak mingguan di situs resmi Kementerian Keuangan atau DDTC sebelum menghitung"
+          }
+        ],
+        "istilah": [
+          {
+            "kata": "CIF",
+            "definisi": "Cost, Insurance, and Freight — nilai barang impor yang mencakup harga barang, biaya asuransi, dan biaya pengapalan dari negara asal ke Indonesia.",
+            "contoh": "CIF mesin pabrik PT Maju Bersama adalah USD100.000."
+          },
+          {
+            "kata": "Bea Masuk",
+            "definisi": "Pungutan negara atas barang yang dimasukkan ke dalam daerah pabean Indonesia, dihitung dari persentase tertentu atas nilai CIF.",
+            "contoh": "Bea masuk mesin pabrik sebesar 5% dari CIF menambah Nilai Impor yang jadi dasar PPh 22."
+          },
+          {
+            "kata": "Kurs Pajak",
+            "definisi": "Nilai tukar mata uang asing terhadap Rupiah yang ditetapkan resmi oleh Kementerian Keuangan untuk keperluan penghitungan pajak dan bea, berlaku periodik.",
+            "contoh": "Kurs pajak Rp15.500 per USD dipakai untuk mengonversi CIF mesin pabrik ke Rupiah."
+          }
+        ]
+      },
+      {
+        "id": "bag-06",
+        "judul": "PPh 22 Pembelian oleh Bendahara",
+        "paragraf": [
+          "Kalau kamu punya usaha yang jualan ke instansi pemerintah — entah itu Dinas Pendidikan, Puskesmas, atau kantor kelurahan — kemungkinan besar kamu bakal ketemu sama yang namanya bendahara pemerintah sebagai pemungut PPh 22. Jadi tiap kali instansi pemerintah beli barang dari kamu pakai dana APBN atau APBD, si bendahara wajib motong PPh 22 dulu sebelum uangnya ditransfer ke rekening kamu.",
+          "Tarifnya cukup sederhana: 1,5% dari harga pembelian, dan yang penting, dasar pengenaannya TIDAK TERMASUK PPN dan PPnBM. Jadi kalau harga barang di invoice kamu udah termasuk PPN, hitungannya harus 'ditelanjangi' dulu — pisahin harga barang bersih dari PPN-nya, baru dikalikan 1,5%.",
+          "Pemotongan ini dilakukan pas pencairan dana, jadi bukan pas kontrak ditandatangani, tapi pas duitnya beneran mau ditransfer dari kas negara ke rekening kamu. Ini penting biar kamu nggak kaget pas cek mutasi rekening ternyata jumlahnya lebih kecil dari yang ada di kontrak.",
+          "Nah, ada satu pengecualian penting yang wajib kamu inget: kalau nilai pembeliannya Rp2.000.000 atau kurang (dan nggak dipecah-pecah biar di bawah ambang batas ya, soalnya DJP bisa curiga kalau ada indikasi 'akal-akalan'), transaksi itu DIBEBASKAN dari pemungutan PPh 22. Detailnya bakal kita bahas lebih lanjut di bagian batas minimal transaksi bebas."
+        ],
+        "poin_penting": [
+          "🏛️ Bendahara pemerintah wajib memungut PPh 22 dari transaksi pembelian barang pakai dana APBN/APBD",
+          "🧮 Tarifnya 1,5% dari harga pembelian, TIDAK termasuk PPN dan PPnBM",
+          "⏰ Pemungutan dilakukan saat pencairan dana, bukan saat kontrak ditandatangani",
+          "✅ Transaksi Rp2.000.000 ke bawah (tidak dipecah-pecah) bebas dari PPh 22"
+        ],
+        "analogi": "Bayangin kamu jual barang ke sekolah negeri, terus pas mau dibayar, bendahara sekolah bilang 'maaf ya Kak, ada potongan pajak dulu sebelum ditransfer'. Itu bukan bendaharanya pelit, tapi memang kewajiban mereka sebagai pemungut resmi negara.",
+        "contoh_kasus": {
+          "judul": "Bendahara Sekolah Beli Komputer Rp50 Juta",
+          "cerita": "Pak Joko, bendahara sebuah SMA negeri, membeli 5 unit komputer dari toko milik Mas Andi seharga Rp50.000.000 (di luar PPN) menggunakan dana BOS (bagian dari APBD).",
+          "poin": [
+            "Karena nilainya di atas Rp2.000.000, transaksi ini kena PPh 22 sebesar 1,5% x Rp50.000.000 = Rp750.000",
+            "Mas Andi hanya menerima Rp49.250.000 (belum termasuk PPN yang jadi hitungan terpisah), dan Rp750.000 disetorkan Pak Joko ke kas negara atas nama Mas Andi"
+          ]
+        },
+        "diagram_mermaid": [],
+        "penjelasan_diagram": "",
+        "prompt_gambar": [],
+        "kalkulator": {
+          "tipe": "pph22",
+          "judul": "Kalkulator PPh 22 Bendahara Pemerintah",
+          "keterangan": "Masukkan harga pembelian barang (tidak termasuk PPN) untuk mengetahui besaran PPh 22 sebesar 1,5% yang akan dipotong bendahara."
+        },
+        "mini_kuis": [
+          {
+            "id": "q1",
+            "pertanyaan": "Berapa tarif PPh 22 atas pembelian barang oleh bendahara pemerintah?",
+            "tipe": "pilihan_ganda",
+            "pilihan": [
+              "A. 0,5%",
+              "B. 1,5%",
+              "C. 2,5%",
+              "D. 5%"
+            ],
+            "jawaban": "B",
+            "pembahasan": "Tarif PPh 22 atas pembelian barang oleh bendahara pemerintah adalah 1,5% dari harga pembelian tidak termasuk PPN, sesuai Pasal 3 ayat (1) huruf b PMK 51/2025."
+          },
+          {
+            "id": "q2",
+            "pertanyaan": "Pembelian barang senilai Rp1.500.000 oleh bendahara sekolah dikenakan PPh 22.",
+            "tipe": "benar_salah",
+            "pilihan": [
+              "Benar",
+              "Salah"
+            ],
+            "jawaban": "Salah",
+            "pembahasan": "Transaksi Rp2.000.000 ke bawah dibebaskan dari pemungutan PPh 22, sehingga pembelian senilai Rp1.500.000 tidak dikenakan PPh 22 selama tidak dipecah-pecah untuk menghindari pajak."
+          }
+        ],
+        "kesalahan_umum": [
+          {
+            "salah": "Menghitung PPh 22 dari harga total termasuk PPN",
+            "benar": "Dasar pengenaan PPh 22 bendahara adalah harga pembelian TIDAK TERMASUK PPN dan PPnBM",
+            "tips": "Selalu pisahkan komponen PPN dari harga sebelum mengalikan tarif 1,5%"
+          },
+          {
+            "salah": "Memecah satu transaksi besar jadi beberapa nota kecil di bawah Rp2 juta biar bebas pajak",
+            "benar": "Praktik pemecahan transaksi (splitting) untuk menghindari pajak tetap dianggap satu kesatuan transaksi dan tetap kena PPh 22",
+            "tips": "Jangan coba akali batas Rp2 juta dengan memecah nota, karena bisa dianggap penghindaran pajak"
+          }
+        ],
+        "istilah": [
+          {
+            "kata": "Bendahara Pemerintah",
+            "definisi": "Pejabat yang ditunjuk untuk mengelola dan mencairkan dana APBN/APBD di suatu instansi pemerintah, sekaligus berperan sebagai pemungut pajak tertentu.",
+            "contoh": "Pak Joko adalah bendahara SMA negeri yang memungut PPh 22 dari pembelian komputer."
+          },
+          {
+            "kata": "Dana BOS",
+            "definisi": "Bantuan Operasional Sekolah, yaitu dana pemerintah yang dialokasikan untuk operasional sekolah termasuk pembelian barang dan jasa.",
+            "contoh": "Pembelian komputer sekolah dibiayai dari Dana BOS yang merupakan bagian dari APBD."
+          },
+          {
+            "kata": "Splitting Transaksi",
+            "definisi": "Praktik memecah satu transaksi besar menjadi beberapa transaksi kecil dengan tujuan menghindari ambang batas pengenaan pajak.",
+            "contoh": "DJP dapat mengoreksi transaksi yang dipecah-pecah untuk menghindari pemungutan PPh 22 di atas Rp2 juta."
+          }
+        ]
+      },
+      {
+        "id": "bag-07",
+        "judul": "PPh 22 oleh BUMN",
+        "paragraf": [
+          "Selain bendahara pemerintah, ada juga BUMN dan badan usaha tertentu milik BUMN yang ditunjuk sebagai pemungut PPh 22. Contoh paling gampang: Pertamina, PLN, Telkom, dan bank-bank pelat merah kayak BRI, BNI, Mandiri, dan BTN. Kenapa mereka? Karena skala transaksi pengadaan barang mereka gede banget, jadi berpotensi besar buat pemasukan negara kalau dipungut langsung di sumbernya.",
+          "Tarifnya sama persis kayak bendahara pemerintah, yaitu 1,5% dari harga pembelian tidak termasuk PPN. Jadi kalau kamu supplier alat tulis kantor atau bahan baku ke anak perusahaan BUMN, siap-siap aja dipotong 1,5% dari nilai transaksi kamu.",
+          "Yang bikin beda dari bendahara pemerintah adalah sumber dananya — kalau bendahara pakai dana APBN/APBD, BUMN pakai dana operasional perusahaan sendiri (walaupun sahamnya dimiliki negara). Jadi meskipun beda sumber dana, perlakuan pajaknya disamakan karena sama-sama dianggap 'entitas besar dan strategis' yang perputaran transaksinya signifikan.",
+          "Penting juga dicatat, ketentuan ini berlaku juga untuk badan usaha tertentu yang dimiliki langsung oleh BUMN (anak perusahaan BUMN), bukan cuma BUMN induknya doang. Jadi kalau kamu jual barang ke anak usaha PLN misalnya, tetap kena aturan yang sama."
+        ],
+        "poin_penting": [
+          "🏢 BUMN besar (Pertamina, PLN, Telkom, bank pelat merah) ditunjuk sebagai pemungut PPh 22",
+          "🧮 Tarifnya sama dengan bendahara pemerintah: 1,5% dari harga pembelian tidak termasuk PPN",
+          "💰 Sumber dananya dari kas operasional perusahaan, bukan APBN/APBD",
+          "📌 Berlaku juga untuk anak perusahaan BUMN, bukan cuma induknya saja"
+        ],
+        "analogi": "Bayangin BUMN itu kayak 'kakak tertua' di keluarga besar perusahaan negara. Karena transaksinya gede dan sering, pemerintah percaya BUMN buat ikut bantu mungut pajak, mirip kayak gimana bendahara pemerintah mungut dari belanja negara.",
+        "contoh_kasus": {
+          "judul": "Kasus CV Sinar Abadi Suplai Kabel ke PLN",
+          "cerita": "CV Sinar Abadi menjual kabel listrik senilai Rp200.000.000 (tidak termasuk PPN) kepada PT PLN untuk kebutuhan proyek jaringan listrik desa.",
+          "poin": [
+            "PLN sebagai BUMN wajib memungut PPh 22 sebesar 1,5% x Rp200.000.000 = Rp3.000.000",
+            "CV Sinar Abadi menerima pembayaran setelah dikurangi PPh 22, dan bisa mengkreditkan Rp3.000.000 tersebut di SPT Tahunan"
+          ]
+        },
+        "diagram_mermaid": [],
+        "penjelasan_diagram": "",
+        "prompt_gambar": [
+          {
+            "id": "img-03",
+            "prompt": "Ultra modern 3D isometric stylized studio render, landscape 16:9, showcasing a cluster of stylized state-owned enterprise buildings representing Indonesian BUMN, including an oil refinery tower, an electricity pylon structure, a telecom signal tower, and a bank facade, all rendered in sleek glossy 3D with soft glowing accents. They are connected by thin glowing directional lines converging into a central floating coin-and-invoice icon symbolizing tax collection. Deep dark-mode studio background #0F172A blending into a rich gradient mesh #1E1B4B, dramatic ambient rim lighting, subtle floating particles for atmosphere. Include short, clean, perfectly spelled modern Indonesian text labels printed clearly near each building, such as 'BUMN Pemungut Pajak' and 'Tarif 1,5 persen'. Contemporary color palette of electric blue, emerald green, and warm gold accents, premium tech-education infographic aesthetic, crisp studio lighting, high detail render.",
+            "keterangan": "Ilustrasi 3D yang menggambarkan berbagai BUMN besar seperti Pertamina, PLN, dan Telkom sebagai pemungut PPh 22 dengan tarif 1,5% dari pembelian barang.",
+            "alt": "Ilustrasi 3D gedung-gedung BUMN dengan label BUMN Pemungut Pajak dan Tarif 1,5 persen",
+            "url_gambar": null
+          }
+        ],
+        "kalkulator": null,
+        "mini_kuis": [
+          {
+            "id": "q1",
+            "pertanyaan": "Manakah yang termasuk contoh BUMN pemungut PPh 22?",
+            "tipe": "pilihan_ganda",
+            "pilihan": [
+              "A. Warung kelontong",
+              "B. PT Pertamina",
+              "C. Toko online swasta kecil",
+              "D. Koperasi simpan pinjam warga"
+            ],
+            "jawaban": "B",
+            "pembahasan": "PT Pertamina adalah BUMN besar yang ditunjuk sebagai pemungut PPh 22 atas pembelian barang atau bahan baku untuk kegiatan usahanya."
+          },
+          {
+            "id": "q2",
+            "pertanyaan": "Tarif PPh 22 oleh BUMN berbeda dengan tarif PPh 22 oleh bendahara pemerintah.",
+            "tipe": "benar_salah",
+            "pilihan": [
+              "Benar",
+              "Salah"
+            ],
+            "jawaban": "Salah",
+            "pembahasan": "Tarif PPh 22 oleh BUMN dan bendahara pemerintah sama-sama 1,5% dari harga pembelian tidak termasuk PPN, meski sumber dananya berbeda."
+          }
+        ],
+        "kesalahan_umum": [
+          {
+            "salah": "Mengira hanya BUMN induk yang wajib memungut PPh 22, sedangkan anak usahanya tidak",
+            "benar": "Badan usaha tertentu yang dimiliki langsung oleh BUMN juga wajib memungut PPh 22 dengan tarif yang sama",
+            "tips": "Cek struktur kepemilikan lawan transaksimu sebelum menyimpulkan kewajiban pemungutan"
+          },
+          {
+            "salah": "Menganggap potongan PPh 22 dari BUMN sebagai kerugian permanen",
+            "benar": "PPh 22 yang dipotong BUMN bersifat tidak final dan bisa dikreditkan di SPT Tahunan",
+            "tips": "Simpan bukti potong dari BUMN untuk dikreditkan saat lapor pajak tahunan"
+          }
+        ],
+        "istilah": [
+          {
+            "kata": "BUMN",
+            "definisi": "Badan Usaha Milik Negara, yaitu perusahaan yang sebagian besar atau seluruh modalnya dimiliki oleh negara.",
+            "contoh": "PT PLN dan PT Pertamina adalah contoh BUMN yang ditunjuk sebagai pemungut PPh 22."
+          },
+          {
+            "kata": "Anak Perusahaan BUMN",
+            "definisi": "Badan usaha yang sahamnya dimiliki secara langsung oleh BUMN induk, dan turut mengemban kewajiban perpajakan yang sama dengan induknya dalam konteks pemungutan PPh 22.",
+            "contoh": "Anak usaha PLN yang membeli bahan baku juga wajib memungut PPh 22 seperti PLN induknya."
+          },
+          {
+            "kata": "Entitas Strategis",
+            "definisi": "Istilah umum untuk badan usaha besar yang memiliki peran signifikan dalam perekonomian sehingga sering ditunjuk sebagai pemungut pajak.",
+            "contoh": "BUMN dianggap entitas strategis karena skala transaksi pengadaannya yang besar."
+          }
+        ]
+      },
+      {
+        "id": "bag-08",
+        "judul": "PPh 22 Penjualan Hasil Industri Tertentu",
+        "paragraf": [
+          "Nah, ini bagian yang seru buat dihafalin pakai jembatan keledai, soalnya banyak angka desimal kecil yang gampang ketuker-tuker. Ada lima industri besar yang ditunjuk sebagai pemungut PPh 22 saat mereka jual hasil produksinya ke distributor dalam negeri: semen, kertas, baja, otomotif (kendaraan bermotor), dan farmasi (obat-obatan).",
+          "Merujuk PMK 51/2025 yang berlaku aktif 2026, rinciannya begini: industri semen kena tarif 0,25% dari penjualan (tidak termasuk PPN), industri kertas 0,1%, industri baja 0,3%, industri kendaraan bermotor roda dua atau lebih (di luar alat berat) 0,45%, dan industri farmasi/obat 0,3%. Kelimanya dihitung dari harga jual bersih, sebelum ditambah PPN.",
+          "Kenapa tarifnya kecil-kecil banget dibanding impor? Soalnya ini kan transaksi dalam negeri antar pelaku usaha (business to business), bukan transaksi lintas negara yang risikonya lebih tinggi buat diawasi. Jadi pemerintah nggak mau terlalu membebani arus kas industri dalam negeri, tapi tetap pengen 'nyicil' penerimaan pajak dari transaksi besar mereka.",
+          "Satu hal yang perlu dicatat: ketentuan penjualan kendaraan bermotor oleh ATPM/APM/importir umum (0,45%) itu sebenarnya diatur di pasal terpisah dari penjualan hasil produksi industri ke distributor, meski tarifnya kebetulan sama. Jadi jangan bingung kalau nemu dua pasal berbeda yang nyebut angka 0,45% yang sama."
+        ],
+        "poin_penting": [
+          "🏭 Lima industri pemungut: semen, kertas, baja, otomotif, dan farmasi",
+          "🧮 Tarif: Semen 0,25%, Kertas 0,1%, Baja 0,3%, Otomotif 0,45%, Farmasi 0,3%",
+          "💡 Dasar pengenaan adalah harga jual TIDAK termasuk PPN",
+          "📌 Tarif kecil karena transaksi B2B dalam negeri dianggap risiko rendah"
+        ],
+        "analogi": "Bayangin kayak lima kasir toko besar yang masing-masing punya tarif layanan beda-beda kecil banget, tapi karena transaksinya sering dan gede, totalnya tetap signifikan buat kas negara. Kayak diskon member yang beda-beda tiap toko tapi tetap nambahin pemasukan kasir kalau ditotal semua.",
+        "contoh_kasus": {
+          "judul": "Pabrik Semen Jaya Jual ke Distributor Bu Siti",
+          "cerita": "PT Semen Jaya menjual 1.000 sak semen senilai Rp150.000.000 (tidak termasuk PPN) kepada distributor milik Bu Siti di Semarang.",
+          "poin": [
+            "PPh 22 yang dipungut PT Semen Jaya = 0,25% x Rp150.000.000 = Rp375.000",
+            "Bu Siti menerima bukti pemungutan yang bisa dikreditkan saat lapor SPT Tahunan usahanya"
+          ]
+        },
+        "diagram_mermaid": [
+          "graph LR\nsubgraph SM[\"Semen - 0,25 persen\"]\nA1[\"Distributor Beli Semen\"]\nend\nsubgraph KR[\"Kertas - 0,1 persen\"]\nA2[\"Distributor Beli Kertas\"]\nend\nsubgraph BJ[\"Baja - 0,3 persen\"]\nA3[\"Distributor Beli Baja\"]\nend\nsubgraph OT[\"Kendaraan Bermotor - 0,45 persen\"]\nA4[\"Distributor Beli Kendaraan\"]\nend\nsubgraph FM[\"Farmasi - 0,3 persen\"]\nA5[\"Distributor Beli Obat\"]\nend"
+        ],
+        "penjelasan_diagram": "Diagram matriks ini membandingkan tarif PPh 22 dari lima sektor industri tertentu, mulai dari yang paling kecil (kertas 0,1 persen) sampai yang paling besar (kendaraan bermotor 0,45 persen), semuanya dihitung dari harga jual tidak termasuk PPN.",
+        "prompt_gambar": [],
+        "kalkulator": {
+          "tipe": "pph22",
+          "judul": "Kalkulator PPh 22 Industri Tertentu",
+          "keterangan": "Pilih jenis industri (semen, kertas, baja, otomotif, atau farmasi) dan masukkan nilai penjualan untuk menghitung PPh 22 yang harus dipungut."
+        },
+        "mini_kuis": [
+          {
+            "id": "q1",
+            "pertanyaan": "Industri mana yang memiliki tarif PPh 22 paling kecil dari kelima sektor tertentu?",
+            "tipe": "pilihan_ganda",
+            "pilihan": [
+              "A. Semen",
+              "B. Kertas",
+              "C. Baja",
+              "D. Otomotif"
+            ],
+            "jawaban": "B",
+            "pembahasan": "Industri kertas memiliki tarif paling kecil yaitu 0,1% dari penjualan, dibandingkan semen 0,25%, baja 0,3%, dan otomotif 0,45%."
+          },
+          {
+            "id": "q2",
+            "pertanyaan": "Tarif PPh 22 industri farmasi dan industri baja sama-sama sebesar 0,3%.",
+            "tipe": "benar_salah",
+            "pilihan": [
+              "Benar",
+              "Salah"
+            ],
+            "jawaban": "Benar",
+            "pembahasan": "Benar, keduanya sama-sama dikenakan tarif 0,3% dari penjualan tidak termasuk PPN sesuai PMK 51/2025."
+          }
+        ],
+        "kesalahan_umum": [
+          {
+            "salah": "Menghitung PPh 22 industri dari harga jual termasuk PPN",
+            "benar": "Dasar pengenaan pajaknya adalah harga jual TIDAK termasuk PPN",
+            "tips": "Selalu keluarkan komponen PPN dari nilai penjualan sebelum mengalikan tarif industri tertentu"
+          },
+          {
+            "salah": "Menyamaratakan semua tarif industri jadi satu angka",
+            "benar": "Setiap industri (semen, kertas, baja, otomotif, farmasi) punya tarifnya masing-masing yang berbeda",
+            "tips": "Buat tabel kecil di catatanmu supaya nggak ketuker-tuker antar tarif industri"
+          }
+        ],
+        "istilah": [
+          {
+            "kata": "Distributor",
+            "definisi": "Pihak yang membeli barang dari produsen dalam jumlah besar untuk kemudian dijual kembali ke pengecer atau konsumen akhir.",
+            "contoh": "Bu Siti adalah distributor semen yang membeli langsung dari PT Semen Jaya."
+          },
+          {
+            "kata": "Harga Jual Tidak Termasuk PPN",
+            "definisi": "Nilai transaksi barang sebelum ditambahkan komponen Pajak Pertambahan Nilai, digunakan sebagai dasar pengenaan berbagai tarif PPh 22.",
+            "contoh": "PT Semen Jaya menghitung PPh 22 dari Rp150.000.000, yaitu harga jual semen sebelum PPN."
+          },
+          {
+            "kata": "ATPM",
+            "definisi": "Agen Tunggal Pemegang Merek, yaitu perusahaan yang ditunjuk resmi oleh produsen kendaraan luar negeri untuk mendistribusikan produknya di Indonesia.",
+            "contoh": "ATPM kendaraan bermotor wajib memungut PPh 22 sebesar 0,45% dari penjualan tidak termasuk PPN."
+          }
+        ]
+      },
+      {
+        "id": "bag-09",
+        "judul": "PPh 22 BBM, Gas, dan Pelumas",
+        "paragraf": [
+          "Sekarang kita masuk ke bahan bakar — BBM, gas, dan pelumas. Yang jadi pemungut adalah produsen atau importir BBM/gas/pelumas itu sendiri, kayak Pertamina dan anak usahanya, atau perusahaan swasta yang juga jadi produsen/importir bahan bakar.",
+          "Yang bikin unik dari kategori ini, tarifnya beda-beda tergantung SIAPA pembelinya dan bersifat FINAL untuk penjualan ke SPBU. Kalau dijual ke SPBU umum yang beli BBM-nya dari Pertamina atau anak usahanya, tarifnya 0,25% dan bersifat FINAL. Kalau SPBU-nya beli BBM dari selain Pertamina (misalnya dari Shell atau BP), tarifnya 0,3% dan tetap FINAL. Sementara kalau dijual ke pihak lain di luar SPBU (misalnya langsung ke industri atau konsumen besar), tarifnya 0,3% tapi sifatnya TIDAK FINAL alias bisa dikreditkan.",
+          "Untuk gas dan pelumas, tarifnya lebih sederhana: flat 0,3% dari penjualan tidak termasuk PPN, tanpa perlu bedain-bedain siapa pembelinya kayak BBM.",
+          "Kenapa ada yang final dan ada yang enggak? Ini biasanya berkaitan sama siapa yang jadi 'ujung rantai distribusi'. Penjualan ke SPBU dianggap udah 'akhir rantai' buat kepentingan administrasi, jadi dibikin final biar nggak ribet dikreditkan lagi. Sementara penjualan ke industri biasanya masih ada proses bisnis lanjutan, jadi tetap dikreditkan seperti biasa."
+        ],
+        "poin_penting": [
+          "⛽ Pemungut: produsen/importir BBM, gas, dan pelumas seperti Pertamina",
+          "🔥 SPBU beli dari Pertamina: 0,25% FINAL; SPBU beli dari non-Pertamina: 0,3% FINAL",
+          "📌 Penjualan ke pihak selain SPBU: 0,3% TIDAK FINAL (bisa dikreditkan)",
+          "💧 Gas dan pelumas: flat 0,3%, tidak dibedakan pembelinya"
+        ],
+        "analogi": "Bayangin kayak beli bensin di SPBU — begitu bensinnya masuk tangki motor kamu, urusan pajak buat transaksi itu udah 'kelar', nggak perlu dihitung ulang lagi di akhir tahun. Beda kalau kamu industri besar yang beli BBM buat operasional pabrik, urusan pajaknya masih 'nyambung' ke perhitungan pajak tahunan.",
+        "contoh_kasus": {
+          "judul": "SPBU Pak Dito Beli BBM dari Pertamina",
+          "cerita": "Pak Dito punya SPBU yang membeli BBM senilai Rp500.000.000 (tidak termasuk PPN) langsung dari Pertamina bulan ini.",
+          "poin": [
+            "Karena membeli dari Pertamina, tarif PPh 22 yang dikenakan adalah 0,25% dan bersifat FINAL",
+            "PPh 22 terutang = 0,25% x Rp500.000.000 = Rp1.250.000, dan urusan pajak buat transaksi ini selesai di situ, tidak perlu dikreditkan lagi"
+          ]
+        },
+        "diagram_mermaid": [],
+        "penjelasan_diagram": "",
+        "prompt_gambar": [
+          {
+            "id": "img-04",
+            "prompt": "Ultra modern 3D isometric stylized studio render, landscape 16:9, depicting a sleek 3D gas station (SPBU) scene at night with glowing fuel pump nozzles and a fuel tanker truck delivering to it, rendered in premium glossy materials. A translucent holographic percentage tag floats above the fuel pump. Deep dark-mode studio background #0F172A merging into a rich violet-indigo gradient mesh #1E1B4B, cinematic ambient lighting with subtle blue and amber highlights reflecting off the pump surfaces, soft floating light particles for atmosphere. Include short, clean, perfectly spelled modern Indonesian text labels printed clearly near the pump and tanker, such as 'BBM Final' and 'Tarif 0,25 persen'. Contemporary color palette of electric blue, emerald green, and warm gold, premium tech-education infographic aesthetic, crisp studio lighting, high detail render.",
+            "keterangan": "Ilustrasi 3D SPBU dan truk tangki BBM yang menggambarkan pemungutan PPh 22 final sebesar 0,25% saat SPBU membeli bahan bakar dari Pertamina.",
+            "alt": "Ilustrasi 3D SPBU malam hari dengan label BBM Final dan Tarif 0,25 persen",
+            "url_gambar": null
+          }
+        ],
+        "kalkulator": {
+          "tipe": "pph22",
+          "judul": "Kalkulator PPh 22 BBM, Gas, dan Pelumas",
+          "keterangan": "Pilih jenis pembeli (SPBU dari Pertamina, SPBU non-Pertamina, atau pihak lain) untuk menghitung PPh 22 dan mengetahui sifat final atau tidak finalnya."
+        },
+        "mini_kuis": [
+          {
+            "id": "q1",
+            "pertanyaan": "Penjualan BBM ke SPBU yang membeli dari Pertamina dikenakan PPh 22 dengan tarif dan sifat...",
+            "tipe": "pilihan_ganda",
+            "pilihan": [
+              "A. 0,3% dan tidak final",
+              "B. 0,25% dan final",
+              "C. 0,45% dan final",
+              "D. 1,5% dan tidak final"
+            ],
+            "jawaban": "B",
+            "pembahasan": "Penjualan BBM ke SPBU yang membeli dari Pertamina atau anak usahanya dikenakan tarif 0,25% dan bersifat final, berbeda dengan penjualan ke pihak lain yang tidak final."
+          },
+          {
+            "id": "q2",
+            "pertanyaan": "Semua penjualan BBM oleh Pertamina bersifat final tanpa terkecuali.",
+            "tipe": "benar_salah",
+            "pilihan": [
+              "Benar",
+              "Salah"
+            ],
+            "jawaban": "Salah",
+            "pembahasan": "Penjualan ke SPBU bersifat final, tetapi penjualan ke pihak selain SPBU (misalnya konsumen industri) bersifat tidak final dan bisa dikreditkan."
+          }
+        ],
+        "kesalahan_umum": [
+          {
+            "salah": "Menganggap semua penjualan BBM otomatis bersifat final",
+            "benar": "Hanya penjualan ke SPBU yang bersifat final; penjualan ke pihak lain bersifat tidak final",
+            "tips": "Selalu cek status pembeli BBM sebelum menyimpulkan sifat pemotongan pajaknya"
+          },
+          {
+            "salah": "Menyamakan tarif BBM ke semua jenis SPBU",
+            "benar": "SPBU yang beli dari Pertamina kena 0,25%, sedangkan yang beli dari selain Pertamina kena 0,3%",
+            "tips": "Perhatikan sumber pembelian BBM SPBU sebelum menentukan tarif yang tepat"
+          }
+        ],
+        "istilah": [
+          {
+            "kata": "SPBU",
+            "definisi": "Stasiun Pengisian Bahan Bakar Umum, tempat penjualan eceran bahan bakar minyak kepada masyarakat.",
+            "contoh": "SPBU Pak Dito membeli BBM dari Pertamina dan dikenakan PPh 22 final 0,25%."
+          },
+          {
+            "kata": "Final",
+            "definisi": "Sifat pemotongan pajak yang membuat kewajiban pajak dianggap selesai begitu dipotong tanpa perlu dihitung ulang di SPT Tahunan.",
+            "contoh": "PPh 22 atas penjualan BBM ke SPBU bersifat final."
+          },
+          {
+            "kata": "Rantai Distribusi",
+            "definisi": "Urutan pihak-pihak yang terlibat dalam penyaluran barang dari produsen hingga ke konsumen akhir.",
+            "contoh": "SPBU dianggap ujung rantai distribusi BBM sehingga pemotongan pajaknya dibuat final."
+          }
+        ]
+      },
+      {
+        "id": "bag-10",
+        "judul": "PPh 22 Pembelian dari Pedagang Pengumpul",
+        "paragraf": [
+          "Sekarang kita bahas sektor yang agak beda dari sebelumnya: hasil kehutanan, perkebunan, pertanian, peternakan, dan perikanan. Bedanya di sini, si penjual (pedagang pengumpul) yang jadi OBJEK pemungutan, bukan yang mungut. Yang mungut justru badan usaha industri atau eksportir yang beli barang dari mereka.",
+          "Kenapa disebut 'pedagang pengumpul'? Karena biasanya mereka adalah perantara yang ngumpulin hasil produksi dari banyak petani atau nelayan kecil sebelum dijual ke industri besar atau eksportir. Contohnya pengepul kopi yang ngumpulin dari puluhan petani sebelum dijual ke pabrik pengolahan kopi skala besar.",
+          "Tarifnya 0,25% dari harga pembelian tidak termasuk PPN. Ketentuan ini juga berlaku buat BUMN dan badan usaha tertentu yang dimiliki langsung BUMN, kalau mereka juga berperan sebagai badan usaha industri atau eksportir yang beli dari pedagang pengumpul.",
+          "Syaratnya, barang yang dibeli harus BELUM melalui proses industri manufaktur — artinya masih dalam bentuk bahan mentah atau setengah jadi. Kalau udah diproses jadi barang jadi (misalnya kopi udah jadi kopi sachet kemasan), ketentuan ini nggak berlaku lagi karena udah masuk kategori transaksi lain."
+        ],
+        "poin_penting": [
+          "🌾 Objek pemungutan: pedagang pengumpul hasil kehutanan, perkebunan, pertanian, peternakan, dan perikanan",
+          "👤 Yang mungut: badan usaha industri atau eksportir yang membeli dari mereka",
+          "🧮 Tarifnya 0,25% dari harga pembelian tidak termasuk PPN",
+          "📌 Syarat: barang belum melalui proses industri manufaktur"
+        ],
+        "analogi": "Bayangin kayak tengkulak kopi keliling desa yang ngumpulin biji kopi dari puluhan petani kecil, baru dijual ke pabrik roasting besar di kota. Nah, pas pabrik itu beli dari si tengkulak, pabriknya yang wajib motong PPh 22, bukan si tengkulaknya.",
+        "contoh_kasus": {
+          "judul": "Pabrik Kopi Beli dari Pengepul Kak Nisa",
+          "cerita": "Kak Nisa adalah pedagang pengumpul biji kopi mentah yang menjual hasil kumpulan dari petani-petani di sekitar desanya senilai Rp80.000.000 kepada PT Kopi Nusantara, sebuah pabrik pengolahan kopi.",
+          "poin": [
+            "PT Kopi Nusantara wajib memungut PPh 22 sebesar 0,25% x Rp80.000.000 = Rp200.000",
+            "Kak Nisa menerima Rp79.800.000 dan mendapat bukti potong yang bisa dikreditkan di SPT Tahunannya jika ia memiliki NPWP"
+          ]
+        },
+        "diagram_mermaid": [],
+        "penjelasan_diagram": "",
+        "prompt_gambar": [
+          {
+            "id": "img-05",
+            "prompt": "Ultra modern 3D isometric stylized studio render, landscape 16:9, showing a rustic yet stylized 3D scene of a coffee bean collection point with a farmer figure handing over burlap sacks of raw coffee beans to a factory representative, with a stylized processing facility looming in the background. The scene blends earthy amber tones with a deep dark-mode studio backdrop #0F172A and a rich gradient mesh #1E1B4B, dramatic ambient rim lighting highlighting the sacks and facility silhouette, subtle floating particle effects. Include short, clean, perfectly spelled modern Indonesian text labels printed clearly near the sacks and facility, such as 'Pedagang Pengumpul' and 'Tarif 0,25 persen'. Contemporary color palette of warm gold, emerald green, and electric blue accents, premium tech-education infographic aesthetic, crisp studio lighting, high detail render.",
+            "keterangan": "Ilustrasi 3D yang menggambarkan transaksi antara pedagang pengumpul hasil pertanian dengan pabrik pengolahan, di mana pabrik memungut PPh 22 sebesar 0,25%.",
+            "alt": "Ilustrasi 3D pedagang pengumpul biji kopi menyerahkan karung ke pabrik dengan label Tarif 0,25 persen",
+            "url_gambar": null
+          }
+        ],
+        "kalkulator": null,
+        "mini_kuis": [
+          {
+            "id": "q1",
+            "pertanyaan": "Dalam transaksi pembelian hasil pertanian dari pedagang pengumpul, siapa yang berperan sebagai pemungut PPh 22?",
+            "tipe": "pilihan_ganda",
+            "pilihan": [
+              "A. Pedagang pengumpul itu sendiri",
+              "B. Badan usaha industri atau eksportir pembeli",
+              "C. Bendahara pemerintah",
+              "D. Bank tempat transaksi"
+            ],
+            "jawaban": "B",
+            "pembahasan": "Yang berperan sebagai pemungut adalah badan usaha industri atau eksportir yang membeli hasil pertanian dari pedagang pengumpul, bukan pedagang pengumpulnya sendiri."
+          },
+          {
+            "id": "q2",
+            "pertanyaan": "Ketentuan PPh 22 pedagang pengumpul berlaku untuk barang yang sudah diproses menjadi barang jadi.",
+            "tipe": "benar_salah",
+            "pilihan": [
+              "Benar",
+              "Salah"
+            ],
+            "jawaban": "Salah",
+            "pembahasan": "Ketentuan ini hanya berlaku untuk barang yang BELUM melalui proses industri manufaktur, alias masih berupa bahan mentah atau setengah jadi."
+          }
+        ],
+        "kesalahan_umum": [
+          {
+            "salah": "Mengira pedagang pengumpul yang wajib memungut PPh 22 dari pembeli",
+            "benar": "Justru sebaliknya, badan usaha industri atau eksportir pembeli yang memungut PPh 22 dari pedagang pengumpul",
+            "tips": "Ingat arah pemungutannya: pembeli industri yang memotong, bukan penjualnya"
+          },
+          {
+            "salah": "Menerapkan tarif ini untuk barang yang sudah jadi produk olahan",
+            "benar": "Tarif 0,25% hanya untuk bahan yang belum melalui proses industri manufaktur",
+            "tips": "Cek dulu apakah barang masih bahan mentah atau sudah diproses sebelum menerapkan tarif ini"
+          }
+        ],
+        "istilah": [
+          {
+            "kata": "Pedagang Pengumpul",
+            "definisi": "Pihak yang mengumpulkan hasil produksi dari berbagai petani, peternak, atau nelayan kecil sebelum dijual ke industri atau eksportir dalam jumlah besar.",
+            "contoh": "Kak Nisa adalah pedagang pengumpul biji kopi dari petani-petani di desanya."
+          },
+          {
+            "kata": "Eksportir",
+            "definisi": "Pihak yang melakukan kegiatan menjual barang ke luar negeri.",
+            "contoh": "Eksportir kopi yang membeli dari pedagang pengumpul wajib memungut PPh 22 sebesar 0,25%."
+          },
+          {
+            "kata": "Bahan Mentah",
+            "definisi": "Barang yang belum melalui proses pengolahan industri manufaktur, masih dalam bentuk asli dari alam.",
+            "contoh": "Biji kopi mentah yang dijual Kak Nisa masih tergolong bahan mentah."
+          }
+        ]
+      },
+      {
+        "id": "bag-11",
+        "judul": "PPh 22 Penjualan Barang Sangat Mewah",
+        "paragraf": [
+          "Nah, ini bagian yang paling 'seru' buat dibahas karena nyerempet gaya hidup crazy rich 🤑. PPh 22 barang sangat mewah diatur di PMK 253/2008 yang diubah terakhir dengan PMK 92/PMK.03/2019, dan yang wajib mungut adalah wajib pajak BADAN yang menjual barang tersebut, dipungut dari PEMBELI.",
+          "Penting banget nih buat diluruskan, karena banyak modul lama yang nyebut angka batasan yang udah nggak akurat. Berdasarkan PMK 92/2019 yang masih berlaku aktif sampai 2026, ada dua kelompok tarif: 1% dan 5%. Kelompok tarif 1% berlaku untuk rumah beserta tanahnya dengan harga jual di atas Rp30 miliar ATAU luas bangunan di atas 400m², serta apartemen/kondominium dengan harga jual di atas Rp30 miliar ATAU luas bangunan di atas 150m².",
+          "Sementara kelompok tarif 5% berlaku untuk pesawat terbang pribadi dan helikopter pribadi (tanpa batasan harga minimum, langsung kena 5%), kapal pesiar dan yacht sejenisnya (juga tanpa batasan harga minimum), kendaraan bermotor roda empat pengangkut kurang dari 10 orang (sedan, jeep, SUV, MPV, minibus) dengan harga di atas Rp2 miliar ATAU kapasitas silinder di atas 3.000cc, serta kendaraan roda dua/tiga dengan harga di atas Rp300 juta atau silinder di atas 250cc.",
+          "Jadi kalau kamu nemu modul yang bilang batasan rumah cuma Rp10 miliar atau kendaraan Rp5 miliar, itu jelas keliru — angka yang benar dan berlaku aktif adalah Rp30 miliar untuk properti dan Rp2 miliar/3.000cc untuk kendaraan roda empat. Selalu update infonya ya!"
+        ],
+        "poin_penting": [
+          "🏠 Rumah/apartemen mewah (>Rp30 miliar atau luas tertentu): tarif 1%",
+          "✈️ Pesawat pribadi & kapal pesiar/yacht: tarif 5% tanpa batasan harga minimum",
+          "🚗 Kendaraan roda 4 (>Rp2 miliar atau >3.000cc): tarif 5%",
+          "🏍️ Kendaraan roda 2/3 (>Rp300 juta atau >250cc): tarif 5%"
+        ],
+        "analogi": "Ibaratnya kayak sistem 'pajak gaya hidup mewah'. Kalau kamu beli barang yang emang cuma bisa dijangkau segelintir orang superkaya, negara ikut 'nebeng' sedikit persentase dari transaksi itu buat bantu masyarakat yang lebih membutuhkan.",
+        "contoh_kasus": {
+          "judul": "Pak Budi Beli Yacht Impian",
+          "cerita": "Pak Budi, seorang pengusaha sukses di Jakarta, membeli sebuah yacht seharga Rp15.000.000.000 dari sebuah perusahaan penjual kapal pesiar.",
+          "poin": [
+            "Karena yacht termasuk kategori tarif 5% tanpa batasan harga minimum, PPh 22 yang dipungut = 5% x Rp15.000.000.000 = Rp750.000.000",
+            "Perusahaan penjual kapal wajib memungut PPh 22 ini dari Pak Budi sebagai pembeli sebelum transaksi selesai"
+          ]
+        },
+        "diagram_mermaid": [],
+        "penjelasan_diagram": "",
+        "prompt_gambar": [
+          {
+            "id": "img-06",
+            "prompt": "Ultra modern 3D isometric stylized studio render, landscape 16:9, depicting a luxurious scene with a private jet, a yacht, and a modern mansion arranged as three floating 3D isometric platforms above a reflective dark surface, each glowing with premium ambient lighting. A subtle holographic percentage badge floats above each item. Deep dark-mode studio background #0F172A blending into a rich gradient mesh #1E1B4B, dramatic cinematic rim lighting in warm gold and electric blue, soft floating light particles for a premium atmosphere. Include short, clean, perfectly spelled modern Indonesian text labels printed clearly near each item, such as 'Barang Sangat Mewah' and 'Tarif 5 persen'. Contemporary color palette of warm gold, electric blue, and emerald green accents, premium tech-education infographic aesthetic, crisp studio lighting, high detail render.",
+            "keterangan": "Ilustrasi 3D pesawat pribadi, yacht, dan rumah mewah yang menggambarkan objek PPh 22 barang sangat mewah dengan tarif 5% sesuai PMK 92/2019.",
+            "alt": "Ilustrasi 3D pesawat pribadi, yacht, dan rumah mewah dengan label Barang Sangat Mewah Tarif 5 persen",
+            "url_gambar": null
+          }
+        ],
+        "kalkulator": {
+          "tipe": "pph22",
+          "judul": "Kalkulator PPh 22 Barang Sangat Mewah",
+          "keterangan": "Pilih jenis barang mewah dan masukkan harga jual untuk mengetahui tarif (1% atau 5%) dan besaran PPh 22 yang harus dipungut dari pembeli."
+        },
+        "mini_kuis": [
+          {
+            "id": "q1",
+            "pertanyaan": "Berapa tarif PPh 22 untuk penjualan yacht tanpa memandang harganya?",
+            "tipe": "pilihan_ganda",
+            "pilihan": [
+              "A. 1%",
+              "B. 2,5%",
+              "C. 5%",
+              "D. 7,5%"
+            ],
+            "jawaban": "C",
+            "pembahasan": "Kapal pesiar dan yacht dikenakan tarif 5% dari harga jual tanpa batasan harga minimum, berbeda dengan rumah/apartemen yang punya ambang batas nilai tertentu."
+          },
+          {
+            "id": "q2",
+            "pertanyaan": "Rumah mewah dengan harga jual Rp30 miliar ke bawah tetap dikenakan PPh 22 barang sangat mewah.",
+            "tipe": "benar_salah",
+            "pilihan": [
+              "Benar",
+              "Salah"
+            ],
+            "jawaban": "Salah",
+            "pembahasan": "Rumah baru dikenakan PPh 22 barang sangat mewah jika harga jualnya LEBIH DARI Rp30 miliar atau luas bangunan lebih dari 400m2, sesuai PMK 92/2019."
+          }
+        ],
+        "kesalahan_umum": [
+          {
+            "salah": "Menggunakan batasan lama seperti Rp10 miliar untuk rumah/apartemen atau Rp5 miliar untuk kendaraan",
+            "benar": "Batasan yang berlaku aktif adalah Rp30 miliar untuk rumah/apartemen dan Rp2 miliar/3.000cc untuk kendaraan roda empat",
+            "tips": "Selalu cek PMK 92/2019 sebagai rujukan resmi terbaru dan jangan pakai angka dari sumber yang belum diverifikasi"
+          },
+          {
+            "salah": "Mengira pesawat pribadi dan yacht punya batasan harga minimum seperti properti",
+            "benar": "Pesawat pribadi dan yacht langsung kena tarif 5% tanpa batasan harga minimum",
+            "tips": "Ingat, hanya properti (rumah/apartemen) yang punya ambang batas nilai; pesawat dan kapal pesiar tidak"
+          }
+        ],
+        "istilah": [
+          {
+            "kata": "Barang Sangat Mewah",
+            "definisi": "Kategori barang tertentu yang dikenakan PPh 22 tambahan karena harga atau spesifikasinya jauh di atas kebutuhan standar masyarakat umum.",
+            "contoh": "Yacht yang dibeli Pak Budi termasuk kategori barang sangat mewah."
+          },
+          {
+            "kata": "PMK 92/2019",
+            "definisi": "Peraturan Menteri Keuangan yang mengatur kriteria dan tarif PPh 22 atas penjualan barang yang tergolong sangat mewah.",
+            "contoh": "PMK 92/2019 menetapkan tarif 5% untuk pesawat pribadi dan yacht."
+          },
+          {
+            "kata": "Ambang Batas (Threshold)",
+            "definisi": "Nilai batas tertentu yang menentukan apakah suatu transaksi kena pajak atau tidak.",
+            "contoh": "Ambang batas rumah mewah adalah harga jual di atas Rp30 miliar."
+          }
+        ]
+      },
+      {
+        "id": "bag-12",
+        "judul": "Kriteria dan Surat Keterangan Bebas (SKB)",
+        "paragraf": [
+          "Kadang ada situasi di mana wajib pajak merasa dia nggak seharusnya dipotong PPh 22, entah karena rugi terus-terusan atau karena punya alasan khusus lainnya. Nah, buat kasus kayak gini, DJP nyediain fasilitas namanya Surat Keterangan Bebas alias SKB PPh 22.",
+          "SKB ini adalah surat resmi dari DJP yang menyatakan bahwa wajib pajak tertentu DIBEBASKAN dari pemungutan PPh 22 untuk transaksi tertentu, biasanya karena wajib pajak tersebut bisa membuktikan bahwa dalam tahun berjalan dia diperkirakan tidak akan terutang PPh (misalnya karena rugi fiskal berturut-turut) atau memiliki hak atas fasilitas pembebasan pajak lainnya.",
+          "Syarat pengajuannya biasanya termasuk: mengajukan permohonan tertulis ke KPP tempat wajib pajak terdaftar, melampirkan bukti pendukung kondisi keuangan (misalnya laporan rugi fiskal beberapa tahun terakhir), dan menunjukkan proyeksi bahwa PPh yang akan terutang tahun berjalan lebih kecil dari kredit pajak yang sudah dipungut. Kalau disetujui, SKB ini berlaku untuk jangka waktu tertentu (biasanya satu tahun pajak) dan wajib ditunjukkan ke pemungut saat transaksi berlangsung.",
+          "Penting dicatat, SKB itu SIFATNYA SEMENTARA dan berdasarkan pengajuan, bukan otomatis. Jadi kalau kamu ngerasa usahamu emang seharusnya bebas dari PPh 22, jangan asal nolak dipotong tanpa punya SKB resmi di tangan — bisa berabe urusannya sama pemungut dan DJP."
+        ],
+        "poin_penting": [
+          "📄 SKB adalah surat resmi DJP yang membebaskan wajib pajak dari pemungutan PPh 22 tertentu",
+          "✅ Biasanya diajukan karena rugi fiskal atau fasilitas pembebasan pajak lainnya",
+          "📌 Diajukan tertulis ke KPP terdaftar dengan bukti pendukung yang kuat",
+          "⚠️ SKB bersifat sementara dan wajib ditunjukkan langsung ke pemungut saat transaksi"
+        ],
+        "analogi": "Bayangin SKB itu kayak 'surat izin bebas antre' di rumah sakit buat pasien tertentu. Nggak semua orang otomatis dapat, harus ada surat keterangan resmi dulu yang dibawa dan ditunjukkan, baru deh bisa 'lewat jalur cepat' tanpa dipotong pajak.",
+        "contoh_kasus": {
+          "judul": "PT Harapan Baru yang Rugi Terus",
+          "cerita": "PT Harapan Baru, importir bahan baku tekstil, mengalami kerugian fiskal tiga tahun berturut-turut karena pandemi. Mereka merasa terus dipotong PPh 22 impor padahal tidak ada PPh terutang di akhir tahun.",
+          "poin": [
+            "PT Harapan Baru mengajukan permohonan SKB PPh 22 ke KPP dengan melampirkan laporan keuangan tiga tahun terakhir",
+            "Setelah disetujui, PT Harapan Baru menunjukkan SKB ke DJBC saat impor sehingga tidak lagi dipotong PPh 22 selama masa berlaku SKB"
+          ]
+        },
+        "diagram_mermaid": [],
+        "penjelasan_diagram": "",
+        "prompt_gambar": [
+          {
+            "id": "img-07",
+            "prompt": "Ultra modern 3D isometric stylized studio render, landscape 16:9, showing a glowing 3D official document with a stamped approval seal floating above a sleek modern desk, symbolizing an official tax exemption letter. Surrounding the document are small 3D icons of a shield and a checkmark badge, all rendered with glossy premium materials. Deep dark-mode studio background #0F172A blending into a rich gradient mesh #1E1B4B, dramatic ambient studio lighting with soft blue and gold highlights, subtle floating particle effects for atmosphere. Include short, clean, perfectly spelled modern Indonesian text labels printed clearly on the document, such as 'Surat Keterangan Bebas' and 'Disetujui'. Contemporary color palette of electric blue, emerald green, and warm gold accents, premium tech-education infographic aesthetic, crisp studio lighting, high detail render.",
+            "keterangan": "Ilustrasi 3D dokumen resmi bercap persetujuan yang menggambarkan Surat Keterangan Bebas (SKB) PPh 22 yang membebaskan wajib pajak tertentu dari pemungutan.",
+            "alt": "Ilustrasi 3D dokumen Surat Keterangan Bebas dengan cap persetujuan melayang di atas meja kerja modern",
+            "url_gambar": null
+          }
+        ],
+        "kalkulator": null,
+        "mini_kuis": [
+          {
+            "id": "q1",
+            "pertanyaan": "SKB PPh 22 biasanya diajukan oleh wajib pajak dengan kondisi...",
+            "tipe": "pilihan_ganda",
+            "pilihan": [
+              "A. Selalu untung besar setiap tahun",
+              "B. Mengalami rugi fiskal atau memiliki fasilitas pembebasan pajak",
+              "C. Baru mendaftar NPWP",
+              "D. Ingin menghindari kewajiban pajak sepenuhnya"
+            ],
+            "jawaban": "B",
+            "pembahasan": "SKB umumnya diajukan wajib pajak yang bisa membuktikan kondisi seperti rugi fiskal berturut-turut atau memiliki hak fasilitas pembebasan pajak lainnya, bukan sekadar ingin menghindari pajak."
+          },
+          {
+            "id": "q2",
+            "pertanyaan": "SKB PPh 22 berlaku otomatis tanpa perlu pengajuan tertulis ke KPP.",
+            "tipe": "benar_salah",
+            "pilihan": [
+              "Benar",
+              "Salah"
+            ],
+            "jawaban": "Salah",
+            "pembahasan": "SKB harus diajukan secara tertulis ke KPP tempat wajib pajak terdaftar dengan bukti pendukung, tidak berlaku otomatis begitu saja."
+          }
+        ],
+        "kesalahan_umum": [
+          {
+            "salah": "Menolak dipotong PPh 22 hanya berdasarkan klaim lisan tanpa SKB resmi",
+            "benar": "Wajib pajak harus menunjukkan SKB resmi dari DJP kepada pemungut untuk bisa bebas dari pemungutan",
+            "tips": "Selalu simpan salinan SKB resmi dan tunjukkan langsung ke pemungut saat transaksi"
+          },
+          {
+            "salah": "Mengira SKB berlaku selamanya setelah disetujui sekali",
+            "benar": "SKB berlaku untuk jangka waktu tertentu, biasanya satu tahun pajak, dan harus diperpanjang jika kondisi masih berlanjut",
+            "tips": "Catat masa berlaku SKB dan ajukan perpanjangan sebelum masa berlakunya habis"
+          }
+        ],
+        "istilah": [
+          {
+            "kata": "SKB",
+            "definisi": "Surat Keterangan Bebas, dokumen resmi dari DJP yang membebaskan wajib pajak tertentu dari pemungutan atau pemotongan pajak tertentu.",
+            "contoh": "PT Harapan Baru mendapatkan SKB PPh 22 karena rugi fiskal berturut-turut."
+          },
+          {
+            "kata": "Rugi Fiskal",
+            "definisi": "Kondisi kerugian usaha yang dihitung berdasarkan ketentuan perpajakan, bisa berbeda dari rugi menurut akuntansi komersial.",
+            "contoh": "PT Harapan Baru mengalami rugi fiskal tiga tahun berturut-turut akibat pandemi."
+          },
+          {
+            "kata": "KPP",
+            "definisi": "Kantor Pelayanan Pajak, unit kerja DJP yang menangani administrasi perpajakan wajib pajak di wilayah tertentu.",
+            "contoh": "Permohonan SKB diajukan ke KPP tempat wajib pajak terdaftar."
+          }
+        ]
+      },
+      {
+        "id": "bag-13",
+        "judul": "Batas Minimal Transaksi Bebas PPh 22",
+        "paragraf": [
+          "Nggak semua transaksi kena PPh 22 lho, ada beberapa pengecualian penting yang wajib kamu hafal biar nggak salah potong atau malah lupa nagih. Yang paling umum: pembelian barang oleh bendahara pemerintah senilai Rp2.000.000 atau kurang (dengan syarat tidak dipecah-pecah dari satu transaksi yang seharusnya lebih besar) dibebaskan dari PPh 22.",
+          "Selain itu, ada juga pengecualian buat pembelian bahan bakar minyak, bahan bakar gas, listrik, air minum PDAM/PAM, dan benda pos. Kenapa dikecualikan? Karena barang-barang ini dianggap kebutuhan dasar operasional yang sifatnya rutin dan biasanya sudah melalui skema perpajakan lain, jadi nggak perlu double pemungutan.",
+          "Ada juga pengecualian buat emas batangan untuk tujuan cadangan devisa yang dilakukan oleh Bank Indonesia, serta barang kiriman hadiah/hibah yang memenuhi syarat tertentu. Intinya, pengecualian-pengecualian ini dibuat supaya sistem pajak nggak 'ngerecokin' transaksi-transaksi kecil dan rutin yang justru bakal bikin administrasi jadi ribet buat kedua belah pihak.",
+          "Yang penting kamu inget, batas Rp2 juta itu HARUS dinilai per transaksi/dokumen tagihan, bukan per bulan atau per barang. Jadi kalau kamu beli barang senilai Rp5 juta dalam satu nota, itu tetap kena PPh 22 penuh, meskipun kamu ngerasa 'ah kan cuma dikit-dikit doang tiap minggu'."
+        ],
+        "poin_penting": [
+          "✅ Pembelian bendahara ≤ Rp2.000.000 (tidak dipecah-pecah) bebas PPh 22",
+          "⛽ BBM, gas, listrik, air PDAM, dan benda pos juga dikecualikan",
+          "📌 Batas dinilai per transaksi/dokumen tagihan, bukan digabung per bulan",
+          "⚠️ Praktik pemecahan transaksi untuk menghindari batas dianggap penghindaran pajak"
+        ],
+        "analogi": "Ibaratnya kayak aturan 'gratis parkir 30 menit pertama' di mal. Kalau transaksinya kecil banget (di bawah Rp2 juta), pemerintah kasih 'keringanan' biar nggak ribet ngurusin recehan. Tapi begitu di atas batas itu, aturan normal berlaku penuh.",
+        "contoh_kasus": {
+          "judul": "Bendahara Puskesmas Beli ATK Rp1.800.000",
+          "cerita": "Bendahara Puskesmas Kelurahan membeli alat tulis kantor senilai Rp1.800.000 dari toko Mas Andi dalam satu nota pembelian bulan ini.",
+          "poin": [
+            "Karena nilainya di bawah Rp2.000.000 dan merupakan satu transaksi utuh (tidak dipecah), pembelian ini DIBEBASKAN dari PPh 22",
+            "Mas Andi menerima pembayaran penuh Rp1.800.000 tanpa potongan PPh 22"
+          ]
+        },
+        "diagram_mermaid": [],
+        "penjelasan_diagram": "",
+        "prompt_gambar": [
+          {
+            "id": "img-08",
+            "prompt": "Ultra modern 3D isometric stylized studio render, landscape 16:9, depicting a glowing 3D threshold gate icon with a floating price tag showing a small amount, positioned between two zones: one side glossy and free of tax icons, the other side showing tax collection symbols. Small 3D icons of a fuel pump, an electricity bolt, a water droplet, and a postal envelope float near the exempt side. Deep dark-mode studio background #0F172A blending into a rich gradient mesh #1E1B4B, dramatic ambient rim lighting in blue and gold, soft floating particle effects. Include short, clean, perfectly spelled modern Indonesian text labels printed clearly near the gate, such as 'Bebas PPh 22' and 'Rp2 Juta'. Contemporary color palette of electric blue, emerald green, and warm gold, premium tech-education infographic aesthetic, crisp studio lighting, high detail render.",
+            "keterangan": "Ilustrasi 3D gerbang batas nilai transaksi yang menggambarkan pengecualian PPh 22 untuk transaksi Rp2 juta ke bawah serta beberapa jenis barang tertentu seperti BBM, listrik, air, dan benda pos.",
+            "alt": "Ilustrasi 3D gerbang batas transaksi dengan label Bebas PPh 22 dan Rp2 Juta",
+            "url_gambar": null
+          }
+        ],
+        "kalkulator": null,
+        "mini_kuis": [
+          {
+            "id": "q1",
+            "pertanyaan": "Pembelian barang oleh bendahara pemerintah dibebaskan dari PPh 22 jika nilainya...",
+            "tipe": "pilihan_ganda",
+            "pilihan": [
+              "A. Kurang dari Rp5.000.000",
+              "B. Rp2.000.000 atau kurang dan tidak dipecah-pecah",
+              "C. Lebih dari Rp10.000.000",
+              "D. Semua nilai transaksi bendahara bebas pajak"
+            ],
+            "jawaban": "B",
+            "pembahasan": "Batas pengecualian adalah Rp2.000.000 atau kurang, dengan syarat tidak dipecah-pecah dari transaksi yang seharusnya lebih besar."
+          },
+          {
+            "id": "q2",
+            "pertanyaan": "Pembelian listrik dan air PDAM oleh instansi pemerintah tetap dikenakan PPh 22 seperti barang biasa.",
+            "tipe": "benar_salah",
+            "pilihan": [
+              "Benar",
+              "Salah"
+            ],
+            "jawaban": "Salah",
+            "pembahasan": "Pembelian listrik, air PDAM, BBM, gas, dan benda pos termasuk dalam daftar pengecualian dari pemungutan PPh 22."
+          }
+        ],
+        "kesalahan_umum": [
+          {
+            "salah": "Menggabungkan beberapa transaksi kecil per bulan untuk mengecek batas Rp2 juta",
+            "benar": "Batas Rp2 juta dinilai per transaksi/dokumen tagihan, bukan digabung per periode tertentu",
+            "tips": "Cek nilai di setiap nota atau invoice secara terpisah, bukan menjumlahkan semua transaksi dalam sebulan"
+          },
+          {
+            "salah": "Mengira semua kebutuhan dasar operasional otomatis bebas PPh 22",
+            "benar": "Hanya BBM, gas, listrik, air PDAM, dan benda pos yang secara spesifik dikecualikan, bukan semua kebutuhan dasar",
+            "tips": "Cek daftar resmi pengecualian, jangan menggeneralisasi ke semua jenis kebutuhan operasional"
+          }
+        ],
+        "istilah": [
+          {
+            "kata": "Benda Pos",
+            "definisi": "Barang atau layanan yang disediakan oleh perusahaan pos, seperti perangko dan jasa pengiriman resmi.",
+            "contoh": "Pembelian benda pos oleh instansi pemerintah dikecualikan dari pemungutan PPh 22."
+          },
+          {
+            "kata": "PDAM/PAM",
+            "definisi": "Perusahaan Daerah Air Minum atau Perusahaan Air Minum, penyedia layanan air bersih untuk masyarakat dan instansi.",
+            "contoh": "Pembayaran tagihan air PDAM oleh instansi pemerintah tidak dikenakan PPh 22."
+          },
+          {
+            "kata": "Dokumen Tagihan",
+            "definisi": "Bukti resmi berupa nota, invoice, atau kuitansi yang mencatat nilai satu transaksi pembelian barang atau jasa.",
+            "contoh": "Batas Rp2 juta dinilai berdasarkan nilai dalam satu dokumen tagihan, bukan akumulasi bulanan."
+          }
+        ]
+      },
+      {
+        "id": "bag-14",
+        "judul": "Pengkreditan PPh 22 dalam SPT Tahunan",
+        "paragraf": [
+          "Setelah sepanjang tahun kamu dipotong PPh 22 di berbagai transaksi (impor, jual ke bendahara, jual ke BUMN, dan seterusnya), semua bukti potong itu nggak boleh dibuang atau dilupain — mereka adalah 'tiket emas' buat mengurangi PPh terutang kamu di SPT Tahunan.",
+          "Mekanismenya gini: PPh 22 yang bersifat TIDAK FINAL dijumlahkan sepanjang tahun pajak, lalu dikurangkan dari total PPh terutang badan atau orang pribadi di SPT Tahunan. Kalau total kredit pajak (termasuk PPh 22, PPh 23, dan angsuran PPh 25) lebih kecil dari PPh terutang, kamu masih harus bayar kekurangannya lewat PPh Pasal 29. Tapi kalau kredit pajaknya lebih besar dari PPh terutang, kamu punya hak buat lebih bayar alias PPh 28A yang bisa direstitusi atau dikompensasikan.",
+          "Kunci suksesnya cuma satu: SIMPAN SEMUA BUKTI PEMUNGUTAN dengan rapi. Sekarang di era Coretax DJP, bukti pemungutan biasanya udah otomatis tercatat secara digital lewat sistem e-Bupot Unifikasi, jadi kamu tinggal cek dan cocokin di akun Coretax kamu, nggak perlu lagi ngumpulin kertas fisik satu-satu kayak jaman dulu.",
+          "Tapi tetap hati-hati, kadang ada selisih pencatatan antara sistem pemungut dan yang kamu terima. Makanya rekonsiliasi rutin (mencocokkan data) antara bukti potong yang kamu terima dengan yang tercatat di Coretax itu penting banget dilakuin sebelum lapor SPT Tahunan, biar nggak ada kredit pajak yang 'ketinggalan' atau malah dobel klaim."
+        ],
+        "poin_penting": [
+          "🧾 Bukti pemungutan PPh 22 tidak final jadi kredit pajak di SPT Tahunan",
+          "💰 Kredit pajak kurang dari PPh terutang = bayar kekurangan (PPh 29)",
+          "✅ Kredit pajak lebih dari PPh terutang = lebih bayar (PPh 28A), bisa direstitusi",
+          "📊 Rekonsiliasi rutin di Coretax penting untuk memastikan semua bukti potong tercatat"
+        ],
+        "analogi": "Bayangin bukti potong PPh 22 kayak kupon diskon yang kamu kumpulin sepanjang tahun dari belanja di berbagai toko. Pas akhir tahun, semua kupon itu ditukerin jadi potongan harga di 'tagihan besar' (baca: PPh terutang). Kalau kupon kamu lebih banyak dari tagihannya, kamu malah dapat uang kembali!",
+        "contoh_kasus": {
+          "judul": "Kasus PT Cemerlang Rekonsiliasi Bukti Potong",
+          "cerita": "PT Cemerlang sepanjang tahun dipotong PPh 22 total Rp45.000.000 dari berbagai transaksi impor dan penjualan ke BUMN. Saat SPT Tahunan, PPh Badan yang terutang ternyata hanya Rp38.000.000.",
+          "poin": [
+            "Karena kredit pajak (Rp45.000.000) lebih besar dari PPh terutang (Rp38.000.000), PT Cemerlang mengalami lebih bayar sebesar Rp7.000.000",
+            "PT Cemerlang bisa mengajukan restitusi atau mengompensasikan kelebihan tersebut ke tahun pajak berikutnya"
+          ]
+        },
+        "diagram_mermaid": [
+          "flowchart TD\nA[\"Pemungut Setor PPh 22 ke Kas Negara\"] --> B[\"Bukti Pemungutan Terbit Otomatis di Coretax\"]\nB --> C[\"Wajib Pajak Kumpulkan Bukti Potong Setahun\"]\nC --> D[\"Wajib Pajak Lapor SPT Tahunan\"]\nD --> E[\"Total PPh 22 Jadi Kredit Pajak\"]\nE --> F{\"Kredit Pajak Lebih Kecil dari PPh Terutang?\"}\nF -->|\"Ya\"| G[\"Bayar Kekurangan alias PPh Pasal 29\"]\nF -->|\"Tidak\"| H[\"Lebih Bayar, Bisa Restitusi alias PPh 28A\"]"
+        ],
+        "penjelasan_diagram": "Diagram ini menunjukkan alur akhir dari siklus PPh 22, mulai dari penyetoran oleh pemungut, penerbitan bukti potong di Coretax, sampai penggunaannya sebagai kredit pajak di SPT Tahunan yang bisa berujung pada kurang bayar atau lebih bayar.",
+        "prompt_gambar": [],
+        "kalkulator": null,
+        "mini_kuis": [
+          {
+            "id": "q1",
+            "pertanyaan": "Jika total kredit pajak PPh 22 lebih besar dari PPh terutang, maka wajib pajak mengalami...",
+            "tipe": "pilihan_ganda",
+            "pilihan": [
+              "A. Kurang bayar (PPh 29)",
+              "B. Lebih bayar (PPh 28A)",
+              "C. Denda administrasi",
+              "D. Kehilangan hak kredit pajak"
+            ],
+            "jawaban": "B",
+            "pembahasan": "Jika kredit pajak lebih besar dari PPh terutang, wajib pajak mengalami lebih bayar (PPh 28A) dan berhak mengajukan restitusi atau kompensasi ke tahun berikutnya."
+          },
+          {
+            "id": "q2",
+            "pertanyaan": "Di era Coretax, bukti pemungutan PPh 22 dicatat lewat sistem e-Bupot Unifikasi.",
+            "tipe": "benar_salah",
+            "pilihan": [
+              "Benar",
+              "Salah"
+            ],
+            "jawaban": "Benar",
+            "pembahasan": "Benar, sistem Coretax DJP mengintegrasikan pencatatan bukti pemungutan lewat e-Bupot Unifikasi sehingga wajib pajak bisa mengecek langsung secara digital."
+          },
+          {
+            "id": "q3",
+            "pertanyaan": "Mengapa rekonsiliasi bukti potong PPh 22 penting dilakukan sebelum lapor SPT Tahunan?",
+            "tipe": "esai",
+            "pilihan": null,
+            "jawaban": "Rekonsiliasi penting untuk memastikan seluruh bukti pemungutan PPh 22 yang diterima wajib pajak sudah tercatat dengan benar dan lengkap di sistem Coretax/e-Bupot Unifikasi, sehingga tidak ada kredit pajak yang tertinggal (menyebabkan wajib pajak membayar lebih dari seharusnya) atau justru terjadi klaim ganda yang bisa berujung pada koreksi dan sanksi dari DJP. Rekonsiliasi juga membantu mendeteksi kesalahan input dari pihak pemungut sejak dini sebelum SPT Tahunan dilaporkan.",
+            "pembahasan": "Jawaban dianggap benar jika menyebutkan dua unsur utama: mencegah kredit pajak yang hilang/tidak tercatat, dan mencegah kesalahan atau ketidaksesuaian data yang bisa berujung pada masalah saat pelaporan SPT Tahunan."
+          }
+        ],
+        "kesalahan_umum": [
+          {
+            "salah": "Tidak mencocokkan bukti potong fisik/manual dengan data di sistem Coretax",
+            "benar": "Lakukan rekonsiliasi rutin antara bukti potong yang diterima dengan data di e-Bupot Unifikasi Coretax",
+            "tips": "Jadwalkan pengecekan bulanan supaya tidak menumpuk di akhir tahun"
+          },
+          {
+            "salah": "Mengira semua PPh 22 yang dipotong otomatis bisa dikreditkan tanpa terkecuali",
+            "benar": "Hanya PPh 22 yang bersifat TIDAK FINAL yang bisa dikreditkan; yang final tidak dihitung ulang",
+            "tips": "Pisahkan bukti potong final dan tidak final sebelum menjumlahkan kredit pajak"
+          }
+        ],
+        "istilah": [
+          {
+            "kata": "PPh Pasal 29",
+            "definisi": "Pajak penghasilan yang masih harus dibayar wajib pajak karena PPh terutang lebih besar dari kredit pajak yang sudah dipungut/dipotong sepanjang tahun.",
+            "contoh": "PT Cemerlang harus membayar PPh Pasal 29 jika kredit pajaknya lebih kecil dari PPh terutang."
+          },
+          {
+            "kata": "PPh Pasal 28A",
+            "definisi": "Kelebihan pembayaran pajak yang terjadi ketika kredit pajak lebih besar dari PPh terutang, dan berhak direstitusi atau dikompensasikan.",
+            "contoh": "PT Cemerlang mengalami PPh 28A sebesar Rp7.000.000 karena kredit pajaknya lebih besar dari PPh terutang."
+          },
+          {
+            "kata": "e-Bupot Unifikasi",
+            "definisi": "Sistem elektronik bukti potong/pungut unifikasi yang mencatat berbagai jenis pemotongan/pemungutan pajak dalam satu platform terintegrasi di Coretax DJP.",
+            "contoh": "Bukti pemungutan PPh 22 kini tercatat otomatis lewat e-Bupot Unifikasi di Coretax."
+          }
+        ]
+      },
+      {
+        "id": "bag-15",
+        "judul": "KAP, Sanksi, dan Pelaporan Coretax",
+        "paragraf": [
+          "Sampai juga kita di bagian penutup yang bahas hal-hal administratif tapi tetap penting banget: Kode Akun Pajak (KAP), sanksi buat yang nggak punya NPWP, dan cara pelaporan lewat sistem Coretax. Ini penting biar kamu nggak salah kode pas bikin kode billing buat bayar pajak.",
+          "Untuk PPh Pasal 22 (bukan impor), Kode Akun Pajak yang dipakai adalah 411122 — ini dipakai misalnya buat pemungutan PPh 22 oleh instansi pemerintah, BUMN, atau industri tertentu. Sementara buat PPh Pasal 22 Impor, Kode Akun Pajaknya beda yaitu 411123. Jangan sampai ketuker ya, soalnya kalau salah kode, pembayaran pajak kamu bisa nyasar ke pos yang salah dan bikin ribet pas rekonsiliasi.",
+          "Soal sanksi, kalau kamu jadi objek pemungutan PPh 22 tapi nggak punya NPWP, tarifnya otomatis naik 100% alias dua kali lipat dari tarif normal. Jadi misalnya tarif normal 2,5%, kalau kamu nggak punya NPWP jadi 5%. Ini bukan 'denda' dalam arti sanksi administrasi biasa, tapi emang bagian dari struktur tarif itu sendiri sebagai insentif buat segera daftar NPWP.",
+          "Untuk pelaporannya, sejak Coretax DJP aktif penuh di 2026, seluruh proses mulai dari penerbitan bukti potong, pelaporan SPT Masa PPh Unifikasi (yang mencakup PPh 22, 23, dan pemotongan lainnya dalam satu SPT), sampai rekonsiliasi kredit pajak dilakukan lewat satu platform terintegrasi. Ini jauh lebih efisien dibanding sistem lama yang masih terpisah-pisah antar jenis pajak, dan bikin proses audit serta pengawasan DJP jadi lebih akurat dan real-time."
+        ],
+        "poin_penting": [
+          "🔑 KAP 411122 untuk PPh 22 non-impor, KAP 411123 untuk PPh 22 Impor",
+          "⚠️ Tanpa NPWP, tarif PPh 22 naik 100% alias dua kali lipat dari tarif normal",
+          "💻 Pelaporan terintegrasi lewat SPT Masa PPh Unifikasi di Coretax DJP",
+          "📌 Coretax aktif penuh 2026 bikin proses lebih efisien dan real-time"
+        ],
+        "analogi": "Bayangin KAP itu kayak nomor rekening tujuan transfer. Kalau kamu salah masukin nomor rekening (baca: salah KAP), uangnya tetap kekirim tapi ke 'pos' yang salah, dan butuh usaha ekstra buat benerinnya. Makanya, teliti banget pas milih KAP di kode billing.",
+        "contoh_kasus": {
+          "judul": "Kasus Toko Elektronik Tanpa NPWP",
+          "cerita": "Sebuah toko elektronik kecil belum mendaftar NPWP, tapi tetap ikut tender pengadaan barang ke sebuah instansi pemerintah senilai Rp20.000.000 (tidak termasuk PPN).",
+          "poin": [
+            "Karena tidak punya NPWP, tarif PPh 22 yang dikenakan naik jadi 3% (dua kali lipat dari tarif normal 1,5%)",
+            "PPh 22 yang dipotong = 3% x Rp20.000.000 = Rp600.000, lebih besar Rp300.000 dibanding kalau toko tersebut sudah punya NPWP"
+          ]
+        },
+        "diagram_mermaid": [],
+        "penjelasan_diagram": "",
+        "prompt_gambar": [
+          {
+            "id": "img-09",
+            "prompt": "Ultra modern 3D isometric stylized studio render, landscape 16:9, showing a sleek futuristic digital tax dashboard interface floating as a 3D holographic panel above a minimalist desk, displaying abstract charts, a glowing document icon, and a stylized government emblem, representing an integrated national tax administration system. Deep dark-mode studio background #0F172A blending into a rich gradient mesh #1E1B4B, dramatic ambient studio lighting with cool blue and warm gold highlights, subtle floating data particles for a high-tech atmosphere. Include short, clean, perfectly spelled modern Indonesian text labels printed clearly on the holographic panel, such as 'Coretax DJP' and 'e-Bupot Unifikasi'. Contemporary color palette of electric blue, emerald green, and warm gold accents, premium tech-education infographic aesthetic, crisp studio lighting, high detail render.",
+            "keterangan": "Ilustrasi 3D dashboard digital yang menggambarkan sistem Coretax DJP dan e-Bupot Unifikasi sebagai platform pelaporan pajak terintegrasi di tahun 2026.",
+            "alt": "Ilustrasi 3D dashboard holografik Coretax DJP dengan label e-Bupot Unifikasi",
+            "url_gambar": null
+          }
+        ],
+        "kalkulator": null,
+        "mini_kuis": [
+          {
+            "id": "q1",
+            "pertanyaan": "Kode Akun Pajak (KAP) untuk PPh Pasal 22 Impor adalah...",
+            "tipe": "pilihan_ganda",
+            "pilihan": [
+              "A. 411121",
+              "B. 411122",
+              "C. 411123",
+              "D. 411124"
+            ],
+            "jawaban": "C",
+            "pembahasan": "KAP 411123 digunakan khusus untuk PPh Pasal 22 Impor, sedangkan KAP 411122 digunakan untuk PPh Pasal 22 non-impor seperti pemungutan oleh instansi pemerintah atau BUMN."
+          },
+          {
+            "id": "q2",
+            "pertanyaan": "Wajib pajak yang tidak memiliki NPWP dikenakan tarif PPh 22 yang sama dengan yang memiliki NPWP.",
+            "tipe": "benar_salah",
+            "pilihan": [
+              "Benar",
+              "Salah"
+            ],
+            "jawaban": "Salah",
+            "pembahasan": "Wajib pajak tanpa NPWP dikenakan tarif 100% lebih tinggi alias dua kali lipat dari tarif normal yang berlaku bagi wajib pajak ber-NPWP."
+          },
+          {
+            "id": "q3",
+            "pertanyaan": "Sebutkan dan jelaskan singkat mengapa penting membedakan KAP 411122 dan 411123 saat membuat kode billing pajak!",
+            "tipe": "isian_singkat",
+            "pilihan": null,
+            "jawaban": "Karena 411122 untuk PPh 22 non-impor dan 411123 untuk PPh 22 Impor, kesalahan KAP membuat pembayaran tercatat di pos pajak yang salah",
+            "pembahasan": "Kesalahan pemilihan KAP bisa membuat pembayaran pajak tercatat di jenis pajak yang salah, sehingga menyulitkan proses rekonsiliasi dan bisa dianggap belum membayar kewajiban yang sebenarnya."
+          }
+        ],
+        "kesalahan_umum": [
+          {
+            "salah": "Menggunakan KAP 411122 untuk transaksi impor",
+            "benar": "Transaksi impor wajib menggunakan KAP 411123, bukan 411122 yang diperuntukkan bagi PPh 22 non-impor",
+            "tips": "Selalu cek jenis transaksi sebelum memilih KAP di kode billing Coretax"
+          },
+          {
+            "salah": "Menganggap sanksi tanpa NPWP hanya berupa denda administrasi tambahan",
+            "benar": "Sanksi tanpa NPWP untuk PPh 22 berbentuk kenaikan tarif 100% yang langsung terintegrasi dalam perhitungan, bukan denda terpisah",
+            "tips": "Segera daftar NPWP untuk menghindari tarif pajak yang lebih tinggi pada setiap transaksi"
+          }
+        ],
+        "istilah": [
+          {
+            "kata": "KAP",
+            "definisi": "Kode Akun Pajak, kode unik enam digit yang mengidentifikasi jenis pajak dalam kode billing pembayaran pajak.",
+            "contoh": "KAP 411123 digunakan untuk pembayaran PPh Pasal 22 Impor."
+          },
+          {
+            "kata": "Kode Billing",
+            "definisi": "Kode pembayaran elektronik yang diterbitkan sistem pajak untuk digunakan saat membayar pajak melalui bank atau kanal resmi lainnya.",
+            "contoh": "Wajib pajak membuat kode billing di Coretax sebelum membayar PPh 22 di bank."
+          },
+          {
+            "kata": "SPT Masa PPh Unifikasi",
+            "definisi": "Surat Pemberitahuan Masa yang menggabungkan pelaporan berbagai jenis pemotongan/pemungutan PPh (termasuk Pasal 22 dan 23) dalam satu formulir terintegrasi.",
+            "contoh": "Sejak Coretax aktif, pelaporan PPh 22 dilakukan lewat SPT Masa PPh Unifikasi."
+          }
+        ]
+      }
+    ],
+    "kuis_akhir": {
+      "judul": "Kuis Akhir: Uji Pemahaman PPh Pasal 22",
+      "nilai_lulus": 70,
+      "waktu_menit": 35,
+      "soal": [
+        {
+          "id": "q1",
+          "pertanyaan": "PPh Pasal 22 pada dasarnya merupakan...",
+          "tipe": "pilihan_ganda",
+          "pilihan": [
+            "A. Jenis pajak yang berdiri sendiri terpisah dari PPh",
+            "B. Cara pemungutan PPh yang dikenakan pada transaksi tertentu seperti impor dan pembelian pemerintah",
+            "C. Pajak khusus untuk transaksi properti saja",
+            "D. Pajak daerah yang dikelola pemerintah kota"
+          ],
+          "jawaban": "B",
+          "pembahasan": "PPh 22 adalah mekanisme pemungutan PPh yang dikenakan pada transaksi tertentu, bukan jenis pajak baru yang terpisah. Pilihan A, C, dan D salah karena menyempitkan atau salah mengartikan cakupan PPh 22."
+        },
+        {
+          "id": "q2",
+          "pertanyaan": "Aturan teknis PPh 22 atas impor dan penyerahan barang yang berlaku aktif di tahun 2026 adalah...",
+          "tipe": "pilihan_ganda",
+          "pilihan": [
+            "A. PMK 34/2017 tanpa perubahan",
+            "B. PMK 41/2022 saja",
+            "C. PMK 51/2025",
+            "D. PMK 92/2019"
+          ],
+          "jawaban": "C",
+          "pembahasan": "PMK 51/2025 adalah aturan teknis terbaru yang mengatur objek, tarif, dan DPP PPh 22 atas penyerahan barang, impor, dan kegiatan usaha lain per 2026. PMK 92/2019 khusus mengatur barang sangat mewah, bukan aturan umum."
+        },
+        {
+          "id": "q3",
+          "pertanyaan": "Barang impor tertentu di luar daftar khusus yang diimpor dengan menggunakan API dikenakan tarif PPh 22 sebesar...",
+          "tipe": "pilihan_ganda",
+          "pilihan": [
+            "A. 0,5%",
+            "B. 2,5%",
+            "C. 7,5%",
+            "D. 10%"
+          ],
+          "jawaban": "B",
+          "pembahasan": "Barang umum yang diimpor dengan API dikenakan tarif 2,5% dari nilai impor, lebih rendah dibanding tanpa API (7,5%) sebagai insentif kepemilikan API."
+        },
+        {
+          "id": "q4",
+          "pertanyaan": "Tarif PPh 22 atas pembelian barang oleh bendahara pemerintah dan BUMN adalah...",
+          "tipe": "pilihan_ganda",
+          "pilihan": [
+            "A. 0,25%",
+            "B. 1%",
+            "C. 1,5%",
+            "D. 2,5%"
+          ],
+          "jawaban": "C",
+          "pembahasan": "Baik bendahara pemerintah maupun BUMN mengenakan tarif 1,5% dari harga pembelian tidak termasuk PPN, meski sumber dananya berbeda."
+        },
+        {
+          "id": "q5",
+          "pertanyaan": "Industri manakah yang memiliki tarif PPh 22 terkecil di antara industri tertentu?",
+          "tipe": "pilihan_ganda",
+          "pilihan": [
+            "A. Semen",
+            "B. Kertas",
+            "C. Baja",
+            "D. Kendaraan bermotor"
+          ],
+          "jawaban": "B",
+          "pembahasan": "Industri kertas memiliki tarif terkecil 0,1%, dibandingkan semen 0,25%, baja 0,3%, dan kendaraan bermotor 0,45%."
+        },
+        {
+          "id": "q6",
+          "pertanyaan": "Penjualan BBM ke SPBU yang membeli langsung dari Pertamina bersifat...",
+          "tipe": "pilihan_ganda",
+          "pilihan": [
+            "A. Final dengan tarif 0,25%",
+            "B. Tidak final dengan tarif 0,3%",
+            "C. Final dengan tarif 1,5%",
+            "D. Tidak dikenakan PPh 22 sama sekali"
+          ],
+          "jawaban": "A",
+          "pembahasan": "Penjualan BBM ke SPBU yang membeli dari Pertamina dikenakan tarif 0,25% dan bersifat final, berbeda dengan penjualan ke pihak lain yang bersifat tidak final."
+        },
+        {
+          "id": "q7",
+          "pertanyaan": "Dalam kasus pembelian hasil pertanian dari pedagang pengumpul, yang berperan sebagai pemungut PPh 22 adalah...",
+          "tipe": "pilihan_ganda",
+          "pilihan": [
+            "A. Pedagang pengumpul itu sendiri",
+            "B. Badan usaha industri atau eksportir pembeli",
+            "C. Bank penyalur dana",
+            "D. Petani asal barang"
+          ],
+          "jawaban": "B",
+          "pembahasan": "Badan usaha industri atau eksportir yang membeli dari pedagang pengumpul yang berperan sebagai pemungut, bukan pedagang pengumpulnya sendiri."
+        },
+        {
+          "id": "q8",
+          "pertanyaan": "Berdasarkan PMK 92/2019, rumah beserta tanahnya dikenakan PPh 22 barang sangat mewah jika harga jualnya...",
+          "tipe": "pilihan_ganda",
+          "pilihan": [
+            "A. Lebih dari Rp5 miliar",
+            "B. Lebih dari Rp10 miliar",
+            "C. Lebih dari Rp30 miliar atau luas bangunan lebih dari 400m2",
+            "D. Lebih dari Rp50 miliar"
+          ],
+          "jawaban": "C",
+          "pembahasan": "Ambang batas yang berlaku aktif adalah harga jual lebih dari Rp30 miliar ATAU luas bangunan lebih dari 400m2, sesuai PMK 92/2019, bukan Rp5 atau Rp10 miliar seperti anggapan yang sudah usang."
+        },
+        {
+          "id": "q9",
+          "pertanyaan": "Pembelian barang oleh bendahara pemerintah senilai Rp1.500.000 dalam satu nota...",
+          "tipe": "pilihan_ganda",
+          "pilihan": [
+            "A. Tetap kena PPh 22 penuh",
+            "B. Dibebaskan dari PPh 22 karena di bawah Rp2 juta",
+            "C. Kena PPh 22 dengan tarif setengah",
+            "D. Harus dipecah menjadi beberapa nota"
+          ],
+          "jawaban": "B",
+          "pembahasan": "Transaksi Rp2.000.000 ke bawah (per dokumen tagihan, tidak dipecah-pecah) dibebaskan dari pemungutan PPh 22."
+        },
+        {
+          "id": "q10",
+          "pertanyaan": "PT Sinar Abadi mengimpor barang dengan CIF Rp1.000.000.000, bea masuk 5%, dan memiliki API. Barang tersebut bukan termasuk barang tertentu. Berapa PPh 22 yang terutang?",
+          "tipe": "pilihan_ganda",
+          "pilihan": [
+            "A. Rp25.000.000",
+            "B. Rp26.250.000",
+            "C. Rp78.750.000",
+            "D. Rp75.000.000"
+          ],
+          "jawaban": "B",
+          "pembahasan": "Nilai Impor = Rp1.000.000.000 + (5% x Rp1.000.000.000) = Rp1.050.000.000. Karena punya API, tarifnya 2,5%, sehingga PPh 22 = 2,5% x Rp1.050.000.000 = Rp26.250.000."
+        },
+        {
+          "id": "q11",
+          "pertanyaan": "PPh Pasal 22 tidak final berfungsi sebagai kredit pajak yang mengurangi PPh terutang di SPT Tahunan.",
+          "tipe": "benar_salah",
+          "pilihan": [
+            "Benar",
+            "Salah"
+          ],
+          "jawaban": "Benar",
+          "pembahasan": "Benar, PPh 22 yang tidak final berfungsi sebagai kredit pajak alias uang muka yang mengurangi PPh terutang di akhir tahun pajak."
+        },
+        {
+          "id": "q12",
+          "pertanyaan": "Semua jenis barang impor dikenakan tarif PPh 22 yang sama yaitu 2,5% atau 7,5% tergantung status API.",
+          "tipe": "benar_salah",
+          "pilihan": [
+            "Benar",
+            "Salah"
+          ],
+          "jawaban": "Salah",
+          "pembahasan": "Barang tertentu yang tercantum di Lampiran A, B, dan C PMK 51/2025 memiliki tarif khusus tersendiri (10%, 7,5%, atau 0,5%) yang tidak dipengaruhi status API."
+        },
+        {
+          "id": "q13",
+          "pertanyaan": "Tanpa NPWP, tarif PPh 22 yang dikenakan menjadi 100% lebih tinggi dari tarif normal.",
+          "tipe": "benar_salah",
+          "pilihan": [
+            "Benar",
+            "Salah"
+          ],
+          "jawaban": "Benar",
+          "pembahasan": "Benar, wajib pajak tanpa NPWP dikenakan tarif dua kali lipat (100% lebih tinggi) dibanding wajib pajak yang memiliki NPWP."
+        },
+        {
+          "id": "q14",
+          "pertanyaan": "KAP 411122 digunakan khusus untuk PPh Pasal 22 atas transaksi impor.",
+          "tipe": "benar_salah",
+          "pilihan": [
+            "Benar",
+            "Salah"
+          ],
+          "jawaban": "Salah",
+          "pembahasan": "KAP 411122 digunakan untuk PPh Pasal 22 non-impor, sedangkan KAP 411123 digunakan khusus untuk PPh Pasal 22 Impor."
+        },
+        {
+          "id": "q15",
+          "pertanyaan": "Sebutkan tarif PPh 22 untuk penjualan kendaraan bermotor roda empat pengangkut kurang dari 10 orang dengan harga di atas Rp2 miliar atau silinder di atas 3.000cc!",
+          "tipe": "isian_singkat",
+          "pilihan": null,
+          "jawaban": "5% dari harga jual",
+          "pembahasan": "Kendaraan bermotor roda empat mewah dengan kriteria tersebut dikenakan tarif 5% dari harga jual tidak termasuk PPN dan PPnBM, sesuai PMK 92/2019."
+        },
+        {
+          "id": "q16",
+          "pertanyaan": "Jelaskan mengapa PPh Pasal 22 disebut sebagai 'pajak yang dibayar di muka' dan apa konsekuensinya bagi wajib pajak yang dipungut!",
+          "tipe": "esai",
+          "pilihan": null,
+          "jawaban": "PPh 22 disebut pajak dibayar di muka karena dipungut oleh pihak ketiga (pemungut) pada saat transaksi terjadi, sebelum wajib pajak menghitung total penghasilan dan pajak terutangnya di akhir tahun. Konsekuensinya, bagi PPh 22 yang bersifat tidak final, jumlah yang sudah dipungut sepanjang tahun menjadi kredit pajak yang mengurangi PPh terutang di SPT Tahunan — jika kredit pajak lebih besar dari pajak terutang, wajib pajak berhak atas kelebihan bayar (restitusi); jika lebih kecil, wajib pajak harus melunasi kekurangannya. Bagi yang bersifat final, kewajiban pajak dianggap selesai begitu dipotong tanpa dihitung ulang.",
+          "pembahasan": "Jawaban dianggap benar jika mencakup konsep pemungutan di muka oleh pihak ketiga sebelum penghitungan pajak tahunan, serta konsekuensi berbeda antara sifat final (selesai) dan tidak final (jadi kredit pajak yang bisa kurang bayar atau lebih bayar)."
+        }
+      ]
+    },
+    "glosarium": [
+      {
+        "kata": "PPh Pasal 22",
+        "definisi": "Pajak penghasilan yang dipungut sehubungan dengan pembayaran atas penyerahan barang, kegiatan impor, kegiatan usaha di bidang lain, dan penjualan barang yang tergolong sangat mewah.",
+        "penjelasan_sederhana": "Pajak yang 'nempel' otomatis di transaksi tertentu kayak impor, jual ke pemerintah, atau jual barang mewah, dipotong duluan sebelum uangnya sampai ke kamu."
+      },
+      {
+        "kata": "Withholding Tax",
+        "definisi": "Sistem pemungutan pajak di mana pihak ketiga memotong pajak dari wajib pajak lain sebelum penghasilan diterima secara penuh.",
+        "penjelasan_sederhana": "Pajak yang dipotong duluan sama pihak lain sebelum uangnya nyampe ke tangan kamu, biar negara nggak nunggu lama buat dapet pemasukan."
+      },
+      {
+        "kata": "CIF",
+        "definisi": "Cost, Insurance, and Freight — nilai barang impor mencakup harga barang, biaya asuransi, dan biaya pengapalan dari negara asal ke Indonesia.",
+        "penjelasan_sederhana": "Total harga barang impor ditambah ongkos asuransi dan ongkos kirim internasional, belum termasuk pajak."
+      },
+      {
+        "kata": "Nilai Impor",
+        "definisi": "Dasar pengenaan pajak atas kegiatan impor, dihitung dari CIF ditambah bea masuk dan pungutan pabean sah lainnya.",
+        "penjelasan_sederhana": "Harga barang impor 'versi lengkap' setelah ditambah biaya-biaya resmi di pelabuhan, baru dikalikan tarif pajaknya."
+      },
+      {
+        "kata": "API",
+        "definisi": "Angka Pengenal Impor, tanda pengenal resmi sebagai importir yang wajib dimiliki untuk melakukan kegiatan impor.",
+        "penjelasan_sederhana": "Semacam 'KTP importir' yang bikin tarif pajak impor kamu jadi lebih murah dibanding yang nggak punya."
+      },
+      {
+        "kata": "Bea Masuk",
+        "definisi": "Pungutan negara atas barang yang dimasukkan ke daerah pabean Indonesia, dihitung dari persentase tertentu atas nilai CIF.",
+        "penjelasan_sederhana": "Pajak khusus buat barang yang masuk dari luar negeri, beda dari PPh 22 tapi ikut jadi komponen hitungannya."
+      },
+      {
+        "kata": "DJBC",
+        "definisi": "Direktorat Jenderal Bea dan Cukai, instansi yang mengawasi lalu lintas barang impor-ekspor sekaligus memungut PPh 22 atas impor.",
+        "penjelasan_sederhana": "Kantor 'penjaga gerbang' pelabuhan dan bandara yang mungut pajak barang impor."
+      },
+      {
+        "kata": "Bendahara Pemerintah",
+        "definisi": "Pejabat yang mengelola dan mencairkan dana APBN/APBD di suatu instansi pemerintah, sekaligus berperan sebagai pemungut pajak tertentu.",
+        "penjelasan_sederhana": "Orang di kantor pemerintah yang megang duit negara dan wajib motong pajak sebelum bayar ke supplier."
+      },
+      {
+        "kata": "BUMN",
+        "definisi": "Badan Usaha Milik Negara, perusahaan yang sebagian besar atau seluruh modalnya dimiliki oleh negara.",
+        "penjelasan_sederhana": "Perusahaan besar milik negara kayak Pertamina dan PLN, yang juga wajib mungut pajak pas beli barang."
+      },
+      {
+        "kata": "Distributor",
+        "definisi": "Pihak yang membeli barang dari produsen dalam jumlah besar untuk dijual kembali ke pengecer atau konsumen akhir.",
+        "penjelasan_sederhana": "Toko besar atau agen yang beli langsung dari pabrik, terus jual lagi ke toko-toko kecil."
+      },
+      {
+        "kata": "SPBU",
+        "definisi": "Stasiun Pengisian Bahan Bakar Umum, tempat penjualan eceran bahan bakar minyak kepada masyarakat.",
+        "penjelasan_sederhana": "Pom bensin tempat kamu isi BBM buat motor atau mobil."
+      },
+      {
+        "kata": "Pedagang Pengumpul",
+        "definisi": "Pihak yang mengumpulkan hasil produksi dari berbagai petani, peternak, atau nelayan kecil sebelum dijual ke industri atau eksportir.",
+        "penjelasan_sederhana": "Tengkulak yang ngumpulin hasil panen dari banyak petani kecil, terus dijual bareng ke pabrik besar."
+      },
+      {
+        "kata": "Barang Sangat Mewah",
+        "definisi": "Kategori barang tertentu yang dikenakan PPh 22 tambahan karena harga atau spesifikasinya jauh di atas kebutuhan standar masyarakat umum.",
+        "penjelasan_sederhana": "Barang-barang mewah kayak yacht, pesawat pribadi, atau rumah miliaran yang kena pajak ekstra pas dibeli."
+      },
+      {
+        "kata": "SKB",
+        "definisi": "Surat Keterangan Bebas, dokumen resmi dari DJP yang membebaskan wajib pajak tertentu dari pemungutan atau pemotongan pajak tertentu.",
+        "penjelasan_sederhana": "Surat sakti dari kantor pajak yang bikin kamu nggak perlu dipotong pajak tertentu buat sementara waktu."
+      },
+      {
+        "kata": "Kredit Pajak",
+        "definisi": "Jumlah pajak yang sudah dibayar atau dipungut di muka, yang boleh dikurangkan dari total pajak terutang dalam SPT Tahunan.",
+        "penjelasan_sederhana": "Kayak kupon potongan harga yang kamu kumpulin sepanjang tahun buat ngurangin tagihan pajak akhir tahun."
+      },
+      {
+        "kata": "PPh Pasal 29",
+        "definisi": "Pajak penghasilan yang masih harus dibayar wajib pajak karena PPh terutang lebih besar dari kredit pajak yang sudah dipungut sepanjang tahun.",
+        "penjelasan_sederhana": "Sisa kekurangan bayar pajak yang harus dilunasi kalau kupon potongan kamu nggak cukup buat nutup tagihan."
+      },
+      {
+        "kata": "PPh Pasal 28A",
+        "definisi": "Kelebihan pembayaran pajak yang terjadi ketika kredit pajak lebih besar dari PPh terutang, dan berhak direstitusi atau dikompensasikan.",
+        "penjelasan_sederhana": "Uang kembalian pajak kalau ternyata kupon potongan kamu kelebihan dari tagihan yang seharusnya dibayar."
+      },
+      {
+        "kata": "KAP",
+        "definisi": "Kode Akun Pajak, kode unik enam digit yang mengidentifikasi jenis pajak dalam kode billing pembayaran pajak.",
+        "penjelasan_sederhana": "Kode khusus yang harus dipilih pas bikin kode bayar pajak, biar uangnya masuk ke pos yang benar."
+      },
+      {
+        "kata": "e-Bupot Unifikasi",
+        "definisi": "Sistem elektronik bukti potong/pungut unifikasi yang mencatat berbagai jenis pemotongan/pemungutan pajak dalam satu platform terintegrasi di Coretax DJP.",
+        "penjelasan_sederhana": "Sistem online yang otomatis nyatet semua bukti potong pajak kamu jadi satu tempat, nggak perlu simpan kertas lagi."
+      },
+      {
+        "kata": "Coretax DJP",
+        "definisi": "Core Tax Administration System, sistem administrasi perpajakan inti milik Direktorat Jenderal Pajak yang mengintegrasikan seluruh layanan perpajakan secara digital.",
+        "penjelasan_sederhana": "Aplikasi pajak canggih dari DJP yang jadi 'markas besar' semua urusan pajak kamu secara online, aktif penuh sejak 2026."
+      }
+    ]
+  }
+}
